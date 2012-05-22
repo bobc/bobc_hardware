@@ -1,0 +1,7 @@
+﻿"Symbol";"Value";"Unit";
+"DESIGN";"Switch,Tact,SPST-NO,projected act,260gf";"";
+"REFERENCE";"B3F-4055";"";
+"RS_STOCK_NUMBER";"6866777";"";
+"SUPPLIER";"Omron";"";
+"REVISION";"A";"";
+"TIMESTAMP";"29/7/2011 16:03:01";"";

@@ -1,0 +1,38 @@
+PCBNEW-LibDoc----V1  06/02/2012 20:33:23
+#
+$MODULE JACK_PWR
+Li JACK_PWR
+Cd module 1 pin (ou trou mecanique de percage)
+Kw CONN JACK
+$EndMODULE
+#
+$MODULE 1Pin_2mm
+Li 1Pin_2mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE SW_6x6_MULTI
+Li SW_6x6_MULTI
+Cd 6x6mm tactile switch SMT/TH footprint
+Kw switch
+$EndMODULE
+#
+$MODULE 2Pin_2mm
+Li 2Pin_2mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE SOT323-6
+Li SOT323-6
+Kw SMD SOT
+$EndMODULE
+#
+$MODULE CONN_MiniAB_SMT_RMC
+Li CONN_MiniAB_SMT_RMC
+Cd USB SERIES MINI-B SURFACE MOUNTED
+Kw USB SERIES MINI-B SURFACE MOUNTED
+$EndMODULE
+#
+$EndLIBDOC

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: 20/05/2012 10:27:07
+#
+$CMP AT91SAM7S321
+D Atmel AT91SAM7S321
+K AT91
+$ENDCMP
+#
+$CMP DB25_RMC
+D DB25
+K DB25
+$ENDCMP
+#
+$CMP USBUFXXW6
+D USB EMI Filter and termination
+K USB
+$ENDCMP
+#
+#End Doc Library

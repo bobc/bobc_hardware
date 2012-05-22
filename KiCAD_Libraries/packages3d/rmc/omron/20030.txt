@@ -1,0 +1,7 @@
+﻿"Symbol";"Value";"Unit";
+"DESIGN";"Switch, Tact,SMT,flat act,230gf";"";
+"REFERENCE";"B3S-1002P";"";
+"RS_STOCK_NUMBER";"6866761";"";
+"SUPPLIER";"Omron";"";
+"REVISION";"A";"";
+"TIMESTAMP";"29/7/2011 16:03:01";"";

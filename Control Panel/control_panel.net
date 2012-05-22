@@ -1,0 +1,283 @@
+# EESchema Netlist Version 1.1 created  20/05/2012 13:41:24
+(
+ ( /4FB8B9BC LED-5MM D1 LED
+  ( 1 VCC )
+  ( 2 N-000030 )
+ )
+ ( /4FB8B9BF LED-5MM D2 LED
+  ( 1 /LED1 )
+  ( 2 N-000029 )
+ )
+ ( /4FB8B9C3 LED-5MM D3 LED
+  ( 1 /LED2 )
+  ( 2 N-000027 )
+ )
+ ( /4FB8B9C5 LED-5MM D4 LED
+  ( 1 /LED3 )
+  ( 2 N-000025 )
+ )
+ ( /4FB8B8F8 SIL-16_RMC J1 SIL16
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 /LCD_CONTRAST )
+  ( 4 /LCD_RS )
+  ( 5 GND )
+  ( 6 /LCD_ENABLE )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /LCD_D4 )
+  ( 12 /LCD_D5 )
+  ( 13 /LCD_D6 )
+  ( 14 /LCD_D7 )
+  ( 15 ? )
+  ( 16 ? )
+ )
+ ( /4FB8B788 pin_header_10x2_2.54mm P1 CONN_10X2
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /LCD_RS )
+  ( 4 /LCD_ENABLE )
+  ( 5 /B_OK )
+  ( 6 /B_CANCEL )
+  ( 7 /LED1 )
+  ( 8 /LCD_D4 )
+  ( 9 /LCD_D5 )
+  ( 10 /LCD_D6 )
+  ( 11 /LCD_D7 )
+  ( 12 /B_X+ )
+  ( 13 /B_X- )
+  ( 14 /B_Y+ )
+  ( 15 /B_Y- )
+  ( 16 /B_Z+ )
+  ( 17 /B_Z- )
+  ( 18 /B_ZERO )
+  ( 19 /LED2 )
+  ( 20 /LED3 )
+ )
+ ( /4FB8BD6A R3 R1 10k
+  ( 1 /B_X- )
+  ( 2 VCC )
+ )
+ ( /4FB8BE16 R3 R2 10k
+  ( 1 /B_Y- )
+  ( 2 VCC )
+ )
+ ( /4FB8BE19 R3 R3 10k
+  ( 1 /B_ZERO )
+  ( 2 VCC )
+ )
+ ( /4FB8BE20 R3 R4 10k
+  ( 1 /B_X+ )
+  ( 2 VCC )
+ )
+ ( /4FB8BE22 R3 R5 10k
+  ( 1 /B_Y+ )
+  ( 2 VCC )
+ )
+ ( /4FB8BB25 R3 R6 1k
+  ( 1 N-000030 )
+  ( 2 GND )
+ )
+ ( /4FB8BF00 R3 R7 10k
+  ( 1 /B_Z+ )
+  ( 2 VCC )
+ )
+ ( /4FB8BB7F R3 R8 1k
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /4FB8BEFF R3 R9 10k
+  ( 1 /B_CANCEL )
+  ( 2 VCC )
+ )
+ ( /4FB8BB83 R3 R10 1k
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /4FB8BEFE R3 R11 10k
+  ( 1 /B_Z- )
+  ( 2 VCC )
+ )
+ ( /4FB8BB85 R3 R12 1k
+  ( 1 N-000025 )
+  ( 2 GND )
+ )
+ ( /4FB8BEFD R3 R13 10k
+  ( 1 /B_OK )
+  ( 2 VCC )
+ )
+ ( /4FB8BA87 $noname$ RV1 POT
+  ( 1 VCC )
+  ( 2 /LCD_CONTRAST )
+  ( 3 GND )
+ )
+ ( /4FB8B960 SW_PUSH-12mm_RMC SW1 SW_PUSH
+  ( 1 /B_X- )
+  ( 2 GND )
+ )
+ ( /4FB8B965 SW_PUSH-12mm_RMC SW2 SW_PUSH
+  ( 1 /B_Y- )
+  ( 2 GND )
+ )
+ ( /4FB8B91C SW_PUSH-12mm_RMC SW3 SW_PUSH
+  ( 1 /B_ZERO )
+  ( 2 GND )
+ )
+ ( /4FB8B963 SW_PUSH-12mm_RMC SW4 SW_PUSH
+  ( 1 /B_X+ )
+  ( 2 GND )
+ )
+ ( /4FB8B979 SW_PUSH-12mm_RMC SW5 SW_PUSH
+  ( 1 /B_Y+ )
+  ( 2 GND )
+ )
+ ( /4FB8BF02 SW_PUSH-12mm_RMC SW6 SW_PUSH
+  ( 1 /B_Z+ )
+  ( 2 GND )
+ )
+ ( /4FB8BF04 SW_PUSH-12mm_RMC SW7 SW_PUSH
+  ( 1 /B_CANCEL )
+  ( 2 GND )
+ )
+ ( /4FB8BF03 SW_PUSH-12mm_RMC SW8 SW_PUSH
+  ( 1 /B_Z- )
+  ( 2 GND )
+ )
+ ( /4FB8BF01 SW_PUSH-12mm_RMC SW9 SW_PUSH
+  ( 1 /B_OK )
+  ( 2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,35 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 22/05/2012 21:19:51
+
+#Cmp ( order = Value )
+| 10k          R1        
+| 10k          R2        
+| 10k          R3        
+| 10k          R4        
+| 10k          R5        
+| 10k          R7        
+| 10k          R9        
+| 10k          R11       
+| 10k          R13       
+| 1k           R6        
+| 1k           R8        
+| 1k           R10       
+| 1k           R12       
+| CONN_10X2    P1        
+| LED          D1        
+| LED          D2        
+| LED          D3        
+| LED          D4        
+| POT          RV1       
+| SIL16        J1        
+| SW_PUSH      SW1       
+| SW_PUSH      SW2       
+| SW_PUSH      SW3       
+| SW_PUSH      SW4       
+| SW_PUSH      SW5       
+| SW_PUSH      SW6       
+| SW_PUSH      SW7       
+| SW_PUSH      SW8       
+| SW_PUSH      SW9       
+#End Cmp
+
+#End List

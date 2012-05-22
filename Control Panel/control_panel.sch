@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/05/2012 17:56:08
+EESchema Schematic File Version 2  date 22/05/2012 21:21:07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:RMC
-EELAYER 43  0
+LIBS:control_panel-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "20 may 2012"
+Date "22 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -534,7 +535,7 @@ L POT RV1
 U 1 1 4FB8BA87
 P 3800 1500
 F 0 "RV1" H 3800 1400 50  0000 C CNN
-F 1 "POT" H 3800 1500 50  0000 C CNN
+F 1 "10k lin" H 3800 1500 50  0000 C CNN
 	1    3800 1500
 	0    1    1    0   
 $EndComp

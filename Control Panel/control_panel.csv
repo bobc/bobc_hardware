@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R13,R11,R1,R2,R3,R4,R5,R7,R9";"R3";9;"10k";;;
+2;"R12,R10,R6,R8";"R3";4;"1k";;;
+3;"D1,D4,D3,D2";"LED-5MM";4;"LED";;;
+4;"HOLE_M32,HOLE_M31,HOLE_M33,HOLE_M34";"HOLE_M3";4;"P***";;;
+5;"G1";"OSHW_logo_2";1;"LOGO";;;
+6;"J1";"SIL-16_RMC";1;"SIL16";;;
+7;"SW5,SW7,SW3,SW4,SW1,SW6,SW9,SW8,SW2";"SW_PUSH-12mm_RMC";9;"SW_PUSH";;;
+8;"P1";"pin_header_10x2_2.54mm";1;"CONN_10X2";;;

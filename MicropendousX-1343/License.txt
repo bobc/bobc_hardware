@@ -1,0 +1,42 @@
+
+Summary:
+--------
+Creative Commons - Attribution 3.0 Unported (CC BY 3.0) 
+
+You are free:
+
+    to Share — to copy, distribute and transmit the work
+    to Remix — to adapt the work
+    to make commercial use of the work
+
+Under the following conditions:
+
+    Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). 
+
+
+Authors:
+--------
+
+bobcousins42@googlemail.com	attribution in accompanying documents, license file, or other description
+
+matt@opendous.org		attribution "Original Design by opendous.org" on silkscreen
+
+
+----------------- original license text ---------------------------------------
+
+  The license for all MicropendousX design files is the Creative Commons
+  Attribution License with the following added disclaimer:
+    The author(s) disclaim all warranties with regard to this
+    design, including all implied warranties of merchantability
+    and fitness for any purpose.  In no event shall the author
+    be liable for any special, indirect or consequential damages
+    or any damages whatsoever resulting from loss of use, data or
+    profits, whether in an action of contract, negligence or other
+    tortious action, arising out of or in connection with the use or
+    performance of this hardware design and any associated software.
+
+Visit creativecommons.org/licenses/by/3.0/ for license information
+
+Visit www.MicropendousX.org for more information on this design
+
+------------------------------------------------------------------------------

@@ -1,0 +1,1011 @@
+EESchema Schematic File Version 2  date 14/05/2012 23:08:49
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:opendous
+LIBS:MicropendousX-1343-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "MicropendousX-1343"
+Date "14 may 2012"
+Rev "2.0"
+Comp "Opendous Inc."
+Comment1 ""
+Comment2 "http://creativecommons.org/licenses/by/3.0/"
+Comment3 "Copyright Under the Creative Commons Attribution License"
+Comment4 "www.MicropendousX.org"
+$EndDescr
+Wire Wire Line
+	3400 1900 3400 2000
+Wire Wire Line
+	5150 5350 4800 5350
+Wire Wire Line
+	3850 5700 5150 5700
+Wire Wire Line
+	4950 5700 4950 5600
+Connection ~ 4950 5350
+Connection ~ 4950 5700
+Wire Wire Line
+	6300 5350 6000 5350
+Wire Wire Line
+	6000 5550 6300 5550
+Connection ~ 700  2350
+Connection ~ 1250 2350
+Wire Wire Line
+	1250 2600 1250 2100
+Wire Wire Line
+	1250 2100 1050 2100
+Wire Wire Line
+	3850 5350 3850 5250
+Wire Wire Line
+	6000 4750 6100 4750
+Wire Wire Line
+	2250 4100 3200 4100
+Wire Wire Line
+	1900 4000 4250 4000
+Connection ~ 6150 5350
+Wire Wire Line
+	6150 5350 6150 5250
+Connection ~ 2850 2500
+Wire Wire Line
+	2850 2550 2850 2500
+Wire Wire Line
+	3650 2500 2200 2500
+Wire Wire Line
+	3850 2500 4250 2500
+Wire Wire Line
+	4050 2650 4250 2650
+Wire Wire Line
+	4250 2750 3400 2750
+Wire Wire Line
+	3400 2750 3400 3050
+Wire Wire Line
+	3400 3050 1450 3050
+Connection ~ 3400 2000
+Connection ~ 3100 2100
+Wire Wire Line
+	4250 2100 2950 2100
+Wire Wire Line
+	2950 2100 2950 1050
+Wire Wire Line
+	2950 750  3250 750 
+Wire Wire Line
+	3250 750  3250 2000
+Wire Wire Line
+	3250 2000 4250 2000
+Wire Wire Line
+	9300 4150 9300 4050
+Wire Wire Line
+	9300 4050 9400 4050
+Wire Wire Line
+	10550 2250 10800 2250
+Wire Wire Line
+	10550 2150 10650 2150
+Connection ~ 3850 5350
+Wire Wire Line
+	3850 5700 3850 5550
+Wire Wire Line
+	4400 5750 4400 5650
+Wire Wire Line
+	3100 1800 3100 1750
+Wire Wire Line
+	2550 850  2550 750 
+Wire Wire Line
+	2550 750  2650 750 
+Wire Wire Line
+	2650 2100 2650 2050
+Wire Wire Line
+	2850 2750 3050 2750
+Wire Wire Line
+	2300 2800 2300 2700
+Wire Wire Line
+	2300 2700 2200 2700
+Wire Wire Line
+	6000 1300 6100 1300
+Connection ~ 800  4300
+Wire Wire Line
+	800  4300 900  4300
+Wire Wire Line
+	800  3800 800  3900
+Wire Wire Line
+	800  3900 900  3900
+Wire Wire Line
+	4150 850  4150 1550
+Wire Wire Line
+	4150 1550 4250 1550
+Wire Wire Line
+	3850 700  3850 650 
+Wire Wire Line
+	4150 650  3550 650 
+Connection ~ 3850 650 
+Wire Wire Line
+	4250 1650 3550 1650
+Wire Wire Line
+	3550 1650 3550 850 
+Connection ~ 4150 1000
+Connection ~ 3550 1000
+Wire Wire Line
+	900  4000 800  4000
+Wire Wire Line
+	800  4000 800  4400
+Wire Wire Line
+	800  4100 900  4100
+Connection ~ 800  4100
+Wire Wire Line
+	3400 1700 3400 1650
+Wire Wire Line
+	6050 1200 6050 1300
+Connection ~ 6050 1300
+Wire Wire Line
+	2300 2300 2300 2600
+Wire Wire Line
+	2300 2600 2200 2600
+Wire Wire Line
+	2200 2800 2200 2900
+Wire Wire Line
+	2950 2850 2950 2750
+Connection ~ 2950 2750
+Wire Wire Line
+	2650 2300 2650 2400
+Connection ~ 2650 2400
+Wire Wire Line
+	2650 1050 2550 1050
+Wire Wire Line
+	2550 1050 2550 1150
+Wire Wire Line
+	3100 2000 3100 2100
+Wire Wire Line
+	4800 5350 4800 5450
+Connection ~ 4400 5700
+Wire Wire Line
+	3700 5350 4000 5350
+Wire Wire Line
+	3300 5250 3300 5350
+Wire Wire Line
+	3300 5350 3400 5350
+Wire Wire Line
+	10550 2350 10950 2350
+Wire Wire Line
+	2650 1650 2650 1600
+Wire Wire Line
+	4250 2400 3850 2400
+Wire Wire Line
+	2200 2400 3650 2400
+Wire Wire Line
+	3050 2550 3050 2400
+Connection ~ 3050 2400
+Wire Wire Line
+	2350 1750 1450 1750
+Wire Wire Line
+	1450 1750 1450 3050
+Wire Wire Line
+	6150 5650 6150 5550
+Connection ~ 6150 5550
+Wire Wire Line
+	1900 3900 4250 3900
+Wire Wire Line
+	3200 4100 3200 3300
+Wire Wire Line
+	3200 3300 4250 3300
+Wire Wire Line
+	2050 4100 1900 4100
+Wire Wire Line
+	6050 4750 6050 4850
+Connection ~ 6050 4750
+Wire Wire Line
+	2250 7400 2250 7500
+Wire Wire Line
+	2500 7400 2500 7300
+Wire Wire Line
+	2000 7400 2000 7500
+Wire Wire Line
+	2750 7400 2750 7300
+Wire Wire Line
+	1250 2350 1050 2350
+Wire Wire Line
+	700  2350 850  2350
+Wire Wire Line
+	700  2600 700  2100
+Wire Wire Line
+	700  2100 850  2100
+Wire Wire Line
+	4950 5350 4950 5400
+Wire Wire Line
+	5150 5700 5150 5600
+Wire Wire Line
+	5150 5250 5150 5400
+Connection ~ 5150 5350
+Text Notes 6000 5800 0    60   ~ 0
+Decoupling for IC1
+Text Notes 8500 5600 0    60   ~ 0
+size -5cm
+Text Notes 8500 5400 0    60   ~ 0
+SD card?
+Text Notes 8500 5200 0    60   ~ 0
+switches- smt/th, 2 pin?
+$Comp
+L R_MINI R6
+U 1 1 4FAFB6F1
+P 950 2100
+F 0 "R6" H 880 2150 25  0000 C CNN
+F 1 "1M" H 1020 2150 20  0000 C CNN
+	1    950  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C10
+U 1 1 4FAFB6E2
+P 950 2350
+F 0 "C10" V 900 2390 30  0000 C CNN
+F 1 "4n7" V 1000 2420 25  0000 C CNN
+	1    950  2350
+	1    0    0    -1  
+$EndComp
+Text Label 9400 3750 2    30   ~ 0
+PIO2_3
+Text Label 7850 3400 0    30   ~ 0
+PIO2_3
+Text Label 10550 3650 0    30   ~ 0
+PIO3_3
+Text Label 7850 4550 0    30   ~ 0
+PIO3_3
+Text Label 9400 3650 2    30   ~ 0
+PIO3_1
+Text Label 7850 4350 0    30   ~ 0
+PIO3_1
+Text Label 7850 4250 0    40   ~ 0
+PIO3_0
+$Comp
+L LPC1343 IC1
+U 1 1 4F22CA01
+P 6050 3000
+F 0 "IC1" H 4550 1350 60  0000 C CNN
+F 1 "LPC1343" H 4650 4600 60  0000 C CNN
+	1    6050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIN #PWR01
+U 1 1 4C028AD9
+P 3850 5250
+F 0 "#PWR01" H 3850 5350 30  0001 C CNN
+F 1 "VIN" H 3850 5350 30  0000 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4BD5CE54
+P 2750 7400
+F 0 "#FLG02" H 2750 7670 30  0001 C CNN
+F 1 "PWR_FLAG" H 2750 7630 30  0000 C CNN
+	1    2750 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 4BD5CE4D
+P 2000 7400
+F 0 "#FLG03" H 2000 7670 30  0001 C CNN
+F 1 "PWR_FLAG" H 2000 7630 30  0000 C CNN
+	1    2000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR04
+U 1 1 4BD5CE47
+P 2000 7500
+F 0 "#PWR04" H 2000 7550 40  0001 C CNN
+F 1 "GNDPWR" H 2000 7440 25  0000 C CNN
+	1    2000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1117 U4
+U 1 1 4BD5CE21
+P 4400 5400
+F 0 "U4" H 4550 5204 50  0000 C CNN
+F 1 "1117" H 4400 5550 40  0000 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 4BD5CDA3
+P 2500 7400
+F 0 "#FLG05" H 2500 7670 30  0001 C CNN
+F 1 "PWR_FLAG" H 2500 7630 30  0000 C CNN
+	1    2500 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 4BD5CD92
+P 2250 7400
+F 0 "#FLG06" H 2250 7670 30  0001 C CNN
+F 1 "PWR_FLAG" H 2250 7630 30  0000 C CNN
+	1    2250 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR07
+U 1 1 4BD5CD8B
+P 2750 7300
+F 0 "#PWR07" H 2750 7400 30  0001 C CNN
+F 1 "VBUS" V 2750 7440 30  0000 C CNN
+	1    2750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4BD5CD85
+P 2250 7500
+F 0 "#PWR08" H 2250 7500 30  0001 C CNN
+F 1 "GND" H 2250 7430 30  0001 C CNN
+	1    2250 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_CORTEX_DEBUG U3
+U 1 1 4B8CB8C3
+P 1400 4100
+F 0 "U3" H 1400 3800 50  0000 C CNN
+F 1 "SWD JTAG" H 1400 4400 35  0000 C CNN
+	1    1400 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 950  4500 0    40   ~ 0
+Cortex Debug Connector
+Text Notes 1850 3750 0    40   ~ 0
+LPC1343 is SWD-Debug Only
+Text Label 9400 3350 2    25   ~ 0
+PIO1_2-AD3-CT32B1_MAT1
+Text Label 9400 3250 2    25   ~ 0
+PIO1_1-AD2-CT32B1_MAT0
+Text Label 9400 3150 2    25   ~ 0
+PIO1_0-AD1-CT32B_CAP0
+Text Label 9400 3050 2    25   ~ 0
+PIO0_11-AD0-CT32B0_MAT3
+Text Label 1900 4100 0    25   ~ 0
+SWO
+Text Notes 2065 4160 0    20   ~ 0
+Optional
+NoConn ~ 1900 4200
+$Comp
+L R_MINI R7
+U 1 1 4B8D969C
+P 2150 4100
+F 0 "R7" H 2080 4150 25  0000 C CNN
+F 1 "0" H 2220 4150 20  0000 C CNN
+	1    2150 4100
+	1    0    0    -1  
+$EndComp
+Text Label 2250 4100 0    25   ~ 0
+PIO0_9-MOSI-CT16B_MAT1-SWO
+Text Label 1900 4000 0    25   ~ 0
+SWCLK-PIO0_10-SCK-CT16B0_MAT2
+Text Label 1900 3900 0    25   ~ 0
+SWDIO-PIO1_3-AD4-CT32B1_MAT2
+Text Label 4250 4000 2    25   ~ 0
+SWCLK-PIO0_10-SCK-CT16B0_MAT2
+Text Label 4250 3900 2    25   ~ 0
+SWDIO-PIO1_3-AD4-CT32B1_MAT2
+$Comp
+L C_MINI C9
+U 1 1 4B849616
+P 6300 5450
+F 0 "C9" V 6250 5490 30  0000 C CNN
+F 1 "10u" V 6350 5500 25  0000 C CNN
+	1    6300 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L MOSFET_P_OPENDOUS Q1
+U 1 1 4B849590
+P 2550 1850
+F 0 "Q1" H 2550 2040 30  0000 R CNN
+F 1 "PCH" H 2550 1670 30  0000 R CNN
+	1    2550 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 6200 0    40   ~ 0
+This allows the board to be used with the non-USB QFP48 LPC13?? and LPC11?? ICs
+Text Notes 2400 2125 0    30   ~ 0
+BSS84
+Text Notes 3385 5225 0    30   ~ 0
+MBR120VLSF
+Text Label 10550 3350 0    25   ~ 0
+nMSC
+Text Label 10550 3250 0    25   ~ 0
+nRESET
+$Comp
+L CONN_20 P2
+U 1 1 4B1B805A
+P 10200 3100
+F 0 "P2" V 10150 3100 60  0000 C CNN
+F 1 "Top" V 10250 3100 60  0000 C CNN
+	1    10200 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_20 P1
+U 1 1 4B1B8056
+P 9750 3100
+F 0 "P1" V 9700 3100 60  0000 C CNN
+F 1 "Bottom" V 9800 3100 60  0000 C CNN
+	1    9750 3100
+	1    0    0    -1  
+$EndComp
+Text Label 9400 2250 2    25   ~ 0
+PIO0_7-nCTS
+Text Label 9400 2350 2    25   ~ 0
+PIO2_9
+Text Notes 2750 2225 0    30   ~ 0
+1%
+$Comp
+L GNDPWR #PWR09
+U 1 1 4B186BC5
+P 700 2600
+F 0 "#PWR09" H 700 2650 40  0001 C CNN
+F 1 "GNDPWR" H 700 2540 25  0000 C CNN
+	1    700  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4B186BC4
+P 1250 2600
+F 0 "#PWR010" H 1250 2600 30  0001 C CNN
+F 1 "GND" H 1250 2530 30  0001 C CNN
+	1    1250 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 6100 0    40   ~ 0
+disconnected and board must be powered externally through VIN
+Text Notes 3000 6000 0    40   ~ 0
+Note: To enter UART Bootloader via MSC button, VBUS must be
+$Comp
+L GND #PWR011
+U 1 1 4B186328
+P 9300 4150
+F 0 "#PWR011" H 9300 4150 30  0001 C CNN
+F 1 "GND" H 9300 4080 30  0001 C CNN
+	1    9300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIN #PWR012
+U 1 1 4B18630D
+P 10800 2250
+F 0 "#PWR012" H 10800 2350 30  0001 C CNN
+F 1 "VIN" H 10800 2350 30  0000 C CNN
+	1    10800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR013
+U 1 1 4B18630C
+P 10950 2350
+F 0 "#PWR013" H 10950 2450 30  0001 C CNN
+F 1 "VBUS" H 10950 2450 30  0000 C CNN
+	1    10950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR014
+U 1 1 4B18630B
+P 10650 2150
+F 0 "#PWR014" H 10650 2250 30  0001 C CNN
+F 1 "VDD" H 10650 2260 30  0000 C CNN
+	1    10650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_SCHOTTKY D1
+U 1 1 4B186266
+P 3550 5350
+F 0 "D1" H 3550 5250 35  0000 C CNN
+F 1 "MBR" H 3550 5450 30  0000 C CNN
+	1    3550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIN #PWR015
+U 1 1 4B186218
+P 2500 7300
+F 0 "#PWR015" H 2500 7400 30  0001 C CNN
+F 1 "VIN" H 2500 7400 30  0000 C CNN
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 4B1861DA
+P 4400 5750
+F 0 "#PWR016" H 4400 5750 30  0001 C CNN
+F 1 "GND" H 4400 5680 30  0001 C CNN
+	1    4400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR017
+U 1 1 4B1861CC
+P 3300 5250
+F 0 "#PWR017" H 3300 5350 30  0001 C CNN
+F 1 "VBUS" H 3300 5350 30  0000 C CNN
+	1    3300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR018
+U 1 1 4B1861C4
+P 5150 5250
+F 0 "#PWR018" H 5150 5350 30  0001 C CNN
+F 1 "VDD" H 5150 5360 30  0000 C CNN
+	1    5150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C4
+U 1 1 4B1861B2
+P 4950 5500
+F 0 "C4" V 4900 5540 30  0000 C CNN
+F 1 "10u" V 5000 5560 25  0000 C CNN
+	1    4950 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C3
+U 1 1 4B18616F
+P 3850 5450
+F 0 "C3" V 3800 5490 30  0000 C CNN
+F 1 "10u" V 3900 5510 25  0000 C CNN
+	1    3850 5450
+	0    1    1    0   
+$EndComp
+Text Label 9400 2950 2    25   ~ 0
+PIO2_11-SCK
+Text Label 9400 2750 2    25   ~ 0
+PIO0_9-MOSI-CT16B_MAT1-SWO
+Text Label 9400 2650 2    25   ~ 0
+PIO0_8-MISO-CT16B0_MAT0
+Text Label 9400 3550 2    25   ~ 0
+PIO0_2-SSEL-CT16B0_CAP0
+Text Label 4250 2100 2    25   ~ 0
+nMSC
+$Comp
+L VDD #PWR019
+U 1 1 4B1860AC
+P 3100 1750
+F 0 "#PWR019" H 3100 1850 30  0001 C CNN
+F 1 "VDD" H 3100 1860 30  0000 C CNN
+	1    3100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R4
+U 1 1 4B1860AB
+P 3100 1900
+F 0 "R4" V 3075 1950 25  0000 C CNN
+F 1 "12k" V 3125 1950 20  0000 C CNN
+	1    3100 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 4B18604D
+P 2550 1150
+F 0 "#PWR020" H 2550 1150 30  0001 C CNN
+F 1 "GND" H 2550 1080 30  0001 C CNN
+	1    2550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSHBUTTON SW2
+U 1 1 4B18604C
+P 2800 1050
+F 0 "SW2" H 2800 1000 30  0000 C CNN
+F 1 "MSC" H 2800 1125 25  0000 C CNN
+	1    2800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 4B186045
+P 2550 850
+F 0 "#PWR021" H 2550 850 30  0001 C CNN
+F 1 "GND" H 2550 780 30  0001 C CNN
+	1    2550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSHBUTTON SW1
+U 1 1 4B186034
+P 2800 750
+F 0 "SW1" H 2800 700 30  0000 C CNN
+F 1 "RESET" H 2800 825 25  0000 C CNN
+	1    2800 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR022
+U 1 1 4B185DF6
+P 2650 1600
+F 0 "#PWR022" H 2650 1700 30  0001 C CNN
+F 1 "VDD" H 2650 1710 30  0000 C CNN
+	1    2650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R3
+U 1 1 4B185DF5
+P 2650 2200
+F 0 "R3" V 2625 2250 25  0000 C CNN
+F 1 "1k5" V 2675 2250 20  0000 C CNN
+	1    2650 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L VBUS #PWR023
+U 1 1 4B185D36
+P 4050 2650
+F 0 "#PWR023" H 4050 2750 30  0001 C CNN
+F 1 "VBUS" H 4050 2750 30  0000 C CNN
+	1    4050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R2
+U 1 1 4B185D15
+P 3750 2500
+F 0 "R2" H 3680 2550 25  0000 C CNN
+F 1 "33" H 3820 2550 20  0000 C CNN
+	1    3750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR024
+U 1 1 4B185CF3
+P 2950 2850
+F 0 "#PWR024" H 2950 2900 40  0001 C CNN
+F 1 "GNDPWR" H 2950 2790 25  0000 C CNN
+	1    2950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESD_ZENER CR1
+U 1 1 4B185CEB
+P 3050 2650
+F 0 "CR1" H 3050 2710 30  0000 C CNN
+F 1 "ESD" H 3050 2600 20  0001 C CNN
+	1    3050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L ESD_ZENER CR2
+U 1 1 4B185CE2
+P 2850 2650
+F 0 "CR2" H 2850 2710 30  0000 C CNN
+F 1 "ESD" H 2850 2600 20  0001 C CNN
+	1    2850 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDPWR #PWR025
+U 1 1 4B185CC8
+P 2200 2900
+F 0 "#PWR025" H 2200 2950 40  0001 C CNN
+F 1 "GNDPWR" H 2200 2840 25  0000 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 4B185CB4
+P 2300 2800
+F 0 "#PWR026" H 2300 2800 30  0001 C CNN
+F 1 "GND" H 2300 2730 30  0001 C CNN
+	1    2300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR027
+U 1 1 4B185CA7
+P 2300 2300
+F 0 "#PWR027" H 2300 2400 30  0001 C CNN
+F 1 "VBUS" H 2300 2400 30  0000 C CNN
+	1    2300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR028
+U 1 1 4B185887
+P 6050 1200
+F 0 "#PWR028" H 6050 1300 30  0001 C CNN
+F 1 "VDD" H 6050 1310 30  0000 C CNN
+	1    6050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 4B18586B
+P 6050 4850
+F 0 "#PWR029" H 6050 4850 30  0001 C CNN
+F 1 "GND" H 6050 4780 30  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C7
+U 1 1 4B18585D
+P 6000 5450
+F 0 "C7" V 5950 5490 30  0000 C CNN
+F 1 "10n" V 6050 5500 25  0000 C CNN
+	1    6000 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C6
+U 1 1 4B18585A
+P 5150 5500
+F 0 "C6" V 5100 5540 30  0000 C CNN
+F 1 "0u1" V 5200 5550 25  0000 C CNN
+	1    5150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD #PWR030
+U 1 1 4B185850
+P 6150 5250
+F 0 "#PWR030" H 6150 5350 30  0001 C CNN
+F 1 "VDD" H 6150 5360 30  0000 C CNN
+	1    6150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 4B18584E
+P 6150 5650
+F 0 "#PWR031" H 6150 5650 30  0001 C CNN
+F 1 "GND" H 6150 5580 30  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 900  4200
+$Comp
+L GND #PWR032
+U 1 1 4B18581C
+P 800 4400
+F 0 "#PWR032" H 800 4400 30  0001 C CNN
+F 1 "GND" H 800 4330 30  0001 C CNN
+	1    800  4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR033
+U 1 1 4B185803
+P 800 3800
+F 0 "#PWR033" H 800 3900 30  0001 C CNN
+F 1 "VDD" H 800 3910 30  0000 C CNN
+	1    800  3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R1
+U 1 1 4B1857B3
+P 3750 2400
+F 0 "R1" H 3680 2450 25  0000 C CNN
+F 1 "33" H 3820 2450 20  0000 C CNN
+	1    3750 2400
+	1    0    0    -1  
+$EndComp
+Text Label 1900 4300 0    25   ~ 0
+nRESET
+Text Label 7850 4450 0    25   ~ 0
+PIO3_2
+Text Label 7850 4100 0    25   ~ 0
+PIO2_10
+Text Label 7850 4000 0    25   ~ 0
+PIO2_9
+Text Label 7850 3900 0    25   ~ 0
+PIO2_8
+Text Label 7850 3800 0    25   ~ 0
+PIO2_7
+Text Label 7850 3700 0    25   ~ 0
+PIO2_6
+Text Label 7850 3600 0    25   ~ 0
+PIO2_5
+Text Label 7850 3500 0    25   ~ 0
+PIO2_4
+Text Label 7850 3300 0    25   ~ 0
+PIO2_2-nDCD
+Text Label 7850 3200 0    25   ~ 0
+PIO2_1-nDSR
+Text Label 7850 3100 0    25   ~ 0
+PIO2_0-nDTR
+Text Label 7850 2950 0    25   ~ 0
+PIO1_11-AD7
+Text Label 7850 2850 0    25   ~ 0
+PIO1_10-AD6-CT16B1_MAT1
+Text Label 7850 2750 0    25   ~ 0
+PIO1_9-CT16B1_MAT0
+Text Label 7850 2650 0    25   ~ 0
+PIO1_8-CT16B1_CAP0
+Text Label 7850 2550 0    25   ~ 0
+PIO1_7-TXD-CT32B0_MAT1
+Text Label 7850 2450 0    25   ~ 0
+PIO1_6-RXD-CT32B0_MAT0
+Text Label 7850 2350 0    25   ~ 0
+PIO1_5-nRTS-CT32B0_CAP0
+Text Label 7850 1700 0    25   ~ 0
+PIO0_7-nCTS
+Text Label 4250 2750 2    25   ~ 0
+PIO0_6-nUSB_CONNECT-SCK
+Text Label 7850 1600 0    25   ~ 0
+PIO0_5-SDA
+Text Label 7850 1500 0    25   ~ 0
+PIO0_4-SCL
+$Comp
+L VDD #PWR034
+U 1 1 4B1853D3
+P 3400 1650
+F 0 "#PWR034" H 3400 1750 30  0001 C CNN
+F 1 "VDD" H 3400 1760 30  0000 C CNN
+	1    3400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R5
+U 1 1 4B1853BA
+P 3400 1800
+F 0 "R5" V 3375 1850 25  0000 C CNN
+F 1 "12k" V 3425 1850 20  0000 C CNN
+	1    3400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 4B1850FC
+P 3850 700
+F 0 "#PWR035" H 3850 700 30  0001 C CNN
+F 1 "GND" H 3850 630 30  0001 C CNN
+	1    3850 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 4B1850E8
+P 3850 1000
+F 0 "X1" H 3850 1150 60  0000 C CNN
+F 1 "12MHz" H 3850 850 60  0000 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C2
+U 1 1 4B184FF3
+P 4150 750
+F 0 "C2" V 4100 790 30  0000 C CNN
+F 1 "18p" V 4200 800 25  0000 C CNN
+	1    4150 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C1
+U 1 1 4B184FF0
+P 3550 750
+F 0 "C1" V 3500 790 30  0000 C CNN
+F 1 "18p" V 3600 800 25  0000 C CNN
+	1    3550 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L USBCONN U2
+U 1 1 4B184C52
+P 1950 2600
+F 0 "U2" H 2000 2300 60  0000 C CNN
+F 1 "USBCONN" H 2150 2900 40  0000 C CNN
+	1    1950 2600
+	-1   0    0    -1  
+$EndComp
+Text Label 10550 4050 0    25   ~ 0
+PIO3_2
+Text Label 9400 3450 2    25   ~ 0
+PIO3_0
+Text Label 9400 2450 2    25   ~ 0
+PIO2_10
+Text Label 10550 3050 0    25   ~ 0
+PIO2_8
+Text Label 10550 2950 0    25   ~ 0
+PIO2_7
+Text Label 10550 3550 0    25   ~ 0
+PIO2_6
+Text Label 9400 2150 2    25   ~ 0
+PIO2_5
+Text Label 10550 2850 0    25   ~ 0
+PIO2_4
+Text Label 9400 2550 2    25   ~ 0
+PIO2_2-nDCD
+Text Label 10550 2750 0    25   ~ 0
+PIO2_1-nDSR
+Text Label 10550 3450 0    25   ~ 0
+PIO2_0-nDTR
+Text Label 9400 3950 2    25   ~ 0
+PIO1_11-AD7
+Text Label 9400 2850 2    25   ~ 0
+PIO1_10-AD6-CT16B1_MAT1
+Text Label 10550 2450 0    25   ~ 0
+PIO1_9-CT16B1_MAT0
+Text Label 10550 3150 0    25   ~ 0
+PIO1_8-CT16B1_CAP0
+Text Label 10550 3750 0    25   ~ 0
+PIO1_7-TXD-CT32B0_MAT1
+Text Label 10550 3850 0    25   ~ 0
+PIO1_6-RXD-CT32B0_MAT0
+Text Label 10550 3950 0    25   ~ 0
+PIO1_5-nRTS-CT32B0_CAP0
+Text Label 9400 3850 2    25   ~ 0
+PIO1_4-AD5-CT32B1_MAT3-WAKEUP
+Text Label 10550 2550 0    25   ~ 0
+PIO0_5-SDA
+Text Label 10550 2650 0    25   ~ 0
+PIO0_4-SCL
+Text Label 4250 3400 2    25   ~ 0
+PIO2_11-SCK
+Text Label 4250 3300 2    25   ~ 0
+PIO0_9-MOSI-CT16B_MAT1-SWO
+Text Label 4250 3200 2    25   ~ 0
+PIO0_8-MISO-CT16B0_MAT0
+Text Label 4250 3100 2    25   ~ 0
+PIO0_2-SSEL-CT16B0_CAP0
+Text Label 2200 2500 0    25   ~ 0
+DM
+Text Label 2200 2400 0    25   ~ 0
+DP
+Text Label 4250 2000 2    25   ~ 0
+nRESET
+Text Label 3550 1000 0    25   ~ 0
+XTALOUT
+Text Label 4150 1000 2    25   ~ 0
+XTALIN
+Text Label 7850 2250 0    25   ~ 0
+PIO1_4-AD5-CT32B1_MAT3-WAKEUP
+Text Label 7850 2150 0    25   ~ 0
+PIO1_2-AD3-CT32B1_MAT1
+Text Label 7850 2050 0    25   ~ 0
+PIO1_1-AD2-CT32B1_MAT0
+Text Label 7850 1950 0    25   ~ 0
+PIO1_0-AD1-CT32B_CAP0
+Text Label 7850 1800 0    25   ~ 0
+PIO0_11-AD0-CT32B0_MAT3
+$EndSCHEMATC

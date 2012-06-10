@@ -1,0 +1,78 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints>
+  <BreakpointListItem line="139" action="" hardwareBreakpoint="" trigger="" useHWbreakpoint="false" group="Breakpoints" type="Breakpoint" state="2" counter="0" isFunctionBreakpoint="false" filename="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal/LiquidCrystal.c" expression="" />
+ </Breakpoints>
+ <ETMWindow>
+  <ETMRegister number="0" value="800" />
+  <ETMRegister number="8" value="6f" />
+  <ETMRegister number="9" value="1000000" />
+ </ETMWindow>
+ <ExecutionCountWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="0x50021000" numColumns="8" sizeText="32" dataSize="4" radix="16" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="control_panel" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel;drivers" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel;drivers;LCD" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel;drivers;R2C2" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel;Source Files" name="unnamed" />
+  <ProjectSessionItem path="control_panel;control_panel;System Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="GPIO0;GPIO1" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU;CoreDebug;GPIO2;GPIO0;GPIO1" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/main.c" y="4" path="/home/bob/Documents/CrossWorks Projects/control_panel/main.c" left="0" selected="1" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/projectconfig.h" y="3" path="/home/bob/Documents/CrossWorks Projects/control_panel/projectconfig.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/core/gpio/gpio.c" y="256" path="/home/bob/Documents/CrossWorks Projects/control_panel/core/gpio/gpio.c" left="0" selected="0" name="unnamed" top="231" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/micropendousx-1343.h" y="5" path="/home/bob/Documents/CrossWorks Projects/control_panel/micropendousx-1343.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/linkscript.ld" y="0" path="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/linkscript.ld" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/LPC1xxx_startup.c" y="40" path="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/LPC1xxx_startup.c" left="0" selected="0" name="unnamed" top="30" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/LPC13xx_handlers.c" y="74" path="/home/bob/Documents/CrossWorks Projects/control_panel/lpc1xxx/LPC13xx_handlers.c" left="0" selected="0" name="unnamed" top="59" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal/LiquidCrystal.c" y="138" path="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal/LiquidCrystal.c" left="0" selected="0" name="unnamed" top="92" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="38" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal/LiquidCrystal.h" y="85" path="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal/LiquidCrystal.h" left="0" selected="0" name="unnamed" top="78" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="12" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/core/gpio/gpio.h" y="100" path="/home/bob/Documents/CrossWorks Projects/control_panel/core/gpio/gpio.h" left="0" selected="0" name="unnamed" top="81" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="32" debugPath="libraries/R2C2/ios.h" y="56" path="libraries/R2C2/ios.h" left="0" selected="0" name="unnamed" top="36" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/libraries/R2C2/ios.c" y="6" path="/home/bob/Documents/CrossWorks Projects/control_panel/libraries/R2C2/ios.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/bob/Documents/CrossWorks Projects/control_panel/core/systick/systick.c" y="224" path="/home/bob/Documents/CrossWorks Projects/control_panel/core/systick/systick.c" left="0" selected="0" name="unnamed" top="206" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="control_panel" autoConnectTarget="USB CrossConnect for ARM" debugSearchFileMap="" fileDialogInitialDirectory="/home/bob/Documents/CrossWorks Projects/control_panel/arduino/drivers/LiquidCrystal" fileDialogDefaultFilter="*.c" autoConnectCapabilities="388991" debugSearchPath="" buildConfiguration="THUMB Flash Debug" />
+</session>

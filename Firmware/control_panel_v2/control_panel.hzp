@@ -1,0 +1,64 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="control_panel" target="8" version="2">
+  <project Name="control_panel">
+    <configuration Name="Common" Target="LPC1343" arm_architecture="v7M" arm_core_type="Cortex-M3" arm_gcc_target="arm-unknown-eabi" arm_interwork="No" arm_linker_heap_size="128" arm_linker_process_stack_size="0" arm_linker_stack_size="128" arm_simulator_memory_simulation_filename="$(TargetsDir)/LPC1000/LPC1000SimulatorMemory.dll" arm_simulator_memory_simulation_parameter="LPC13;0x8000;0x2000;0x0" arm_target_debug_interface_type="ADIv5" arm_target_interface_type="SWD" arm_target_loader_parameter="12000000" c_only_additional_options="-fms-extensions" c_preprocessor_definitions="USE_PROCESS_STACK" c_user_include_directories="$(TargetsDir)/LPC1000/include/CMSIS;$(TargetsDir)/CMSIS_3/CMSIS/Include;$(TargetsDir)/LPC1000/include" gcc_entry_point="boot_entry" link_include_startup_code="No" linker_additional_files="$(TargetsDir)/LPC1000/lib/liblpc1000$(LibExt)$(LIB)" linker_memory_map_file="$(TargetsDir)/LPC1000/LPC1343_MemoryMap.xml" oscillator_frequency="12MHz" project_directory="" project_type="Executable" property_groups_file_path="$(TargetsDir)/LPC1000/propertyGroups13xx.xml"/>
+    <configuration Name="Flash" Placement="Flash" arm_target_flash_loader_file_path="$(TargetsDir)/LPC1000/Release/Loader_lpc1300.elf" arm_target_flash_loader_type="LIBMEM RPC Loader" linker_patch_build_command="&quot;$(StudioDir)/bin/crossscript&quot; &quot;load(\&quot;$(TargetsDir)/LPC1000/LPC1000_LinkPatch.js\&quot;);patch(\&quot;$(TargetPath)\&quot;);&quot;" linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml" target_reset_script="FLASHReset()"/>
+    <configuration Name="RAM" Placement="RAM" linker_section_placement_file="$(StudioDir)/targets/Cortex_M/ram_placement.xml" target_reset_script="SRAMReset()"/>
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc"/>
+      <file file_name="main.c">
+        <configuration Name="Common" file_type="C"/>
+      </file>
+      <file file_name="micropendousx-1343.h"/>
+    </folder>
+    <folder Name="System Files">
+      <file file_name="$(TargetsDir)/LPC1000/LPC1300_Target.js">
+        <configuration Name="Common" file_type="Reset Script"/>
+      </file>
+      <file file_name="lpc1xxx/LPC13xx_handlers.c"/>
+      <file file_name="lpc1xxx/LPC1xxx_startup.c"/>
+      <file file_name="lpc1xxx/memory.ld">
+        <configuration Name="Common" file_type="Linker Script"/>
+      </file>
+    </folder>
+    <folder Name="CMSIS Files"/>
+    <folder Name="core">
+      <folder Name="cpu">
+        <file file_name="core/cpu/cpu.c"/>
+      </folder>
+      <folder Name="gpio">
+        <file file_name="core/gpio/gpio.c"/>
+      </folder>
+      <folder Name="systick">
+        <file file_name="core/systick/systick.c"/>
+      </folder>
+      <folder Name="pmu">
+        <file file_name="core/pmu/pmu.c"/>
+      </folder>
+      <folder Name="timer32">
+        <file file_name="core/timer32/timer32.c"/>
+      </folder>
+    </folder>
+    <folder Name="drivers">
+      <folder Name="LCD">
+        <file file_name="arduino/drivers/LiquidCrystal/LiquidCrystal.cpp">
+          <configuration Name="THUMB Flash Debug" build_exclude_from_build="Yes"/>
+        </file>
+        <file file_name="arduino/drivers/LiquidCrystal/LiquidCrystal.c"/>
+      </folder>
+      <folder Name="R2C2">
+        <file file_name="libraries/R2C2/ios.c"/>
+      </folder>
+    </folder>
+  </project>
+  <configuration Name="THUMB RAM Debug" inherited_configurations="THUMB;RAM;Debug"/>
+  <configuration Name="THUMB" Platform="ARM" arm_instruction_set="THUMB" arm_library_instruction_set="THUMB" c_preprocessor_definitions="__THUMB" hidden="Yes"/>
+  <configuration Name="RAM" c_preprocessor_definitions="__RAM_BUILD" hidden="Yes"/>
+  <configuration Name="Debug" c_preprocessor_definitions="DEBUG" gcc_debugging_level="Level 2" gcc_optimization_level="None" hidden="Yes"/>
+  <configuration Name="THUMB RAM Release" inherited_configurations="THUMB;RAM;Release"/>
+  <configuration Name="Release" c_preprocessor_definitions="NDEBUG" gcc_debugging_level="Level 1" gcc_optimization_level="Level 1" hidden="Yes"/>
+  <configuration Name="THUMB Flash Debug" inherited_configurations="THUMB;Flash;Debug"/>
+  <configuration Name="Flash" c_preprocessor_definitions="__FLASH_BUILD" hidden="Yes"/>
+  <configuration Name="THUMB Flash Release" inherited_configurations="THUMB;Flash;Release"/>
+  <configuration Name="Common" c_user_include_directories=".;core ;core/adc ;core/cmd ;core/cpu ;core/gpio ;core/i2c ;core/pmu ;core/ssp ;core/systick ;core/timer16 ;core/timer32 ;core/uart ;core/usbhid-rom ;core/wdt ;core/usbcdc ;core/pwm ;core/iap ;core/libc;libraries/R2C2;arduino/drivers/LiquidCrystal"/>
+</solution>

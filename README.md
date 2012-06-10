@@ -1,7 +1,4 @@
-#bobc_hardware
-
-Various hardware projects
-
+#Various hardware projects
 
 * RepRap Control Panel
 

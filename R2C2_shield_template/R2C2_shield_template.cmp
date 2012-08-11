@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 11/06/2012 23:47:09
+
+BeginCmp
+TimeStamp = /4FD668F6;
+Reference = J1;
+ValeurCmp = R2C2_CONNECTOR;
+IdModule  = R2C2_connector;
+EndCmp
+
+EndListe

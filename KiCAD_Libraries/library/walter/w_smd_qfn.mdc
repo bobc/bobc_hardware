@@ -1,0 +1,28 @@
+PCBNEW-LibDoc----V1  mer 17 ago 2011 18:50:29 CEST
+#
+$MODULE pqfp-10
+Li pqfp-10
+Cd Plastic QFP-Narrow, 10 pins
+$EndMODULE
+#
+$MODULE pvqfn-n16
+Li pvqfn-n16
+Cd Plastic QFP, TI PVQFN-N16
+$EndMODULE
+#
+$MODULE pvqfn-n14
+Li pvqfn-n14
+Cd Plastic QFP, TI PVQFN-N14
+$EndMODULE
+#
+$MODULE pvqfn-n20
+Li pvqfn-n20
+Cd Plastic QFP, TI PVQFN-N20
+$EndMODULE
+#
+$MODULE pvqfn-n24
+Li pvqfn-n24
+Cd Plastic QFP, TI PVQFN-N24
+$EndMODULE
+#
+$EndLIBDOC

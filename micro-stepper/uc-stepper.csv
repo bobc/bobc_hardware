@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R1,R4,R7";"SM0805";3;"4k7";;;
+2;"C1,C10,C9,C8,C7";"SM0805";5;"100nF";;;
+3;"R2,R3";"SM0805";2;"2k2";;;
+4;"P1";"SIL-8";1;"CONN_8";;;
+5;"P3";"SIL-6";1;"ICSP";;;
+6;"P4";"SIL-6";1;"CONN_6";;;
+7;"U4";"Multiwatt15";1;"L298";;;
+8;"P5,P6,P7,P2";"SIL-2";4;"CONN_2";;;
+9;"R8";"SM0402";1;"0R";;;
+10;"U1";"SO20L";1;"16F1507";;;
+11;"D1,D2,D3,D4,D5,D6,D7,D8";"SM0805";8;"DIODESCH";;;
+12;"JP1";"PIN_ARRAY_2X1";1;"JUMP_MINI";;;
+13;"R5,R6";"SM2512";2;"0R24";;;
+14;"R9";"SM0805";1;"1k";;;
+15;"D9";"sod123";1;"3V";;;

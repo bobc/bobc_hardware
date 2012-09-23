@@ -1,0 +1,468 @@
+EESchema Schematic File Version 2  date 23/09/2012 21:46:17
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RMC
+LIBS:uc-stepper-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "23 sep 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4000 5450 5100 5450
+Wire Wire Line
+	7500 2500 6500 2500
+Wire Wire Line
+	6650 1300 4950 1300
+Connection ~ 5750 4200
+Wire Wire Line
+	5750 4200 5750 4150
+Connection ~ 2200 6100
+Wire Wire Line
+	2200 6100 2200 6550
+Wire Wire Line
+	2200 6550 9000 6550
+Wire Wire Line
+	9000 6550 9000 5550
+Wire Wire Line
+	9000 5550 8650 5550
+Wire Wire Line
+	1050 6100 2800 6100
+Wire Wire Line
+	8650 5350 9350 5350
+Wire Wire Line
+	1050 5350 2800 5350
+Connection ~ 2350 3150
+Wire Wire Line
+	3000 3150 1050 3150
+Connection ~ 6150 4200
+Wire Wire Line
+	6150 5200 6150 4200
+Connection ~ 6600 5450
+Wire Wire Line
+	6600 5150 6600 5450
+Connection ~ 4750 5450
+Wire Wire Line
+	4750 5150 4750 5450
+Wire Wire Line
+	5350 4200 5350 5200
+Connection ~ 1650 5900
+Wire Wire Line
+	1650 5350 1650 6700
+Wire Wire Line
+	9700 1500 5750 1500
+Connection ~ 6250 1300
+Wire Wire Line
+	6650 1300 6650 1750
+Wire Wire Line
+	1650 3850 9400 3850
+Wire Wire Line
+	7500 3050 6750 3050
+Connection ~ 5450 1300
+Wire Wire Line
+	4950 1300 4950 1750
+Wire Wire Line
+	6250 1300 6250 2250
+Connection ~ 1650 2400
+Wire Wire Line
+	1050 2400 3000 2400
+Wire Wire Line
+	5750 1500 5750 2700
+Wire Wire Line
+	9700 4400 5650 4400
+Wire Wire Line
+	5650 4400 5650 5650
+Wire Wire Line
+	8700 2400 9400 2400
+Wire Wire Line
+	5450 2950 5450 3050
+Wire Wire Line
+	5450 3050 6250 3050
+Connection ~ 1650 2950
+Wire Wire Line
+	1650 3850 1650 2400
+Connection ~ 5650 5450
+Connection ~ 5750 2500
+Wire Wire Line
+	5650 5650 5600 5650
+Wire Wire Line
+	5600 5450 5650 5450
+Wire Wire Line
+	5750 2700 5700 2700
+Wire Wire Line
+	5700 2500 5750 2500
+Wire Wire Line
+	4950 2700 4950 3050
+Wire Wire Line
+	4950 2700 5200 2700
+Wire Wire Line
+	5100 5650 4850 5650
+Wire Wire Line
+	4850 5650 4850 6000
+Wire Wire Line
+	2800 5900 1650 5900
+Connection ~ 1650 5350
+Wire Wire Line
+	3000 2950 1650 2950
+Wire Wire Line
+	8700 2950 9400 2950
+Wire Wire Line
+	8650 5900 9350 5900
+Wire Wire Line
+	7450 6000 6650 6000
+Wire Wire Line
+	6650 6000 6650 5650
+Wire Wire Line
+	6650 5650 6400 5650
+Wire Wire Line
+	6500 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 3050
+Wire Wire Line
+	6150 5900 6150 6000
+Wire Wire Line
+	6000 2500 5950 2500
+Wire Wire Line
+	6000 2700 5950 2700
+Wire Wire Line
+	5900 5450 5850 5450
+Wire Wire Line
+	5900 5650 5850 5650
+Wire Wire Line
+	6250 3050 6250 2950
+Connection ~ 5950 2500
+Connection ~ 5850 5450
+Wire Wire Line
+	9400 2400 9400 3850
+Connection ~ 9400 2950
+Wire Wire Line
+	6150 6000 5350 6000
+Wire Wire Line
+	5350 5900 5350 6850
+Wire Wire Line
+	5350 6850 9700 6850
+Connection ~ 5350 6000
+Wire Wire Line
+	8700 3150 8800 3150
+Wire Wire Line
+	8650 6100 8800 6100
+Wire Wire Line
+	5850 5650 5850 4550
+Wire Wire Line
+	5850 4550 9700 4550
+Wire Wire Line
+	5950 2700 5950 1650
+Wire Wire Line
+	5450 1300 5450 2250
+Wire Wire Line
+	4950 3050 4200 3050
+Wire Wire Line
+	4950 2250 4950 2500
+Connection ~ 4950 2500
+Wire Wire Line
+	6650 2250 6650 2500
+Connection ~ 6650 2500
+Wire Wire Line
+	5950 1650 9700 1650
+Wire Wire Line
+	5850 3050 5850 3400
+Wire Wire Line
+	5850 3400 9700 3400
+Connection ~ 5850 3050
+Wire Wire Line
+	9350 5350 9350 6700
+Connection ~ 9350 5900
+Wire Wire Line
+	4850 6000 4000 6000
+Wire Wire Line
+	9350 6700 1650 6700
+Wire Wire Line
+	4750 4650 4750 4200
+Wire Wire Line
+	6600 4650 6600 4200
+Wire Wire Line
+	6600 4200 4750 4200
+Connection ~ 5350 4200
+Wire Wire Line
+	1050 2600 3000 2600
+Wire Wire Line
+	2650 2600 2650 3550
+Connection ~ 2650 2600
+Wire Wire Line
+	2650 3550 8800 3550
+Wire Wire Line
+	8800 3550 8800 3150
+Wire Wire Line
+	2350 3150 2350 3700
+Wire Wire Line
+	2350 3700 9100 3700
+Wire Wire Line
+	9100 3700 9100 2600
+Wire Wire Line
+	9100 2600 8700 2600
+Wire Wire Line
+	2800 5550 1050 5550
+Wire Wire Line
+	2550 5900 2550 6350
+Connection ~ 2550 5900
+Wire Wire Line
+	2550 6350 8800 6350
+Wire Wire Line
+	8800 6350 8800 6100
+Wire Wire Line
+	2150 4700 2150 4600
+Wire Wire Line
+	2150 4600 1800 4600
+Wire Wire Line
+	1800 4600 1800 4700
+Wire Wire Line
+	5800 1300 5800 1250
+Connection ~ 5800 1300
+Wire Wire Line
+	4200 2500 5200 2500
+Wire Wire Line
+	6400 5450 7450 5450
+$Comp
+L GND #PWR023
+U 1 1 505E41D4
+P 2150 4700
+F 0 "#PWR023" H 2150 4700 30  0001 C CNN
+F 1 "GND" H 2150 4630 30  0001 C CNN
+	1    2150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR024
+U 1 1 505E40D7
+P 1800 4700
+F 0 "#PWR024" H 1800 4700 30  0001 C CNN
+F 1 "VSS" H 1800 4630 30  0000 C CNN
+	1    1800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4011 U201
+U 3 1 505E3E28
+P 8050 5450
+F 0 "U201" H 8050 5500 60  0000 C CNN
+F 1 "4011" H 8050 5400 60  0000 C CNN
+	3    8050 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4011 U201
+U 1 1 505E3E1F
+P 3400 5450
+F 0 "U201" H 3400 5500 60  0000 C CNN
+F 1 "4011" H 3400 5400 60  0000 C CNN
+	1    3400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4011 U201
+U 4 1 505E24D8
+P 8100 2500
+F 0 "U201" H 8100 2550 60  0000 C CNN
+F 1 "4011" H 8100 2450 60  0000 C CNN
+	4    8100 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4011 U201
+U 2 1 505E23A8
+P 3600 2500
+F 0 "U201" H 3600 2550 60  0000 C CNN
+F 1 "4011" H 3600 2450 60  0000 C CNN
+	2    3600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR025
+U 1 1 505CFD2D
+P 5750 4150
+F 0 "#PWR025" H 5750 4250 30  0001 C CNN
+F 1 "VDD" H 5750 4260 30  0000 C CNN
+	1    5750 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 4550 2    60   Input ~ 0
+OUT_B2
+Text GLabel 9700 4400 2    60   Input ~ 0
+OUT_B1
+Text GLabel 9700 6850 2    60   Input ~ 0
+SENSE_B
+Text GLabel 1050 6100 0    60   Input ~ 0
+IN_B2
+Text GLabel 1050 5550 0    60   Input ~ 0
+IN_B1
+Text GLabel 1050 5350 0    60   Input ~ 0
+EN_B
+$Comp
+L VDD #PWR026
+U 1 1 505CFA8D
+P 5800 1250
+F 0 "#PWR026" H 5800 1350 30  0001 C CNN
+F 1 "VDD" H 5800 1360 30  0000 C CNN
+	1    5800 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 3150 0    60   Input ~ 0
+IN_A2
+Text GLabel 9700 3400 2    60   Input ~ 0
+SENSE_A
+Text GLabel 1050 2600 0    60   Input ~ 0
+IN_A1
+Text GLabel 1050 2400 0    60   Input ~ 0
+EN_A
+Text GLabel 9700 1650 2    60   Input ~ 0
+OUT_A2
+Text GLabel 9700 1500 2    60   Input ~ 0
+OUT_A1
+$Comp
+L MOSPAIR U203
+U 1 1 505CF859
+P 5350 5550
+F 0 "U203" H 5150 5900 60  0000 C CNN
+F 1 "MOSPAIR" H 5050 5250 60  0000 C CNN
+	1    5350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSPAIR U204
+U 1 1 505CF858
+P 5450 2600
+F 0 "U204" H 5250 2950 60  0000 C CNN
+F 1 "MOSPAIR" H 5150 2300 60  0000 C CNN
+	1    5450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4081 U202
+U 2 1 505CF856
+P 3600 3050
+F 0 "U202" H 3600 3100 60  0000 C CNN
+F 1 "4081" H 3600 3000 60  0000 C CNN
+	2    3600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4081 U202
+U 1 1 505CF855
+P 3400 6000
+F 0 "U202" H 3400 6050 60  0000 C CNN
+F 1 "4081" H 3400 5950 60  0000 C CNN
+	1    3400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 505CF852
+P 4950 2000
+F 0 "R204" V 5030 2000 50  0000 C CNN
+F 1 "10K" V 4950 2000 50  0000 C CNN
+	1    4950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R203
+U 1 1 505CF850
+P 4750 4900
+F 0 "R203" V 4830 4900 50  0000 C CNN
+F 1 "10K" V 4750 4900 50  0000 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R205
+U 1 1 505CF84F
+P 6600 4900
+F 0 "R205" V 6680 4900 50  0000 C CNN
+F 1 "10K" V 6600 4900 50  0000 C CNN
+	1    6600 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L R R206
+U 1 1 505CF84D
+P 6650 2000
+F 0 "R206" V 6730 2000 50  0000 C CNN
+F 1 "10K" V 6650 2000 50  0000 C CNN
+	1    6650 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L 4081 U202
+U 3 1 505CF84A
+P 8050 6000
+F 0 "U202" H 8050 6050 60  0000 C CNN
+F 1 "4081" H 8050 5950 60  0000 C CNN
+	3    8050 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4081 U202
+U 4 1 505CF849
+P 8100 3050
+F 0 "U202" H 8100 3100 60  0000 C CNN
+F 1 "4081" H 8100 3000 60  0000 C CNN
+	4    8100 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MOSPAIR U206
+U 1 1 505CF847
+P 6250 2600
+F 0 "U206" H 6050 2950 60  0000 C CNN
+F 1 "MOSPAIR" H 5950 2300 60  0000 C CNN
+	1    6250 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MOSPAIR U205
+U 1 1 505CF846
+P 6150 5550
+F 0 "U205" H 5950 5900 60  0000 C CNN
+F 1 "MOSPAIR" H 5850 5250 60  0000 C CNN
+	1    6150 5550
+	-1   0    0    -1  
+$EndComp
+Text Notes 1050 1000 0    60   ~ 0
+MOSPAIR = DMC2038 / DMG6602.\n74xxx05 or equiv, hex inverter, OD outputs.\n74xxx04 or equiv, hex inverter, standard OP.\n\nVdd = 12V\nLogic supply = 3V3.
+$EndSCHEMATC

@@ -50,10 +50,12 @@
       (place R4 2880 -3035 front 0 (PN 4k7))
       (place R7 3090 -3045 front 180 (PN 4k7))
       (place R9 3600 -3700 front 90 (PN 1k))
-      (place R203 3650 -2250 front 0 (PN 10K))
-      (place R204 2250 -2250 front 180 (PN 10K))
-      (place R205 3650 -2375 front 180 (PN 10K))
-      (place R206 2250 -2350 front 0 (PN 10K))
+      (place R203 3725 -2290 front 270 (PN 10K))
+      (place R204 2170 -2290 front 270 (PN 10K))
+      (place R205 3625 -2290 front 90 (PN 10K))
+      (place R206 2265 -2290 front 90 (PN 10K))
+      (place C201 2390 -2625 front 180 (PN 100nF))
+      (place C202 3900 -2770 front 270 (PN 100nF))
     )
     (component "SIL-8"
       (place P1 2925 -3900 front 0 (PN CONN_8))
@@ -316,7 +318,7 @@
   (network
     (net +12V
       (pins P2-1 D1-2 D3-2 D5-2 D7-2 U201-14 U202-14 R203-1 R204-1 R205-2 R206-2 U203-2
-        U204-2 U205-2 U206-2)
+        U204-2 U205-2 U206-2 C201-1 C202-1)
     )
     (net /CSENSE_A
       (pins R2-1 C7-1 P3-4 P4-5 U1-19)
@@ -355,10 +357,11 @@
       (pins P4-1 U1-5 R4-1 U201-5 U201-12 U202-5 U202-12)
     )
     (net EN_B
-      (pins P4-3 U1-7 R7-1 U201-1 U201-8 U202-1 U202-8 U202-9)
+      (pins P4-3 U1-7 R7-1 U201-1 U201-8 U202-1 U202-8)
     )
     (net GND
-      (pins C1-2 C8-2 C7-2 P3-3 P5-2 R8-1 U1-20 R4-2 R7-2 D9-1 U201-7 U202-7)
+      (pins C1-2 C8-2 C7-2 P3-3 P5-2 R8-1 U1-20 R4-2 R7-2 D9-1 U201-7 U202-7 C201-2
+        C202-2)
     )
     (net GNDPWR
       (pins P2-2 R8-2 R5-2 R6-2)
@@ -370,34 +373,34 @@
       (pins U1-13 U201-13 U202-6)
     )
     (net IN_B1
-      (pins P4-4 U1-15 U201-2)
+      (pins P4-4 U1-15 U201-2 U202-9)
     )
     (net IN_B2
       (pins U1-12 U201-9 U202-2)
     )
     (net "N-000032"
-      (pins U202-3 U203-1)
+      (pins U201-3 R203-2 U203-3)
     )
     (net "N-000033"
-      (pins U201-11 R206-1 U206-3)
+      (pins U201-10 R205-1 U205-3)
     )
     (net "N-000034"
       (pins U202-10 U205-1)
     )
     (net "N-000035"
-      (pins U202-11 U206-1)
-    )
-    (net "N-000036"
       (pins U202-4 U204-1)
     )
+    (net "N-000036"
+      (pins U202-3 U203-1)
+    )
     (net "N-000037"
-      (pins U201-10 R205-1 U205-3)
+      (pins U201-11 R206-1 U206-3)
     )
     (net "N-000038"
-      (pins U201-3 R203-2 U203-3)
+      (pins U201-4 R204-2 U204-3)
     )
     (net "N-000039"
-      (pins U201-4 R204-2 U204-3)
+      (pins U202-11 U206-1)
     )
     (net OUT_A1
       (pins P7-1 D1-1 D2-2 U204-6 U204-4)

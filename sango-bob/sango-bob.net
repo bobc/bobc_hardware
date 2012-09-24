@@ -1,0 +1,641 @@
+# EESchema Netlist Version 1.1 created  12/09/2012 20:25:54
+(
+ ( /5048EA8E/5048EAC6 SM0805 C1 20pF
+  ( 1 GND )
+  ( 2 N-000083 )
+ )
+ ( /5048EA8E/5048EAC7 SM0805 C2 20pF
+  ( 1 GND )
+  ( 2 N-000084 )
+ )
+ ( /5047CBF2/5047CC95 SM0805 C3 330nF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047CBF2/5047CC9A SM0805 C4 100nF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5047C921/5047CAD4 C1V5H C5 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047C921/5047CB30 C1V5H C6 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D3ED SM0805 C7 10uF
+  ( 1 THERM_1 )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D499 SM0805 C8 10uF
+  ( 1 THERM_2 )
+  ( 2 GND )
+ )
+ ( /5047CBF2/5047D0FA C2V10 C9 1000uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047C921/504A24C6 C1V5H C10 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047C921/504A261B C1V5H C11 100uF
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBC3 SM0805 C12 10uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBDF SM0805 C13 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBE9 SM0805 C14 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBEB SM0805 C15 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBED SM0805 C16 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CBBEE SM0805 C17 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5047CBF2/504D1B3E SM0805 C18 10uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5047CBF2/5047D121 LED-0805 D1 LED
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /5047C921/5047CA32 PIN_ARRAY_2X1 JP1 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000044 )
+ )
+ ( /5047C921/5047CA42 PIN_ARRAY_2X1 JP2 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000039 )
+ )
+ ( /5047C921/5047CA4B PIN_ARRAY_2X1 JP3 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000038 )
+ )
+ ( /5047C921/5047CB35 PIN_ARRAY_2X1 JP4 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000027 )
+ )
+ ( /5047C921/5047CB34 PIN_ARRAY_2X1 JP5 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000025 )
+ )
+ ( /5047C921/5047CB33 PIN_ARRAY_2X1 JP6 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000026 )
+ )
+ ( /5047C921/504A24C1 PIN_ARRAY_2X1 JP7 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000014 )
+ )
+ ( /5047C921/504A24C2 PIN_ARRAY_2X1 JP8 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000005 )
+ )
+ ( /5047C921/504A24C3 PIN_ARRAY_2X1 JP9 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000004 )
+ )
+ ( /5047C921/504A2620 PIN_ARRAY_2X1 JP10 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000016 )
+ )
+ ( /5047C921/504A261F PIN_ARRAY_2X1 JP11 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000024 )
+ )
+ ( /5047C921/504A261E PIN_ARRAY_2X1 JP12 JUMP_MINI
+  ( 1 VDD )
+  ( 2 N-000015 )
+ )
+ ( /5048EA8E/504CBC50 PIN_ARRAY_2X1 JP13 JUMP_MINI
+  ( 1 /Sango_CPU/BOOT0 )
+  ( 2 VDD )
+ )
+ ( /5047D206/5047D24E CONN_KK_2.54_3W K1 CONN_3
+  ( 1 X_STOP )
+  ( 2 N-000051 )
+  ( 3 GND )
+ )
+ ( /5047D206/5047D246 CONN_KK_2.54_3W K2 CONN_3
+  ( 1 Y_STOP )
+  ( 2 N-000051 )
+  ( 3 GND )
+ )
+ ( /5047D206/5047D23B CONN_KK_2.54_3W K3 CONN_3
+  ( 1 Z_STOP )
+  ( 2 N-000051 )
+  ( 3 GND )
+ )
+ ( /5047D206/5047D2DD PIN_ARRAY_3X1 K4 CONN_3
+  ( 1 VMOT )
+  ( 2 N-000051 )
+  ( 3 +5V )
+ )
+ ( /5047CBF2/5047CC1B PCB_SCREW_TERM_2 P1 CONN_2
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047C921/5047C9A1 PCB_SCREW_TERM_4 P2 MOT_X
+  ( 1 N-000042 )
+  ( 2 N-000043 )
+  ( 3 N-000036 )
+  ( 4 N-000035 )
+ )
+ ( /5047C921/5047CB37 PCB_SCREW_TERM_4 P3 MOT_Y
+  ( 1 N-000034 )
+  ( 2 N-000029 )
+  ( 3 N-000030 )
+  ( 4 N-000031 )
+ )
+ ( /5047D206/5047D3B9 CONN_KK_2.54_2W P4 CONN_2
+  ( 1 THERM_1 )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D49B CONN_KK_2.54_2W P5 CONN_2
+  ( 1 THERM_2 )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D5AF CONN_KK_2.54_4W P6 CONN_4
+  ( 1 VMOT )
+  ( 2 VMOT )
+  ( 3 N-000058 )
+  ( 4 N-000058 )
+ )
+ ( /5047D206/5047D620 CONN_KK_2.54_2W P7 CONN_2
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D629 CONN_KK_2.54_2W P8 CONN_2
+  ( 1 VMOT )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D4F6 CONN_KK_2.54_4W P10 CONN_4
+  ( 1 VMOT )
+  ( 2 VMOT )
+  ( 3 N-000057 )
+  ( 4 N-000057 )
+ )
+ ( /5047CBF2/5047D1A8 HOLE_M3 P11 1PIN_TH
+  ( 1 GND )
+ )
+ ( /5047CBF2/5047D1AC HOLE_M3 P12 1PIN_TH
+  ( 1 GND )
+ )
+ ( /5047CBF2/5047D1AD HOLE_M3 P13 1PIN_TH
+  ( 1 GND )
+ )
+ ( /5047CBF2/5047D1AF HOLE_M3 P14 1PIN_TH
+  ( 1 GND )
+ )
+ ( /5047C921/504A24BF PCB_SCREW_TERM_4 P15 MOT_Z
+  ( 1 N-000012 )
+  ( 2 N-000013 )
+  ( 3 N-000002 )
+  ( 4 N-000001 )
+ )
+ ( /5047C921/504A2622 PCB_SCREW_TERM_4 P16 MOT_E1
+  ( 1 N-000023 )
+  ( 2 N-000018 )
+  ( 3 N-000019 )
+  ( 4 N-000020 )
+ )
+ ( /5047D206/504A2769 PIN_ARRAY-6X1 P20 CONN_6
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 SERIAL_RX )
+  ( 5 SERIAL_TX )
+  ( 6 ? )
+ )
+ ( /5047D206/5047D5B0 TO-220AB_IRF2804_RMC Q1 MOSFET_N_RMC
+  ( D N-000058 )
+  ( G FET_2 )
+  ( S GND )
+ )
+ ( /5047D206/5047D4CE TO-220AB_IRF2804_RMC Q2 MOSFET_N_RMC
+  ( D N-000057 )
+  ( G FET_1 )
+  ( S GND )
+ )
+ ( /5047C921/5047CA6C SM0805 R1 100k
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /5047C921/5047CB32 SM0805 R2 100k
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D403 SM0805 R3 4k7
+  ( 1 +5V )
+  ( 2 THERM_1 )
+ )
+ ( /5047D206/5047D498 SM0805 R4 4k7
+  ( 1 +5V )
+  ( 2 THERM_2 )
+ )
+ ( /5047D206/5047D5AD SM0805 R5 10k
+  ( 1 FET_2 )
+  ( 2 GND )
+ )
+ ( /5047D206/5047D53B SM0805 R6 10k
+  ( 1 FET_1 )
+  ( 2 GND )
+ )
+ ( /5047CBF2/5047D118 SM0805 R7 1k
+  ( 1 +5V )
+  ( 2 N-000045 )
+ )
+ ( /5047C921/504A24C4 SM0805 R8 100k
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /5047C921/504A261D SM0805 R9 100k
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CB9A5 SM0805 R10 NF
+  ( 1 VDD )
+  ( 2 /Sango_CPU/nRESET )
+ )
+ ( /5048EA8E/504CB99C SM0805 R11 12k
+  ( 1 /Sango_CPU/BOOT0 )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CB9A2 SM0805 R12 10k
+  ( 1 VDD )
+  ( 2 /Sango_CPU/BOOT1 )
+ )
+ ( /5048EA8E/504CB99F SM0805 R13 510
+  ( 1 /Sango_CPU/BOOT1 )
+  ( 2 GND )
+ )
+ ( /5048EA8E/504CB9A6 SW_6x6_MULTI SW1 RST
+  ( 1 GND )
+  ( 2 /Sango_CPU/nRESET )
+ )
+ ( /5047CBF2/5047CC85 LM78XXV U1 7805
+  ( GND GND )
+  ( VI VMOT )
+  ( VO +5V )
+ )
+ ( /5047C921/5047C947 POLOLU U2 POLOLU-X
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 N-000042 )
+  ( 4 N-000043 )
+  ( 5 N-000036 )
+  ( 6 N-000035 )
+  ( 7 VDD )
+  ( 8 GND )
+  ( 9 DIR_X )
+  ( 10 STEP_X )
+  ( 11 N-000037 )
+  ( 12 N-000037 )
+  ( 13 N-000038 )
+  ( 14 N-000039 )
+  ( 15 N-000044 )
+  ( 16 STEP_EN )
+ )
+ ( /5047C921/5047CB3A POLOLU U3 POLOLU-Y
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 N-000034 )
+  ( 4 N-000029 )
+  ( 5 N-000030 )
+  ( 6 N-000031 )
+  ( 7 VDD )
+  ( 8 GND )
+  ( 9 DIR_Y )
+  ( 10 STEP_Y )
+  ( 11 N-000033 )
+  ( 12 N-000033 )
+  ( 13 N-000026 )
+  ( 14 N-000025 )
+  ( 15 N-000027 )
+  ( 16 STEP_EN )
+ )
+ ( /5047CBF2/5047CFB9 SOT223 U4 1117
+  ( 1 GND )
+  ( 2 VDD )
+  ( 3 +5V )
+  ( 4 VDD )
+ )
+ ( /5047C921/504A24BD POLOLU U5 POLOLU-Z
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 N-000012 )
+  ( 4 N-000013 )
+  ( 5 N-000002 )
+  ( 6 N-000001 )
+  ( 7 VDD )
+  ( 8 GND )
+  ( 9 DIR_Z )
+  ( 10 STEP_Z )
+  ( 11 N-000003 )
+  ( 12 N-000003 )
+  ( 13 N-000004 )
+  ( 14 N-000005 )
+  ( 15 N-000014 )
+  ( 16 STEP_EN )
+ )
+ ( /5047C921/504A2624 POLOLU U6 POLOLU-E1
+  ( 1 VMOT )
+  ( 2 GND )
+  ( 3 N-000023 )
+  ( 4 N-000018 )
+  ( 5 N-000019 )
+  ( 6 N-000020 )
+  ( 7 VDD )
+  ( 8 GND )
+  ( 9 DIR_E1 )
+  ( 10 STEP_E1 )
+  ( 11 N-000022 )
+  ( 12 N-000022 )
+  ( 13 N-000015 )
+  ( 14 N-000024 )
+  ( 15 N-000016 )
+  ( 16 STEP_EN )
+ )
+ ( /5048EA8E/504BAEA1 QFP48_0.5mm_7x7mm_SOT313_LPC1343 U7 STM32F100_48
+  ( 1 VDD )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 N-000083 )
+  ( 6 N-000084 )
+  ( 7 /Sango_CPU/nRESET )
+  ( 8 GND )
+  ( 9 VDD )
+  ( 10 STEP_EN )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 SD_SEL )
+  ( 15 SPI_SCK )
+  ( 16 SPI_MISO )
+  ( 17 SPI_MOSI )
+  ( 18 X_STOP )
+  ( 19 Y_STOP )
+  ( 20 /Sango_CPU/BOOT1 )
+  ( 21 STEP_E1 )
+  ( 22 DIR_E1 )
+  ( 23 GND )
+  ( 24 VDD )
+  ( 25 THERM_1 )
+  ( 26 FET_1 )
+  ( 27 THERM_2 )
+  ( 28 FET_2 )
+  ( 29 ? )
+  ( 30 SERIAL_TX )
+  ( 31 SERIAL_RX )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 /Sango_CPU/SWDIO )
+  ( 35 GND )
+  ( 36 VDD )
+  ( 37 /Sango_CPU/SWDCLK )
+  ( 38 ? )
+  ( 39 Z_STOP )
+  ( 40 STEP_X )
+  ( 41 DIR_X )
+  ( 42 STEP_Y )
+  ( 43 DIR_Y )
+  ( 44 /Sango_CPU/BOOT0 )
+  ( 45 STEP_Z )
+  ( 46 DIR_Z )
+  ( 47 GND )
+  ( 48 VDD )
+ )
+ ( /5048EA8E/504CA953 Pin_Array_5x2_1.27mm_RMC U8 CONN_CORTEX_DEBUG
+  ( 1 VDD )
+  ( 2 /Sango_CPU/SWDIO )
+  ( 3 GND )
+  ( 4 /Sango_CPU/SWDCLK )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 GND )
+  ( 10 /Sango_CPU/nRESET )
+ )
+ ( /5047D206/504D1ECE MICRO_SD_DM3D U9 CONN_MICROSD
+  ( 1 ? )
+  ( 2 SD_SEL )
+  ( 3 SPI_MOSI )
+  ( 4 VDD )
+  ( 5 SPI_SCK )
+  ( 6 GND )
+  ( 7 SPI_MISO )
+  ( 8 ? )
+  ( 9 GND )
+  ( 10 ? )
+ )
+ ( /5048EA8E/5048EAC8 HC49-US_Minimized X1 8MHz
+  ( 1 N-000084 )
+  ( 2 N-000083 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

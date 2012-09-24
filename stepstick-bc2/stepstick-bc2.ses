@@ -1,0 +1,1068 @@
+
+(session "stepstick-bc2.ses"
+  (base_design "stepstick-bc2.dsn")
+  (placement
+    (resolution mil 10)
+    (component "TRIM-EVM3Y-RMC"
+      (place RV1 26850 -22550 front 180)
+    )
+    (component SM0805
+      (place C1 26300 -24300 front 270)
+      (place R6 23000 -20500 front 180)
+      (place R5 25000 -20500 front 0)
+      (place R4 24000 -24950 front 180)
+      (place R3 20500 -22600 front 270)
+      (place R2 27550 -24300 front 270)
+      (place R1 27100 -20650 front 270)
+      (place C7 21450 -22600 front 90)
+      (place C6 20800 -20800 front 0)
+      (place C5 21450 -24050 front 270)
+      (place C4 26300 -20650 front 270)
+      (place C3 20800 -21450 front 0)
+      (place C2 20500 -24050 front 90)
+    )
+    (component "SIL-8"
+      (place P2 24000 -19500 front 0)
+      (place P1 24000 -26500 front 0)
+    )
+    (component "tssop-24-pad"
+      (place U1 24000 -22750 front 0)
+    )
+    (component JUMP_MINI_RMC
+      (place R7 22000 -20550 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2012-01-19 BZR 3256)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_25:12_mil"
+        (shape
+          (circle Front 250 0 0)
+        )
+        (shape
+          (circle Back 250 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_25:0_mil"
+        (shape
+          (circle Front 250 0 0)
+        )
+        (shape
+          (circle Back 250 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:20_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /1A
+        (wire
+          (path Front 190
+            24128 -21648
+            24128 -19872
+            24500 -19500
+          )
+          (type protect)
+        )
+      )
+      (net /1B
+        (wire
+          (path Front 190
+            24896 -21648
+            24896 -21294
+            25000 -21190
+            25000 -20000
+            25500 -19500
+          )
+          (type protect)
+        )
+      )
+      (net /2A
+        (wire
+          (path Front 190
+            23872 -21648
+            23872 -19872
+            23500 -19500
+          )
+          (type protect)
+        )
+      )
+      (net /2B
+        (wire
+          (path Front 190
+            22500 -19500
+            23000 -20000
+            23000 -21140
+            23108 -21248
+            23108 -21650
+          )
+          (type protect)
+        )
+      )
+      (net /DIR
+        (wire
+          (path Front 60
+            25152 -22030
+            25213 -22091
+            25213 -22144
+          )
+        )
+        (wire
+          (path Back 60
+            27500 -26500
+            27500 -24431
+            25213 -22144
+          )
+        )
+        (wire
+          (path Front 60
+            25152 -21648
+            25152 -22030
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 25213 -22144
+        )
+      )
+      (net /EN
+        (wire
+          (path Back 60
+            20975 -22260
+            20975 -22227
+          )
+        )
+        (wire
+          (path Back 60
+            20500 -26132
+            20500 -22735
+            20975 -22260
+          )
+        )
+        (wire
+          (path Back 60
+            20975 -22260
+            22509 -22260
+          )
+        )
+        (wire
+          (path Front 60
+            20868 -22225
+            20973 -22225
+            20975 -22227
+          )
+        )
+        (wire
+          (path Front 60
+            20500 -22225
+            20868 -22225
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 20975 -22227
+        )
+        (wire
+          (path Front 60
+            22848 -21648
+            22848 -22030
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 22509 -22260
+        )
+        (wire
+          (path Front 60
+            22848 -22030
+            22618 -22260
+            22509 -22260
+          )
+        )
+        (wire
+          (path Back 60
+            20500 -26500
+            20500 -26132
+          )
+        )
+      )
+      (net /MS1
+        (wire
+          (path Front 60
+            23616 -24234
+            21500 -26350
+            21500 -26500
+          )
+        )
+        (wire
+          (path Front 60
+            23616 -23852
+            23616 -24234
+          )
+        )
+      )
+      (net /MS2
+        (wire
+          (path Front 60
+            23872 -23852
+            23872 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            23872 -24234
+            23947 -24309
+            23947 -25354
+            22801 -26500
+            22500 -26500
+          )
+        )
+      )
+      (net /STEP
+        (wire
+          (path Front 60
+            25152 -23852
+            25152 -24234
+          )
+        )
+        (wire
+          (path Back 60
+            25685 -24320
+            25685 -25685
+            26500 -26500
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 25685 -24320
+        )
+        (wire
+          (path Front 60
+            25152 -24234
+            25599 -24234
+            25685 -24320
+          )
+        )
+      )
+      (net /VMOT
+        (wire
+          (path Front 190
+            21175 -21449
+            21450 -21724
+            21450 -22225
+          )
+        )
+        (wire
+          (path Front 190
+            21175 -21449
+            21175 -21450
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21448
+            21175 -21449
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21449
+            21175 -21448
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21450
+            21175 -21449
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21448
+            21175 -21447
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21447
+            21175 -21448
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21444
+            21175 -21447
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21447
+            21175 -21444
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21444
+            21175 -21439
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21439
+            21175 -21444
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21429
+            21175 -21439
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21439
+            21175 -21429
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21429
+            21175 -21409
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21409
+            21175 -21429
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21369
+            21175 -21409
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21409
+            21175 -21369
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21369
+            21175 -21289
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21289
+            21175 -21369
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21128
+            21175 -21289
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21289
+            21175 -21128
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -21128
+            21175 -20800
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21175 -20800
+            21175 -21128
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            20500 -19500
+            20500 -19600
+            21175 -20275
+            21175 -20800
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 21700 -21050
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 24670 -21050
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 23330 -21060
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 25740 -21050
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21700 -21050
+            21450 -20800
+            21175 -20800
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            24640 -21648
+            24640 -21080
+            24670 -21050
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 190
+            23330 -21060
+            21710 -21060
+            21700 -21050
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 190
+            24670 -21050
+            23340 -21050
+            23330 -21060
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            23330 -21060
+            23360 -21090
+            23360 -21650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            25740 -21050
+            25765 -21025
+            26300 -21025
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 190
+            24670 -21050
+            25740 -21050
+          )
+          (type protect)
+        )
+      )
+      (net /~RST
+        (wire
+          (path Front 60
+            24128 -23852
+            24128 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            24128 -24234
+            24106 -24256
+            24106 -26106
+            24500 -26500
+          )
+        )
+      )
+      (net /~SLP
+        (wire
+          (path Front 60
+            25500 -25106
+            24640 -24246
+            24640 -23852
+          )
+        )
+        (wire
+          (path Front 60
+            27182 -24675
+            26751 -25106
+            25500 -25106
+          )
+        )
+        (wire
+          (path Front 60
+            25500 -26500
+            25500 -25106
+          )
+        )
+        (wire
+          (path Front 60
+            27550 -24675
+            27182 -24675
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path Back 60
+            24571 -23046
+            24571 -23434
+          )
+        )
+        (wire
+          (path Front 60
+            24375 -24950
+            24643 -24950
+          )
+        )
+        (wire
+          (path Front 60
+            24738 -24970
+            24663 -24970
+            24643 -24950
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 24738 -24970
+        )
+        (wire
+          (path Back 60
+            24571 -23434
+            24738 -23601
+            24738 -24970
+          )
+        )
+        (wire
+          (path Front 60
+            25438 -22233
+            25438 -22061
+            25407 -22030
+          )
+        )
+        (wire
+          (path Front 60
+            24950 -22455
+            25216 -22455
+            25438 -22233
+          )
+        )
+        (wire
+          (path Front 60
+            25438 -22233
+            26681 -22233
+          )
+        )
+        (wire
+          (path Front 60
+            26681 -22233
+            27092 -21822
+          )
+        )
+        (wire
+          (path Front 60
+            26300 -23925
+            26910 -23925
+            27259 -23576
+            27259 -22811
+            26681 -22233
+          )
+        )
+        (wire
+          (path Front 60
+            27421 -21822
+            27092 -21822
+          )
+        )
+        (wire
+          (path Front 60
+            22291 -22349
+            22484 -22542
+            22964 -22542
+            23051 -22455
+          )
+        )
+        (wire
+          (path Front 60
+            22593 -22030
+            22432 -22030
+            22291 -22171
+            22291 -22349
+          )
+        )
+        (wire
+          (path Front 60
+            22291 -22349
+            21933 -22707
+            20500 -22707
+          )
+        )
+        (wire
+          (path Back 60
+            23429 -22455
+            23622 -22455
+          )
+        )
+        (wire
+          (path Back 60
+            23429 -22455
+            23429 -23046
+          )
+        )
+        (wire
+          (path Back 60
+            24000 -22455
+            23622 -22455
+          )
+        )
+        (wire
+          (path Back 60
+            24571 -22455
+            24950 -22455
+          )
+        )
+        (wire
+          (path Back 60
+            24950 -22455
+            24950 -22076
+            25375 -21651
+            26022 -21651
+            27500 -20173
+            27500 -19500
+          )
+        )
+        (wire
+          (path Front 60
+            22593 -21648
+            22593 -22030
+          )
+        )
+        (wire
+          (path Front 60
+            23429 -22455
+            23051 -22455
+          )
+        )
+        (wire
+          (path Front 60
+            24571 -22455
+            24950 -22455
+          )
+        )
+        (wire
+          (path Front 60
+            24000 -22455
+            24571 -22455
+          )
+        )
+        (wire
+          (path Front 60
+            25407 -21648
+            25407 -22030
+          )
+        )
+        (wire
+          (path Back 60
+            23429 -23046
+            23622 -23046
+          )
+        )
+        (wire
+          (path Back 60
+            24000 -23046
+            23622 -23046
+          )
+        )
+        (wire
+          (path Front 60
+            22593 -21648
+            22593 -21265
+          )
+        )
+        (wire
+          (path Front 60
+            22000 -20649
+            22000 -20840
+          )
+        )
+        (wire
+          (path Front 60
+            22000 -20840
+            22425 -21265
+            22593 -21265
+          )
+        )
+        (wire
+          (path Front 60
+            20500 -22975
+            20500 -22707
+          )
+        )
+        (wire
+          (path Front 60
+            20500 -23675
+            20500 -22975
+          )
+        )
+        (wire
+          (path Front 60
+            24000 -23046
+            24571 -23046
+          )
+        )
+      )
+      (net GNDPWR
+        (wire
+          (path Front 190
+            20425 -20800
+            20425 -21450
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            20400 -20250
+            20425 -20275
+            20425 -20800
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 22590 -20020
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 25470 -20030
+          (type protect)
+        )
+        (via "Via[0-1]_25:12_mil" 20400 -20250
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            21500 -19500
+            21680 -19500
+            22180 -20000
+            22570 -20000
+            22590 -20020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            22625 -20500
+            22625 -20055
+            22590 -20020
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 190
+            22590 -20020
+            22600 -20030
+            25470 -20030
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 190
+            22590 -20020
+            20630 -20020
+            20400 -20250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            25470 -20030
+            25375 -20125
+            25375 -20500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            20425 -20800
+            20425 -21450
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            25470 -20030
+            26055 -20030
+            26300 -20275
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 190
+            22590 -20020
+            22333 -20020
+            22000 -20353
+          )
+          (type protect)
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Front 60
+            26850 -23200
+            26442 -23200
+          )
+        )
+        (wire
+          (path Front 60
+            25407 -23852
+            25407 -23469
+          )
+        )
+        (wire
+          (path Front 60
+            25407 -23469
+            26173 -23469
+            26442 -23200
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Front 60
+            26279 -21822
+            26608 -21822
+          )
+        )
+        (wire
+          (path Front 60
+            27100 -21025
+            27100 -21293
+          )
+        )
+        (wire
+          (path Front 60
+            27100 -21293
+            26608 -21785
+            26608 -21822
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Front 60
+            24384 -23852
+            24384 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            24384 -24234
+            24328 -24290
+            24328 -24353
+          )
+        )
+        (wire
+          (path Back 60
+            23693 -24485
+            23825 -24353
+            24328 -24353
+          )
+        )
+        (wire
+          (path Front 60
+            23625 -24950
+            23625 -24553
+            23693 -24485
+          )
+        )
+        (via "Via[0-1]_25:12_mil" 23693 -24485
+        )
+        (via "Via[0-1]_25:12_mil" 24328 -24353
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Front 60
+            20500 -24425
+            20500 -24693
+          )
+        )
+        (wire
+          (path Front 60
+            23360 -23852
+            23360 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            23360 -24234
+            22901 -24693
+            20500 -24693
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Front 190
+            24384 -21648
+            24384 -20741
+            24625 -20500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Front 60
+            21450 -23675
+            21450 -23943
+          )
+        )
+        (wire
+          (path Front 60
+            22593 -23852
+            22593 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            22593 -24234
+            22009 -24234
+            21718 -23943
+            21450 -23943
+          )
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Front 60
+            22848 -23852
+            22848 -24249
+            22672 -24425
+            21450 -24425
+          )
+        )
+      )
+      (net "N-000021"
+        (wire
+          (path Front 60
+            21450 -22975
+            21450 -23243
+          )
+        )
+        (wire
+          (path Front 60
+            23104 -23852
+            23104 -23469
+          )
+        )
+        (wire
+          (path Front 60
+            23104 -23469
+            22878 -23243
+            21450 -23243
+          )
+        )
+      )
+      (net "N-000023"
+        (wire
+          (path Front 190
+            23616 -21648
+            23616 -20741
+            23375 -20500
+          )
+          (type protect)
+        )
+      )
+      (net VDD
+        (wire
+          (path Front 60
+            24896 -23852
+            24896 -24234
+          )
+        )
+        (wire
+          (path Front 60
+            24896 -24234
+            25337 -24675
+            26300 -24675
+          )
+        )
+        (wire
+          (path Front 60
+            27100 -20275
+            27100 -20007
+          )
+        )
+        (wire
+          (path Front 60
+            26500 -19500
+            27007 -20007
+            27100 -20007
+          )
+        )
+        (wire
+          (path Front 60
+            27100 -20275
+            27100 -20543
+          )
+        )
+        (wire
+          (path Front 60
+            27550 -23791
+            27751 -23590
+            27751 -20926
+            27368 -20543
+            27100 -20543
+          )
+        )
+        (wire
+          (path Front 60
+            26668 -24675
+            26668 -24673
+            27550 -23791
+          )
+        )
+        (wire
+          (path Front 60
+            26300 -24675
+            26668 -24675
+          )
+        )
+        (wire
+          (path Front 60
+            27550 -23925
+            27550 -23791
+          )
+        )
+      )
+    )
+  )
+)

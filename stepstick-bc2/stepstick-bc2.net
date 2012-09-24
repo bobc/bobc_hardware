@@ -1,0 +1,199 @@
+# EESchema Netlist Version 1.1 created  16/09/2012 17:10:50
+(
+ ( /5055E0FE SM0805 C1 0.22uF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /5055E0F0 SM0805 C2 0.22uF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /5055E0FF SM0805 C3 4.7uF
+  ( 1 GNDPWR )
+  ( 2 /VMOT )
+ )
+ ( /5055E100 SM0805 C4 0.1uF
+  ( 1 GNDPWR )
+  ( 2 /VMOT )
+ )
+ ( /5055E0EE SM0805 C5 0.1uF
+  ( 1 N-000017 )
+  ( 2 N-000018 )
+ )
+ ( /5055E101 SM0805 C6 0.1uF
+  ( 1 GNDPWR )
+  ( 2 /VMOT )
+ )
+ ( /5055E0EF SM0805 C7 0.1uF
+  ( 1 N-000021 )
+  ( 2 /VMOT )
+ )
+ ( /5055E0EA SIL-8 P1 CONN_8
+  ( 1 /EN )
+  ( 2 /MS1 )
+  ( 3 /MS2 )
+  ( 4 ? )
+  ( 5 /~RST )
+  ( 6 /~SLP )
+  ( 7 /STEP )
+  ( 8 /DIR )
+ )
+ ( /5055E0E9 SIL-8 P2 CONN_8
+  ( 1 /VMOT )
+  ( 2 GNDPWR )
+  ( 3 /2B )
+  ( 4 /2A )
+  ( 5 /1A )
+  ( 6 /1B )
+  ( 7 VDD )
+  ( 8 GND )
+ )
+ ( /5055E0F5 SM0805 R1 20k
+  ( 1 VDD )
+  ( 2 N-000004 )
+ )
+ ( /5055E0ED SM0805 R2 100k
+  ( 1 VDD )
+  ( 2 /~SLP )
+ )
+ ( /5055E0EB SM0805 R3 100k
+  ( 1 /EN )
+  ( 2 GND )
+ )
+ ( /5055E0F2 SM0805 R4 10k
+  ( 1 GND )
+  ( 2 N-000005 )
+ )
+ ( /5055E0FC SM0805 R5 0.2
+  ( 1 N-000011 )
+  ( 2 GNDPWR )
+ )
+ ( /5055E0FB SM0805 R6 0.2
+  ( 1 N-000023 )
+  ( 2 GNDPWR )
+ )
+ ( /5055F559 JUMP_MINI_RMC R7 0R
+  ( 1 GND )
+  ( 2 GNDPWR )
+ )
+ ( /5055E0F7 TRIM-EVM3Y-RMC RV1 10k
+  ( 1 GND )
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+ )
+ ( /5055E103 tssop-24-pad U1 A4985-LP
+  ( 1 N-000017 )
+  ( 2 N-000018 )
+  ( 3 N-000021 )
+  ( 4 N-000006 )
+  ( 5 /MS1 )
+  ( 6 /MS2 )
+  ( 7 /~RST )
+  ( 8 N-000005 )
+  ( 9 /~SLP )
+  ( 10 VDD )
+  ( 11 /STEP )
+  ( 12 N-000003 )
+  ( 13 GND )
+  ( 14 /DIR )
+  ( 15 /1B )
+  ( 16 /VMOT )
+  ( 17 N-000011 )
+  ( 18 /1A )
+  ( 19 /2A )
+  ( 20 N-000023 )
+  ( 21 /VMOT )
+  ( 22 /2B )
+  ( 23 /EN )
+  ( 24 GND )
+  ( PAD GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

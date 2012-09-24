@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"RV1";"TRIM-EVM3Y-RMC";1;"10k";;;
+2;"C1,C2";"SM0805";2;"0.22uF";;;
+3;"R6,R5";"SM0805";2;"0.2";;;
+4;"R4";"SM0805";1;"10k";;;
+5;"R3,R2";"SM0805";2;"100k";;;
+6;"R1";"SM0805";1;"20k";;;
+7;"C7,C6,C5,C4";"SM0805";4;"0.1uF";;;
+8;"C3";"SM0805";1;"4.7uF";;;
+9;"P2,P1";"SIL-8";2;"CONN_8";;;
+10;"U1";"tssop-24-pad";1;"A4985-LP";;;
+11;"R7";"JUMP_MINI_RMC";1;"0R";;;

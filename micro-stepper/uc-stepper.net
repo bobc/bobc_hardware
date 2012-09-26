@@ -1,248 +1,320 @@
-# EESchema Netlist Version 1.1 created  24/09/2012 00:26:09
+# EESchema Netlist Version 1.1 created  25/09/2012 22:38:24
 (
- ( /5051000A SM0805 C1 100nF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /5061D8E3 $noname  P104 1PIN_TH {Lib=1PIN_TH}
+  (    1 ? )
  )
- ( /5050FEB6 SM0805 C7 100nF
-  ( 1 /CSENSE_A )
-  ( 2 GND )
+ ( /5061D8E2 $noname  P103 1PIN_TH {Lib=1PIN_TH}
+  (    1 ? )
  )
- ( /5050FEAF SM0805 C8 100nF
-  ( 1 /CSENSE_B )
-  ( 2 GND )
+ ( /5061D8E1 $noname  P102 1PIN_TH {Lib=1PIN_TH}
+  (    1 ? )
  )
- ( /505CF7E4/505F9618 SM0805 C201 100nF
-  ( 1 +12V )
-  ( 2 GND )
+ ( /5061D8DD $noname  P101 1PIN_TH {Lib=1PIN_TH}
+  (    1 ? )
  )
- ( /505CF7E4/505F961A SM0805 C202 100nF
-  ( 1 +12V )
-  ( 2 GND )
+ ( /5058C95B $noname  R9 1k {Lib=R}
+  (    1 VCC )
+  (    2 /VREF )
  )
- ( /5054EEAD SM0805 D1 DIODESCH
-  ( 1 OUT_A1 )
-  ( 2 +12V )
+ ( /5058C403 $noname  JP1 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 /ICSPCLK )
+  (    2 /VREF )
  )
- ( /5054F010 SM0805 D2 DIODESCH
-  ( 1 SENSE_A )
-  ( 2 OUT_A1 )
+ ( /5058C3BA $noname  D9 3V {Lib=ZENER}
+  (    1 GND )
+  (    2 /VREF )
  )
- ( /5054EFF8 SM0805 D3 DIODESCH
-  ( 1 OUT_A2 )
-  ( 2 +12V )
+ ( /505827DB $noname  R7 4k7 {Lib=R}
+  (    1 EN_B )
+  (    2 GND )
  )
- ( /5054F00F SM0805 D4 DIODESCH
-  ( 1 SENSE_A )
-  ( 2 OUT_A2 )
+ ( /505827C9 $noname  R4 4k7 {Lib=R}
+  (    1 EN_A )
+  (    2 GND )
  )
- ( /5054EFF9 SM0805 D5 DIODESCH
-  ( 1 OUT_B1 )
-  ( 2 +12V )
+ ( /5057759A $noname  U1 16F1507 {Lib=16F1507}
+  (    1 VCC )
+  (    2 /STEP )
+  (    3 /~EN )
+  (    4 /Vpp )
+  (    5 EN_A )
+  (    6 ? )
+  (    7 EN_B )
+  (    8 /MS1 )
+  (    9 /MS2 )
+  (   10 /MS3 )
+  (   11 ? )
+  (   12 IN_B2 )
+  (   13 IN_A2 )
+  (   14 /DIR )
+  (   15 IN_B1 )
+  (   16 IN_A1 )
+  (   17 /CSENSE_B )
+  (   18 /ICSPCLK )
+  (   19 /CSENSE_A )
+  (   20 GND )
  )
- ( /5054F00E SM0805 D6 DIODESCH
-  ( 1 SENSE_B )
-  ( 2 OUT_B1 )
+ ( /5054FC70 $noname  R8 0R {Lib=R}
+  (    1 GND )
+  (    2 GNDPWR )
  )
- ( /5054EFFA SM0805 D7 DIODESCH
-  ( 1 OUT_B2 )
-  ( 2 +12V )
+ ( /5054FAD0 $noname  R6 0R24 {Lib=R}
+  (    1 SENSE_A )
+  (    2 GNDPWR )
  )
- ( /5054F00D SM0805 D8 DIODESCH
-  ( 1 SENSE_B )
-  ( 2 OUT_B2 )
+ ( /50524613 $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /5058C3BA sod123 D9 3V
-  ( 1 GND )
-  ( 2 /VREF )
+ ( /505245FF $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 +12V )
+  (    2 GNDPWR )
  )
- ( /5058C403 PIN_ARRAY_2X1 JP1 JUMP_MINI
-  ( 1 /ICSPCLK )
-  ( 2 /VREF )
+ ( /505245FD $noname  P7 CONN_2 {Lib=CONN_2}
+  (    1 OUT_A1 )
+  (    2 OUT_A2 )
  )
- ( /5050F995 SIL-8 P1 CONN_8
-  ( 1 /~EN )
-  ( 2 /MS1 )
-  ( 3 /MS2 )
-  ( 4 /MS3 )
-  ( 5 /Vpp )
-  ( 6 ? )
-  ( 7 /STEP )
-  ( 8 /DIR )
+ ( /505245E9 $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 OUT_B2 )
+  (    2 OUT_B1 )
  )
- ( /505245FF SIL-2 P2 CONN_2
-  ( 1 +12V )
-  ( 2 GNDPWR )
+ ( /5052263F $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 EN_A )
+  (    2 IN_A1 )
+  (    3 EN_B )
+  (    4 IN_B1 )
+  (    5 /CSENSE_A )
+  (    6 /CSENSE_B )
  )
- ( /50510723 SIL-6 P3 ICSP
-  ( 1 /Vpp )
-  ( 2 VCC )
-  ( 3 GND )
-  ( 4 /CSENSE_A )
-  ( 5 /ICSPCLK )
-  ( 6 ? )
+ ( /50510723 $noname  P3 ICSP {Lib=CONN_6}
+  (    1 /Vpp )
+  (    2 VCC )
+  (    3 GND )
+  (    4 /CSENSE_A )
+  (    5 /ICSPCLK )
+  (    6 ? )
  )
- ( /5052263F SIL-6 P4 CONN_6
-  ( 1 EN_A )
-  ( 2 IN_A1 )
-  ( 3 EN_B )
-  ( 4 IN_B1 )
-  ( 5 /CSENSE_A )
-  ( 6 /CSENSE_B )
+ ( /5051000A $noname  C1 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /50524613 SIL-2 P5 CONN_2
-  ( 1 VCC )
-  ( 2 GND )
+ ( /5050FEB6 $noname  C7 100nF {Lib=C}
+  (    1 /CSENSE_A )
+  (    2 GND )
  )
- ( /505245E9 SIL-2 P6 CONN_2
-  ( 1 OUT_B2 )
-  ( 2 OUT_B1 )
+ ( /5050FEAF $noname  C8 100nF {Lib=C}
+  (    1 /CSENSE_B )
+  (    2 GND )
  )
- ( /505245FD SIL-2 P7 CONN_2
-  ( 1 OUT_A1 )
-  ( 2 OUT_A2 )
+ ( /5050FE99 $noname  R3 2k2 {Lib=R}
+  (    1 /CSENSE_B )
+  (    2 SENSE_B )
  )
- ( /5050F922 SM0805 R1 4k7
-  ( 1 VCC )
-  ( 2 /Vpp )
+ ( /5050FE93 $noname  R2 2k2 {Lib=R}
+  (    1 /CSENSE_A )
+  (    2 SENSE_A )
  )
- ( /5050FE93 SM0805 R2 2k2
-  ( 1 /CSENSE_A )
-  ( 2 SENSE_A )
+ ( /5050FC25 $noname  R5 0R24 {Lib=R}
+  (    1 SENSE_B )
+  (    2 GNDPWR )
  )
- ( /5050FE99 SM0805 R3 2k2
-  ( 1 /CSENSE_B )
-  ( 2 SENSE_B )
+ ( /5050F995 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 /~EN )
+  (    2 /MS1 )
+  (    3 /MS2 )
+  (    4 /MS3 )
+  (    5 /Vpp )
+  (    6 ? )
+  (    7 /STEP )
+  (    8 /DIR )
  )
- ( /505827C9 SM0805 R4 4k7
-  ( 1 EN_A )
-  ( 2 GND )
+ ( /5050F922 $noname  R1 4k7 {Lib=R}
+  (    1 VCC )
+  (    2 /Vpp )
  )
- ( /5050FC25 SM2512 R5 0R24
-  ( 1 SENSE_B )
-  ( 2 GNDPWR )
+ ( /505CF7E4/5061D707 $noname  R208 10K {Lib=R}
+  (    1 +12V )
+  (    2 N-000054 )
  )
- ( /5054FAD0 SM2512 R6 0R24
-  ( 1 SENSE_A )
-  ( 2 GNDPWR )
+ ( /505CF7E4/5061D706 $noname  R212 10K {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000055 )
  )
- ( /505827DB SM0805 R7 4k7
-  ( 1 EN_B )
-  ( 2 GND )
+ ( /505CF7E4/5061D705 $noname  Q204 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000040 )
+  (    G N-000055 )
+  (    S GND )
  )
- ( /5054FC70 SM0402 R8 0R
-  ( 1 GND )
-  ( 2 GNDPWR )
+ ( /505CF7E4/5061D704 $noname  R210 10K {Lib=R}
+  (    1 N-000054 )
+  (    2 N-000040 )
  )
- ( /5058C95B SM0805 R9 1k
-  ( 1 VCC )
-  ( 2 /VREF )
+ ( /505CF7E4/5061D69C $noname  R209 10K {Lib=R}
+  (    1 N-000051 )
+  (    2 N-000044 )
  )
- ( /505CF7E4/505CF850 SM0805 R203 10K
-  ( 1 +12V )
-  ( 2 N-000032 )
+ ( /505CF7E4/5061D69B $noname  Q203 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000044 )
+  (    G N-000042 )
+  (    S GND )
  )
- ( /505CF7E4/505CF852 SM0805 R204 10K
-  ( 1 +12V )
-  ( 2 N-000038 )
+ ( /505CF7E4/5061D69A $noname  R211 10K {Lib=R}
+  (    1 N-000045 )
+  (    2 N-000042 )
  )
- ( /505CF7E4/505CF84F SM0805 R205 10K
-  ( 1 N-000033 )
-  ( 2 +12V )
+ ( /505CF7E4/5061D699 $noname  R207 10K {Lib=R}
+  (    1 +12V )
+  (    2 N-000051 )
  )
- ( /505CF7E4/505CF84D SM0805 R206 10K
-  ( 1 N-000037 )
-  ( 2 +12V )
+ ( /505CF7E4/5061D51D $noname  R205 10K {Lib=R}
+  (    1 N-000048 )
+  (    2 N-000043 )
  )
- ( /5057759A SO20L U1 16F1507
-  ( 1 VCC )
-  ( 2 /STEP )
-  ( 3 /~EN )
-  ( 4 /Vpp )
-  ( 5 EN_A )
-  ( 6 ? )
-  ( 7 EN_B )
-  ( 8 /MS1 )
-  ( 9 /MS2 )
-  ( 10 /MS3 )
-  ( 11 ? )
-  ( 12 IN_B2 )
-  ( 13 IN_A2 )
-  ( 14 /DIR )
-  ( 15 IN_B1 )
-  ( 16 IN_A1 )
-  ( 17 /CSENSE_B )
-  ( 18 /ICSPCLK )
-  ( 19 /CSENSE_A )
-  ( 20 GND )
+ ( /505CF7E4/5061D51C $noname  Q202 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000043 )
+  (    G N-000046 )
+  (    S GND )
  )
- ( /505CF7E4/505E3E28 SO14E U201 4011
-  ( 1 EN_B )
-  ( 2 IN_B1 )
-  ( 3 N-000032 )
-  ( 4 N-000038 )
-  ( 5 EN_A )
-  ( 6 IN_A1 )
-  ( 7 GND )
-  ( 8 EN_B )
-  ( 9 IN_B2 )
-  ( 10 N-000033 )
-  ( 11 N-000037 )
-  ( 12 EN_A )
-  ( 13 IN_A2 )
-  ( 14 +12V )
+ ( /505CF7E4/5061D51B $noname  R206 10K {Lib=R}
+  (    1 N-000035 )
+  (    2 N-000046 )
  )
- ( /505CF7E4/505CF856 SO14E U202 4081
-  ( 1 EN_B )
-  ( 2 IN_B2 )
-  ( 3 N-000036 )
-  ( 4 N-000035 )
-  ( 5 EN_A )
-  ( 6 IN_A2 )
-  ( 7 GND )
-  ( 8 EN_B )
-  ( 9 IN_B1 )
-  ( 10 N-000034 )
-  ( 11 N-000039 )
-  ( 12 EN_A )
-  ( 13 IN_A1 )
-  ( 14 +12V )
+ ( /505CF7E4/5061D51A $noname  R203 10K {Lib=R}
+  (    1 +12V )
+  (    2 N-000048 )
  )
- ( /505CF7E4/505CF859 SOT23_6 U203 MOSPAIR
-  ( 1 N-000036 )
-  ( 2 +12V )
-  ( 3 N-000032 )
-  ( 4 OUT_B1 )
-  ( 5 SENSE_B )
-  ( 6 OUT_B1 )
+ ( /505CF7E4/5061A4FF $noname  U204 74HC08 {Lib=4081}
+  (    1 EN_B )
+  (    2 IN_B1 )
+  (    3 N-000045 )
+  (    4 N-000052 )
+  (    5 EN_B )
+  (    6 IN_B2 )
+  (    7 GND )
+  (    8 EN_B )
+  (    9 IN_B2 )
+  (   10 N-000039 )
+  (   11 N-000047 )
+  (   12 EN_B )
+  (   13 IN_B1 )
+  (   14 VCC )
  )
- ( /505CF7E4/505CF858 SOT23_6 U204 MOSPAIR
-  ( 1 N-000035 )
-  ( 2 +12V )
-  ( 3 N-000038 )
-  ( 4 OUT_A1 )
-  ( 5 SENSE_A )
-  ( 6 OUT_A1 )
+ ( /505CF7E4/5061A4F6 $noname  U201 74HC08 {Lib=4081}
+  (    1 EN_A )
+  (    2 IN_A1 )
+  (    3 N-000036 )
+  (    4 N-000050 )
+  (    5 EN_A )
+  (    6 IN_A2 )
+  (    7 GND )
+  (    8 EN_A )
+  (    9 IN_A2 )
+  (   10 N-000035 )
+  (   11 N-000049 )
+  (   12 EN_A )
+  (   13 IN_A1 )
+  (   14 VCC )
  )
- ( /505CF7E4/505CF846 SOT23_6 U205 MOSPAIR
-  ( 1 N-000034 )
-  ( 2 +12V )
-  ( 3 N-000033 )
-  ( 4 OUT_B2 )
-  ( 5 SENSE_B )
-  ( 6 OUT_B2 )
+ ( /505CF7E4/5061A397 $noname  R201 10K {Lib=R}
+  (    1 +12V )
+  (    2 N-000053 )
  )
- ( /505CF7E4/505CF847 SOT23_6 U206 MOSPAIR
-  ( 1 N-000039 )
-  ( 2 +12V )
-  ( 3 N-000037 )
-  ( 4 OUT_A2 )
-  ( 5 SENSE_A )
-  ( 6 OUT_A2 )
+ ( /505CF7E4/5061A36D $noname  R204 10K {Lib=R}
+  (    1 N-000036 )
+  (    2 N-000037 )
+ )
+ ( /505CF7E4/5061A2DA $noname  Q201 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000041 )
+  (    G N-000037 )
+  (    S GND )
+ )
+ ( /505CF7E4/505F961A $noname  C202 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /505CF7E4/505F9618 $noname  C201 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /505CF7E4/505CF859 $noname  U205 MOSPAIR {Lib=MOSPAIR}
+  (    1 N-000052 )
+  (    2 +12V )
+  (    3 N-000051 )
+  (    4 OUT_B1 )
+  (    5 SENSE_B )
+  (    6 OUT_B1 )
+ )
+ ( /505CF7E4/505CF858 $noname  U202 MOSPAIR {Lib=MOSPAIR}
+  (    1 N-000050 )
+  (    2 +12V )
+  (    3 N-000053 )
+  (    4 OUT_A1 )
+  (    5 SENSE_A )
+  (    6 OUT_A1 )
+ )
+ ( /505CF7E4/505CF852 $noname  R202 10K {Lib=R}
+  (    1 N-000053 )
+  (    2 N-000041 )
+ )
+ ( /505CF7E4/505CF847 $noname  U203 MOSPAIR {Lib=MOSPAIR}
+  (    1 N-000049 )
+  (    2 +12V )
+  (    3 N-000048 )
+  (    4 OUT_A2 )
+  (    5 SENSE_A )
+  (    6 OUT_A2 )
+ )
+ ( /505CF7E4/505CF846 $noname  U206 MOSPAIR {Lib=MOSPAIR}
+  (    1 N-000047 )
+  (    2 +12V )
+  (    3 N-000054 )
+  (    4 OUT_B2 )
+  (    5 SENSE_B )
+  (    6 OUT_B2 )
  )
 )
 *
 { Allowed footprints by component:
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D9
+ D?
+ SO*
+ SM*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component C1
  SM*
  C?
@@ -258,54 +330,7 @@ $component C8
  C?
  C1-1
 $endlist
-$component C201
- SM*
- C?
- C1-1
-$endlist
-$component C202
- SM*
- C?
- C1-1
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component D2
- D?
- S*
-$endlist
-$component D3
- D?
- S*
-$endlist
-$component D4
- D?
- S*
-$endlist
-$component D5
- D?
- S*
-$endlist
-$component D6
- D?
- S*
-$endlist
-$component D7
- D?
- S*
-$endlist
-$component D8
- D?
- S*
-$endlist
-$component D9
- D?
- SO*
- SM*
-$endlist
-$component R1
+$component R3
  R?
  SM0603
  SM0805
@@ -319,20 +344,6 @@ $component R2
  R?-*
  SM1206
 $endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component R5
  R?
  SM0603
@@ -340,42 +351,49 @@ $component R5
  R?-*
  SM1206
 $endlist
-$component R6
+$component R1
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R7
+$component R208
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R8
+$component R212
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R9
+$component R210
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R203
+$component R209
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R204
+$component R211
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R207
  R?
  SM0603
  SM0805
@@ -396,5 +414,257 @@ $component R206
  R?-*
  SM1206
 $endlist
+$component R203
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R201
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R204
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C202
+ SM*
+ C?
+ C1-1
+$endlist
+$component C201
+ SM*
+ C?
+ C1-1
+$endlist
+$component R202
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "/CSENSE_B" "CSENSE_B"
+ P4 6
+ U1 17
+ R3 1
+ C8 1
+Net 2 "IN_B1" "IN_B1"
+ U204 2
+ U204 13
+ U1 15
+ P4 4
+Net 3 "EN_B" "EN_B"
+ U204 5
+ U204 12
+ U204 1
+ U204 8
+ R7 1
+ U1 7
+ P4 3
+Net 4 "IN_A1" "IN_A1"
+ U1 16
+ U201 2
+ U201 13
+ P4 2
+Net 5 "EN_A" "EN_A"
+ P4 1
+ U201 1
+ U201 8
+ U201 5
+ U201 12
+ R4 1
+ U1 5
+Net 6 "/~EN" "~EN"
+ P1 1
+ U1 3
+Net 7 "OUT_B1" "OUT_B1"
+ U205 6
+ U205 4
+ P6 2
+Net 8 "OUT_B2" "OUT_B2"
+ U206 6
+ P6 1
+ U206 4
+Net 9 "OUT_A2" "OUT_A2"
+ U203 4
+ U203 6
+ P7 2
+Net 10 "OUT_A1" "OUT_A1"
+ U202 4
+ U202 6
+ P7 1
+Net 12 "/CSENSE_A" "CSENSE_A"
+ P4 5
+ P3 4
+ C7 1
+ U1 19
+ R2 1
+Net 13 "VCC" "VCC"
+ C202 1
+ C201 1
+ U1 1
+ R9 1
+ P3 2
+ P5 1
+ U204 14
+ U201 14
+ R1 1
+ C1 1
+Net 14 "/Vpp" "Vpp"
+ P3 1
+ U1 4
+ P1 5
+ R1 2
+Net 15 "/ICSPCLK" "ICSPCLK"
+ P3 5
+ JP1 1
+ U1 18
+Net 17 "/MS1" "MS1"
+ U1 8
+ P1 2
+Net 18 "IN_A2" "IN_A2"
+ U1 13
+ U201 9
+ U201 6
+Net 19 "IN_B2" "IN_B2"
+ U204 9
+ U204 6
+ U1 12
+Net 20 "/VREF" "VREF"
+ D9 2
+ JP1 2
+ R9 2
+Net 21 "GNDPWR" "GNDPWR"
+ R8 2
+ R6 2
+ P2 2
+ R5 2
+Net 22 "/DIR" "DIR"
+ U1 14
+ P1 8
+Net 23 "/STEP" "STEP"
+ U1 2
+ P1 7
+Net 25 "+12V" "+12V"
+ U206 2
+ R203 1
+ U203 2
+ U205 2
+ P2 1
+ U202 2
+ R208 1
+ R207 1
+ R201 1
+Net 27 "SENSE_A" "SENSE_A"
+ U202 5
+ U203 5
+ R2 2
+ R6 1
+Net 28 "SENSE_B" "SENSE_B"
+ U205 5
+ R5 1
+ R3 2
+ U206 5
+Net 32 "/MS3" "MS3"
+ P1 4
+ U1 10
+Net 33 "/MS2" "MS2"
+ P1 3
+ U1 9
+Net 35 "" ""
+ R206 1
+ U201 10
+Net 36 "" ""
+ R204 1
+ U201 3
+Net 37 "" ""
+ Q201 G
+ R204 2
+Net 38 "GND" "GND"
+ Q202 S
+ C8 2
+ U204 7
+ P3 3
+ R4 2
+ R7 2
+ D9 1
+ Q204 S
+ C202 2
+ Q201 S
+ C201 2
+ U1 20
+ P5 2
+ Q203 S
+ U201 7
+ C1 2
+ R8 1
+ C7 2
+Net 39 "" ""
+ R212 1
+ U204 10
+Net 40 "" ""
+ Q204 D
+ R210 2
+Net 41 "" ""
+ R202 2
+ Q201 D
+Net 42 "" ""
+ Q203 G
+ R211 2
+Net 43 "" ""
+ R205 2
+ Q202 D
+Net 44 "" ""
+ Q203 D
+ R209 2
+Net 45 "" ""
+ R211 1
+ U204 3
+Net 46 "" ""
+ Q202 G
+ R206 2
+Net 47 "" ""
+ U204 11
+ U206 1
+Net 48 "" ""
+ U203 3
+ R203 2
+ R205 1
+Net 49 "" ""
+ U203 1
+ U201 11
+Net 50 "" ""
+ U202 1
+ U201 4
+Net 51 "" ""
+ U205 3
+ R209 1
+ R207 2
+Net 52 "" ""
+ U204 4
+ U205 1
+Net 53 "" ""
+ R201 2
+ R202 1
+ U202 3
+Net 54 "" ""
+ U206 3
+ R208 2
+ R210 1
+Net 55 "" ""
+ Q204 G
+ R212 2
+}
+#End

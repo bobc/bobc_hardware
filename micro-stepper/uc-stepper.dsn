@@ -33,68 +33,80 @@
   )
   (placement
     (component SM0805
-      (place R1 2675 -3600 front 270 (PN 4k7))
-      (place C1 2675 -3450 front 90 (PN 100nF))
-      (place R2 2700 -2635 front 90 (PN 2k2))
-      (place R3 3255 -2640 front 90 (PN 2k2))
-      (place C8 3425 -3250 front 270 (PN 100nF))
-      (place C7 2675 -3300 front 270 (PN 100nF))
-      (place D1 2475 -2350 front 180 (PN DIODESCH))
-      (place D2 2850 -2375 front 180 (PN DIODESCH))
-      (place D3 2475 -2250 front 180 (PN DIODESCH))
-      (place D4 2850 -2250 front 180 (PN DIODESCH))
-      (place D5 3400 -2250 front 0 (PN DIODESCH))
-      (place D6 3075 -2250 front 0 (PN DIODESCH))
-      (place D7 3400 -2375 front 0 (PN DIODESCH))
-      (place D8 3075 -2375 front 0 (PN DIODESCH))
-      (place R4 2880 -3035 front 0 (PN 4k7))
-      (place R7 3090 -3045 front 180 (PN 4k7))
-      (place R9 3600 -3700 front 90 (PN 1k))
-      (place R203 3725 -2290 front 270 (PN 10K))
-      (place R204 2170 -2290 front 270 (PN 10K))
-      (place R205 3625 -2290 front 90 (PN 10K))
-      (place R206 2265 -2290 front 90 (PN 10K))
-      (place C201 2390 -2625 front 180 (PN 100nF))
-      (place C202 3900 -2770 front 270 (PN 100nF))
+      (place R1 2675 -3625 front 180 (PN 4k7))
+      (place C1 2675 -3525 front 180 (PN 100nF))
+      (place R2 3250 -2625 front 90 (PN 2k2))
+      (place R3 2700 -2625 front 90 (PN 2k2))
+      (place C8 3400 -3350 front 0 (PN 100nF))
+      (place C7 2675 -3350 front 180 (PN 100nF))
+      (place R4 3100 -3050 front 180 (PN 4k7))
+      (place R7 2850 -3050 front 0 (PN 4k7))
+      (place R9 3700 -3500 front 180 (PN 1k))
+      (place R203 3875 -2400 front 270 (PN 10K))
+      (place R204 3600 -2650 front 90 (PN 10K))
+      (place R205 3875 -2575 front 270 (PN 10K))
+      (place R206 3500 -3125 front 270 (PN 10K))
+      (place C201 3825 -2900 front 90 (PN 100nF))
+      (place C202 2700 -2900 front 90 (PN 100nF))
+      (place R201 3775 -2400 front 270 (PN 10K))
+      (place R202 3775 -2575 front 270 (PN 10K))
+      (place R207 2250 -2400 front 270 (PN 10K))
+      (place R208 2125 -2400 front 270 (PN 10K))
+      (place R209 2250 -2575 front 270 (PN 10K))
+      (place R210 2125 -2575 front 270 (PN 10K))
+      (place R211 2500 -2650 front 90 (PN 10K))
+      (place R212 2400 -3175 front 270 (PN 10K))
     )
     (component "SIL-8"
-      (place P1 2925 -3900 front 0 (PN CONN_8))
+      (place P1 3250 -3900 front 0 (PN CONN_8))
     )
     (component "SIL-6"
-      (place P3 2075 -3450 front 90 (PN ICSP))
-      (place P4 3900 -3650 front 90 (PN CONN_6))
+      (place P3 2050 -3300 front 90 (PN ICSP))
+      (place P4 3900 -3300 front 270 (PN CONN_6))
     )
     (component "SIL-2"
-      (place P5 3900 -3200 front 90 (PN CONN_2))
-      (place P6 3150 -2050 front 180 (PN CONN_2))
-      (place P7 2800 -2050 front 180 (PN CONN_2))
-      (place P2 3625 -2050 front 0 (PN CONN_2))
+      (place P5 2650 -3900 front 180 (PN CONN_2))
+      (place P6 2800 -2050 front 180 (PN CONN_2))
+      (place P7 3150 -2050 front 180 (PN CONN_2))
+      (place P2 2450 -3900 front 0 (PN CONN_2))
     )
     (component SM0402
-      (place R8 3700 -2500 front 90 (PN 0R))
+      (place R8 2550 -3825 front 180 (PN 0R))
     )
     (component SO20L
       (place U1 3050 -3450 front 0 (PN 16F1507))
     )
     (component PIN_ARRAY_2X1
-      (place JP1 3425 -3725 front 90 (PN JUMP_MINI))
+      (place JP1 3450 -3700 front 0 (PN JUMP_MINI))
     )
     (component SM2512
-      (place R5 3105 -2685 front 270 (PN 0R24))
-      (place R6 2850 -2685 front 270 (PN 0R24))
+      (place R5 2850 -2675 front 270 (PN 0R24))
+      (place R6 3100 -2675 front 270 (PN 0R24))
     )
     (component sod123
       (place D9 3600 -3350 front 0 (PN 3V))
     )
     (component SO14E
-      (place U201 3625 -2880 front 270 (PN 4011))
-      (place U202 2390 -2880 front 270 (PN 4081))
+      (place U201 3550 -2900 front 180 (PN 74HC08))
+      (place U204 2450 -2900 front 180 (PN 74HC08))
     )
     (component SOT23_6
       (place U203 3500 -3500 back 90 (PN MOSPAIR))
-      (place U204 2500 -3500 back 270 (PN MOSPAIR))
-      (place U205 3500 -2500 back 90 (PN MOSPAIR))
-      (place U206 2500 -2500 back 270 (PN MOSPAIR))
+      (place U205 2500 -2400 back 270 (PN MOSPAIR))
+      (place U206 2500 -3500 back 270 (PN MOSPAIR))
+      (place U202 3500 -2400 back 90 (PN MOSPAIR))
+    )
+    (component HOLE_M3
+      (place P101 2150 -3825 front 0 (PN 1PIN_TH))
+      (place P102 3825 -3825 front 0 (PN 1PIN_TH))
+      (place P103 2150 -2150 front 0 (PN 1PIN_TH))
+      (place P104 3825 -2150 front 0 (PN 1PIN_TH))
+    )
+    (component SOT23GDS
+      (place Q201 3625 -2500 front 180 (PN 2N7002))
+      (place Q202 3625 -3200 front 90 (PN 2N7002))
+      (place Q203 2525 -2500 front 180 (PN 2N7002))
+      (place Q204 2275 -3175 front 270 (PN 2N7002))
     )
   )
   (library
@@ -251,6 +263,23 @@
       (pin Rect[T]Pad_27.6x39.4_mil 2 0 -50)
       (pin Rect[T]Pad_27.6x39.4_mil 1 -37.5 -50)
     )
+    (image HOLE_M3
+      (outline (path signal 12  137.8 0  131 -42.5  111.4 -80.9  80.9 -111.4  42.5 -131
+            0 -137.8  -42.5 -131  -80.9 -111.4  -111.4 -80.9  -131 -42.5
+            -137.8 0  -131 42.5  -111.4 80.9  -80.9 111.4  -42.5 131  0 137.8
+            42.5 131  80.9 111.4  111.4 80.9  131 42.5))
+      (keepout "" (circle Front 122))
+      (keepout "" (circle Back 122))
+    )
+    (image SOT23GDS
+      (outline (path signal 5  -60 15  60 15))
+      (outline (path signal 5  60 15  60 -15))
+      (outline (path signal 5  60 -15  -60 -15))
+      (outline (path signal 5  -60 -15  -60 15))
+      (pin Rect[T]Pad_36x36_mil S -35 40)
+      (pin Rect[T]Pad_36x36_mil G 35 40)
+      (pin Rect[T]Pad_36x36_mil D 0 -40)
+    )
     (padstack Round[A]Pad_55_mil
       (shape (circle Front 55))
       (shape (circle Back 55))
@@ -279,6 +308,10 @@
     )
     (padstack Rect[T]Pad_35x55_mil
       (shape (rect Front -17.5 -27.5 17.5 27.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_36x36_mil
+      (shape (rect Front -18 -18 18 18))
       (attach off)
     )
     (padstack Rect[A]Pad_55x55_mil
@@ -317,8 +350,7 @@
   )
   (network
     (net +12V
-      (pins P2-1 D1-2 D3-2 D5-2 D7-2 U201-14 U202-14 R203-1 R204-1 R205-2 R206-2 U203-2
-        U204-2 U205-2 U206-2 C201-1 C202-1)
+      (pins P2-1 R203-1 U203-2 U205-2 U206-2 R201-1 R207-1 R208-1 U202-2)
     )
     (net /CSENSE_A
       (pins R2-1 C7-1 P3-4 P4-5 U1-19)
@@ -354,79 +386,116 @@
       (pins P1-1 U1-3)
     )
     (net EN_A
-      (pins P4-1 U1-5 R4-1 U201-5 U201-12 U202-5 U202-12)
+      (pins P4-1 U1-5 R4-1 U201-1 U201-5 U201-8 U201-12)
     )
     (net EN_B
-      (pins P4-3 U1-7 R7-1 U201-1 U201-8 U202-1 U202-8)
+      (pins P4-3 U1-7 R7-1 U204-1 U204-5 U204-8 U204-12)
     )
     (net GND
-      (pins C1-2 C8-2 C7-2 P3-3 P5-2 R8-1 U1-20 R4-2 R7-2 D9-1 U201-7 U202-7 C201-2
-        C202-2)
+      (pins C1-2 C8-2 C7-2 P3-3 P5-2 R8-1 U1-20 R4-2 R7-2 D9-1 U201-7 C201-2 C202-2
+        U204-7 Q201-S Q202-S Q203-S Q204-S)
     )
     (net GNDPWR
       (pins P2-2 R8-2 R5-2 R6-2)
     )
     (net IN_A1
-      (pins P4-2 U1-16 U201-6 U202-13)
+      (pins P4-2 U1-16 U201-2 U201-13)
     )
     (net IN_A2
-      (pins U1-13 U201-13 U202-6)
+      (pins U1-13 U201-6 U201-9)
     )
     (net IN_B1
-      (pins P4-4 U1-15 U201-2 U202-9)
+      (pins P4-4 U1-15 U204-2 U204-13)
     )
     (net IN_B2
-      (pins U1-12 U201-9 U202-2)
-    )
-    (net "N-000032"
-      (pins U201-3 R203-2 U203-3)
-    )
-    (net "N-000033"
-      (pins U201-10 R205-1 U205-3)
-    )
-    (net "N-000034"
-      (pins U202-10 U205-1)
+      (pins U1-12 U204-6 U204-9)
     )
     (net "N-000035"
-      (pins U202-4 U204-1)
+      (pins U201-10 R206-1)
     )
     (net "N-000036"
-      (pins U202-3 U203-1)
+      (pins U201-3 R204-1)
     )
     (net "N-000037"
-      (pins U201-11 R206-1 U206-3)
-    )
-    (net "N-000038"
-      (pins U201-4 R204-2 U204-3)
+      (pins R204-2 Q201-G)
     )
     (net "N-000039"
-      (pins U202-11 U206-1)
+      (pins R212-1 U204-10)
+    )
+    (net "N-000040"
+      (pins R210-2 Q204-D)
+    )
+    (net "N-000041"
+      (pins R202-2 Q201-D)
+    )
+    (net "N-000042"
+      (pins R211-2 Q203-G)
+    )
+    (net "N-000043"
+      (pins R205-2 Q202-D)
+    )
+    (net "N-000044"
+      (pins R209-2 Q203-D)
+    )
+    (net "N-000045"
+      (pins R211-1 U204-3)
+    )
+    (net "N-000046"
+      (pins R206-2 Q202-G)
+    )
+    (net "N-000047"
+      (pins U206-1 U204-11)
+    )
+    (net "N-000048"
+      (pins R203-2 R205-1 U203-3)
+    )
+    (net "N-000049"
+      (pins U201-11 U203-1)
+    )
+    (net "N-000050"
+      (pins U201-4 U202-1)
+    )
+    (net "N-000051"
+      (pins U205-3 R207-2 R209-1)
+    )
+    (net "N-000052"
+      (pins U205-1 U204-4)
+    )
+    (net "N-000053"
+      (pins R201-2 R202-1 U202-3)
+    )
+    (net "N-000054"
+      (pins U206-3 R208-2 R210-1)
+    )
+    (net "N-000055"
+      (pins R212-2 Q204-G)
     )
     (net OUT_A1
-      (pins P7-1 D1-1 D2-2 U204-6 U204-4)
+      (pins P7-1 U202-6 U202-4)
     )
     (net OUT_A2
-      (pins P7-2 D3-1 D4-2 U206-6 U206-4)
+      (pins P7-2 U203-6 U203-4)
     )
     (net OUT_B1
-      (pins P6-2 D5-1 D6-2 U203-6 U203-4)
+      (pins P6-2 U205-6 U205-4)
     )
     (net OUT_B2
-      (pins P6-1 D7-1 D8-2 U205-6 U205-4)
+      (pins P6-1 U206-6 U206-4)
     )
     (net SENSE_A
-      (pins R2-2 D2-1 D4-1 R6-1 U204-5 U206-5)
+      (pins R2-2 R6-1 U203-5 U202-5)
     )
     (net SENSE_B
-      (pins R3-2 D6-1 D8-1 R5-1 U203-5 U205-5)
+      (pins R3-2 R5-1 U205-5 U206-5)
     )
     (net VCC
-      (pins R1-1 C1-1 P3-2 P5-1 U1-1 R9-1)
+      (pins R1-1 C1-1 P3-2 P5-1 U1-1 R9-1 U201-14 C201-1 C202-1 U204-14)
     )
     (class kicad_default "" /CSENSE_A /CSENSE_B /DIR /ICSPCLK /MS1 /MS2 /MS3
-      /STEP /VREF /Vpp /~EN EN_A EN_B GND IN_A1 IN_A2 IN_B1 IN_B2 "N-000032"
-      "N-000033" "N-000034" "N-000035" "N-000036" "N-000037" "N-000038" "N-000039"
-      VCC
+      /STEP /VREF /Vpp /~EN EN_A EN_B GND IN_A1 IN_A2 IN_B1 IN_B2 "N-000035"
+      "N-000036" "N-000037" "N-000039" "N-000040" "N-000041" "N-000042" "N-000043"
+      "N-000044" "N-000045" "N-000046" "N-000047" "N-000048" "N-000049" "N-000050"
+      "N-000051" "N-000052" "N-000053" "N-000054" "N-000055" VCC
       (circuit
         (use_via Via[0-1]_35:25_mil)
       )

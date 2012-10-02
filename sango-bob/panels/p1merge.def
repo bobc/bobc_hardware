@@ -1,0 +1,10 @@
+# panelize 1 x 2
+Row {
+    Proj1
+}
+Row {
+    	Proj2 
+    	Proj2 
+    	Proj2 
+    	Proj2
+}  

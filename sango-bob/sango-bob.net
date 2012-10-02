@@ -1,15 +1,15 @@
-# EESchema Netlist Version 1.1 created  12/09/2012 20:25:54
+# EESchema Netlist Version 1.1 created  28/09/2012 22:24:23
 (
  ( /5048EA8E/5048EAC6 SM0805 C1 20pF
   ( 1 GND )
-  ( 2 N-000083 )
+  ( 2 N-000085 )
  )
  ( /5048EA8E/5048EAC7 SM0805 C2 20pF
   ( 1 GND )
-  ( 2 N-000084 )
+  ( 2 N-000086 )
  )
  ( /5047CBF2/5047CC95 SM0805 C3 330nF
-  ( 1 VMOT )
+  ( 1 +12V )
   ( 2 GND )
  )
  ( /5047CBF2/5047CC9A SM0805 C4 100nF
@@ -17,12 +17,12 @@
   ( 2 GND )
  )
  ( /5047C921/5047CAD4 C1V5H C5 100uF
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047C921/5047CB30 C1V5H C6 100uF
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047D206/5047D3ED SM0805 C7 10uF
   ( 1 THERM_1 )
@@ -33,16 +33,16 @@
   ( 2 GND )
  )
  ( /5047CBF2/5047D0FA C2V10 C9 1000uF
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047C921/504A24C6 C1V5H C10 100uF
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047C921/504A261B C1V5H C11 100uF
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5048EA8E/504CBBC3 SM0805 C12 10uF
   ( 1 VDD )
@@ -72,57 +72,61 @@
   ( 1 VDD )
   ( 2 GND )
  )
+ ( /5047D206/5065B3D0 SM0805 C301 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
  ( /5047CBF2/5047D121 LED-0805 D1 LED
-  ( 1 N-000045 )
+  ( 1 N-000046 )
   ( 2 GND )
  )
  ( /5047C921/5047CA32 PIN_ARRAY_2X1 JP1 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000044 )
+  ( 2 N-000005 )
  )
  ( /5047C921/5047CA42 PIN_ARRAY_2X1 JP2 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000039 )
+  ( 2 N-000003 )
  )
  ( /5047C921/5047CA4B PIN_ARRAY_2X1 JP3 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000038 )
+  ( 2 N-000006 )
  )
  ( /5047C921/5047CB35 PIN_ARRAY_2X1 JP4 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000027 )
+  ( 2 N-000009 )
  )
  ( /5047C921/5047CB34 PIN_ARRAY_2X1 JP5 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000025 )
+  ( 2 N-000022 )
  )
  ( /5047C921/5047CB33 PIN_ARRAY_2X1 JP6 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000026 )
+  ( 2 N-000027 )
  )
  ( /5047C921/504A24C1 PIN_ARRAY_2X1 JP7 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000014 )
+  ( 2 N-000036 )
  )
  ( /5047C921/504A24C2 PIN_ARRAY_2X1 JP8 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000005 )
+  ( 2 N-000042 )
  )
  ( /5047C921/504A24C3 PIN_ARRAY_2X1 JP9 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000004 )
+  ( 2 N-000037 )
  )
  ( /5047C921/504A2620 PIN_ARRAY_2X1 JP10 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000016 )
+  ( 2 N-000045 )
  )
  ( /5047C921/504A261F PIN_ARRAY_2X1 JP11 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000024 )
+  ( 2 N-000029 )
  )
  ( /5047C921/504A261E PIN_ARRAY_2X1 JP12 JUMP_MINI
   ( 1 VDD )
-  ( 2 N-000015 )
+  ( 2 N-000044 )
  )
  ( /5048EA8E/504CBC50 PIN_ARRAY_2X1 JP13 JUMP_MINI
   ( 1 /Sango_CPU/BOOT0 )
@@ -144,25 +148,25 @@
   ( 3 GND )
  )
  ( /5047D206/5047D2DD PIN_ARRAY_3X1 K4 CONN_3
-  ( 1 VMOT )
+  ( 1 +12V )
   ( 2 N-000051 )
   ( 3 +5V )
  )
  ( /5047CBF2/5047CC1B PCB_SCREW_TERM_2 P1 CONN_2
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047C921/5047C9A1 PCB_SCREW_TERM_4 P2 MOT_X
-  ( 1 N-000042 )
-  ( 2 N-000043 )
-  ( 3 N-000036 )
-  ( 4 N-000035 )
+  ( 1 /Sango-steppers/X_1B )
+  ( 2 /Sango-steppers/X_1A )
+  ( 3 /Sango-steppers/X_2A )
+  ( 4 /Sango-steppers/X_2B )
  )
  ( /5047C921/5047CB37 PCB_SCREW_TERM_4 P3 MOT_Y
-  ( 1 N-000034 )
-  ( 2 N-000029 )
-  ( 3 N-000030 )
-  ( 4 N-000031 )
+  ( 1 /Sango-steppers/Y_1B )
+  ( 2 /Sango-steppers/Y_1A )
+  ( 3 /Sango-steppers/Y_2A )
+  ( 4 /Sango-steppers/Y_2B )
  )
  ( /5047D206/5047D3B9 CONN_KK_2.54_2W P4 CONN_2
   ( 1 THERM_1 )
@@ -173,24 +177,24 @@
   ( 2 GND )
  )
  ( /5047D206/5047D5AF CONN_KK_2.54_4W P6 CONN_4
-  ( 1 VMOT )
-  ( 2 VMOT )
-  ( 3 N-000058 )
-  ( 4 N-000058 )
+  ( 1 +12P )
+  ( 2 +12P )
+  ( 3 N-000054 )
+  ( 4 N-000054 )
  )
  ( /5047D206/5047D620 CONN_KK_2.54_2W P7 CONN_2
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047D206/5047D629 CONN_KK_2.54_2W P8 CONN_2
-  ( 1 VMOT )
-  ( 2 GND )
+  ( 1 +12P )
+  ( 2 GNDPWR )
  )
  ( /5047D206/5047D4F6 CONN_KK_2.54_4W P10 CONN_4
-  ( 1 VMOT )
-  ( 2 VMOT )
-  ( 3 N-000057 )
-  ( 4 N-000057 )
+  ( 1 +12P )
+  ( 2 +12P )
+  ( 3 N-000056 )
+  ( 4 N-000056 )
  )
  ( /5047CBF2/5047D1A8 HOLE_M3 P11 1PIN_TH
   ( 1 GND )
@@ -205,16 +209,16 @@
   ( 1 GND )
  )
  ( /5047C921/504A24BF PCB_SCREW_TERM_4 P15 MOT_Z
-  ( 1 N-000012 )
-  ( 2 N-000013 )
-  ( 3 N-000002 )
-  ( 4 N-000001 )
+  ( 1 /Sango-steppers/Z_1B )
+  ( 2 /Sango-steppers/Z_1A )
+  ( 3 /Sango-steppers/Z_2A )
+  ( 4 /Sango-steppers/Z_2B )
  )
  ( /5047C921/504A2622 PCB_SCREW_TERM_4 P16 MOT_E1
-  ( 1 N-000023 )
-  ( 2 N-000018 )
-  ( 3 N-000019 )
-  ( 4 N-000020 )
+  ( 1 /Sango-steppers/E1_1B )
+  ( 2 /Sango-steppers/E1_1A )
+  ( 3 /Sango-steppers/E1_2A )
+  ( 4 /Sango-steppers/E1_2B )
  )
  ( /5047D206/504A2769 PIN_ARRAY-6X1 P20 CONN_6
   ( 1 GND )
@@ -225,21 +229,21 @@
   ( 6 ? )
  )
  ( /5047D206/5047D5B0 TO-220AB_IRF2804_RMC Q1 MOSFET_N_RMC
-  ( D N-000058 )
+  ( D N-000054 )
   ( G FET_2 )
-  ( S GND )
+  ( S GNDPWR )
  )
  ( /5047D206/5047D4CE TO-220AB_IRF2804_RMC Q2 MOSFET_N_RMC
-  ( D N-000057 )
+  ( D N-000056 )
   ( G FET_1 )
-  ( S GND )
+  ( S GNDPWR )
  )
  ( /5047C921/5047CA6C SM0805 R1 100k
-  ( 1 N-000044 )
+  ( 1 N-000005 )
   ( 2 GND )
  )
  ( /5047C921/5047CB32 SM0805 R2 100k
-  ( 1 N-000027 )
+  ( 1 N-000009 )
   ( 2 GND )
  )
  ( /5047D206/5047D403 SM0805 R3 4k7
@@ -251,23 +255,23 @@
   ( 2 THERM_2 )
  )
  ( /5047D206/5047D5AD SM0805 R5 10k
-  ( 1 FET_2 )
-  ( 2 GND )
+  ( 1 GND )
+  ( 2 FET_2 )
  )
  ( /5047D206/5047D53B SM0805 R6 10k
-  ( 1 FET_1 )
-  ( 2 GND )
+  ( 1 GND )
+  ( 2 FET_1 )
  )
  ( /5047CBF2/5047D118 SM0805 R7 1k
   ( 1 +5V )
-  ( 2 N-000045 )
+  ( 2 N-000046 )
  )
  ( /5047C921/504A24C4 SM0805 R8 100k
-  ( 1 N-000014 )
+  ( 1 N-000036 )
   ( 2 GND )
  )
  ( /5047C921/504A261D SM0805 R9 100k
-  ( 1 N-000016 )
+  ( 1 N-000045 )
   ( 2 GND )
  )
  ( /5048EA8E/504CB9A5 SM0805 R10 NF
@@ -286,50 +290,58 @@
   ( 1 /Sango_CPU/BOOT1 )
   ( 2 GND )
  )
+ ( /5047CBF2/5065ABDD SM0402 R401 0R
+  ( 1 +12P )
+  ( 2 +12V )
+ )
+ ( /5047CBF2/5065ABD7 SM0402 R402 0R
+  ( 1 GNDPWR )
+  ( 2 GND )
+ )
  ( /5048EA8E/504CB9A6 SW_6x6_MULTI SW1 RST
   ( 1 GND )
   ( 2 /Sango_CPU/nRESET )
  )
  ( /5047CBF2/5047CC85 LM78XXV U1 7805
   ( GND GND )
-  ( VI VMOT )
+  ( VI +12V )
   ( VO +5V )
  )
- ( /5047C921/5047C947 POLOLU U2 POLOLU-X
-  ( 1 VMOT )
-  ( 2 GND )
-  ( 3 N-000042 )
-  ( 4 N-000043 )
-  ( 5 N-000036 )
-  ( 6 N-000035 )
-  ( 7 VDD )
-  ( 8 GND )
-  ( 9 DIR_X )
-  ( 10 STEP_X )
-  ( 11 N-000037 )
-  ( 12 N-000037 )
-  ( 13 N-000038 )
-  ( 14 N-000039 )
-  ( 15 N-000044 )
-  ( 16 STEP_EN )
+ ( /5047C921/5047C947 POLOLU-EX U2 POLOLU-X
+  ( 1 STEP_EN )
+  ( 2 N-000005 )
+  ( 3 N-000003 )
+  ( 4 N-000006 )
+  ( 5 N-000007 )
+  ( 6 N-000007 )
+  ( 7 STEP_X )
+  ( 8 DIR_X )
+  ( 9 GND )
+  ( 10 VDD )
+  ( 11 /Sango-steppers/X_1B )
+  ( 12 /Sango-steppers/X_1A )
+  ( 13 /Sango-steppers/X_2A )
+  ( 14 /Sango-steppers/X_2B )
+  ( 15 GNDPWR )
+  ( 16 +12P )
  )
- ( /5047C921/5047CB3A POLOLU U3 POLOLU-Y
-  ( 1 VMOT )
-  ( 2 GND )
-  ( 3 N-000034 )
-  ( 4 N-000029 )
-  ( 5 N-000030 )
-  ( 6 N-000031 )
-  ( 7 VDD )
-  ( 8 GND )
-  ( 9 DIR_Y )
-  ( 10 STEP_Y )
-  ( 11 N-000033 )
-  ( 12 N-000033 )
-  ( 13 N-000026 )
-  ( 14 N-000025 )
-  ( 15 N-000027 )
-  ( 16 STEP_EN )
+ ( /5047C921/5047CB3A POLOLU-EX U3 POLOLU-Y
+  ( 1 STEP_EN )
+  ( 2 N-000009 )
+  ( 3 N-000022 )
+  ( 4 N-000027 )
+  ( 5 N-000025 )
+  ( 6 N-000025 )
+  ( 7 STEP_Y )
+  ( 8 DIR_Y )
+  ( 9 GND )
+  ( 10 VDD )
+  ( 11 /Sango-steppers/Y_1B )
+  ( 12 /Sango-steppers/Y_1A )
+  ( 13 /Sango-steppers/Y_2A )
+  ( 14 /Sango-steppers/Y_2B )
+  ( 15 GNDPWR )
+  ( 16 +12P )
  )
  ( /5047CBF2/5047CFB9 SOT223 U4 1117
   ( 1 GND )
@@ -337,49 +349,49 @@
   ( 3 +5V )
   ( 4 VDD )
  )
- ( /5047C921/504A24BD POLOLU U5 POLOLU-Z
-  ( 1 VMOT )
-  ( 2 GND )
-  ( 3 N-000012 )
-  ( 4 N-000013 )
-  ( 5 N-000002 )
-  ( 6 N-000001 )
-  ( 7 VDD )
-  ( 8 GND )
-  ( 9 DIR_Z )
-  ( 10 STEP_Z )
-  ( 11 N-000003 )
-  ( 12 N-000003 )
-  ( 13 N-000004 )
-  ( 14 N-000005 )
-  ( 15 N-000014 )
-  ( 16 STEP_EN )
+ ( /5047C921/504A24BD POLOLU-EX U5 POLOLU-Z
+  ( 1 STEP_EN )
+  ( 2 N-000036 )
+  ( 3 N-000042 )
+  ( 4 N-000037 )
+  ( 5 N-000038 )
+  ( 6 N-000038 )
+  ( 7 STEP_Z )
+  ( 8 DIR_Z )
+  ( 9 GND )
+  ( 10 VDD )
+  ( 11 /Sango-steppers/Z_1B )
+  ( 12 /Sango-steppers/Z_1A )
+  ( 13 /Sango-steppers/Z_2A )
+  ( 14 /Sango-steppers/Z_2B )
+  ( 15 GNDPWR )
+  ( 16 +12P )
  )
- ( /5047C921/504A2624 POLOLU U6 POLOLU-E1
-  ( 1 VMOT )
-  ( 2 GND )
-  ( 3 N-000023 )
-  ( 4 N-000018 )
-  ( 5 N-000019 )
-  ( 6 N-000020 )
-  ( 7 VDD )
-  ( 8 GND )
-  ( 9 DIR_E1 )
-  ( 10 STEP_E1 )
-  ( 11 N-000022 )
-  ( 12 N-000022 )
-  ( 13 N-000015 )
-  ( 14 N-000024 )
-  ( 15 N-000016 )
-  ( 16 STEP_EN )
+ ( /5047C921/504A2624 POLOLU-EX U6 POLOLU-E1
+  ( 1 STEP_EN )
+  ( 2 N-000045 )
+  ( 3 N-000029 )
+  ( 4 N-000044 )
+  ( 5 N-000043 )
+  ( 6 N-000043 )
+  ( 7 STEP_E1 )
+  ( 8 DIR_E1 )
+  ( 9 GND )
+  ( 10 VDD )
+  ( 11 /Sango-steppers/E1_1B )
+  ( 12 /Sango-steppers/E1_1A )
+  ( 13 /Sango-steppers/E1_2A )
+  ( 14 /Sango-steppers/E1_2B )
+  ( 15 GNDPWR )
+  ( 16 +12P )
  )
  ( /5048EA8E/504BAEA1 QFP48_0.5mm_7x7mm_SOT313_LPC1343 U7 STM32F100_48
   ( 1 VDD )
   ( 2 ? )
   ( 3 ? )
   ( 4 ? )
-  ( 5 N-000083 )
-  ( 6 N-000084 )
+  ( 5 N-000085 )
+  ( 6 N-000086 )
   ( 7 /Sango_CPU/nRESET )
   ( 8 GND )
   ( 9 VDD )
@@ -448,8 +460,8 @@
   ( 10 ? )
  )
  ( /5048EA8E/5048EAC8 HC49-US_Minimized X1 8MHz
-  ( 1 N-000084 )
-  ( 2 N-000083 )
+  ( 1 N-000086 )
+  ( 2 N-000085 )
  )
 )
 *
@@ -533,6 +545,11 @@ $component C17
  C1-1
 $endlist
 $component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C301
  SM*
  C?
  C1-1
@@ -631,6 +648,20 @@ $component R12
  SM1206
 $endlist
 $component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R401
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R402
  R?
  SM0603
  SM0805

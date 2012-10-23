@@ -1,0 +1,360 @@
+# EESchema Netlist Version 1.1 created  19/08/2012 13:44:37
+(
+ ( /502FD3F0 SM0603_Capa C1 20pF
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /502FD3F5 SM0603_Capa C2 20pF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /502FD443 SM0805 C3 C
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50300AAD SM0805 C4 10uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50300B0B SM0805 C5 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50300FEB SM0805 C6 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50300FED SM0805 C7 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50301045 SM0805 C8 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5030109A SM0805 C9 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /503027EE SM0805 D1 LED
+  ( 1 /LED )
+  ( 2 N-000047 )
+ )
+ ( /502FD62D 1Pin_2.54mm P1 1PIN_TH
+  ( 1 /nRESET )
+ )
+ ( /502FD577 1Pin_2.54mm P2 1PIN_TH
+  ( 1 N-000042 )
+ )
+ ( /502FD581 1Pin_2.54mm P3 1PIN_TH
+  ( 1 N-000041 )
+ )
+ ( /502FD613 1Pin_2.54mm P4 1PIN_TH
+  ( 1 N-000021 )
+ )
+ ( /502FD612 1Pin_2.54mm P5 1PIN_TH
+  ( 1 N-000019 )
+ )
+ ( /502FD583 1Pin_2.54mm P6 1PIN_TH
+  ( 1 N-000009 )
+ )
+ ( /502FD584 1Pin_2.54mm P7 1PIN_TH
+  ( 1 N-000013 )
+ )
+ ( /502FD585 1Pin_2.54mm P8 1PIN_TH
+  ( 1 N-000010 )
+ )
+ ( /502FD586 1Pin_2.54mm P9 1PIN_TH
+  ( 1 N-000031 )
+ )
+ ( /502FD588 1Pin_2.54mm P10 1PIN_TH
+  ( 1 N-000028 )
+ )
+ ( /502FD58A 1Pin_2.54mm P11 1PIN_TH
+  ( 1 N-000025 )
+ )
+ ( /502FD58B 1Pin_2.54mm P12 1PIN_TH
+  ( 1 /LED )
+ )
+ ( /502FD58E 1Pin_2.54mm P13 1PIN_TH
+  ( 1 N-000020 )
+ )
+ ( /502FD58F 1Pin_2.54mm P14 1PIN_TH
+  ( 1 N-000017 )
+ )
+ ( /502FD59F 1Pin_2.54mm P15 1PIN_TH
+  ( 1 N-000014 )
+ )
+ ( /502FD594 1Pin_2.54mm P16 1PIN_TH
+  ( 1 N-000012 )
+ )
+ ( /502FD595 1Pin_2.54mm P17 1PIN_TH
+  ( 1 /SWDIO )
+ )
+ ( /502FD597 1Pin_2.54mm P18 1PIN_TH
+  ( 1 /SWDCLK )
+ )
+ ( /502FD599 1Pin_2.54mm P19 1PIN_TH
+  ( 1 N-000023 )
+ )
+ ( /502FD646 1Pin_2.54mm P20 1PIN_TH
+  ( 1 GND )
+ )
+ ( /502FD645 1Pin_2.54mm P21 1PIN_TH
+  ( 1 VDD )
+ )
+ ( /502FD63A 1Pin_2.54mm P22 1PIN_TH
+  ( 1 N-000043 )
+ )
+ ( /502FD635 1Pin_2.54mm P23 1PIN_TH
+  ( 1 /BOOT0 )
+ )
+ ( /502FD531 1Pin_2.54mm P24 1PIN_TH
+  ( 1 N-000034 )
+ )
+ ( /502FD53D 1Pin_2.54mm P25 1PIN_TH
+  ( 1 N-000035 )
+ )
+ ( /502FD542 1Pin_2.54mm P26 1PIN_TH
+  ( 1 /BOOT1 )
+ )
+ ( /502FD547 1Pin_2.54mm P27 1PIN_TH
+  ( 1 N-000037 )
+ )
+ ( /502FD549 1Pin_2.54mm P28 1PIN_TH
+  ( 1 N-000038 )
+ )
+ ( /502FD54E 1Pin_2.54mm P29 1PIN_TH
+  ( 1 N-000040 )
+ )
+ ( /502FD54A 1Pin_2.54mm P30 1PIN_TH
+  ( 1 N-000039 )
+ )
+ ( /502FD550 1Pin_2.54mm P31 1PIN_TH
+  ( 1 N-000011 )
+ )
+ ( /502FD566 1Pin_2.54mm P32 1PIN_TH
+  ( 1 N-000029 )
+ )
+ ( /502FD555 1Pin_2.54mm P33 1PIN_TH
+  ( 1 N-000026 )
+ )
+ ( /502FD557 1Pin_2.54mm P34 1PIN_TH
+  ( 1 N-000018 )
+ )
+ ( /502FD55A 1Pin_2.54mm P35 1PIN_TH
+  ( 1 N-000015 )
+ )
+ ( /502FD56D 1Pin_2.54mm P36 1PIN_TH
+  ( 1 N-000030 )
+ )
+ ( /502FD56E 1Pin_2.54mm P37 1PIN_TH
+  ( 1 N-000027 )
+ )
+ ( /502FD56F 1Pin_2.54mm P38 1PIN_TH
+  ( 1 N-000022 )
+ )
+ ( /502FD570 1Pin_2.54mm P39 1PIN_TH
+  ( 1 N-000024 )
+ )
+ ( /5030DF56 1Pin_2.54mm P40 1PIN_TH
+  ( 1 VIN )
+ )
+ ( /502FD8CC SM0805 R1 NF
+  ( 1 VDD )
+  ( 2 /nRESET )
+ )
+ ( /50300549 SM0805 R2 12k
+  ( 1 /BOOT0 )
+  ( 2 GND )
+ )
+ ( /50300092 SM0805 R3 10k
+  ( 1 VDD )
+  ( 2 /BOOT1 )
+ )
+ ( /503004C5 SM0805 R4 510
+  ( 1 /BOOT1 )
+  ( 2 GND )
+ )
+ ( /503027FC SM0805 R5 510
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /502FD8B7 SW_APEM_ADTSM3 SW1 RST
+  ( 1 GND )
+  ( 2 /nRESET )
+ )
+ ( /5030132C SW_APEM_ADTSM3 SW2 BOOT
+  ( 1 /BOOT0 )
+  ( 2 VDD )
+ )
+ ( /502FD433 SOT23-5 U1 SP6205
+  ( 1 VIN )
+  ( 2 GND )
+  ( 3 VIN )
+  ( 4 ? )
+  ( 5 VDD )
+ )
+ ( /502FD36B QFP48_0.5mm_7x7mm_SOT313_LPC1343 U2 STM32F100_48
+  ( 1 VDD )
+  ( 2 N-000043 )
+  ( 3 N-000042 )
+  ( 4 N-000041 )
+  ( 5 N-000045 )
+  ( 6 N-000044 )
+  ( 7 /nRESET )
+  ( 8 GND )
+  ( 9 VDD )
+  ( 10 N-000021 )
+  ( 11 N-000019 )
+  ( 12 N-000009 )
+  ( 13 N-000013 )
+  ( 14 N-000010 )
+  ( 15 N-000031 )
+  ( 16 N-000028 )
+  ( 17 N-000025 )
+  ( 18 N-000034 )
+  ( 19 N-000035 )
+  ( 20 /BOOT1 )
+  ( 21 N-000018 )
+  ( 22 N-000015 )
+  ( 23 GND )
+  ( 24 VDD )
+  ( 25 N-000030 )
+  ( 26 N-000027 )
+  ( 27 N-000022 )
+  ( 28 N-000024 )
+  ( 29 /LED )
+  ( 30 N-000020 )
+  ( 31 N-000017 )
+  ( 32 N-000014 )
+  ( 33 N-000012 )
+  ( 34 /SWDIO )
+  ( 35 GND )
+  ( 36 VDD )
+  ( 37 /SWDCLK )
+  ( 38 N-000023 )
+  ( 39 N-000037 )
+  ( 40 N-000038 )
+  ( 41 N-000040 )
+  ( 42 N-000039 )
+  ( 43 N-000011 )
+  ( 44 /BOOT0 )
+  ( 45 N-000029 )
+  ( 46 N-000026 )
+  ( 47 GND )
+  ( 48 VDD )
+ )
+ ( /502FD688 Pin_Array_5x2_1.27mm_RMC U3 CONN_CORTEX_DEBUG
+  ( 1 VDD )
+  ( 2 /SWDIO )
+  ( 3 GND )
+  ( 4 /SWDCLK )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 GND )
+  ( 10 /nRESET )
+ )
+ ( /502FD3C6 XTAL-SM-TXC-7A X1 8MHz
+  ( 1 N-000045 )
+  ( 2 N-000044 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ SOT23-5
+$endlist
+$endfootprintlist
+}

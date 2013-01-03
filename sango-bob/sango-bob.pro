@@ -1,4 +1,4 @@
-update=09/09/2012 12:42:20
+update=31/12/2012 18:42:06
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -79,9 +79,9 @@ LibName31=RMC
 LibName32=opendous
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=551
+PadDimH=984
+PadDimV=984
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -92,7 +92,7 @@ VEgarde=100
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=150
+MSegLar=80
 LastNetListRead=sango-bob.net
 [pcbnew/libraries]
 LibDir=../KiCAD_Libraries/modules
@@ -108,3 +108,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=RMC
 LibName12=opendous
+LibName13=C:/Users/bob/Downloads/models/all/con-molex

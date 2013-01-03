@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 16/09/2012 17:10:50
+Cmp-Mod V01 Genere par PcbNew le 03/01/2013 13:34:49
 
 BeginCmp
 TimeStamp = /5055E0FE;
@@ -117,6 +117,13 @@ TimeStamp = /5055E0F7;
 Reference = RV1;
 ValeurCmp = 10k;
 IdModule  = TRIM-EVM3Y-RMC;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E585C9;
+Reference = TP1;
+ValeurCmp = VREF;
+IdModule  = TEST_POINT_1.5MM_RMC;
 EndCmp
 
 BeginCmp

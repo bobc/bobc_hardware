@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 02/01/2013 00:55:52
+EESchema-DOCLIB  Version 2.0  Date: 16/01/2013 21:08:21
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -15,6 +15,21 @@ $ENDCMP
 $CMP AT91SAM7S321
 D Atmel AT91SAM7S321
 K AT91
+$ENDCMP
+#
+$CMP C36_AB_RMC
+D Connecteur <Europe> 36 contacts rangees A et B
+K CONN DIN
+$ENDCMP
+#
+$CMP C64_AB_RMC
+D Connecteur <Europe> 64 contacts rangees A et B
+K CONN DIN
+$ENDCMP
+#
+$CMP C98_AB_RMC
+D Connecteur 98 contacts rangees A et B
+K CONN DIN
 $ENDCMP
 #
 $CMP DB25_RMC
@@ -45,6 +60,11 @@ $ENDCMP
 $CMP R2C2_CONNECTOR
 D R2C2 Shield Connector
 K R2C2
+$ENDCMP
+#
+$CMP RESONATOR
+D Resonator with load capacitors
+K resonator
 $ENDCMP
 #
 $CMP SP6205

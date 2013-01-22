@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/01/2013 21:08:21
+EESchema-DOCLIB  Version 2.0  Date: 22/01/2013 21:02:45
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -47,6 +47,10 @@ $ENDCMP
 #
 $CMP LPC11XX_HVQFN33
 D LPC11xx
+$ENDCMP
+#
+$CMP LPC13XX_HVQFN33
+D LPC13xx
 $ENDCMP
 #
 $CMP MOSFET_N

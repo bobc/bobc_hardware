@@ -1,1005 +1,1017 @@
-# EESchema Netlist Version 1.1 created  03/01/2013 11:33:52
+# EESchema Netlist Version 1.1 created  22/01/2013 21:37:28
 (
- ( /5071C6A3/5071D641 C1V5 C201 100uF
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /5071C6A3/50E21155 SM0805 C202 0.1uF
-  ( 1 N-000072 )
-  ( 2 N-000081 )
- )
- ( /5071C6A3/50D6033E SM0805 C203 0.22uF
-  ( 1 N-000076 )
-  ( 2 GND )
- )
- ( /5071C6A3/50E21154 SM0805 C204 0.1uF
-  ( 1 N-000082 )
-  ( 2 /Stepper-X/VMOT )
- )
- ( /5071C6A3/50D4DDA8 SM0805 C205 0.22uF
-  ( 1 GND )
-  ( 2 VCC )
- )
- ( /5071C6A3/50E21149 SM0805 C206 4.7uF
-  ( 1 /Stepper-X/MOTGND )
-  ( 2 /Stepper-X/VMOT )
- )
- ( /5071C6A3/50E21148 SM0805 C207 0.1uF
-  ( 1 /Stepper-X/MOTGND )
-  ( 2 /Stepper-X/VMOT )
- )
- ( /5071C6A3/50D60331 SM0805 C208 0.1uF
-  ( 1 /Stepper-X/MOTGND )
-  ( 2 /Stepper-X/VMOT )
- )
- ( /5048EA8E/5048EAC6 SM0805 C301 20pF
-  ( 1 GND )
-  ( 2 N-000059 )
- )
- ( /5048EA8E/5048EAC7 SM0805 C302 20pF
-  ( 1 GND )
-  ( 2 N-000042 )
- )
- ( /5048EA8E/504CBBC3 SM0805 C303 10uF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/504CBBDF SM0805 C304 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/504CBBE9 SM0805 C305 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/504CBBEB SM0805 C306 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/504CBBED SM0805 C307 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/504CBBEE SM0805 C308 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/50D9BF32 SM0805 C309 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5048EA8E/50D99C8F SM0805 C310 4n7
-  ( 1 /Sango_CPU/GND_USB )
-  ( 2 GND )
- )
- ( /5047D206/5047D3ED SM0805 C401 10uF
-  ( 1 THERM_1 )
-  ( 2 GND )
- )
- ( /5047D206/5047D499 SM0805 C402 10uF
-  ( 1 THERM_2 )
-  ( 2 GND )
- )
- ( /5047D206/5065B3D0 SM0805 C403 100nF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5047CBF2/5047CC95 SM0805 C501 330nF
-  ( 1 +12V )
-  ( 2 GND )
- )
- ( /5047CBF2/5047CC9A SM0805 C502 100nF
-  ( 1 +5V )
-  ( 2 GND )
- )
- ( /5047CBF2/504D1B3E SM0805 C503 10uF
-  ( 1 VCC )
-  ( 2 GND )
- )
- ( /5047CBF2/5047D0FA C2V8 C504 1000uF
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /50E20F62/50E23B8C C1V5 C701 100uF
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /50E20F62/50D60340 SM0805 C702 0.1uF
-  ( 1 N-000094 )
-  ( 2 N-000093 )
- )
- ( /50E20F62/50E23BB9 SM0805 C703 0.22uF
-  ( 1 N-000100 )
-  ( 2 GND )
- )
- ( /50E20F62/50E23B7E SM0805 C704 0.1uF
-  ( 1 N-000099 )
-  ( 2 /Stepper-Y/VMOT )
- )
- ( /50E20F62/50E2113E SM0805 C705 0.22uF
-  ( 1 GND )
-  ( 2 VCC )
- )
- ( /50E20F62/50D60333 SM0805 C706 4.7uF
-  ( 1 /Stepper-Y/MOTGND )
-  ( 2 /Stepper-Y/VMOT )
- )
- ( /50E20F62/50D60332 SM0805 C707 0.1uF
-  ( 1 /Stepper-Y/MOTGND )
-  ( 2 /Stepper-Y/VMOT )
- )
- ( /50E20F62/50E21147 SM0805 C708 0.1uF
-  ( 1 /Stepper-Y/MOTGND )
-  ( 2 /Stepper-Y/VMOT )
- )
- ( /50E238E5/50E23B8D C1V5 C801 100uF
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /50E238E5/50E23B80 SM0805 C802 0.1uF
-  ( 1 N-000121 )
-  ( 2 N-000120 )
- )
- ( /50E238E5/50E21153 SM0805 C803 0.22uF
-  ( 1 N-000119 )
-  ( 2 GND )
- )
- ( /50E238E5/50D6033F SM0805 C804 0.1uF
-  ( 1 N-000111 )
-  ( 2 /Stepper-Z/VMOT )
- )
- ( /50E238E5/50E23B9C SM0805 C805 0.22uF
-  ( 1 GND )
-  ( 2 VCC )
- )
- ( /50E238E5/50E23B76 SM0805 C806 4.7uF
-  ( 1 /Stepper-Z/MOTGND )
-  ( 2 /Stepper-Z/VMOT )
- )
- ( /50E238E5/50E23B74 SM0805 C807 0.1uF
-  ( 1 /Stepper-Z/MOTGND )
-  ( 2 /Stepper-Z/VMOT )
- )
- ( /50E238E5/50E23BAA SM0805 C808 0.1uF
-  ( 1 /Stepper-Z/MOTGND )
-  ( 2 /Stepper-Z/VMOT )
- )
- ( /50E23918/50E21136 C1V5 C901 100uF
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /50E23918/50E23B81 SM0805 C902 0.1uF
-  ( 1 N-000146 )
-  ( 2 N-000132 )
- )
- ( /50E23918/50E23BB8 SM0805 C903 0.22uF
-  ( 1 N-000137 )
-  ( 2 GND )
- )
- ( /50E23918/50E23B7F SM0805 C904 0.1uF
-  ( 1 N-000131 )
-  ( 2 /Stepper-E1/VMOT )
- )
- ( /50E23918/50E23B9D SM0805 C905 0.22uF
-  ( 1 GND )
-  ( 2 VCC )
- )
- ( /50E23918/50E23B77 SM0805 C906 4.7uF
-  ( 1 /Stepper-E1/MOTGND )
-  ( 2 /Stepper-E1/VMOT )
- )
- ( /50E23918/50E23B75 SM0805 C907 0.1uF
-  ( 1 /Stepper-E1/MOTGND )
-  ( 2 /Stepper-E1/VMOT )
- )
- ( /50E23918/50E23BAB SM0805 C908 0.1uF
-  ( 1 /Stepper-E1/MOTGND )
-  ( 2 /Stepper-E1/VMOT )
- )
- ( /5048EA8E/50E041EA LED-0805_RED D301 LED
-  ( 1 N-000061 )
-  ( 2 N-000063 )
- )
- ( /5047CBF2/5047D121 LED-0805_RED D501 LED
-  ( 1 N-000004 )
-  ( 2 GND )
- )
- ( /5047CBF2/50E38384 HOLE_M3 H501 HOLE_RMC
- )
- ( /5047CBF2/50E38387 HOLE_M3 H502 HOLE_RMC
- )
- ( /5047CBF2/50E38388 HOLE_M3 H503 HOLE_RMC
- )
- ( /5047CBF2/50E38389 HOLE_M3 H504 HOLE_RMC
- )
- ( /5071C6A3/5071D646 PIN_ARRAY_2X1 JP201 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-X/MS1 )
- )
- ( /5071C6A3/5071D645 PIN_ARRAY_2X1 JP202 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-X/MS2 )
- )
- ( /5071C6A3/5071D644 PIN_ARRAY_2X1 JP203 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-X/MS3 )
- )
- ( /5048EA8E/504CBC50 PIN_ARRAY_2X1 JP301 JUMP_MINI
-  ( 1 /Sango_CPU/BOOT0 )
-  ( 2 VCC )
- )
- ( /5047D206/50E04C56 PIN_ARRAY_3X1 JP401 V_SEL
-  ( 1 +12V )
-  ( 2 N-000019 )
-  ( 3 +5V )
- )
- ( /50E20F62/50E2113B PIN_ARRAY_2X1 JP701 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Y/MS1 )
- )
- ( /50E20F62/50E23B94 PIN_ARRAY_2X1 JP702 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Y/MS2 )
- )
- ( /50E20F62/50E23B93 PIN_ARRAY_2X1 JP703 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Y/MS3 )
- )
- ( /50E238E5/50E23B96 PIN_ARRAY_2X1 JP801 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Z/MS1 )
- )
- ( /50E238E5/50E23B95 PIN_ARRAY_2X1 JP802 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Z/MS2 )
- )
- ( /50E238E5/50E23B92 PIN_ARRAY_2X1 JP803 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-Z/MS3 )
- )
- ( /50E23918/50E23B97 PIN_ARRAY_2X1 JP901 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-E1/MS1 )
- )
- ( /50E23918/50E2113A PIN_ARRAY_2X1 JP902 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-E1/MS2 )
- )
- ( /50E23918/50E21139 PIN_ARRAY_2X1 JP903 JUMP_MINI
-  ( 1 VCC )
-  ( 2 /Stepper-E1/MS3 )
- )
- ( /5047D206/5047D24E CONN_KK_2.54_3W K401 X_STOP
-  ( 1 X_STOP )
-  ( 2 N-000019 )
-  ( 3 GND )
- )
- ( /5047D206/5047D246 CONN_KK_2.54_3W K403 Y_STOP
-  ( 1 Y_STOP )
-  ( 2 N-000019 )
-  ( 3 GND )
- )
- ( /5047D206/5047D23B CONN_KK_2.54_3W K404 Z_STOP
-  ( 1 Z_STOP )
-  ( 2 N-000019 )
-  ( 3 GND )
- )
- ( /5071C6A3/50D4DDAB PIN_ARRAY_8x1_F P201 CONN_8
-  ( 1 STEP_EN )
-  ( 2 /Stepper-X/MS1 )
-  ( 3 /Stepper-X/MS2 )
-  ( 4 /Stepper-X/MS3 )
-  ( 5 VCC )
-  ( 6 VCC )
-  ( 7 STEP_X )
-  ( 8 DIR_X )
- )
- ( /5071C6A3/50D57E1A PIN_ARRAY_8x1_F P202 CONN_8
-  ( 1 /Stepper-X/VMOT )
-  ( 2 /Stepper-X/MOTGND )
-  ( 3 /Stepper-X/2B )
-  ( 4 /Stepper-X/2A )
-  ( 5 /Stepper-X/1A )
-  ( 6 /Stepper-X/1B )
-  ( 7 VCC )
-  ( 8 GND )
- )
- ( /5071C6A3/5071D648 CONN_KK_2.54_4W P203 MOT_X
-  ( 1 /Stepper-X/2B )
-  ( 2 /Stepper-X/2A )
-  ( 3 /Stepper-X/1A )
-  ( 4 /Stepper-X/1B )
- )
- ( /5048EA8E/50D4B3A9 PIN_ARRAY_6x2_RMC P301 CONN_6X2
-  ( 1 GND )
-  ( 2 /Sango_CPU/EEP_SCL )
-  ( 3 /Sango_CPU/SPARE3 )
-  ( 4 /Sango_CPU/EEP_SDA )
-  ( 5 /Sango_CPU/SPARE4 )
-  ( 6 /Sango_CPU/SPARE1 )
-  ( 7 SERIAL_RX )
-  ( 8 /Sango_CPU/SPARE2 )
-  ( 9 SERIAL_TX )
-  ( 10 ? )
-  ( 11 +5V )
-  ( 12 VCC )
- )
- ( /5047D206/5047D620 CONN_KK_2.54_2W P401 AUXPWR1
-  ( 1 +12P )
-  ( 2 N-000010 )
- )
- ( /5047D206/5047D629 CONN_KK_2.54_2W P402 AUXPWR2
-  ( 1 +12P )
-  ( 2 N-000007 )
- )
- ( /5047D206/504A2769 PIN_ARRAY-6X1 P403 SERIAL
-  ( 1 GND )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 SERIAL_RX )
-  ( 5 SERIAL_TX )
-  ( 6 ? )
- )
- ( /5047D206/50D2556B CONN_KK_2.54_2W_RA P404 HEATER_1
-  ( 1 N-000027 )
-  ( 2 +12P )
- )
- ( /5047D206/5047D3B9 CONN_KK_2.54_2W P405 THERM_1
-  ( 1 THERM_1 )
-  ( 2 GND )
- )
- ( /5047D206/5047D49B CONN_KK_2.54_2W P406 THERM_2
-  ( 1 THERM_2 )
-  ( 2 GND )
- )
- ( /5047D206/50D25571 PCB_SCREW_TERM_2 P407 HEATER_2
-  ( 1 +12P )
-  ( 2 N-000017 )
- )
- ( /5047D206/50D8731C PCB_SCREW_TERM_2 P408 HEATER_1
-  ( 1 +12P )
-  ( 2 N-000027 )
- )
- ( /5047CBF2/5047CC1B PCB_SCREW_TERM_2 P501 PWR_12V
-  ( 1 +12P )
-  ( 2 GNDPWR )
- )
- ( /5047CBF2/50E1D128 con-molex-5566-4 P506 PWR_12V
-  ( 1 GNDPWR )
-  ( 2 GNDPWR )
-  ( 3 +12P )
-  ( 4 +12P )
- )
- ( /50E20F62/50E23B9F PIN_ARRAY_8x1_F P701 CONN_8
-  ( 1 STEP_EN )
-  ( 2 /Stepper-Y/MS1 )
-  ( 3 /Stepper-Y/MS2 )
-  ( 4 /Stepper-Y/MS3 )
-  ( 5 VCC )
-  ( 6 VCC )
-  ( 7 STEP_Y )
-  ( 8 DIR_Y )
- )
- ( /50E20F62/50E21140 PIN_ARRAY_8x1_F P702 CONN_8
-  ( 1 /Stepper-Y/VMOT )
-  ( 2 /Stepper-Y/MOTGND )
-  ( 3 /Stepper-Y/2B )
-  ( 4 /Stepper-Y/2A )
-  ( 5 /Stepper-Y/1A )
-  ( 6 /Stepper-Y/1B )
-  ( 7 VCC )
-  ( 8 GND )
- )
- ( /50E20F62/50E2113D CONN_KK_2.54_4W_RA P703 MOT_Y
-  ( 1 /Stepper-Y/2B )
-  ( 2 /Stepper-Y/2A )
-  ( 3 /Stepper-Y/1A )
-  ( 4 /Stepper-Y/1B )
- )
- ( /50E238E5/50E2113F PIN_ARRAY_8x1_F P801 CONN_8
-  ( 1 STEP_EN )
-  ( 2 /Stepper-Z/MS1 )
-  ( 3 /Stepper-Z/MS2 )
-  ( 4 /Stepper-Z/MS3 )
-  ( 5 VCC )
-  ( 6 VCC )
-  ( 7 STEP_Z )
-  ( 8 DIR_Z )
- )
- ( /50E238E5/50E23BA0 PIN_ARRAY_8x1_F P802 CONN_8
-  ( 1 /Stepper-Z/VMOT )
-  ( 2 /Stepper-Z/MOTGND )
-  ( 3 /Stepper-Z/2B )
-  ( 4 /Stepper-Z/2A )
-  ( 5 /Stepper-Z/1A )
-  ( 6 /Stepper-Z/1B )
-  ( 7 VCC )
-  ( 8 GND )
- )
- ( /50E238E5/50E23B9A CONN_KK_2.54_4W_RA P803 MOT_Z
-  ( 1 /Stepper-Z/2B )
-  ( 2 /Stepper-Z/2A )
-  ( 3 /Stepper-Z/1A )
-  ( 4 /Stepper-Z/1B )
- )
- ( /50E238E5/50E23AD9 CONN_KK_2.54_4W_RA P804 MOT_Z
-  ( 1 /Stepper-Z/2B )
-  ( 2 /Stepper-Z/2A )
-  ( 3 /Stepper-Z/1A )
-  ( 4 /Stepper-Z/1B )
- )
- ( /50E23918/50E23B9E PIN_ARRAY_8x1_F P901 CONN_8
-  ( 1 STEP_EN )
-  ( 2 /Stepper-E1/MS1 )
-  ( 3 /Stepper-E1/MS2 )
-  ( 4 /Stepper-E1/MS3 )
-  ( 5 VCC )
-  ( 6 VCC )
-  ( 7 STEP_E1 )
-  ( 8 DIR_E1 )
- )
- ( /50E23918/50E23BA1 PIN_ARRAY_8x1_F P902 CONN_8
-  ( 1 /Stepper-E1/VMOT )
-  ( 2 /Stepper-E1/MOTGND )
-  ( 3 /Stepper-E1/2B )
-  ( 4 /Stepper-E1/2A )
-  ( 5 /Stepper-E1/1A )
-  ( 6 /Stepper-E1/1B )
-  ( 7 VCC )
-  ( 8 GND )
- )
- ( /50E23918/50E23B9B CONN_KK_2.54_4W_RA P903 MOT_E1
-  ( 1 /Stepper-E1/2B )
-  ( 2 /Stepper-E1/2A )
-  ( 3 /Stepper-E1/1A )
-  ( 4 /Stepper-E1/1B )
- )
- ( /5048EA8E/50D8F060 SOT23EBC Q301 BSS84
-  ( 1 N-000065 )
-  ( 2 VCC )
-  ( 3 N-000058 )
- )
- ( /5048EA8E/50E0427E SOT23GDS Q302 2N7002
-  ( D N-000063 )
-  ( G /Sango_CPU/BOOT1 )
-  ( S GND )
- )
- ( /5047D206/50D2576D SOT23GDS Q401 2N7002
-  ( D N-000010 )
-  ( G AUX_1 )
-  ( S GNDPWR )
- )
- ( /5047D206/50D4B470 SOT23GDS Q402 2N7002
-  ( D N-000007 )
-  ( G AUX_2 )
-  ( S GNDPWR )
- )
- ( /5047D206/5047D5B0 TO-220AB_IRF2804_RMC Q403 IRLB8743
-  ( D N-000027 )
-  ( G HEATER_1 )
-  ( S GNDPWR )
- )
- ( /5047D206/5047D4CE TO-220AB_IRF2804_RMC Q404 IRLB8743
-  ( D N-000017 )
-  ( G N-000013 )
-  ( S GNDPWR )
- )
- ( /5047D206/50D255DB SOT23GDS Q405 2N7002
-  ( D N-000013 )
-  ( G HEATER_2 )
-  ( S GND )
- )
- ( /5071C6A3/5071D643 SM0805 R201 100k
-  ( 1 /Stepper-X/MS1 )
-  ( 2 GND )
- )
- ( /5071C6A3/50D6033C SM0805 R202 10k
-  ( 1 GND )
-  ( 2 N-000077 )
- )
- ( /5071C6A3/50E2115B SM0402 R203 0R
-  ( 1 +12P )
-  ( 2 /Stepper-X/VMOT )
- )
- ( /5071C6A3/50E21150 SM0805 R204 20k
-  ( 1 VCC )
-  ( 2 N-000078 )
- )
- ( /5071C6A3/50E2114A SM0805 R205 0.2
-  ( 1 N-000080 )
-  ( 2 /Stepper-X/MOTGND )
- )
- ( /5071C6A3/50D60335 SM0805 R206 0.2
-  ( 1 N-000079 )
-  ( 2 /Stepper-X/MOTGND )
- )
- ( /5071C6A3/50D6032C SM0402 R207 0R
-  ( 1 GND )
-  ( 2 /Stepper-X/MOTGND )
- )
- ( /5071C6A3/50E21157 SM0805 R208 100k
-  ( 1 STEP_EN )
-  ( 2 GND )
- )
- ( /5071C6A3/50DEFA2F SM0402 R209 0R
-  ( 1 GNDPWR )
-  ( 2 /Stepper-X/MOTGND )
- )
- ( /5048EA8E/504CB9A5 SM0805 R301 NF
-  ( 1 VCC )
-  ( 2 /Sango_CPU/nRESET )
- )
- ( /5048EA8E/504CB9A2 SM0805 R302 10k
-  ( 1 VCC )
-  ( 2 /Sango_CPU/BOOT1 )
- )
- ( /5048EA8E/504CB99C SM0805 R303 12k
-  ( 1 /Sango_CPU/BOOT0 )
-  ( 2 GND )
- )
- ( /5048EA8E/504CB99F SM0805 R304 510
-  ( 1 /Sango_CPU/BOOT1 )
-  ( 2 GND )
- )
- ( /5048EA8E/506CB6B5 SM0402 R305 0R
-  ( 1 VCC )
-  ( 2 N-000041 )
- )
- ( /5048EA8E/506CB63E SM0402 R306 0R
-  ( 1 N-000040 )
-  ( 2 GND )
- )
- ( /5048EA8E/50D99C87 SM0805 R307 1M
-  ( 1 /Sango_CPU/GND_USB )
-  ( 2 GND )
- )
- ( /5048EA8E/50E04642 SM0805 R308 4k7
-  ( 1 VCC )
-  ( 2 /Sango_CPU/EEP_SCL )
- )
- ( /5048EA8E/50E04132 SM0805 R309 4k7
-  ( 1 VCC )
-  ( 2 /Sango_CPU/EEP_SDA )
- )
- ( /5048EA8E/50E041E3 SM0805 R310 1k
-  ( 1 VCC )
-  ( 2 N-000061 )
- )
- ( /5048EA8E/50E03DD9 SM0805 R311 0R
-  ( 1 /Sango_CPU/SPARE3 )
-  ( 2 N-000065 )
- )
- ( /5048EA8E/50E03E1C SM0805 R312 10k
-  ( 1 N-000068 )
-  ( 2 /Sango_CPU/SPARE4 )
- )
- ( /5048EA8E/50E03E17 SM0805 R313 22k
-  ( 1 /Sango_CPU/SPARE4 )
-  ( 2 GND )
- )
- ( /5048EA8E/50E06028 SM0805 R314 NF
-  ( 1 VCC )
-  ( 2 N-000070 )
- )
- ( /5048EA8E/50E0601F SM0805 R315 NF
-  ( 1 VCC )
-  ( 2 N-000060 )
- )
- ( /5048EA8E/50E06005 SM0805 R316 NF
-  ( 1 VCC )
-  ( 2 N-000069 )
- )
- ( /5047D206/5047D403 SM0805 R401 330R
-  ( 1 VCC )
-  ( 2 THERM_1 )
- )
- ( /5047D206/5047D5AD SM0805 R402 10k
-  ( 1 GND )
-  ( 2 HEATER_1 )
- )
- ( /5047D206/5047D498 SM0805 R403 10k
-  ( 1 VCC )
-  ( 2 THERM_2 )
- )
- ( /5047D206/50D2569E SM0805 R404 10k
-  ( 1 N-000013 )
-  ( 2 +12V )
- )
- ( /5047D206/5047D53B SM0805 R405 10k
-  ( 1 GND )
-  ( 2 HEATER_2 )
- )
- ( /5047CBF2/5065ABDD SM0402 R501 0R
-  ( 1 +12P )
-  ( 2 +12V )
- )
- ( /5047CBF2/5065ABD7 SM0402 R502 0R
-  ( 1 GNDPWR )
-  ( 2 GND )
- )
- ( /5047CBF2/5047D118 SM0805 R503 1k
-  ( 1 +5V )
-  ( 2 N-000004 )
- )
- ( /50E20F62/50DEF9D9 SM0402 R701 0R
-  ( 1 +12P )
-  ( 2 /Stepper-Y/VMOT )
- )
- ( /50E20F62/50E2115C SM0402 R702 0R
-  ( 1 GNDPWR )
-  ( 2 /Stepper-Y/MOTGND )
- )
- ( /50E20F62/50E23B91 SM0805 R703 100k
-  ( 1 /Stepper-Y/MS1 )
-  ( 2 GND )
- )
- ( /50E20F62/50E23BB5 SM0805 R704 10k
-  ( 1 GND )
-  ( 2 N-000092 )
- )
- ( /50E20F62/50E23B7D SM0805 R705 20k
-  ( 1 VCC )
-  ( 2 N-000101 )
- )
- ( /50E20F62/50D60334 SM0805 R706 0.2
-  ( 1 N-000103 )
-  ( 2 /Stepper-Y/MOTGND )
- )
- ( /50E20F62/50E23BAD SM0805 R707 0.2
-  ( 1 N-000102 )
-  ( 2 /Stepper-Y/MOTGND )
- )
- ( /50E20F62/50E23B84 SM0805 R708 100k
-  ( 1 STEP_EN )
-  ( 2 GND )
- )
- ( /50E20F62/50E23BA5 SM0402 R709 0R
-  ( 1 GND )
-  ( 2 /Stepper-Y/MOTGND )
- )
- ( /50E238E5/50E23B89 SM0402 R801 0R
-  ( 1 +12P )
-  ( 2 /Stepper-Z/VMOT )
- )
- ( /50E238E5/50E23BBF SM0402 R802 0R
-  ( 1 GNDPWR )
-  ( 2 /Stepper-Z/MOTGND )
- )
- ( /50E238E5/50E23B90 SM0805 R803 100k
-  ( 1 /Stepper-Z/MS1 )
-  ( 2 GND )
- )
- ( /50E238E5/50E23BB4 SM0805 R804 10k
-  ( 1 GND )
-  ( 2 N-000112 )
- )
- ( /50E238E5/50E23B7C SM0805 R805 20k
-  ( 1 VCC )
-  ( 2 N-000122 )
- )
- ( /50E238E5/50E23B79 SM0805 R806 0.2
-  ( 1 N-000124 )
-  ( 2 /Stepper-Z/MOTGND )
- )
- ( /50E238E5/50E2114B SM0805 R807 0.2
-  ( 1 N-000123 )
-  ( 2 /Stepper-Z/MOTGND )
- )
- ( /50E238E5/50D60343 SM0805 R808 100k
-  ( 1 STEP_EN )
-  ( 2 GND )
- )
- ( /50E238E5/50E21144 SM0402 R809 0R
-  ( 1 GND )
-  ( 2 /Stepper-Z/MOTGND )
- )
- ( /50E23918/50E23B88 SM0402 R901 0R
-  ( 1 +12P )
-  ( 2 /Stepper-E1/VMOT )
- )
- ( /50E23918/50E23BBE SM0402 R902 0R
-  ( 1 GNDPWR )
-  ( 2 /Stepper-E1/MOTGND )
- )
- ( /50E23918/50E21138 SM0805 R903 100k
-  ( 1 /Stepper-E1/MS1 )
-  ( 2 GND )
- )
- ( /50E23918/50E21151 SM0805 R904 10k
-  ( 1 GND )
-  ( 2 N-000130 )
- )
- ( /50E23918/50D6033B SM0805 R905 20k
-  ( 1 VCC )
-  ( 2 N-000138 )
- )
- ( /50E23918/50E23B78 SM0805 R906 0.2
-  ( 1 N-000140 )
-  ( 2 /Stepper-E1/MOTGND )
- )
- ( /50E23918/50E23BAC SM0805 R907 0.2
-  ( 1 N-000139 )
-  ( 2 /Stepper-E1/MOTGND )
- )
- ( /50E23918/50E23B85 SM0805 R908 100k
-  ( 1 STEP_EN )
-  ( 2 GND )
- )
- ( /50E23918/50E23BA4 SM0402 R909 0R
-  ( 1 GND )
-  ( 2 /Stepper-E1/MOTGND )
- )
- ( /5071C6A3/50D60339 TRIM-EVM3Y-RMC RV201 10k
-  ( 1 GND )
-  ( 2 N-000071 )
-  ( 3 N-000078 )
- )
- ( /50E20F62/50E23BB0 TRIM-EVM3Y-RMC RV701 10k
-  ( 1 GND )
-  ( 2 N-000109 )
-  ( 3 N-000101 )
- )
- ( /50E238E5/50E23BB1 TRIM-EVM3Y-RMC RV801 10k
-  ( 1 GND )
-  ( 2 N-000128 )
-  ( 3 N-000122 )
- )
- ( /50E23918/50E2114E TRIM-EVM3Y-RMC RV901 10k
-  ( 1 GND )
-  ( 2 N-000147 )
-  ( 3 N-000138 )
- )
- ( /5048EA8E/504CB9A6 SW_6x6_MULTI SW301 RST
-  ( 1 GND )
-  ( 2 /Sango_CPU/nRESET )
- )
- ( /5071C6A3/50E38145 1Pin_2.54mm TP201 TEST_POINT_RMC
-  ( 1 N-000071 )
- )
- ( /50E20F62/50E38162 1Pin_2.54mm TP701 TEST_POINT_RMC
-  ( 1 N-000109 )
- )
- ( /50E238E5/50E3817C 1Pin_2.54mm TP801 TEST_POINT_RMC
-  ( 1 N-000128 )
- )
- ( /50E23918/50E38195 1Pin_2.54mm TP901 TEST_POINT_RMC
-  ( 1 N-000147 )
- )
- ( /5071C6A3/50D60330 tssop-24-pad U201 A4985-LP
-  ( 1 N-000072 )
-  ( 2 N-000081 )
-  ( 3 N-000082 )
-  ( 4 N-000076 )
-  ( 5 /Stepper-X/MS1 )
-  ( 6 /Stepper-X/MS2 )
-  ( 7 VCC )
-  ( 8 N-000077 )
-  ( 9 VCC )
-  ( 10 VCC )
-  ( 11 STEP_X )
-  ( 12 N-000071 )
-  ( 13 GND )
-  ( 14 DIR_X )
-  ( 15 /Stepper-X/1B )
-  ( 16 /Stepper-X/VMOT )
-  ( 17 N-000080 )
-  ( 18 /Stepper-X/1A )
-  ( 19 /Stepper-X/2A )
-  ( 20 N-000079 )
-  ( 21 /Stepper-X/VMOT )
-  ( 22 /Stepper-X/2B )
-  ( 23 STEP_EN )
-  ( 24 GND )
-  ( PAD GND )
- )
- ( /5048EA8E/506CAE7A SO8N U301 24C08
-  ( 1 N-000069 )
-  ( 2 N-000060 )
-  ( 3 N-000070 )
-  ( 4 GND )
-  ( 5 /Sango_CPU/EEP_SDA )
-  ( 6 /Sango_CPU/EEP_SCL )
-  ( 7 GND )
-  ( 8 VCC )
- )
- ( /5048EA8E/504CA953 Pin_Array_5x2_1.27mm_RMC U302 CONN_CORTEX_DEBUG
-  ( 1 VCC )
-  ( 2 /Sango_CPU/SWDIO )
-  ( 3 GND )
-  ( 4 /Sango_CPU/SWDCLK )
-  ( 5 GND )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 GND )
-  ( 10 /Sango_CPU/nRESET )
- )
- ( /5048EA8E/504BAEA1 QFP48_0.5mm_7x7mm_SOT313_LPC1343 U303 STM32F100_48
-  ( 1 VCC )
-  ( 2 /Sango_CPU/SPARE1 )
-  ( 3 AUX_1 )
-  ( 4 AUX_2 )
-  ( 5 N-000059 )
-  ( 6 N-000042 )
-  ( 7 /Sango_CPU/nRESET )
-  ( 8 GND )
-  ( 9 VCC )
-  ( 10 STEP_EN )
-  ( 11 THERM_1 )
-  ( 12 THERM_2 )
-  ( 13 /Sango_CPU/SPARE2 )
-  ( 14 SD_SEL )
-  ( 15 SPI_SCK )
-  ( 16 SPI_MISO )
-  ( 17 SPI_MOSI )
-  ( 18 STEP_X )
-  ( 19 DIR_X )
-  ( 20 /Sango_CPU/BOOT1 )
-  ( 21 /Sango_CPU/EEP_SCL )
-  ( 22 /Sango_CPU/EEP_SDA )
-  ( 23 GND )
-  ( 24 VCC )
-  ( 25 STEP_E1 )
-  ( 26 DIR_E1 )
-  ( 27 HEATER_1 )
-  ( 28 HEATER_2 )
-  ( 29 /Sango_CPU/SPARE3 )
-  ( 30 SERIAL_TX )
-  ( 31 SERIAL_RX )
-  ( 32 /Sango_CPU/USB_DM )
-  ( 33 /Sango_CPU/USB_DP )
-  ( 34 /Sango_CPU/SWDIO )
-  ( 35 N-000040 )
-  ( 36 N-000041 )
-  ( 37 /Sango_CPU/SWDCLK )
-  ( 38 /Sango_CPU/SPARE4 )
-  ( 39 X_STOP )
-  ( 40 Y_STOP )
-  ( 41 Z_STOP )
-  ( 42 STEP_Y )
-  ( 43 DIR_Y )
-  ( 44 /Sango_CPU/BOOT0 )
-  ( 45 STEP_Z )
-  ( 46 DIR_Z )
-  ( 47 GND )
-  ( 48 VCC )
- )
- ( /5048EA8E/50D8F05F SOT323-6 U304 USBUF01W6
-  ( 1 /Sango_CPU/USB_DP )
-  ( 2 GND )
-  ( 3 /Sango_CPU/USB_DM )
-  ( 4 /Sango_CPU/DM )
-  ( 5 N-000058 )
-  ( 6 /Sango_CPU/DP )
- )
- ( /5048EA8E/50D8F064 CONN_MiniAB_SMT_RMC U305 USBCONN
-  ( 1 N-000068 )
-  ( 2 /Sango_CPU/DM )
-  ( 3 /Sango_CPU/DP )
-  ( 4 GND )
-  ( 5 /Sango_CPU/GND_USB )
- )
- ( /5047D206/504D1ECE MICRO_SD_DM3D U401 CONN_MICROSD
-  ( 1 ? )
-  ( 2 SD_SEL )
-  ( 3 SPI_MOSI )
-  ( 4 VCC )
-  ( 5 SPI_SCK )
-  ( 6 GND )
-  ( 7 SPI_MISO )
-  ( 8 ? )
-  ( 9 GND )
-  ( 10 ? )
- )
- ( /5047CBF2/5047CC85 LM78XXV U501 7805
-  ( GND GND )
-  ( VI +12V )
-  ( VO +5V )
- )
- ( /5047CBF2/5047CFB9 SOT223 U502 1117
-  ( 1 GND )
-  ( 2 VCC )
-  ( 3 +5V )
-  ( 4 VCC )
- )
- ( /50E20F62/50E23BA8 tssop-24-pad U701 A4985-LP
-  ( 1 N-000094 )
-  ( 2 N-000093 )
-  ( 3 N-000099 )
-  ( 4 N-000100 )
-  ( 5 /Stepper-Y/MS1 )
-  ( 6 /Stepper-Y/MS2 )
-  ( 7 VCC )
-  ( 8 N-000092 )
-  ( 9 VCC )
-  ( 10 VCC )
-  ( 11 STEP_Y )
-  ( 12 N-000109 )
-  ( 13 GND )
-  ( 14 DIR_Y )
-  ( 15 /Stepper-Y/1B )
-  ( 16 /Stepper-Y/VMOT )
-  ( 17 N-000103 )
-  ( 18 /Stepper-Y/1A )
-  ( 19 /Stepper-Y/2A )
-  ( 20 N-000102 )
-  ( 21 /Stepper-Y/VMOT )
-  ( 22 /Stepper-Y/2B )
-  ( 23 STEP_EN )
-  ( 24 GND )
-  ( PAD GND )
- )
- ( /50E238E5/50E23BA9 tssop-24-pad U801 A4985-LP
-  ( 1 N-000121 )
-  ( 2 N-000120 )
-  ( 3 N-000111 )
-  ( 4 N-000119 )
-  ( 5 /Stepper-Z/MS1 )
-  ( 6 /Stepper-Z/MS2 )
-  ( 7 VCC )
-  ( 8 N-000112 )
-  ( 9 VCC )
-  ( 10 VCC )
-  ( 11 STEP_Z )
-  ( 12 N-000128 )
-  ( 13 GND )
-  ( 14 DIR_Z )
-  ( 15 /Stepper-Z/1B )
-  ( 16 /Stepper-Z/VMOT )
-  ( 17 N-000124 )
-  ( 18 /Stepper-Z/1A )
-  ( 19 /Stepper-Z/2A )
-  ( 20 N-000123 )
-  ( 21 /Stepper-Z/VMOT )
-  ( 22 /Stepper-Z/2B )
-  ( 23 STEP_EN )
-  ( 24 GND )
-  ( PAD GND )
- )
- ( /50E23918/50E21146 tssop-24-pad U901 A4985-LP
-  ( 1 N-000146 )
-  ( 2 N-000132 )
-  ( 3 N-000131 )
-  ( 4 N-000137 )
-  ( 5 /Stepper-E1/MS1 )
-  ( 6 /Stepper-E1/MS2 )
-  ( 7 VCC )
-  ( 8 N-000130 )
-  ( 9 VCC )
-  ( 10 VCC )
-  ( 11 STEP_E1 )
-  ( 12 N-000147 )
-  ( 13 GND )
-  ( 14 DIR_E1 )
-  ( 15 /Stepper-E1/1B )
-  ( 16 /Stepper-E1/VMOT )
-  ( 17 N-000140 )
-  ( 18 /Stepper-E1/1A )
-  ( 19 /Stepper-E1/2A )
-  ( 20 N-000139 )
-  ( 21 /Stepper-E1/VMOT )
-  ( 22 /Stepper-E1/2B )
-  ( 23 STEP_EN )
-  ( 24 GND )
-  ( PAD GND )
- )
- ( /5048EA8E/5048EAC8 HC49-US_Minimized X301 8MHz
-  ( 1 N-000042 )
-  ( 2 N-000059 )
+ ( /5071C6A3/50E38145 $noname  TP201 TEST_POINT_RMC {Lib=TEST_POINT_RMC}
+  (    1 N-000074 )
+ )
+ ( /5071C6A3/50DEFA2F $noname  R209 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 /Stepper-X/MOTGND )
+ )
+ ( /5071C6A3/50E2115B $noname  R203 0R {Lib=R}
+  (    1 +12P )
+  (    2 /Stepper-X/VMOT )
+ )
+ ( /5071C6A3/50E21157 $noname  R208 100k {Lib=R}
+  (    1 STEP_EN )
+  (    2 GND )
+ )
+ ( /5071C6A3/50E21155 $noname  C202 0.1uF {Lib=C}
+  (    1 N-000081 )
+  (    2 N-000075 )
+ )
+ ( /5071C6A3/50E21154 $noname  C204 0.1uF {Lib=C}
+  (    1 N-000082 )
+  (    2 /Stepper-X/VMOT )
+ )
+ ( /5071C6A3/50D6033E $noname  C203 0.22uF {Lib=C}
+  (    1 N-000076 )
+  (    2 GND )
+ )
+ ( /5071C6A3/50D6033C $noname  R202 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000077 )
+ )
+ ( /5071C6A3/50E21150 $noname  R204 20k {Lib=R}
+  (    1 VCC )
+  (    2 N-000078 )
+ )
+ ( /5071C6A3/50D60339 $noname  RV201 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000074 )
+  (    3 N-000078 )
+ )
+ ( /5071C6A3/50D60335 $noname  R206 0.2 {Lib=R}
+  (    1 N-000079 )
+  (    2 /Stepper-X/MOTGND )
+ )
+ ( /5071C6A3/50E2114A $noname  R205 0.2 {Lib=R}
+  (    1 N-000080 )
+  (    2 /Stepper-X/MOTGND )
+ )
+ ( /5071C6A3/50E21149 $noname  C206 4.7uF {Lib=C}
+  (    1 /Stepper-X/MOTGND )
+  (    2 /Stepper-X/VMOT )
+ )
+ ( /5071C6A3/50E21148 $noname  C207 0.1uF {Lib=C}
+  (    1 /Stepper-X/MOTGND )
+  (    2 /Stepper-X/VMOT )
+ )
+ ( /5071C6A3/50D60331 $noname  C208 0.1uF {Lib=C}
+  (    1 /Stepper-X/MOTGND )
+  (    2 /Stepper-X/VMOT )
+ )
+ ( /5071C6A3/50D60330 $noname  U201 A4985-LP {Lib=A4985-LP}
+  (    1 N-000081 )
+  (    2 N-000075 )
+  (    3 N-000082 )
+  (    4 N-000076 )
+  (    5 /Stepper-X/MS1 )
+  (    6 /Stepper-X/MS2 )
+  (    7 VCC )
+  (    8 N-000077 )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 STEP_X )
+  (   12 N-000074 )
+  (   13 GND )
+  (   14 DIR_X )
+  (   15 /Stepper-X/1B )
+  (   16 /Stepper-X/VMOT )
+  (   17 N-000080 )
+  (   18 /Stepper-X/1A )
+  (   19 /Stepper-X/2A )
+  (   20 N-000079 )
+  (   21 /Stepper-X/VMOT )
+  (   22 /Stepper-X/2B )
+  (   23 STEP_EN )
+  (   24 GND )
+  (  PAD GND )
+ )
+ ( /5071C6A3/50D6032C $noname  R207 0R {Lib=R}
+  (    1 GND )
+  (    2 /Stepper-X/MOTGND )
+ )
+ ( /5071C6A3/50D57E1A $noname  P202 CONN_8 {Lib=CONN_8}
+  (    1 /Stepper-X/VMOT )
+  (    2 /Stepper-X/MOTGND )
+  (    3 /Stepper-X/2B )
+  (    4 /Stepper-X/2A )
+  (    5 /Stepper-X/1A )
+  (    6 /Stepper-X/1B )
+  (    7 VCC )
+  (    8 GND )
+ )
+ ( /5071C6A3/50D4DDAB $noname  P201 CONN_8 {Lib=CONN_8}
+  (    1 STEP_EN )
+  (    2 /Stepper-X/MS1 )
+  (    3 /Stepper-X/MS2 )
+  (    4 /Stepper-X/MS3 )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 STEP_X )
+  (    8 DIR_X )
+ )
+ ( /5071C6A3/50D4DDA8 $noname  C205 0.22uF {Lib=C}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /5071C6A3/5071D648 $noname  P203 MOT_X {Lib=CONN_4}
+  (    1 /Stepper-X/2B )
+  (    2 /Stepper-X/2A )
+  (    3 /Stepper-X/1A )
+  (    4 /Stepper-X/1B )
+ )
+ ( /5071C6A3/5071D646 $noname  JP201 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-X/MS1 )
+ )
+ ( /5071C6A3/5071D645 $noname  JP202 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-X/MS2 )
+ )
+ ( /5071C6A3/5071D644 $noname  JP203 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-X/MS3 )
+ )
+ ( /5071C6A3/5071D643 $noname  R201 100k {Lib=R}
+  (    1 /Stepper-X/MS1 )
+  (    2 GND )
+ )
+ ( /5071C6A3/5071D641 $noname  C201 100uF {Lib=CP1}
+  (    1 +12P )
+  (    2 GNDPWR )
+ )
+ ( /5048EA8E/50E06005 $noname  R316 NF {Lib=R}
+  (    1 VCC )
+  (    2 N-000039 )
+ )
+ ( /5048EA8E/50E0601F $noname  R315 NF {Lib=R}
+  (    1 VCC )
+  (    2 N-000041 )
+ )
+ ( /5048EA8E/50E06028 $noname  R314 NF {Lib=R}
+  (    1 VCC )
+  (    2 N-000062 )
+ )
+ ( /5048EA8E/50E04642 $noname  R308 4k7 {Lib=R}
+  (    1 VCC )
+  (    2 /Sango_CPU/EEP_SCL )
+ )
+ ( /5048EA8E/50E0427E $noname  Q302 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000064 )
+  (    G /Sango_CPU/BOOT1 )
+  (    S GND )
+ )
+ ( /5048EA8E/50E041EA $noname  D301 LED {Lib=LED}
+  (    1 N-000066 )
+  (    2 N-000064 )
+ )
+ ( /5048EA8E/50E041E3 $noname  R310 1k {Lib=R}
+  (    1 VCC )
+  (    2 N-000066 )
+ )
+ ( /5048EA8E/50E04132 $noname  R309 4k7 {Lib=R}
+  (    1 VCC )
+  (    2 /Sango_CPU/EEP_SDA )
+ )
+ ( /5048EA8E/50E03E1C $noname  R312 10k {Lib=R}
+  (    1 N-000061 )
+  (    2 /Sango_CPU/SPARE4 )
+ )
+ ( /5048EA8E/50E03E17 $noname  R313 22k {Lib=R}
+  (    1 /Sango_CPU/SPARE4 )
+  (    2 GND )
+ )
+ ( /5048EA8E/50E03DD9 $noname  R311 0R {Lib=R}
+  (    1 /Sango_CPU/SPARE3 )
+  (    2 N-000060 )
+ )
+ ( /5048EA8E/50D9BF32 $noname  C309 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/50D99C8F $noname  C310 4n7 {Lib=C}
+  (    1 /Sango_CPU/GND_USB )
+  (    2 GND )
+ )
+ ( /5048EA8E/50D99C87 $noname  R307 1M {Lib=R}
+  (    1 /Sango_CPU/GND_USB )
+  (    2 GND )
+ )
+ ( /5048EA8E/50D8F064 $noname  U305 USBCONN {Lib=USBCONN}
+  (    1 N-000061 )
+  (    2 /Sango_CPU/DM )
+  (    3 /Sango_CPU/DP )
+  (    4 GND )
+  (    5 /Sango_CPU/GND_USB )
+ )
+ ( /5048EA8E/50D8F060 $noname  Q301 BSS84 {Lib=MOSFET_P_OPENDOUS}
+  (    1 N-000060 )
+  (    2 VCC )
+  (    3 N-000067 )
+ )
+ ( /5048EA8E/50D8F05F $noname  U304 USBUF01W6 {Lib=USBUFXXW6}
+  (    1 /Sango_CPU/USB_DP )
+  (    2 GND )
+  (    3 /Sango_CPU/USB_DM )
+  (    4 /Sango_CPU/DM )
+  (    5 N-000067 )
+  (    6 /Sango_CPU/DP )
+ )
+ ( /5048EA8E/50D4B3A9 $noname  P301 CONN_6X2 {Lib=CONN_6X2}
+  (    1 GND )
+  (    2 /Sango_CPU/EEP_SCL )
+  (    3 /Sango_CPU/SPARE3 )
+  (    4 /Sango_CPU/EEP_SDA )
+  (    5 /Sango_CPU/SPARE4 )
+  (    6 /Sango_CPU/SPARE1 )
+  (    7 SERIAL_RX )
+  (    8 /Sango_CPU/SPARE2 )
+  (    9 SERIAL_TX )
+  (   10 ? )
+  (   11 +5V )
+  (   12 VCC )
+ )
+ ( /5048EA8E/506CB6B5 $noname  R305 0R {Lib=R}
+  (    1 VCC )
+  (    2 N-000043 )
+ )
+ ( /5048EA8E/506CB63E $noname  R306 0R {Lib=R}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /5048EA8E/506CAE7A $noname  U301 24C08 {Lib=24C512}
+  (    1 N-000039 )
+  (    2 N-000041 )
+  (    3 N-000062 )
+  (    4 GND )
+  (    5 /Sango_CPU/EEP_SDA )
+  (    6 /Sango_CPU/EEP_SCL )
+  (    7 GND )
+  (    8 VCC )
+ )
+ ( /5048EA8E/504BAEA1 LQFP48  U303 STM32F100_48 {Lib=STM32F100_48}
+  (    1 VCC )
+  (    2 /Sango_CPU/SPARE1 )
+  (    3 AUX_1 )
+  (    4 AUX_2 )
+  (    5 N-000044 )
+  (    6 N-000063 )
+  (    7 /Sango_CPU/nRESET )
+  (    8 GND )
+  (    9 VCC )
+  (   10 STEP_EN )
+  (   11 THERM_1 )
+  (   12 THERM_2 )
+  (   13 /Sango_CPU/SPARE2 )
+  (   14 SD_SEL )
+  (   15 SPI_SCK )
+  (   16 SPI_MISO )
+  (   17 SPI_MOSI )
+  (   18 STEP_X )
+  (   19 DIR_X )
+  (   20 /Sango_CPU/BOOT1 )
+  (   21 /Sango_CPU/EEP_SCL )
+  (   22 /Sango_CPU/EEP_SDA )
+  (   23 GND )
+  (   24 VCC )
+  (   25 STEP_E1 )
+  (   26 DIR_E1 )
+  (   27 HEATER_1 )
+  (   28 HEATER_2 )
+  (   29 /Sango_CPU/SPARE3 )
+  (   30 SERIAL_TX )
+  (   31 SERIAL_RX )
+  (   32 /Sango_CPU/USB_DM )
+  (   33 /Sango_CPU/USB_DP )
+  (   34 /Sango_CPU/SWDIO )
+  (   35 N-000042 )
+  (   36 N-000043 )
+  (   37 /Sango_CPU/SWDCLK )
+  (   38 /Sango_CPU/SPARE4 )
+  (   39 X_STOP )
+  (   40 Y_STOP )
+  (   41 Z_STOP )
+  (   42 STEP_Y )
+  (   43 DIR_Y )
+  (   44 /Sango_CPU/BOOT0 )
+  (   45 STEP_Z )
+  (   46 DIR_Z )
+  (   47 GND )
+  (   48 VCC )
+ )
+ ( /5048EA8E/504CBC50 $noname  JP301 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 /Sango_CPU/BOOT0 )
+  (    2 VCC )
+ )
+ ( /5048EA8E/504CBBEE $noname  C308 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CBBED $noname  C307 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CBBEB $noname  C306 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CBBE9 $noname  C305 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CBBDF $noname  C304 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CBBC3 $noname  C303 10uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CB9A6 $noname  SW301 RST {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 /Sango_CPU/nRESET )
+ )
+ ( /5048EA8E/504CB9A5 $noname  R301 NF {Lib=R}
+  (    1 VCC )
+  (    2 /Sango_CPU/nRESET )
+ )
+ ( /5048EA8E/504CB9A2 $noname  R302 10k {Lib=R}
+  (    1 VCC )
+  (    2 /Sango_CPU/BOOT1 )
+ )
+ ( /5048EA8E/504CB99F $noname  R304 510 {Lib=R}
+  (    1 /Sango_CPU/BOOT1 )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CB99C $noname  R303 12k {Lib=R}
+  (    1 /Sango_CPU/BOOT0 )
+  (    2 GND )
+ )
+ ( /5048EA8E/504CA953 $noname  U302 CONN_CORTEX_DEBUG {Lib=CONN_CORTEX_DEBUG}
+  (    1 VCC )
+  (    2 /Sango_CPU/SWDIO )
+  (    3 GND )
+  (    4 /Sango_CPU/SWDCLK )
+  (    5 GND )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 /Sango_CPU/nRESET )
+ )
+ ( /5048EA8E/5048EAC8 $noname  X301 8MHz {Lib=CRYSTAL}
+  (    1 N-000063 )
+  (    2 N-000044 )
+ )
+ ( /5048EA8E/5048EAC7 $noname  C302 20pF {Lib=C}
+  (    1 GND )
+  (    2 N-000063 )
+ )
+ ( /5048EA8E/5048EAC6 $noname  C301 20pF {Lib=C}
+  (    1 GND )
+  (    2 N-000044 )
+ )
+ ( /5047D206/50E04C56 $noname  JP401 V_SEL {Lib=JUMP_MINI_3}
+  (    1 +12V )
+  (    2 N-000020 )
+  (    3 +5V )
+ )
+ ( /5047D206/50D8731C $noname  P408 HEATER_1 {Lib=CONN_2}
+  (    1 +12P )
+  (    2 N-000027 )
+ )
+ ( /5047D206/5047D5AD $noname  R402 10k {Lib=R}
+  (    1 GND )
+  (    2 HEATER_1 )
+ )
+ ( /5047D206/5047D5B0 $noname  Q403 IRLB8743 {Lib=MOSFET_N_RMC}
+  (    D N-000027 )
+  (    G HEATER_1 )
+  (    S GNDPWR )
+ )
+ ( /5047D206/50D4B470 $noname  Q402 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000007 )
+  (    G AUX_2 )
+  (    S GNDPWR )
+ )
+ ( /5047D206/50D2576D $noname  Q401 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000010 )
+  (    G AUX_1 )
+  (    S GNDPWR )
+ )
+ ( /5047D206/50D2569E $noname  R404 10k {Lib=R}
+  (    1 N-000013 )
+  (    2 +12V )
+ )
+ ( /5047D206/50D255DB $noname  Q405 2N7002 {Lib=MOSFET_N_RMC}
+  (    D N-000013 )
+  (    G HEATER_2 )
+  (    S GND )
+ )
+ ( /5047D206/50D25571 $noname  P407 HEATER_2 {Lib=CONN_2}
+  (    1 +12P )
+  (    2 N-000018 )
+ )
+ ( /5047D206/50D2556B $noname  P404 HEATER_1 {Lib=CONN_2}
+  (    1 N-000027 )
+  (    2 +12P )
+ )
+ ( /5047D206/5065B3D0 $noname  C403 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5047D206/504D1ECE $noname  U401 CONN_MICROSD {Lib=CONN_MICROSD}
+  (    1 ? )
+  (    2 SD_SEL )
+  (    3 SPI_MOSI )
+  (    4 VCC )
+  (    5 SPI_SCK )
+  (    6 GND )
+  (    7 SPI_MISO )
+  (    8 ? )
+  (    9 GND )
+  (   10 ? )
+ )
+ ( /5047D206/504A2769 $noname  P403 SERIAL {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 SERIAL_RX )
+  (    5 SERIAL_TX )
+  (    6 ? )
+ )
+ ( /5047D206/5047D629 $noname  P402 AUXPWR2 {Lib=CONN_2}
+  (    1 +12P )
+  (    2 N-000007 )
+ )
+ ( /5047D206/5047D620 $noname  P401 AUXPWR1 {Lib=CONN_2}
+  (    1 +12P )
+  (    2 N-000010 )
+ )
+ ( /5047D206/5047D53B $noname  R405 10k {Lib=R}
+  (    1 GND )
+  (    2 HEATER_2 )
+ )
+ ( /5047D206/5047D4CE $noname  Q404 IRLB8743 {Lib=MOSFET_N_RMC}
+  (    D N-000018 )
+  (    G N-000013 )
+  (    S GNDPWR )
+ )
+ ( /5047D206/5047D49B $noname  P406 THERM_2 {Lib=CONN_2}
+  (    1 THERM_2 )
+  (    2 GND )
+ )
+ ( /5047D206/5047D499 $noname  C402 10uF {Lib=CP1}
+  (    1 THERM_2 )
+  (    2 GND )
+ )
+ ( /5047D206/5047D498 $noname  R403 10k {Lib=R}
+  (    1 VCC )
+  (    2 THERM_2 )
+ )
+ ( /5047D206/5047D403 $noname  R401 330R {Lib=R}
+  (    1 VCC )
+  (    2 THERM_1 )
+ )
+ ( /5047D206/5047D3ED $noname  C401 10uF {Lib=CP1}
+  (    1 THERM_1 )
+  (    2 GND )
+ )
+ ( /5047D206/5047D3B9 $noname  P405 THERM_1 {Lib=CONN_2}
+  (    1 THERM_1 )
+  (    2 GND )
+ )
+ ( /5047D206/5047D24E $noname  K401 X_STOP {Lib=CONN_3}
+  (    1 X_STOP )
+  (    2 N-000020 )
+  (    3 GND )
+ )
+ ( /5047D206/5047D246 $noname  K403 Y_STOP {Lib=CONN_3}
+  (    1 Y_STOP )
+  (    2 N-000020 )
+  (    3 GND )
+ )
+ ( /5047D206/5047D23B $noname  K404 Z_STOP {Lib=CONN_3}
+  (    1 Z_STOP )
+  (    2 N-000020 )
+  (    3 GND )
+ )
+ ( /5047CBF2/50E38389 $noname  H504 HOLE_RMC {Lib=HOLE_RMC}
+ )
+ ( /5047CBF2/50E38388 $noname  H503 HOLE_RMC {Lib=HOLE_RMC}
+ )
+ ( /5047CBF2/50E38387 $noname  H502 HOLE_RMC {Lib=HOLE_RMC}
+ )
+ ( /5047CBF2/50E38384 $noname  H501 HOLE_RMC {Lib=HOLE_RMC}
+ )
+ ( /5047CBF2/50E1D128 $noname  P506 PWR_12V {Lib=CONN_4}
+  (    1 GNDPWR )
+  (    2 GNDPWR )
+  (    3 +12P )
+  (    4 +12P )
+ )
+ ( /5047CBF2/5065ABDD $noname  R501 0R {Lib=R}
+  (    1 +12P )
+  (    2 +12V )
+ )
+ ( /5047CBF2/5065ABD7 $noname  R502 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 GND )
+ )
+ ( /5047CBF2/504D1B3E $noname  C503 10uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5047CBF2/5047D121 $noname  D501 LED {Lib=LED}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /5047CBF2/5047D118 $noname  R503 1k {Lib=R}
+  (    1 +5V )
+  (    2 N-000004 )
+ )
+ ( /5047CBF2/5047D0FA $noname  C504 1000uF {Lib=CP1}
+  (    1 +12P )
+  (    2 GNDPWR )
+ )
+ ( /5047CBF2/5047CFB9 $noname  U502 1117 {Lib=1117}
+  (    1 GND )
+  (    2 VCC )
+  (    3 +5V )
+  (    4 VCC )
+ )
+ ( /5047CBF2/5047CC9A $noname  C502 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5047CBF2/5047CC95 $noname  C501 330nF {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /5047CBF2/5047CC85 $noname  U501 7805 {Lib=7805}
+  (  GND GND )
+  (   VI +12V )
+  (   VO +5V )
+ )
+ ( /5047CBF2/5047CC1B $noname  P501 PWR_12V {Lib=CONN_2}
+  (    1 +12P )
+  (    2 GNDPWR )
+ )
+ ( /50E20F62/50E38162 $noname  TP701 TEST_POINT_RMC {Lib=TEST_POINT_RMC}
+  (    1 N-000108 )
+ )
+ ( /50E20F62/50E2115C $noname  R702 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 /Stepper-Y/MOTGND )
+ )
+ ( /50E20F62/50DEF9D9 $noname  R701 0R {Lib=R}
+  (    1 +12P )
+  (    2 /Stepper-Y/VMOT )
+ )
+ ( /50E20F62/50E23B84 $noname  R708 100k {Lib=R}
+  (    1 STEP_EN )
+  (    2 GND )
+ )
+ ( /50E20F62/50D60340 $noname  C702 0.1uF {Lib=C}
+  (    1 N-000105 )
+  (    2 N-000106 )
+ )
+ ( /50E20F62/50E23B7E $noname  C704 0.1uF {Lib=C}
+  (    1 N-000092 )
+  (    2 /Stepper-Y/VMOT )
+ )
+ ( /50E20F62/50E23BB9 $noname  C703 0.22uF {Lib=C}
+  (    1 N-000097 )
+  (    2 GND )
+ )
+ ( /50E20F62/50E23BB5 $noname  R704 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000098 )
+ )
+ ( /50E20F62/50E23B7D $noname  R705 20k {Lib=R}
+  (    1 VCC )
+  (    2 N-000099 )
+ )
+ ( /50E20F62/50E23BB0 $noname  RV701 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000108 )
+  (    3 N-000099 )
+ )
+ ( /50E20F62/50E23BAD $noname  R707 0.2 {Lib=R}
+  (    1 N-000100 )
+  (    2 /Stepper-Y/MOTGND )
+ )
+ ( /50E20F62/50D60334 $noname  R706 0.2 {Lib=R}
+  (    1 N-000101 )
+  (    2 /Stepper-Y/MOTGND )
+ )
+ ( /50E20F62/50D60333 $noname  C706 4.7uF {Lib=C}
+  (    1 /Stepper-Y/MOTGND )
+  (    2 /Stepper-Y/VMOT )
+ )
+ ( /50E20F62/50D60332 $noname  C707 0.1uF {Lib=C}
+  (    1 /Stepper-Y/MOTGND )
+  (    2 /Stepper-Y/VMOT )
+ )
+ ( /50E20F62/50E21147 $noname  C708 0.1uF {Lib=C}
+  (    1 /Stepper-Y/MOTGND )
+  (    2 /Stepper-Y/VMOT )
+ )
+ ( /50E20F62/50E23BA8 $noname  U701 A4985-LP {Lib=A4985-LP}
+  (    1 N-000105 )
+  (    2 N-000106 )
+  (    3 N-000092 )
+  (    4 N-000097 )
+  (    5 /Stepper-Y/MS1 )
+  (    6 /Stepper-Y/MS2 )
+  (    7 VCC )
+  (    8 N-000098 )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 STEP_Y )
+  (   12 N-000108 )
+  (   13 GND )
+  (   14 DIR_Y )
+  (   15 /Stepper-Y/1B )
+  (   16 /Stepper-Y/VMOT )
+  (   17 N-000101 )
+  (   18 /Stepper-Y/1A )
+  (   19 /Stepper-Y/2A )
+  (   20 N-000100 )
+  (   21 /Stepper-Y/VMOT )
+  (   22 /Stepper-Y/2B )
+  (   23 STEP_EN )
+  (   24 GND )
+  (  PAD GND )
+ )
+ ( /50E20F62/50E23BA5 $noname  R709 0R {Lib=R}
+  (    1 GND )
+  (    2 /Stepper-Y/MOTGND )
+ )
+ ( /50E20F62/50E21140 $noname  P702 CONN_8 {Lib=CONN_8}
+  (    1 /Stepper-Y/VMOT )
+  (    2 /Stepper-Y/MOTGND )
+  (    3 /Stepper-Y/2B )
+  (    4 /Stepper-Y/2A )
+  (    5 /Stepper-Y/1A )
+  (    6 /Stepper-Y/1B )
+  (    7 VCC )
+  (    8 GND )
+ )
+ ( /50E20F62/50E23B9F $noname  P701 CONN_8 {Lib=CONN_8}
+  (    1 STEP_EN )
+  (    2 /Stepper-Y/MS1 )
+  (    3 /Stepper-Y/MS2 )
+  (    4 /Stepper-Y/MS3 )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 STEP_Y )
+  (    8 DIR_Y )
+ )
+ ( /50E20F62/50E2113E $noname  C705 0.22uF {Lib=C}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /50E20F62/50E2113D $noname  P703 MOT_Y {Lib=CONN_4}
+  (    1 /Stepper-Y/2B )
+  (    2 /Stepper-Y/2A )
+  (    3 /Stepper-Y/1A )
+  (    4 /Stepper-Y/1B )
+ )
+ ( /50E20F62/50E2113B $noname  JP701 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Y/MS1 )
+ )
+ ( /50E20F62/50E23B94 $noname  JP702 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Y/MS2 )
+ )
+ ( /50E20F62/50E23B93 $noname  JP703 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Y/MS3 )
+ )
+ ( /50E20F62/50E23B91 $noname  R703 100k {Lib=R}
+  (    1 /Stepper-Y/MS1 )
+  (    2 GND )
+ )
+ ( /50E20F62/50E23B8C $noname  C701 100uF {Lib=CP1}
+  (    1 +12P )
+  (    2 GNDPWR )
+ )
+ ( /50E238E5/50E3817C $noname  TP801 TEST_POINT_RMC {Lib=TEST_POINT_RMC}
+  (    1 N-000127 )
+ )
+ ( /50E238E5/50E23AD9 $noname  P804 MOT_Z {Lib=CONN_4}
+  (    1 /Stepper-Z/2B )
+  (    2 /Stepper-Z/2A )
+  (    3 /Stepper-Z/1A )
+  (    4 /Stepper-Z/1B )
+ )
+ ( /50E238E5/50E23BBF $noname  R802 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 /Stepper-Z/MOTGND )
+ )
+ ( /50E238E5/50E23B89 $noname  R801 0R {Lib=R}
+  (    1 +12P )
+  (    2 /Stepper-Z/VMOT )
+ )
+ ( /50E238E5/50D60343 $noname  R808 100k {Lib=R}
+  (    1 STEP_EN )
+  (    2 GND )
+ )
+ ( /50E238E5/50E23B80 $noname  C802 0.1uF {Lib=C}
+  (    1 N-000121 )
+  (    2 N-000120 )
+ )
+ ( /50E238E5/50D6033F $noname  C804 0.1uF {Lib=C}
+  (    1 N-000111 )
+  (    2 /Stepper-Z/VMOT )
+ )
+ ( /50E238E5/50E21153 $noname  C803 0.22uF {Lib=C}
+  (    1 N-000119 )
+  (    2 GND )
+ )
+ ( /50E238E5/50E23BB4 $noname  R804 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000112 )
+ )
+ ( /50E238E5/50E23B7C $noname  R805 20k {Lib=R}
+  (    1 VCC )
+  (    2 N-000122 )
+ )
+ ( /50E238E5/50E23BB1 $noname  RV801 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000127 )
+  (    3 N-000122 )
+ )
+ ( /50E238E5/50E2114B $noname  R807 0.2 {Lib=R}
+  (    1 N-000123 )
+  (    2 /Stepper-Z/MOTGND )
+ )
+ ( /50E238E5/50E23B79 $noname  R806 0.2 {Lib=R}
+  (    1 N-000124 )
+  (    2 /Stepper-Z/MOTGND )
+ )
+ ( /50E238E5/50E23B76 $noname  C806 4.7uF {Lib=C}
+  (    1 /Stepper-Z/MOTGND )
+  (    2 /Stepper-Z/VMOT )
+ )
+ ( /50E238E5/50E23B74 $noname  C807 0.1uF {Lib=C}
+  (    1 /Stepper-Z/MOTGND )
+  (    2 /Stepper-Z/VMOT )
+ )
+ ( /50E238E5/50E23BAA $noname  C808 0.1uF {Lib=C}
+  (    1 /Stepper-Z/MOTGND )
+  (    2 /Stepper-Z/VMOT )
+ )
+ ( /50E238E5/50E23BA9 $noname  U801 A4985-LP {Lib=A4985-LP}
+  (    1 N-000121 )
+  (    2 N-000120 )
+  (    3 N-000111 )
+  (    4 N-000119 )
+  (    5 /Stepper-Z/MS1 )
+  (    6 /Stepper-Z/MS2 )
+  (    7 VCC )
+  (    8 N-000112 )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 STEP_Z )
+  (   12 N-000127 )
+  (   13 GND )
+  (   14 DIR_Z )
+  (   15 /Stepper-Z/1B )
+  (   16 /Stepper-Z/VMOT )
+  (   17 N-000124 )
+  (   18 /Stepper-Z/1A )
+  (   19 /Stepper-Z/2A )
+  (   20 N-000123 )
+  (   21 /Stepper-Z/VMOT )
+  (   22 /Stepper-Z/2B )
+  (   23 STEP_EN )
+  (   24 GND )
+  (  PAD GND )
+ )
+ ( /50E238E5/50E21144 $noname  R809 0R {Lib=R}
+  (    1 GND )
+  (    2 /Stepper-Z/MOTGND )
+ )
+ ( /50E238E5/50E23BA0 $noname  P802 CONN_8 {Lib=CONN_8}
+  (    1 /Stepper-Z/VMOT )
+  (    2 /Stepper-Z/MOTGND )
+  (    3 /Stepper-Z/2B )
+  (    4 /Stepper-Z/2A )
+  (    5 /Stepper-Z/1A )
+  (    6 /Stepper-Z/1B )
+  (    7 VCC )
+  (    8 GND )
+ )
+ ( /50E238E5/50E2113F $noname  P801 CONN_8 {Lib=CONN_8}
+  (    1 STEP_EN )
+  (    2 /Stepper-Z/MS1 )
+  (    3 /Stepper-Z/MS2 )
+  (    4 /Stepper-Z/MS3 )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 STEP_Z )
+  (    8 DIR_Z )
+ )
+ ( /50E238E5/50E23B9C $noname  C805 0.22uF {Lib=C}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /50E238E5/50E23B9A $noname  P803 MOT_Z {Lib=CONN_4}
+  (    1 /Stepper-Z/2B )
+  (    2 /Stepper-Z/2A )
+  (    3 /Stepper-Z/1A )
+  (    4 /Stepper-Z/1B )
+ )
+ ( /50E238E5/50E23B96 $noname  JP801 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Z/MS1 )
+ )
+ ( /50E238E5/50E23B95 $noname  JP802 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Z/MS2 )
+ )
+ ( /50E238E5/50E23B92 $noname  JP803 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-Z/MS3 )
+ )
+ ( /50E238E5/50E23B90 $noname  R803 100k {Lib=R}
+  (    1 /Stepper-Z/MS1 )
+  (    2 GND )
+ )
+ ( /50E238E5/50E23B8D $noname  C801 100uF {Lib=CP1}
+  (    1 +12P )
+  (    2 GNDPWR )
+ )
+ ( /50E23918/50E38195 $noname  TP901 TEST_POINT_RMC {Lib=TEST_POINT_RMC}
+  (    1 N-000147 )
+ )
+ ( /50E23918/50E23BBE $noname  R902 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 /Stepper-E1/MOTGND )
+ )
+ ( /50E23918/50E23B88 $noname  R901 0R {Lib=R}
+  (    1 +12P )
+  (    2 /Stepper-E1/VMOT )
+ )
+ ( /50E23918/50E23B85 $noname  R908 100k {Lib=R}
+  (    1 STEP_EN )
+  (    2 GND )
+ )
+ ( /50E23918/50E23B81 $noname  C902 0.1uF {Lib=C}
+  (    1 N-000145 )
+  (    2 N-000136 )
+ )
+ ( /50E23918/50E23B7F $noname  C904 0.1uF {Lib=C}
+  (    1 N-000130 )
+  (    2 /Stepper-E1/VMOT )
+ )
+ ( /50E23918/50E23BB8 $noname  C903 0.22uF {Lib=C}
+  (    1 N-000137 )
+  (    2 GND )
+ )
+ ( /50E23918/50E21151 $noname  R904 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000138 )
+ )
+ ( /50E23918/50D6033B $noname  R905 20k {Lib=R}
+  (    1 VCC )
+  (    2 N-000139 )
+ )
+ ( /50E23918/50E2114E $noname  RV901 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000147 )
+  (    3 N-000139 )
+ )
+ ( /50E23918/50E23BAC $noname  R907 0.2 {Lib=R}
+  (    1 N-000140 )
+  (    2 /Stepper-E1/MOTGND )
+ )
+ ( /50E23918/50E23B78 $noname  R906 0.2 {Lib=R}
+  (    1 N-000141 )
+  (    2 /Stepper-E1/MOTGND )
+ )
+ ( /50E23918/50E23B77 $noname  C906 4.7uF {Lib=C}
+  (    1 /Stepper-E1/MOTGND )
+  (    2 /Stepper-E1/VMOT )
+ )
+ ( /50E23918/50E23B75 $noname  C907 0.1uF {Lib=C}
+  (    1 /Stepper-E1/MOTGND )
+  (    2 /Stepper-E1/VMOT )
+ )
+ ( /50E23918/50E23BAB $noname  C908 0.1uF {Lib=C}
+  (    1 /Stepper-E1/MOTGND )
+  (    2 /Stepper-E1/VMOT )
+ )
+ ( /50E23918/50E21146 $noname  U901 A4985-LP {Lib=A4985-LP}
+  (    1 N-000145 )
+  (    2 N-000136 )
+  (    3 N-000130 )
+  (    4 N-000137 )
+  (    5 /Stepper-E1/MS1 )
+  (    6 /Stepper-E1/MS2 )
+  (    7 VCC )
+  (    8 N-000138 )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 STEP_E1 )
+  (   12 N-000147 )
+  (   13 GND )
+  (   14 DIR_E1 )
+  (   15 /Stepper-E1/1B )
+  (   16 /Stepper-E1/VMOT )
+  (   17 N-000141 )
+  (   18 /Stepper-E1/1A )
+  (   19 /Stepper-E1/2A )
+  (   20 N-000140 )
+  (   21 /Stepper-E1/VMOT )
+  (   22 /Stepper-E1/2B )
+  (   23 STEP_EN )
+  (   24 GND )
+  (  PAD GND )
+ )
+ ( /50E23918/50E23BA4 $noname  R909 0R {Lib=R}
+  (    1 GND )
+  (    2 /Stepper-E1/MOTGND )
+ )
+ ( /50E23918/50E23BA1 $noname  P902 CONN_8 {Lib=CONN_8}
+  (    1 /Stepper-E1/VMOT )
+  (    2 /Stepper-E1/MOTGND )
+  (    3 /Stepper-E1/2B )
+  (    4 /Stepper-E1/2A )
+  (    5 /Stepper-E1/1A )
+  (    6 /Stepper-E1/1B )
+  (    7 VCC )
+  (    8 GND )
+ )
+ ( /50E23918/50E23B9E $noname  P901 CONN_8 {Lib=CONN_8}
+  (    1 STEP_EN )
+  (    2 /Stepper-E1/MS1 )
+  (    3 /Stepper-E1/MS2 )
+  (    4 /Stepper-E1/MS3 )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 STEP_E1 )
+  (    8 DIR_E1 )
+ )
+ ( /50E23918/50E23B9D $noname  C905 0.22uF {Lib=C}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /50E23918/50E23B9B $noname  P903 MOT_E1 {Lib=CONN_4}
+  (    1 /Stepper-E1/2B )
+  (    2 /Stepper-E1/2A )
+  (    3 /Stepper-E1/1A )
+  (    4 /Stepper-E1/1B )
+ )
+ ( /50E23918/50E23B97 $noname  JP901 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-E1/MS1 )
+ )
+ ( /50E23918/50E2113A $noname  JP902 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-E1/MS2 )
+ )
+ ( /50E23918/50E21139 $noname  JP903 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 VCC )
+  (    2 /Stepper-E1/MS3 )
+ )
+ ( /50E23918/50E21138 $noname  R903 100k {Lib=R}
+  (    1 /Stepper-E1/MS1 )
+  (    2 GND )
+ )
+ ( /50E23918/50E21136 $noname  C901 100uF {Lib=CP1}
+  (    1 +12P )
+  (    2 GNDPWR )
  )
 )
 *
 { Allowed footprints by component:
-$component C201
- CP*
- SM*
+$component R209
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R203
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R208
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component C202
- SM*
- C?
- C1-1
-$endlist
-$component C203
  SM*
  C?
  C1-1
@@ -1009,10 +1021,38 @@ $component C204
  C?
  C1-1
 $endlist
-$component C205
+$component C203
  SM*
  C?
  C1-1
+$endlist
+$component R202
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R204
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R206
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R205
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component C206
  SM*
@@ -1029,222 +1069,17 @@ $component C208
  C?
  C1-1
 $endlist
-$component C301
+$component R207
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C205
  SM*
  C?
  C1-1
-$endlist
-$component C302
- SM*
- C?
- C1-1
-$endlist
-$component C303
- SM*
- C?
- C1-1
-$endlist
-$component C304
- SM*
- C?
- C1-1
-$endlist
-$component C305
- SM*
- C?
- C1-1
-$endlist
-$component C306
- SM*
- C?
- C1-1
-$endlist
-$component C307
- SM*
- C?
- C1-1
-$endlist
-$component C308
- SM*
- C?
- C1-1
-$endlist
-$component C309
- SM*
- C?
- C1-1
-$endlist
-$component C310
- SM*
- C?
- C1-1
-$endlist
-$component C401
- CP*
- SM*
-$endlist
-$component C402
- CP*
- SM*
-$endlist
-$component C403
- SM*
- C?
- C1-1
-$endlist
-$component C501
- SM*
- C?
- C1-1
-$endlist
-$component C502
- SM*
- C?
- C1-1
-$endlist
-$component C503
- SM*
- C?
- C1-1
-$endlist
-$component C504
- CP*
- SM*
-$endlist
-$component C701
- CP*
- SM*
-$endlist
-$component C702
- SM*
- C?
- C1-1
-$endlist
-$component C703
- SM*
- C?
- C1-1
-$endlist
-$component C704
- SM*
- C?
- C1-1
-$endlist
-$component C705
- SM*
- C?
- C1-1
-$endlist
-$component C706
- SM*
- C?
- C1-1
-$endlist
-$component C707
- SM*
- C?
- C1-1
-$endlist
-$component C708
- SM*
- C?
- C1-1
-$endlist
-$component C801
- CP*
- SM*
-$endlist
-$component C802
- SM*
- C?
- C1-1
-$endlist
-$component C803
- SM*
- C?
- C1-1
-$endlist
-$component C804
- SM*
- C?
- C1-1
-$endlist
-$component C805
- SM*
- C?
- C1-1
-$endlist
-$component C806
- SM*
- C?
- C1-1
-$endlist
-$component C807
- SM*
- C?
- C1-1
-$endlist
-$component C808
- SM*
- C?
- C1-1
-$endlist
-$component C901
- CP*
- SM*
-$endlist
-$component C902
- SM*
- C?
- C1-1
-$endlist
-$component C903
- SM*
- C?
- C1-1
-$endlist
-$component C904
- SM*
- C?
- C1-1
-$endlist
-$component C905
- SM*
- C?
- C1-1
-$endlist
-$component C906
- SM*
- C?
- C1-1
-$endlist
-$component C907
- SM*
- C?
- C1-1
-$endlist
-$component C908
- SM*
- C?
- C1-1
-$endlist
-$component D301
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D501
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
 $endlist
 $component R201
  R?
@@ -1253,105 +1088,25 @@ $component R201
  R?-*
  SM1206
 $endlist
-$component R202
+$component C201
+ CP*
+ SM*
+$endlist
+$component R316
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R203
+$component R315
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R204
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R205
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R206
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R207
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R208
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R209
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R301
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R302
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R303
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R304
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R305
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R306
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R307
+$component R314
  R?
  SM0603
  SM0805
@@ -1365,12 +1120,14 @@ $component R308
  R?-*
  SM1206
 $endlist
-$component R309
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component D301
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $component R310
  R?
@@ -1379,7 +1136,7 @@ $component R310
  R?-*
  SM1206
 $endlist
-$component R311
+$component R309
  R?
  SM0603
  SM0805
@@ -1400,42 +1157,116 @@ $component R313
  R?-*
  SM1206
 $endlist
-$component R314
+$component R311
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R315
+$component C309
+ SM*
+ C?
+ C1-1
+$endlist
+$component C310
+ SM*
+ C?
+ C1-1
+$endlist
+$component R307
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R316
+$component U304
+ SOT323
+$endlist
+$component R305
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R401
+$component R306
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component C308
+ SM*
+ C?
+ C1-1
+$endlist
+$component C307
+ SM*
+ C?
+ C1-1
+$endlist
+$component C306
+ SM*
+ C?
+ C1-1
+$endlist
+$component C305
+ SM*
+ C?
+ C1-1
+$endlist
+$component C304
+ SM*
+ C?
+ C1-1
+$endlist
+$component C303
+ SM*
+ C?
+ C1-1
+$endlist
+$component R301
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R302
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R304
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R303
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C302
+ SM*
+ C?
+ C1-1
+$endlist
+$component C301
+ SM*
+ C?
+ C1-1
 $endlist
 $component R402
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R403
  R?
  SM0603
  SM0805
@@ -1449,12 +1280,39 @@ $component R404
  R?-*
  SM1206
 $endlist
+$component C403
+ SM*
+ C?
+ C1-1
+$endlist
 $component R405
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component C402
+ CP*
+ SM*
+$endlist
+$component R403
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R401
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C401
+ CP*
+ SM*
 $endlist
 $component R501
  R?
@@ -1470,7 +1328,42 @@ $component R502
  R?-*
  SM1206
 $endlist
+$component C503
+ SM*
+ C?
+ C1-1
+$endlist
+$component D501
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
 $component R503
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C504
+ CP*
+ SM*
+$endlist
+$component C502
+ SM*
+ C?
+ C1-1
+$endlist
+$component C501
+ SM*
+ C?
+ C1-1
+$endlist
+$component R702
  R?
  SM0603
  SM0805
@@ -1484,19 +1377,27 @@ $component R701
  R?-*
  SM1206
 $endlist
-$component R702
+$component R708
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R703
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C702
+ SM*
+ C?
+ C1-1
+$endlist
+$component C704
+ SM*
+ C?
+ C1-1
+$endlist
+$component C703
+ SM*
+ C?
+ C1-1
 $endlist
 $component R704
  R?
@@ -1512,13 +1413,6 @@ $component R705
  R?-*
  SM1206
 $endlist
-$component R706
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component R707
  R?
  SM0603
@@ -1526,14 +1420,52 @@ $component R707
  R?-*
  SM1206
 $endlist
-$component R708
+$component R706
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
+$component C706
+ SM*
+ C?
+ C1-1
+$endlist
+$component C707
+ SM*
+ C?
+ C1-1
+$endlist
+$component C708
+ SM*
+ C?
+ C1-1
+$endlist
 $component R709
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C705
+ SM*
+ C?
+ C1-1
+$endlist
+$component R703
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C701
+ CP*
+ SM*
+$endlist
+$component R802
  R?
  SM0603
  SM0805
@@ -1547,19 +1479,27 @@ $component R801
  R?-*
  SM1206
 $endlist
-$component R802
+$component R808
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R803
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C802
+ SM*
+ C?
+ C1-1
+$endlist
+$component C804
+ SM*
+ C?
+ C1-1
+$endlist
+$component C803
+ SM*
+ C?
+ C1-1
 $endlist
 $component R804
  R?
@@ -1575,13 +1515,6 @@ $component R805
  R?-*
  SM1206
 $endlist
-$component R806
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component R807
  R?
  SM0603
@@ -1589,14 +1522,52 @@ $component R807
  R?-*
  SM1206
 $endlist
-$component R808
+$component R806
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
+$component C806
+ SM*
+ C?
+ C1-1
+$endlist
+$component C807
+ SM*
+ C?
+ C1-1
+$endlist
+$component C808
+ SM*
+ C?
+ C1-1
+$endlist
 $component R809
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C805
+ SM*
+ C?
+ C1-1
+$endlist
+$component R803
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C801
+ CP*
+ SM*
+$endlist
+$component R902
  R?
  SM0603
  SM0805
@@ -1610,19 +1581,27 @@ $component R901
  R?-*
  SM1206
 $endlist
-$component R902
+$component R908
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R903
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C902
+ SM*
+ C?
+ C1-1
+$endlist
+$component C904
+ SM*
+ C?
+ C1-1
+$endlist
+$component C903
+ SM*
+ C?
+ C1-1
 $endlist
 $component R904
  R?
@@ -1638,13 +1617,6 @@ $component R905
  R?-*
  SM1206
 $endlist
-$component R906
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
 $component R907
  R?
  SM0603
@@ -1652,12 +1624,27 @@ $component R907
  R?-*
  SM1206
 $endlist
-$component R908
+$component R906
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component C906
+ SM*
+ C?
+ C1-1
+$endlist
+$component C907
+ SM*
+ C?
+ C1-1
+$endlist
+$component C908
+ SM*
+ C?
+ C1-1
 $endlist
 $component R909
  R?
@@ -1666,8 +1653,768 @@ $component R909
  R?-*
  SM1206
 $endlist
-$component U304
- SOT323
+$component C905
+ SM*
+ C?
+ C1-1
+$endlist
+$component R903
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C901
+ CP*
+ SM*
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ JP401 3
+ P301 11
+ U501 VO
+ C502 1
+ U502 3
+ R503 1
+Net 2 "GNDPWR" "GNDPWR"
+ R802 1
+ P501 2
+ P506 2
+ C901 2
+ C504 2
+ P506 1
+ R502 1
+ C201 2
+ Q401 S
+ Q402 S
+ R209 1
+ Q404 S
+ C701 2
+ R702 1
+ C801 2
+ Q403 S
+ R902 1
+Net 3 "+12P" "+12P"
+ R203 1
+ P408 1
+ P401 1
+ P402 1
+ R701 1
+ R901 1
+ C701 1
+ C801 1
+ C201 1
+ P506 3
+ C504 1
+ P407 1
+ P506 4
+ P404 2
+ P501 1
+ C901 1
+ R801 1
+ R501 1
+Net 4 "" ""
+ D501 1
+ R503 2
+Net 5 "GND" "GND"
+ U302 3
+ R208 2
+ R207 1
+ U302 5
+ P202 8
+ U302 9
+ C302 1
+ SW301 1
+ C306 2
+ C305 2
+ C303 2
+ R303 2
+ C308 2
+ R304 2
+ C307 2
+ U304 2
+ R313 2
+ C309 2
+ C310 2
+ R307 2
+ Q302 S
+ U305 4
+ C304 2
+ C301 1
+ R808 2
+ U901 13
+ U901 24
+ U901 PAD
+ C903 2
+ P802 8
+ C805 1
+ R803 2
+ R809 1
+ R908 2
+ R904 1
+ RV901 1
+ C905 1
+ R903 2
+ R909 1
+ P902 8
+ R704 1
+ U701 13
+ U701 24
+ U701 PAD
+ C703 2
+ R709 1
+ RV701 1
+ C705 1
+ R703 2
+ R201 2
+ C205 1
+ RV201 1
+ R202 1
+ C203 2
+ U201 PAD
+ U201 24
+ U201 13
+ U801 13
+ R708 2
+ U801 PAD
+ U801 24
+ R804 1
+ C803 2
+ RV801 1
+ P702 8
+ R402 1
+ U401 6
+ U401 9
+ U301 7
+ U303 47
+ C503 2
+ D501 2
+ R502 2
+ U501 GND
+ U502 1
+ U303 8
+ U303 23
+ C501 2
+ C502 2
+ P301 1
+ Q405 S
+ C401 2
+ C403 2
+ P405 2
+ K401 3
+ P406 2
+ C402 2
+ R405 1
+ R306 2
+ K403 3
+ K404 3
+ P403 1
+ U301 4
+Net 6 "+12V" "+12V"
+ U501 VI
+ R501 2
+ C501 1
+ R404 2
+ JP401 1
+Net 7 "" ""
+ P402 2
+ Q402 D
+Net 8 "AUX_2" "AUX_2"
+ U303 4
+ Q402 G
+Net 9 "HEATER_1" "HEATER_1"
+ U303 27
+ R402 2
+ Q403 G
+Net 10 "" ""
+ P401 2
+ Q401 D
+Net 11 "AUX_1" "AUX_1"
+ U303 3
+ Q401 G
+Net 12 "HEATER_2" "HEATER_2"
+ R405 2
+ U303 28
+ Q405 G
+Net 13 "" ""
+ Q405 D
+ Q404 G
+ R404 1
+Net 16 "SERIAL_RX" "SERIAL_RX"
+ P301 7
+ U303 31
+ P403 4
+Net 17 "SERIAL_TX" "SERIAL_TX"
+ U303 30
+ P301 9
+ P403 5
+Net 18 "" ""
+ Q404 D
+ P407 2
+Net 19 "THERM_1" "THERM_1"
+ R401 2
+ U303 11
+ C401 1
+ P405 1
+Net 20 "" ""
+ K404 2
+ JP401 2
+ K401 2
+ K403 2
+Net 21 "Y_STOP" "Y_STOP"
+ U303 40
+ K403 1
+Net 22 "Z_STOP" "Z_STOP"
+ K404 1
+ U303 41
+Net 23 "X_STOP" "X_STOP"
+ U303 39
+ K401 1
+Net 24 "THERM_2" "THERM_2"
+ C402 1
+ U303 12
+ R403 2
+ P406 1
+Net 27 "" ""
+ P404 1
+ Q403 D
+ P408 2
+Net 29 "SPI_MISO" "SPI_MISO"
+ U401 7
+ U303 16
+Net 30 "SPI_SCK" "SPI_SCK"
+ U303 15
+ U401 5
+Net 31 "SPI_MOSI" "SPI_MOSI"
+ U401 3
+ U303 17
+Net 32 "SD_SEL" "SD_SEL"
+ U303 14
+ U401 2
+Net 34 "/Sango CPU/SPARE2" "SPARE2"
+ U303 13
+ P301 8
+Net 35 "/Sango CPU/SPARE3" "SPARE3"
+ P301 3
+ R311 1
+ U303 29
+Net 36 "/Sango CPU/EEP_SDA" "EEP_SDA"
+ U303 22
+ P301 4
+ U301 5
+ R309 2
+Net 37 "/Sango CPU/EEP_SCL" "EEP_SCL"
+ P301 2
+ R308 2
+ U303 21
+ U301 6
+Net 38 "/Sango CPU/SPARE4" "SPARE4"
+ R312 2
+ P301 5
+ U303 38
+ R313 1
+Net 39 "" ""
+ R316 2
+ U301 1
+Net 40 "/Sango CPU/SPARE1" "SPARE1"
+ U303 2
+ P301 6
+Net 41 "" ""
+ U301 2
+ R315 2
+Net 42 "" ""
+ R306 1
+ U303 35
+Net 43 "" ""
+ U303 36
+ R305 2
+Net 44 "" ""
+ X301 2
+ U303 5
+ C301 2
+Net 48 "/Sango CPU/nRESET" "nRESET"
+ SW301 2
+ R301 2
+ U303 7
+ U302 10
+Net 49 "/Sango CPU/SWDIO" "SWDIO"
+ U303 34
+ U302 2
+Net 50 "/Sango CPU/SWDCLK" "SWDCLK"
+ U302 4
+ U303 37
+Net 51 "DIR_Z" "DIR_Z"
+ U303 46
+ U801 14
+ P801 8
+Net 52 "STEP_E1" "STEP_E1"
+ U303 25
+ P901 7
+ U901 11
+Net 53 "DIR_E1" "DIR_E1"
+ U303 26
+ P901 8
+ U901 14
+Net 54 "DIR_Y" "DIR_Y"
+ U701 14
+ P701 8
+ U303 43
+Net 55 "STEP_Y" "STEP_Y"
+ U701 11
+ P701 7
+ U303 42
+Net 56 "/Sango CPU/BOOT0" "BOOT0"
+ U303 44
+ R303 1
+ JP301 1
+Net 57 "/Sango CPU/BOOT1" "BOOT1"
+ R302 2
+ R304 1
+ Q302 G
+ U303 20
+Net 58 "/Sango CPU/USB_DM" "USB_DM"
+ U304 3
+ U303 32
+Net 59 "/Sango CPU/USB_DP" "USB_DP"
+ U303 33
+ U304 1
+Net 60 "" ""
+ R311 2
+ Q301 1
+Net 61 "" ""
+ U305 1
+ R312 1
+Net 62 "" ""
+ R314 2
+ U301 3
+Net 63 "" ""
+ U303 6
+ C302 2
+ X301 1
+Net 64 "" ""
+ D301 2
+ Q302 D
+Net 65 "/Sango CPU/GND_USB" "GND_USB"
+ R307 1
+ U305 5
+ C310 1
+Net 66 "" ""
+ R310 2
+ D301 1
+Net 67 "" ""
+ U304 5
+ Q301 3
+Net 69 "/Sango CPU/DM" "DM"
+ U304 4
+ U305 2
+Net 70 "/Sango CPU/DP" "DP"
+ U304 6
+ U305 3
+Net 71 "STEP_EN" "STEP_EN"
+ U801 23
+ R708 1
+ U701 23
+ P701 1
+ R208 1
+ U201 23
+ P801 1
+ R808 1
+ P201 1
+ R908 1
+ U901 23
+ P901 1
+ U303 10
+Net 72 "/Stepper-X/VMOT" "VMOT"
+ C207 2
+ C204 2
+ C208 2
+ P202 1
+ R203 2
+ U201 21
+ C206 2
+ U201 16
+Net 73 "/Stepper-X/MOTGND" "MOTGND"
+ R205 2
+ R206 2
+ C206 1
+ R209 2
+ P202 2
+ R207 2
+ C207 1
+ C208 1
+Net 74 "" ""
+ TP201 1
+ U201 12
+ RV201 2
+Net 75 "" ""
+ U201 2
+ C202 2
+Net 76 "" ""
+ C203 1
+ U201 4
+Net 77 "" ""
+ U201 8
+ R202 2
+Net 78 "" ""
+ RV201 3
+ R204 2
+Net 79 "" ""
+ R206 1
+ U201 20
+Net 80 "" ""
+ U201 17
+ R205 1
+Net 81 "" ""
+ U201 1
+ C202 1
+Net 82 "" ""
+ U201 3
+ C204 1
+Net 83 "/Stepper-X/2B" "2B"
+ P203 1
+ P202 3
+ U201 22
+Net 84 "/Stepper-X/2A" "2A"
+ U201 19
+ P203 2
+ P202 4
+Net 85 "/Stepper-X/1A" "1A"
+ P202 5
+ U201 18
+ P203 3
+Net 86 "/Stepper-X/1B" "1B"
+ U201 15
+ P203 4
+ P202 6
+Net 87 "/Stepper-X/MS3" "MS3"
+ JP203 2
+ P201 4
+Net 88 "DIR_X" "DIR_X"
+ P201 8
+ U303 19
+ U201 14
+Net 89 "STEP_X" "STEP_X"
+ U201 11
+ P201 7
+ U303 18
+Net 90 "/Stepper-X/MS2" "MS2"
+ U201 6
+ JP202 2
+ P201 3
+Net 91 "/Stepper-X/MS1" "MS1"
+ U201 5
+ JP201 2
+ R201 1
+ P201 2
+Net 92 "" ""
+ U701 3
+ C704 1
+Net 93 "/Stepper-Y/2B" "2B"
+ U701 22
+ P703 1
+ P702 3
+Net 94 "/Stepper-Y/1B" "1B"
+ P702 6
+ U701 15
+ P703 4
+Net 95 "/Stepper-Y/1A" "1A"
+ U701 18
+ P703 3
+ P702 5
+Net 96 "/Stepper-Y/2A" "2A"
+ P703 2
+ P702 4
+ U701 19
+Net 97 "" ""
+ C703 1
+ U701 4
+Net 98 "" ""
+ R704 2
+ U701 8
+Net 99 "" ""
+ RV701 3
+ R705 2
+Net 100 "" ""
+ R707 1
+ U701 20
+Net 101 "" ""
+ R706 1
+ U701 17
+Net 102 "/Stepper-Y/MOTGND" "MOTGND"
+ C707 1
+ C708 1
+ R702 2
+ R707 2
+ P702 2
+ R706 2
+ C706 1
+ R709 2
+Net 103 "/Stepper-Y/MS2" "MS2"
+ JP702 2
+ U701 6
+ P701 3
+Net 104 "/Stepper-Y/MS3" "MS3"
+ JP703 2
+ P701 4
+Net 105 "" ""
+ U701 1
+ C702 1
+Net 106 "" ""
+ U701 2
+ C702 2
+Net 107 "/Stepper-Y/MS1" "MS1"
+ P701 2
+ JP701 2
+ R703 1
+ U701 5
+Net 108 "" ""
+ TP701 1
+ RV701 2
+ U701 12
+Net 109 "/Stepper-Y/VMOT" "VMOT"
+ U701 21
+ R701 2
+ C707 2
+ P702 1
+ C708 2
+ U701 16
+ C706 2
+ C704 2
+Net 110 "VCC" "VCC"
+ R309 1
+ JP301 2
+ P802 7
+ U303 9
+ U901 10
+ U901 9
+ U901 7
+ C309 1
+ R905 1
+ C503 1
+ R316 1
+ R315 1
+ R314 1
+ R308 1
+ P801 6
+ P801 5
+ Q301 2
+ R310 1
+ U303 24
+ U303 1
+ C304 1
+ C305 1
+ C306 1
+ C307 1
+ C308 1
+ C303 1
+ R302 1
+ U302 1
+ U301 8
+ R301 1
+ JP903 1
+ P301 12
+ U303 48
+ JP902 1
+ JP901 1
+ C905 2
+ U502 4
+ U502 2
+ P901 6
+ P901 5
+ P902 7
+ R204 1
+ U201 10
+ U201 9
+ U201 7
+ C205 2
+ P201 6
+ P201 5
+ P202 7
+ U701 7
+ U701 9
+ U701 10
+ C805 2
+ C403 1
+ U801 10
+ U801 7
+ U801 9
+ JP801 1
+ JP203 1
+ JP802 1
+ JP803 1
+ JP202 1
+ JP201 1
+ R401 1
+ P701 6
+ P702 7
+ P701 5
+ C705 2
+ R305 1
+ R403 1
+ JP701 1
+ JP702 1
+ JP703 1
+ R705 1
+ R805 1
+ U401 4
+Net 111 "" ""
+ U801 3
+ C804 1
+Net 112 "" ""
+ R804 2
+ U801 8
+Net 113 "/Stepper-Z/VMOT" "VMOT"
+ C804 2
+ P802 1
+ C806 2
+ U801 21
+ R801 2
+ U801 16
+ C808 2
+ C807 2
+Net 114 "/Stepper-Z/2A" "2A"
+ U801 19
+ P802 4
+ P803 2
+ P804 2
+Net 115 "/Stepper-Z/1A" "1A"
+ P802 5
+ P804 3
+ U801 18
+ P803 3
+Net 116 "/Stepper-Z/1B" "1B"
+ U801 15
+ P803 4
+ P802 6
+ P804 4
+Net 117 "/Stepper-Z/2B" "2B"
+ P803 1
+ P804 1
+ U801 22
+ P802 3
+Net 118 "STEP_Z" "STEP_Z"
+ U801 11
+ U303 45
+ P801 7
+Net 119 "" ""
+ U801 4
+ C803 1
+Net 120 "" ""
+ U801 2
+ C802 2
+Net 121 "" ""
+ C802 1
+ U801 1
+Net 122 "" ""
+ R805 2
+ RV801 3
+Net 123 "" ""
+ U801 20
+ R807 1
+Net 124 "" ""
+ R806 1
+ U801 17
+Net 125 "/Stepper-Z/MOTGND" "MOTGND"
+ C806 1
+ C807 1
+ C808 1
+ R806 2
+ P802 2
+ R809 2
+ R807 2
+ R802 2
+Net 126 "/Stepper-Z/MS3" "MS3"
+ P801 4
+ JP803 2
+Net 127 "" ""
+ TP801 1
+ RV801 2
+ U801 12
+Net 128 "/Stepper-Z/MS1" "MS1"
+ P801 2
+ R803 1
+ JP801 2
+ U801 5
+Net 129 "/Stepper-Z/MS2" "MS2"
+ P801 3
+ JP802 2
+ U801 6
+Net 130 "" ""
+ C904 1
+ U901 3
+Net 131 "/Stepper-E1/VMOT" "VMOT"
+ U901 16
+ C906 2
+ P902 1
+ C904 2
+ R901 2
+ C908 2
+ C907 2
+ U901 21
+Net 132 "/Stepper-E1/2B" "2B"
+ P903 1
+ U901 22
+ P902 3
+Net 133 "/Stepper-E1/1B" "1B"
+ P903 4
+ U901 15
+ P902 6
+Net 134 "/Stepper-E1/1A" "1A"
+ P903 3
+ U901 18
+ P902 5
+Net 135 "/Stepper-E1/2A" "2A"
+ U901 19
+ P902 4
+ P903 2
+Net 136 "" ""
+ C902 2
+ U901 2
+Net 137 "" ""
+ U901 4
+ C903 1
+Net 138 "" ""
+ R904 2
+ U901 8
+Net 139 "" ""
+ R905 2
+ RV901 3
+Net 140 "" ""
+ U901 20
+ R907 1
+Net 141 "" ""
+ R906 1
+ U901 17
+Net 142 "/Stepper-E1/MOTGND" "MOTGND"
+ C908 1
+ R907 2
+ R906 2
+ P902 2
+ R909 2
+ C906 1
+ C907 1
+ R902 2
+Net 143 "/Stepper-E1/MS2" "MS2"
+ JP902 2
+ P901 3
+ U901 6
+Net 144 "/Stepper-E1/MS3" "MS3"
+ JP903 2
+ P901 4
+Net 145 "" ""
+ U901 1
+ C902 1
+Net 146 "/Stepper-E1/MS1" "MS1"
+ R903 1
+ JP901 2
+ P901 2
+ U901 5
+Net 147 "" ""
+ U901 12
+ TP901 1
+ RV901 2
+}
+#End

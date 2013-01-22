@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2013 13:12:05
+EESchema Schematic File Version 2  date 22/01/2013 21:21:55
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 9
 Title "Sango-bc"
-Date "2 jan 2013"
+Date "22 jan 2013"
 Rev "0.2"
 Comp ""
 Comment1 ""
@@ -46,4 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2000 2050 0    60   ~ 0
+This sheet not used.
 $EndSCHEMATC

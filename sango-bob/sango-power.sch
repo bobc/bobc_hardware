@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2013 13:12:05
+EESchema Schematic File Version 2  date 22/01/2013 21:21:55
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 9
 Title "Sango-bc"
-Date "2 jan 2013"
+Date "22 jan 2013"
 Rev "0.2"
 Comp ""
 Comment1 ""
@@ -46,6 +46,112 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	3450 1050 3450 2700
+Wire Wire Line
+	8350 2100 8350 2050
+Wire Wire Line
+	6350 1600 6350 1650
+Wire Wire Line
+	5800 1900 5800 2300
+Connection ~ 5200 2100
+Wire Wire Line
+	5200 2100 5200 2050
+Connection ~ 4100 1600
+Wire Wire Line
+	5400 1600 3700 1600
+Connection ~ 1550 2300
+Wire Wire Line
+	1550 2400 1300 2400
+Wire Wire Line
+	1550 2400 1550 1800
+Connection ~ 1450 2100
+Wire Wire Line
+	1450 1600 1450 2200
+Wire Wire Line
+	1450 2200 1300 2200
+Connection ~ 3800 2100
+Wire Wire Line
+	1300 1800 2150 1800
+Connection ~ 2400 2100
+Wire Wire Line
+	2400 2100 2400 2050
+Connection ~ 2900 1600
+Connection ~ 3800 1600
+Wire Wire Line
+	4100 1600 4100 1350
+Connection ~ 2600 1600
+Wire Wire Line
+	2900 1350 2900 1600
+Connection ~ 8100 1600
+Wire Wire Line
+	8100 1700 8100 1600
+Wire Wire Line
+	8100 1700 8050 1700
+Connection ~ 6600 1600
+Wire Wire Line
+	1200 4350 1200 4250
+Wire Wire Line
+	2600 2100 2600 2300
+Wire Wire Line
+	2600 1600 2600 1300
+Wire Wire Line
+	6600 1300 6600 1600
+Connection ~ 5800 2100
+Connection ~ 6350 2100
+Wire Wire Line
+	1200 4850 1200 4750
+Wire Wire Line
+	1200 3750 1200 3650
+Wire Wire Line
+	7250 1600 6200 1600
+Connection ~ 6350 1600
+Connection ~ 5200 1600
+Wire Wire Line
+	8050 1600 8350 1600
+Connection ~ 7650 2100
+Wire Wire Line
+	3800 2100 3800 2300
+Wire Wire Line
+	3800 1300 3800 1600
+Wire Wire Line
+	8350 1450 8600 1450
+Wire Wire Line
+	8600 1450 8600 1300
+Connection ~ 8350 1450
+Wire Wire Line
+	2900 2000 2900 2100
+Connection ~ 2600 2100
+Connection ~ 2900 2100
+Wire Wire Line
+	3200 2100 2150 2100
+Wire Wire Line
+	2150 2100 2150 1800
+Wire Wire Line
+	2400 1600 2400 1650
+Connection ~ 2400 1600
+Wire Wire Line
+	3200 1600 1300 1600
+Wire Wire Line
+	1300 2100 1450 2100
+Connection ~ 1450 1600
+Wire Wire Line
+	1300 2300 1550 2300
+Connection ~ 1550 1800
+Wire Wire Line
+	4100 2100 4100 2000
+Wire Wire Line
+	3700 2100 8350 2100
+Connection ~ 4100 2100
+Wire Wire Line
+	5200 1650 5200 1600
+Wire Wire Line
+	6350 2100 6350 2050
+Wire Wire Line
+	7650 1900 7650 2100
+Wire Wire Line
+	8350 1650 8350 1300
+Connection ~ 8350 1600
 $Comp
 L HOLE_RMC H504
 U 1 1 50E38389
@@ -82,102 +188,8 @@ F 1 "HOLE_RMC" H 10050 4000 60  0001 C CNN
 	1    10050 3850
 	1    0    0    -1  
 $EndComp
-Text Notes 7100 2750 0    60   Italic 0
-Could power 5V from USB
-Connection ~ 1550 2300
-Wire Wire Line
-	1300 2400 1550 2400
-Wire Wire Line
-	1550 2400 1550 1800
-Connection ~ 1450 2100
-Wire Wire Line
-	1450 1600 1450 2200
-Wire Wire Line
-	1450 2200 1300 2200
-Connection ~ 3800 2100
-Wire Wire Line
-	4100 2100 3700 2100
-Wire Wire Line
-	1300 1800 2150 1800
-Connection ~ 2400 2100
-Wire Wire Line
-	2400 2100 2400 2050
-Connection ~ 2900 1600
-Connection ~ 3800 1600
-Wire Wire Line
-	4100 1350 4100 1600
-Connection ~ 2600 1600
-Wire Wire Line
-	2900 1600 2900 1500
-Connection ~ 9200 1700
-Wire Wire Line
-	9200 1700 9200 1800
-Wire Wire Line
-	9200 1800 9150 1800
-Connection ~ 7700 1700
-Wire Wire Line
-	1200 4350 1200 4250
-Wire Wire Line
-	6900 2300 6900 2000
-Wire Wire Line
-	2600 2100 2600 2300
-Wire Wire Line
-	2600 1600 2600 1300
-Wire Wire Line
-	6200 1400 6200 1700
-Wire Wire Line
-	7700 1700 7700 1400
-Connection ~ 6900 2100
-Wire Wire Line
-	8750 2100 8750 2000
-Connection ~ 7450 2100
-Wire Wire Line
-	9450 1400 9450 1700
-Wire Wire Line
-	1200 4850 1200 4750
-Wire Wire Line
-	1200 3750 1200 3650
-Wire Wire Line
-	7300 1700 8350 1700
-Connection ~ 7450 1700
-Wire Wire Line
-	6200 1700 6500 1700
-Connection ~ 6300 1700
-Wire Wire Line
-	9450 1700 9150 1700
-Wire Wire Line
-	6300 2100 9450 2100
-Connection ~ 8750 2100
-Wire Wire Line
-	3800 2100 3800 2300
-Wire Wire Line
-	4100 1600 3700 1600
-Wire Wire Line
-	3800 1300 3800 1600
-Wire Wire Line
-	9450 1550 9700 1550
-Wire Wire Line
-	9700 1550 9700 1400
-Connection ~ 9450 1550
-Wire Wire Line
-	2900 2000 2900 2100
-Connection ~ 2600 2100
-Connection ~ 2900 2100
-Wire Wire Line
-	3200 2100 2150 2100
-Wire Wire Line
-	2150 2100 2150 1800
-Wire Wire Line
-	2400 1650 2400 1600
-Connection ~ 2400 1600
-Wire Wire Line
-	1300 1600 3200 1600
-Wire Wire Line
-	1450 2100 1300 2100
-Connection ~ 1450 1600
-Wire Wire Line
-	1550 2300 1300 2300
-Connection ~ 1550 1800
+Text Notes 6300 2800 0    60   Italic 0
+Could power 5V from USB?
 $Comp
 L CONN_4 P506
 U 1 1 50E1D128
@@ -188,58 +200,49 @@ F 1 "PWR_12V" V 1000 2250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG065
+L PWR_FLAG #FLG066
 U 1 1 50E0735A
-P 4100 2100
-F 0 "#FLG065" H 4100 2195 30  0001 C CNN
-F 1 "PWR_FLAG" H 4100 2280 30  0000 C CNN
-	1    4100 2100
+P 4100 2000
+F 0 "#FLG066" H 4100 2095 30  0001 C CNN
+F 1 "PWR_FLAG" H 4100 2180 30  0000 C CNN
+	1    4100 2000
 	1    0    0    -1  
 $EndComp
 Text Notes 1050 5200 0    60   ~ 0
 Power LED
 Text Notes 9700 4950 0    60   ~ 0
 Mounting holes
-Text Notes 9200 1200 0    60   ~ 0
+Text Notes 8100 1100 0    60   ~ 0
 3.3V 0.8A max
-Text Notes 7250 1250 0    60   ~ 0
+Text Notes 6400 1100 0    60   ~ 0
 5V 1A max
-Text Notes 2500 2600 0    60   ~ 0
-Use thick trace for +12P, GNDPWR\nConnect nets with wire or solder bridge
+Text Notes 1850 2950 0    60   ~ 0
+Use thick trace for +12P, GNDPWR\nConnect nets with PCB trace
 $Comp
-L PWR_FLAG #FLG066
+L PWR_FLAG #FLG067
 U 1 1 50D59DDD
 P 4100 1350
-F 0 "#FLG066" H 4100 1445 30  0001 C CNN
+F 0 "#FLG067" H 4100 1445 30  0001 C CNN
 F 1 "PWR_FLAG" H 4100 1530 30  0000 C CNN
 	1    4100 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG067
+L PWR_FLAG #FLG068
 U 1 1 50D59DDB
 P 2900 2000
-F 0 "#FLG067" H 2900 2095 30  0001 C CNN
+F 0 "#FLG068" H 2900 2095 30  0001 C CNN
 F 1 "PWR_FLAG" H 2900 2180 30  0000 C CNN
 	1    2900 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR068
+L VCC #PWR069
 U 1 1 50D58C15
-P 9700 1400
-F 0 "#PWR068" H 9700 1500 30  0001 C CNN
-F 1 "VCC" H 9700 1500 30  0000 C CNN
-	1    9700 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR069
-U 1 1 5065AC4A
-P 6200 1400
-F 0 "#PWR069" H 6200 1350 20  0001 C CNN
-F 1 "+12V" H 6200 1500 30  0000 C CNN
-	1    6200 1400
+P 8600 1300
+F 0 "#PWR069" H 8600 1400 30  0001 C CNN
+F 1 "VCC" H 8600 1400 30  0000 C CNN
+	1    8600 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -290,19 +293,19 @@ $EndComp
 $Comp
 L C C503
 U 1 1 504D1B3E
-P 9450 1900
-F 0 "C503" H 9500 2000 50  0000 L CNN
-F 1 "10uF" H 9500 1800 50  0000 L CNN
-	1    9450 1900
+P 8350 1850
+F 0 "C503" H 8400 1950 50  0000 L CNN
+F 1 "10uF" H 8400 1750 50  0000 L CNN
+	1    8350 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L VDD #PWR073
 U 1 1 504A2506
-P 9450 1400
-F 0 "#PWR073" H 9450 1500 30  0001 C CNN
-F 1 "VDD" H 9450 1510 30  0000 C CNN
-	1    9450 1400
+P 8350 1300
+F 0 "#PWR073" H 8350 1400 30  0001 C CNN
+F 1 "VDD" H 8350 1410 30  0000 C CNN
+	1    8350 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -353,64 +356,64 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG076
 U 1 1 5047CFEE
-P 2900 1500
-F 0 "#FLG076" H 2900 1595 30  0001 C CNN
-F 1 "PWR_FLAG" H 2900 1680 30  0000 C CNN
-	1    2900 1500
+P 2900 1350
+F 0 "#FLG076" H 2900 1445 30  0001 C CNN
+F 1 "PWR_FLAG" H 2900 1530 30  0000 C CNN
+	1    2900 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L 1117 U502
 U 1 1 5047CFB9
-P 8750 1750
-F 0 "U502" H 8900 1554 50  0000 C CNN
-F 1 "1117" H 8750 1900 40  0000 C CNN
-	1    8750 1750
+P 7650 1650
+F 0 "U502" H 7800 1454 50  0000 C CNN
+F 1 "1117" H 7650 1800 40  0000 C CNN
+	1    7650 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR077
 U 1 1 5047CCAB
-P 7700 1400
-F 0 "#PWR077" H 7700 1490 20  0001 C CNN
-F 1 "+5V" H 7700 1490 30  0000 C CNN
-	1    7700 1400
+P 6600 1300
+F 0 "#PWR077" H 6600 1390 20  0001 C CNN
+F 1 "+5V" H 6600 1390 30  0000 C CNN
+	1    6600 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR078
 U 1 1 5047CCA3
-P 6900 2300
-F 0 "#PWR078" H 6900 2300 30  0001 C CNN
-F 1 "GND" H 6900 2230 30  0001 C CNN
-	1    6900 2300
+P 5800 2300
+F 0 "#PWR078" H 5800 2300 30  0001 C CNN
+F 1 "GND" H 5800 2230 30  0001 C CNN
+	1    5800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C502
 U 1 1 5047CC9A
-P 7450 1900
-F 0 "C502" H 7500 2000 50  0000 L CNN
-F 1 "100nF" H 7500 1800 50  0000 L CNN
-	1    7450 1900
+P 6350 1850
+F 0 "C502" H 6400 1950 50  0000 L CNN
+F 1 "100nF" H 6400 1750 50  0000 L CNN
+	1    6350 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C501
 U 1 1 5047CC95
-P 6300 1900
-F 0 "C501" H 6350 2000 50  0000 L CNN
-F 1 "330nF" H 6350 1800 50  0000 L CNN
-	1    6300 1900
+P 5200 1850
+F 0 "C501" H 5250 1950 50  0000 L CNN
+F 1 "330nF" H 5250 1750 50  0000 L CNN
+	1    5200 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 7805 U501
 U 1 1 5047CC85
-P 6900 1750
-F 0 "U501" H 7050 1554 60  0000 C CNN
-F 1 "7805" H 6900 1950 60  0000 C CNN
-	1    6900 1750
+P 5800 1650
+F 0 "U501" H 5950 1454 60  0000 C CNN
+F 1 "7805" H 5800 1850 60  0000 C CNN
+	1    5800 1650
 	1    0    0    -1  
 $EndComp
 $Comp

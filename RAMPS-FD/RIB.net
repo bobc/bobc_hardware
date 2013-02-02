@@ -1,0 +1,323 @@
+# EESchema Netlist Version 1.1 created  02/02/2013 14:58:39
+(
+ ( /510D24A8/510D24EE SM0805 C1 100n
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /510D24A8/510D24ED SM0805 C2 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /510C585C HOLE_M3 H1 HOLE_RMC
+ )
+ ( /510C5864 HOLE_M3 H2 HOLE_RMC
+ )
+ ( /510C5865 HOLE_M3 H3 HOLE_RMC
+ )
+ ( /510AFD20 OSHW_logo_2 M1 LOGO_OSHW
+ )
+ ( /510596F8 PIN_ARRAY_8x1_SM P1 CONN_8
+  ( 1 ? )
+  ( 2 /IOREF )
+  ( 3 /RESET )
+  ( 4 +3.3V )
+  ( 5 +5V )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 +12V )
+ )
+ ( /51059705 PIN_ARRAY_8x1_SM P2 CONN_8
+  ( 1 X_STEP )
+  ( 2 X_DIR )
+  ( 3 Y_EN )
+  ( 4 A3 )
+  ( 5 A4 )
+  ( 6 A5 )
+  ( 7 Y_STEP )
+  ( 8 Y_DIR )
+ )
+ ( /51059707 PIN_ARRAY_8x1_SM P3 CONN_8
+  ( 1 Z_EN )
+  ( 2 A9 )
+  ( 3 A10 )
+  ( 4 A11 )
+  ( 5 A12 )
+  ( 6 THERM0 )
+  ( 7 THERM1 )
+  ( 8 THERM2 )
+ )
+ ( /510597C5 PIN_ARRAY_18X2_SM_REV P4 CONN_18X2
+  ( 1 +5V )
+  ( 2 +5V )
+  ( 3 /D22 )
+  ( 4 /D23 )
+  ( 5 E0_EN )
+  ( 6 /D25 )
+  ( 7 E0_STEP )
+  ( 8 /D27 )
+  ( 9 E0_DIR )
+  ( 10 /D29 )
+  ( 11 E1_EN )
+  ( 12 /D31 )
+  ( 13 /D32 )
+  ( 14 /D33 )
+  ( 15 E1_DIR )
+  ( 16 /D35 )
+  ( 17 E1_STEP )
+  ( 18 /D37 )
+  ( 19 X_EN )
+  ( 20 /D39 )
+  ( 21 /D40 )
+  ( 22 /D41 )
+  ( 23 /D42 )
+  ( 24 /D43 )
+  ( 25 /D44 )
+  ( 26 /D45 )
+  ( 27 Z_STEP )
+  ( 28 /D47 )
+  ( 29 Z_DIR )
+  ( 30 /D49 )
+  ( 31 /D50 )
+  ( 32 /D51 )
+  ( 33 /D52 )
+  ( 34 /D53 )
+  ( 35 GND )
+  ( 36 GND )
+ )
+ ( /51059719 PIN_ARRAY_10x1_SM P5 CONN_10
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /D13 )
+  ( 6 /D12 )
+  ( 7 SER1 )
+  ( 8 FET1 )
+  ( 9 FET2 )
+  ( 10 FET3 )
+ )
+ ( /5105970D PIN_ARRAY_8x1_SM P6 CONN_8
+  ( 1 ? )
+  ( 2 D6 )
+  ( 3 D5 )
+  ( 4 D4 )
+  ( 5 X-MIN )
+  ( 6 X-MAX )
+  ( 7 UART_TX )
+  ( 8 UART_RX )
+ )
+ ( /51059710 PIN_ARRAY_8x1_SM P7 CONN_8
+  ( 1 Y-MIN )
+  ( 2 Y-MAX )
+  ( 3 D16 )
+  ( 4 D17 )
+  ( 5 Z-MIN )
+  ( 6 Z-MAX )
+  ( 7 SDA )
+  ( 8 SCL )
+ )
+ ( /510AF8C0 PIN_ARRAY_3X2_F_SM_REV P8 CONN_3X2
+  ( 1 ? )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 GND )
+ )
+ ( /510871DE PIN_ARRAY_8x1_F_SM P9 CONN_8
+  ( 1 ? )
+  ( 2 /IOREF )
+  ( 3 /RESET )
+  ( 4 ? )
+  ( 5 +3.3V )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 +12V )
+ )
+ ( /510871DD PIN_ARRAY_8x1_F_SM P10 CONN_8
+  ( 1 X_STEP )
+  ( 2 X_DIR )
+  ( 3 Y_EN )
+  ( 4 A3 )
+  ( 5 A4 )
+  ( 6 A5 )
+  ( 7 Y_STEP )
+  ( 8 Y_DIR )
+ )
+ ( /510871DC PIN_ARRAY_8x1_F_SM P11 CONN_8
+  ( 1 Z_EN )
+  ( 2 A9 )
+  ( 3 A10 )
+  ( 4 A11 )
+  ( 5 A12 )
+  ( 6 THERM0 )
+  ( 7 THERM1 )
+  ( 8 THERM2 )
+ )
+ ( /510871E4 PIN_ARRAY_18X2_F_SM P12 CONN_18X2
+  ( 1 +3.3V )
+  ( 2 +3.3V )
+  ( 3 /D22 )
+  ( 4 /D23 )
+  ( 5 E0_EN )
+  ( 6 /D25 )
+  ( 7 E0_STEP )
+  ( 8 /D27 )
+  ( 9 E0_DIR )
+  ( 10 /D29 )
+  ( 11 E1_EN )
+  ( 12 /D31 )
+  ( 13 /D32 )
+  ( 14 /D33 )
+  ( 15 E1_DIR )
+  ( 16 /D35 )
+  ( 17 E1_STEP )
+  ( 18 /D37 )
+  ( 19 X_EN )
+  ( 20 /D39 )
+  ( 21 /D40 )
+  ( 22 /D41 )
+  ( 23 /D42 )
+  ( 24 /D43 )
+  ( 25 /D44 )
+  ( 26 /D45 )
+  ( 27 Z_STEP )
+  ( 28 /D47 )
+  ( 29 Z_DIR )
+  ( 30 /D49 )
+  ( 31 /D50 )
+  ( 32 /D51 )
+  ( 33 /D52 )
+  ( 34 /D53 )
+  ( 35 GND )
+  ( 36 GND )
+ )
+ ( /510871E1 PIN_ARRAY_10x1_F_SM P13 CONN_10
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /D13 )
+  ( 6 /D12 )
+  ( 7 SER1 )
+  ( 8 RAMPS_FET1 )
+  ( 9 RAMPS_FET2 )
+  ( 10 RAMPS_FET3 )
+ )
+ ( /510871E3 PIN_ARRAY_8x1_F_SM P14 CONN_8
+  ( 1 ? )
+  ( 2 D6 )
+  ( 3 D5 )
+  ( 4 D4 )
+  ( 5 RAMPS_X_MIN )
+  ( 6 RAMPS_X_MAX )
+  ( 7 RAMPS_UART_TX )
+  ( 8 RAMPS_UART_RX )
+ )
+ ( /510871E2 PIN_ARRAY_8x1_F_SM P15 CONN_8
+  ( 1 RAMPS_Y_MIN )
+  ( 2 RAMPS_Y_MAX )
+  ( 3 D16 )
+  ( 4 D17 )
+  ( 5 RAMPS_Z_MIN )
+  ( 6 RAMPS_Z_MAX )
+  ( 7 SDA )
+  ( 8 SCL )
+ )
+ ( /510D24A8/510D250B SM0805 R1 1k
+  ( 1 FET1 )
+  ( 2 N-000105 )
+ )
+ ( /510D24A8/510D2506 SM0805 R2 1k
+  ( 1 FET2 )
+  ( 2 N-000103 )
+ )
+ ( /510D24A8/510D2503 SM0805 R3 1k
+  ( 1 FET3 )
+  ( 2 N-000107 )
+ )
+ ( /510D24A8/510D250C SOT23_6 U1 ZXGD3005E6
+  ( 1 +12V )
+  ( 2 N-000105 )
+  ( 3 GND )
+  ( 4 RAMPS_FET1 )
+  ( 5 ? )
+  ( 6 RAMPS_FET1 )
+ )
+ ( /510D24A8/510D2505 SOT23_6 U2 ZXGD3005E6
+  ( 1 +12V )
+  ( 2 N-000103 )
+  ( 3 GND )
+  ( 4 RAMPS_FET2 )
+  ( 5 ? )
+  ( 6 RAMPS_FET2 )
+ )
+ ( /510D24A8/510D2504 SOT23_6 U3 ZXGD3005E6
+  ( 1 +12V )
+  ( 2 N-000107 )
+  ( 3 GND )
+  ( 4 RAMPS_FET3 )
+  ( 5 ? )
+  ( 6 RAMPS_FET3 )
+ )
+ ( /510D24A8/510D24F2 SSOP20 U4 TXS0108
+  ( 1 X-MIN )
+  ( 2 +3.3V )
+  ( 3 X-MAX )
+  ( 4 Y-MIN )
+  ( 5 Y-MAX )
+  ( 6 Z-MIN )
+  ( 7 Z-MAX )
+  ( 8 UART_TX )
+  ( 9 UART_RX )
+  ( 10 +3.3V )
+  ( 11 GND )
+  ( 12 RAMPS_UART_RX )
+  ( 13 RAMPS_UART_TX )
+  ( 14 RAMPS_Z_MAX )
+  ( 15 RAMPS_Z_MIN )
+  ( 16 RAMPS_Y_MAX )
+  ( 17 RAMPS_Y_MIN )
+  ( 18 RAMPS_X_MAX )
+  ( 19 +5V )
+  ( 20 RAMPS_X_MIN )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component M1
+ OSHW_logo_2
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

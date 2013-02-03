@@ -1,31 +1,1272 @@
-PCBNEW-LibModule-V1  dom 09 ott 2011 13:44:30 CEST
+PCBNEW-LibModule-V1  lun 28 gen 2013 20:00:11 CET
 # encoding utf-8
+Units deci-mils
 $INDEX
-qfn-28
-qfn-44
-lfcsp-48
-qfn-20
+DFN-6_Clock
 dfn5
 dfn8
-DFN-6_Clock
-$EndINDEX
-$INDEX
+lfcsp-48
+lfcsp-uq-10_13x16
+lfcsp-uq-10_20x20
+lfcsp-vq-12_30x30
+lfcsp-wd-10_30x30
 pqfp-10
 pvqfn-n14
 pvqfn-n16
 pvqfn-n20
 pvqfn-n24
+pvqfn-n32
+pvqfn-n40
+pvqfn-n48
+qfn-20
+qfn-28
 qfn-44
+qfn-64
 $EndINDEX
+$MODULE DFN-6_Clock
+Po 0 0 0 15 4E52D592 00000000 ~~
+Li DFN-6_Clock
+Cd Oscillator Ceramic DFP, 6 pins
+Sc 0
+AR DFN-6_Clock
+Op 0 0 0
+T0 0 -551 394 394 0 79 N V 21 N "U***"
+T1 0 551 394 394 0 79 N V 21 N "DFN-6_Clock"
+DS 2100 -1100 2100 1000 200 21
+DS 2100 1000 2100 1100 200 21
+DS 2100 1100 -2100 1100 200 21
+DS -2100 1100 -2100 -1100 200 21
+DS -2100 -1100 2100 -1100 200 21
+DC 1600 -600 1500 -500 200 21
+DS -1200 1750 -1200 1500 200 21
+DS -1200 1500 -800 1500 200 21
+DS -800 1500 -800 1750 200 21
+DS -800 1750 -200 1750 200 21
+DS -200 1750 -200 1500 200 21
+DS -200 1500 200 1500 200 21
+DS 200 1500 200 1750 200 21
+DS 200 1750 800 1750 200 21
+DS 800 1750 800 1500 200 21
+DS 800 1500 1200 1500 200 21
+DS 1200 1500 1200 1750 200 21
+DS 1200 1750 1800 1750 200 21
+DS 1800 1750 1800 1500 200 21
+DS 1800 1500 2200 1500 200 21
+DS 2200 1500 2200 1750 200 21
+DS 2200 1750 2500 1750 200 21
+DS 2500 1750 2750 1500 200 21
+DS 2750 1500 2750 -1500 200 21
+DS 2750 -1500 2500 -1750 200 21
+DS 2500 -1750 2200 -1750 200 21
+DS 2200 -1750 2200 -1500 200 21
+DS 2200 -1500 1800 -1500 200 21
+DS 1800 -1500 1800 -1750 200 21
+DS 1800 -1750 1200 -1750 200 21
+DS 1200 -1750 1200 -1500 200 21
+DS 1200 -1500 800 -1500 200 21
+DS 800 -1500 800 -1750 200 21
+DS 800 -1750 200 -1750 200 21
+DS 200 -1750 200 -1500 200 21
+DS 200 -1500 -200 -1500 200 21
+DS -200 -1500 -200 -1750 200 21
+DS -200 -1750 -800 -1750 200 21
+DS -800 -1750 -800 -1500 200 21
+DS -800 -1500 -1200 -1500 200 21
+DS -1200 -1500 -1200 -1750 200 21
+DS -1200 -1750 -2500 -1750 200 21
+DS -2500 -1750 -2750 -1500 200 21
+DS -2750 -1500 -2750 1500 200 21
+DS -2750 1500 -2500 1750 200 21
+DS -2500 1750 -1200 1750 200 21
+$PAD
+Sh "1" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 -1450
+$EndPAD
+$PAD
+Sh "2" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1450
+$EndPAD
+$PAD
+Sh "3" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 -1450
+$EndPAD
+$PAD
+Sh "4" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 1450
+$EndPAD
+$PAD
+Sh "5" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1450
+$EndPAD
+$PAD
+Sh "6" R 600 850 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 1450
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/dfn-6_clock.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE DFN-6_Clock
+$MODULE dfn5
+Po 0 0 0 15 5106C253 00000000 ~~
+Li dfn5
+Cd Plastic QFP, ON DFN5 (SO-8FL)
+Sc 0
+AR dfn5
+Op 0 0 0
+T0 0 -1535 197 197 0 39 N V 21 N "dfn5"
+T1 0 1535 197 197 0 39 N V 21 N "VAL**"
+DC 629 -787 551 -669 100 21
+DS -984 -1142 984 -1142 100 21
+DS 984 -1142 984 1142 100 21
+DS 984 1142 -984 1142 100 21
+DS -984 1142 -984 -1142 100 21
+$PAD
+Sh "1" R 295 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 750 -1100
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 295 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 250 -1100
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 295 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 -1100
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 295 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -750 -1100
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 295 187 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 750 1165
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 295 187 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -750 1165
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 195 355 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 995 -177
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 195 355 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -995 -177
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 902 799 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 449 677
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 902 799 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 449 -122
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 902 799 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -449 677
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "5" R 902 799 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -449 -122
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/dfn5_so-8fl.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE dfn5
+$MODULE dfn8
+Po 0 0 0 15 5106C1F4 00000000 ~~
+Li dfn8
+Cd Plastic QFP, ON DFN8
+Sc 0
+AR dfn5
+Op 0 0 0
+T0 0 -906 197 197 0 39 N V 21 N "dfn8"
+T1 0 984 197 197 0 39 N V 21 N "VAL**"
+DC -354 354 -394 433 50 21
+DS -591 -591 591 -591 50 21
+DS 591 -591 591 591 50 21
+DS 591 591 -591 591 50 21
+DS -591 591 -591 -591 50 21
+$PAD
+Sh "1" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -97 525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 97 525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 97 -525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -97 -525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 137 247 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -525
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 727 610 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/dfn8.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE dfn8
+$MODULE lfcsp-48
+Po 0 0 0 15 5106CAB8 00000000 ~~
+Li lfcsp-48
+Cd Plastic Lead Frame CSP, National CP-48-3
+Sc 0
+AR vfqfpn-28
+Op 0 0 0
+T0 0 -1772 157 157 0 31 N V 21 N "U***"
+T1 0 1772 157 157 0 31 N V 21 N "LFCSP-48"
+DS -1220 1378 -1378 1220 50 21
+DS -1378 1220 -1378 1260 50 21
+DS -1378 1260 -1260 1378 50 21
+DS -1260 1378 -1299 1378 50 21
+DS -1299 1378 -1378 1299 50 21
+DS -1378 1181 -1378 1378 50 21
+DS -1378 1378 -1181 1378 50 21
+DS -1181 1378 1181 1378 50 21
+DS 1181 1378 1378 1181 50 21
+DS 1378 1181 1378 -1181 50 21
+DS 1378 -1181 1181 -1378 50 21
+DS 1181 -1378 -1181 -1378 50 21
+DS -1181 -1378 -1378 -1181 50 21
+DS -1378 -1181 -1378 1181 50 21
+DS -1378 1181 -1181 1378 50 21
+DC -1023 1023 -945 1063 79 21
+$PAD
+Sh "1" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1083 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "14" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 886
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "15" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 689
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "16" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "17" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "18" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "19" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 -98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "20" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -689 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "49" R 925 925 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 462 462
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 925 925 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -462 462
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 925 925 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -462 -462
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 925 925 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 462 -462
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "25" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1083 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "26" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "27" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 689 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "28" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "29" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "30" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "31" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "37" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -1083
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "38" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -886
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "39" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -689
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "40" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "41" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "42" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 -98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 689 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 1083
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "21" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "22" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1343 -689
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "32" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "33" R 126 283 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 -1343
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "43" R 283 126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1343 98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "44" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1342 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 125 282 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1082 1342
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "23" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1342 -885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "24" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1342 -1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "34" R 125 282 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -689 -1342
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "35" R 125 282 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -885 -1342
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "36" R 125 282 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1082 -1342
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "45" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1342 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "46" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1342 689
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "47" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1342 885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "48" R 282 125 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1342 1082
+.SolderMask 28
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/lfcsp-48.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE lfcsp-48
+$MODULE lfcsp-uq-10_13x16
+Po 0 0 0 15 5106C860 00000000 ~~
+Li lfcsp-uq-10_13x16
+Cd Plastic LFCSP, 10 pins, 13x16
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -630 118 118 0 24 N V 21 N "lfcsp-uq-10_13x16"
+T1 0 630 118 118 0 24 N V 21 N "VAL**"
+DS 197 315 276 236 50 21
+DC 118 157 79 197 50 21
+DS -276 315 276 315 50 21
+DS 276 315 276 -315 50 21
+DS 276 -315 -276 -315 50 21
+DS -276 -315 -276 315 50 21
+$PAD
+Sh "1" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 157 315
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 235 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 79
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 235 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 -79
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 157 -315
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -315
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -157 -315
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 235 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -255 -79
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 235 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -255 79
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -157 315
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 79 157 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 315
+.SolderMask 28
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/lfcsp-uq-10_13x16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE lfcsp-uq-10_13x16
+$MODULE lfcsp-uq-10_20x20
+Po 0 0 0 15 5106C82F 00000000 ~~
+Li lfcsp-uq-10_20x20
+Cd Plastic LFCSP, 10 pins, 20x20
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -748 118 118 0 24 N V 21 N "lfcsp-uq-10_20x20"
+T1 0 748 118 118 0 24 N V 21 N "VAL**"
+DS -276 394 -394 276 50 21
+DS -394 276 -394 315 50 21
+DS -394 315 -315 394 50 21
+DS -394 -394 394 -394 50 21
+DS 394 -394 394 394 50 21
+DS 394 394 -394 394 50 21
+DS -394 394 -394 -394 50 21
+DC -236 236 -275 276 50 21
+$PAD
+Sh "1" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 97
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -97
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 -394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 -394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -394 -97
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -394 97
+.SolderMask 28
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/lfcsp-uq-10_20x20.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE lfcsp-uq-10_20x20
+$MODULE lfcsp-vq-12_30x30
+Po 0 0 0 15 5106C312 00000000 ~~
+Li lfcsp-vq-12_30x30
+Cd Plastic LFCSP, 12 pins, 30x30, National CP-12-3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -748 118 118 0 24 N V 21 N "lfcsp-vq-12_30x30"
+T1 0 748 118 118 0 24 N V 21 N "VAL**"
+DS -512 591 -591 512 50 21
+DS -591 472 -591 591 50 21
+DS -591 591 -472 591 50 21
+DS -591 472 -591 -472 50 21
+DS -591 -472 -472 -591 50 21
+DS -472 -591 472 -591 50 21
+DS 472 -591 591 -472 50 21
+DS 591 -472 591 472 50 21
+DS 591 472 472 591 50 21
+DS 472 591 -472 591 50 21
+DS -472 591 -591 472 50 21
+DC -433 433 -472 473 50 21
+$PAD
+Sh "1" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 650 650 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "2" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 540 197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 540 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 540 -197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 -540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 117 217 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 -540
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -540 -197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -540 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 217 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -540 197
+.SolderMask 28
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/lfcsp-vq-12.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE lfcsp-vq-12_30x30
+$MODULE lfcsp-wd-10_30x30
+Po 0 0 0 15 5106C7E3 00000000 ~~
+Li lfcsp-wd-10_30x30
+Cd Plastic LFCSP, 10 pins, 30x30, National CP-10-3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -748 118 118 0 24 N V 21 N "lfcsp-wd-10_30x30"
+T1 0 748 118 118 0 24 N V 21 N "VAL**"
+DS -591 -472 -472 -591 50 21
+DS -591 -512 -512 -591 50 21
+DS -591 -591 -591 591 50 21
+DS -591 591 591 591 50 21
+DS 591 591 591 -591 50 21
+DS 591 -591 -591 -591 50 21
+DC -433 -433 -472 -393 50 21
+$PAD
+Sh "1" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -590 -394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -590 -197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -590 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -590 197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -590 394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 590 394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 590 197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 590 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 590 -197
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 177 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 590 -394
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 630 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -235
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "11" R 630 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 235
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/lfcsp-wd-10_30x30.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE lfcsp-wd-10_30x30
 $MODULE pqfp-10
-Po 0 0 0 15 4A95502B 00000000 ~~
+Po 0 0 0 15 5106C1B1 00000000 ~~
 Li pqfp-10
 Cd Plastic QFP-Narrow, 10 pins
-Sc 00000000
-AR
+Sc 0
+AR pqfp-10
 Op 0 0 0
-T0 0 -551 118 118 0 24 N V 21 N"pqfp-10"
-T1 0 551 118 118 0 24 N V 21 N"VAL**"
+T0 0 -551 118 118 0 24 N V 21 N "pqfp-10"
+T1 0 551 118 118 0 24 N V 21 N "VAL**"
 DS -433 197 -315 315 79 21
 DS -315 315 -276 315 79 21
 DS -276 315 -433 157 79 21
@@ -35,91 +1276,270 @@ DS -433 -315 -433 315 79 21
 DS -433 315 433 315 79 21
 DS 433 315 433 -315 79 21
 $PAD
-Sh "1" R 118 228 0 0 0
+Sh "1" R 117 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -295 250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "2" R 98 228 0 0 0
+Sh "2" R 97 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -98 250
+Po -97 250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "3" R 98 228 0 0 0
+Sh "3" R 97 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 98 250
+Po 97 250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "4" R 118 228 0 0 0
+Sh "4" R 117 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 295 250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "5" R 248 138 0 0 0
+Sh "5" R 247 137 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 339 0
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "6" R 118 228 0 0 0
+Sh "6" R 117 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 295 -250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "7" R 98 228 0 0 0
+Sh "7" R 97 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 98 -250
+Po 97 -250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "8" R 98 228 0 0 0
+Sh "8" R 97 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -98 -250
+Po -97 -250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "9" R 118 228 0 0 0
+Sh "9" R 117 227 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -295 -250
+.SolderMask 28
 $EndPAD
 $PAD
-Sh "10" R 248 138 0 0 0
+Sh "10" R 247 137 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -339 0
+.SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\pqfp-10.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/pqfp-10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  pqfp-10
+$EndMODULE pqfp-10
+$MODULE pvqfn-n14
+Po 0 0 0 15 4E4BECD8 00000000 ~~
+Li pvqfn-n14
+Cd Plastic QFP, TI PVQFN-N14
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1063 118 118 0 24 N V 21 N "pvqfn-n14"
+T1 0 1063 118 118 0 24 N V 21 N "VAL**"
+DC -551 551 -591 551 50 21
+DS -709 -709 709 -709 50 21
+DS 709 -709 709 709 50 21
+DS 709 709 -709 709 50 21
+DS -709 709 -709 -709 50 21
+$PAD
+Sh "2" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -394 669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 354 94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 669 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 354 94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 669 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 -669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 -669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 94 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -394 -669
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "14" R 354 94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -669 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "1" R 354 94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -669 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "15" R 394 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 197
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "15" R 394 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 197
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "15" R 394 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -197 -197
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$PAD
+Sh "15" R 394 394 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 -197
+.SolderMask 28
+.SolderPaste -39
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/s-pvqfn-n14.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pvqfn-n14
 $MODULE pvqfn-n16
 Po 0 0 0 15 4E4BECC1 00000000 ~~
 Li pvqfn-n16
 Cd Plastic QFP, TI PVQFN-N16
-Sc 00000000
-AR
+Sc 0
+AR 
 Op 0 0 0
-T0 0 -1063 118 118 0 24 N V 21 N"pvqfn-n16"
-T1 0 1063 118 118 0 24 N V 21 N"VAL**"
+T0 0 -1063 118 118 0 24 N V 21 N "pvqfn-n16"
+T1 0 1063 118 118 0 24 N V 21 N "VAL**"
 DS -787 -709 787 -709 50 21
 DS 787 709 -787 709 50 21
 DC -630 551 -670 551 50 21
@@ -308,190 +1728,21 @@ Po 0 197
 .SolderPaste -39
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\r-pvqfn-n16.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/r-pvqfn-n16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  pvqfn-n16
-$MODULE pvqfn-n14
-Po 0 0 0 15 4E4BECD8 00000000 ~~
-Li pvqfn-n14
-Cd Plastic QFP, TI PVQFN-N14
-Sc 00000000
-AR
-Op 0 0 0
-T0 0 -1063 118 118 0 24 N V 21 N"pvqfn-n14"
-T1 0 1063 118 118 0 24 N V 21 N"VAL**"
-DC -551 551 -591 551 50 21
-DS -709 -709 709 -709 50 21
-DS 709 -709 709 709 50 21
-DS 709 709 -709 709 50 21
-DS -709 709 -709 -709 50 21
-$PAD
-Sh "2" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -394 669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "3" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -197 669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "4" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "5" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 197 669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "6" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "7" R 354 94 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 669 295
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "8" R 354 94 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 669 -295
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "9" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "10" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 197 -669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "11" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 -669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "12" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -197 -669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "13" R 94 354 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -394 -669
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "14" R 354 94 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -669 -295
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "1" R 354 94 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -669 295
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "15" R 394 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 197 197
-.SolderMask 28
-.SolderPaste -39
-$EndPAD
-$PAD
-Sh "15" R 394 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -197 197
-.SolderMask 28
-.SolderPaste -39
-$EndPAD
-$PAD
-Sh "15" R 394 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -197 -197
-.SolderMask 28
-.SolderPaste -39
-$EndPAD
-$PAD
-Sh "15" R 394 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 197 -197
-.SolderMask 28
-.SolderPaste -39
-$EndPAD
-$SHAPE3D
-Na "walter\smd_qfn\s-pvqfn-n14.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
-$EndSHAPE3D
-$EndMODULE  pvqfn-n14
+$EndMODULE pvqfn-n16
 $MODULE pvqfn-n20
 Po 0 0 0 15 4E4BEE10 00000000 ~~
 Li pvqfn-n20
 Cd Plastic QFP, TI PVQFN-N20
-Sc 00000000
-AR
+Sc 0
+AR 
 Op 0 0 0
-T0 0 -1063 118 118 0 24 N V 21 N"pvqfn-n20"
-T1 0 1063 118 118 0 24 N V 21 N"VAL**"
+T0 0 -1063 118 118 0 24 N V 21 N "pvqfn-n20"
+T1 0 1063 118 118 0 24 N V 21 N "VAL**"
 DS 906 709 -906 709 50 21
 DS -906 -709 906 -709 50 21
 DC -748 551 -788 551 50 21
@@ -712,21 +1963,21 @@ Po -689 -669
 .SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\r-pvqfn-n20.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/r-pvqfn-n20.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  pvqfn-n20
+$EndMODULE pvqfn-n20
 $MODULE pvqfn-n24
 Po 0 0 0 15 4E4BF128 00000000 ~~
 Li pvqfn-n24
 Cd Plastic QFP, TI PVQFN-N24
-Sc 00000000
-AR
+Sc 0
+AR 
 Op 0 0 0
-T0 0 -1063 118 118 0 24 N V 21 N"pvqfn-n24"
-T1 0 1063 118 118 0 24 N V 21 N"VAL**"
+T0 0 -1063 118 118 0 24 N V 21 N "pvqfn-n24"
+T1 0 1063 118 118 0 24 N V 21 N "VAL**"
 DS 1102 709 -1102 709 50 21
 DS -1102 -709 1102 -709 50 21
 DC -945 551 -985 551 50 21
@@ -1045,861 +2296,1266 @@ Po -1063 98
 .SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\r-pvqfn-n24.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/r-pvqfn-n24.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  pvqfn-n24
-$MODULE qfn-44
-Po 0 0 0 15 4E687E9A 00000000 ~~
-Li qfn-44
-Cd Plastic QFP, Microchip QFN-44
-Sc 00000000
+$EndMODULE pvqfn-n24
+$MODULE pvqfn-n32
+Po 0 0 0 15 50C3164A 00000000 ~~
+Li pvqfn-n32
+Cd Plastic QFP, TI S-PVQFN-N32
+Sc 0
 AR vfqfpn-28
 Op 0 0 0
-T0 0 -1929 157 157 0 31 N V 21 N "U***"
-T1 0 1969 157 157 0 31 N V 21 N "QFN-44"
-DC -1220 1220 -1142 1260 79 21
-DS -1575 1575 1575 1575 79 21
-DS 1575 1575 1575 -1575 79 21
-DS 1575 -1575 -1575 -1575 79 21
-DS -1575 -1575 -1575 1575 79 21
+T0 0 -1339 157 157 0 31 N V 21 N "U***"
+T1 0 1377 157 157 0 30 N V 21 N "pvqfn-n32"
+DS 984 984 -984 984 50 21
+DS -984 984 -984 -984 50 21
+DS -984 -984 984 -984 50 21
+DS 984 -984 984 984 50 21
+DS -748 984 -984 748 50 21
+DS -984 788 -787 985 50 21
+DS -828 985 -985 828 50 21
+DS -985 866 -867 984 50 21
+DS -905 984 -984 905 50 21
+DC -630 630 -552 670 79 21
 $PAD
-Sh "1" R 138 315 0 0 0
+Sh "2" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1280 1575
+Po -492 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "2" R 138 315 0 0 0
+Sh "3" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1024 1575
+Po -295 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "4" R 138 315 0 0 0
+Sh "4" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -512 1575
+Po -98 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "5" R 138 315 0 0 0
+Sh "5" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -256 1575
+Po 98 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "6" R 138 315 0 0 0
+Sh "8" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 1575
+Po 688 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "7" R 138 315 0 0 0
+Sh "9" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 256 1575
+Po 974 688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "14" R 315 138 0 0 0
+Sh "10" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 768
+Po 974 492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "15" R 315 138 0 0 0
+Sh "11" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 512
+Po 974 295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "16" R 315 138 0 0 0
+Sh "12" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 256
+Po 974 98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "17" R 315 138 0 0 0
+Sh "13" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 0
+Po 974 -98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "18" R 315 138 0 0 0
+Sh "14" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 -256
+Po 974 -295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "19" R 315 138 0 0 0
+Sh "1" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 -512
+Po -688 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "20" R 315 138 0 0 0
+Sh "33" R 679 679 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 -768
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "3" R 138 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -768 1575
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "45" R 1280 1280 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 640 640
+Po 339 339
 .SolderMask 28
 .SolderPaste -39
 $EndPAD
 $PAD
-Sh "45" R 1280 1280 0 0 0
+Sh "33" R 679 679 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -640 640
+Po -339 339
 .SolderMask 28
 .SolderPaste -39
 $EndPAD
 $PAD
-Sh "45" R 1280 1280 0 0 0
+Sh "33" R 679 679 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -640 -640
+Po -339 -339
 .SolderMask 28
 .SolderPaste -39
 $EndPAD
 $PAD
-Sh "45" R 1280 1280 0 0 0
+Sh "33" R 679 679 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 640 -640
+Po 339 -339
 .SolderMask 28
 .SolderPaste -39
 $EndPAD
 $PAD
-Sh "25" R 138 315 0 0 0
+Sh "15" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 768 -1575
+Po 974 -492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "26" R 138 315 0 0 0
+Sh "16" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 512 -1575
+Po 974 -688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "27" R 138 315 0 0 0
+Sh "17" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 256 -1575
+Po 688 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "28" R 138 315 0 0 0
+Sh "18" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -1575
+Po 492 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "29" R 138 315 0 0 0
+Sh "19" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -256 -1575
+Po 295 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "30" R 138 315 0 0 0
+Sh "20" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -512 -1575
+Po 98 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "31" R 138 315 0 0 0
+Sh "21" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -768 -1575
+Po -98 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "36" R 315 138 0 0 0
+Sh "22" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 -768
+Po -295 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "37" R 315 138 0 0 0
+Sh "23" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 -512
+Po -492 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "38" R 315 138 0 0 0
+Sh "24" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 -256
+Po -688 -974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "39" R 315 138 0 0 0
+Sh "25" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 0
+Po -974 -688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "40" R 315 138 0 0 0
+Sh "26" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 256
+Po -974 -492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "41" R 315 138 0 0 0
+Sh "27" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 512
+Po -974 -295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "42" R 315 138 0 0 0
+Sh "28" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1575 768
+Po -974 -98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "8" R 138 315 0 0 0
+Sh "6" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 512 1575
+Po 295 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "9" R 138 315 0 0 0
+Sh "7" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 768 1575
+Po 492 974
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "10" R 138 315 0 0 0
+Sh "29" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1024 1575
+Po -974 98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "11" R 138 315 0 0 0
+Sh "30" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1280 1575
+Po -974 295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "12" R 315 138 0 0 0
+Sh "31" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 1280
+Po -974 492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "13" R 315 138 0 0 0
+Sh "32" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1575 1024
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "21" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -1024
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "22" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -1280
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "23" R 138 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1280 -1575
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "24" R 138 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1024 -1575
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "32" R 138 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1024 -1575
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "33" R 138 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1280 -1575
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "34" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1575 -1280
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "35" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1575 -1024
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "43" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1575 1024
-.SolderMask 28
-$EndPAD
-$PAD
-Sh "44" R 315 138 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1575 1280
+Po -974 688
 .SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\qfn-44.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/s-pvqfn-n32.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  qfn-44
-$MODULE lfcsp-48
-Po 0 0 0 15 4E68933A 00000000 ~~
-Li lfcsp-48
-Cd Plastic Lead Frame CSP, National CP-48-3
-Sc 00000000
+$EndMODULE pvqfn-n32
+$MODULE pvqfn-n40
+Po 0 0 0 15 5106C166 00000000 ~~
+Li pvqfn-n40
+Cd Plastic QFP, TI S-PVQFN-N40
+Sc 0
 AR vfqfpn-28
 Op 0 0 0
-T0 0 -1772 157 157 0 31 N V 21 N "U***"
-T1 0 1772 157 157 0 31 N V 21 N "LFCSP-48"
-DS -1181 1378 1181 1378 50 21
-DS 1181 1378 1378 1181 50 21
-DS 1378 1181 1378 -1181 50 21
-DS 1378 -1181 1181 -1378 50 21
-DS 1181 -1378 -1181 -1378 50 21
-DS -1181 -1378 -1378 -1181 50 21
-DS -1378 -1181 -1378 1181 50 21
-DS -1378 1181 -1181 1378 50 21
-DC -1023 1023 -945 1063 79 21
+T0 0 -1535 157 157 0 31 N V 21 N "U***"
+T1 0 1535 157 157 0 30 N V 21 N "pvqfn-n40"
+DS -1181 -1181 1181 -1181 50 21
+DS 1181 -1181 1181 1181 50 21
+DS 1181 1181 -1181 1181 50 21
+DS -1181 1181 -1181 -1181 50 21
+DS -944 1181 -1180 945 50 21
+DS -1180 985 -983 1182 50 21
+DS -1024 1182 -1181 1025 50 21
+DS -1181 1063 -1063 1181 50 21
+DS -1101 1181 -1180 1102 50 21
+DC -826 828 -748 868 79 21
 $PAD
-Sh "1" R 126 283 0 0 0
+Sh "2" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1083 1343
+Po -688 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "2" R 126 283 0 0 0
+Sh "3" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -886 1343
+Po -492 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "4" R 126 283 0 0 0
+Sh "4" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -492 1343
+Po -295 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "5" R 126 283 0 0 0
+Sh "5" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -295 1343
+Po -98 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "6" R 126 283 0 0 0
+Sh "8" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -98 1343
+Po 492 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "7" R 126 283 0 0 0
+Sh "9" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 98 1343
+Po 688 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "14" R 283 126 0 0 0
+Sh "10" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 886
+Po 885 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "15" R 283 126 0 0 0
+Sh "11" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 689
+Po 1170 885
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "16" R 283 126 0 0 0
+Sh "12" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 492
+Po 1170 688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "17" R 283 126 0 0 0
+Sh "13" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 295
+Po 1170 492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "18" R 283 126 0 0 0
+Sh "14" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 98
+Po 1170 295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "19" R 283 126 0 0 0
+Sh "1" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -98
+Po -885 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "20" R 283 126 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -295
+Po 0 0
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "15" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1170 98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "3" R 126 283 0 0 0
+Sh "16" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -689 1343
+Po 1170 -98
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "49" R 925 925 0 0 0
+Sh "19" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 463 463
+Po 1170 -688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "49" R 925 925 0 0 0
+Sh "20" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -463 463
+Po 1170 -885
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "49" R 925 925 0 0 0
+Sh "21" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -463 -463
+Po 885 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "49" R 925 925 0 0 0
+Sh "22" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 463 -463
+Po 688 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "25" R 126 283 0 0 0
+Sh "23" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1083 -1343
+Po 492 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "26" R 126 283 0 0 0
+Sh "24" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 886 -1343
+Po 295 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "27" R 126 283 0 0 0
+Sh "25" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 689 -1343
+Po 98 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "28" R 126 283 0 0 0
+Sh "26" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 492 -1343
+Po -98 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "29" R 126 283 0 0 0
+Sh "27" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 295 -1343
+Po -295 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "30" R 126 283 0 0 0
+Sh "28" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 98 -1343
+Po -492 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "31" R 126 283 0 0 0
+Sh "6" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -98 -1343
+Po 98 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "37" R 283 126 0 0 0
+Sh "7" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -1083
+Po 295 1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "38" R 283 126 0 0 0
+Sh "29" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -886
+Po -688 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "39" R 283 126 0 0 0
+Sh "30" R 110 334 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -689
+Po -885 -1170
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "40" R 283 126 0 0 0
+Sh "31" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -492
+Po -1170 -885
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "41" R 283 126 0 0 0
+Sh "32" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -295
+Po -1170 -688
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "42" R 283 126 0 0 0
+Sh "17" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 -98
+Po 1170 -295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "8" R 126 283 0 0 0
+Sh "18" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 295 1343
+Po 1170 -492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "9" R 126 283 0 0 0
+Sh "33" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 492 1343
+Po -1170 -492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "10" R 126 283 0 0 0
+Sh "34" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 689 1343
+Po -1170 -295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "11" R 126 283 0 0 0
+Sh "35" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 886 1343
+Po -1170 -97
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "13" R 283 126 0 0 0
+Sh "36" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 1083
+Po -1170 97
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "21" R 283 126 0 0 0
+Sh "37" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -492
+Po -1170 295
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "22" R 283 126 0 0 0
+Sh "38" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -689
+Po -1170 492
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "32" R 126 283 0 0 0
+Sh "39" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -295 -1343
+Po -1170 687
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "33" R 126 283 0 0 0
+Sh "40" R 334 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -492 -1343
+Po -1170 885
 .SolderMask 28
 $EndPAD
 $PAD
-Sh "43" R 283 126 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 98
+Po -590 0
 .SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "44" R 283 126 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1343 295
+Po 590 0
 .SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "12" R 126 283 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1083 1343
+Po -590 -590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "23" R 283 126 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -886
+Po 0 -590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "24" R 283 126 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1343 -1083
+Po 590 -590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "34" R 126 283 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -689 -1343
+Po -590 590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "35" R 126 283 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -886 -1343
+Po 0 590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $PAD
-Sh "36" R 126 283 0 0 0
+Sh "41" R 590 590 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1083 -1343
-$EndPAD
-$PAD
-Sh "45" R 283 126 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1343 492
-$EndPAD
-$PAD
-Sh "46" R 283 126 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1343 689
-$EndPAD
-$PAD
-Sh "47" R 283 126 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1343 886
-$EndPAD
-$PAD
-Sh "48" R 283 126 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1343 1083
+Po 590 590
+.SolderMask 28
+.SolderPaste -59
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\lfcsp-48.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/s-pvqfn-n40.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  lfcsp-48
+$EndMODULE pvqfn-n40
+$MODULE pvqfn-n48
+Po 0 0 0 15 5106C0CD 00000000 ~~
+Li pvqfn-n48
+Cd Plastic QFP, TI S-PVQFN-N48
+Sc 0
+AR vfqfpn-28
+Op 0 0 0
+T0 0 -1732 157 157 0 31 N V 21 N "U***"
+T1 0 1772 157 157 0 30 N V 21 N "pvqfn-n48"
+DS -1378 1378 1378 1378 50 21
+DS 1378 1378 1378 -1378 50 21
+DS 1378 -1378 -1378 -1378 50 21
+DS -1378 -1378 -1378 1378 50 21
+DS -1141 1378 -1377 1142 50 21
+DS -1377 1182 -1180 1379 50 21
+DS -1221 1379 -1378 1222 50 21
+DS -1378 1260 -1260 1378 50 21
+DS -1298 1378 -1377 1299 50 21
+DC -1062 1064 -984 1104 79 21
+$PAD
+Sh "2" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -885 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -688 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 688 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 885 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1082 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "14" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "1" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1082 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "49" R 707 707 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "15" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "16" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "19" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "20" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "21" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "22" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "23" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "24" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 -1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "25" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1082 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "26" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 885 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "27" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 688 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "28" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "29" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "30" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "31" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "32" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "17" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "18" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1368 98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "33" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "34" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -688 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "35" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -885 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "36" R 110 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1082 -1368
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "37" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1368 -1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "38" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1368 -885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "39" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1368 -688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "40" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1368 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "49" R 747 707 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -727 0
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 747 707 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 727 0
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 747 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -727 -727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 707 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 747 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 727 -727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 747 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -727 727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 707 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "49" R 747 747 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 727 727
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "41" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "42" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 -97
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "43" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 97
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "44" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "45" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "46" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 687
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "47" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "48" R 334 110 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1367 1082
+.SolderMask 28
+$EndPAD
+$SHAPE3D
+Na "walter/smd_qfn/s-pvqfn-n48.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pvqfn-n48
 $MODULE qfn-20
-Po 0 0 0 15 4E8395FF 00000000 ~~
+Po 0 0 0 15 503E8887 00000000 ~~
 Li qfn-20
 Cd Plastic QFP, Microchip QFN-20
-Sc 00000000
+Sc 0
 AR vfqfpn-28
 Op 0 0 0
 T0 0 -1142 157 157 0 31 N V 21 N "U***"
 T1 0 1220 157 157 0 31 N V 21 N "QFN-20"
+DS -787 630 -630 787 50 21
+DS -630 787 -669 787 50 21
+DS -669 787 -787 669 50 21
+DS -787 669 -787 709 50 21
+DS -787 709 -709 787 50 21
+DS -591 787 -787 591 50 21
+DS -787 591 -787 669 50 21
+DS -551 787 -787 551 50 21
+DS -787 551 -787 630 50 21
 DS -787 787 -787 -787 79 21
 DS -787 -787 787 -787 79 21
 DS 787 -787 787 787 79 21
@@ -2102,21 +3758,30 @@ Po 394 774
 .SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\qfn-20.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/qfn-20.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  qfn-20
+$EndMODULE qfn-20
 $MODULE qfn-28
-Po 0 0 0 15 4E83961D 00000000 ~~
+Po 0 0 0 15 503E88A2 00000000 ~~
 Li qfn-28
 Cd Plastic QFP, Microchip QFN-28
-Sc 00000000
+Sc 0
 AR vfqfpn-28
 Op 0 0 0
 T0 0 -1575 157 157 0 31 N V 21 N "U***"
 T1 0 1575 157 157 0 31 N V 21 N "QFN-28"
+DS -945 1181 -1181 945 50 21
+DS -1181 945 -1181 984 50 21
+DS -1181 984 -984 1181 50 21
+DS -984 1181 -1024 1181 50 21
+DS -1024 1181 -1181 1024 50 21
+DS -1181 1024 -1181 1063 50 21
+DS -1181 1063 -1063 1181 50 21
+DS -1063 1181 -1102 1181 50 21
+DS -1102 1181 -1181 1102 50 21
 DS -1181 -1181 1181 -1181 50 21
 DS 1181 -1181 1181 1181 50 21
 DS 1181 1181 -1181 1181 50 21
@@ -2383,315 +4048,1001 @@ Po 768 1122
 .SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\qfn-28.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/qfn-28.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  qfn-28
-$MODULE dfn5
-Po 0 0 0 15 4E90C7D1 00000000 ~~
-Li dfn5
-Cd Plastic QFP, ON DFN5 (SO-8FL)
-Sc 00000000
-AR
+$EndMODULE qfn-28
+$MODULE qfn-44
+Po 0 0 0 15 5106C9D6 00000000 ~~
+Li qfn-44
+Cd Plastic QFP, Microchip QFN-44
+Sc 0
+AR vfqfpn-28
 Op 0 0 0
-T0 0 -1535 197 197 0 39 N V 21 N "dfn5"
-T1 0 1535 197 197 0 39 N V 21 N "VAL**"
-DC 629 -787 551 -669 100 21
-DS -984 -1142 984 -1142 100 21
-DS 984 -1142 984 1142 100 21
-DS 984 1142 -984 1142 100 21
-DS -984 1142 -984 -1142 100 21
+T0 0 -1929 157 157 0 31 N V 21 N "U***"
+T1 0 1969 157 157 0 31 N V 21 N "QFN-44"
+DS -1575 1417 -1614 1417 50 21
+DS -1614 1417 -1614 1614 50 21
+DS -1614 1614 -1417 1614 50 21
+DS -1417 1614 -1417 1575 50 21
+DS -1575 1417 -1417 1575 50 21
+DS -1417 1575 -1457 1575 50 21
+DS -1457 1575 -1575 1457 50 21
+DS -1575 1457 -1575 1496 50 21
+DS -1575 1496 -1496 1575 50 21
+DC -1220 1220 -1142 1260 79 21
+DS -1575 1575 1575 1575 79 21
+DS 1575 1575 1575 -1575 79 21
+DS 1575 -1575 -1575 -1575 79 21
+DS -1575 -1575 -1575 1575 79 21
 $PAD
-Sh "1" R 295 394 0 0 0
+Sh "1" R 138 315 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 750 -1100
-$EndPAD
-$PAD
-Sh "2" R 295 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 250 -1100
-$EndPAD
-$PAD
-Sh "3" R 295 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -250 -1100
-$EndPAD
-$PAD
-Sh "4" R 295 394 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -750 -1100
-$EndPAD
-$PAD
-Sh "5" R 295 187 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 750 1166
-$EndPAD
-$PAD
-Sh "5" R 295 187 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -750 1166
-$EndPAD
-$PAD
-Sh "5" R 195 356 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 995 -178
-$EndPAD
-$PAD
-Sh "5" R 195 356 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -995 -178
-$EndPAD
-$PAD
-Sh "5" R 902 799 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 449 677
+Po -1280 1575
 .SolderMask 28
-.SolderPaste -39
 $EndPAD
 $PAD
-Sh "5" R 902 799 0 0 0
+Sh "2" R 138 315 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 449 -122
+Po -1024 1575
 .SolderMask 28
-.SolderPaste -39
 $EndPAD
 $PAD
-Sh "5" R 902 799 0 0 0
+Sh "4" R 138 315 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -449 677
+Po -512 1575
 .SolderMask 28
-.SolderPaste -39
 $EndPAD
 $PAD
-Sh "5" R 902 799 0 0 0
+Sh "5" R 138 315 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -449 -122
+Po -256 1575
 .SolderMask 28
-.SolderPaste -39
+$EndPAD
+$PAD
+Sh "6" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 256 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "14" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 768
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "15" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 512
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "16" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 256
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "17" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "18" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -256
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "19" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -512
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "20" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -768
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -768 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "45" R 1280 1280 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 640
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "45" R 1280 1280 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 640
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "45" R 1280 1280 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 -640
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "45" R 1280 1280 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 -640
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "25" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "26" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 512 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "27" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 256 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "28" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "29" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -256 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "30" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -512 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "31" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -768 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "36" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 -768
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "37" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 -512
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "38" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 -256
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "39" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 0
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "40" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 256
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "41" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 512
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "42" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 768
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 512 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1024 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1280 1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 1280
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 1024
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "21" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -1024
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "22" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -1280
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "23" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1280 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "24" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1024 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "32" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1024 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "33" R 138 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1280 -1575
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "34" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 -1280
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "35" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 -1024
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "43" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 1024
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "44" R 315 138 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 1280
+.SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\dfn5_so-8fl.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/qfn-44.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  dfn5
-$MODULE dfn8
-Po 0 0 0 15 4E917C60 00000000 ~~
-Li dfn8
-Cd Plastic QFP, ON DFN8
-Sc 00000000
-AR dfn5
+$EndMODULE qfn-44
+$MODULE qfn-64
+Po 0 0 0 15 5106C8F7 00000000 ~~
+Li qfn-64
+Cd Plastic QFP, Microchip QFN-64
+Sc 0
+AR vfqfpn-28
 Op 0 0 0
-T0 0 -906 197 197 0 39 N V 21 N "dfn8"
-T1 0 984 197 197 0 39 N V 21 N "VAL**"
-DC -354 354 -394 433 50 21
-DS -591 -591 591 -591 50 21
-DS 591 -591 591 591 50 21
-DS 591 591 -591 591 50 21
-DS -591 591 -591 -591 50 21
+T0 0 -2165 157 157 0 31 N V 21 N "U***"
+T1 0 2205 157 157 0 30 N V 21 N "QFN-64"
+DS -1772 1772 1772 1772 78 21
+DS 1772 1772 1772 -1772 78 21
+DS 1772 -1772 -1772 -1772 78 21
+DS -1772 -1772 -1772 1772 78 21
+DS -1615 1733 -1733 1733 50 21
+DS -1733 1733 -1733 1654 50 21
+DS -1733 1654 -1654 1733 50 21
+DS -1772 1575 -1575 1772 50 21
+DC -1378 1378 -1300 1418 79 21
 $PAD
-Sh "1" R 138 248 0 0 0
+Sh "57" R 334 117 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -295 526
+Po -1751 98
 .SolderMask 28
-.SolderPaste -39
 $EndPAD
 $PAD
-Sh "2" R 138 248 0 0 0
+Sh "58" R 334 117 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -98 526
-$EndPAD
-$PAD
-Sh "3" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 98 526
-$EndPAD
-$PAD
-Sh "4" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 295 526
-$EndPAD
-$PAD
-Sh "5" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 295 -526
-$EndPAD
-$PAD
-Sh "6" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 98 -526
-$EndPAD
-$PAD
-Sh "7" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -98 -526
-$EndPAD
-$PAD
-Sh "8" R 138 248 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -295 -526
-$EndPAD
-$PAD
-Sh "9" R 728 610 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 0
+Po -1751 295
 .SolderMask 28
-.SolderPaste -39
+$EndPAD
+$PAD
+Sh "60" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "59" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "63" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 1279
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "64" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 1476
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "62" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "61" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "53" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "54" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "56" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "55" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "51" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "52" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "50" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1750 -1279
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "1" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1476 1750
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "2" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1279 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "4" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -885 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "5" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -688 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "6" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "7" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "14" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1082 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "15" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1279 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "16" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1476 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "17" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 1476
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "18" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 1279
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "19" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "20" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "3" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1082 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "65" R 1445 1445 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 722 722
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "65" R 1445 1445 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -722 722
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "65" R 1445 1445 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -722 -722
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "65" R 1445 1445 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 722 -722
+.SolderMask 28
+.SolderPaste -59
+$EndPAD
+$PAD
+Sh "25" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "26" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "27" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "28" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "29" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -885
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "30" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -1082
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "31" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -1279
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "36" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 885 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "37" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 688 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "38" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "39" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "40" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "41" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "42" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "8" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "9" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "10" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "11" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "12" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 688 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "13" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 885 1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "21" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 688
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "22" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 492
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "23" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 295
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "24" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 98
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "32" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1751 -1476
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "33" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1476 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "34" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1279 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "35" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1082 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "43" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "44" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -688 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "45" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -885 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "46" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1082 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "47" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1279 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "48" R 117 334 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1476 -1751
+.SolderMask 28
+$EndPAD
+$PAD
+Sh "49" R 334 117 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1751 -1476
+.SolderMask 28
 $EndPAD
 $SHAPE3D
-Na "walter\smd_qfn\dfn8.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
+Na "walter/smd_qfn/qfn-64.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE  dfn8
-$MODULE DFN-6_Clock
-Po 0 0 0 15 4E52D592 00000000 ~~
-Li DFN-6_Clock
-Cd Oscillator Ceramic DFP, 6 pins
-Sc 00000000
-AR DFN-6_Clock
-Op 0 0 0
-T0 0 -551 394 394 0 79 N V 21 N "U***"
-T1 0 551 394 394 0 79 N V 21 N "DFN-6_Clock"
-DS 2100 -1100 2100 1000 200 21
-DS 2100 1000 2100 1100 200 21
-DS 2100 1100 -2100 1100 200 21
-DS -2100 1100 -2100 -1100 200 21
-DS -2100 -1100 2100 -1100 200 21
-DC 1600 -600 1500 -500 200 21
-DS -1200 1750 -1200 1500 200 21
-DS -1200 1500 -800 1500 200 21
-DS -800 1500 -800 1750 200 21
-DS -800 1750 -200 1750 200 21
-DS -200 1750 -200 1500 200 21
-DS -200 1500 200 1500 200 21
-DS 200 1500 200 1750 200 21
-DS 200 1750 800 1750 200 21
-DS 800 1750 800 1500 200 21
-DS 800 1500 1200 1500 200 21
-DS 1200 1500 1200 1750 200 21
-DS 1200 1750 1800 1750 200 21
-DS 1800 1750 1800 1500 200 21
-DS 1800 1500 2200 1500 200 21
-DS 2200 1500 2200 1750 200 21
-DS 2200 1750 2500 1750 200 21
-DS 2500 1750 2750 1500 200 21
-DS 2750 1500 2750 -1500 200 21
-DS 2750 -1500 2500 -1750 200 21
-DS 2500 -1750 2200 -1750 200 21
-DS 2200 -1750 2200 -1500 200 21
-DS 2200 -1500 1800 -1500 200 21
-DS 1800 -1500 1800 -1750 200 21
-DS 1800 -1750 1200 -1750 200 21
-DS 1200 -1750 1200 -1500 200 21
-DS 1200 -1500 800 -1500 200 21
-DS 800 -1500 800 -1750 200 21
-DS 800 -1750 200 -1750 200 21
-DS 200 -1750 200 -1500 200 21
-DS 200 -1500 -200 -1500 200 21
-DS -200 -1500 -200 -1750 200 21
-DS -200 -1750 -800 -1750 200 21
-DS -800 -1750 -800 -1500 200 21
-DS -800 -1500 -1200 -1500 200 21
-DS -1200 -1500 -1200 -1750 200 21
-DS -1200 -1750 -2500 -1750 200 21
-DS -2500 -1750 -2750 -1500 200 21
-DS -2750 -1500 -2750 1500 200 21
-DS -2750 1500 -2500 1750 200 21
-DS -2500 1750 -1200 1750 200 21
-$PAD
-Sh "1" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1000 -1450
-$EndPAD
-$PAD
-Sh "2" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 -1450
-$EndPAD
-$PAD
-Sh "3" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1000 -1450
-$EndPAD
-$PAD
-Sh "4" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1000 1450
-$EndPAD
-$PAD
-Sh "5" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 1450
-$EndPAD
-$PAD
-Sh "6" R 600 850 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1000 1450
-$EndPAD
-$SHAPE3D
-Na "walter\smd_qfn\dfn-6_clock.wrl"
-Sc 1.000000 1.000000 1.000000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
-$EndSHAPE3D
-$EndMODULE  DFN-6_Clock
+$EndMODULE qfn-64
 $EndLIBRARY

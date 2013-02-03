@@ -1,0 +1,225 @@
+PCBNEW-LibDoc----V1  ven 05 mar 2010 11:43:03 CET
+#
+$MODULE pin_strip_10-90
+Li pin_strip_10-90
+Cd Pin strip 10pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_10
+Li pin_strip_10
+Cd Pin strip 10pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_10x2-90
+Li pin_strip_10x2-90
+Cd Pin strip 10x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_10x2
+Li pin_strip_10x2
+Cd Pin strip 10x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_9x2-90
+Li pin_strip_9x2-90
+Cd Pin strip 9x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_9x2
+Li pin_strip_9x2
+Cd Pin strip 9x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_8x2-90
+Li pin_strip_8x2-90
+Cd Pin strip 8x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_8x2
+Li pin_strip_8x2
+Cd Pin strip 8x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_7x2-90
+Li pin_strip_7x2-90
+Cd Pin strip 7x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_7x2
+Li pin_strip_7x2
+Cd Pin strip 7x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_6x2-90
+Li pin_strip_6x2-90
+Cd Pin strip 6x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_6x2
+Li pin_strip_6x2
+Cd Pin strip 6x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_5x2-90
+Li pin_strip_5x2-90
+Cd Pin strip 5x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_5x2
+Li pin_strip_5x2
+Cd Pin strip 5x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_4x2-90
+Li pin_strip_4x2-90
+Cd Pin strip 4x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_4x2
+Li pin_strip_4x2
+Cd Pin strip 4x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_3x2-90
+Li pin_strip_3x2-90
+Cd Pin strip 3x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_3x2
+Li pin_strip_3x2
+Cd Pin strip 3x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_2x2-90
+Li pin_strip_2x2-90
+Cd Pin strip 2x2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_2x2
+Li pin_strip_2x2
+Cd Pin strip 2x2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_9-90
+Li pin_strip_9-90
+Cd Pin strip 9pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_9
+Li pin_strip_9
+Cd Pin strip 9pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_8-90
+Li pin_strip_8-90
+Cd Pin strip 8pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_8
+Li pin_strip_8
+Cd Pin strip 8pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_7-90
+Li pin_strip_7-90
+Cd Pin strip 7pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_7
+Li pin_strip_7
+Cd Pin strip 7pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_6-90
+Li pin_strip_6-90
+Cd Pin strip 6pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_6
+Li pin_strip_6
+Cd Pin strip 6pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_5-90
+Li pin_strip_5-90
+Cd Pin strip 5pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_5
+Li pin_strip_5
+Cd Pin strip 5pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_4-90
+Li pin_strip_4-90
+Cd Pin strip 4pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_4
+Li pin_strip_4
+Cd Pin strip 4pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_3-90
+Li pin_strip_3-90
+Cd Pin strip 3pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_3
+Li pin_strip_3
+Cd Pin strip 3pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_2
+Li pin_strip_2
+Cd Pin strip 2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_2-90
+Li pin_strip_2-90
+Cd Pin strip 2pin 90
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE pin_strip_1
+Li pin_strip_1
+Cd Pin strip 1pin
+Kw CONN DEV
+$EndMODULE
+#
+$EndLIBDOC

@@ -1,0 +1,238 @@
+PCBNEW-LibDoc----V1  dom 26 dic 2010 19:05:08 CET
+#
+$MODULE mstbva_2,5/3-g-5,08
+Li mstbva_2,5/3-g-5,08
+Cd Terminal block 3 pins, Phoenix MSTBVA 2,5/3-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/2-g-5,08
+Li mstbva_2,5/2-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBVA 2,5/2-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/4-g-5,08
+Li mstbva_2,5/4-g-5,08
+Cd Terminal block 4 pins, Phoenix MSTBVA 2,5/4-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/5-g-5,08
+Li mstbva_2,5/5-g-5,08
+Cd Terminal block 5 pins, Phoenix MSTBVA 2,5/5-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/6-g-5,08
+Li mstbva_2,5/6-g-5,08
+Cd Terminal block 6 pins, Phoenix MSTBVA 2,5/6-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/7-g-5,08
+Li mstbva_2,5/7-g-5,08
+Cd Terminal block 7 pins, Phoenix MSTBVA 2,5/7-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/8-g-5,08
+Li mstbva_2,5/8-g-5,08
+Cd Terminal block 8 pins, Phoenix MSTBVA 2,5/8-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/9-g-5,08
+Li mstbva_2,5/9-g-5,08
+Cd Terminal block 9 pins, Phoenix MSTBVA 2,5/9-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/10-g-5,08
+Li mstbva_2,5/10-g-5,08
+Cd Terminal block 10 pins, Phoenix MSTBVA 2,5/10-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/11-g-5,08
+Li mstbva_2,5/11-g-5,08
+Cd Terminal block 11 pins, Phoenix MSTBVA 2,5/11-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mstbva_2,5/12-g-5,08
+Li mstbva_2,5/12-g-5,08
+Cd Terminal block 12 pins, Phoenix MSTBVA 2,5/12-G-5,08
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_20p
+Li mors_20p
+Cd Terminal block 20 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_19p
+Li mors_19p
+Cd Terminal block 19 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_18p
+Li mors_18p
+Cd Terminal block 18 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_17p
+Li mors_17p
+Cd Terminal block 17 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_16p
+Li mors_16p
+Cd Terminal block 16 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_15p
+Li mors_15p
+Cd Terminal block 15 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_14p
+Li mors_14p
+Cd Terminal block 14 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_13p
+Li mors_13p
+Cd Terminal block 13 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_12p
+Li mors_12p
+Cd Terminal block 12 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_11p
+Li mors_11p
+Cd Terminal block 11 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_10p
+Li mors_10p
+Cd Terminal block 10 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_9p
+Li mors_9p
+Cd Terminal block 9 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_8p
+Li mors_8p
+Cd Terminal block 8 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_7p
+Li mors_7p
+Cd Terminal block 7 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_6p
+Li mors_6p
+Cd Terminal block 6 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_5p
+Li mors_5p
+Cd Terminal block 5 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_4p
+Li mors_4p
+Cd Terminal block 4 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_3p
+Li mors_3p
+Cd Terminal block 3 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mors_2p
+Li mors_2p
+Cd Terminal block 2 pins
+Kw DEV
+$EndMODULE
+#
+$MODULE mstba_2,5/2-g-5,08
+Li mstba_2,5/2-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/2-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/3-g-5,08
+Li mstba_2,5/3-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/3-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/4-g-5,08
+Li mstba_2,5/4-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/4-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/5-g-5,08
+Li mstba_2,5/5-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/5-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/6-g-5,08
+Li mstba_2,5/6-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/6-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/7-g-5,08
+Li mstba_2,5/7-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/7-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/8-g-5,08
+Li mstba_2,5/8-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/8-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/9-g-5,08
+Li mstba_2,5/9-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/9-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/10-g-5,08
+Li mstba_2,5/10-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/10-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/11-g-5,08
+Li mstba_2,5/11-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/11-G-5,08
+$EndMODULE
+#
+$MODULE mstba_2,5/12-g-5,08
+Li mstba_2,5/12-g-5,08
+Cd Terminal block 2 pins, Phoenix MSTBA 2,5/12-G-5,08
+$EndMODULE
+#
+$EndLIBDOC

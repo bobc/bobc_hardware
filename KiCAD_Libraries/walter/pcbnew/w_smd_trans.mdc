@@ -1,0 +1,98 @@
+PCBNEW-LibDoc----V1  mer 12 ago 2009 00:26:41 CEST
+#
+$MODULE d2-pak
+Li d2-pak
+Cd D2-pak
+$EndMODULE
+#
+$MODULE d-pak
+Li d-pak
+Cd D-pak
+$EndMODULE
+#
+$MODULE sc70
+Li sc70
+Cd SC70
+$EndMODULE
+#
+$MODULE sc70-5
+Li sc70-5
+Cd SC70-5
+$EndMODULE
+#
+$MODULE sc70-6
+Li sc70-6
+Cd SC70-6
+$EndMODULE
+#
+$MODULE sot23
+Li sot23
+Cd SOT23
+$EndMODULE
+#
+$MODULE sot23-5
+Li sot23-5
+Cd SOT23-5
+$EndMODULE
+#
+$MODULE sot23-6
+Li sot23-6
+Cd SOT23-6
+$EndMODULE
+#
+$MODULE sot89
+Li sot89
+Cd SOT89
+$EndMODULE
+#
+$MODULE sot143B
+Li sot143B
+Cd SOT143B
+$EndMODULE
+#
+$MODULE sot143r
+Li sot143r
+Cd SOT143R
+$EndMODULE
+#
+$MODULE sot223
+Li sot223
+Cd SOT223
+$EndMODULE
+#
+$MODULE sot323
+Li sot323
+Cd SOT323
+$EndMODULE
+#
+$MODULE sot323-5
+Li sot323-5
+Cd SOT323-5
+$EndMODULE
+#
+$MODULE sot323-6
+Li sot323-6
+Cd SOT323-6
+$EndMODULE
+#
+$MODULE tsot-6
+Li tsot-6
+Cd TSOT-6
+$EndMODULE
+#
+$MODULE sot428
+Li sot428
+Cd SOT428
+$EndMODULE
+#
+$MODULE sot404
+Li sot404
+Cd SOT404
+$EndMODULE
+#
+$MODULE powermite3
+Li powermite3
+Cd PowerMite3
+$EndMODULE
+#
+$EndLIBDOC

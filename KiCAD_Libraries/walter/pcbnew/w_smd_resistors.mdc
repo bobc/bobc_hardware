@@ -1,0 +1,53 @@
+PCBNEW-LibDoc----V1  mar 01 set 2009 11:01:03 CEST
+#
+$MODULE r_0402
+Li r_0402
+Cd SMT resistor, 0402
+$EndMODULE
+#
+$MODULE r_0603
+Li r_0603
+Cd SMT resistor, 0603
+$EndMODULE
+#
+$MODULE r_0805
+Li r_0805
+Cd SMT resistor, 0805
+$EndMODULE
+#
+$MODULE r_1206
+Li r_1206
+Cd SMT resistor, 1206
+$EndMODULE
+#
+$MODULE r_1210
+Li r_1210
+Cd SMT resistor, 1210
+$EndMODULE
+#
+$MODULE r_2010
+Li r_2010
+Cd SMT resistor, 2010
+$EndMODULE
+#
+$MODULE r_2512
+Li r_2512
+Cd SMT resistor, 2512
+$EndMODULE
+#
+$MODULE r_cat16-8
+Li r_cat16-8
+Cd SMT resistor net, Bourns CAT16 series, 8 way
+$EndMODULE
+#
+$MODULE r_cat16-4
+Li r_cat16-4
+Cd SMT resistor net, Bourns CAT16 series, 4 way
+$EndMODULE
+#
+$MODULE r_cat16-2
+Li r_cat16-2
+Cd SMT resistor net, Bourns CAT16 series, 2 way
+$EndMODULE
+#
+$EndLIBDOC

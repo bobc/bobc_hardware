@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  gio 13 set 2012 21:10:13 CEST
+PCBNEW-LibModule-V1  sab 08 dic 2012 15:26:39 CET
 # encoding utf-8
 Units deci-mils
 $INDEX
 hsop-44
 msoic-10
 msoic-8
+msop-16
 powerso-20
 psop-24
 psop-8
@@ -18,6 +19,7 @@ soic-20
 soic-24
 soic-28
 ssop-16
+ssop-24
 ssop-28
 ssop-48
 tssop-14
@@ -364,7 +366,7 @@ Ne 0 ""
 Po 2687 2597
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\hsop-44.wrl"
+Na "walter/smd_dil/hsop-44.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -465,7 +467,7 @@ Ne 0 ""
 Po -394 -906
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\msoic-10.wrl"
+Na "walter/smd_dil/msoic-10.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -550,12 +552,174 @@ Ne 0 ""
 Po -384 -906
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\msoic-8.wrl"
+Na "walter/smd_dil/msoic-8.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE msoic-8
+$MODULE msop-16
+Po 0 0 0 15 50680ED0 00000000 ~~
+Li msop-16
+Cd MSOP-16
+Sc 0
+AR msoic-10
+Op 0 0 0
+.SolderMask 27
+.SolderPaste -19
+.LocalClearance 39
+At SMD
+T0 0 -1339 196 196 0 39 N V 21 N "U***"
+T1 0 1378 196 196 0 39 N V 21 N "MSOP-16"
+DS 669 945 669 591 50 21
+DS -472 945 -472 591 50 21
+DS -669 945 -669 591 50 21
+DS 669 -945 669 -591 50 21
+DS 472 -945 472 -591 50 21
+DS 276 -945 276 -591 50 21
+DS -787 -591 787 -591 50 21
+DS -787 591 787 591 50 21
+DS -675 -950 -675 -600 50 21
+DS -475 -950 -475 -600 50 21
+DS -276 -950 -276 -600 50 21
+DS -86 -950 -86 -600 50 21
+DS 85 -950 85 -600 50 21
+DS 478 950 478 600 50 21
+DS 279 950 279 600 50 21
+DS 79 950 79 600 50 21
+DS -82 950 -82 600 50 21
+DS -272 950 -272 600 50 21
+DC -630 434 -709 512 50 21
+DS -787 -590 -787 590 50 21
+DS 787 591 787 -591 50 21
+$PAD
+Sh "1" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -687 865
+$EndPAD
+$PAD
+Sh "2" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 865
+$EndPAD
+$PAD
+Sh "3" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 865
+$EndPAD
+$PAD
+Sh "4" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -97 865
+$EndPAD
+$PAD
+Sh "5" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 97 865
+$EndPAD
+$PAD
+Sh "9" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 687 -865
+$EndPAD
+$PAD
+Sh "10" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 -865
+$EndPAD
+$PAD
+Sh "11" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -865
+$EndPAD
+$PAD
+Sh "12" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 97 -865
+$EndPAD
+$PAD
+Sh "13" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -97 -865
+$EndPAD
+$PAD
+Sh "17" R 1120 650 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 27
+.SolderPaste -19
+$EndPAD
+$PAD
+Sh "6" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 865
+$EndPAD
+$PAD
+Sh "7" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 865
+$EndPAD
+$PAD
+Sh "8" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 687 865
+$EndPAD
+$PAD
+Sh "14" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -865
+$EndPAD
+$PAD
+Sh "15" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 -865
+$EndPAD
+$PAD
+Sh "16" R 120 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -687 -866
+$EndPAD
+$SHAPE3D
+Na "walter/smd_dil/msop-16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE msop-16
 $MODULE powerso-20
 Po 0 0 0 15 50198894 00000000 ~~
 Li powerso-20
@@ -726,7 +890,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\powerso-20.wrl"
+Na "walter/smd_dil/powerso-20.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -923,7 +1087,7 @@ Ne 0 ""
 Po -1407 -1102
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\psop-24.wrl"
+Na "walter/smd_dil/psop-24.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1015,7 +1179,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\psop-8.wrl"
+Na "walter/smd_dil/psop-8.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1148,7 +1312,7 @@ Ne 0 ""
 Po -1500 -1100
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\so-14.wrl"
+Na "walter/smd_dil/so-14.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1297,7 +1461,7 @@ Ne 0 ""
 Po -1750 -1100
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\so-16.wrl"
+Na "walter/smd_dil/so-16.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1382,7 +1546,7 @@ Ne 0 ""
 Po -750 -1100
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\so-8.wrl"
+Na "walter/smd_dil/so-8.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1515,7 +1679,7 @@ Ne 0 ""
 Po -1500 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-14.wrl"
+Na "walter/smd_dil/soic-14.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1664,7 +1828,7 @@ Ne 0 ""
 Po -1750 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-16.wrl"
+Na "walter/smd_dil/soic-16.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -1829,7 +1993,7 @@ Ne 0 ""
 Po -2000 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-18.wrl"
+Na "walter/smd_dil/soic-18.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -2010,7 +2174,7 @@ Ne 0 ""
 Po -2250 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-20.wrl"
+Na "walter/smd_dil/soic-20.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -2223,7 +2387,7 @@ Ne 0 ""
 Po -2750 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-24.wrl"
+Na "walter/smd_dil/soic-24.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -2468,7 +2632,7 @@ Ne 0 ""
 Po -3250 -1894
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\soic-28.wrl"
+Na "walter/smd_dil/soic-28.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -2601,12 +2765,202 @@ Ne 0 ""
 Po -625 -1050
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\ssop-16.wrl"
+Na "walter/smd_dil/ssop-16.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE ssop-16
+$MODULE ssop-24
+Po 0 0 0 15 50C34E13 00000000 ~~
+Li ssop-24
+Cd SSOP-24
+Sc 0
+AR tssop-24
+Op 0 0 0
+T0 0 200 197 197 0 39 N V 21 N "SSOP-24"
+T1 0 -157 197 197 0 39 N V 21 N "U***"
+DS -1732 630 1732 630 50 21
+DS -1732 -787 1732 -787 50 21
+DS 1732 -787 1732 787 50 21
+DS 1732 787 -1732 787 50 21
+DS -1732 787 -1732 -787 50 21
+DC -1486 405 -1536 505 50 21
+$PAD
+Sh "6" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -125 1062
+$EndPAD
+$PAD
+Sh "7" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 125 1062
+$EndPAD
+$PAD
+Sh "8" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 375 1062
+$EndPAD
+$PAD
+Sh "9" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 625 1062
+$EndPAD
+$PAD
+Sh "22" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -875 -1062
+$EndPAD
+$PAD
+Sh "3" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -875 1062
+$EndPAD
+$PAD
+Sh "4" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -625 1062
+$EndPAD
+$PAD
+Sh "5" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -375 1062
+$EndPAD
+$PAD
+Sh "15" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 875 -1062
+$EndPAD
+$PAD
+Sh "16" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 625 -1062
+$EndPAD
+$PAD
+Sh "17" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 375 -1062
+$EndPAD
+$PAD
+Sh "18" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 125 -1062
+$EndPAD
+$PAD
+Sh "19" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -125 -1062
+$EndPAD
+$PAD
+Sh "20" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -375 -1062
+$EndPAD
+$PAD
+Sh "10" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 875 1062
+$EndPAD
+$PAD
+Sh "21" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -625 -1062
+$EndPAD
+$PAD
+Sh "2" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1125 1062
+$EndPAD
+$PAD
+Sh "11" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1125 1062
+$EndPAD
+$PAD
+Sh "14" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1125 -1062
+$EndPAD
+$PAD
+Sh "23" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1125 -1062
+$EndPAD
+$PAD
+Sh "1" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1375 1062
+$EndPAD
+$PAD
+Sh "12" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1375 1062
+$EndPAD
+$PAD
+Sh "13" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1375 -1062
+$EndPAD
+$PAD
+Sh "24" R 137 590 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1375 -1062
+$EndPAD
+$SHAPE3D
+Na "walter/smd_dil/ssop-24.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE ssop-24
 $MODULE ssop-28
 Po 0 0 0 15 4D455CB3 00000000 ~~
 Li ssop-28
@@ -2818,7 +3172,7 @@ Ne 0 ""
 Po 1152 -1417
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\ssop-28.wrl"
+Na "walter/smd_dil/ssop-28.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3175,7 +3529,7 @@ Ne 0 ""
 Po -375 1900
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\ssop-48.wrl"
+Na "walter/smd_dil/ssop-48.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3294,7 +3648,7 @@ Ne 0 ""
 Po -768 -1102
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\tssop-14.wrl"
+Na "walter/smd_dil/tssop-14.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3427,7 +3781,7 @@ Ne 0 ""
 Po -640 -1100
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\tssop-16.wrl"
+Na "walter/smd_dil/tssop-16.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3588,7 +3942,7 @@ Ne 0 ""
 Po -1152 -1102
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\tssop-20.wrl"
+Na "walter/smd_dil/tssop-20.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3777,7 +4131,7 @@ Ne 0 ""
 Po -1407 -1102
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\tssop-24.wrl"
+Na "walter/smd_dil/tssop-24.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -3994,7 +4348,7 @@ Ne 0 ""
 Po -1663 -1102
 $EndPAD
 $SHAPE3D
-Na "walter\smd_dil\tssop-28.wrl"
+Na "walter/smd_dil/tssop-28.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0

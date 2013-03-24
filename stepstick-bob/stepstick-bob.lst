@@ -1,0 +1,59 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 08/09/2012 02:24:46
+
+#Cmp ( order = Reference )
+| C1         0.22uF      
+| C2         0.22uF      
+| C3         4.7uF       
+| C4         0.1uF       
+| C5         0.1uF       
+| C6         0.1uF       
+| C7         0.1uF       
+| P1         CONN_8      
+| P2         CONN_8      
+| R1         10k         
+| R2         100k        
+| R3         100k        
+| R4         10k         
+| R5         0.2         
+| R6         0.2         
+| RV1        10k         
+| U1         A4988       
+#End Cmp
+
+
+
+2, .22uF, 	0.031
+1, 4.7uF,		0.098
+4, 0.1uF,		0.035		
+
+16, Conn strip
+
+2, 10k, 					0.011
+2, 100k, 					0.011
+2, 0.2 1% .25W,		0.14
+1, 10k trim,			0.41
+1, A4988,					3.69
+
+ 
+
+#Cmp ( order = Value )
+| 0.1uF        C4        
+| 0.1uF        C5        
+| 0.1uF        C6        
+| 0.1uF        C7        
+| 0.2          R5        
+| 0.2          R6        
+| 0.22uF       C1        
+| 0.22uF       C2        
+| 100k         R2        
+| 100k         R3        
+| 10k          R1        
+| 10k          R4        
+| 10k          RV1       
+| 4.7uF        C3        
+| A4988        U1        
+| CONN_8       P1        
+| CONN_8       P2        
+#End Cmp
+
+#End List

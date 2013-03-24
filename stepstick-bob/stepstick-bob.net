@@ -1,0 +1,290 @@
+# EESchema Netlist Version 1.1 created  08/09/2012 12:20:33
+(
+ ( /504A9CF6 $noname  U1 A4988 {Lib=A4988}
+  (    1 /2B )
+  (    2 /EN )
+  (    3 GND )
+  (    4 N-000011 )
+  (    5 N-000010 )
+  (    6 N-000012 )
+  (    7 ? )
+  (    8 N-000009 )
+  (    9 /MS1 )
+  (   10 /MS2 )
+  (   11 /MS3 )
+  (   12 /~RST )
+  (   13 N-000008 )
+  (   14 /~SLP )
+  (   15 VDD )
+  (   16 /STEP )
+  (   17 N-000005 )
+  (   18 GND )
+  (   19 /DIR )
+  (   20 ? )
+  (   21 /1B )
+  (   22 /VMOT )
+  (   23 N-000006 )
+  (   24 /1A )
+  (   25 ? )
+  (   26 /2A )
+  (   27 N-000003 )
+  (   28 /VMOT )
+  (   29 GND )
+ )
+ ( /504A9CF5 $noname  P2 CONN_8 {Lib=CONN_8}
+  (    1 /VMOT )
+  (    2 GND )
+  (    3 /2B )
+  (    4 /2A )
+  (    5 /1A )
+  (    6 /1B )
+  (    7 VDD )
+  (    8 GND )
+ )
+ ( /504A9CF4 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 /EN )
+  (    2 /MS1 )
+  (    3 /MS2 )
+  (    4 /MS3 )
+  (    5 /~RST )
+  (    6 /~SLP )
+  (    7 /STEP )
+  (    8 /DIR )
+ )
+ ( /504A9CF3 $noname  R3 100k {Lib=R}
+  (    1 /EN )
+  (    2 GND )
+ )
+ ( /504A9CF1 $noname  R2 100k {Lib=R}
+  (    1 VDD )
+  (    2 /~SLP )
+ )
+ ( /504A9CF0 $noname  C5 0.1uF {Lib=C}
+  (    1 N-000011 )
+  (    2 N-000010 )
+ )
+ ( /504A9CEF $noname  C7 0.1uF {Lib=C}
+  (    1 N-000012 )
+  (    2 /VMOT )
+ )
+ ( /504A9CEE $noname  C2 0.22uF {Lib=C}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /504A9CEC $noname  R4 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /504A9CE9 $noname  R1 20k {Lib=R}
+  (    1 VDD )
+  (    2 N-000004 )
+ )
+ ( /504A9CE7 $noname  RV1 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000005 )
+  (    3 N-000004 )
+ )
+ ( /504A9CE3 $noname  R6 0.2 {Lib=R}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /504A9CE2 $noname  R5 0.2 {Lib=R}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /504A9CE0 $noname  C1 0.22uF {Lib=C}
+  (    1 GND )
+  (    2 VDD )
+ )
+ ( /504A9CDF $noname  C3 4.7uF {Lib=C}
+  (    1 GND )
+  (    2 /VMOT )
+ )
+ ( /504A9CDE $noname  C4 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 /VMOT )
+ )
+ ( /504A9CDD $noname  C6 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 /VMOT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 29
+ U1 18
+ P2 8
+ R6 2
+ R5 2
+ C1 1
+ P2 2
+ C3 1
+ C4 1
+ C6 1
+ R4 1
+ C2 2
+ U1 3
+ RV1 1
+ R3 2
+Net 2 "/VMOT" "VMOT"
+ U1 28
+ P2 1
+ U1 22
+ C7 2
+ C6 2
+ C4 2
+ C3 2
+Net 3 "" ""
+ R6 1
+ U1 27
+Net 4 "" ""
+ R1 2
+ RV1 3
+Net 5 "" ""
+ RV1 2
+ U1 17
+Net 6 "" ""
+ U1 23
+ R5 1
+Net 7 "VDD" "VDD"
+ P2 7
+ R1 1
+ R2 1
+ U1 15
+ C1 2
+Net 8 "" ""
+ R4 2
+ U1 13
+Net 9 "" ""
+ C2 1
+ U1 8
+Net 10 "" ""
+ U1 5
+ C5 2
+Net 11 "" ""
+ C5 1
+ U1 4
+Net 12 "" ""
+ C7 1
+ U1 6
+Net 13 "/EN" "EN"
+ P1 1
+ R3 1
+ U1 2
+Net 14 "/MS1" "MS1"
+ P1 2
+ U1 9
+Net 15 "/MS2" "MS2"
+ U1 10
+ P1 3
+Net 16 "/~RST" "~RST"
+ U1 12
+ P1 5
+Net 17 "/~SLP" "~SLP"
+ R2 2
+ P1 6
+ U1 14
+Net 18 "/STEP" "STEP"
+ P1 7
+ U1 16
+Net 19 "/DIR" "DIR"
+ P1 8
+ U1 19
+Net 20 "/1B" "1B"
+ P2 6
+ U1 21
+Net 23 "/MS3" "MS3"
+ P1 4
+ U1 11
+Net 24 "/1A" "1A"
+ U1 24
+ P2 5
+Net 26 "/2A" "2A"
+ P2 4
+ U1 26
+Net 27 "/2B" "2B"
+ P2 3
+ U1 1
+}
+#End

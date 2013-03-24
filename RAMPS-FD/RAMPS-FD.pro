@@ -1,16 +1,6 @@
-update=20/01/2013 16:40:47
+update=03/02/2013 15:44:37
 version=1
 last_client=pcbnew
-[cvpcb]
-version=1
-NetITyp=0
-NetIExt=.net
-PkgIExt=.pkg
-NetDir=
-LibDir=
-NetType=0
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -77,11 +67,16 @@ LibName29=contrib
 LibName30=valves
 LibName31=RMC
 LibName32=nicholasclewis/arduino_shieldsNCL
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=1250
+PadDimH=1250
+PadDimV=1250
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -93,9 +88,9 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=RAMPS-FD.net
 [pcbnew/libraries]
-LibDir=../KiCAD_Libraries/modules
+LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -108,3 +103,7 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=RMC
 LibName12=nicholasclewis/arduino_shields
+LibName13=w_smd_cap
+LibName14=w_pin_strip
+LibName15=w_pth_diodes
+LibName16=w_conn_screw

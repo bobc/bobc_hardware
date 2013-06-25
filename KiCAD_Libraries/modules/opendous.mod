@@ -27680,7 +27680,7 @@ Ne 0 ""
 Po -1083 -1750
 $EndPAD
 $SHAPE3D
-Na "..\\KiCAD_Libraries\\packages3d\\walter\\smd_lqfp\\lqfp-48.wrl"
+Na "walter\\smd_lqfp\\lqfp-48.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 90.000000

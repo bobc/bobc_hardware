@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 01/02/2013 17:57:11
+EESchema-DOCLIB  Version 2.0  Date: 20/06/2013 20:07:12
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -42,6 +42,11 @@ D DB25
 K DB25
 $ENDCMP
 #
+$CMP DOUBLE_DIODE
+D Double diode 
+K DEV DIODE
+$ENDCMP
+#
 $CMP JUMP_MINI
 D Mini-jumper
 $ENDCMP
@@ -64,6 +69,11 @@ $ENDCMP
 #
 $CMP MOSFET_N_RMC
 D Power MOSFET
+$ENDCMP
+#
+$CMP PTC
+D Positive Temperature Coefficient
+K PTC
 $ENDCMP
 #
 $CMP R2C2_CONNECTOR

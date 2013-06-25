@@ -1,300 +1,290 @@
-# EESchema Netlist Version 1.1 created  02/02/2013 14:58:39
+# EESchema Netlist Version 1.1 created  16/02/2013 15:19:34
 (
- ( /510D24A8/510D24EE SM0805 C1 100n
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /510C5865 $noname  H3 HOLE_RMC {Lib=HOLE_RMC}
  )
- ( /510D24A8/510D24ED SM0805 C2 100n
-  ( 1 +5V )
-  ( 2 GND )
+ ( /510C5864 $noname  H2 HOLE_RMC {Lib=HOLE_RMC}
  )
- ( /510C585C HOLE_M3 H1 HOLE_RMC
+ ( /510C585C $noname  H1 HOLE_RMC {Lib=HOLE_RMC}
  )
- ( /510C5864 HOLE_M3 H2 HOLE_RMC
+ ( /510AFD20 $noname  M1 LOGO_OSHW {Lib=LOGO_OSHW}
  )
- ( /510C5865 HOLE_M3 H3 HOLE_RMC
+ ( /510AF8C0 $noname  P8 CONN_3X2 {Lib=CONN_3X2}
+  (    1 MISO )
+  (    2 +5V )
+  (    3 SCK )
+  (    4 MOSI )
+  (    5 ? )
+  (    6 GND )
  )
- ( /510AFD20 OSHW_logo_2 M1 LOGO_OSHW
+ ( /510871E4 $noname  P12 CONN_18X2 {Lib=CONN_18X2}
+  (    1 +3.3V )
+  (    2 +3.3V )
+  (    3 /D22 )
+  (    4 /D23 )
+  (    5 E0_EN )
+  (    6 /D25 )
+  (    7 E0_STEP )
+  (    8 /D27 )
+  (    9 E0_DIR )
+  (   10 /D29 )
+  (   11 E1_EN )
+  (   12 /D31 )
+  (   13 /D32 )
+  (   14 /D33 )
+  (   15 E1_DIR )
+  (   16 /D35 )
+  (   17 E1_STEP )
+  (   18 /D37 )
+  (   19 X_EN )
+  (   20 /D39 )
+  (   21 /D40 )
+  (   22 /D41 )
+  (   23 /D42 )
+  (   24 /D43 )
+  (   25 /D44 )
+  (   26 /D45 )
+  (   27 Z_STEP )
+  (   28 /D47 )
+  (   29 Z_DIR )
+  (   30 /D49 )
+  (   31 MISO )
+  (   32 MOSI )
+  (   33 SCK )
+  (   34 /D53 )
+  (   35 GND )
+  (   36 GND )
  )
- ( /510596F8 PIN_ARRAY_8x1_SM P1 CONN_8
-  ( 1 ? )
-  ( 2 /IOREF )
-  ( 3 /RESET )
-  ( 4 +3.3V )
-  ( 5 +5V )
-  ( 6 GND )
-  ( 7 GND )
-  ( 8 +12V )
+ ( /510871E3 $noname  P14 CONN_8 {Lib=CONN_8}
+  (    1 /D7 )
+  (    2 SER2 )
+  (    3 SER3 )
+  (    4 SER4 )
+  (    5 RAMPS_X_MIN )
+  (    6 RAMPS_X_MAX )
+  (    7 RAMPS_UART_TX )
+  (    8 RAMPS_UART_RX )
  )
- ( /51059705 PIN_ARRAY_8x1_SM P2 CONN_8
-  ( 1 X_STEP )
-  ( 2 X_DIR )
-  ( 3 Y_EN )
-  ( 4 A3 )
-  ( 5 A4 )
-  ( 6 A5 )
-  ( 7 Y_STEP )
-  ( 8 Y_DIR )
+ ( /510871E2 $noname  P15 CONN_8 {Lib=CONN_8}
+  (    1 RAMPS_Y_MIN )
+  (    2 RAMPS_Y_MAX )
+  (    3 D16 )
+  (    4 D17 )
+  (    5 RAMPS_Z_MIN )
+  (    6 RAMPS_Z_MAX )
+  (    7 SDA )
+  (    8 SCL )
  )
- ( /51059707 PIN_ARRAY_8x1_SM P3 CONN_8
-  ( 1 Z_EN )
-  ( 2 A9 )
-  ( 3 A10 )
-  ( 4 A11 )
-  ( 5 A12 )
-  ( 6 THERM0 )
-  ( 7 THERM1 )
-  ( 8 THERM2 )
+ ( /510871E1 $noname  P13 CONN_10 {Lib=CONN_10}
+  (    1 /SCL1 )
+  (    2 /SDA1 )
+  (    3 /AREF )
+  (    4 GND )
+  (    5 /D13 )
+  (    6 /D12 )
+  (    7 SER1 )
+  (    8 RAMPS_FET1 )
+  (    9 RAMPS_FET2 )
+  (   10 RAMPS_FET3 )
  )
- ( /510597C5 PIN_ARRAY_18X2_SM_REV P4 CONN_18X2
-  ( 1 +5V )
-  ( 2 +5V )
-  ( 3 /D22 )
-  ( 4 /D23 )
-  ( 5 E0_EN )
-  ( 6 /D25 )
-  ( 7 E0_STEP )
-  ( 8 /D27 )
-  ( 9 E0_DIR )
-  ( 10 /D29 )
-  ( 11 E1_EN )
-  ( 12 /D31 )
-  ( 13 /D32 )
-  ( 14 /D33 )
-  ( 15 E1_DIR )
-  ( 16 /D35 )
-  ( 17 E1_STEP )
-  ( 18 /D37 )
-  ( 19 X_EN )
-  ( 20 /D39 )
-  ( 21 /D40 )
-  ( 22 /D41 )
-  ( 23 /D42 )
-  ( 24 /D43 )
-  ( 25 /D44 )
-  ( 26 /D45 )
-  ( 27 Z_STEP )
-  ( 28 /D47 )
-  ( 29 Z_DIR )
-  ( 30 /D49 )
-  ( 31 /D50 )
-  ( 32 /D51 )
-  ( 33 /D52 )
-  ( 34 /D53 )
-  ( 35 GND )
-  ( 36 GND )
+ ( /510871DE $noname  P9 CONN_8 {Lib=CONN_8}
+  (    1 /RFU1 )
+  (    2 /IOREF )
+  (    3 /RESET )
+  (    4 +3.3V )
+  (    5 +3.3V )
+  (    6 GND )
+  (    7 GND )
+  (    8 +12V )
  )
- ( /51059719 PIN_ARRAY_10x1_SM P5 CONN_10
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 GND )
-  ( 5 /D13 )
-  ( 6 /D12 )
-  ( 7 SER1 )
-  ( 8 FET1 )
-  ( 9 FET2 )
-  ( 10 FET3 )
+ ( /510871DD $noname  P10 CONN_8 {Lib=CONN_8}
+  (    1 X_STEP )
+  (    2 X_DIR )
+  (    3 Y_EN )
+  (    4 A3 )
+  (    5 A4 )
+  (    6 A5 )
+  (    7 Y_STEP )
+  (    8 Y_DIR )
  )
- ( /5105970D PIN_ARRAY_8x1_SM P6 CONN_8
-  ( 1 ? )
-  ( 2 D6 )
-  ( 3 D5 )
-  ( 4 D4 )
-  ( 5 X-MIN )
-  ( 6 X-MAX )
-  ( 7 UART_TX )
-  ( 8 UART_RX )
+ ( /510871DC $noname  P11 CONN_8 {Lib=CONN_8}
+  (    1 Z_EN )
+  (    2 A9 )
+  (    3 A10 )
+  (    4 A11 )
+  (    5 A12 )
+  (    6 THERM0 )
+  (    7 THERM1 )
+  (    8 THERM2 )
  )
- ( /51059710 PIN_ARRAY_8x1_SM P7 CONN_8
-  ( 1 Y-MIN )
-  ( 2 Y-MAX )
-  ( 3 D16 )
-  ( 4 D17 )
-  ( 5 Z-MIN )
-  ( 6 Z-MAX )
-  ( 7 SDA )
-  ( 8 SCL )
+ ( /510597C5 $noname  P4 CONN_18X2 {Lib=CONN_18X2}
+  (    1 +5V )
+  (    2 +5V )
+  (    3 /D22 )
+  (    4 /D23 )
+  (    5 E0_EN )
+  (    6 /D25 )
+  (    7 E0_STEP )
+  (    8 /D27 )
+  (    9 E0_DIR )
+  (   10 /D29 )
+  (   11 E1_EN )
+  (   12 /D31 )
+  (   13 /D32 )
+  (   14 /D33 )
+  (   15 E1_DIR )
+  (   16 /D35 )
+  (   17 E1_STEP )
+  (   18 /D37 )
+  (   19 X_EN )
+  (   20 /D39 )
+  (   21 /D40 )
+  (   22 /D41 )
+  (   23 /D42 )
+  (   24 /D43 )
+  (   25 /D44 )
+  (   26 /D45 )
+  (   27 Z_STEP )
+  (   28 /D47 )
+  (   29 Z_DIR )
+  (   30 /D49 )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 /D53 )
+  (   35 GND )
+  (   36 GND )
  )
- ( /510AF8C0 PIN_ARRAY_3X2_F_SM_REV P8 CONN_3X2
-  ( 1 ? )
-  ( 2 +5V )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 GND )
+ ( /51059719 $noname  P5 CONN_10 {Lib=CONN_10}
+  (    1 /SCL1 )
+  (    2 /SDA1 )
+  (    3 /AREF )
+  (    4 GND )
+  (    5 /D13 )
+  (    6 /D12 )
+  (    7 SER1 )
+  (    8 FET1 )
+  (    9 FET2 )
+  (   10 FET3 )
  )
- ( /510871DE PIN_ARRAY_8x1_F_SM P9 CONN_8
-  ( 1 ? )
-  ( 2 /IOREF )
-  ( 3 /RESET )
-  ( 4 ? )
-  ( 5 +3.3V )
-  ( 6 GND )
-  ( 7 GND )
-  ( 8 +12V )
+ ( /51059710 $noname  P7 CONN_8 {Lib=CONN_8}
+  (    1 Y-MIN )
+  (    2 Y-MAX )
+  (    3 D16 )
+  (    4 D17 )
+  (    5 Z-MIN )
+  (    6 Z-MAX )
+  (    7 SDA )
+  (    8 SCL )
  )
- ( /510871DD PIN_ARRAY_8x1_F_SM P10 CONN_8
-  ( 1 X_STEP )
-  ( 2 X_DIR )
-  ( 3 Y_EN )
-  ( 4 A3 )
-  ( 5 A4 )
-  ( 6 A5 )
-  ( 7 Y_STEP )
-  ( 8 Y_DIR )
+ ( /5105970D $noname  P6 CONN_8 {Lib=CONN_8}
+  (    1 /D7 )
+  (    2 SER2 )
+  (    3 SER3 )
+  (    4 SER4 )
+  (    5 X-MIN )
+  (    6 X-MAX )
+  (    7 UART_TX )
+  (    8 UART_RX )
  )
- ( /510871DC PIN_ARRAY_8x1_F_SM P11 CONN_8
-  ( 1 Z_EN )
-  ( 2 A9 )
-  ( 3 A10 )
-  ( 4 A11 )
-  ( 5 A12 )
-  ( 6 THERM0 )
-  ( 7 THERM1 )
-  ( 8 THERM2 )
+ ( /51059707 $noname  P3 CONN_8 {Lib=CONN_8}
+  (    1 Z_EN )
+  (    2 A9 )
+  (    3 A10 )
+  (    4 A11 )
+  (    5 A12 )
+  (    6 THERM0 )
+  (    7 THERM1 )
+  (    8 THERM2 )
  )
- ( /510871E4 PIN_ARRAY_18X2_F_SM P12 CONN_18X2
-  ( 1 +3.3V )
-  ( 2 +3.3V )
-  ( 3 /D22 )
-  ( 4 /D23 )
-  ( 5 E0_EN )
-  ( 6 /D25 )
-  ( 7 E0_STEP )
-  ( 8 /D27 )
-  ( 9 E0_DIR )
-  ( 10 /D29 )
-  ( 11 E1_EN )
-  ( 12 /D31 )
-  ( 13 /D32 )
-  ( 14 /D33 )
-  ( 15 E1_DIR )
-  ( 16 /D35 )
-  ( 17 E1_STEP )
-  ( 18 /D37 )
-  ( 19 X_EN )
-  ( 20 /D39 )
-  ( 21 /D40 )
-  ( 22 /D41 )
-  ( 23 /D42 )
-  ( 24 /D43 )
-  ( 25 /D44 )
-  ( 26 /D45 )
-  ( 27 Z_STEP )
-  ( 28 /D47 )
-  ( 29 Z_DIR )
-  ( 30 /D49 )
-  ( 31 /D50 )
-  ( 32 /D51 )
-  ( 33 /D52 )
-  ( 34 /D53 )
-  ( 35 GND )
-  ( 36 GND )
+ ( /51059705 $noname  P2 CONN_8 {Lib=CONN_8}
+  (    1 X_STEP )
+  (    2 X_DIR )
+  (    3 Y_EN )
+  (    4 A3 )
+  (    5 A4 )
+  (    6 A5 )
+  (    7 Y_STEP )
+  (    8 Y_DIR )
  )
- ( /510871E1 PIN_ARRAY_10x1_F_SM P13 CONN_10
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 GND )
-  ( 5 /D13 )
-  ( 6 /D12 )
-  ( 7 SER1 )
-  ( 8 RAMPS_FET1 )
-  ( 9 RAMPS_FET2 )
-  ( 10 RAMPS_FET3 )
+ ( /510596F8 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 /RFU1 )
+  (    2 /IOREF )
+  (    3 /RESET )
+  (    4 +3.3V )
+  (    5 +5V )
+  (    6 GND )
+  (    7 GND )
+  (    8 +12V )
  )
- ( /510871E3 PIN_ARRAY_8x1_F_SM P14 CONN_8
-  ( 1 ? )
-  ( 2 D6 )
-  ( 3 D5 )
-  ( 4 D4 )
-  ( 5 RAMPS_X_MIN )
-  ( 6 RAMPS_X_MAX )
-  ( 7 RAMPS_UART_TX )
-  ( 8 RAMPS_UART_RX )
+ ( /510D24A8/510D250C SOT26  U1 ZXGD3005E6 {Lib=ZXGD3005E6}
+  (    1 +12V )
+  (    2 N-000099 )
+  (    3 GND )
+  (    4 RAMPS_FET1 )
+  (    5 ? )
+  (    6 RAMPS_FET1 )
  )
- ( /510871E2 PIN_ARRAY_8x1_F_SM P15 CONN_8
-  ( 1 RAMPS_Y_MIN )
-  ( 2 RAMPS_Y_MAX )
-  ( 3 D16 )
-  ( 4 D17 )
-  ( 5 RAMPS_Z_MIN )
-  ( 6 RAMPS_Z_MAX )
-  ( 7 SDA )
-  ( 8 SCL )
+ ( /510D24A8/510D250B $noname  R1 1k {Lib=R}
+  (    1 FET1 )
+  (    2 N-000099 )
  )
- ( /510D24A8/510D250B SM0805 R1 1k
-  ( 1 FET1 )
-  ( 2 N-000105 )
+ ( /510D24A8/510D2506 $noname  R2 1k {Lib=R}
+  (    1 FET2 )
+  (    2 N-000097 )
  )
- ( /510D24A8/510D2506 SM0805 R2 1k
-  ( 1 FET2 )
-  ( 2 N-000103 )
+ ( /510D24A8/510D2505 SOT26  U2 ZXGD3005E6 {Lib=ZXGD3005E6}
+  (    1 +12V )
+  (    2 N-000097 )
+  (    3 GND )
+  (    4 RAMPS_FET2 )
+  (    5 ? )
+  (    6 RAMPS_FET2 )
  )
- ( /510D24A8/510D2503 SM0805 R3 1k
-  ( 1 FET3 )
-  ( 2 N-000107 )
+ ( /510D24A8/510D2504 SOT26  U3 ZXGD3005E6 {Lib=ZXGD3005E6}
+  (    1 +12V )
+  (    2 N-000101 )
+  (    3 GND )
+  (    4 RAMPS_FET3 )
+  (    5 ? )
+  (    6 RAMPS_FET3 )
  )
- ( /510D24A8/510D250C SOT23_6 U1 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000105 )
-  ( 3 GND )
-  ( 4 RAMPS_FET1 )
-  ( 5 ? )
-  ( 6 RAMPS_FET1 )
+ ( /510D24A8/510D2503 $noname  R3 1k {Lib=R}
+  (    1 FET3 )
+  (    2 N-000101 )
  )
- ( /510D24A8/510D2505 SOT23_6 U2 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000103 )
-  ( 3 GND )
-  ( 4 RAMPS_FET2 )
-  ( 5 ? )
-  ( 6 RAMPS_FET2 )
+ ( /510D24A8/510D24F2 $noname  U4 TXS0108 {Lib=TXS0108}
+  (    1 X-MIN )
+  (    2 +3.3V )
+  (    3 X-MAX )
+  (    4 Y-MIN )
+  (    5 Y-MAX )
+  (    6 Z-MIN )
+  (    7 Z-MAX )
+  (    8 UART_TX )
+  (    9 UART_RX )
+  (   10 +3.3V )
+  (   11 GND )
+  (   12 RAMPS_UART_RX )
+  (   13 RAMPS_UART_TX )
+  (   14 RAMPS_Z_MAX )
+  (   15 RAMPS_Z_MIN )
+  (   16 RAMPS_Y_MAX )
+  (   17 RAMPS_Y_MIN )
+  (   18 RAMPS_X_MAX )
+  (   19 +5V )
+  (   20 RAMPS_X_MIN )
  )
- ( /510D24A8/510D2504 SOT23_6 U3 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000107 )
-  ( 3 GND )
-  ( 4 RAMPS_FET3 )
-  ( 5 ? )
-  ( 6 RAMPS_FET3 )
+ ( /510D24A8/510D24EE $noname  C1 100n {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /510D24A8/510D24F2 SSOP20 U4 TXS0108
-  ( 1 X-MIN )
-  ( 2 +3.3V )
-  ( 3 X-MAX )
-  ( 4 Y-MIN )
-  ( 5 Y-MAX )
-  ( 6 Z-MIN )
-  ( 7 Z-MAX )
-  ( 8 UART_TX )
-  ( 9 UART_RX )
-  ( 10 +3.3V )
-  ( 11 GND )
-  ( 12 RAMPS_UART_RX )
-  ( 13 RAMPS_UART_TX )
-  ( 14 RAMPS_Z_MAX )
-  ( 15 RAMPS_Z_MIN )
-  ( 16 RAMPS_Y_MAX )
-  ( 17 RAMPS_Y_MIN )
-  ( 18 RAMPS_X_MAX )
-  ( 19 +5V )
-  ( 20 RAMPS_X_MIN )
+ ( /510D24A8/510D24ED $noname  C2 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
 $component M1
  OSHW_logo_2
 $endlist
@@ -319,5 +309,331 @@ $component R3
  R?-*
  SM1206
 $endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "RAMPS_FET3" "RAMPS_FET3"
+ U3 4
+ U3 6
+ P13 10
+Net 2 "RAMPS_UART_RX" "RAMPS_UART_RX"
+ P14 8
+ U4 12
+Net 3 "RAMPS_Y_MIN" "RAMPS_Y_MIN"
+ P15 1
+ U4 17
+Net 4 "RAMPS_Y_MAX" "RAMPS_Y_MAX"
+ U4 16
+ P15 2
+Net 5 "RAMPS_Z_MIN" "RAMPS_Z_MIN"
+ P15 5
+ U4 15
+Net 6 "RAMPS_Z_MAX" "RAMPS_Z_MAX"
+ P15 6
+ U4 14
+Net 7 "/SCL1" "SCL1"
+ P5 1
+ P13 1
+Net 8 "RAMPS_FET1" "RAMPS_FET1"
+ U1 4
+ U1 6
+ P13 8
+Net 9 "RAMPS_X_MAX" "RAMPS_X_MAX"
+ U4 18
+ P14 6
+Net 11 "Y_EN" "Y_EN"
+ P10 3
+ P2 3
+Net 12 "X_DIR" "X_DIR"
+ P10 2
+ P2 2
+Net 13 "X_STEP" "X_STEP"
+ P2 1
+ P10 1
+Net 14 "A3" "A3"
+ P2 4
+ P10 4
+Net 15 "A4" "A4"
+ P10 5
+ P2 5
+Net 16 "/RESET" "RESET"
+ P9 3
+ P1 3
+Net 17 "/IOREF" "IOREF"
+ P1 2
+ P9 2
+Net 18 "MISO" "MISO"
+ P12 31
+ P8 1
+Net 19 "+5V" "+5V"
+ P1 5
+ U4 19
+ P4 2
+ C2 1
+ P8 2
+ P4 1
+Net 20 "SCK" "SCK"
+ P12 33
+ P8 3
+Net 21 "MOSI" "MOSI"
+ P12 32
+ P8 4
+Net 22 "/AREF" "AREF"
+ P13 3
+ P5 3
+Net 23 "/D37" "D37"
+ P12 18
+ P4 18
+Net 24 "/D47" "D47"
+ P4 28
+ P12 28
+Net 25 "/D45" "D45"
+ P4 26
+ P12 26
+Net 26 "GND" "GND"
+ P1 6
+ P1 7
+ C1 2
+ C2 2
+ U1 3
+ P12 36
+ P12 35
+ P8 6
+ U4 11
+ P13 4
+ U3 3
+ P9 7
+ P9 6
+ P4 35
+ P5 4
+ U2 3
+ P4 36
+Net 27 "FET3" "FET3"
+ P5 10
+ R3 1
+Net 28 "/D39" "D39"
+ P4 20
+ P12 20
+Net 29 "/D49" "D49"
+ P4 30
+ P12 30
+Net 30 "/D31" "D31"
+ P4 12
+ P12 12
+Net 31 "/D41" "D41"
+ P12 22
+ P4 22
+Net 33 "D16" "D16"
+ P7 3
+ P15 3
+Net 35 "/D33" "D33"
+ P12 14
+ P4 14
+Net 36 "/D43" "D43"
+ P12 24
+ P4 24
+Net 37 "/D53" "D53"
+ P12 34
+ P4 34
+Net 38 "/D35" "D35"
+ P12 16
+ P4 16
+Net 39 "A5" "A5"
+ P2 6
+ P10 6
+Net 40 "/RFU1" "RFU1"
+ P9 1
+ P1 1
+Net 41 "D17" "D17"
+ P7 4
+ P15 4
+Net 42 "/D7" "D7"
+ P14 1
+ P6 1
+Net 43 "/D29" "D29"
+ P4 10
+ P12 10
+Net 44 "A9" "A9"
+ P11 2
+ P3 2
+Net 45 "A10" "A10"
+ P3 3
+ P11 3
+Net 46 "A11" "A11"
+ P11 4
+ P3 4
+Net 47 "A12" "A12"
+ P11 5
+ P3 5
+Net 48 "/D13" "D13"
+ P13 5
+ P5 5
+Net 49 "Y_STEP" "Y_STEP"
+ P10 7
+ P2 7
+Net 50 "Y_DIR" "Y_DIR"
+ P10 8
+ P2 8
+Net 51 "/D32" "D32"
+ P12 13
+ P4 13
+Net 53 "/D44" "D44"
+ P4 25
+ P12 25
+Net 54 "/D42" "D42"
+ P4 23
+ P12 23
+Net 55 "/D40" "D40"
+ P4 21
+ P12 21
+Net 56 "Z_EN" "Z_EN"
+ P3 1
+ P11 1
+Net 57 "X-MIN" "X-MIN"
+ P6 5
+ U4 1
+Net 58 "Y-MIN" "Y-MIN"
+ P7 1
+ U4 4
+Net 59 "Y-MAX" "Y-MAX"
+ P7 2
+ U4 5
+Net 60 "Z-MAX" "Z-MAX"
+ U4 7
+ P7 6
+Net 61 "Z-MIN" "Z-MIN"
+ U4 6
+ P7 5
+Net 62 "SDA" "SDA"
+ P7 7
+ P15 7
+Net 63 "SCL" "SCL"
+ P7 8
+ P15 8
+Net 64 "UART_TX" "UART_TX"
+ P6 7
+ U4 8
+Net 65 "UART_RX" "UART_RX"
+ P6 8
+ U4 9
+Net 66 "X-MAX" "X-MAX"
+ U4 3
+ P6 6
+Net 67 "/D22" "D22"
+ P12 3
+ P4 3
+Net 68 "/D23" "D23"
+ P12 4
+ P4 4
+Net 69 "/D25" "D25"
+ P12 6
+ P4 6
+Net 70 "/D27" "D27"
+ P12 8
+ P4 8
+Net 71 "E1_STEP" "E1_STEP"
+ P4 17
+ P12 17
+Net 72 "THERM0" "THERM0"
+ P3 6
+ P11 6
+Net 73 "THERM1" "THERM1"
+ P11 7
+ P3 7
+Net 74 "THERM2" "THERM2"
+ P3 8
+ P11 8
+Net 75 "E0_EN" "E0_EN"
+ P4 5
+ P12 5
+Net 76 "E0_STEP" "E0_STEP"
+ P12 7
+ P4 7
+Net 77 "E0_DIR" "E0_DIR"
+ P12 9
+ P4 9
+Net 78 "E1_EN" "E1_EN"
+ P4 11
+ P12 11
+Net 79 "E1_DIR" "E1_DIR"
+ P12 15
+ P4 15
+Net 80 "X_EN" "X_EN"
+ P12 19
+ P4 19
+Net 81 "Z_DIR" "Z_DIR"
+ P12 29
+ P4 29
+Net 82 "Z_STEP" "Z_STEP"
+ P4 27
+ P12 27
+Net 83 "SER4" "SER4"
+ P14 4
+ P6 4
+Net 84 "SER3" "SER3"
+ P6 3
+ P14 3
+Net 85 "SER2" "SER2"
+ P14 2
+ P6 2
+Net 86 "/D12" "D12"
+ P5 6
+ P13 6
+Net 87 "+12V" "+12V"
+ P9 8
+ P1 8
+ U2 1
+ U3 1
+ U1 1
+Net 88 "+3.3V" "+3.3V"
+ P1 4
+ P9 5
+ P9 4
+ P12 2
+ P12 1
+ U4 10
+ C1 1
+ U4 2
+Net 89 "FET2" "FET2"
+ R2 1
+ P5 9
+Net 90 "FET1" "FET1"
+ P5 8
+ R1 1
+Net 91 "SER1" "SER1"
+ P13 7
+ P5 7
+Net 92 "RAMPS_FET2" "RAMPS_FET2"
+ P13 9
+ U2 6
+ U2 4
+Net 93 "/SDA1" "SDA1"
+ P5 2
+ P13 2
+Net 94 "RAMPS_UART_TX" "RAMPS_UART_TX"
+ U4 13
+ P14 7
+Net 95 "RAMPS_X_MIN" "RAMPS_X_MIN"
+ P14 5
+ U4 20
+Net 97 "" ""
+ R2 2
+ U2 2
+Net 99 "" ""
+ R1 2
+ U1 2
+Net 101 "" ""
+ R3 2
+ U3 2
+}
+#End

@@ -1,32 +1,36 @@
-# EESchema Netlist Version 1.1 created  07/03/2013 19:48:50
+# EESchema Netlist Version 1.1 created  24/06/2013 21:31:16
 (
  ( /50FC27BA c_elec_6.3x7.7 C101 100u
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 +V_POWER )
+  ( 2 MOT_GND )
  )
  ( /50FC27BF SM0805 C102 100n
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 +V_POWER )
+  ( 2 MOT_GND )
  )
  ( /50FC2853/50FC3200 c_elec_6.3x7.7 C201 100u
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
  )
  ( /50FC2853/50FC32B0 c_elec_6.3x7.7 C202 100u
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
  )
  ( /50FC2853/50FC32B3 c_elec_6.3x7.7 C203 100u
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
  )
- ( /50FC2853/50FC32B8 c_elec_6.3x7.7 C204 100u
-  ( 1 +12V )
-  ( 2 GND )
+ ( /51B4E84F/51B4E8D2 c_elec_6.3x7.7 C204 100u
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
  )
- ( /50FC2853/50FC32BB c_elec_6.3x7.7 C205 100u
-  ( 1 +12V )
-  ( 2 GND )
+ ( /51B4E84F/51B4E8D6 c_elec_6.3x7.7 C205 100u
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
+ )
+ ( /51B4E84F/51B4E8D7 c_elec_6.3x7.7 C206 100u
+  ( 1 +V_MOTOR )
+  ( 2 MOT_GND )
  )
  ( /50FC37D4/50FC3A14 c_elec_4x5.3 C301 10u
   ( 1 THERM0 )
@@ -45,113 +49,180 @@
   ( 2 GND )
  )
  ( /50FC37D4/510D87AD SM0805 C305 100n
-  ( 1 +3.3V )
+  ( 1 +V_LOGIC )
+  ( 2 GND )
+ )
+ ( /50FC37D4/5178644D c_elec_4x5.3 C501 10u
+  ( 1 THERM3 )
+  ( 2 GND )
+ )
+ ( /50FC37D4/517BAD21 SM0805 C502 100nF
+  ( 1 THERM3 )
+  ( 2 GND )
+ )
+ ( /50FC37D4/519E9435 SM0805 C503 100nF
+  ( 1 THERM2 )
+  ( 2 GND )
+ )
+ ( /50FC37D4/519E9453 SM0805 C504 100nF
+  ( 1 THERM0 )
+  ( 2 GND )
+ )
+ ( /50FC37D4/519E9445 SM0805 C505 100nF
+  ( 1 THERM1 )
   ( 2 GND )
  )
  ( /50FC24D8 LED-0805_GREEN D101 LED_GRN
-  ( 1 N-000003 )
+  ( 1 N-000048 )
   ( 2 GND )
  )
  ( /50FC2744 diode_do41 D102 1N4004
-  ( 1 GND )
-  ( 2 +12V )
+  ( 1 MOT_GND )
+  ( 2 +V_POWER )
  )
  ( /50FC273D diode_do41 D103 1N4004
-  ( 1 +12V )
+  ( 1 +V_POWER )
   ( 2 /AM-VIN )
  )
  ( /50FC3D20/510478C6 LED-0805_RED D201 LED_RED
-  ( 1 N-000144 )
-  ( 2 N-000138 )
+  ( 1 N-000146 )
+  ( 2 /Outputs/D8_OUT )
  )
  ( /50FC3D20/510479AE LED-0805_RED D202 LED_RED
-  ( 1 N-000146 )
-  ( 2 N-000145 )
+  ( 1 N-000145 )
+  ( 2 /Outputs/D10_OUT )
  )
  ( /50FC3D20/51047AB7 LED-0805_RED D203 LED_RED
-  ( 1 N-000135 )
-  ( 2 N-000136 )
+  ( 1 N-000147 )
+  ( 2 /Outputs/D9_OUT )
  )
- ( /50FC26C0 MF-R1100 F101 MFR1100
-  ( 1 N-000005 )
-  ( 2 +12P )
+ ( /50FC3D20/51770EF9 LED-0805_RED D204 LED_RED
+  ( 1 N-000148 )
+  ( 2 /Outputs/FET4_OUT )
  )
- ( /50FC26C8 MF-R500 F102 MFR500
-  ( 1 N-000006 )
-  ( 2 +12V )
+ ( /50FC2853/51B65AB0 SM0805 D301 DIODE
+  ( 1 N-000096 )
+  ( 2 /ESTOP )
  )
- ( /50FC3D20/51047BDF PIN_ARRAY_3X1 K201 SER1
+ ( /50FC3D20/519E9216 DO214 D401 ES1F
+  ( 1 /Outputs/D9_OUT )
+  ( 2 +V_POWER )
+ )
+ ( /50FC3D20/5186017E DO214 D402 ES1F
+  ( 1 /Outputs/D10_OUT )
+  ( 2 +V_POWER )
+ )
+ ( /50FC3D20/519E92CD DO214 D403 ES1F
+  ( 1 /Outputs/FET4_OUT )
+  ( 2 +V_POWER )
+ )
+ ( /50FC3D20/51A9D334 DO214 D404 ES1F
+  ( 1 /Outputs/D8_OUT )
+  ( 2 +V_HEATBED )
+ )
+ ( /50FC26C0 FUSE-AUTO F101 FUSE_15A
+  ( 1 /HB_IN )
+  ( 2 +V_HEATBED )
+ )
+ ( /50FC26C8 FUSE-AUTO F102 FUSE_10A
+  ( 1 /P_IN )
+  ( 2 +V_POWER )
+ )
+ ( /5176EAAB FUSE-AUTO F103 FUSE_10A
+  ( 1 /MOT_IN )
+  ( 2 +V_MOTOR )
+ )
+ ( /51A9FB93 TIE-2MM J101 NET-TIE
+  ( 1 HB_GND )
+  ( 2 MOT_GND )
+ )
+ ( /51AA0008 TIE-2MM J103 NET-TIE
+  ( 1 GND )
+  ( 2 MOT_GND )
+ )
+ ( /50FC3D20/51AA0316 TIE-2MM J401 NET-TIE
+  ( 1 +V_POWER )
+  ( 2 /Outputs/POWER_SIG )
+ )
+ ( /50FC3D20/51AA03F9 TIE-2MM J402 NET-TIE
+  ( 1 +V_HEATBED )
+  ( 2 N-000140 )
+ )
+ ( /51786528 pin_strip_3 JP101 VSEL
+  ( 1 /IOREF )
+  ( 2 +5V )
+  ( 3 +V_LOGIC )
+ )
+ ( /5176EFAC/51047BDF PIN_ARRAY_3X1 K201 SER1
   ( 1 GND )
   ( 2 +5V )
-  ( 3 D11 )
+  ( 3 SERVO1 )
  )
- ( /50FC3D20/51047C78 PIN_ARRAY_3X1 K202 SER2
+ ( /5176EFAC/51047C78 PIN_ARRAY_3X1 K202 SER2
   ( 1 GND )
   ( 2 +5V )
-  ( 3 D6 )
+  ( 3 SERVO2 )
  )
- ( /50FC3D20/51047C79 PIN_ARRAY_3X1 K203 SER3
+ ( /5176EFAC/51047C79 PIN_ARRAY_3X1 K203 SER3
   ( 1 GND )
   ( 2 +5V )
-  ( 3 D5 )
+  ( 3 SERVO3 )
  )
- ( /50FC3D20/51047C7F PIN_ARRAY_3X1 K204 SER4
+ ( /5176EFAC/51047C7F PIN_ARRAY_3X1 K204 SER4
   ( 1 GND )
   ( 2 +5V )
-  ( 3 D4 )
+  ( 3 SERVO4 )
  )
  ( /50FC37D4/50FC3801 PIN_ARRAY_3X1 K301 X-MIN
-  ( 1 N-000130 )
-  ( 2 GND )
-  ( 3 +5V )
- )
- ( /50FC37D4/50FC3809 PIN_ARRAY_3X1 K302 X-MAX
   ( 1 N-000126 )
   ( 2 GND )
   ( 3 +5V )
  )
+ ( /50FC37D4/50FC3809 PIN_ARRAY_3X1 K302 X-MAX
+  ( 1 N-000130 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
  ( /50FC37D4/50FC380A PIN_ARRAY_3X1 K303 Y-MIN
-  ( 1 N-000129 )
-  ( 2 GND )
-  ( 3 +5V )
- )
- ( /50FC37D4/50FC380B PIN_ARRAY_3X1 K304 Y-MAX
-  ( 1 N-000125 )
-  ( 2 GND )
-  ( 3 +5V )
- )
- ( /50FC37D4/50FC380C PIN_ARRAY_3X1 K305 Z-MIN
   ( 1 N-000128 )
   ( 2 GND )
   ( 3 +5V )
  )
- ( /50FC37D4/50FC380E PIN_ARRAY_3X1 K306 Z-MAX
+ ( /50FC37D4/50FC380B PIN_ARRAY_3X1 K304 Y-MAX
+  ( 1 N-000129 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( /50FC37D4/50FC380C PIN_ARRAY_3X1 K305 Z-MIN
   ( 1 N-000127 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( /50FC37D4/50FC380E PIN_ARRAY_3X1 K306 Z-MAX
+  ( 1 N-000125 )
   ( 2 GND )
   ( 3 +5V )
  )
  ( /510E82F9 OSHW_logo_2 M101 LOGO_OSHW
  )
- ( /50FC262B mstba_2,5/4-g-5,08 P101 CONN_4
-  ( 1 GND )
-  ( 2 N-000006 )
-  ( 3 GND )
-  ( 4 N-000005 )
+ ( /51AA1077 mstba_2,5/2-g-5,08 P101 HB_IN
+  ( 1 HB_GND )
+  ( 2 /HB_IN )
  )
  ( /50FC30FF PIN_ARRAY_1 P102 VCC
   ( 1 +5V )
  )
  ( /50FC3104 PIN_ARRAY_1 P103 PS-ON
-  ( 1 /D12 )
+  ( 1 PS-ON )
  )
  ( /50FC3105 PIN_ARRAY_1 P104 5V
   ( 1 +5V )
  )
  ( /50FC30EF PIN_ARRAY_2X1 P105 12V-AUX
-  ( 1 +12V )
-  ( 2 GND )
+  ( 1 /P_IN )
+  ( 2 MOT_GND )
  )
- ( /51084776 PIN_ARRAY_3X2_F_SM_REV P106 CONN_3X2
+ ( /51084776 pin_socket_3x2 P106 CONN_3X2
   ( 1 MISO )
   ( 2 +5V )
   ( 3 SCK )
@@ -159,124 +230,132 @@
   ( 5 ? )
   ( 6 GND )
  )
+ ( /5176E748 mstba_2,5/2-g-5,08 P107 MOT_IN
+  ( 1 MOT_GND )
+  ( 2 /MOT_IN )
+ )
+ ( /51AA108A mstba_2,5/2-g-5,08 P108 POWER_IN
+  ( 1 MOT_GND )
+  ( 2 /P_IN )
+ )
  ( /50FC2853/50FC2B31 pin_array_3x2 P201 CONN_3X2
-  ( 1 N-000092 )
-  ( 2 +3.3V )
-  ( 3 N-000105 )
-  ( 4 +3.3V )
-  ( 5 N-000104 )
-  ( 6 +3.3V )
+  ( 1 N-000104 )
+  ( 2 +V_LOGIC )
+  ( 3 N-000101 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000103 )
+  ( 6 +V_LOGIC )
  )
  ( /50FC2853/50FC2B85 pin_array_3x2 P202 CONN_3X2
   ( 1 N-000123 )
-  ( 2 +3.3V )
-  ( 3 N-000111 )
-  ( 4 +3.3V )
-  ( 5 N-000110 )
-  ( 6 +3.3V )
+  ( 2 +V_LOGIC )
+  ( 3 N-000119 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000120 )
+  ( 6 +V_LOGIC )
  )
  ( /50FC2853/50FC294D pin_array_3x2 P203 CONN_3X2
   ( 1 N-000124 )
-  ( 2 +3.3V )
-  ( 3 N-000113 )
-  ( 4 +3.3V )
-  ( 5 N-000103 )
-  ( 6 +3.3V )
+  ( 2 +V_LOGIC )
+  ( 3 N-000105 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000106 )
+  ( 6 +V_LOGIC )
  )
- ( /50FC2853/50FC2A06 PIN_ARRAY_4x1 P204 X-MOT
-  ( 1 N-000112 )
-  ( 2 N-000116 )
-  ( 3 N-000115 )
-  ( 4 N-000114 )
+ ( /50FC2853/50FC2A06 CONN_KK_2.54_4W P204 X-MOT
+  ( 1 /Stepper_Drivers/X-2B )
+  ( 2 /Stepper_Drivers/X-2A )
+  ( 3 /Stepper_Drivers/X-1A )
+  ( 4 /Stepper_Drivers/X-1B )
  )
- ( /50FC2853/50FC2B09 PIN_ARRAY_4x1 P205 Y-MOT
-  ( 1 N-000120 )
-  ( 2 N-000119 )
-  ( 3 N-000118 )
-  ( 4 N-000117 )
+ ( /50FC2853/50FC2B09 CONN_KK_2.54_4W P205 Y-MOT
+  ( 1 /Stepper_Drivers/Y-2B )
+  ( 2 /Stepper_Drivers/Y-2A )
+  ( 3 /Stepper_Drivers/Y-1A )
+  ( 4 /Stepper_Drivers/Y-1B )
  )
- ( /50FC2853/50FC2B7B PIN_ARRAY_4x1 P206 Z-MOT
-  ( 1 N-000109 )
-  ( 2 N-000108 )
-  ( 3 N-000107 )
-  ( 4 N-000106 )
+ ( /50FC2853/50FC2B7B CONN_KK_2.54_4W P206 Z-MOT
+  ( 1 /Stepper_Drivers/Z-2B )
+  ( 2 /Stepper_Drivers/Z-2A )
+  ( 3 /Stepper_Drivers/Z-1A )
+  ( 4 /Stepper_Drivers/Z-1B )
  )
- ( /50FC2853/50FC2BB0 pin_array_3x2 P207 CONN_3X2
-  ( 1 N-000122 )
-  ( 2 +3.3V )
-  ( 3 N-000090 )
-  ( 4 +3.3V )
-  ( 5 N-000091 )
-  ( 6 +3.3V )
+ ( /51B4E84F/51B4E8CE pin_array_3x2 P207 CONN_3X2
+  ( 1 N-000181 )
+  ( 2 +V_LOGIC )
+  ( 3 N-000177 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000178 )
+  ( 6 +V_LOGIC )
  )
- ( /50FC2853/50FC2BA5 pin_array_3x2 P208 CONN_3X2
-  ( 1 N-000121 )
-  ( 2 +3.3V )
-  ( 3 N-000098 )
-  ( 4 +3.3V )
-  ( 5 N-000097 )
-  ( 6 +3.3V )
+ ( /51B4E84F/51B4E8DB pin_array_3x2 P208 CONN_3X2
+  ( 1 N-000179 )
+  ( 2 +V_LOGIC )
+  ( 3 N-000163 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000164 )
+  ( 6 +V_LOGIC )
  )
- ( /50FC2853/50FC2BAC PIN_ARRAY_4x1 P209 E0-MOT
-  ( 1 N-000099 )
-  ( 2 N-000100 )
-  ( 3 N-000101 )
-  ( 4 N-000102 )
+ ( /51B4E84F/51B4E8E0 pin_array_3x2 P209 CONN_3X2
+  ( 1 N-000180 )
+  ( 2 +V_LOGIC )
+  ( 3 N-000182 )
+  ( 4 +V_LOGIC )
+  ( 5 N-000165 )
+  ( 6 +V_LOGIC )
  )
- ( /50FC2853/50FC2BAA PIN_ARRAY_4x1 P210 E1-MOT
-  ( 1 N-000093 )
-  ( 2 N-000094 )
-  ( 3 N-000095 )
-  ( 4 N-000096 )
+ ( /51B4E84F/51B4E8D0 CONN_KK_2.54_4W P210 E2-MOT
+  ( 1 /Stepper_Drivers_2/E2-2B )
+  ( 2 /Stepper_Drivers_2/E2-2A )
+  ( 3 /Stepper_Drivers_2/E2-1A )
+  ( 4 /Stepper_Drivers_2/E2-1B )
  )
- ( /50FC3D20/51047175 PIN_ARRAY_4x1 P211 CONN_4
-  ( 1 +3.3V )
+ ( /5176EFAC/51047175 PIN_ARRAY_4x1 P211 I2C
+  ( 1 +V_LOGIC )
   ( 2 GND )
   ( 3 SDA )
   ( 4 SCL )
  )
- ( /50FC3D20/5104780F mors_6p P212 CONN_6
-  ( 1 +12P )
-  ( 2 N-000136 )
-  ( 3 +12V )
-  ( 4 N-000145 )
-  ( 5 +12V )
-  ( 6 N-000138 )
+ ( /51B4E84F/51B4E8DE CONN_KK_2.54_4W P212 E1-MOT
+  ( 1 /Stepper_Drivers_2/E1-2B )
+  ( 2 /Stepper_Drivers_2/E1-2A )
+  ( 3 /Stepper_Drivers_2/E1-1A )
+  ( 4 /Stepper_Drivers_2/E1-1B )
  )
- ( /50FC3D20/51084A74 pin_strip_18 P213 AUX-4
-  ( 1 +3.3V )
+ ( /5176EFAC/51084A74 pin_strip_18 P213 AUX-4
+  ( 1 +V_LOGIC )
   ( 2 GND )
-  ( 3 D32 )
-  ( 4 D47 )
-  ( 5 D45 )
-  ( 6 D43 )
-  ( 7 D41 )
-  ( 8 D39 )
-  ( 9 D37 )
-  ( 10 D35 )
-  ( 11 D33 )
-  ( 12 D31 )
-  ( 13 D29 )
-  ( 14 D27 )
-  ( 15 D25 )
-  ( 16 D23 )
-  ( 17 D17 )
-  ( 18 D16 )
+  ( 3 ? )
+  ( 4 D51 )
+  ( 5 ? )
+  ( 6 D47 )
+  ( 7 D45 )
+  ( 8 D43 )
+  ( 9 D41 )
+  ( 10 D39 )
+  ( 11 D37 )
+  ( 12 D35 )
+  ( 13 D33 )
+  ( 14 D31 )
+  ( 15 D29 )
+  ( 16 D27 )
+  ( 17 D25 )
+  ( 18 D23 )
  )
- ( /50FC3D20/510481EC PIN_ARRAY_5x2 P214 AUX-2
-  ( 1 +3.3V )
+ ( /5176EFAC/510481EC PIN_ARRAY_5x2 P214 AUX-2
+  ( 1 +V_LOGIC )
   ( 2 GND )
-  ( 3 A5 )
-  ( 4 A9 )
-  ( 5 A10 )
-  ( 6 D40 )
-  ( 7 D44 )
-  ( 8 D42 )
-  ( 9 A12 )
-  ( 10 A11 )
+  ( 3 A4 )
+  ( 4 ? )
+  ( 5 A5 )
+  ( 6 ? )
+  ( 7 A6 )
+  ( 8 ? )
+  ( 9 A7 )
+  ( 10 ? )
  )
- ( /50FC3D20/510481FE pin_array_4x2 P215 AUX-3
-  ( 1 +3.3V )
+ ( /5176EFAC/510481FE pin_array_4x2 P215 AUX-3
+  ( 1 +V_LOGIC )
   ( 2 D49 )
   ( 3 MISO )
   ( 4 MOSI )
@@ -285,60 +364,91 @@
   ( 7 GND )
   ( 8 ? )
  )
- ( /50FC3D20/510481C1 PIN_ARRAY_4x1 P216 SERIAL
-  ( 1 +3.3V )
+ ( /5176EFAC/510481C1 PIN_ARRAY_4x1 P216 SERIAL
+  ( 1 +V_LOGIC )
   ( 2 GND )
   ( 3 UART_TX )
   ( 4 UART_RX )
  )
- ( /50FC3D20/510481CF PIN_ARRAY_4x1 P217 A-OUT
-  ( 1 +3.3V )
-  ( 2 GND )
-  ( 3 A3 )
-  ( 4 A4 )
+ ( /51B4E84F/51B4E8DD CONN_KK_2.54_4W P217 E0-MOT
+  ( 1 /Stepper_Drivers_2/E0-2B )
+  ( 2 /Stepper_Drivers_2/E0-2A )
+  ( 3 /Stepper_Drivers_2/E0-1A )
+  ( 4 /Stepper_Drivers_2/E0-1B )
  )
- ( /50FC37D4/50FC39AA pin_strip_6 P301 CONN_6
+ ( /50FC3D20/51770F88 mors_2p P218 AUX2
+  ( 1 +V_POWER )
+  ( 2 /Outputs/FET4_OUT )
+ )
+ ( /50FC37D4/517863D5 pin_strip_4x2 P301 CONN_4X2
   ( 1 GND )
-  ( 2 THERM0 )
+  ( 2 N-000135 )
   ( 3 GND )
-  ( 4 THERM1 )
+  ( 4 N-000133 )
   ( 5 GND )
-  ( 6 THERM2 )
+  ( 6 N-000136 )
+  ( 7 GND )
+  ( 8 N-000134 )
  )
- ( /50FC2853/50FC377A PIN_ARRAY_4x1 P401 Z-MOT1
-  ( 1 N-000109 )
-  ( 2 N-000108 )
-  ( 3 N-000107 )
-  ( 4 N-000106 )
+ ( /50FC2853/51B4EBF7 PIN_ARRAY_2X1 P302 ESTOP
+  ( 1 N-000094 )
+  ( 2 N-000096 )
  )
- ( /50FC3D20/510E6DBE TO-220AB_IRF2804_RMC Q201 STP55NF06L
-  ( D N-000138 )
-  ( G N-000143 )
-  ( S GND )
+ ( /50FC3D20/51AA03AE mors_2p P403 D9_EXT
+  ( 1 +V_POWER )
+  ( 2 /Outputs/D9_OUT )
  )
- ( /50FC3D20/510E6E60 TO-220AB_IRF2804_RMC Q202 STP55NF06L
-  ( D N-000145 )
-  ( G N-000142 )
-  ( S GND )
+ ( /50FC3D20/51AA03A7 mors_2p P404 D8_HB
+  ( 1 +V_HEATBED )
+  ( 2 /Outputs/D8_OUT )
  )
- ( /50FC3D20/510E6E63 TO-220AB_IRF2804_RMC Q203 STP55NF06L
-  ( D N-000136 )
+ ( /50FC3D20/51AA03B1 mors_2p P405 D10_AUX
+  ( 1 +V_POWER )
+  ( 2 /Outputs/D10_OUT )
+ )
+ ( /50FC3D20/510E6DBE TO-220AB_IRF2804_RMC Q201 IRLB8743PBF
+  ( D /Outputs/D8_OUT )
   ( G N-000141 )
-  ( S GND )
+  ( S HB_GND )
+ )
+ ( /50FC3D20/510E6E60 TO-220AB_IRF2804_RMC Q202 IRLB8743PBF
+  ( D /Outputs/D10_OUT )
+  ( G N-000138 )
+  ( S MOT_GND )
+ )
+ ( /50FC3D20/510E6E63 TO-220AB_IRF2804_RMC Q203 IRLB8743PBF
+  ( D /Outputs/D9_OUT )
+  ( G N-000142 )
+  ( S MOT_GND )
  )
  ( /50FC3D20/51085590 SOT23GDS Q204 2N7002
-  ( D N-000142 )
+  ( D N-000138 )
+  ( G N-000144 )
+  ( S GND )
+ )
+ ( /50FC3D20/51770EF5 SOT23GDS Q205 2N7002
+  ( D N-000150 )
+  ( G N-000149 )
+  ( S GND )
+ )
+ ( /50FC3D20/51770EF3 TO-220AB_IRF2804_RMC Q206 IRLB8743PBF
+  ( D /Outputs/FET4_OUT )
+  ( G N-000150 )
+  ( S MOT_GND )
+ )
+ ( /50FC3D20/51B3783C SOT23GDS Q501 2N7002
+  ( D N-000141 )
   ( G N-000139 )
   ( S GND )
  )
- ( /50FC3D20/5138ED90 SOT23GDS Q301 2N7002
-  ( D N-000141 )
-  ( G N-000137 )
+ ( /50FC3D20/51B377E1 SOT23GDS Q502 2N7002
+  ( D N-000142 )
+  ( G N-000143 )
   ( S GND )
  )
  ( /50FC24CE SM0805 R101 1k
   ( 1 /LED )
-  ( 2 N-000003 )
+  ( 2 N-000048 )
  )
  ( /50FC2853/50FC333E SM0805 R201 100k
   ( 1 N-000123 )
@@ -349,299 +459,409 @@
   ( 2 GND )
  )
  ( /50FC2853/50FC3316 SM0805 R203 100k
-  ( 1 N-000092 )
+  ( 1 N-000104 )
   ( 2 GND )
  )
  ( /50FC2853/50FC28FE SM0805 R204 10k
-  ( 1 +3.3V )
-  ( 2 X_EN )
+  ( 1 +V_LOGIC )
+  ( 2 X_EN_BUF )
  )
  ( /50FC2853/50FC2B32 SM0805 R205 10k
-  ( 1 +3.3V )
-  ( 2 Y_EN )
+  ( 1 +V_LOGIC )
+  ( 2 Y_EN_BUF )
  )
  ( /50FC2853/50FC2B84 SM0805 R206 10k
-  ( 1 +3.3V )
-  ( 2 Z_EN )
+  ( 1 +V_LOGIC )
+  ( 2 Z_EN_BUF )
  )
- ( /50FC2853/50FC3353 SM0805 R207 100k
-  ( 1 N-000122 )
+ ( /51B4E84F/51B4E8D3 SM0805 R207 100k
+  ( 1 N-000181 )
   ( 2 GND )
  )
- ( /50FC2853/50FC33C0 SM0805 R208 100k
-  ( 1 N-000121 )
+ ( /51B4E84F/51B4E8D4 SM0805 R208 100k
+  ( 1 N-000180 )
   ( 2 GND )
  )
- ( /50FC2853/50FC2BB1 SM0805 R209 10k
-  ( 1 +3.3V )
-  ( 2 E0_EN )
+ ( /51B4E84F/51B4E8CD SM0805 R209 10k
+  ( 1 +V_LOGIC )
+  ( 2 E2_EN_BUF )
  )
- ( /50FC2853/50FC2BA4 SM0805 R210 10k
-  ( 1 +3.3V )
-  ( 2 E1_EN )
+ ( /51B4E84F/51B4E8D5 SM0805 R210 100k
+  ( 1 N-000179 )
+  ( 2 GND )
  )
- ( /50FC3D20/510473D0 SM0805 R211 NF
-  ( 1 +3.3V )
+ ( /5176EFAC/510473D0 SM0805 R211 NF
+  ( 1 +V_LOGIC )
   ( 2 SCL )
  )
- ( /50FC3D20/510473CD SM0805 R212 NF
-  ( 1 +3.3V )
+ ( /5176EFAC/510473CD SM0805 R212 NF
+  ( 1 +V_LOGIC )
   ( 2 SDA )
  )
- ( /50FC3D20/510853CC SM0805 R213 1k
-  ( 1 D10 )
-  ( 2 N-000140 )
+ ( /51B4E84F/51B4E8E1 SM0805 R213 10k
+  ( 1 +V_LOGIC )
+  ( 2 E1_EN_BUF )
  )
  ( /50FC3D20/510855B4 SM0805 R214 10k
-  ( 1 +12V )
-  ( 2 N-000142 )
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000138 )
  )
  ( /50FC3D20/510479B2 SM0805 R215 10
-  ( 1 D9 )
-  ( 2 N-000139 )
- )
- ( /50FC3D20/51047AB3 SM0805 R216 10
-  ( 1 D8 )
-  ( 2 N-000137 )
- )
- ( /50FC3D20/510478C3 SM0805 R219 1k8
-  ( 1 +12V )
+  ( 1 D10 )
   ( 2 N-000144 )
  )
- ( /50FC3D20/510479AF SM0805 R220 1k8
-  ( 1 +12V )
+ ( /51B4E84F/51B4E8DA SM0805 R216 10k
+  ( 1 +V_LOGIC )
+  ( 2 E0_EN_BUF )
+ )
+ ( /50FC3D20/51770EF6 SM0805 R217 10
+  ( 1 FET4 )
+  ( 2 N-000149 )
+ )
+ ( /50FC3D20/51770EF4 SM0805 R218 10k
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000150 )
+ )
+ ( /50FC3D20/510478C3 SM0805 R219 1k8
+  ( 1 N-000140 )
   ( 2 N-000146 )
  )
+ ( /50FC3D20/510479AF SM0805 R220 1k8
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000145 )
+ )
  ( /50FC3D20/51047AB6 SM0805 R221 1k8
-  ( 1 +12P )
-  ( 2 N-000135 )
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000147 )
+ )
+ ( /50FC3D20/51770EF8 SM0805 R222 1k8
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000148 )
  )
  ( /50FC37D4/50FC3A00 SM0805 R301 4k7
-  ( 1 +3.3V )
+  ( 1 +V_LOGIC )
   ( 2 THERM0 )
  )
  ( /50FC37D4/50FC3A9E SM0805 R302 4k7
-  ( 1 +3.3V )
+  ( 1 +V_LOGIC )
   ( 2 THERM1 )
  )
  ( /50FC37D4/50FC3AB3 SM0805 R303 4k7
-  ( 1 +3.3V )
+  ( 1 +V_LOGIC )
   ( 2 THERM2 )
  )
- ( /50FC3D20/5138EDF7 SM0805 R304 10k
-  ( 1 +12P )
+ ( /50FC2853/51B4EBD5 SM0805 R304 100k
+  ( 1 N-000096 )
+  ( 2 GND )
+ )
+ ( /50FC2853/51B4ECD2 SM0805 R305 4k7
+  ( 1 +V_LOGIC )
+  ( 2 N-000094 )
+ )
+ ( /50FC3D20/519E91AB SM0805 R405 10k
+  ( 1 +V_LOGIC )
+  ( 2 D10 )
+ )
+ ( /50FC3D20/519E91B3 SM0805 R406 10k
+  ( 1 +V_LOGIC )
+  ( 2 FET4 )
+ )
+ ( /50FC37D4/5178644E SM0805 R501 4k7
+  ( 1 +V_LOGIC )
+  ( 2 THERM3 )
+ )
+ ( /50FC37D4/517BADA5 SM0805 R502 22
+  ( 1 N-000134 )
+  ( 2 THERM3 )
+ )
+ ( /50FC37D4/519E9434 SM0805 R503 22
+  ( 1 N-000136 )
+  ( 2 THERM2 )
+ )
+ ( /50FC37D4/519E9454 SM0805 R504 22
+  ( 1 N-000135 )
+  ( 2 THERM0 )
+ )
+ ( /50FC37D4/519E9446 SM0805 R505 22
+  ( 1 N-000133 )
+  ( 2 THERM1 )
+ )
+ ( /50FC3D20/51B3783F SM0805 R506 10k
+  ( 1 +V_LOGIC )
+  ( 2 D8_BUF )
+ )
+ ( /50FC3D20/51B377DE SM0805 R507 10k
+  ( 1 +V_LOGIC )
+  ( 2 D9_BUF )
+ )
+ ( /50FC3D20/51B3783B SM0805 R508 10
+  ( 1 D8_BUF )
+  ( 2 N-000139 )
+ )
+ ( /50FC3D20/51B377E2 SM0805 R509 10
+  ( 1 D9_BUF )
+  ( 2 N-000143 )
+ )
+ ( /50FC3D20/51B3783D SM0805 R510 10k
+  ( 1 N-000140 )
   ( 2 N-000141 )
  )
+ ( /50FC3D20/51B377E0 SM0805 R511 10k
+  ( 1 /Outputs/POWER_SIG )
+  ( 2 N-000142 )
+ )
  ( /50FC245D ARDUINO_DUE_RAMPS_SHIELD SHIELD101 ARDUINO_DUE_SHIELD
-  ( 0 UART_RX )
-  ( 1 UART_TX )
-  ( 2 X-MAX )
-  ( 3 X-MIN )
+  ( 0 UART_RX_LVC )
+  ( 1 UART_TX_LVC )
+  ( 2 E0_DIR )
+  ( 3 E0_STEP )
   ( 3V3 +3.3V )
-  ( 4 D4 )
-  ( 5 D5 )
+  ( 4 SERVO4 )
+  ( 5 SERVO3 )
   ( 5V +5V )
   ( 5V_4 +5V )
   ( 5V_5 +5V )
-  ( 6 D6 )
-  ( 7 ? )
+  ( 6 SERVO2 )
+  ( 7 SERVO1 )
   ( 8 D8 )
   ( 9 D9 )
   ( 10 D10 )
-  ( 11 D11 )
-  ( 12 /D12 )
+  ( 11 FET4 )
+  ( 12 PS-ON )
   ( 13 /LED )
-  ( 14 Y-MIN )
-  ( 15 Y-MAX )
-  ( 16 D16 )
-  ( 17 D17 )
-  ( 18 Z-MIN )
-  ( 19 Z-MAX )
+  ( 14 E0_EN )
+  ( 15 E1_DIR )
+  ( 16 E1_STEP )
+  ( 17 E1_EN )
+  ( 18 ? )
+  ( 19 ? )
   ( 20 SDA )
   ( 21 SCL )
-  ( 22 ? )
+  ( 22 X-MIN )
   ( 23 D23 )
-  ( 24 E0_EN )
+  ( 24 Y-MIN )
   ( 25 D25 )
-  ( 26 E0_STEP )
+  ( 26 Z-MIN )
   ( 27 D27 )
-  ( 28 E0_DIR )
+  ( 28 E2_EN )
   ( 29 D29 )
-  ( 30 E1_EN )
+  ( 30 X-MAX )
   ( 31 D31 )
-  ( 32 D32 )
+  ( 32 Y-MAX )
   ( 33 D33 )
-  ( 34 E1_DIR )
+  ( 34 Z-MAX )
   ( 35 D35 )
-  ( 36 E1_STEP )
+  ( 36 E2_DIR )
   ( 37 D37 )
-  ( 38 X_EN )
+  ( 38 E2_STEP )
   ( 39 D39 )
-  ( 40 D40 )
+  ( 40 /ESTOP )
   ( 41 D41 )
-  ( 42 D42 )
+  ( 42 ? )
   ( 43 D43 )
-  ( 44 D44 )
+  ( 44 Z_EN )
   ( 45 D45 )
-  ( 46 Z_DIR )
+  ( 46 Y_EN )
   ( 47 D47 )
-  ( 48 Z_STEP )
+  ( 48 X_EN )
   ( 49 D49 )
   ( 50 ? )
-  ( 51 ? )
+  ( 51 D51 )
   ( 52 ? )
   ( 53 D53 )
-  ( AD0 X_STEP )
-  ( AD1 X_DIR )
-  ( AD2 Y_EN )
-  ( AD3 A3 )
+  ( AD0 THERM0 )
+  ( AD1 THERM1 )
+  ( AD2 THERM2 )
+  ( AD3 THERM3 )
   ( AD4 A4 )
   ( AD5 A5 )
-  ( AD6 Y_STEP )
-  ( AD7 Y_DIR )
-  ( AD8 Z_EN )
-  ( AD9 A9 )
-  ( AD10 A10 )
-  ( AD11 A11 )
-  ( AD12 A12 )
-  ( AD13 THERM0 )
-  ( AD14 THERM1 )
-  ( AD15 THERM2 )
+  ( AD6 A6 )
+  ( AD7 A7 )
+  ( AD8 X_DIR )
+  ( AD9 X_STEP )
+  ( AD10 Y_DIR )
+  ( AD11 Y_STEP )
+  ( AD12 Z_DIR )
+  ( AD13 Z_STEP )
+  ( AD14 ? )
+  ( AD15 ? )
   ( AREF ? )
-  ( GND1 ? )
+  ( GND1 GND )
   ( GND2 GND )
   ( GND3 GND )
   ( GND4 GND )
   ( GND5 GND )
-  ( IORF ? )
+  ( IORF /IOREF )
   ( RST /RESET )
   ( SCL1 ? )
   ( SDA1 ? )
   ( V_IN /AM-VIN )
  )
- ( /50FC254D B3F-31xx SW101 SW_PUSH
+ ( /50FC254D SW_6x6_MULTI SW101 SW_PUSH
   ( 1 /RESET )
   ( 2 GND )
  )
  ( /50FC2853/50FC2876 POLOLU U201 X
-  ( 1 X_EN )
+  ( 1 X_EN_BUF )
   ( 2 N-000124 )
-  ( 3 N-000113 )
-  ( 4 N-000103 )
-  ( 5 +3.3V )
-  ( 6 +3.3V )
+  ( 3 N-000105 )
+  ( 4 N-000106 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
   ( 7 X_STEP )
   ( 8 X_DIR )
   ( 9 GND )
-  ( 10 +3.3V )
-  ( 11 N-000114 )
-  ( 12 N-000115 )
-  ( 13 N-000116 )
-  ( 14 N-000112 )
-  ( 15 GND )
-  ( 16 +12V )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers/X-1B )
+  ( 12 /Stepper_Drivers/X-1A )
+  ( 13 /Stepper_Drivers/X-2A )
+  ( 14 /Stepper_Drivers/X-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
  ( /50FC2853/50FC287F POLOLU U202 Y
-  ( 1 Y_EN )
-  ( 2 N-000092 )
-  ( 3 N-000105 )
-  ( 4 N-000104 )
-  ( 5 +3.3V )
-  ( 6 +3.3V )
+  ( 1 Y_EN_BUF )
+  ( 2 N-000104 )
+  ( 3 N-000101 )
+  ( 4 N-000103 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
   ( 7 Y_STEP )
   ( 8 Y_DIR )
   ( 9 GND )
-  ( 10 +3.3V )
-  ( 11 N-000117 )
-  ( 12 N-000118 )
-  ( 13 N-000119 )
-  ( 14 N-000120 )
-  ( 15 GND )
-  ( 16 +12V )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers/Y-1B )
+  ( 12 /Stepper_Drivers/Y-1A )
+  ( 13 /Stepper_Drivers/Y-2A )
+  ( 14 /Stepper_Drivers/Y-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
  ( /50FC2853/50FC2880 POLOLU U203 Z
-  ( 1 Z_EN )
+  ( 1 Z_EN_BUF )
   ( 2 N-000123 )
-  ( 3 N-000111 )
-  ( 4 N-000110 )
-  ( 5 +3.3V )
-  ( 6 +3.3V )
+  ( 3 N-000119 )
+  ( 4 N-000120 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
   ( 7 Z_STEP )
   ( 8 Z_DIR )
   ( 9 GND )
-  ( 10 +3.3V )
-  ( 11 N-000106 )
-  ( 12 N-000107 )
-  ( 13 N-000108 )
-  ( 14 N-000109 )
-  ( 15 GND )
-  ( 16 +12V )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers/Z-1B )
+  ( 12 /Stepper_Drivers/Z-1A )
+  ( 13 /Stepper_Drivers/Z-2A )
+  ( 14 /Stepper_Drivers/Z-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
- ( /50FC2853/50FC2BB3 POLOLU U204 E0
-  ( 1 E0_EN )
-  ( 2 N-000122 )
-  ( 3 N-000090 )
-  ( 4 N-000091 )
-  ( 5 +3.3V )
-  ( 6 +3.3V )
-  ( 7 E0_STEP )
-  ( 8 E0_DIR )
+ ( /51B4E84F/51B4E8D1 POLOLU U204 E2
+  ( 1 E2_EN_BUF )
+  ( 2 N-000181 )
+  ( 3 N-000177 )
+  ( 4 N-000178 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
+  ( 7 E2_STEP )
+  ( 8 E2_DIR )
   ( 9 GND )
-  ( 10 +3.3V )
-  ( 11 N-000102 )
-  ( 12 N-000101 )
-  ( 13 N-000100 )
-  ( 14 N-000099 )
-  ( 15 GND )
-  ( 16 +12V )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers_2/E2-1B )
+  ( 12 /Stepper_Drivers_2/E2-1A )
+  ( 13 /Stepper_Drivers_2/E2-2A )
+  ( 14 /Stepper_Drivers_2/E2-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
- ( /50FC2853/50FC2BB2 POLOLU U205 E1
-  ( 1 E1_EN )
-  ( 2 N-000121 )
-  ( 3 N-000098 )
-  ( 4 N-000097 )
-  ( 5 +3.3V )
-  ( 6 +3.3V )
+ ( /51B4E84F/51B4E8D9 POLOLU U205 E1
+  ( 1 E1_EN_BUF )
+  ( 2 N-000180 )
+  ( 3 N-000182 )
+  ( 4 N-000165 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
   ( 7 E1_STEP )
   ( 8 E1_DIR )
   ( 9 GND )
-  ( 10 +3.3V )
-  ( 11 N-000096 )
-  ( 12 N-000095 )
-  ( 13 N-000094 )
-  ( 14 N-000093 )
-  ( 15 GND )
-  ( 16 +12V )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers_2/E1-1B )
+  ( 12 /Stepper_Drivers_2/E1-1A )
+  ( 13 /Stepper_Drivers_2/E1-2A )
+  ( 14 /Stepper_Drivers_2/E1-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
- ( /50FC3D20/51085303 SOT23_6 U206 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000140 )
-  ( 3 GND )
-  ( 4 N-000143 )
-  ( 5 ? )
-  ( 6 N-000143 )
+ ( /51B4E84F/51B4E8D8 POLOLU U206 E0
+  ( 1 E0_EN_BUF )
+  ( 2 N-000179 )
+  ( 3 N-000163 )
+  ( 4 N-000164 )
+  ( 5 +V_LOGIC )
+  ( 6 +V_LOGIC )
+  ( 7 E0_STEP )
+  ( 8 E0_DIR )
+  ( 9 GND )
+  ( 10 +V_LOGIC )
+  ( 11 /Stepper_Drivers_2/E0-1B )
+  ( 12 /Stepper_Drivers_2/E0-1A )
+  ( 13 /Stepper_Drivers_2/E0-2A )
+  ( 14 /Stepper_Drivers_2/E0-2B )
+  ( 15 MOT_GND )
+  ( 16 +V_MOTOR )
  )
  ( /50FC37D4/510D7C7A SSOP20 U301 TXS0108
   ( 1 Z-MAX )
-  ( 2 +3.3V )
+  ( 2 +V_LOGIC )
   ( 3 Z-MIN )
   ( 4 Y-MAX )
   ( 5 Y-MIN )
   ( 6 X-MAX )
   ( 7 X-MIN )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 +3.3V )
+  ( 8 UART_TX_LVC )
+  ( 9 UART_RX_LVC )
+  ( 10 +V_LOGIC )
   ( 11 GND )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 N-000130 )
-  ( 15 N-000126 )
-  ( 16 N-000129 )
-  ( 17 N-000125 )
-  ( 18 N-000128 )
+  ( 12 UART_RX )
+  ( 13 UART_TX )
+  ( 14 N-000126 )
+  ( 15 N-000130 )
+  ( 16 N-000128 )
+  ( 17 N-000129 )
+  ( 18 N-000127 )
   ( 19 +5V )
-  ( 20 N-000127 )
+  ( 20 N-000125 )
+ )
+ ( /50FC2853/51B4E6B4 SO14E U302 74LS08
+  ( 1 X_EN )
+  ( 2 N-000096 )
+  ( 3 X_EN_BUF )
+  ( 4 Y_EN )
+  ( 5 N-000096 )
+  ( 6 Y_EN_BUF )
+  ( 7 GND )
+  ( 8 Z_EN_BUF )
+  ( 9 Z_EN )
+  ( 10 N-000096 )
+  ( 11 E0_EN_BUF )
+  ( 12 E0_EN )
+  ( 13 N-000096 )
+  ( 14 +V_LOGIC )
+ )
+ ( /50FC2853/51B4EB70 SO14E U303 74LS08
+  ( 1 E1_EN )
+  ( 2 N-000096 )
+  ( 3 E1_EN_BUF )
+  ( 4 E2_EN )
+  ( 5 N-000096 )
+  ( 6 E2_EN_BUF )
+  ( 7 GND )
+  ( 8 D8_BUF )
+  ( 9 D8 )
+  ( 10 N-000096 )
+  ( 11 D9_BUF )
+  ( 12 D9 )
+  ( 13 N-000096 )
+  ( 14 +V_LOGIC )
  )
 )
 *
@@ -675,6 +895,10 @@ $component C205
  CP*
  SM*
 $endlist
+$component C206
+ CP*
+ SM*
+$endlist
 $component C301
  CP*
  SM*
@@ -693,6 +917,30 @@ $component C304
  C1-1
 $endlist
 $component C305
+ SM*
+ C?
+ C1-1
+$endlist
+$component C501
+ CP*
+ SM*
+$endlist
+$component C502
+ SM*
+ C?
+ C1-1
+$endlist
+$component C503
+ SM*
+ C?
+ C1-1
+$endlist
+$component C504
+ SM*
+ C?
+ C1-1
+$endlist
+$component C505
  SM*
  C?
  C1-1
@@ -740,6 +988,35 @@ $component D203
  LED-0805
  LED-1206
  LEDV
+$endlist
+$component D204
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D301
+ D?
+ S*
+$endlist
+$component D401
+ D?
+ S*
+$endlist
+$component D402
+ D?
+ S*
+$endlist
+$component D403
+ D?
+ S*
+$endlist
+$component D404
+ D?
+ S*
 $endlist
 $component M101
  OSHW_logo_2
@@ -863,6 +1140,20 @@ $component R216
  R?-*
  SM1206
 $endlist
+$component R217
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R218
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R219
  R?
  SM0603
@@ -878,6 +1169,13 @@ $component R220
  SM1206
 $endlist
 $component R221
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R222
  R?
  SM0603
  SM0805
@@ -906,6 +1204,104 @@ $component R303
  SM1206
 $endlist
 $component R304
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R305
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R405
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R406
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R501
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R502
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R503
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R504
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R505
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R506
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R507
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R508
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R509
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R510
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R511
  R?
  SM0603
  SM0805

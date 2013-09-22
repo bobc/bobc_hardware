@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/09/2013 22:01:21
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:RMC
 LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:RAMPS-FD-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "19 sep 2013"
+Date "22 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -53,12 +53,10 @@ Text GLabel 900  4050 0    50   Input ~ 0
 AD14
 Text GLabel 900  4150 0    50   Input ~ 0
 AD15
-Text GLabel 1000 4750 0    50   BiDi ~ 0
-D52
-Text GLabel 1000 4950 0    50   BiDi ~ 0
-D50
-Text GLabel 1000 5800 0    50   BiDi ~ 0
-D42
+Text GLabel 1450 4750 0    50   BiDi ~ 0
+D52-SCK
+Text GLabel 1450 4950 0    50   BiDi ~ 0
+D50-MISO
 Text GLabel 4350 1250 2    50   BiDi ~ 0
 SDA1
 Text GLabel 4350 1150 2    50   Output ~ 0
@@ -72,9 +70,9 @@ $EndSheet
 Text Notes 5400 3000 0    50   ~ 0
 Also used by\nProgramming USB port
 Text GLabel 4750 3750 2    50   Input ~ 0
-AUX_UART_RX_LV
+UART1_RX_LV
 Text GLabel 4750 3650 2    50   Output ~ 0
-AUX_UART_TX_LV
+UART1_TX_LV
 Text GLabel 2000 1650 0    50   Output ~ 0
 IOREF
 Text GLabel 2050 2350 0    60   Input ~ 0
@@ -102,20 +100,20 @@ Wire Wire Line
 Wire Wire Line
 	1450 3850 2200 3850
 Wire Wire Line
-	1000 5800 2200 5800
+	1450 5800 2200 5800
 Connection ~ 1050 2050
 Wire Wire Line
 	900  2050 2200 2050
 Wire Wire Line
 	4100 6250 4350 6250
 Wire Wire Line
-	4350 5850 4100 5850
+	4100 5850 5400 5850
 Wire Wire Line
-	4350 5650 4100 5650
+	4100 5650 5400 5650
 Wire Wire Line
-	4100 5200 4350 5200
+	4100 5200 5400 5200
 Wire Wire Line
-	4350 4800 4100 4800
+	4100 4800 5400 4800
 Wire Wire Line
 	1850 5950 2200 5950
 Wire Wire Line
@@ -141,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 3250 4100 3250
 Wire Wire Line
-	4750 2850 4100 2850
+	4100 2850 5100 2850
 Wire Wire Line
 	4750 2150 4100 2150
 Wire Wire Line
@@ -159,7 +157,7 @@ Wire Notes Line
 Wire Wire Line
 	1450 5400 2200 5400
 Wire Wire Line
-	2200 1950 1350 1950
+	1350 1950 2200 1950
 Wire Wire Line
 	4100 6150 4800 6150
 Wire Wire Line
@@ -197,7 +195,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4500 4100 4500
 Wire Wire Line
-	2200 4500 1600 4500
+	1600 4500 2200 4500
 Wire Wire Line
 	1600 4500 1600 4550
 Wire Wire Line
@@ -227,11 +225,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 5100 4100 5100
 Wire Wire Line
-	1000 4750 2200 4750
+	1450 4750 2200 4750
 Wire Wire Line
-	1000 4950 2200 4950
+	1450 4950 2200 4950
 Wire Wire Line
-	1850 4850 2200 4850
+	1450 4850 2200 4850
 Wire Wire Line
 	2200 1650 2000 1650
 Wire Wire Line
@@ -262,7 +260,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2050 4100 2050
 Wire Wire Line
-	5150 1750 4100 1750
+	5100 1750 4100 1750
 Wire Wire Line
 	4750 2750 4100 2750
 Wire Wire Line
@@ -288,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 5600 1450 5600
 Wire Wire Line
-	1850 4650 2200 4650
+	1450 4650 2200 4650
 Wire Wire Line
 	4100 3550 4750 3550
 Wire Wire Line
@@ -296,9 +294,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 6150 1850 6150
 Wire Wire Line
-	4350 5000 4100 5000
+	4100 5000 5400 5000
 Wire Wire Line
-	4350 5400 4100 5400
+	4100 5400 5400 5400
 Wire Wire Line
 	4100 5750 4800 5750
 Wire Wire Line
@@ -329,27 +327,29 @@ Connection ~ 1400 2250
 Wire Notes Line
 	900  3400 1100 3400
 Text GLabel 1450 6050 0    50   Input ~ 0
-/ESTOP
+ESTOP
 $Sheet
 S 8150 850  950  400 
 U 51B4E84F
 F0 "Stepper Drivers 2" 60
 F1 "steppers2.sch" 60
 $EndSheet
-Text Notes 400  3550 0    50   ~ 0
-X/Y/Z pins \non one port
+Text Notes 500  3150 0    50   ~ 0
+X/Y/Z pins are\non single port for both\nMega and Due
 $Comp
 L ARDUINO_DUE_SHIELD SHIELD101
 U 1 1 50FC245D
 P 3200 3800
 F 0 "SHIELD101" H 2800 6650 60  0000 C CNN
 F 1 "ARDUINO_DUE_SHIELD" H 3100 1100 60  0000 C CNN
+F 2 "" H 3200 3800 60  0001 C CNN
+F 3 "" H 3200 3800 60  0001 C CNN
 	1    3200 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 4850 0    50   BiDi ~ 0
-D51
-Text GLabel 5150 1750 2    50   Output ~ 0
+Text GLabel 1450 4850 0    50   BiDi ~ 0
+D51-MOSI
+Text GLabel 1450 6250 0    50   Output ~ 0
 PS-ON
 Text GLabel 1800 3250 0    50   Input ~ 0
 A7
@@ -363,11 +363,11 @@ U 5176EFAC
 F0 "Misc Connectors" 60
 F1 "con_misc.sch" 60
 $EndSheet
-Text GLabel 1450 6250 0    50   Output ~ 0
+Text GLabel 5400 5650 2    50   Output ~ 0
 E2_STEP
-Text GLabel 4800 6150 2    50   Output ~ 0
+Text GLabel 5400 5400 2    50   Output ~ 0
 E2_DIR
-Text GLabel 4800 5300 2    50   Output ~ 0
+Text GLabel 5400 5850 2    50   Output ~ 0
 E2_EN
 $Sheet
 S 6850 2250 1000 400 
@@ -384,6 +384,7 @@ P 10700 6000
 F 0 "M101" H 10700 6150 60  0000 C CNN
 F 1 "LOGO_OSHW" H 10700 5900 60  0000 C CNN
 F 2 "OSHW_logo_2" H 10600 6050 60  0000 C CNN
+F 3 "" H 10700 6000 60  0001 C CNN
 	1    10700 6000
 	1    0    0    -1  
 $EndComp
@@ -413,8 +414,8 @@ Text GLabel 1850 5500 0    50   BiDi ~ 0
 D45
 Text GLabel 1850 5300 0    50   BiDi ~ 0
 D47
-Text GLabel 1850 4650 0    50   BiDi ~ 0
-D53
+Text GLabel 1450 4650 0    50   BiDi ~ 0
+D53-SS
 Text GLabel 1850 5100 0    50   BiDi ~ 0
 D49
 Text GLabel 1800 3050 0    50   Input ~ 0
@@ -426,6 +427,8 @@ U 1 1 51084806
 P 3700 7450
 F 0 "#PWR01" H 3700 7450 30  0001 C CNN
 F 1 "GND" H 3700 7380 30  0001 C CNN
+F 2 "" H 3700 7450 60  0001 C CNN
+F 3 "" H 3700 7450 60  0001 C CNN
 	1    3700 7450
 	1    0    0    -1  
 $EndComp
@@ -435,6 +438,8 @@ U 1 1 510847F7
 P 3750 7050
 F 0 "#PWR02" H 3750 7140 20  0001 C CNN
 F 1 "+5V" H 3750 7140 30  0000 C CNN
+F 2 "" H 3750 7050 60  0001 C CNN
+F 3 "" H 3750 7050 60  0001 C CNN
 	1    3750 7050
 	1    0    0    -1  
 $EndComp
@@ -450,15 +455,17 @@ U 1 1 51084776
 P 3100 7250
 F 0 "P106" H 3100 7500 50  0000 C CNN
 F 1 "CONN_3X2" V 3100 7300 40  0000 C CNN
+F 2 "" H 3100 7250 60  0001 C CNN
+F 3 "" H 3100 7250 60  0001 C CNN
 	1    3100 7250
 	1    0    0    -1  
 $EndComp
 Text GLabel 1800 2950 0    50   Input ~ 0
 A4
 Text GLabel 4750 3050 2    50   Input ~ 0
-UART_RX_LV
+UART0_RX_LV
 Text GLabel 4750 2950 2    50   Output ~ 0
-UART_TX_LV
+UART0_TX_LV
 Text GLabel 4750 3950 2    50   Output ~ 0
 SCL
 Text GLabel 4750 3850 2    50   BiDi ~ 0
@@ -493,7 +500,7 @@ Text GLabel 4750 2450 2    50   Output ~ 0
 SERVO2
 Text GLabel 4750 2550 2    50   Output ~ 0
 SERVO3
-Text GLabel 4750 2650 2    50   Output ~ 0
+Text GLabel 4750 2750 2    50   Output ~ 0
 SERVO4
 $Sheet
 S 6850 1550 1000 400 
@@ -511,6 +518,8 @@ U 1 1 50FC2FBB
 P 1350 1950
 F 0 "#FLG03" H 1350 2045 30  0001 C CNN
 F 1 "PWR_FLAG" H 1350 2130 30  0000 C CNN
+F 2 "" H 1350 1950 60  0001 C CNN
+F 3 "" H 1350 1950 60  0001 C CNN
 	1    1350 1950
 	1    0    0    -1  
 $EndComp
@@ -520,23 +529,25 @@ U 1 1 50FC2FB1
 P 900 2050
 F 0 "#FLG04" H 900 2145 30  0001 C CNN
 F 1 "PWR_FLAG" H 900 2230 30  0000 C CNN
+F 2 "" H 900 2050 60  0001 C CNN
+F 3 "" H 900 2050 60  0001 C CNN
 	1    900  2050
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4100 1450
-Text GLabel 4750 3450 2    50   Output ~ 0
+Text GLabel 5400 5000 2    50   Output ~ 0
 E1_STEP
 Text GLabel 1450 5200 0    50   Output ~ 0
 X_EN
-Text GLabel 4750 3350 2    50   Output ~ 0
+Text GLabel 5400 4800 2    50   Output ~ 0
 E1_DIR
-Text GLabel 4750 3550 2    50   Output ~ 0
+Text GLabel 5400 5200 2    50   Output ~ 0
 E1_EN
-Text GLabel 4750 2850 2    50   Output ~ 0
+Text GLabel 4800 5300 2    50   Output ~ 0
 E0_DIR
-Text GLabel 4750 2750 2    50   Output ~ 0
+Text GLabel 4800 6150 2    50   Output ~ 0
 E0_STEP
-Text GLabel 4750 3250 2    50   Output ~ 0
+Text GLabel 1450 5800 0    50   Output ~ 0
 E0_EN
 Text GLabel 1450 2750 0    50   Input ~ 0
 THERM2
@@ -566,6 +577,8 @@ U 1 1 50FC2571
 P 8650 5800
 F 0 "#PWR05" H 8650 5800 30  0001 C CNN
 F 1 "GND" H 8650 5730 30  0001 C CNN
+F 2 "" H 8650 5800 60  0001 C CNN
+F 3 "" H 8650 5800 60  0001 C CNN
 	1    8650 5800
 	1    0    0    -1  
 $EndComp
@@ -575,6 +588,8 @@ U 1 1 50FC254D
 P 8650 5100
 F 0 "SW101" H 8800 5210 50  0000 C CNN
 F 1 "SW_PUSH" H 8650 5020 50  0000 C CNN
+F 2 "" H 8650 5100 60  0001 C CNN
+F 3 "" H 8650 5100 60  0001 C CNN
 	1    8650 5100
 	0    1    1    0   
 $EndComp
@@ -588,6 +603,8 @@ U 1 1 50FC24E2
 P 7750 5800
 F 0 "#PWR06" H 7750 5800 30  0001 C CNN
 F 1 "GND" H 7750 5730 30  0001 C CNN
+F 2 "" H 7750 5800 60  0001 C CNN
+F 3 "" H 7750 5800 60  0001 C CNN
 	1    7750 5800
 	1    0    0    -1  
 $EndComp
@@ -597,6 +614,8 @@ U 1 1 50FC24D8
 P 7750 5400
 F 0 "D101" H 7750 5500 50  0000 C CNN
 F 1 "LED GRN" H 7750 5300 50  0000 C CNN
+F 2 "" H 7750 5400 60  0001 C CNN
+F 3 "" H 7750 5400 60  0001 C CNN
 	1    7750 5400
 	0    1    1    0   
 $EndComp
@@ -606,6 +625,8 @@ U 1 1 50FC24CE
 P 7750 4850
 F 0 "R101" V 7830 4850 50  0000 C CNN
 F 1 "56R" V 7750 4850 50  0000 C CNN
+F 2 "" H 7750 4850 60  0001 C CNN
+F 3 "" H 7750 4850 60  0001 C CNN
 	1    7750 4850
 	1    0    0    -1  
 $EndComp
@@ -619,6 +640,8 @@ U 1 1 50FC1A82
 P 1550 1700
 F 0 "#PWR07" H 1550 1660 30  0001 C CNN
 F 1 "+3.3V" H 1550 1810 30  0000 C CNN
+F 2 "" H 1550 1700 60  0001 C CNN
+F 3 "" H 1550 1700 60  0001 C CNN
 	1    1550 1700
 	1    0    0    -1  
 $EndComp
@@ -628,6 +651,8 @@ U 1 1 50FC1A69
 P 1400 2350
 F 0 "#PWR08" H 1400 2350 30  0001 C CNN
 F 1 "GND" H 1400 2280 30  0001 C CNN
+F 2 "" H 1400 2350 60  0001 C CNN
+F 3 "" H 1400 2350 60  0001 C CNN
 	1    1400 2350
 	1    0    0    -1  
 $EndComp
@@ -637,6 +662,8 @@ U 1 1 50FC1A51
 P 1050 1700
 F 0 "#PWR09" H 1050 1790 20  0001 C CNN
 F 1 "+5V" H 1050 1790 30  0000 C CNN
+F 2 "" H 1050 1700 60  0001 C CNN
+F 3 "" H 1050 1700 60  0001 C CNN
 	1    1050 1700
 	1    0    0    -1  
 $EndComp
@@ -646,6 +673,8 @@ U 1 1 50FC1A45
 P 4650 1600
 F 0 "#PWR010" H 4650 1600 30  0001 C CNN
 F 1 "GND" H 4650 1530 30  0001 C CNN
+F 2 "" H 4650 1600 60  0001 C CNN
+F 3 "" H 4650 1600 60  0001 C CNN
 	1    4650 1600
 	1    0    0    -1  
 $EndComp
@@ -655,6 +684,8 @@ U 1 1 50FC1A31
 P 1600 4550
 F 0 "#PWR011" H 1600 4550 30  0001 C CNN
 F 1 "GND" H 1600 4480 30  0001 C CNN
+F 2 "" H 1600 4550 60  0001 C CNN
+F 3 "" H 1600 4550 60  0001 C CNN
 	1    1600 4550
 	1    0    0    -1  
 $EndComp
@@ -664,7 +695,48 @@ U 1 1 50FC1A1E
 P 4350 4350
 F 0 "#PWR012" H 4350 4440 20  0001 C CNN
 F 1 "+5V" H 4350 4440 30  0000 C CNN
+F 2 "" H 4350 4350 60  0001 C CNN
+F 3 "" H 4350 4350 60  0001 C CNN
 	1    4350 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L PCB_GREEN_RMC M102
+U 1 1 523E4D4E
+P 10700 5200
+F 0 "M102" H 10700 5350 60  0000 C CNN
+F 1 "PCB_GREEN_RMC" H 10700 5100 60  0000 C CNN
+F 2 "" H 10700 5200 60  0000 C CNN
+F 3 "" H 10700 5200 60  0000 C CNN
+	1    10700 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 2650 2    50   Output ~ 0
+SPI_CS1
+Text GLabel 4750 3350 2    50   Input ~ 0
+UART3_RX_LV
+Text GLabel 4750 3250 2    50   Output ~ 0
+UART3_TX_LV
+Text GLabel 4750 3550 2    50   Input ~ 0
+UART2_RX_LV
+Text GLabel 4750 3450 2    50   Output ~ 0
+UART2_TX_LV
+Wire Notes Line
+	5650 1650 5900 1650
+Text GLabel 5100 1750 2    50   Output ~ 0
+D11-FET5
+Text GLabel 5100 2850 2    50   Output ~ 0
+D2-FET6
+$Sheet
+S 8150 2950 950  400 
+U 523E5F7E
+F0 "Extra MOSFETs" 50
+F1 "Extra_Mosfets.sch" 50
+$EndSheet
+Wire Notes Line
+	900  3700 700  3700
+Wire Notes Line
+	700  3700 700  3350
+Text Notes 2050 7650 0    50   ~ 0
+Fit P106 on Due version only, not compatible with Mega
 $EndSCHEMATC

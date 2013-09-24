@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "22 sep 2013"
+Date "23 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -139,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 3250 4100 3250
 Wire Wire Line
-	4100 2850 5100 2850
+	4100 2850 4750 2850
 Wire Wire Line
 	4750 2150 4100 2150
 Wire Wire Line
@@ -260,7 +260,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2050 4100 2050
 Wire Wire Line
-	5100 1750 4100 1750
+	4750 1750 4100 1750
 Wire Wire Line
 	4750 2750 4100 2750
 Wire Wire Line
@@ -376,7 +376,7 @@ F0 "Outputs" 60
 F1 "con_outputs.sch" 60
 $EndSheet
 Text GLabel 4750 1850 2    50   Output ~ 0
-FET4
+D11-FET4
 $Comp
 L LOGO_OSHW M101
 U 1 1 510E82F9
@@ -624,7 +624,7 @@ L R R101
 U 1 1 50FC24CE
 P 7750 4850
 F 0 "R101" V 7830 4850 50  0000 C CNN
-F 1 "56R" V 7750 4850 50  0000 C CNN
+F 1 "150R" V 7750 4850 50  0000 C CNN
 F 2 "" H 7750 4850 60  0001 C CNN
 F 3 "" H 7750 4850 60  0001 C CNN
 	1    7750 4850
@@ -723,9 +723,9 @@ Text GLabel 4750 3450 2    50   Output ~ 0
 UART2_TX_LV
 Wire Notes Line
 	5650 1650 5900 1650
-Text GLabel 5100 1750 2    50   Output ~ 0
-D11-FET5
-Text GLabel 5100 2850 2    50   Output ~ 0
+Text GLabel 4750 1750 2    50   Output ~ 0
+D12-FET5
+Text GLabel 4750 2850 2    50   Output ~ 0
 D2-FET6
 $Sheet
 S 8150 2950 950  400 
@@ -737,6 +737,4 @@ Wire Notes Line
 	900  3700 700  3700
 Wire Notes Line
 	700  3700 700  3350
-Text Notes 2050 7650 0    50   ~ 0
-Fit P106 on Due version only, not compatible with Mega
 $EndSCHEMATC

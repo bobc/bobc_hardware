@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "22 sep 2013"
+Date "23 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -57,13 +57,13 @@ Connection ~ 7250 6100
 Wire Wire Line
 	7250 6500 7800 6500
 Wire Wire Line
-	7100 5300 6800 5300
+	6800 5300 7100 5300
 Wire Wire Line
-	6400 5900 6400 5600
+	6400 5600 6400 6100
 Wire Wire Line
 	4400 6700 4400 6800
 Wire Wire Line
-	9800 6100 9000 6100
+	9000 6100 9800 6100
 Wire Notes Line
 	8950 3100 2900 3100
 Connection ~ 2700 6900
@@ -77,9 +77,9 @@ Wire Wire Line
 	3050 6900 3050 6700
 Connection ~ 7350 4100
 Wire Wire Line
-	8000 4200 8000 4100
+	8000 4100 8000 4200
 Wire Wire Line
-	8000 4100 5250 4100
+	5250 4100 8000 4100
 Wire Wire Line
 	8800 2800 9050 2800
 Wire Wire Line
@@ -92,7 +92,7 @@ Wire Wire Line
 	5100 1750 5600 1750
 Connection ~ 7950 3600
 Wire Wire Line
-	7950 3600 6100 3600
+	6100 3600 7950 3600
 Connection ~ 2350 6900
 Wire Notes Line
 	4600 3700 3800 3700
@@ -122,7 +122,7 @@ Connection ~ 6800 1750
 Wire Wire Line
 	6800 1550 6800 1750
 Wire Wire Line
-	7000 1750 6100 1750
+	6100 1750 7000 1750
 Wire Wire Line
 	5600 3600 5100 3600
 Wire Wire Line
@@ -228,16 +228,14 @@ $EndComp
 $Comp
 L GNDPWR #PWR015
 U 1 1 523A3DBE
-P 6400 5900
-F 0 "#PWR015" H 6400 5950 40  0001 C CNN
-F 1 "GNDPWR" H 6400 5820 40  0000 C CNN
-F 2 "" H 6400 5900 60  0001 C CNN
-F 3 "" H 6400 5900 60  0001 C CNN
-	1    6400 5900
+P 6400 6100
+F 0 "#PWR015" H 6400 6150 40  0001 C CNN
+F 1 "GNDPWR" H 6400 6020 40  0000 C CNN
+F 2 "" H 6400 6100 60  0001 C CNN
+F 3 "" H 6400 6100 60  0001 C CNN
+	1    6400 6100
 	1    0    0    -1  
 $EndComp
-Text Label 5200 5300 0    60   ~ 0
-P_IN
 Text Notes 9200 5450 0    60   ~ 0
 Low power MOSFETS (fans etc)\nalso input to Due/Mega\nand gate voltage
 Text GLabel 1300 6600 0    50   Input ~ 0
@@ -428,7 +426,7 @@ $EndComp
 Text GLabel 10100 1250 0    50   Input ~ 0
 PS-ON
 Text Notes 8450 3450 0    60   ~ 0
-High power MOSFETS \n(extruder heaters, fans)
+Medium power MOSFETS \n(extruder heaters, fans)
 Text Notes 2400 1900 0    60   ~ 0
 Heatbed Only: 12-24V, 15A
 Text Notes 2700 2750 0    60   ~ 0
@@ -455,7 +453,7 @@ F 3 "" H 2350 6750 60  0001 C CNN
 	1    2350 6750
 	1    0    0    -1  
 $EndComp
-Text Label 6200 3600 0    60   ~ 0
+Text Label 5200 3600 0    60   ~ 0
 P_IN
 $Comp
 L FUSE F103
@@ -657,4 +655,36 @@ F 3 "~" H 6400 5350 60  0000 C CNN
 	1    6400 5350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5200 5100 5200 5300
+$Comp
+L +V_POWER #PWR034
+U 1 1 523F90FD
+P 5200 5100
+F 0 "#PWR034" H 5200 5070 30  0001 C CNN
+F 1 "+V_POWER" H 5200 5200 30  0000 C CNN
+F 2 "" H 5200 5100 60  0001 C CNN
+F 3 "" H 5200 5100 60  0001 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 8650 6550 0    50   ~ 0
+JP1: Supply 12V to Arduino in standalone operation\nRemove if Arduino is powered by USB or other supply
+$Comp
+L C C207
+U 1 1 523F9247
+P 6900 5650
+F 0 "C207" H 6950 5750 50  0000 L CNN
+F 1 "100nF 16V" H 6950 5550 50  0000 L CNN
+F 2 "" H 6900 5650 60  0001 C CNN
+F 3 "" H 6900 5650 60  0001 C CNN
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5850 6400 5850
+Connection ~ 6400 5850
+Wire Wire Line
+	6900 5450 6900 5300
+Connection ~ 6900 5300
 $EndSCHEMATC

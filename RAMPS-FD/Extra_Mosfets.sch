@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "23 sep 2013"
+Date "24 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -150,21 +150,8 @@ F 3 "" H 3500 850 60  0000 C CNN
 $EndComp
 Text Label 4000 2050 0    50   ~ 0
 P_FET5
-$Comp
-L R R903
-U 1 1 523E662D
-P 2500 2400
-F 0 "R903" V 2580 2400 40  0000 C CNN
-F 1 "10R" V 2507 2401 40  0000 C CNN
-F 2 "~" V 2430 2400 30  0000 C CNN
-F 3 "~" H 2500 2400 30  0000 C CNN
-	1    2500 2400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	2250 2400 1450 2400
-Wire Wire Line
-	3200 2400 2750 2400
+	3200 2400 1450 2400
 Connection ~ 3500 4200
 Wire Wire Line
 	3000 4200 3900 4200
@@ -268,21 +255,6 @@ F 3 "" H 3500 4050 60  0000 C CNN
 $EndComp
 Text Label 4000 5250 0    50   ~ 0
 P_FET6
-$Comp
-L R R904
-U 1 1 523E66D7
-P 2500 5600
-F 0 "R904" V 2580 5600 40  0000 C CNN
-F 1 "10R" V 2507 5601 40  0000 C CNN
-F 2 "~" V 2430 5600 30  0000 C CNN
-F 3 "~" H 2500 5600 30  0000 C CNN
-	1    2500 5600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	1450 5600 2250 5600
-Connection ~ 2000 5600
-Wire Wire Line
-	3200 5600 2750 5600
-Connection ~ 2000 2400
+	3200 5600 1450 5600
 $EndSCHEMATC

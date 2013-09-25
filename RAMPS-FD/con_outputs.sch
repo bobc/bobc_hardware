@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "23 sep 2013"
+Date "24 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 ""
@@ -60,7 +60,7 @@ Connection ~ 2150 2500
 Wire Wire Line
 	2150 3100 2150 2950
 Wire Wire Line
-	2150 2550 2150 2000
+	2150 2000 2150 2550
 Connection ~ 2200 4300
 Wire Wire Line
 	2200 4800 2200 4300
@@ -85,13 +85,13 @@ Wire Wire Line
 Wire Wire Line
 	9800 5450 10250 5450
 Wire Wire Line
-	9450 5700 9450 5300
+	9450 5300 9450 5700
 Wire Wire Line
 	1550 4300 2850 4300
 Wire Wire Line
-	4350 5350 2850 5350
+	2850 5350 4350 5350
 Wire Wire Line
-	2700 1000 2700 850 
+	2700 850  2700 1000
 Wire Wire Line
 	2850 5350 2850 5300
 Connection ~ 3650 2050
@@ -100,8 +100,6 @@ Wire Wire Line
 Connection ~ 9600 1950
 Wire Wire Line
 	9600 1600 9600 1950
-Connection ~ 7150 2550
-Connection ~ 7300 6250
 Wire Wire Line
 	4500 1850 4100 1850
 Wire Wire Line
@@ -114,11 +112,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 5500 8400 6050
 Wire Wire Line
-	8100 6250 7900 6250
+	7000 6250 8100 6250
 Wire Wire Line
 	9000 5200 9000 5100
-Wire Wire Line
-	7000 6250 7400 6250
 Wire Wire Line
 	2700 1600 2700 1500
 Wire Wire Line
@@ -137,37 +133,35 @@ Connection ~ 9450 5650
 Wire Wire Line
 	8250 1200 8250 850 
 Wire Wire Line
-	7050 2550 7250 2550
+	7050 2550 7950 2550
 Wire Wire Line
 	8900 1500 8900 1400
 Wire Wire Line
-	7950 2550 7750 2550
-Wire Wire Line
-	8250 2350 8250 1700
+	8250 1700 8250 2350
 Wire Wire Line
 	9000 2300 8250 2300
 Connection ~ 8250 2300
 Wire Wire Line
-	8900 900  8900 850 
+	8900 850  8900 900 
 Wire Wire Line
 	10350 1750 10000 1750
 Wire Wire Line
 	10000 1750 10000 850 
 Wire Wire Line
-	9600 1200 9600 650 
+	9600 650  9600 1200
 Connection ~ 3650 850 
 Wire Wire Line
 	3350 5000 3350 5500
 Wire Wire Line
 	2850 4300 2850 4350
 Wire Wire Line
-	4500 2050 2700 2050
+	2700 2050 4500 2050
 Wire Wire Line
 	2700 2050 2700 2000
 Wire Wire Line
-	2700 850  1500 850 
+	1500 850  2700 850 
 Wire Wire Line
-	3650 1300 3650 700 
+	3650 700  3650 1300
 Wire Wire Line
 	4350 5150 3750 5150
 Wire Wire Line
@@ -177,22 +171,22 @@ Wire Wire Line
 Wire Wire Line
 	9000 4550 9000 4600
 Wire Wire Line
-	10250 5650 9000 5650
+	9000 5650 10250 5650
 Wire Wire Line
 	9000 5650 9000 5600
 Wire Wire Line
-	10350 1950 8900 1950
+	8900 1950 10350 1950
 Wire Wire Line
 	8900 1950 8900 1900
 Wire Wire Line
-	8900 850  7800 850 
+	7800 850  8900 850 
 Connection ~ 8250 850 
 Wire Wire Line
 	9300 3000 9300 2450
 Wire Wire Line
 	3050 5800 2200 5800
 Wire Wire Line
-	2200 5850 2200 5300
+	2200 5300 2200 5850
 Wire Wire Line
 	2200 6400 2200 6250
 Connection ~ 2200 5800
@@ -200,7 +194,7 @@ Wire Wire Line
 	2150 850  2150 1500
 Connection ~ 2150 850 
 Wire Wire Line
-	3350 4600 3350 4150
+	3350 4150 3350 4600
 Text GLabel 1550 4300 0    40   Input ~ 0
 V_GATE
 Text GLabel 1500 850  0    40   Input ~ 0
@@ -446,17 +440,6 @@ F 3 "" H 8250 3000 60  0001 C CNN
 	1    8250 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R217
-U 1 1 51770EF6
-P 7500 2550
-F 0 "R217" V 7580 2550 50  0000 C CNN
-F 1 "10R" V 7500 2550 50  0000 C CNN
-F 2 "" H 7500 2550 60  0001 C CNN
-F 3 "" H 7500 2550 60  0001 C CNN
-	1    7500 2550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7050 2550 0    60   Input ~ 0
 /FET4_BUF
 $Comp
@@ -630,17 +613,6 @@ Text GLabel 7000 6250 0    60   Input ~ 0
 Text GLabel 1000 6050 0    60   Input ~ 0
 /D9_BUF
 $Comp
-L R R215
-U 1 1 510479B2
-P 7650 6250
-F 0 "R215" V 7730 6250 50  0000 C CNN
-F 1 "10R" V 7650 6250 50  0000 C CNN
-F 2 "" H 7650 6250 60  0001 C CNN
-F 3 "" H 7650 6250 60  0001 C CNN
-	1    7650 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R220
 U 1 1 510479AF
 P 9000 4850
@@ -688,36 +660,10 @@ Text GLabel 1000 2750 0    60   Input ~ 0
 /D8_BUF
 Text Notes 3900 1350 3    50   ~ 0
 Or similar
-$Comp
-L R R701
-U 1 1 52409A4A
-P 1450 2750
-F 0 "R701" V 1530 2750 50  0000 C CNN
-F 1 "10R" V 1450 2750 50  0000 C CNN
-F 2 "" H 1450 2750 60  0001 C CNN
-F 3 "" H 1450 2750 60  0001 C CNN
-	1    1450 2750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3000 2500 2150 2500
-$Comp
-L R R702
-U 1 1 52409A65
-P 1450 6050
-F 0 "R702" V 1530 6050 50  0000 C CNN
-F 1 "10R" V 1450 6050 50  0000 C CNN
-F 2 "" H 1450 6050 60  0001 C CNN
-F 3 "" H 1450 6050 60  0001 C CNN
-	1    1450 6050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	1700 6050 1900 6050
+	1000 6050 1900 6050
 Wire Wire Line
-	1200 6050 1000 6050
-Wire Wire Line
-	1850 2750 1700 2750
-Wire Wire Line
-	1200 2750 1000 2750
+	1000 2750 1850 2750
 $EndSCHEMATC

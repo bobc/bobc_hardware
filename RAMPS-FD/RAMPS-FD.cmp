@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/09/2013 00:40:46
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/09/2013 00:21:27
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -647,14 +647,14 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51085590;
 Reference = Q204;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51770EF5;
 Reference = Q205;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
@@ -668,28 +668,28 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51B3783C;
 Reference = Q501;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51B377E1;
 Reference = Q502;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E5F7E/523E5FE5;
 Reference = Q901;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E5F7E/523E66A5;
 Reference = Q902;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
@@ -967,13 +967,6 @@ IdModule  = LM78XXV;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC37D4/523B4B0F;
-Reference = U4;
-ValeurCmp = 74LVC07A;
-IdModule  = SO14E;
-EndCmp
-
-BeginCmp
 TimeStamp = /50FC2853/50FC2876;
 Reference = U201;
 ValeurCmp = X;
@@ -1013,6 +1006,13 @@ TimeStamp = /51B4E84F/51B4E8D8;
 Reference = U206;
 ValeurCmp = E0;
 IdModule  = POLOLU;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC37D4/5244B8CC;
+Reference = U801;
+ValeurCmp = 4050_RMC;
+IdModule  = SO16E;
 EndCmp
 
 EndListe

@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "24 sep 2013"
+Date "26 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -110,7 +110,7 @@ F 3 "" H 3200 3800 60  0001 C CNN
 $EndComp
 Text GLabel 1450 4850 0    50   BiDi ~ 0
 D51-MOSI
-Text GLabel 1450 6250 0    50   Output ~ 0
+Text GLabel 1000 4650 0    50   Output ~ 0
 PS-ON
 Text GLabel 1800 3250 0    50   Input ~ 0
 A7
@@ -124,7 +124,7 @@ U 5176EFAC
 F0 "Misc Connectors" 60
 F1 "con_misc.sch" 60
 $EndSheet
-Text GLabel 5250 5750 2    50   Output ~ 0
+Text GLabel 5200 5750 2    50   Output ~ 0
 E2_STEP
 Text GLabel 1000 5300 0    50   Output ~ 0
 E2_DIR
@@ -175,8 +175,6 @@ Text GLabel 1850 5500 0    50   BiDi ~ 0
 D45
 Text GLabel 1850 5300 0    50   BiDi ~ 0
 D47
-Text GLabel 1850 4650 0    50   BiDi ~ 0
-D53-SS
 Text GLabel 1850 5100 0    50   BiDi ~ 0
 D49
 Text GLabel 1800 3050 0    50   Input ~ 0
@@ -235,7 +233,7 @@ Text GLabel 4800 5100 2    60   Input ~ 0
 Z-MIN
 Text GLabel 4800 5950 2    60   Input ~ 0
 Z-MAX
-Text GLabel 1000 4650 0    50   Input ~ 0
+Text GLabel 1450 6250 0    50   Input ~ 0
 Y-MAX
 Text GLabel 4800 4900 2    60   Input ~ 0
 Y-MIN
@@ -298,17 +296,17 @@ $EndComp
 NoConn ~ 4100 1450
 Text GLabel 1000 5700 0    50   Output ~ 0
 E1_STEP
-Text GLabel 1450 5200 0    50   Output ~ 0
+Text GLabel 1000 5200 0    50   Output ~ 0
 X_EN
 Text GLabel 1000 5950 0    50   Output ~ 0
 E1_DIR
 Text GLabel 1000 6150 0    50   Output ~ 0
 E1_EN
-Text GLabel 4800 5300 2    50   Output ~ 0
+Text GLabel 5200 5300 2    50   Output ~ 0
 E0_DIR
-Text GLabel 4800 6150 2    50   Output ~ 0
+Text GLabel 5200 6150 2    50   Output ~ 0
 E0_STEP
-Text GLabel 1450 5800 0    50   Output ~ 0
+Text GLabel 1000 5800 0    50   Output ~ 0
 E0_EN
 Text GLabel 1450 2750 0    50   Input ~ 0
 THERM2
@@ -316,13 +314,13 @@ Text GLabel 1450 2650 0    50   Input ~ 0
 THERM1
 Text GLabel 1450 2550 0    50   Input ~ 0
 THERM0
-Text GLabel 1450 5600 0    50   Output ~ 0
+Text GLabel 1000 5600 0    50   Output ~ 0
 Z_EN
 Text GLabel 1450 3650 0    50   Output ~ 0
 Y_DIR
 Text GLabel 1450 3750 0    50   Output ~ 0
 Y_STEP
-Text GLabel 1450 5400 0    50   Output ~ 0
+Text GLabel 1000 5400 0    50   Output ~ 0
 Y_EN
 Text GLabel 1450 3450 0    50   Output ~ 0
 X_DIR
@@ -442,12 +440,12 @@ $EndComp
 $Comp
 L GND #PWR011
 U 1 1 50FC1A31
-P 1600 4550
-F 0 "#PWR011" H 1600 4550 30  0001 C CNN
-F 1 "GND" H 1600 4480 30  0001 C CNN
-F 2 "" H 1600 4550 60  0001 C CNN
-F 3 "" H 1600 4550 60  0001 C CNN
-	1    1600 4550
+P 1950 4550
+F 0 "#PWR011" H 1950 4550 30  0001 C CNN
+F 1 "GND" H 1950 4480 30  0001 C CNN
+F 2 "" H 1950 4550 60  0001 C CNN
+F 3 "" H 1950 4550 60  0001 C CNN
+	1    1950 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -505,7 +503,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 3850 2200 3850
 Wire Wire Line
-	1450 5800 2200 5800
+	1000 5800 2200 5800
 Connection ~ 1050 2050
 Wire Wire Line
 	900  2050 2200 2050
@@ -560,15 +558,15 @@ Wire Notes Line
 Wire Notes Line
 	9050 4400 8250 4400
 Wire Wire Line
-	1450 5400 2200 5400
+	1000 5400 2200 5400
 Wire Wire Line
 	1350 1950 2200 1950
 Wire Wire Line
-	4100 6150 4800 6150
+	4100 6150 5200 6150
 Wire Wire Line
 	4100 4900 4800 4900
 Wire Wire Line
-	4100 5300 4800 5300
+	4100 5300 5200 5300
 Wire Wire Line
 	4100 5950 4800 5950
 Wire Wire Line
@@ -591,7 +589,7 @@ Wire Wire Line
 	4650 1550 4650 1600
 Connection ~ 1950 4500
 Wire Wire Line
-	1950 4500 1950 4400
+	1950 4400 1950 4550
 Wire Wire Line
 	1950 4400 2200 4400
 Connection ~ 4200 4400
@@ -600,9 +598,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4500 4100 4500
 Wire Wire Line
-	1600 4500 2200 4500
-Wire Wire Line
-	1600 4500 1600 4550
+	1950 4500 2200 4500
 Wire Wire Line
 	1050 1700 1050 2050
 Wire Wire Line
@@ -645,9 +641,9 @@ Wire Wire Line
 	4100 4400 4350 4400
 Connection ~ 1550 1950
 Wire Wire Line
-	2200 5200 1450 5200
+	2200 5200 1000 5200
 Wire Wire Line
-	4350 1650 4100 1650
+	4750 1650 4100 1650
 Wire Notes Line
 	7150 6200 8050 6200
 Wire Notes Line
@@ -689,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3050 2200 3050
 Wire Wire Line
-	2200 5600 1450 5600
+	2200 5600 1000 5600
 Wire Wire Line
 	1000 4650 2200 4650
 Wire Wire Line
@@ -703,7 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 5400 4350 5400
 Wire Wire Line
-	4100 5750 5250 5750
+	4100 5750 5200 5750
 Wire Wire Line
 	4350 6050 4100 6050
 Wire Wire Line
@@ -745,4 +741,10 @@ Wire Notes Line
 	700  5000 850  5000
 Text GLabel 4350 5750 2    50   BiDi ~ 0
 D32
+Wire Notes Line
+	600  4650 150  4650
+Wire Notes Line
+	5650 2650 5900 2650
+Text GLabel 4750 1650 2    50   Output ~ 0
+D13
 $EndSCHEMATC

@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title "RAMPS-FS RAMPS for Due"
-Date "24 sep 2013"
+Date "26 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"

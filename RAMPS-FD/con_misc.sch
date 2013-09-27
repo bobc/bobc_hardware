@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "24 sep 2013"
+Date "26 sep 2013"
 Rev "0.2"
 Comp ""
 Comment1 ""
@@ -47,12 +47,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9600 2600 2    50   Input ~ 0
+Text GLabel 9400 2350 2    50   Input ~ 0
 AD15
-Text GLabel 8300 2600 0    50   Input ~ 0
+Text GLabel 8100 2350 0    50   Input ~ 0
 AD14
 Wire Wire Line
-	9550 4150 9400 4150
+	9400 4000 9250 4000
 Wire Wire Line
 	1950 2350 1950 1550
 Wire Wire Line
@@ -76,27 +76,27 @@ Wire Wire Line
 Wire Wire Line
 	8450 6750 8700 6750
 Wire Wire Line
-	8400 3950 8600 3950
+	8250 3800 8450 3800
 Wire Wire Line
-	9550 3850 9400 3850
+	9400 3700 9250 3700
 Wire Wire Line
-	9550 4050 9400 4050
+	9400 3900 9250 3900
 Wire Wire Line
-	9600 2600 9450 2600
+	9400 2350 9250 2350
 Wire Wire Line
-	9600 2400 9450 2400
+	9400 2150 9250 2150
 Wire Wire Line
-	8650 2600 8300 2600
+	8450 2350 8100 2350
 Wire Wire Line
-	8300 2400 8650 2400
+	8100 2150 8450 2150
 Wire Wire Line
-	7700 4150 7700 4050
+	7550 4000 7550 3900
 Wire Wire Line
-	8600 3750 8100 3750
+	8450 3600 7950 3600
 Wire Wire Line
-	8100 3750 8100 3650
+	7950 3600 7950 3500
 Wire Wire Line
-	9450 2300 10200 2300
+	9250 2050 10000 2050
 Wire Wire Line
 	2450 1850 1850 1850
 Wire Wire Line
@@ -170,23 +170,23 @@ Wire Wire Line
 Wire Wire Line
 	1850 1950 2450 1950
 Wire Wire Line
-	8150 2200 8150 2300
+	7950 1950 7950 2050
 Wire Wire Line
-	8150 2300 8650 2300
+	7950 2050 8450 2050
 Wire Wire Line
-	10200 2300 10200 2350
+	10000 2050 10000 2100
 Wire Wire Line
-	8300 2500 8650 2500
+	8100 2250 8450 2250
 Wire Wire Line
-	8300 2700 8650 2700
+	8100 2450 8450 2450
 Wire Wire Line
-	9450 2500 9600 2500
+	9250 2250 9400 2250
 Wire Wire Line
-	9450 2700 9600 2700
+	9250 2450 9400 2450
 Wire Wire Line
-	9400 3950 9550 3950
+	9250 3800 9400 3800
 Wire Wire Line
-	8600 3850 8400 3850
+	8450 3700 8250 3700
 Wire Wire Line
 	8300 5150 8700 5150
 Wire Wire Line
@@ -239,9 +239,9 @@ Connection ~ 4600 4700
 Wire Wire Line
 	4950 4450 4950 4600
 Connection ~ 4950 4600
-Text GLabel 9550 4050 2    50   BiDi ~ 0
+Text GLabel 9400 3900 2    50   BiDi ~ 0
 D50-MISO
-Text GLabel 9550 4150 2    50   BiDi ~ 0
+Text GLabel 9400 4000 2    50   BiDi ~ 0
 D52-SCK
 $Comp
 L CONN_4 P2
@@ -334,12 +334,12 @@ NoConn ~ 2450 3300
 $Comp
 L CONN_5X2 P215
 U 1 1 523A2434
-P 9000 3950
-F 0 "P215" H 9000 4250 60  0000 C CNN
-F 1 "AUX-3" V 9000 3950 50  0000 C CNN
-F 2 "" H 9000 3950 60  0001 C CNN
-F 3 "" H 9000 3950 60  0001 C CNN
-	1    9000 3950
+P 8850 3800
+F 0 "P215" H 8850 4100 60  0000 C CNN
+F 1 "AUX-3" V 8850 3800 50  0000 C CNN
+F 2 "" H 8850 3800 60  0001 C CNN
+F 3 "" H 8850 3800 60  0001 C CNN
+	1    8850 3800
 	1    0    0    -1  
 $EndComp
 Text Notes 2100 1300 0    60   ~ 0
@@ -360,25 +360,25 @@ F 3 "" H 2800 1800 60  0001 C CNN
 $EndComp
 Text Notes 550  1950 0    50   ~ 0
 UART-TTL
-Text GLabel 8300 2500 0    50   Input ~ 0
+Text GLabel 8100 2250 0    50   Input ~ 0
 A6
-Text GLabel 9600 2500 2    50   Input ~ 0
+Text GLabel 9400 2250 2    50   Input ~ 0
 A7
-Text GLabel 9600 2400 2    50   Input ~ 0
+Text GLabel 9400 2150 2    50   Input ~ 0
 A5
-Text GLabel 8300 2400 0    50   Input ~ 0
+Text GLabel 8100 2150 0    50   Input ~ 0
 A4
-Text GLabel 8400 4150 0    50   BiDi ~ 0
+Text GLabel 8250 4000 0    50   BiDi ~ 0
 D51-MOSI
 $Comp
 L +V_LOGIC #PWR071
 U 1 1 517867DD
-P 8150 2200
-F 0 "#PWR071" H 8150 2170 30  0001 C CNN
-F 1 "+V_LOGIC" H 8150 2300 30  0000 C CNN
-F 2 "" H 8150 2200 60  0001 C CNN
-F 3 "" H 8150 2200 60  0001 C CNN
-	1    8150 2200
+P 7950 1950
+F 0 "#PWR071" H 7950 1920 30  0001 C CNN
+F 1 "+V_LOGIC" H 7950 2050 30  0000 C CNN
+F 2 "" H 7950 1950 60  0001 C CNN
+F 3 "" H 7950 1950 60  0001 C CNN
+	1    7950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -451,38 +451,38 @@ F 3 "" H 9050 5950 60  0001 C CNN
 	1    9050 5950
 	1    0    0    1   
 $EndComp
-Text GLabel 9550 3750 2    50   BiDi ~ 0
+Text GLabel 9400 3600 2    50   BiDi ~ 0
 D49
-Text GLabel 9550 3850 2    50   Input ~ 0
+Text GLabel 9400 3700 2    50   Input ~ 0
 MOSI
-Text GLabel 8400 3950 0    50   Input ~ 0
+Text GLabel 8250 3800 0    50   Input ~ 0
 SCK
-Text GLabel 8400 3850 0    50   Output ~ 0
+Text GLabel 8250 3700 0    50   Output ~ 0
 MISO
 Text Notes 2200 7450 2    50   ~ 0
 Need buffered outputs?
 Text Notes 4250 3200 0    50   ~ 0
-Must not have external pullups to 5V
+Must not have external pullups to 5V if IOREF = 3.3V
 $Comp
 L GND #PWR075
 U 1 1 5104884C
-P 7700 4150
-F 0 "#PWR075" H 7700 4150 30  0001 C CNN
-F 1 "GND" H 7700 4080 30  0001 C CNN
-F 2 "" H 7700 4150 60  0001 C CNN
-F 3 "" H 7700 4150 60  0001 C CNN
-	1    7700 4150
+P 7550 4000
+F 0 "#PWR075" H 7550 4000 30  0001 C CNN
+F 1 "GND" H 7550 3930 30  0001 C CNN
+F 2 "" H 7550 4000 60  0001 C CNN
+F 3 "" H 7550 4000 60  0001 C CNN
+	1    7550 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR076
 U 1 1 51048839
-P 10200 2350
-F 0 "#PWR076" H 10200 2350 30  0001 C CNN
-F 1 "GND" H 10200 2280 30  0001 C CNN
-F 2 "" H 10200 2350 60  0001 C CNN
-F 3 "" H 10200 2350 60  0001 C CNN
-	1    10200 2350
+P 10000 2100
+F 0 "#PWR076" H 10000 2100 30  0001 C CNN
+F 1 "GND" H 10000 2030 30  0001 C CNN
+F 2 "" H 10000 2100 60  0001 C CNN
+F 3 "" H 10000 2100 60  0001 C CNN
+	1    10000 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -504,23 +504,23 @@ Text Notes 4450 3050 0    60   ~ 0
 1k5 Pull ups on Due
 Text Notes 8600 4950 0    60   ~ 0
 Aux4 - general IO
-Text Notes 8750 3400 0    60   ~ 0
+Text Notes 8600 3250 0    60   ~ 0
 Aux3 - SPI
-Text Notes 8950 1950 0    60   ~ 0
+Text Notes 8750 1700 0    60   ~ 0
 Aux2
-Text Notes 8600 1650 0    60   ~ 0
+Text Notes 8400 1400 0    60   ~ 0
 Aux connectors
 Text Notes 1350 7300 0    60   ~ 0
 Servos
 $Comp
 L CONN_5X2 P214
 U 1 1 510481EC
-P 9050 2500
-F 0 "P214" H 9050 2800 60  0000 C CNN
-F 1 "AUX-2" V 9050 2500 50  0000 C CNN
-F 2 "" H 9050 2500 60  0001 C CNN
-F 3 "" H 9050 2500 60  0001 C CNN
-	1    9050 2500
+P 8850 2250
+F 0 "P214" H 8850 2550 60  0000 C CNN
+F 1 "AUX-2" V 8850 2250 50  0000 C CNN
+F 2 "" H 8850 2250 60  0001 C CNN
+F 3 "" H 8850 2250 60  0001 C CNN
+	1    8850 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -717,28 +717,28 @@ Text Notes 4100 900  0    79   ~ 16
 NB: On Arduino Due: IOs on this page are not 5V tolerant. Do not exceed 3.3V.
 Text Notes 550  1600 0    50   ~ 0
 Note: this serial port is shared with\nUSB programming port
-Text GLabel 9550 3950 2    50   Input ~ 0
+Text GLabel 9400 3800 2    50   Input ~ 0
 SPI_CS1
 Wire Wire Line
-	8400 4150 8600 4150
+	8250 4000 8450 4000
 Wire Wire Line
-	7700 4050 8600 4050
+	7550 3900 8450 3900
 Wire Notes Line
 	7600 6150 7600 6650
 Text GLabel 8300 5250 0    50   Output ~ 0
 UART2_RX_LV
 Text GLabel 8300 5150 0    50   Input ~ 0
 UART2_TX_LV
-Text GLabel 8300 2700 0    50   Input ~ 0
+Text GLabel 8100 2450 0    50   Input ~ 0
 UART3_TX_LV
-Text GLabel 9600 2700 2    50   Input ~ 0
+Text GLabel 9400 2450 2    50   Input ~ 0
 UART3_RX_LV
 Text Notes 6550 6400 0    50   ~ 0
 These are shared with E1 \nand E2 stepper signals
-Text Notes 9150 4350 0    50   ~ 0
+Text Notes 9000 4200 0    50   ~ 0
 Mega: same signals as \nMISO, MOSI & SCK
 Wire Wire Line
-	9550 3750 9400 3750
+	9400 3600 9250 3600
 Text GLabel 8300 6650 0    50   BiDi ~ 0
 D32
 Wire Notes Line
@@ -746,15 +746,15 @@ Wire Notes Line
 $Comp
 L +5V #PWR087
 U 1 1 52421C84
-P 8100 3650
-F 0 "#PWR087" H 8100 3740 20  0001 C CNN
-F 1 "+5V" H 8100 3740 30  0000 C CNN
-F 2 "" H 8100 3650 60  0000 C CNN
-F 3 "" H 8100 3650 60  0000 C CNN
-	1    8100 3650
+P 7950 3500
+F 0 "#PWR087" H 7950 3590 20  0001 C CNN
+F 1 "+5V" H 7950 3590 30  0000 C CNN
+F 2 "" H 7950 3500 60  0000 C CNN
+F 3 "" H 7950 3500 60  0000 C CNN
+	1    7950 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 3750 0    60   ~ 12
+Text Notes 6650 3600 0    60   ~ 12
 NB This pin is always 5V
 Wire Notes Line
 	7650 5150 7600 5150
@@ -769,15 +769,15 @@ Wire Notes Line
 Wire Notes Line
 	7600 6650 7650 6650
 Wire Notes Line
-	7900 4100 9050 4100
+	7750 3950 8900 3950
 Wire Notes Line
-	7900 4100 7900 4450
+	7750 3950 7750 4300
 Wire Notes Line
-	7900 4450 10100 4450
+	7750 4300 9950 4300
 Wire Notes Line
-	10100 4450 10100 4000
+	9950 4300 9950 3850
 Wire Notes Line
-	10100 4000 9050 4000
+	9950 3850 8900 3850
 Wire Notes Line
-	9050 4000 9050 4100
+	8900 3850 8900 3950
 $EndSCHEMATC

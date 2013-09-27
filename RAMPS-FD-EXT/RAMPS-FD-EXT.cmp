@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/09/2013 18:17:18
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26/09/2013 20:28:55
 
 BeginCmp
 TimeStamp = /523CE2A9;
@@ -94,28 +94,28 @@ EndCmp
 BeginCmp
 TimeStamp = /523B8443/523B8698;
 Reference = C401;
-ValeurCmp = 100u 25V;
+ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8443/523B8697;
 Reference = C402;
-ValeurCmp = 100u 25V;
+ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8443/523B891B;
 Reference = C403;
-ValeurCmp = 100u 25V;
+ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8443/523B8696;
 Reference = C404;
-ValeurCmp = 100u 25V;
+ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
@@ -218,6 +218,20 @@ IdModule  = HOLE_M3;
 EndCmp
 
 BeginCmp
+TimeStamp = /523DE0E9;
+Reference = J101;
+ValeurCmp = NET-TIE;
+IdModule  = TIE-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DE372;
+Reference = J102;
+ValeurCmp = NET-TIE;
+IdModule  = TIE-2MM;
+EndCmp
+
+BeginCmp
 TimeStamp = /523B8547/523CE396;
 Reference = JP201;
 ValeurCmp = A1;
@@ -260,10 +274,17 @@ IdModule  = mstba_2,5/2-g-5,08;
 EndCmp
 
 BeginCmp
-TimeStamp = /523CE239;
+TimeStamp = /524487CF;
 Reference = P103;
-ValeurCmp = CONN_10;
-IdModule  = PIN_ARRAY_5x2_RMC;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /524488EF;
+Reference = P104;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2_RMC;
 EndCmp
 
 BeginCmp
@@ -381,14 +402,14 @@ EndCmp
 BeginCmp
 TimeStamp = /523B845A/523B8B68;
 Reference = Q301;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B845A/523B8B69;
 Reference = Q302;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
@@ -409,14 +430,14 @@ EndCmp
 BeginCmp
 TimeStamp = /523B845A/523B8B7C;
 Reference = Q305;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B845A/523B8B87;
 Reference = Q306;
-ValeurCmp = 2N7002;
+ValeurCmp = DMN2075U;
 IdModule  = SOT23GDS;
 EndCmp
 
@@ -536,20 +557,6 @@ BeginCmp
 TimeStamp = /523B845A/523B8B89;
 Reference = R304;
 ValeurCmp = 1k8;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /523B845A/523B8B7B;
-Reference = R305;
-ValeurCmp = 10R;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /523B845A/523B8B8A;
-Reference = R306;
-ValeurCmp = 10R;
 IdModule  = SM0805;
 EndCmp
 

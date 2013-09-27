@@ -3,3 +3,5 @@
 *.bck
 \$*
 *.000
+save*/
+archived/

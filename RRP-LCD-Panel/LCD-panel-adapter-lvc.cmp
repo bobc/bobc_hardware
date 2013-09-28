@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/09/2013 23:44:07
-
-BeginCmp
-TimeStamp = /524366CF;
-Reference = C101;
-ValeurCmp = 100nF;
-IdModule  = SM0805;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/09/2013 23:48:50
 
 BeginCmp
 TimeStamp = /524366E1;
@@ -43,17 +36,52 @@ IdModule  = PIN_ARRAY_5x2_RMC;
 EndCmp
 
 BeginCmp
-TimeStamp = /52435CD7;
+TimeStamp = /52460B2A;
 Reference = R101;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52434F54;
+TimeStamp = /52460B3C;
+Reference = R102;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52460B42;
+Reference = R103;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52460B48;
+Reference = R104;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52460B4E;
+Reference = R105;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52460B54;
+Reference = R106;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5245E15B;
 Reference = U101;
-ValeurCmp = SN74LVCC4245A;
-IdModule  = SO24E;
+ValeurCmp = 74HC07A;
+IdModule  = SO14N;
 EndCmp
 
 EndListe

@@ -1,6 +1,6 @@
-update=25/09/2013 23:24:50
+update=28/09/2013 12:11:13
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -72,9 +72,8 @@ LibName13=w_conn_screw
 LibName14=w_conn_strip
 LibName15=w_details
 LibName16=w_pin_strip
+LibName17=w_smd_resistors
 LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../KiCAD_Libraries/library;../KiCAD_Libraries/walter/eesch
@@ -121,3 +120,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1

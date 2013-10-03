@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "26 sep 2013"
+Date "3 oct 2013"
 Rev "0.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -346,7 +346,7 @@ L SW_PUSH SW101
 U 1 1 50FC254D
 P 8650 5100
 F 0 "SW101" H 8800 5210 50  0000 C CNN
-F 1 "SW_PUSH" H 8650 5020 50  0000 C CNN
+F 1 "RESET" H 8650 5020 50  0000 C CNN
 F 2 "" H 8650 5100 60  0001 C CNN
 F 3 "" H 8650 5100 60  0001 C CNN
 	1    8650 5100
@@ -554,9 +554,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 1850 4100 1850
 Wire Notes Line
-	9050 4400 9050 6200
+	9750 6200 9750 4400
 Wire Notes Line
-	9050 4400 8250 4400
+	9750 4400 8250 4400
 Wire Wire Line
 	1000 5400 2200 5400
 Wire Wire Line
@@ -649,7 +649,7 @@ Wire Notes Line
 Wire Notes Line
 	8250 4400 8250 6200
 Wire Notes Line
-	8250 6200 9050 6200
+	8250 6200 9750 6200
 Wire Notes Line
 	7150 6200 7150 4400
 Wire Notes Line
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 6050 2200 6050
 Wire Wire Line
-	8300 4600 8650 4600
+	8300 4600 9100 4600
 Wire Wire Line
 	8650 4600 8650 4800
 Wire Wire Line
@@ -747,4 +747,25 @@ Wire Notes Line
 	5650 2650 5900 2650
 Text GLabel 4750 1650 2    50   Output ~ 0
 D13
+$Comp
+L CONN_2 P102
+U 1 1 52475D81
+P 9500 5100
+F 0 "P102" V 9450 5100 40  0000 C CNN
+F 1 "RESET" V 9550 5100 40  0000 C CNN
+F 2 "" H 9500 5100 60  0000 C CNN
+F 3 "" H 9500 5100 60  0000 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4600 9100 5000
+Wire Wire Line
+	9100 5000 9150 5000
+Connection ~ 8650 4600
+Wire Wire Line
+	9150 5200 9150 5700
+Wire Wire Line
+	9150 5700 8650 5700
+Connection ~ 8650 5700
 $EndSCHEMATC

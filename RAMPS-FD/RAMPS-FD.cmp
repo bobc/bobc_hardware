@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/09/2013 00:21:27
+Cmp-Mod V01 Created by PcbNew date = 02/10/2013 23:20:55
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -414,6 +414,13 @@ IdModule  = mstba_2,5/2-g-5,08;
 EndCmp
 
 BeginCmp
+TimeStamp = /52475D81;
+Reference = P102;
+ValeurCmp = RESET;
+IdModule  = pin_strip_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /5239FE5C/50FC3104;
 Reference = P103;
 ValeurCmp = PS-ON;
@@ -547,10 +554,10 @@ IdModule  = PIN_ARRAY_5x2_RMC;
 EndCmp
 
 BeginCmp
-TimeStamp = /5176EFAC/523A2434;
+TimeStamp = /5176EFAC/52475600;
 Reference = P215;
 ValeurCmp = AUX-3;
-IdModule  = PIN_ARRAY_5x2_RMC;
+IdModule  = PIN_ARRAY_6x2_RMC;
 EndCmp
 
 BeginCmp
@@ -571,7 +578,7 @@ BeginCmp
 TimeStamp = /50FC3D20/51770F88;
 Reference = P218;
 ValeurCmp = EXT3;
-IdModule  = pt_1,5-2-3,5-h;
+IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
@@ -592,7 +599,7 @@ BeginCmp
 TimeStamp = /50FC3D20/51AA03AE;
 Reference = P403;
 ValeurCmp = D9_EXT;
-IdModule  = pt_1,5-2-3,5-h;
+IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
@@ -606,7 +613,7 @@ BeginCmp
 TimeStamp = /50FC3D20/51AA03B1;
 Reference = P405;
 ValeurCmp = D10_EXT1;
-IdModule  = pt_1,5-2-3,5-h;
+IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp

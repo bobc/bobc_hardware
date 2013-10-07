@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/09/2013 23:48:50
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/10/2013 23:21:47
 
 BeginCmp
 TimeStamp = /524366E1;
@@ -10,28 +10,35 @@ EndCmp
 BeginCmp
 TimeStamp = /52434F14;
 Reference = J101;
-ValeurCmp = HEADER_18;
+ValeurCmp = AUX4;
 IdModule  = pin_strip_18;
 EndCmp
 
 BeginCmp
-TimeStamp = /52434F0E;
+TimeStamp = /52461DD4;
+Reference = M101;
+ValeurCmp = LOGO_OSHW;
+IdModule  = OSHW_logo_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5251E207;
 Reference = P101;
-ValeurCmp = CONN_4X2;
-IdModule  = pin_strip_4x2;
+ValeurCmp = AUX3;
+IdModule  = pin_strip_6x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52434ED1;
 Reference = P102;
-ValeurCmp = CONN_5X2;
+ValeurCmp = EXP1;
 IdModule  = PIN_ARRAY_5x2_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52434ED7;
 Reference = P103;
-ValeurCmp = CONN_5X2;
+ValeurCmp = EXP2;
 IdModule  = PIN_ARRAY_5x2_RMC;
 EndCmp
 

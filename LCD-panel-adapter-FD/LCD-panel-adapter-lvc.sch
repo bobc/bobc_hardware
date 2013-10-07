@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 sep 2013"
+Date "6 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,7 +51,7 @@ L CONN_5X2 P102
 U 1 1 52434ED1
 P 8800 3600
 F 0 "P102" H 8800 3900 60  0000 C CNN
-F 1 "CONN_5X2" V 8800 3600 50  0000 C CNN
+F 1 "EXP1" V 8800 3600 50  0000 C CNN
 F 2 "" H 8800 3600 60  0000 C CNN
 F 3 "" H 8800 3600 60  0000 C CNN
 	1    8800 3600
@@ -62,7 +62,7 @@ L CONN_5X2 P103
 U 1 1 52434ED7
 P 8850 4650
 F 0 "P103" H 8850 4950 60  0000 C CNN
-F 1 "CONN_5X2" V 8850 4650 50  0000 C CNN
+F 1 "EXP2" V 8850 4650 50  0000 C CNN
 F 2 "" H 8850 4650 60  0000 C CNN
 F 3 "" H 8850 4650 60  0000 C CNN
 	1    8850 4650
@@ -90,24 +90,6 @@ F 3 "" H 9850 3800 60  0000 C CNN
 	1    9850 3800
 	1    0    0    -1  
 $EndComp
-Text Label 9300 3400 0    50   ~ 0
-ENC_SW
-Text Label 8050 4450 0    50   ~ 0
-SD_DO
-Text Label 8050 4550 0    50   ~ 0
-ENC2
-Text Label 8050 4650 0    50   ~ 0
-ENC1
-Text Label 8000 4750 0    50   ~ 0
-SD_DETECT
-Text Label 9400 4450 0    50   ~ 0
-SD_CLK
-Text Label 9400 4550 0    50   ~ 0
-SD_CS
-Text Label 9400 4650 0    50   ~ 0
-SD_DI
-Text Label 9400 4750 0    50   ~ 0
-RESET
 NoConn ~ 9250 4850
 NoConn ~ 8450 4850
 Wire Wire Line
@@ -133,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3400 9300 3400
 Wire Wire Line
-	8000 4750 8450 4750
+	8050 4750 8450 4750
 Wire Wire Line
 	8450 4650 8050 4650
 Wire Wire Line
@@ -149,22 +131,11 @@ Wire Wire Line
 Wire Wire Line
 	9400 4750 9250 4750
 $Comp
-L CONN_4X2 P101
-U 1 1 52434F0E
-P 2250 1450
-F 0 "P101" H 2250 1700 50  0000 C CNN
-F 1 "CONN_4X2" V 2250 1450 40  0000 C CNN
-F 2 "" H 2250 1450 60  0000 C CNN
-F 3 "" H 2250 1450 60  0000 C CNN
-	1    2250 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L HEADER_18 J101
 U 1 1 52434F14
 P 1650 3850
 F 0 "J101" H 1650 4800 60  0000 C CNN
-F 1 "HEADER_18" H 1650 2900 60  0000 C CNN
+F 1 "AUX4" H 1650 2900 60  0000 C CNN
 F 2 "" H 1650 3850 60  0000 C CNN
 F 3 "" H 1650 3850 60  0000 C CNN
 	1    1650 3850
@@ -183,10 +154,6 @@ F 3 "" H 1250 1750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1850 1600 1250 1600
-Text Label 1500 1500 0    50   ~ 0
-SD_CLK
-Text Label 1500 1400 0    50   ~ 0
-SD_DO
 $Comp
 L +5V #PWR04
 U 1 1 52434F23
@@ -201,12 +168,6 @@ $EndComp
 NoConn ~ 2650 1600
 Wire Wire Line
 	1250 1300 1850 1300
-Text Label 2800 1500 0    50   ~ 0
-SD_CS
-Text Label 2800 1400 0    50   ~ 0
-SD_DI
-Text Label 2800 1300 0    50   ~ 0
-SD_DETECT
 Wire Wire Line
 	1850 1500 1500 1500
 Wire Wire Line
@@ -222,28 +183,6 @@ NoConn ~ 1750 3300
 NoConn ~ 1750 3400
 NoConn ~ 1750 3500
 NoConn ~ 1750 3700
-Text Label 1850 3600 0    50   ~ 0
-RESET
-Text Label 1850 3800 0    50   ~ 0
-BEEP
-Text Label 1850 3900 0    50   ~ 0
-ENC_SW
-Text Label 1850 4000 0    50   ~ 0
-ENC1
-Text Label 1850 4100 0    50   ~ 0
-ENC2
-Text Label 1850 4200 0    50   ~ 0
-LCD_D7
-Text Label 1850 4300 0    50   ~ 0
-LCD_D6
-Text Label 1850 4400 0    50   ~ 0
-LCD_D5
-Text Label 1850 4500 0    50   ~ 0
-LCD_D4
-Text Label 1850 4600 0    50   ~ 0
-LCD_E
-Text Label 1850 4700 0    50   ~ 0
-LCD_RS
 Wire Wire Line
 	1750 4400 3900 4400
 Wire Wire Line
@@ -314,7 +253,7 @@ IOREF
 Wire Wire Line
 	1750 3000 2400 3000
 Wire Wire Line
-	6100 4700 4900 4700
+	4900 4700 6100 4700
 Text Notes 2150 4950 0    60   ~ 0
 These signals can be 3V/5V
 $Comp
@@ -452,8 +391,6 @@ Wire Wire Line
 	4400 3700 4400 3800
 Text Label 3800 3700 0    60   ~ 0
 IOREF
-Text Label 7900 3400 0    50   ~ 0
-BEEP
 Wire Wire Line
 	5000 4000 5000 4200
 Connection ~ 5000 4200
@@ -484,7 +421,7 @@ F 3 "" H 5000 3200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 3500 5000 3200
+	5000 3200 5000 3500
 Wire Wire Line
 	5000 3400 5750 3400
 Connection ~ 5000 3400
@@ -579,4 +516,89 @@ F 3 "~" H 10350 6550 60  0000 C CNN
 	1    10350 6550
 	1    0    0    -1  
 $EndComp
+Text GLabel 1850 3600 2    50   Input ~ 0
+RESET
+Text GLabel 1850 4200 2    50   Output ~ 0
+LCD_D7
+Text GLabel 1850 4300 2    50   Output ~ 0
+LCD_D6
+Text GLabel 1850 4400 2    50   Output ~ 0
+LCD_D5
+Text GLabel 1850 4500 2    50   Output ~ 0
+LCD_D4
+Text GLabel 1850 4600 2    50   Output ~ 0
+LCD_E
+Text GLabel 1850 4700 2    50   Output ~ 0
+LCD_RS
+Text GLabel 2800 1400 2    50   Input ~ 0
+SD_DI
+Text GLabel 2800 1500 2    50   Output ~ 0
+SD_CS
+Text GLabel 1500 1400 0    50   Output ~ 0
+SD_DO
+Text GLabel 1500 1500 0    50   Output ~ 0
+SD_CLK
+Text GLabel 2800 1300 2    50   Input ~ 0
+SD_DETECT
+Text GLabel 1850 3800 2    50   Output ~ 0
+BEEP
+Text GLabel 1850 3900 2    50   Input ~ 0
+ENC_SW
+Text GLabel 1850 4000 2    50   Input ~ 0
+ENC1
+Text GLabel 1850 4100 2    50   Input ~ 0
+ENC2
+Text GLabel 7900 3400 0    50   Input ~ 0
+BEEP
+Text GLabel 9300 3400 2    50   Output ~ 0
+ENC_SW
+Text GLabel 8050 4450 0    50   Input ~ 0
+SD_DO
+Text GLabel 8050 4550 0    50   Output ~ 0
+ENC2
+Text GLabel 8050 4650 0    50   Output ~ 0
+ENC1
+Text GLabel 8050 4750 0    50   Output ~ 0
+SD_DETECT
+Text GLabel 9400 4450 2    50   Input ~ 0
+SD_CLK
+Text GLabel 9400 4550 2    50   Input ~ 0
+SD_CS
+Text GLabel 9400 4650 2    50   Output ~ 0
+SD_DI
+Text GLabel 9400 4750 2    50   Output ~ 0
+RESET
+$Comp
+L CONN_6X2 P101
+U 1 1 5251E207
+P 2250 1550
+F 0 "P101" H 2250 1900 60  0000 C CNN
+F 1 "AUX3" V 2250 1550 60  0000 C CNN
+F 2 "" H 2250 1550 60  0000 C CNN
+F 3 "" H 2250 1550 60  0000 C CNN
+	1    2250 1550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 1700
+NoConn ~ 2650 1800
+NoConn ~ 1850 1800
+NoConn ~ 1850 1700
+Wire Notes Line
+	1200 900  1000 900 
+Wire Notes Line
+	1000 900  1000 5000
+Wire Notes Line
+	1000 5000 1250 5000
+Text Notes 550  2450 0    50   ~ 0
+RAMPS-FD
+Text Notes 10500 4050 0    50   ~ 0
+LCD Panel
+Wire Notes Line
+	10100 3100 10200 3100
+Wire Notes Line
+	10200 3100 10200 5050
+Wire Notes Line
+	10200 5050 10100 5050
+Wire Notes Line
+	10450 4000 10200 4000
 $EndSCHEMATC

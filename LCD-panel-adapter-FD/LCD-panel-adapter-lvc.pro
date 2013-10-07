@@ -1,6 +1,6 @@
-update=28/09/2013 12:11:13
+update=07/10/2013 00:26:31
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -74,10 +74,17 @@ LibName15=w_details
 LibName16=w_pin_strip
 LibName17=w_smd_resistors
 LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../KiCAD_Libraries/library;../KiCAD_Libraries/walter/eesch
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -115,10 +122,3 @@ LibName29=contrib
 LibName30=valves
 LibName31=RMC
 LibName32=w_connectors
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1

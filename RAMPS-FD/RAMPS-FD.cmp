@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 02/10/2013 23:20:55
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/10/2013 15:41:38
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /5239FE5C/50FC273D;
 Reference = D103;
 ValeurCmp = 1N4004;
-IdModule  = diode_do41;
+IdModule  = DO-214AC;
 EndCmp
 
 BeginCmp
@@ -290,14 +290,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FE5C/523A08CA;
 Reference = JP1;
-ValeurCmp = JUMPER;
+ValeurCmp = VIN;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FE5C/51786528;
 Reference = JP101;
-ValeurCmp = VSEL;
+ValeurCmp = VLOG;
 IdModule  = pin_strip_3;
 EndCmp
 
@@ -309,30 +309,37 @@ IdModule  = pin_strip_3;
 EndCmp
 
 BeginCmp
+TimeStamp = /50FC37D4/524E05B9;
+Reference = JP801;
+ValeurCmp = JUMP_MINI;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5176EFAC/51047BDF;
 Reference = K201;
-ValeurCmp = SER1;
+ValeurCmp = S1;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5176EFAC/51047C78;
 Reference = K202;
-ValeurCmp = SER2;
+ValeurCmp = S2;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5176EFAC/51047C79;
 Reference = K203;
-ValeurCmp = SER3;
+ValeurCmp = S3;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5176EFAC/51047C7F;
 Reference = K204;
-ValeurCmp = SER4;
+ValeurCmp = S4;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -577,7 +584,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51770F88;
 Reference = P218;
-ValeurCmp = EXT3;
+ValeurCmp = D11;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
@@ -598,35 +605,35 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51AA03AE;
 Reference = P403;
-ValeurCmp = D9_EXT;
+ValeurCmp = D9;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51AA03A7;
 Reference = P404;
-ValeurCmp = D8_HB;
+ValeurCmp = D8;
 IdModule  = mors_2p;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51AA03B1;
 Reference = P405;
-ValeurCmp = D10_EXT1;
+ValeurCmp = D10;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E5F7E/523E5FFE;
 Reference = P901;
-ValeurCmp = D11_EXT;
+ValeurCmp = D12;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E5F7E/523E66B1;
 Reference = P902;
-ValeurCmp = D2_EXT;
+ValeurCmp = D2;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
@@ -939,16 +946,30 @@ IdModule  = r_cat16-4;
 EndCmp
 
 BeginCmp
+TimeStamp = /50FC37D4/524E0304;
+Reference = RP801;
+ValeurCmp = 10k;
+IdModule  = r_cat16-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC37D4/524E0589;
+Reference = RP802;
+ValeurCmp = 10k;
+IdModule  = r_cat16-4;
+EndCmp
+
+BeginCmp
 TimeStamp = /50FC245D;
 Reference = SHIELD101;
 ValeurCmp = ARDUINO_DUE_SHIELD;
-IdModule  = ARDUINO_DUE_RAMPS_SHIELD;
+IdModule  = ARDUINO_MEGA_DUE_SHIELD_FOOTPRINT_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC254D;
 Reference = SW101;
-ValeurCmp = SW_PUSH;
+ValeurCmp = RESET;
 IdModule  = SW_6x6_MULTI;
 EndCmp
 

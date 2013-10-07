@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26/09/2013 20:28:55
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/10/2013 19:48:06
 
 BeginCmp
 TimeStamp = /523CE2A9;
@@ -229,6 +229,13 @@ TimeStamp = /523DE372;
 Reference = J102;
 ValeurCmp = NET-TIE;
 IdModule  = TIE-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5251B1D4;
+Reference = JP101;
+ValeurCmp = VLOG_SEL;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp

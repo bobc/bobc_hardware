@@ -4,146 +4,204 @@
   (placement
     (resolution um 10)
     (component "TO-220AB_IRF2804_RMC"
-      (place Q303 1308100 -1295400 front 90)
-      (place Q304 1308100 -1193800 front 90)
-      (place Q307 1308100 -1092200 front 90)
-      (place Q308 1308100 -990600 front 90)
+      (place Q303 1333500 -1295400 front 90)
+      (place Q304 1333500 -1200150 front 90)
+      (place Q307 1333500 -1111250 front 90)
+      (place Q308 1333500 -1022350 front 90)
+      (place Q604 1333500 -844550 front 90)
+      (place Q603 1333500 -933450 front 90)
     )
     (component SOT23GDS
-      (place Q302 1250950 -1136650 front 90)
-      (place Q301 1250950 -1238250 front 90)
-      (place Q305 1257300 -1035050 front 90)
-      (place Q306 1257300 -933450 front 90)
+      (place Q302 1276350 -1143000 front 90)
+      (place Q301 1276350 -1231900 front 90)
+      (place Q305 1276350 -1054100 front 90)
+      (place Q306 1276350 -965200 front 180)
     )
     (component SM0805
-      (place R207 1244600 -787400 front 0)
-      (place R208 1320800 -787400 front 0)
-      (place R301 1289050 -1238250 front 90)
-      (place R302 1289050 -1136650 front 90)
-      (place R303 1314450 -1238250 front 90)
-      (place R304 1314450 -1136650 front 90)
-      (place R206 1168400 -787400 front 0)
-      (place R205 1092200 -787400 front 0)
-      (place R204 1168400 -762000 front 0)
-      (place R203 1092200 -762000 front 0)
-      (place R202 1320800 -762000 front 0)
-      (place R201 1244600 -762000 front 0)
-      (place C102 723900 -1016000 front 90)
-      (place C103 901700 -1016000 front 90)
-      (place C201 1244600 -812800 front 180)
-      (place C202 1320800 -812800 front 180)
-      (place C203 1092200 -812800 front 180)
-      (place C204 1168400 -812800 front 180)
-      (place C101 1289050 -1339850 front 0)
-      (place R404 1003300 -1244600 front 90)
-      (place R403 800100 -1244600 front 90)
-      (place R402 825500 -939800 front 270)
-      (place R401 622300 -939800 front 270)
-      (place R310 1320800 -933450 front 90)
-      (place R309 1320800 -1035050 front 90)
-      (place R308 1295400 -933450 front 90)
-      (place R307 1295400 -1035050 front 90)
-      (place C104 1327150 -1339850 front 180)
-      (place C209 1117600 -1168400 front 270)
-      (place R101 787400 -1016000 front 270)
-      (place R103 635000 -1016000 front 90)
-      (place R102 660400 -1016000 front 90)
+      (place R207 1054100 -1047750 front 270)
+      (place R208 1054100 -996950 front 270)
+      (place R301 1308100 -1231900 front 90)
+      (place R302 1308100 -1143000 front 90)
+      (place R303 1339850 -1231900 front 90)
+      (place R304 1339850 -1143000 front 90)
+      (place R206 1054100 -895350 front 270)
+      (place R205 1054100 -946150 front 270)
+      (place R204 1079500 -895350 front 270)
+      (place R203 1079500 -946150 front 270)
+      (place R202 1079500 -996950 front 270)
+      (place R201 1079500 -1047750 front 270)
+      (place C102 863600 -1016000 front 0)
+      (place C103 673100 -1117600 front 90)
+      (place C201 1028700 -1047750 front 90)
+      (place C202 1028700 -996950 front 90)
+      (place C203 1028700 -946150 front 90)
+      (place C204 1028700 -895350 front 90)
+      (place C101 1308100 -1339850 front 0)
+      (place R404 1028700 -825500 front 270)
+      (place R403 800100 -1231900 front 90)
+      (place R402 825500 -825500 front 270)
+      (place R401 622300 -825500 front 270)
+      (place R310 1339850 -965200 front 90)
+      (place R309 1339850 -1054100 front 90)
+      (place R308 1308100 -965200 front 90)
+      (place R307 1308100 -1054100 front 90)
+      (place C104 1352550 -1339850 front 180)
+      (place C209 1130300 -1041400 front 90)
+      (place R101 660400 -1009650 front 180)
     )
     (component POLOLU
-      (place U401 711200 -889000 front 0)
-      (place U402 914400 -889000 front 0)
-      (place U403 711200 -1295400 front 180)
-      (place U404 914400 -1295400 front 180)
+      (place U401 711200 -762000 front 0)
+      (place U402 914400 -762000 front 0)
+      (place U403 711200 -1282700 front 180)
+      (place U404 1117600 -762000 front 0)
+      (place U501 914400 -1282700 front 180)
+      (place U502 1117600 -1282700 front 180)
     )
     (component pin_array_3x2
-      (place P406 952500 -1244600 front 180)
-      (place P405 749300 -1244600 front 180)
-      (place P402 876300 -939800 front 0)
-      (place P401 673100 -939800 front 0)
-    )
-    (component "LED-0805_RED"
-      (place D306 1346200 -933450 front 270)
-      (place D305 1346200 -1035050 front 270)
-      (place D302 1339850 -1136650 front 270)
-      (place D301 1339850 -1238250 front 270)
+      (place P406 1079500 -812800 front 0)
+      (place P405 749300 -1231900 front 180)
+      (place P402 876300 -812800 front 0)
+      (place P401 673100 -812800 front 0)
+      (place P502 1155700 -1231900 front 180)
+      (place P501 952500 -1231900 front 180)
     )
     (component DO214
-      (place D304 1384300 -1250950 front 90)
-      (place D307 1384300 -946150 front 90)
-      (place D308 1384300 -1047750 front 90)
-      (place D303 1384300 -1149350 front 90)
+      (place D304 1409700 -1242060 front 90)
+      (place D307 1409700 -975360 front 90)
+      (place D308 1409700 -1064260 front 90)
+      (place D303 1409700 -1153160 front 90)
     )
     (component CONN_KK_2.54_4W
-      (place P408 914400 -1473200 front 180)
-      (place P403 711200 -711200 front 0)
-      (place P404 914400 -711200 front 0)
+      (place P408 1104900 -571500 front 0)
+      (place P403 711200 -571500 front 0)
+      (place P404 914400 -571500 front 0)
       (place P407 711200 -1473200 front 180)
+      (place P504 1117600 -1473200 front 180)
+      (place P503 914400 -1473200 front 180)
     )
     (component c_elec_6.3x7.7
-      (place C404 965200 -1358900 front 0)
-      (place C403 774700 -1358900 front 0)
-      (place C402 857250 -825500 front 180)
-      (place C401 647700 -825500 front 180)
+      (place C404 762000 -1358900 front 0)
+      (place C403 1066800 -685800 front 180)
+      (place C402 863600 -685800 front 180)
+      (place C401 660400 -685800 front 180)
+      (place C502 1168400 -1358900 front 0)
+      (place C501 965200 -1358900 front 0)
     )
     (component c_elec_4x5.3
-      (place C208 1320800 -850900 front 0)
-      (place C207 1244600 -850900 front 0)
-      (place C206 1168400 -850900 front 0)
-      (place C205 1092200 -850900 front 0)
+      (place C208 977900 -996950 front 180)
+      (place C207 977900 -1047750 front 180)
+      (place C206 977900 -895350 front 180)
+      (place C205 977900 -946150 front 180)
+      (place C213 977900 -1098550 front 180)
+      (place C212 977900 -1149350 front 180)
     )
     (component HOLE_M3
-      (place H101 546100 -698500 front 0)
+      (place H101 546100 -558800 front 0)
       (place H102 546100 -1485900 front 0)
       (place H103 1473200 -1485900 front 0)
-      (place H104 1473200 -698500 front 0)
+      (place H104 1473200 -558800 front 0)
     )
     (component "mstba_2,5/2-g-5,08"
       (place P101 558800 -1371600 front 90)
       (place P102 1447800 -1371600 front 270)
     )
-    (component SO14E
-      (place U201 1092200 -1092200 front 0)
-    )
-    (component PIN_ARRAY_3X1
-      (place JP201 1104900 -965200 front 0)
-      (place JP202 1104900 -1003300 front 0)
-      (place JP101 660400 -1187450 front 0)
-    )
     (component CONN_KK_2.54_2W
-      (place P202 1168400 -711200 front 0)
-      (place P203 1244600 -711200 front 0)
-      (place P204 1320800 -711200 front 0)
-      (place P201 1092200 -711200 front 0)
+      (place P202 1206500 -571500 front 0)
+      (place P203 1397000 -571500 front 0)
+      (place P204 1333500 -571500 front 0)
+      (place P201 1270000 -571500 front 0)
+      (place P205 1460500 -704850 front 270)
+      (place P206 1460500 -641350 front 270)
     )
     (component SO16E
-      (place U102 762000 -1092200 front 0)
-      (place U103 939800 -1092200 front 0)
+      (place U102 749300 -939800 front 90)
+      (place U103 749300 -1092200 front 90)
+      (place U104 863600 -939800 front 90)
     )
     (component TO220_V_RMC
-      (place U101 1308100 -1377950 front 90)
+      (place U101 1333500 -1377950 front 90)
     )
     (component PCB_GREEN
-      (place M102 1009650 -1092200 front 0)
+      (place M102 1009650 -1022350 front 0)
     )
     (component "pt_1,5-2-3,5-h"
-      (place P304 1473200 -1041400 front 90)
-      (place P303 1473200 -939800 front 90)
+      (place P304 1473200 -1066800 front 90)
+      (place P303 1473200 -977900 front 90)
       (place P302 1473200 -1244600 front 90)
-      (place P301 1473200 -1143000 front 90)
+      (place P301 1473200 -1155700 front 90)
+      (place P601 1473200 -800100 front 90)
+      (place P602 1473200 -889000 front 90)
     )
     (component "FUSE-MINI-AUTO"
-      (place F102 1308100 -1460500 front 270)
+      (place F102 1346200 -1479550 front 270)
       (place F101 558800 -1212850 front 180)
     )
     (component "TIE-2MM"
-      (place J101 1403350 -1397000 back 180)
-      (place J102 1282700 -1390650 front 270)
+      (place J102 1290320 -1413510 front 270)
     )
-    (component pin_array_4x2_RMC
-      (place P104 558800 -1016000 front 270)
+    (component PIN_ARRAY_3X1
+      (place JP101 673100 -901700 front 90)
+    )
+    (component SOT23GDS::1
+      (place Q601 1276350 -876300 front 180)
+      (place Q602 1314450 -787400 front 180)
+    )
+    (component SM0805::1
+      (place C210 1028700 -1149350 front 90)
+      (place R502 1206500 -1231900 front 90)
+      (place R501 1003300 -1231900 front 90)
+      (place R603 1339850 -876300 front 90)
+      (place R604 1365250 -749300 front 270)
+      (place R209 1079500 -1149350 front 270)
+      (place R210 1079500 -1098550 front 270)
+      (place C211 1028700 -1098550 front 90)
+      (place R212 1054100 -1098550 front 270)
+      (place R602 1339850 -749300 front 270)
+      (place R211 1054100 -1149350 front 270)
+      (place R601 1308100 -876300 front 90)
+      (place C105 660400 -984250 front 180)
+      (place C106 863600 -1168400 front 0)
+      (place R106 1212850 -1149350 front 180)
+      (place R104 1212850 -1130300 front 180)
+      (place R102 1212850 -1111250 front 180)
+      (place R107 1181100 -1149350 front 180)
+      (place R105 1181100 -1130300 front 180)
+      (place R103 1181100 -1111250 front 180)
+    )
+    (component "DO-214AC"
+      (place D603 1408430 -798830 front 90)
+      (place D604 1409700 -886460 front 90)
+    )
+    (component SO16N
+      (place U201 863600 -1092200 front 90)
+    )
+    (component PIN_ARRAY_6x2_RMC
+      (place P104 584200 -990600 front 270)
+    )
+    (component "LED-0805_RED"
+      (place D601 1371600 -882650 front 270)
+      (place D602 1365250 -793750 front 270)
+      (place D305 1371600 -1060450 front 270)
+      (place D306 1371600 -971550 front 270)
+      (place D302 1371600 -1149350 front 270)
+      (place D301 1371600 -1238250 front 270)
     )
     (component pin_strip_4
-      (place P103 546100 -850900 front 270)
+      (place P103 571500 -800100 front 270)
+    )
+    (component "tssop-28"
+      (place U105 1193800 -1016000 front 90)
+    )
+    (component pin_strip_6x2
+      (place J101 1212850 -882650 front 270)
+    )
+    (component pin_strip_3
+      (place K101 749300 -825500 front 90)
+      (place K102 673100 -1193800 front 90)
+    )
+    (component pin_strip_2
+      (place P207 977900 -831850 front 90)
+      (place P208 952500 -831850 front 90)
     )
   )
   (was_is
@@ -173,6 +231,15 @@
         )
         (attach off)
       )
+      (padstack "Via[0-1]_1016:635_um"
+        (shape
+          (circle Front 10160 0 0)
+        )
+        (shape
+          (circle Back 10160 0 0)
+        )
+        (attach off)
+      )
       (padstack "Via[0-1]_1998.98:635_um"
         (shape
           (circle Front 19990 0 0)
@@ -186,174 +253,1326 @@
     (network_out 
       (net MOT_GND
         (wire
-          (path Back 19990
-            1415850 -1378150
-            1447800 -1346200
+          (path Front 2032
+            1140890 -1358900
+            1140892 -1358900
+          )
+        )
+        (wire
+          (path Front 15240
+            1140890 -1358901
+            1140890 -1358902
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1415850 -1397000
-            1415850 -1378150
+          (path Front 15240
+            1140890 -1358900
+            1140890 -1358901
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            850900 -769353
-            850900 -762000
+          (path Front 2032
+            1140890 -1358901
+            1140890 -1358900
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1333500 -990600
-            1333500 -985620
-            1188300 -840418
-            921965 -840418
-            850900 -769353
+          (path Front 2032
+            1140890 -1358902
+            1140890 -1358901
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            647700 -762000
-            647700 -765911
-            666323 -784534
-            835719 -784534
-            850900 -769353
+          (path Front 2032
+            1140890 -1358905
+            1140890 -1358902
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1333500 -1092200
-            1333500 -990600
+          (path Front 15240
+            1140890 -1358902
+            1140890 -1358905
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1415850 -1378150
-            1339590 -1301900
-            1333500 -1301900
+          (path Front 15240
+            1140890 -1358905
+            1140890 -1358911
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1333500 -1301900
-            1317420 -1317980
-            1269680 -1317980
-            1261110 -1309400
+          (path Front 2032
+            1140890 -1358911
+            1140890 -1358905
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1333500 -1295400
-            1333500 -1301900
+          (path Front 2032
+            1140890 -1358922
+            1140890 -1358911
           )
           (type protect)
         )
         (wire
-          (path Front 19990
+          (path Front 15240
+            1140890 -1358911
+            1140890 -1358922
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1358922
+            1140890 -1358945
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1358945
+            1140890 -1358922
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1358990
+            1140890 -1358945
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1358945
+            1140890 -1358990
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1358990
+            1140890 -1359081
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1359081
+            1140890 -1358990
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1359263
+            1140890 -1359081
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1359081
+            1140890 -1359263
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1359263
+            1140890 -1359627
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1359627
+            1140890 -1359263
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1360355
+            1140890 -1359627
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1359627
+            1140890 -1360355
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1360355
+            1140890 -1361810
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1361810
+            1140890 -1360355
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111250
+            1171575 -1111250
+          )
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111251
+            1171580 -1111250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111253
+            1171580 -1111251
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111251
+            1171580 -1111250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111253
+            1171580 -1111251
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111256
+            1171580 -1111253
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111256
+            1171580 -1111253
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111263
+            1171580 -1111256
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111263
+            1171580 -1111256
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111276
+            1171580 -1111263
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111276
+            1171580 -1111263
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111303
+            1171580 -1111276
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111303
+            1171580 -1111276
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111357
+            1171580 -1111303
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111357
+            1171580 -1111303
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111465
+            1171580 -1111357
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111465
+            1171580 -1111357
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111680
+            1171580 -1111465
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111680
+            1171580 -1111465
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1112110
+            1171580 -1111680
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1112110
+            1171580 -1111680
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1112971
+            1171580 -1112110
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1112971
+            1171580 -1112110
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1114692
+            1171580 -1112971
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1114692
+            1171580 -1112971
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1118135
+            1171580 -1114692
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1118135
+            1171580 -1114692
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1364720
+            1140890 -1361810
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1361810
+            1140890 -1364720
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            673095 -1108080
+            673100 -1108075
+          )
+        )
+        (wire
+          (path Front 2032
+            658472 -1103700
+            662556 -1107780
+            662556 -1108080
+            673095 -1108080
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -1038220
+            1028700 -1038225
+          )
+        )
+        (wire
+          (path Front 2032
+            1028700 -1038220
+            1028700 -1030220
+            1028230 -1030220
+            1020360 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1343020 -1339850
+            1343025 -1339850
+          )
+        )
+        (wire
+          (path Front 2032
+            1329770 -1336950
+            1332120 -1336950
+            1335020 -1339850
+            1343020 -1339850
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1130305 -1031880
+            1130300 -1031875
+          )
+        )
+        (wire
+          (path Front 2032
+            1130305 -1031880
+            1140840 -1031880
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1130300 -1031880
+            1130305 -1031880
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1364720
+            1140890 -1370540
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1140890 -1370540
+            1140890 -1364720
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -1139820
+            1028700 -1139825
+          )
+        )
+        (wire
+          (path Front 2032
+            1029280 -1122070
+            1028700 -1122640
+            1028700 -1139820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1206505 -1222380
+            1206500 -1222375
+          )
+        )
+        (wire
+          (path Front 2032
+            1222760 -1218480
+            1220940 -1218480
+            1217040 -1222380
+            1206505 -1222380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1206505 -1222380
+            1206500 -1222380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -1089020
+            1028700 -1089025
+          )
+        )
+        (wire
+          (path Front 2032
+            1028700 -1089020
+            1028700 -1081020
+            1027320 -1081020
+            1022900 -1076600
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1140230
+            1171575 -1140235
+            1171575 -1149350
+          )
+        )
+        (wire
+          (path Front 2032
+            1171580 -1140230
+            1171580 -1143270
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1137190
+            1171580 -1140230
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1127665
+            1171575 -1127670
+            1171575 -1130300
+          )
+        )
+        (wire
+          (path Front 2032
+            1171580 -1127665
+            1171580 -1125030
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1130300
+            1171580 -1127665
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1125020
+            1171580 -1118135
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1125020
+            1171580 -1118135
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1165800 -1025750
+            1165805 -1025750
+            1165809 -1025754
+          )
+        )
+        (wire
+          (path Front 2032
+            1140840 -1031880
+            1146960 -1025750
+            1165800 -1025750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221791 -973760
+            1221790 -973760
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1236150 -973759
+            1232700 -973759
+            1232700 -973760
+            1221791 -973760
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            800100 -1222375
+            800100 -1222380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            804248 -1203870
+            800100 -1208020
+            800100 -1222375
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1317620 -1339850
+            1317625 -1339850
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1003300 -1222375
+            1003300 -1222380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1009650 -1196630
+            1003300 -1202980
+            1003300 -1222375
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1094308 -685800
+            1094310 -685800
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1066800 -660400
+            1092200 -685800
+            1094308 -685800
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1125030
+            1171580 -1125020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1137180
+            1171580 -1130300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1137190
+            1171580 -1137180
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 624620 -848731
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1026610 -971550
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 706453 -1095770
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1266190 -1074610
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1329770 -1336050
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 886153 -1017390
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1001860 -1024640
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1180710 -1093030
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1330640 -784236
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1285260 -990212
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1003280 -927087
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1266190 -1252460
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1022900 -1076600
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1020360 -1022350
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1029280 -1122070
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1004240 -878879
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1009650 -1196630
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1266190 -1163540
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1147870 -1035300
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1006770 -1117070
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1274410 -903598
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1222760 -1218480
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1143000 -1384300
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 638312 -981407
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 784860 -848360
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 818688 -846821
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 761956 -895064
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 736635 -947903
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 838200 -1206500
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 869950 -1231900
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 888976 -1168370
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 804248 -1203870
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 844833 -1049410
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 844818 -1110000
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 927100 -1165860
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1002220 -1166340
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1070610 -871220
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1109980 -871220
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1045210 -871220
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 890272 -885732
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 822724 -948674
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 658472 -1103700
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 761564 -1042220
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1066800 -660400
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1236150 -973759
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            1140890 -1370540
+            1140890 -1382190
+            1143000 -1384300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1137190
+            1171580 -1137180
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1137180
+            1171580 -1130300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1125030
+            1171580 -1125020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1171580 -1111250
+            1171580 -1100710
+            1173030 -1100710
+            1180710 -1093030
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1317625 -1339850
+            1325630 -1339850
+            1328530 -1336950
+            1329770 -1336950
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            624620 -848731
+            622300 -846411
+            622300 -835025
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1026610 -971550
+            1028700 -973638
+            1028700 -987425
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -987425
+            1018160 -987425
+            1018160 -991267
+            1012470 -996950
+            995909 -996950
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -1098550
+            714626 -1098550
+            711848 -1095770
+            706453 -1095770
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1266190 -1074610
+            1266190 -1062990
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            873125 -1016000
+            881129 -1016000
+            882515 -1017390
+            886153 -1017390
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1329770 -1336050
+            1329770 -1336950
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1001860 -1024640
+            995909 -1030580
+            995909 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1323340 -797560
+            1323340 -789429
+            1325440 -789429
+            1330640 -784236
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1285260 -990212
+            1285240 -990188
+            1285240 -975360
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1004760 -930035
+            1011570 -930035
+            1018160 -936625
+            1028700 -936625
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            995909 -946150
+            995909 -934590
+            1000200 -934590
+            1004760 -930035
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1003280 -927087
+            1004760 -928563
+            1004760 -930035
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1266190 -1240790
+            1266190 -1252460
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1014670 -889312
+            1012470 -891508
+            1012470 -895350
+            995909 -895350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -885825
+            1018160 -885825
+            1014670 -889312
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1004240 -878879
+            1014670 -889312
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1266190 -1163540
+            1266190 -1151890
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1147870 -1035300
+            1144270 -1035300
+            1140840 -1031880
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            995909 -1098550
+            995909 -1110110
+            999816 -1110110
+            1006770 -1117070
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1285240 -886460
+            1285240 -894591
+            1283420 -894591
+            1274410 -903598
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 15240
+            586740 -1384300
+            1143000 -1384300
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 15240
+            1143000 -1384300
+            1174750 -1384300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 15240
+            977900 -1409700
+            977900 -1399110
             937692 -1358900
-            937692 -1379440
-            938046 -1379440
-            970176 -1411570
           )
           (type protect)
         )
         (wire
-          (path Front 15238
-            970176 -1411570
-            970176 -1414680
-            977900 -1422400
+          (path Front 15240
+            774700 -1409700
+            774700 -1399110
+            734492 -1358900
           )
           (type protect)
         )
         (wire
-          (path Front 19990
-            884758 -825500
-            884758 -804961
-            850900 -771103
-            850900 -762000
+          (path Back 15240
+            976630 -1408430
+            977900 -1409700
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            977900 -1415740
-            961817 -1399660
-            793865 -1399660
-            774700 -1418820
-            774700 -1422400
+          (path Front 15240
+            647700 -635000
+            647700 -645592
+            687908 -685800
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            977900 -1422400
-            977900 -1415740
+          (path Front 15240
+            850900 -635000
+            850900 -645592
+            891108 -685800
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            977900 -1415740
-            1084240 -1309400
-            1261110 -1309400
+          (path Back 2032
+            571500 -1003300
+            572770 -1003300
+            585470 -990600
+            629119 -990600
+            638312 -981407
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1261110 -1309400
-            1261110 -1281400
-            1333500 -1209010
-            1333500 -1193800
+          (path Front 2032
+            638312 -981407
+            640028 -981407
+            642871 -984250
+            650875 -984250
           )
           (type protect)
         )
         (wire
-          (path Front 19990
-            747192 -1382920
-            600414 -1382920
-            586337 -1397000
-            558800 -1397000
+          (path Front 2032
+            818688 -846821
+            786399 -846821
+            784860 -848360
           )
           (type protect)
         )
         (wire
-          (path Front 19990
-            774700 -1422400
-            774700 -1410430
-            747192 -1382920
+          (path Back 2032
+            784860 -848360
+            760730 -872490
+            760730 -893838
+            761956 -895064
           )
           (type protect)
         )
         (wire
-          (path Front 19990
-            747192 -1358900
-            747192 -1382920
+          (path Front 2032
+            818688 -846821
+            822480 -843029
+            825500 -843029
+            825500 -835025
           )
           (type protect)
         )
         (wire
-          (path Back 19990
-            1333500 -1092200
-            1333500 -1193800
+          (path Front 2032
+            761956 -895064
+            765140 -895064
+            765426 -895350
+            774700 -895350
           )
           (type protect)
         )
         (wire
-          (path Front 19990
-            675208 -825500
-            675208 -804961
-            647700 -777453
-            647700 -762000
+          (path Back 2032
+            761956 -895064
+            758476 -895064
+            749300 -904240
+            749300 -935238
+            736635 -947903
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            736635 -947903
+            734927 -947903
+            733174 -946150
+            723900 -946150
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            804248 -1203870
+            835570 -1203870
+            838200 -1206500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            838200 -1206500
+            863600 -1231900
+            869950 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            869950 -1231900
+            888976 -1212870
+            888976 -1168370
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            888976 -1168370
+            881158 -1168370
+            881129 -1168400
+            873125 -1168400
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            844818 -1110000
+            844818 -1049430
+            844833 -1049410
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            844833 -1049410
+            842785 -1049410
+            841124 -1047750
+            831850 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            844818 -1110000
+            842369 -1110000
+            841124 -1111250
+            831850 -1111250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1002220 -1166340
+            927579 -1166340
+            927100 -1165860
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            927100 -1165860
+            924589 -1168370
+            888976 -1168370
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1002220 -1166340
+            996792 -1160910
+            995909 -1160910
+            995909 -1149350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1070610 -871220
+            1109980 -871220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -835025
+            1028700 -854710
+            1045210 -871220
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1045210 -871220
+            1070610 -871220
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            571500 -787400
+            575310 -787400
+            598170 -810260
+            598170 -881380
+            659130 -942340
+            659130 -975360
+            653083 -981407
+            638312 -981407
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            822724 -948674
+            827330 -948674
+            890272 -885732
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            890272 -885732
+            889000 -887004
+            889000 -895350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            822724 -948674
+            826402 -948674
+            828926 -946150
+            838200 -946150
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            658472 -1103700
+            698524 -1103700
+            760007 -1042220
+            761564 -1042220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            761564 -1042220
+            765426 -1046080
+            765426 -1047750
+            774700 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 15240
+            1054100 -635000
+            1054100 -633730
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1236150 -973759
+            1236150 -956750
+            1225550 -946150
           )
           (type protect)
         )
@@ -361,179 +1580,125 @@
       (net +V_POWER
         (wire
           (path Front 19990
-            1270000 -1443228
-            1270000 -1409810
-            1270590 -1409220
-            1271070 -1409700
-            1341120 -1409700
-            1365250 -1385570
-            1365250 -1330960
-            1389380 -1306830
-            1468120 -1306830
-            1493520 -1281430
-            1493520 -1242060
-            1478560 -1227100
-            1466200 -1227100
+            1492250 -1049300
+            1492250 -960400
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1270000 -1443230
-            1270000 -1443228
+            1466200 -1049300
+            1492250 -1049300
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1466200 -1125500
-            1441660 -1125500
-            1437880 -1129280
-            1384300 -1129280
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 19990
-            1466200 -1023900
-            1466200 -999362
-            1490740 -974824
-            1490740 -946838
-            1466200 -922300
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 19990
-            1466200 -1125500
-            1466200 -1100960
-            1490750 -1076410
-            1490750 -1048450
-            1466200 -1023900
+            1492250 -960400
+            1492250 -871500
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -1027680
-            1407840 -1027680
-            1411620 -1023900
-            1466200 -1023900
+            1466200 -960400
+            1492250 -960400
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1492250 -871500
+            1492250 -781050
+            1490700 -782600
+            1466200 -782600
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1466200 -871500
+            1492250 -871500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1492250 -1136650
+            1492250 -1049300
           )
           (type protect)
         )
         (wire
           (path Front 19990
             1466200 -1227100
-            1411620 -1227100
-            1407840 -1230880
-            1384300 -1230880
+            1414810 -1227100
+            1409700 -1221990
           )
           (type protect)
         )
         (wire
-          (path Back 19990
+          (path Front 19990
+            1466200 -1138200
+            1414810 -1138200
+            1409700 -1133090
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
             1466200 -1227100
-            1466200 -1202560
-            1490750 -1178010
-            1490750 -1150050
-            1466200 -1125500
+            1497050 -1227100
+            1492250 -1222300
+            1492250 -1136650
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -926084
-            1407840 -926084
-            1411620 -922300
-            1466200 -922300
-          )
-          (type protect)
-        )
-      )
-      (net +V_MOTOR
-        (wire
-          (path Front 19990
-            992708 -1358900
-            992708 -1338360
-            990705 -1336360
-            804211 -1336360
-            802208 -1338360
+            1492250 -1136650
+            1490700 -1138200
+            1466200 -1138200
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            802208 -1358900
-            802208 -1338360
+            1466200 -871500
+            1414730 -871500
+            1409700 -866470
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            576072 -1174750
-            594191 -1192870
-            594191 -1295940
-            628606 -1330350
-            794197 -1330350
-            802208 -1338360
+            1466200 -782600
+            1412190 -782600
+            1408430 -778840
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            829742 -825500
-            829742 -804961
-            825500 -800719
-            825500 -762000
+            1466200 -1049300
+            1414810 -1049300
+            1409700 -1044190
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            802208 -1358900
-            802208 -1379440
-            800100 -1381550
-            800100 -1422400
+            1466200 -960400
+            1414810 -960400
+            1409700 -955294
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1003300 -1422400
-            1003300 -1390030
-            992708 -1379440
-            992708 -1358900
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 19990
-            622300 -762000
-            560070 -762000
-            521970 -800100
-            521970 -1120650
-            576072 -1174750
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 19990
-            620192 -825500
-            620192 -846039
-            622219 -848066
-            825794 -848066
-            829742 -844118
-            829742 -825500
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 19990
-            622300 -762000
-            622300 -802853
-            620192 -804961
-            620192 -825500
+            1290320 -1426010
+            1319330 -1426010
+            1319530 -1426210
           )
           (type protect)
         )
@@ -541,8 +1706,8 @@
       (net /P_POWER
         (wire
           (path Front 19990
-            1346200 -1477770
-            1426970 -1397000
+            1384300 -1496820
+            1384300 -1460500
             1447800 -1397000
           )
           (type protect)
@@ -550,516 +1715,970 @@
       )
       (net +5V
         (wire
-          (path Back 2032
-            546100 -977900
-            546100 -989079
+          (path Front 2032
+            571500 -927100
+            582679 -927100
+            582679 -924305
+            630684 -876300
+            673100 -876300
           )
-        )
-        (wire
-          (path Back 2032
-            546100 -989079
-            548896 -989079
-            557279 -997462
-            557279 -1005135
-            568144 -1016000
-            574745 -1016000
-            685800 -1127055
-            685800 -1187450
-          )
+          (type protect)
         )
       )
       (net +V_LOGIC
         (wire
           (path Front 2032
-            723900 -1025525
-            723900 -1025520
+            1133960 -1054580
+            1133955 -1054580
+            1130300 -1050925
           )
         )
         (wire
           (path Front 2032
-            635000 -1025525
-            635000 -1025520
-          )
-        )
-        (wire
-          (path Front 2032
-            660400 -1025525
-            660400 -1025520
-          )
-        )
-        (wire
-          (path Back 2032
-            708786 -1247014
-            698500 -1257300
-            698500 -1295400
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            660400 -1187450
-            660400 -1198630
-            660401 -1198630
-            708786 -1247014
-          )
-        )
-        (wire
-          (path Back 2032
-            723900 -1231900
-            708786 -1247014
+            1133960 -1054580
+            1137620 -1058240
+            1165809 -1058240
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1158880 -787400
-            1158875 -787400
-          )
-        )
-        (wire
-          (path Front 2032
-            1158880 -787400
-            1162880 -787400
-            1166880 -783397
-            1166880 -756431
-            1171860 -751455
-            1191130 -751455
-            1227070 -787400
+            1130300 -1050920
+            1133960 -1054580
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            749300 -1231900
-            774700 -1231900
+            1054100 -1038225
+            1054100 -1038220
+          )
+        )
+        (wire
+          (path Front 2032
+            673098 -1127123
+            673100 -1127120
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            723900 -1231900
-            749300 -1231900
+            673100 -1282700
+            661874 -1293930
+            617533 -1293930
+            610572 -1286960
+            610572 -1274110
+            642620 -1242060
+            642620 -1144270
+            650240 -1136650
+            663575 -1136650
+            673098 -1127123
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            952500 -1231900
-            977900 -1231900
+            673100 -1127125
+            673098 -1127123
+          )
+        )
+        (wire
+          (path Front 2032
+            1222380 -1130300
+            1222380 -1119760
+            1226380 -1115750
+            1226380 -1111250
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            927100 -1231900
-            952500 -1231900
+            1218370 -1149350
+            1218370 -1144850
+            1222380 -1140840
+            1222380 -1130300
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1311275 -787400
-            1311280 -787400
+            1222380 -1130300
+            1222375 -1130300
+          )
+        )
+        (wire
+          (path Front 2032
+            1222380 -1111250
+            1222375 -1111250
+          )
+        )
+        (wire
+          (path Front 2032
+            1222380 -1111250
+            1226380 -1111250
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1235075 -787400
-            1243080 -787400
-            1243080 -756412
-            1248040 -751455
-            1267330 -751455
-            1303270 -787400
-            1311275 -787400
+            1221791 -1032260
+            1221790 -1032260
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            787400 -1006475
-            787400 -1006480
+            1232700 -1038760
+            1232700 -1032260
+            1221791 -1032260
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            850900 -952500
-            839721 -952500
-            793750 -998471
-            787400 -998471
-            787400 -1006475
+            1221791 -1032256
+            1221791 -1032260
+          )
+        )
+        (wire
+          (path Front 2032
+            1165860 -1032256
+            1165860 -1032260
+          )
+        )
+        (wire
+          (path Front 2032
+            1221790 -1038760
+            1221791 -1038759
+            1221791 -1038758
+          )
+        )
+        (wire
+          (path Front 2032
+            1221790 -1038760
+            1210880 -1038760
+            1210800 -1038680
+            1202360 -1038680
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            891156 -952500
-            876300 -952500
+            1232700 -1038760
+            1221790 -1038760
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            901700 -952500
-            891156 -952500
+            1054100 -1089025
+            1054100 -1081020
+            1062100 -1081020
+            1077840 -1065280
+            1088250 -1065280
+            1090040 -1063490
+            1090040 -1050950
+            1088360 -1049270
+            1076570 -1049270
+            1073530 -1046230
+            1070800 -1046230
+            1062750 -1038180
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            901700 -1025525
-            901700 -1017520
-            895697 -1017520
-            891156 -1012980
-            891156 -952500
+            1054100 -1139825
+            1054100 -1131820
+            1072230 -1131820
+            1090040 -1114010
+            1090040 -1101810
+            1085260 -1097030
+            1054100 -1097030
+            1054100 -1089025
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            895350 -1066800
-            895350 -1057530
-            901700 -1051180
-            901700 -1025525
+            831850 -1133850
+            831850 -1123950
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1235075 -787400
-            1227070 -787400
+            831850 -1136650
+            831850 -1133850
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            660400 -1021520
-            660400 -1017520
-            666511 -1017520
-            674611 -1009420
+            1222375 -1149350
+            1218370 -1149350
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            660400 -1025520
-            660400 -1021520
+            1222380 -1149350
+            1222375 -1149350
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            714521 -1025520
-            723900 -1025520
+            673100 -825500
+            647700 -825500
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            674611 -1009420
-            690715 -1025520
-            714521 -1025520
+            698500 -825500
+            673100 -825500
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1082675 -787400
-            1003300 -787400
+            1130300 -1219200
+            1130300 -1193120
+            1085010 -1147830
+            1054100 -1147830
+            1054100 -1139825
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1082680 -787400
-            1082675 -787400
+            1165809 -1058240
+            1182790 -1058240
+            1202360 -1038680
           )
           (type protect)
         )
-        (wire
-          (path Front 2032
-            1003300 -787400
-            977900 -762000
-          )
+        (via "Via[0-1]_889:635_um" 1076960 -1365250
           (type protect)
         )
-        (wire
-          (path Front 2032
-            1117600 -1158875
-            1117600 -1158880
-          )
+        (via "Via[0-1]_889:635_um" 853440 -1365250
           (type protect)
         )
-        (wire
-          (path Front 2032
-            1117600 -1120140
-            1117600 -1158875
-          )
-          (type protect)
-        )
-        (via "Via[0-1]_889:635_um" 1100160 -1107410
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            1079500 -1107410
-            1079500 -1003300
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            977900 -1231900
-            977900 -1220720
-            1079500 -1119120
-            1079500 -1107410
-          )
+        (via "Via[0-1]_889:635_um" 654050 -1365250
           (type protect)
         )
         (wire
           (path Back 2032
-            1079500 -1107410
-            1100160 -1107410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1117600 -1120140
-            1117600 -1110870
-            1103620 -1110870
-            1100160 -1107410
+            1200150 -819150
+            1210710 -819150
+            1210710 -808593
+            1224630 -794673
+            1224630 -685637
+            1181100 -642110
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            1079500 -965200
-            1079500 -1003300
+            1181100 -642110
+            1181100 -635000
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            952500 -889000
-            1028700 -965200
-            1079500 -965200
+            1155700 -762000
+            1181100 -736600
+            1181100 -642110
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            673100 -952500
-            647700 -952500
+            698500 -1282700
+            673100 -1282700
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            673100 -952500
-            673100 -1007910
-            674611 -1009420
+            723900 -1219200
+            698500 -1244600
+            698500 -1282700
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1227070 -787400
-            1202970 -811498
-            1202970 -861265
-            1185140 -879102
-            1174430 -879102
-            1090680 -962855
-            1090680 -965200
-            1079500 -965200
+            853173 -1092200
+            821755 -1092200
+            806516 -1076960
+            800038 -1076960
+            797749 -1079250
+            767391 -1079250
+            742491 -1054350
+            716626 -1054350
+            677929 -1015650
+            677929 -1009650
+            669925 -1009650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            854075 -1016000
+            854075 -1026540
+            857620 -1030090
+            857620 -1087750
+            853173 -1092200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            831850 -1133850
+            835481 -1133850
+            853173 -1116160
+            853173 -1092200
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            850900 -952500
-            839721 -952500
-            839721 -887392
-            830149 -877820
-            760480 -877820
-            749300 -889000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            952500 -889000
-            1003300 -838200
-            1003300 -787400
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            977900 -762000
-            964345 -748445
-            819716 -748445
-            811945 -756216
-            811945 -766149
-            804676 -773418
-            786118 -773418
-            774700 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            952500 -889000
-            927100 -889000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            723900 -889000
-            749300 -889000
+            774700 -750671
+            760629 -750671
+            749300 -762000
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            673100 -952500
-            698500 -952500
+            850900 -825500
+            850900 -814321
+            848105 -814321
+            812800 -779016
+            812800 -758428
+            805043 -750671
+            774700 -750671
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            927100 -889000
-            927100 -927100
-            901700 -952500
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            717550 -1066800
-            717550 -1057530
-            714521 -1054500
-            714521 -1025520
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            635000 -1025520
-            645544 -1025520
-            649546 -1021520
-            660400 -1021520
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            876300 -952500
-            850900 -952500
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            647700 -1422400
-            666178 -1440880
-            832422 -1440880
-            850900 -1422400
+            774700 -750671
+            774700 -635000
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            673100 -1295400
-            647700 -1320800
-            647700 -1422400
+            673100 -901700
+            647700 -876300
+            647700 -825500
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            673100 -1295400
-            698500 -1295400
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            876300 -1295400
-            812800 -1231900
-            774700 -1231900
+            723900 -984250
+            669925 -984250
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            876300 -1295400
-            901700 -1295400
+            723900 -1136650
+            682625 -1136650
+            677863 -1131880
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            854075 -1016000
+            844550 -1016000
+            838200 -1009650
+            838200 -984250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1202360 -1038680
+            1194410 -1030730
+            1178300 -1030730
+            1176770 -1032260
+            1165860 -1032260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1130300 -1219200
+            1155700 -1219200
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            927100 -1231900
-            901700 -1257300
-            901700 -1295400
+            977900 -750820
+            963680 -750820
+            952500 -762000
           )
           (type protect)
         )
         (wire
           (path Back 2032
-            698500 -952500
-            723900 -927100
-            723900 -889000
+            1054100 -825500
+            1042920 -825500
+            990600 -773179
+            990600 -758070
+            983350 -750820
+            977900 -750820
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            977900 -750820
+            977900 -635000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1226380 -1111250
+            1241910 -1095710
+            1241910 -1047970
+            1232700 -1038760
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            876300 -1282700
+            864513 -1294490
+            821134 -1294490
+            812800 -1286150
+            812800 -1237350
+            805830 -1230380
+            791468 -1230380
+            785879 -1224790
+            785879 -1219200
+            774700 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            749300 -1219200
+            723900 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            901700 -1282700
+            876300 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            723900 -762000
+            723900 -800100
+            698500 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1062750 -1038180
+            1079730 -1021200
+            1081720 -1021200
+            1090040 -1012880
+            1090040 -1000270
+            1085200 -995429
+            1054100 -995429
+            1054100 -987425
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1054100 -1038220
+            1060720 -1038220
+            1060760 -1038180
+            1062750 -1038180
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            677863 -1131880
+            677860 -1131880
+            673100 -1127120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            677863 -1131880
+            673100 -1127120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1181100 -1219200
+            1181100 -1208020
+            1218370 -1170750
+            1218370 -1149350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            774700 -1219200
+            749300 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            876300 -825500
+            901700 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1054100 -885825
+            1054100 -893829
+            1084930 -893829
+            1090040 -898943
+            1090040 -910811
+            1076540 -924314
+            1075140 -924314
+            1062790 -936663
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1062790 -936663
+            1073800 -947670
+            1088330 -947670
+            1090040 -949385
+            1090040 -961893
+            1072520 -979421
+            1054100 -979421
+            1054100 -987425
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1054100 -936625
+            1054100 -932815
+            1058940 -932815
+            1062790 -936663
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1054100 -825500
+            1054100 -885825
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            977900 -1219200
+            1016000 -1219200
+            1079500 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            749300 -762000
+            723900 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            952500 -762000
+            927100 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079500 -825500
+            1054100 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1155700 -762000
+            1130300 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            854075 -1168400
+            862079 -1168400
+            862079 -1174400
+            906876 -1219200
+            927100 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            952500 -1219200
+            927100 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079500 -1282700
+            1104900 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1104900 -825500
+            1130300 -800100
+            1130300 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1104900 -825500
+            1079500 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            901700 -825500
+            927100 -800100
+            927100 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            876300 -825500
+            850900 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1130300 -1219200
+            1104900 -1244600
+            1104900 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            927100 -1219200
+            901700 -1244600
+            901700 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            952500 -1219200
+            977900 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            854075 -1168400
+            844550 -1168400
+            831850 -1155700
+            831850 -1136650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            669925 -1009650
+            669925 -984250
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1181100 -1219200
+            1155700 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1054100 -1409700
+            1054100 -1388110
+            1076960 -1365250
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1076960 -1365250
+            1104900 -1337310
+            1104900 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            853440 -1365250
+            850900 -1367790
+            850900 -1409700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1076960 -1365250
+            853440 -1365250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            654050 -1365250
+            647700 -1371600
+            647700 -1409700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            853440 -1365250
+            654050 -1365250
           )
           (type protect)
         )
       )
       (net //RESET
+        (via "Via[0-1]_889:635_um" 650240 -1028700
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 695590 -902289
+          (type protect)
+        )
         (wire
           (path Front 2032
-            787400 -1025525
-            787400 -1025520
-            776856 -1025520
-            775016 -1023680
-            747335 -1023680
+            723900 -908050
+            733174 -908050
+            739273 -914149
+            794893 -914149
+            800992 -908050
+            838200 -908050
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            793750 -1066800
-            793750 -1039880
-            787400 -1033530
-            787400 -1025525
+            650875 -1009650
+            658879 -1009650
+            658879 -1015650
+            703676 -1060450
+            723900 -1060450
           )
-          (type protect)
-        )
-        (via "Via[0-1]_889:635_um" 747335 -1023680
           (type protect)
         )
         (wire
           (path Back 2032
-            571500 -977900
-            701550 -977900
-            747335 -1023680
+            695590 -902289
+            695590 -905880
+            688340 -913130
+            688340 -946150
+            675640 -958850
+            675640 -1004570
+            651510 -1028700
+            650240 -1028700
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            971550 -1066800
-            971550 -1057530
-            941627 -1057530
-            939550 -1059600
-            939550 -1074150
-            928480 -1085220
-            811572 -1085220
-            793750 -1067400
-            793750 -1066800
+            650240 -1028700
+            650875 -1028060
+            650875 -1009650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -908050
+            714626 -908050
+            708865 -902289
+            695590 -902289
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            650875 -1009650
+            637540 -1009650
+            618490 -1028700
+            596900 -1028700
+          )
+          (type protect)
+        )
+      )
+      (net /A0
+        (wire
+          (path Front 2032
+            1190620 -1153300
+            1190625 -1153295
+            1190625 -1149350
+          )
+        )
+        (wire
+          (path Front 2032
+            1190620 -1153300
+            1190620 -1151980
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1190620 -1154620
+            1190620 -1153300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1203320 -1149350
+            1195320 -1149350
+            1195320 -1149930
+            1190620 -1154620
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1203320 -1149350
+            1203325 -1149350
+          )
+        )
+        (wire
+          (path Front 2032
+            1221790 -1058240
+            1221791 -1058240
+          )
+        )
+        (wire
+          (path Front 2032
+            1221790 -1058240
+            1204180 -1058240
+            1163540 -1098880
+            1163540 -1158170
+            1165270 -1159890
+            1190620 -1159890
+            1190620 -1154620
+          )
+          (type protect)
+        )
+      )
+      (net /A1
+        (wire
+          (path Front 2032
+            1203320 -1130300
+            1203325 -1130300
+          )
+        )
+        (wire
+          (path Front 2032
+            1190625 -1130300
+            1203320 -1130300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221793 -1051740
+            1221791 -1051738
+          )
+        )
+        (wire
+          (path Front 2032
+            1221793 -1051740
+            1232700 -1051740
+            1232700 -1061810
+            1199420 -1095090
+            1190230 -1095090
+            1182620 -1102690
+            1182620 -1130300
+            1190625 -1130300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221790 -1051740
+            1221793 -1051740
+          )
+          (type protect)
+        )
+      )
+      (net /A2
+        (wire
+          (path Front 2032
+            1221792 -1045260
+            1221791 -1045261
+          )
+        )
+        (wire
+          (path Front 2032
+            1203325 -1111250
+            1211330 -1111250
+            1211330 -1089650
+            1237280 -1063700
+            1237280 -1049840
+            1232700 -1045260
+            1221792 -1045260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221792 -1045260
+            1221790 -1045260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1190625 -1111250
+            1203325 -1111250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1190620 -1111250
+            1190625 -1111250
           )
           (type protect)
         )
@@ -1067,10 +2686,19 @@
       (net /FET0
         (wire
           (path Front 2032
-            933450 -1117600
-            933450 -1126870
-            1035940 -1229360
-            1240790 -1229360
+            1221800 -1025750
+            1221795 -1025750
+            1221791 -1025754
+          )
+        )
+        (wire
+          (path Front 2032
+            1266190 -1223010
+            1266190 -1214880
+            1247340 -1196030
+            1247340 -1040400
+            1232700 -1025750
+            1221800 -1025750
           )
           (type protect)
         )
@@ -1078,12 +2706,25 @@
       (net /FET1
         (wire
           (path Front 2032
-            946150 -1117600
-            946150 -1126870
-            1014530 -1195260
-            1165160 -1195260
-            1232660 -1127760
-            1240790 -1127760
+            1221792 -1019250
+            1221791 -1019251
+          )
+        )
+        (wire
+          (path Front 2032
+            1266190 -1134110
+            1266190 -1125980
+            1258060 -1117850
+            1258060 -1044600
+            1232710 -1019250
+            1221792 -1019250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221792 -1019250
+            1221790 -1019250
           )
           (type protect)
         )
@@ -1091,13 +2732,23 @@
       (net /FET2
         (wire
           (path Front 2032
-            958850 -1117600
-            958850 -1126870
-            1022620 -1190640
-            1128080 -1190640
-            1236720 -1082000
-            1236720 -1036580
-            1247140 -1026160
+            1221792 -1012750
+            1221791 -1012749
+          )
+        )
+        (wire
+          (path Front 2032
+            1266190 -1045210
+            1266190 -1031240
+            1247700 -1012750
+            1221792 -1012750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221792 -1012750
+            1221790 -1012750
           )
           (type protect)
         )
@@ -1105,17 +2756,62 @@
       (net /FET3
         (wire
           (path Front 2032
-            1247140 -924560
-            1247140 -932691
-            1242060 -932691
-            1234430 -940315
-            1234430 -1027050
-            1229860 -1031620
-            1229860 -1082160
-            1126010 -1186010
-            1030690 -1186010
-            971550 -1126870
-            971550 -1117600
+            1221795 -1006250
+            1221791 -1006246
+          )
+        )
+        (wire
+          (path Front 2032
+            1267460 -975360
+            1267460 -993140
+            1254350 -1006250
+            1221795 -1006250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221795 -1006250
+            1221790 -1006250
+          )
+          (type protect)
+        )
+      )
+      (net /FET4
+        (wire
+          (path Front 2032
+            1221790 -999744
+            1221791 -999744
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221791 -999744
+            1241810 -999744
+            1250950 -990600
+            1250950 -902970
+            1267460 -886460
+          )
+          (type protect)
+        )
+      )
+      (net /FET5
+        (wire
+          (path Front 2032
+            1221790 -993242
+            1221791 -993242
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1221791 -993242
+            1235610 -993242
+            1244600 -984250
+            1244600 -869950
+            1305560 -808990
+            1305560 -797560
           )
           (type protect)
         )
@@ -1123,26 +2819,46 @@
       (net /LATCH_OUT
         (wire
           (path Front 2032
-            768350 -1066800
-            768350 -1076070
-            758319 -1076070
-            753740 -1080650
-            623453 -1080650
-            571500 -1028700
+            591310 -981284
+            574877 -964851
+            567431 -964851
+            560041 -957461
+            560041 -947803
+            568904 -938940
+            709136 -938940
+            714626 -933450
+            723900 -933450
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            946150 -1066800
-            946150 -1076070
-            932425 -1089800
-            803404 -1089800
-            787522 -1073920
-            787522 -1059870
-            785174 -1057530
-            768350 -1057530
-            768350 -1066800
+            723900 -1085850
+            708397 -1085850
+            664755 -1042210
+            594352 -1042210
+            585720 -1033580
+            585720 -986874
+            591310 -981284
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            596900 -977900
+            593516 -981284
+            591310 -981284
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -933450
+            733174 -933450
+            739273 -939549
+            822827 -939549
+            828926 -933450
+            838200 -933450
           )
           (type protect)
         )
@@ -1150,35 +2866,40 @@
       (net /Mosfets/P_FET0
         (wire
           (path Front 19990
-            1384300 -1271020
-            1360760 -1271020
-            1360760 -1251120
-            1358380 -1248740
-            1339850 -1248740
+            1409700 -1262130
+            1409700 -1262126
+          )
+        )
+        (wire
+          (path Front 19990
+            1409700 -1262130
+            1408180 -1263650
+            1378140 -1263650
           )
           (type protect)
         )
         (wire
           (path Front 19990
             1466200 -1262100
-            1416750 -1262100
-            1407840 -1271020
-            1384300 -1271020
+            1409730 -1262100
+            1409700 -1262130
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -1271020
-            1384300 -1271016
+            1378140 -1263650
+            1371600 -1257110
+            1371600 -1248740
           )
+          (type protect)
         )
         (wire
-          (path Back 19990
-            1466200 -1262100
-            1334930 -1262100
-            1308100 -1288930
-            1308100 -1295400
+          (path Front 19990
+            1378140 -1263650
+            1339850 -1263650
+            1333500 -1270000
+            1333500 -1295400
           )
           (type protect)
         )
@@ -1186,41 +2907,75 @@
       (net /Mosfets/P_FET1
         (wire
           (path Front 19990
-            1384300 -1169420
-            1407840 -1169420
-            1416750 -1160500
-            1466200 -1160500
+            1409700 -1173226
+            1409700 -1173230
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1339850 -1156410
-            1339850 -1165670
-            1357020 -1165670
-            1360760 -1169420
-            1384300 -1169420
+            1409700 -1173220
+            1409700 -1173226
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -1169420
-            1384300 -1169416
-          )
-        )
-        (wire
-          (path Front 19990
-            1339850 -1147140
-            1339850 -1156410
+            1409700 -1173226
+            1409700 -1173230
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1339850 -1156410
-            1308100 -1188160
-            1308100 -1193800
+            1409700 -1173220
+            1409700 -1173226
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1409720 -1173220
+            1409700 -1173220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1409720 -1173220
+            1409700 -1173230
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1409700 -1173230
+            1378900 -1173230
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1466200 -1173200
+            1409730 -1173200
+            1409720 -1173220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1378900 -1173230
+            1371600 -1165930
+            1371600 -1159840
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1378900 -1173230
+            1341370 -1173230
+            1333500 -1181100
+            1333500 -1200150
           )
           (type protect)
         )
@@ -1228,42 +2983,40 @@
       (net /Mosfets/P_FET2
         (wire
           (path Front 19990
-            1384300 -1067820
-            1407840 -1067820
-            1416750 -1058900
-            1466200 -1058900
+            1409700 -1084330
+            1409700 -1084326
+          )
+        )
+        (wire
+          (path Front 19990
+            1409700 -1084330
+            1408180 -1085850
+            1378140 -1085850
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1346200 -1057180
-            1346200 -1064070
-            1357020 -1064070
-            1360760 -1067820
-            1384300 -1067820
+            1466200 -1084300
+            1409730 -1084300
+            1409700 -1084330
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -1067820
-            1384300 -1067816
-          )
-        )
-        (wire
-          (path Front 19990
-            1346200 -1045540
-            1346200 -1057180
+            1378140 -1085850
+            1371600 -1079310
+            1371600 -1070940
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1346200 -1057180
-            1338120 -1057180
-            1308100 -1087200
-            1308100 -1092200
+            1378140 -1085850
+            1339850 -1085850
+            1333500 -1092200
+            1333500 -1111250
           )
           (type protect)
         )
@@ -1271,91 +3024,120 @@
       (net /Mosfets/P_FET3
         (wire
           (path Front 19990
-            1346200 -943940
-            1346200 -955581
+            1409700 -995426
+            1412240 -995426
+            1412270 -995400
+            1466200 -995400
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -966216
-            1407840 -966216
-            1416750 -957300
-            1466200 -957300
+            1409700 -995426
+            1378900 -995426
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1346200 -955581
-            1338120 -955581
-            1308100 -985598
-            1308100 -990600
+            1378900 -995426
+            1371600 -988123
+            1371600 -982040
           )
           (type protect)
         )
         (wire
           (path Front 19990
-            1384300 -966216
-            1360760 -966216
-            1357020 -962472
-            1346200 -962472
-            1346200 -955581
+            1378900 -995426
+            1347720 -995426
+            1339850 -1003300
+            1333500 -1022350
+          )
+          (type protect)
+        )
+      )
+      (net /Mosfets2/P_FET4
+        (wire
+          (path Front 19990
+            1410080 -906500
+            1409700 -906120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1466200 -906500
+            1410080 -906500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1410080 -906500
+            1408530 -908050
+            1380330 -908050
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1380330 -908050
+            1346200 -908050
+            1333500 -920750
+            1333500 -933450
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1371600 -893140
+            1380330 -901869
+            1380330 -908050
+          )
+          (type protect)
+        )
+      )
+      (net /Mosfets2/P_FET5
+        (wire
+          (path Front 19990
+            1373810 -819150
+            1365250 -810590
+            1365250 -804240
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1373810 -819150
+            1339850 -819150
+            1333500 -825500
+            1333500 -844550
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1408430 -818490
+            1407770 -819150
+            1373810 -819150
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 19990
+            1466200 -817600
+            1409320 -817600
+            1408430 -818490
           )
           (type protect)
         )
       )
       (net /P_MOT
         (wire
-          (path Back 19990
-            541528 -1250950
-            558800 -1268220
+          (path Front 19990
             558800 -1346200
-          )
-          (type protect)
-        )
-      )
-      (net /SER_CLOCK
-        (wire
-          (path Front 2032
-            958850 -1066800
-            958850 -1076070
-            940549 -1094380
-            799351 -1094380
-            781050 -1076070
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            781050 -1076070
-            775906 -1081220
-            759645 -1081220
-            755634 -1085230
-            621558 -1085230
-            576209 -1039880
-            557280 -1039880
-            546100 -1028700
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            781050 -1066800
-            781050 -1076070
-          )
-          (type protect)
-        )
-      )
-      (net /SER_OUT
-        (wire
-          (path Front 2032
-            742950 -1066800
-            742950 -1076070
-            660709 -1076070
-            600635 -1016000
-            558800 -1016000
-            546100 -1003300
+            558800 -1268220
+            541528 -1250950
           )
           (type protect)
         )
@@ -1363,11 +3145,17 @@
       (net /SER_OUT1
         (wire
           (path Front 2032
-            806450 -1066800
-            820299 -1080650
-            916175 -1080650
-            920750 -1076070
-            920750 -1066800
+            723900 -895350
+            714626 -895350
+            714626 -894588
+            680398 -860360
+            610410 -860360
+            550406 -920364
+            550406 -1049010
+            617612 -1116220
+            709658 -1116220
+            714626 -1111250
+            723900 -1111250
           )
           (type protect)
         )
@@ -1375,43 +3163,36 @@
       (net /STEP_EN_0
         (wire
           (path Front 2032
-            730250 -1066800
-            730250 -1057530
-            734444 -1053330
-            734444 -1019610
-            732358 -1017520
-            718331 -1017520
-            684704 -983893
-            684704 -947812
-            675926 -939034
-            669128 -939034
-            660400 -930306
-            660400 -923575
-            625825 -889000
-            622300 -889000
+            889000 -908050
+            879726 -908050
+            839720 -868044
+            839720 -832639
+            834101 -827020
+            819741 -827020
+            787400 -794679
+            787400 -758829
+            779381 -750810
+            633490 -750810
+            622300 -762000
           )
           (type protect)
         )
       )
       (net /STEP_EN_1
-        (via "Via[0-1]_889:635_um" 762960 -1089220
-          (type protect)
-        )
         (wire
           (path Front 2032
-            717550 -1117600
-            717550 -1108330
-            733985 -1091890
-            760291 -1091890
-            762960 -1089220
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            762960 -1089220
-            825500 -1026680
-            825500 -889000
+            889000 -920750
+            898274 -920750
+            898375 -920649
+            898375 -862476
+            887480 -851581
+            887480 -820623
+            878137 -811280
+            871424 -811280
+            863600 -803456
+            863600 -796575
+            829025 -762000
+            825500 -762000
           )
           (type protect)
         )
@@ -1419,179 +3200,426 @@
       (net /STEP_EN_2
         (wire
           (path Front 2032
-            730250 -1117600
-            730250 -1208600
-            712505 -1226340
-            712505 -1236970
-            721652 -1246120
-            754176 -1246120
-            762000 -1253940
-            762000 -1260820
-            787400 -1286220
-            787400 -1299040
-            799976 -1311620
-            987080 -1311620
-            1003300 -1295400
+            889000 -933450
+            898274 -933450
+            904240 -927484
+            904240 -863600
+            920750 -847090
+            920750 -786130
+            932180 -774700
+            1016000 -774700
+            1028700 -762000
           )
           (type protect)
         )
       )
       (net /STEP_EN_3
         (wire
-          (path Front 2032
-            742950 -1117600
-            742950 -1164040
-            785880 -1206970
-            785880 -1237460
-            791499 -1243080
-            805859 -1243080
-            810645 -1247870
-            810645 -1284860
-            800100 -1295400
+          (path Back 2032
+            800100 -1282700
+            800100 -1218959
+            783186 -1202045
+            783186 -1058634
+            875098 -966722
+            875098 -949460
           )
-          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 875098 -949460
+        )
+        (wire
+          (path Front 2032
+            889000 -946150
+            878408 -946150
+            875098 -949460
+          )
+        )
+      )
+      (net /STEP_EN_4
+        (wire
+          (path Front 2032
+            889000 -958850
+            897766 -958850
+          )
+        )
+        (wire
+          (path Back 2032
+            906305 -985983
+            966639 -1046317
+            966639 -1227685
+            969415 -1230461
+            978993 -1230461
+            1003300 -1254768
+            1003300 -1282700
+          )
+        )
+        (via "Via[0-1]_889:635_um" 906305 -985983
+        )
+        (wire
+          (path Front 2032
+            897766 -958850
+            906305 -967389
+            906305 -985983
+          )
+        )
+      )
+      (net /STEP_EN_5
+        (wire
+          (path Front 2032
+            889000 -971550
+            897766 -971550
+          )
+        )
+        (wire
+          (path Back 2032
+            977727 -1074688
+            1014495 -1111456
+            1076418 -1111456
+            1140972 -1176010
+            1140972 -1219650
+            1151194 -1229872
+            1182247 -1229872
+            1206500 -1254125
+            1206500 -1282700
+          )
+        )
+        (via "Via[0-1]_889:635_um" 977727 -1074688
+        )
+        (wire
+          (path Front 2032
+            897766 -971550
+            897766 -1016700
+            886583 -1027883
+            886583 -1115149
+            888421 -1116987
+            914416 -1116987
+            956715 -1074688
+            977727 -1074688
+          )
+        )
+      )
+      (net /STEP_EN_6
+        (wire
+          (path Back 2032
+            749300 -800100
+            749300 -810771
+          )
+        )
+        (wire
+          (path Front 2032
+            889000 -984250
+            880234 -984250
+          )
+        )
+        (wire
+          (path Front 2032
+            851311 -963650
+            859634 -963650
+            880234 -984250
+          )
+        )
+        (via "Via[0-1]_889:635_um" 851311 -963650
+        )
+        (wire
+          (path Back 2032
+            749300 -810771
+            758637 -810771
+            792385 -844519
+            792385 -984964
+            760978 -1016371
+            760978 -1026062
+            765988 -1031072
+            771869 -1031072
+            804052 -998889
+            804052 -966144
+            811809 -958387
+            846048 -958387
+            851311 -963650
+          )
+        )
+      )
+      (net /STEP_EN_7
+        (wire
+          (path Front 2032
+            846966 -971550
+            849828 -971550
+            853240 -974962
+          )
+        )
+        (wire
+          (path Back 2032
+            673100 -1168400
+            673100 -1155102
+            853240 -974962
+          )
+        )
+        (wire
+          (path Front 2032
+            838200 -971550
+            846966 -971550
+          )
+        )
+        (via "Via[0-1]_889:635_um" 853240 -974962
         )
       )
       (net "/Steppers/S0-1A"
         (wire
-          (path Back 19990
-            723900 -711200
-            723900 -762000
+          (path Front 15240
+            723900 -571500
+            723900 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S0-1B"
         (wire
-          (path Back 19990
-            749300 -711200
-            749300 -762000
+          (path Front 15240
+            749300 -571500
+            749300 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S0-2A"
         (wire
-          (path Back 19990
-            698500 -711200
-            698500 -762000
+          (path Front 15240
+            698500 -571500
+            698500 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S0-2B"
         (wire
-          (path Front 19990
-            673100 -711200
-            673100 -762000
+          (path Front 15240
+            673100 -571500
+            673100 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S1-1A"
         (wire
-          (path Back 19990
-            927100 -711200
-            927100 -762000
+          (path Front 15240
+            927100 -571500
+            927100 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S1-1B"
         (wire
-          (path Back 19990
-            952500 -711200
-            952500 -762000
+          (path Front 15240
+            952500 -571500
+            952500 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S1-2A"
         (wire
-          (path Back 19990
-            901700 -711200
-            901700 -762000
+          (path Front 15240
+            901700 -571500
+            901700 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S1-2B"
         (wire
-          (path Back 19990
-            876300 -711200
-            876300 -762000
+          (path Front 15240
+            876300 -571500
+            876300 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S2-1A"
         (wire
-          (path Back 19990
-            901700 -1473200
-            901700 -1422400
+          (path Back 15240
+            1117600 -571500
+            1130300 -584200
+            1130300 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S2-1B"
         (wire
-          (path Back 19990
-            876300 -1473200
-            876300 -1422400
+          (path Back 15240
+            1143000 -571500
+            1155700 -584200
+            1155700 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S2-2A"
         (wire
-          (path Front 19990
-            927100 -1473200
-            927100 -1422400
+          (path Back 15240
+            1092200 -571500
+            1104900 -584200
+            1104900 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S2-2B"
         (wire
-          (path Back 19990
-            952500 -1473200
-            952500 -1422400
+          (path Back 15240
+            1066800 -571500
+            1066800 -589283
+            1079500 -601983
+            1079500 -635000
           )
           (type protect)
         )
       )
       (net "/Steppers/S3-1A"
         (wire
-          (path Back 19990
+          (path Back 15240
             698500 -1473200
-            698500 -1422400
+            698500 -1409700
           )
           (type protect)
         )
       )
       (net "/Steppers/S3-1B"
         (wire
-          (path Back 19990
+          (path Back 15240
             673100 -1473200
-            673100 -1422400
+            673100 -1409700
           )
           (type protect)
         )
       )
       (net "/Steppers/S3-2A"
         (wire
-          (path Back 19990
+          (path Back 15240
             723900 -1473200
-            723900 -1422400
+            723900 -1409700
           )
           (type protect)
         )
       )
       (net "/Steppers/S3-2B"
         (wire
-          (path Back 19990
+          (path Back 15240
             749300 -1473200
-            749300 -1422400
+            749300 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S0-1A"
+        (wire
+          (path Back 15240
+            901700 -1473200
+            901700 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S0-1B"
+        (wire
+          (path Back 15240
+            876300 -1409700
+            876300 -1473200
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S0-2A"
+        (wire
+          (path Back 15240
+            927100 -1473200
+            927100 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S0-2B"
+        (wire
+          (path Back 15240
+            952500 -1473200
+            952500 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S1-1A"
+        (wire
+          (path Back 15240
+            1104900 -1473200
+            1104900 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S1-1B"
+        (wire
+          (path Back 15240
+            1079500 -1473200
+            1079500 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S1-2A"
+        (wire
+          (path Back 15240
+            1130300 -1473200
+            1130300 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net "/Steppers2/S1-2B"
+        (wire
+          (path Back 15240
+            1155700 -1473200
+            1155700 -1409700
+          )
+          (type protect)
+        )
+      )
+      (net /Thermistors/A6
+        (wire
+          (path Front 2032
+            895350 -1060450
+            890713 -1060450
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            895350 -1060450
+            901700 -1060450
+            920750 -1041400
+            920750 -895350
+            952500 -863600
+            971550 -863600
+            977900 -857250
+            977900 -844550
+          )
+          (type protect)
+        )
+      )
+      (net /Thermistors/A7
+        (wire
+          (path Front 2032
+            895350 -1047750
+            891547 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            895350 -1047750
+            895350 -1028700
+            914400 -1009650
+            914400 -889000
+            952500 -850900
+            952500 -844550
           )
           (type protect)
         )
@@ -1599,64 +3627,58 @@
       (net /Thermistors/THERM0
         (wire
           (path Front 2032
-            1101720 -781050
-            1101725 -781045
-            1101725 -762000
-          )
-        )
-        (wire
-          (path Front 2032
-            1101720 -781050
-            1101720 -800100
+            1028698 -1158877
+            1028700 -1158880
+            1054100 -1158880
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1101720 -762000
-            1101720 -781050
+            959891 -1136650
+            1010920 -1136650
+            1016000 -1141730
+            1016000 -1146180
+            1028698 -1158877
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1101720 -800100
-            1101725 -800095
-            1101725 -787400
+            1028700 -1158875
+            1028698 -1158877
           )
         )
         (wire
           (path Front 2032
-            1101720 -800100
-            1101720 -812800
-            1101725 -812800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1110210 -838773
-            1110209 -838774
-            1110209 -850900
+            1079500 -1158875
+            1079500 -1158880
           )
         )
         (wire
           (path Front 2032
-            1110210 -838773
-            1110210 -862460
-            1042940 -929729
-            1042940 -1099710
-            1054100 -1110870
-            1054100 -1120140
+            1054100 -1158880
+            1079500 -1158880
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1101725 -812800
-            1109730 -812800
-            1110210 -813280
-            1110210 -838773
+            1054100 -1158875
+            1054100 -1158880
+          )
+        )
+        (wire
+          (path Front 2032
+            959891 -1149350
+            959891 -1136650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            895350 -1136650
+            959891 -1136650
           )
           (type protect)
         )
@@ -1664,155 +3686,146 @@
       (net /Thermistors/THERM1
         (wire
           (path Front 2032
-            1177920 -781050
-            1177925 -781045
-            1177925 -762000
+            1079495 -1108080
+            1079500 -1108075
           )
         )
         (wire
           (path Front 2032
-            1177920 -781050
-            1177920 -800100
+            1079495 -1108080
+            1079500 -1108080
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1177920 -762000
-            1177920 -781050
+            1054105 -1108080
+            1079495 -1108080
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1177920 -800100
-            1177925 -800095
-            1177925 -787400
+            1028700 -1108080
+            1028700 -1108075
           )
         )
         (wire
           (path Front 2032
-            1177920 -800100
-            1177920 -812800
-            1177925 -812800
+            1028700 -1108080
+            1054105 -1108080
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1186410 -850900
-            1186410 -862460
-            1161220 -862460
-            1047820 -975865
-            1047820 -1079180
-            1079500 -1110870
-            1079500 -1120140
+            958850 -1123950
+            1002030 -1123950
+            1003300 -1125220
+            1011560 -1125220
+            1028700 -1108080
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1177925 -812800
-            1185930 -812800
-            1185930 -838860
-            1186410 -839340
-            1186410 -850900
+            1054105 -1108080
+            1054100 -1108075
+          )
+        )
+        (wire
+          (path Front 2032
+            895350 -1123950
+            958850 -1123950
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1186410 -850900
-            1186409 -850900
+            959891 -1098550
+            959891 -1122910
+            958850 -1123950
           )
+          (type protect)
         )
       )
       (net /Thermistors/THERM2
         (wire
           (path Front 2032
-            1254120 -775479
-            1254125 -775474
-            1254125 -762000
+            1054095 -1057280
+            1054100 -1057275
           )
         )
         (wire
           (path Front 2032
-            1254120 -775479
-            1254120 -788958
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1254120 -762000
-            1254120 -775479
+            1054095 -1057280
+            1028705 -1057280
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1254120 -788958
-            1254125 -788953
-            1254125 -787400
-          )
-        )
-        (wire
-          (path Front 2032
-            1254120 -788958
-            1254120 -797944
-            1246820 -805246
+            1079495 -1057280
+            1054095 -1057280
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1262610 -845120
-            1262609 -845121
-            1262609 -850900
+            1079495 -1057280
+            1079500 -1057275
           )
         )
         (wire
           (path Front 2032
-            1262610 -845120
-            1262610 -839340
-            1262130 -838860
-            1262130 -812800
-            1254125 -812800
+            1079500 -1057280
+            1079495 -1057280
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1262610 -850900
-            1262610 -845120
+            1028705 -1057280
+            1028700 -1057275
+          )
+        )
+        (wire
+          (path Front 2032
+            1028705 -1057280
+            1028700 -1057280
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1254125 -812800
-            1254120 -812800
-            1246820 -805498
-            1246820 -805246
+            959891 -1047750
+            959891 -1060450
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1092200 -1066800
-            1092200 -1076070
-            1121740 -1076070
-            1124160 -1073660
-            1124160 -1049520
-            1122180 -1047540
-            1122180 -1014100
-            1118740 -1010670
-            1118740 -998633
-            1209330 -908045
-            1209330 -822057
-            1229130 -802255
-            1243830 -802255
-            1246820 -805246
+            959891 -1060450
+            1016000 -1060450
+            1019180 -1057280
+            1028700 -1057280
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -1057280
+            1026800 -1059180
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            895350 -1111250
+            914400 -1111250
+            958850 -1066800
+            958850 -1060450
+            959891 -1060450
           )
           (type protect)
         )
@@ -1820,123 +3833,323 @@
       (net /Thermistors/THERM3
         (wire
           (path Front 2032
-            1330320 -779549
-            1330325 -779544
-            1330325 -762000
+            1054105 -1006480
+            1054100 -1006475
           )
         )
         (wire
           (path Front 2032
-            1330320 -779549
-            1330320 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1330320 -797098
-            1330320 -779549
+            1079495 -1006480
+            1054105 -1006480
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1330320 -797098
-            1330325 -797093
-            1330325 -787400
-          )
-        )
-        (wire
-          (path Front 2032
-            1334330 -812800
-            1330320 -808798
-            1330320 -797098
+            1054105 -1006480
+            1028705 -1006480
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1338810 -838773
-            1338809 -838774
-            1338809 -850900
+            1079495 -1006480
+            1079500 -1006475
           )
         )
         (wire
           (path Front 2032
-            1338810 -838773
-            1338810 -862460
-            1294730 -862460
-            1229710 -927487
-            1229710 -981381
-            1130220 -1080860
-            1090010 -1080860
-            1085850 -1076700
-            1085850 -1059110
-            1084260 -1057530
-            1066800 -1057530
-            1066800 -1066800
+            1079500 -1006480
+            1079495 -1006480
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1334330 -812800
-            1338330 -812800
-            1338810 -813280
-            1338810 -838773
+            1028705 -1006480
+            1028700 -1006475
+          )
+        )
+        (wire
+          (path Front 2032
+            1028705 -1006480
+            1028700 -1006480
+            1026800 -1008380
+            960120 -1008380
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1330325 -812800
-            1334330 -812800
+            960120 -1008380
+            959891 -1008150
+            959891 -996950
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1330320 -812800
-            1330325 -812800
+            960120 -1008380
+            939800 -1028700
+            939800 -1073150
+            914400 -1098550
+            895350 -1098550
+          )
+          (type protect)
+        )
+      )
+      (net /Thermistors/THERM4
+        (wire
+          (path Front 2032
+            1054100 -955675
+            1079500 -955675
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -955675
+            1054100 -955675
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            959891 -952500
+            958850 -953541
+            958850 -958850
+            933450 -984250
+            933450 -1066800
+            914400 -1085850
+            895350 -1085850
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            959891 -952500
+            959891 -958850
+            1025520 -958850
+            1028700 -955675
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            959891 -946150
+            959891 -952500
+          )
+          (type protect)
+        )
+      )
+      (net /Thermistors/THERM5
+        (wire
+          (path Front 2032
+            1054100 -904875
+            1079500 -904875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1028700 -904875
+            1054100 -904875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            958850 -908050
+            1025520 -908050
+            1028700 -904875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            895350 -1073150
+            901700 -1073150
+            927100 -1047750
+            927100 -939800
+            958850 -908050
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            958850 -908050
+            958850 -896391
+            959891 -895350
+          )
+          (type protect)
+        )
+      )
+      (net AD_CS
+        (via "Via[0-1]_889:635_um" 631190 -952500
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            631190 -952500
+            693164 -951943
+            706543 -965322
+            732445 -965322
+            827573 -1060450
+            831850 -1060450
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            596900 -927100
+            614680 -927189
+            631190 -952500
+          )
+          (type protect)
+        )
+      )
+      (net CLK
+        (wire
+          (path Front 2032
+            571500 -977900
+            555014 -961414
+            555014 -922632
+            612710 -864936
+            677984 -864936
+            686209 -873161
+            686209 -904435
+            702524 -920750
+            723900 -920750
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            571500 -977900
+            560183 -989217
+            560183 -1033330
+            566733 -1039880
+            573109 -1039880
+            584200 -1050970
+            584200 -1057450
+            619098 -1092340
+            674700 -1092340
+            687005 -1104650
+            731560 -1104650
+            744068 -1092140
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -1073150
+            733174 -1073150
+            733174 -1081250
+            744068 -1092140
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            831850 -1098550
+            805210 -1098550
+            799111 -1092450
+            744376 -1092450
+            744068 -1092140
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -920750
+            733174 -920750
+            739273 -926849
+            799944 -926849
+            802209 -929114
+            813281 -929114
+            821645 -920750
+            838200 -920750
           )
           (type protect)
         )
       )
       (net DIR_0
+        (via "Via[0-1]_889:635_um" 768928 -1023410
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            800100 -762000
+            799036 -763064
+            799036 -993305
+            768928 -1023410
+          )
+          (type protect)
+        )
         (wire
           (path Front 2032
-            908050 -1066800
-            908050 -1076070
-            886580 -1076070
-            824985 -1014480
-            778941 -1014480
-            776855 -1012390
-            776855 -912245
-            800100 -889000
+            768928 -1023410
+            773978 -1023410
+            784962 -1034400
+            784962 -1059460
+            783974 -1060450
+            774700 -1060450
           )
           (type protect)
         )
       )
       (net DIR_1
+        (via "Via[0-1]_889:635_um" 790945 -1066220
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1003300 -762000
+            1003300 -765301
+            1052320 -814320
+            1063190 -814320
+            1065280 -816407
+            1065280 -835285
+            984355 -916210
+            931640 -916210
+            790945 -1056900
+            790945 -1066220
+          )
+          (type protect)
+        )
         (wire
           (path Front 2032
-            895350 -1117600
-            895350 -1108330
-            900708 -1102970
-            948782 -1102970
-            977650 -1074100
-            977650 -914650
-            1003300 -889000
+            774700 -1073150
+            784020 -1073150
+            790945 -1066220
           )
           (type protect)
         )
       )
       (net DIR_2
+        (via "Via[0-1]_889:635_um" 803276 -1085040
+          (type protect)
+        )
         (wire
           (path Front 2032
-            908050 -1117600
-            908050 -1212850
-            825500 -1295400
+            774700 -1085850
+            802469 -1085850
+            803276 -1085040
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1206500 -762000
+            1198090 -762000
+            985997 -974090
+            903573 -974090
+            852296 -1025370
+            845613 -1025370
+            840924 -1030060
+            840924 -1036740
+            803276 -1074390
+            803276 -1085040
           )
           (type protect)
         )
@@ -1944,759 +4157,846 @@
       (net DIR_3
         (wire
           (path Front 2032
-            920750 -1117600
-            920750 -1150990
-            989080 -1219320
-            989080 -1237460
-            997629 -1246010
-            1012370 -1246010
-            1014890 -1248520
-            1014890 -1299780
-            998400 -1316260
-            643163 -1316260
-            622300 -1295400
+            774700 -1098550
+            765426 -1098550
+            747013 -1116960
+            747013 -1175770
+            660400 -1262380
+            628650 -1262380
+            622300 -1268730
+            622300 -1282700
           )
           (type protect)
         )
       )
-      (net GND
+      (net DIR_4
         (wire
           (path Front 2032
-            723905 -1006480
-            723900 -1006475
+            774700 -1111250
+            765426 -1111250
+            765426 -1140840
+            825500 -1200910
+            825500 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net DIR_5
+        (wire
+          (path Front 2032
+            774700 -1123950
+            783974 -1123950
+            929451 -1269430
+            1015430 -1269430
+            1028700 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net DIR_6
+        (wire
+          (path Front 2032
+            749300 -825500
+            749300 -836171
           )
         )
         (wire
           (path Front 2032
-            723905 -1006480
-            729172 -1006480
+            749300 -836171
+            738629 -836171
+            718509 -856291
+            608597 -856291
+            546120 -918768
+            546120 -1070266
+            596417 -1120563
+            596417 -1278601
+            616477 -1298661
+            901418 -1298661
+            912777 -1287302
+            912777 -1263577
+            785850 -1136650
+            774700 -1136650
+          )
+        )
+      )
+      (net DIR_7
+        (wire
+          (path Front 2032
+            723900 -1123950
+            732666 -1123950
+          )
+        )
+        (wire
+          (path Front 2032
+            673100 -1193800
+            687150 -1193800
+          )
+        )
+        (wire
+          (path Front 2032
+            687150 -1193800
+            732666 -1148284
+            732666 -1123950
+          )
+        )
+      )
+      (net IOREF
+        (wire
+          (path Back 2032
+            673100 -927100
+            673100 -938279
+            669972 -941407
+            669972 -981028
+            596900 -1054100
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            673100 -927100
+            673100 -915921
+            670305 -915921
+            608745 -854361
+            608745 -804835
+            577089 -773179
+            571500 -773179
+            571500 -762000
+          )
+          (type protect)
+        )
+      )
+      (net MISO
+        (wire
+          (path Front 2032
+            831850 -1085850
+            841124 -1085850
+            852884 -1074090
+            852884 -1046050
+            848214 -1041380
+            815700 -1041380
+            733174 -958850
+            723900 -958850
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            723900 -1006480
-            723905 -1006480
+            571500 -952500
+            582704 -963704
+            606189 -963704
+            626377 -943516
+            696931 -943516
+            712265 -958850
+            723900 -958850
+          )
+          (type protect)
+        )
+      )
+      (net MOSI
+        (via "Via[0-1]_889:635_um" 648418 -962298
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            831850 -1073150
+            822576 -1073150
+            822576 -1064870
+            735358 -977649
+            684714 -977649
+            669363 -962298
+            648418 -962298
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            596900 -952500
+            606698 -962298
+            648418 -962298
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000100"
+        (wire
+          (path Front 2032
+            1339860 -1133480
+            1339855 -1133480
+            1339850 -1133475
+          )
+        )
+        (wire
+          (path Front 2032
+            1371600 -1138860
+            1355780 -1138860
+            1350390 -1133480
+            1339860 -1133480
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000101"
+        (wire
+          (path Front 2032
+            1308095 -1133480
+            1308100 -1133475
+          )
+        )
+        (wire
+          (path Front 2032
+            1308095 -1133480
+            1297560 -1133480
+            1297560 -1136020
+            1290580 -1143000
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1311280 -821828
-            1311275 -821823
-            1311275 -812800
-          )
-        )
-        (wire
-          (path Front 2032
-            1311280 -821828
-            1311280 -812800
-            1319280 -812800
-            1319280 -725421
-            1333500 -711200
+            1308100 -1133480
+            1308095 -1133480
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1294510 -850900
-            1302790 -850900
-            1302790 -839340
-            1311280 -830856
-            1311280 -821828
+            1290580 -1143000
+            1290580 -1170180
+            1308100 -1187700
+            1308100 -1200150
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1298580 -1339850
+            1286510 -1143000
+            1290580 -1143000
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000102"
+        (wire
+          (path Front 2032
+            1308095 -1222380
+            1308100 -1222375
+          )
+        )
+        (wire
+          (path Front 2032
+            1308095 -1222380
+            1297560 -1222380
+            1297560 -1224920
+            1290580 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1308100 -1222380
+            1308095 -1222380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1308100 -1295400
+            1308100 -1282950
+            1290580 -1265430
+            1290580 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1286510 -1231900
+            1290580 -1231900
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000103"
+        (wire
+          (path Front 2032
+            1308095 -1044580
+            1308100 -1044575
+          )
+        )
+        (wire
+          (path Front 2032
+            1308095 -1044580
+            1297560 -1044580
+            1297560 -1047120
+            1290580 -1054100
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1308100 -1044580
+            1308095 -1044580
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1308100 -1111250
+            1308100 -1098800
+            1290580 -1081280
+            1290580 -1054100
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1286510 -1054100
+            1290580 -1054100
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000106"
+        (wire
+          (path Front 2032
+            1339860 -1044580
+            1339855 -1044580
+            1339850 -1044575
+          )
+        )
+        (wire
+          (path Front 2032
+            1371600 -1049960
+            1355780 -1049960
+            1350390 -1044580
+            1339860 -1044580
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000109"
+        (wire
+          (path Front 2032
+            1257300 -571500
+            1257300 -635000
+            1238250 -654050
+            1238250 -764540
+            1223010 -779780
+            1150620 -779780
+            1130300 -800100
+            1130300 -882650
+            1092200 -920750
+            1092200 -933450
+            1089020 -936625
+            1079500 -936625
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000110"
+        (wire
+          (path Front 2032
+            1193800 -571500
+            1193800 -577850
+            1231900 -615950
+            1231900 -762000
+            1219200 -774700
+            1149350 -774700
+            1123950 -800100
+            1123950 -876300
+            1117600 -882650
+            1082680 -882650
+            1079500 -885825
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000112"
+        (wire
+          (path Front 2032
+            1079500 -1038225
+            1079500 -1038220
+          )
+        )
+        (wire
+          (path Front 2032
+            1079700 -1038022
+            1079500 -1038220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079900 -1037825
+            1079700 -1038022
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079700 -1038022
+            1079500 -1038220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079900 -1037825
+            1079700 -1038022
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1080300 -1037430
+            1079900 -1037825
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1080300 -1037430
+            1079900 -1037825
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1082680 -1035050
+            1080300 -1037430
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1384300 -571500
+            1250950 -704850
+            1250950 -772160
+            1231900 -791210
+            1154430 -791210
+            1143000 -802640
+            1143000 -895350
+            1104900 -933450
+            1104900 -990600
+            1098550 -996950
+            1098550 -1019180
+            1079500 -1038220
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000113"
+        (wire
+          (path Front 2032
+            1079500 -987425
+            1095380 -987425
+            1098550 -984250
+            1098550 -927100
+            1136650 -889000
+            1136650 -801370
+            1153160 -784860
+            1228090 -784860
+            1244600 -768350
+            1244600 -679450
+            1320800 -603250
+            1320800 -571500
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000118"
+        (wire
+          (path Front 2032
+            1079505 -1139820
+            1079500 -1139825
+          )
+        )
+        (wire
+          (path Front 2032
+            1460500 -692150
+            1339850 -692150
+            1263650 -768350
+            1263650 -779780
+            1242060 -801370
+            1156970 -801370
+            1155700 -802640
+            1155700 -908050
+            1117600 -946150
+            1117600 -1003300
+            1111250 -1009650
+            1111250 -1123950
+            1095380 -1139820
+            1079505 -1139820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079505 -1139820
+            1079500 -1139820
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000122"
+        (wire
+          (path Front 2032
+            1079505 -1089020
+            1079500 -1089025
+          )
+        )
+        (wire
+          (path Front 2032
+            1079505 -1089020
+            1089020 -1089020
+            1104900 -1073150
+            1104900 -1003300
+            1111250 -996950
+            1111250 -939800
+            1149350 -901700
+            1149350 -802640
+            1155700 -796290
+            1236980 -796290
+            1257300 -775970
+            1257300 -736600
+            1365250 -628650
+            1460500 -628650
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1079500 -1089020
+            1079505 -1089020
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000123"
+        (wire
+          (path Back 2032
+            927100 -1244600
+            927100 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000124"
+        (wire
+          (path Back 2032
+            952500 -1244600
+            952500 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000133"
+        (wire
+          (path Back 2032
+            1155700 -1244600
+            1155700 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000134"
+        (wire
+          (path Back 2032
+            1130300 -1244600
+            1130300 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000135"
+        (wire
+          (path Front 2032
+            1003295 -1241420
+            1003300 -1241425
+          )
+        )
+        (wire
+          (path Front 2032
+            1003295 -1241420
+            992756 -1241420
+            989581 -1244600
+            977900 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1003300 -1241420
+            1003295 -1241420
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            977900 -1244600
+            977900 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000136"
+        (wire
+          (path Front 2032
+            1206495 -1241420
+            1206500 -1241425
+          )
+        )
+        (wire
+          (path Front 2032
+            1206495 -1241420
+            1184280 -1241420
+            1181100 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1206500 -1241420
+            1206495 -1241420
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1181100 -1244600
+            1181100 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000137"
+        (wire
+          (path Front 2032
+            1339850 -758825
+            1339850 -766829
+            1332990 -766829
+            1322580 -777240
+            1314450 -777240
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1314450 -777240
+            1314450 -838200
+            1308100 -844550
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000139"
+        (wire
+          (path Front 2032
+            1308100 -933450
+            1308100 -921001
+            1335270 -893830
+            1348410 -893830
+            1350430 -891810
+            1350430 -879932
+            1347230 -876736
+            1331940 -876736
+            1321980 -866775
+            1308100 -866775
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1276350 -866140
+            1296920 -866140
+            1297560 -866775
+            1308100 -866775
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000141"
+        (wire
+          (path Front 2032
+            1339850 -866775
+            1350390 -866775
+            1355780 -872160
+            1371600 -872160
+          )
+          (type protect)
+        )
+      )
+      (net "N-00000142"
+        (wire
+          (path Front 2032
+            1365250 -783260
+            1365250 -758825
+          )
+          (type protect)
+        )
+      )
+      (net "N-000002"
+        (via "Via[0-1]_889:635_um" 776328 -1037280
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 815124 -966336
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            723900 -1047750
+            733174 -1047750
+            746877 -1034050
+            773093 -1034050
+            776328 -1037280
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            815124 -966336
+            815124 -998486
+            776328 -1037280
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            838200 -958850
+            822610 -958850
+            815124 -966336
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000032"
+        (wire
+          (path Front 2032
+            1298580 -1349915
+            1298575 -1349910
             1298575 -1339850
           )
         )
         (wire
           (path Front 2032
-            1298580 -1339850
-            1302580 -1339850
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1117600 -1177925
-            1117600 -1177920
-          )
-        )
-        (wire
-          (path Front 2032
-            1317620 -1339850
-            1317625 -1339850
-          )
-        )
-        (wire
-          (path Front 2032
-            1317620 -1339850
-            1309620 -1339850
-            1308100 -1341370
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1226590 -862461
-            1277640 -862461
-            1286230 -853874
-            1286230 -850900
-            1294510 -850900
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1294510 -850900
-            1302791 -850900
-          )
-        )
-        (wire
-          (path Front 2032
-            1226590 -850900
-            1226590 -862461
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1235075 -812800
-            1227070 -812800
-            1227070 -838860
-            1226590 -839340
-            1226590 -850900
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1226590 -850900
-            1226591 -850900
-          )
-        )
-        (wire
-          (path Front 2032
-            1150390 -845120
-            1150391 -845121
-            1150391 -850900
-          )
-        )
-        (wire
-          (path Front 2032
-            1150390 -845120
-            1150390 -850900
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1150870 -812800
-            1150870 -838860
-            1150390 -839340
-            1150390 -845120
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            1390853 -1397000
-            1390850 -1397000
-          )
-        )
-        (wire
-          (path Front 2032
-            1074190 -845120
-            1074191 -845121
-            1074191 -850900
-          )
-        )
-        (wire
-          (path Front 2032
-            1074190 -845120
-            1074190 -850900
-            1041520 -850900
-            1014880 -877537
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1082675 -812800
-            1074670 -812800
-            1074670 -839340
-            1074190 -839340
-            1074190 -845120
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1308100 -1341370
-            1306580 -1339850
-            1302580 -1339850
+            1298580 -1349915
+            1298580 -1343850
           )
           (type protect)
         )
         (wire
           (path Front 2032
             1308100 -1377950
-            1308100 -1341370
+            1308100 -1365500
+            1298580 -1355980
+            1298580 -1349915
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1158875 -812800
-            1150870 -812800
+            1290320 -1401010
+            1290320 -1401013
           )
-          (type protect)
         )
         (wire
           (path Front 2032
-            1158880 -812800
-            1158875 -812800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            901700 -1006475
-            901700 -1006480
-            933450 -1038220
-            933450 -1066800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            913607 -941321
-            913607 -986564
-            901700 -998471
-            901700 -1006475
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            729172 -1006480
-            734444 -1006480
-            739019 -1011050
-            739019 -1040900
-            755650 -1057530
-            755650 -1066800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1090680 -773112
-            1090680 -812800
-            1082675 -812800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1235080 -812800
-            1235075 -812800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1003300 -1235075
-            1003300 -1227070
-            927350 -1151120
-            927350 -1108330
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1240790 -1241430
-            1020200 -1241430
-            1013840 -1235080
-            1003300 -1235080
-            1003300 -1235075
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1240790 -1247140
-            1240790 -1241430
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            800100 -1235075
-            800100 -1235080
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            806450 -1126870
-            789736 -1126870
-            787149 -1124290
-            787149 -1110410
-            785063 -1108320
-            776214 -1108320
-            774950 -1109590
-            774950 -1125470
-            776355 -1126880
-            776355 -1182060
-            800100 -1205810
-            800100 -1235075
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            806450 -1117600
-            806450 -1126870
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            927350 -1108330
-            903982 -1108330
-            901950 -1110360
-            901950 -1124440
-            899511 -1126870
-            806450 -1126870
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            927350 -1108330
-            984250 -1108330
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            1333500 -711200
-            1322320 -700020
-            1268480 -700020
-            1257300 -711200
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            1257300 -711200
-            1246120 -700020
-            1192280 -700020
-            1181100 -711200
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1247140 -942340
-            1247140 -950471
-            1255270 -958602
-            1255270 -1032760
-            1252220 -1035810
-            1247140 -1035810
-            1247140 -1043940
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            984250 -1117600
-            984250 -1108330
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1010900 -1090940
-            1049370 -1129410
-            1066800 -1129410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1014880 -877537
-            1014880 -1086970
-            1010900 -1090940
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1010900 -1090940
-            993524 -1108330
-            984250 -1108330
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1130300 -1003300
-            1226590 -907009
-            1226590 -862461
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
+            1290320 -1401010
+            1290320 -1395730
             1308100 -1377950
-            1327150 -1397000
-            1390850 -1397000
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1104900 -1129410
-            1104900 -1163220
-            1111600 -1169920
-            1117600 -1169920
-            1117600 -1177920
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1092200 -1124780
-            1096840 -1129410
-            1104900 -1129410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1302580 -1339850
-            1240790 -1278060
-            1240790 -1247140
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1240790 -1145540
-            1240790 -1153670
-            1248920 -1161800
-            1248920 -1235960
-            1245870 -1239010
-            1240790 -1239010
-            1240790 -1241430
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1247140 -1043940
-            1247140 -1052070
-            1248920 -1053850
-            1248920 -1134360
-            1245870 -1137410
-            1240790 -1137410
-            1240790 -1145540
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1092200 -1124780
-            1087560 -1129410
-            1066800 -1129410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1104900 -1120140
-            1104900 -1129410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1092200 -1120140
-            1092200 -1124780
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1092200 -1120140
-            1092200 -1110870
-            1079500 -1098160
-            1079500 -1076070
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1079500 -1066800
-            1079500 -1076070
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1054100 -1066800
-            1054100 -1076070
-            1079500 -1076070
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1066800 -1120140
-            1066800 -1129410
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            608528 -886069
-            617179 -877418
-            652450 -877418
-            660400 -885368
-            660400 -892934
-            682088 -914622
-            701998 -914622
-            733560 -946183
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            622300 -949325
-            622300 -942465
-            617441 -942465
-            608527 -933551
-            608527 -886070
-            608528 -886069
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            546100 -838200
-            560658 -838200
-            608528 -886069
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            913607 -941321
-            916024 -941321
-            963680 -893665
-            963680 -887171
-            973314 -877537
-            1014880 -877537
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1104900 -751108
-            1107480 -751108
-            1150870 -794500
-            1150870 -812800
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1090680 -773112
-            1090680 -756440
-            1096010 -751108
-            1104900 -751108
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1104900 -711200
-            1104900 -751108
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1090680 -773112
-            1014410 -773112
-            1003300 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1181100 -711200
-            1169920 -700020
-            1116080 -700020
-            1104900 -711200
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            733560 -946183
-            729172 -950571
-            729172 -1006480
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            825500 -941321
-            819497 -941321
-            811279 -933103
-            811279 -884369
-            804731 -877821
-            795470 -877821
-            788921 -884370
-            788921 -890822
-            733560 -946183
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            825500 -941321
-            913607 -941321
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            622300 -1422400
-            610857 -1410960
-            610857 -1118860
-            546100 -1054100
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            1130300 -1003300
-            1130300 -965200
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1003300 -762000
-            985090 -743790
-            816970 -743790
-            800100 -760660
-            800100 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            825500 -949325
-            825500 -941321
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            622300 -1422400
-            633480 -1411220
-            728549 -1411220
-            736600 -1419270
-            736600 -1425530
-            747340 -1436270
-            811632 -1436270
-            825500 -1422400
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            546100 -1054100
-            532130 -1040130
-            532130 -900430
-            530860 -899160
-            530860 -853440
-            546100 -838200
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000015"
-        (wire
-          (path Front 2032
-            1282700 -1378153
-            1282700 -1377950
-          )
-        )
-        (wire
-          (path Front 2032
-            1279520 -1343978
-            1279525 -1343973
-            1279525 -1339850
-          )
-        )
-        (wire
-          (path Front 2032
-            1279520 -1343978
-            1279520 -1339850
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1282700 -1377950
-            1282700 -1365500
-            1279520 -1362330
-            1279520 -1343978
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000038"
-        (wire
-          (path Back 2032
-            927100 -1257300
-            927100 -1295400
+            1308100 -1378150
+            1308100 -1377950
           )
           (type protect)
         )
       )
       (net "N-0000039"
         (wire
+          (path Front 2032
+            1165810 -1019250
+            1165809 -1019251
+          )
+        )
+        (wire
+          (path Front 2032
+            1198170 -1020940
+            1196480 -1019250
+            1165810 -1019250
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1198170 -1020940
+          (type protect)
+        )
+        (wire
           (path Back 2032
-            952500 -1257300
-            952500 -1295400
+            1200150 -946150
+            1200150 -956821
+            1194870 -962099
+            1194870 -1017640
+            1198170 -1020940
           )
           (type protect)
         )
       )
       (net "N-0000040"
         (wire
+          (path Front 2032
+            1165810 -1012750
+            1165809 -1012749
+          )
+        )
+        (wire
+          (path Front 2032
+            1165810 -1012750
+            1176210 -1012750
+            1202370 -986594
+            1202370 -972391
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1202370 -972391
+          (type protect)
+        )
+        (wire
           (path Back 2032
-            876300 -927100
-            876300 -889000
+            1225550 -920750
+            1214990 -920750
+            1214990 -959766
+            1202370 -972391
           )
           (type protect)
         )
       )
       (net "N-0000041"
         (wire
-          (path Back 2032
-            901700 -927100
-            901700 -889000
+          (path Front 2032
+            1165813 -1006250
+            1165809 -1006246
+          )
+        )
+        (wire
+          (path Front 2032
+            1200150 -920750
+            1200150 -931421
+            1194650 -931421
+            1184430 -941647
+            1184430 -953013
+            1188210 -956791
+            1188210 -994254
+            1176210 -1006250
+            1165813 -1006250
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1165813 -1006250
+            1165810 -1006250
           )
           (type protect)
         )
@@ -2704,298 +5004,228 @@
       (net "N-0000042"
         (wire
           (path Front 2032
-            1003295 -1254120
-            1003300 -1254125
+            1165810 -999744
+            1165809 -999744
           )
         )
         (wire
           (path Front 2032
-            1003295 -1254120
-            992756 -1254120
-            989581 -1257300
-            977900 -1257300
+            1165810 -999744
+            1176210 -999744
+            1180880 -995076
+            1180880 -960567
+            1180260 -959949
           )
           (type protect)
         )
-        (wire
-          (path Front 2032
-            1003300 -1254120
-            1003295 -1254120
-          )
+        (via "Via[0-1]_889:635_um" 1180260 -959949
           (type protect)
         )
         (wire
           (path Back 2032
-            977900 -1295400
-            977900 -1257300
+            1225550 -895350
+            1214990 -895350
+            1210920 -899418
+            1210920 -925056
+            1204560 -931422
+            1194590 -931422
+            1180260 -945745
+            1180260 -959949
           )
           (type protect)
         )
       )
       (net "N-0000043"
         (wire
-          (path Back 2032
-            647700 -889000
-            647700 -927100
+          (path Front 2032
+            1165810 -993242
+            1165809 -993242
+          )
+        )
+        (wire
+          (path Front 2032
+            1200150 -895350
+            1200150 -906021
+            1194350 -906021
+            1184430 -915939
+            1184430 -929309
+            1172770 -940970
+            1172770 -963054
+            1176210 -966500
+            1176210 -993242
+            1165810 -993242
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000044"
+        (wire
+          (path Front 2032
+            1165809 -986739
+            1165810 -986739
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            622300 -930275
-            632844 -930275
-            636019 -927100
-            647700 -927100
+            1225550 -869950
+            1214990 -869950
+            1214990 -843081
+            1205710 -833802
+            1190590 -833802
+            1175090 -849298
+            1175090 -894591
+            1151340 -918345
+            1151340 -982671
+            1155400 -986739
+            1165809 -986739
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000045"
+        (wire
+          (path Front 2032
+            1165809 -980262
+            1155400 -980262
+            1155400 -920030
+            1194810 -880621
+            1200150 -880621
+            1200150 -869950
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1165810 -980262
+            1165809 -980262
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000046"
+        (wire
+          (path Front 2032
+            1165810 -969423
+            1165809 -969424
+            1165809 -973760
+          )
+        )
+        (wire
+          (path Front 2032
+            1165810 -969423
+            1165810 -973760
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1176930 -917387
+            1165810 -928510
+            1165810 -969423
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1176930 -917387
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1225550 -844550
+            1214990 -844550
+            1214990 -845870
+            1203610 -857250
+            1192240 -857250
+            1176930 -872555
+            1176930 -917387
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000047"
+        (wire
+          (path Front 2032
+            1221790 -980262
+            1221791 -980262
+          )
+        )
+        (wire
+          (path Front 2032
+            1200150 -844550
+            1210710 -844550
+            1210710 -979582
+            1211390 -980262
+            1221790 -980262
           )
           (type protect)
         )
       )
       (net "N-0000048"
         (wire
-          (path Back 2032
-            723900 -1257300
-            723900 -1295400
+          (path Front 2032
+            1221790 -986739
+            1221791 -986739
+          )
+        )
+        (wire
+          (path Front 2032
+            1221790 -986739
+            1211390 -986739
+            1204870 -993253
+            1204870 -996996
           )
           (type protect)
         )
-      )
-      (net "N-0000049"
-        (wire
-          (path Front 2032
-            800095 -1254120
-            800100 -1254125
-          )
-        )
-        (wire
-          (path Front 2032
-            800095 -1254120
-            789556 -1254120
-            786381 -1257300
-            774700 -1257300
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            800100 -1254120
-            800095 -1254120
-          )
+        (via "Via[0-1]_889:635_um" 1204870 -996996
           (type protect)
         )
         (wire
           (path Back 2032
-            774700 -1257300
-            774700 -1295400
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000050"
-        (wire
-          (path Back 2032
-            749300 -1257300
-            749300 -1295400
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000051"
-        (wire
-          (path Back 2032
-            698500 -927100
-            698500 -889000
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000052"
-        (wire
-          (path Back 2032
-            673100 -927100
-            673100 -889000
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000053"
-        (wire
-          (path Front 2032
-            825500 -930275
-            836044 -930275
-            839219 -927100
-            850900 -927100
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            850900 -889000
-            850900 -927100
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000066"
-        (wire
-          (path Front 2032
-            1320805 -1025520
-            1320800 -1025525
-          )
-        )
-        (wire
-          (path Front 2032
-            1320805 -1025520
-            1331340 -1025520
-            1332310 -1024560
-            1346200 -1024560
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1320800 -1025520
-            1320805 -1025520
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000067"
-        (wire
-          (path Front 2032
-            1314455 -1127120
-            1314450 -1127125
-          )
-        )
-        (wire
-          (path Front 2032
-            1314455 -1127120
-            1324990 -1127120
-            1325960 -1126160
-            1339850 -1126160
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1314450 -1127120
-            1314455 -1127120
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000068"
-        (wire
-          (path Front 2032
-            1320800 -923925
-            1331340 -923925
-            1332310 -922960
-            1346200 -922960
+            1225550 -819150
+            1225550 -829821
+            1230880 -829821
+            1241100 -840039
+            1241100 -961703
+            1250950 -971550
+            1250950 -984250
+            1238200 -996996
+            1204870 -996996
           )
           (type protect)
         )
       )
       (net "N-0000069"
         (wire
-          (path Front 2032
-            1314455 -1228720
-            1314450 -1228725
-          )
-        )
-        (wire
-          (path Front 2032
-            1314455 -1228720
-            1324990 -1228720
-            1325960 -1227760
-            1339850 -1227760
+          (path Back 2032
+            1104900 -800100
+            1104900 -762000
           )
           (type protect)
         )
+      )
+      (net "N-0000070"
         (wire
-          (path Front 2032
-            1314450 -1228720
-            1314455 -1228720
+          (path Back 2032
+            1079500 -800100
+            1079500 -762000
           )
           (type protect)
         )
       )
       (net "N-0000071"
         (wire
-          (path Front 2032
-            1289045 -1228720
-            1289050 -1228725
-          )
-        )
-        (wire
-          (path Front 2032
-            1289045 -1228720
-            1278510 -1228720
-            1278510 -1228980
-            1269240 -1238250
-            1265180 -1238250
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1289050 -1228720
-            1289045 -1228720
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1261110 -1238250
-            1265180 -1238250
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1282700 -1295400
-            1282700 -1282950
-            1265180 -1265430
-            1265180 -1238250
+          (path Back 2032
+            876300 -800100
+            876300 -762000
           )
           (type protect)
         )
       )
-      (net "N-0000073"
+      (net "N-0000072"
         (wire
-          (path Front 2032
-            1289045 -1127120
-            1289050 -1127125
-          )
-        )
-        (wire
-          (path Front 2032
-            1289045 -1127120
-            1278510 -1127120
-            1278510 -1127380
-            1269240 -1136650
-            1267210 -1136650
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1289050 -1127120
-            1289045 -1127120
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1261110 -1136650
-            1267210 -1136650
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1282700 -1193800
-            1282700 -1181350
-            1267210 -1165860
-            1267210 -1136650
+          (path Back 2032
+            901700 -800100
+            901700 -762000
           )
           (type protect)
         )
@@ -3003,101 +5233,44 @@
       (net "N-0000074"
         (wire
           (path Front 2032
-            1295400 -923925
-            1284860 -923925
-            1284860 -923931
-            1275340 -933450
+            1028700 -815975
+            1039240 -815975
+            1039240 -814956
+            1054100 -800100
           )
           (type protect)
         )
         (wire
-          (path Front 2032
-            1282700 -990600
-            1282700 -978151
-            1275340 -970788
-            1275340 -933450
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1267460 -933450
-            1275340 -933450
-          )
-          (type protect)
-        )
-      )
-      (net "N-0000075"
-        (wire
-          (path Front 2032
-            1295395 -1025520
-            1295400 -1025525
-          )
-        )
-        (wire
-          (path Front 2032
-            1295395 -1025520
-            1284860 -1025520
-            1275330 -1035050
-            1273580 -1035050
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1295400 -1025520
-            1295395 -1025520
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1282700 -1092200
-            1282700 -1079750
-            1273580 -1070640
-            1273580 -1035050
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1267460 -1035050
-            1273580 -1035050
+          (path Back 2032
+            1054100 -800100
+            1054100 -762000
           )
           (type protect)
         )
       )
       (net "N-0000078"
         (wire
+          (path Back 2032
+            647700 -800100
+            647700 -762000
+          )
+          (type protect)
+        )
+        (wire
           (path Front 2032
-            1104900 -1003300
-            1117600 -1016000
-            1117600 -1066800
+            622300 -815975
+            622300 -807971
+            630171 -800100
+            647700 -800100
           )
           (type protect)
         )
       )
       (net "N-0000079"
         (wire
-          (path Front 2032
-            1311280 -743777
-            1311275 -743782
-            1311275 -762000
-          )
-        )
-        (wire
-          (path Front 2032
-            1311280 -743777
-            1311280 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1308100 -711200
-            1308100 -722379
-            1311280 -725554
-            1311280 -743777
+          (path Back 2032
+            723900 -1244600
+            723900 -1282700
           )
           (type protect)
         )
@@ -3105,61 +5278,50 @@
       (net "N-0000080"
         (wire
           (path Front 2032
-            1235080 -743777
-            1235075 -743782
-            1235075 -762000
+            800095 -1241420
+            800100 -1241425
           )
         )
         (wire
           (path Front 2032
-            1235080 -743777
-            1235080 -762000
+            774700 -1244600
+            786381 -1244600
+            789556 -1241420
+            800095 -1241420
           )
           (type protect)
         )
         (wire
-          (path Front 2032
-            1231900 -711200
-            1231900 -722379
-            1235080 -725554
-            1235080 -743777
+          (path Back 2032
+            774700 -1282700
+            774700 -1244600
           )
           (type protect)
         )
       )
       (net "N-0000081"
         (wire
-          (path Front 2032
-            1104900 -965200
-            1093540 -976563
-            1093540 -1009720
-            1104900 -1021080
-            1104900 -1066800
+          (path Back 2032
+            749300 -1244600
+            749300 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000082"
+        (wire
+          (path Back 2032
+            698500 -800100
+            698500 -762000
           )
           (type protect)
         )
       )
       (net "N-0000083"
         (wire
-          (path Front 2032
-            1082680 -743777
-            1082675 -743782
-            1082675 -762000
-          )
-        )
-        (wire
-          (path Front 2032
-            1082680 -743777
-            1082680 -762000
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1079500 -711200
-            1079500 -722379
-            1082680 -725554
-            1082680 -743777
+          (path Back 2032
+            673100 -800100
+            673100 -762000
           )
           (type protect)
         )
@@ -3167,24 +5329,73 @@
       (net "N-0000084"
         (wire
           (path Front 2032
-            1158880 -743777
-            1158875 -743782
-            1158875 -762000
+            825500 -815975
+            825500 -807971
+            833371 -800100
+            850900 -800100
           )
+          (type protect)
         )
         (wire
+          (path Back 2032
+            850900 -800100
+            850900 -762000
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000097"
+        (wire
           (path Front 2032
-            1158880 -743777
-            1158880 -762000
+            1276350 -955040
+            1284480 -955040
+            1285120 -955675
+            1297460 -955675
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1155700 -711200
-            1155700 -722379
-            1158880 -725554
-            1158880 -743777
+            1297460 -955675
+            1297460 -999263
+            1308100 -1009900
+            1308100 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1308100 -955675
+            1297460 -955675
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000098"
+        (wire
+          (path Front 2032
+            1339850 -955675
+            1350390 -955675
+            1355780 -961060
+            1371600 -961060
+          )
+          (type protect)
+        )
+      )
+      (net "N-0000099"
+        (wire
+          (path Front 2032
+            1339860 -1222380
+            1339855 -1222380
+            1339850 -1222375
+          )
+        )
+        (wire
+          (path Front 2032
+            1371600 -1227760
+            1355780 -1227760
+            1350390 -1222380
+            1339860 -1222380
           )
           (type protect)
         )
@@ -3192,41 +5403,49 @@
       (net SCL
         (wire
           (path Front 2032
-            635000 -1006475
-            635000 -1006480
+            1165810 -1045260
+            1165809 -1045261
           )
-          (type protect)
         )
         (wire
           (path Front 2032
-            546100 -889000
-            546100 -909571
-            635000 -998471
-            635000 -1006475
+            1165810 -1045260
+            1184050 -1045260
+            1190580 -1038740
           )
           (type protect)
         )
-        (via "Via[0-1]_889:635_um" 1130300 -1044200
+        (via "Via[0-1]_889:635_um" 1192530 -746760
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1190580 -1038740
           (type protect)
         )
         (wire
           (path Back 2032
-            546100 -889000
-            546100 -877821
-            557279 -877821
-            562069 -873031
-            1007810 -873031
-            1090680 -955897
-            1090680 -1005080
-            1129800 -1044200
-            1130300 -1044200
+            1190580 -1038740
+            1190580 -981025
+            1165860 -956310
+            1165860 -805545
+            1194700 -776707
+            1212110 -776707
+            1220470 -768350
+            1220470 -750570
+            1216660 -746760
+            1192530 -746760
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1130300 -1044200
-            1130300 -1066800
+            1192530 -746760
+            1191680 -745913
+            622577 -745913
+            596303 -772187
+            596303 -807225
+            576507 -827021
+            571500 -827021
+            571500 -838200
           )
           (type protect)
         )
@@ -3234,89 +5453,80 @@
       (net SDA
         (wire
           (path Front 2032
-            660400 -1006480
-            660400 -1006475
+            1165807 -1051740
+            1165809 -1051738
           )
-          (type protect)
         )
-        (via "Via[0-1]_889:635_um" 1138470 -1109830
+        (wire
+          (path Front 2032
+            1165807 -1051740
+            1165810 -1051740
+          )
           (type protect)
         )
         (wire
           (path Front 2032
-            1130300 -1120140
-            1130300 -1110870
-            1137430 -1110870
-            1138470 -1109830
+            1123960 -1170290
+            1119760 -1166080
+            1119760 -1044260
+            1121430 -1042590
+            1138460 -1042590
+            1147610 -1051740
+            1165807 -1051740
           )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1123960 -1170290
           (type protect)
         )
         (wire
           (path Back 2032
-            546100 -863600
-            1019320 -863600
-            1116080 -960356
-            1116080 -1015380
-            1138470 -1037770
-            1138470 -1109830
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            546100 -863600
-            546100 -874779
-            551689 -874779
-            568335 -891425
-            568335 -912409
-            654397 -998471
-            660400 -998471
-            660400 -1006475
+            571500 -812800
+            571500 -823979
+            565910 -823979
+            536611 -853278
+            536611 -1087990
+            635000 -1186380
+            635000 -1286320
+            642943 -1294260
+            1084080 -1294260
+            1093330 -1285020
+            1093330 -1200930
+            1123960 -1170290
           )
           (type protect)
         )
       )
       (net STEP_0
-        (via "Via[0-1]_889:635_um" 754956 -1104830
-          (type protect)
-        )
         (wire
           (path Front 2032
-            755650 -1117600
-            755650 -1105520
-            754956 -1104830
-          )
-          (type protect)
-        )
-        (wire
-          (path Back 2032
-            774700 -889000
-            774700 -1066160
-            754956 -1085910
-            754956 -1104830
+            774700 -908050
+            783974 -908050
+            783974 -888209
+            774700 -878935
+            774700 -762000
           )
           (type protect)
         )
       )
       (net STEP_1
-        (via "Via[0-1]_889:635_um" 768350 -1130500
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            768350 -1117600
-            768350 -1130500
-          )
+        (via "Via[0-1]_889:635_um" 807040 -921001
           (type protect)
         )
         (wire
           (path Back 2032
-            977900 -889000
-            966508 -877608
-            947581 -877608
-            939800 -885389
-            939800 -959047
-            768350 -1130500
+            807040 -921001
+            822610 -921001
+            977900 -765711
+            977900 -762000
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            774700 -920750
+            806789 -920750
+            807040 -921001
           )
           (type protect)
         )
@@ -3324,261 +5534,483 @@
       (net STEP_2
         (wire
           (path Front 2032
-            850900 -1295400
-            839256 -1307040
-            820930 -1307040
-            814245 -1300360
-            814245 -1287730
-            815690 -1286280
-            815690 -1166670
-            781050 -1132030
-            781050 -1117600
+            774700 -933450
+            783974 -933450
+            784735 -934211
+            815886 -934211
+            822747 -927350
+            854197 -927350
+            866897 -940050
+            900180 -940050
+            909320 -930910
+            909320 -864870
+            928773 -845417
+            928773 -789537
+            938780 -779530
+            1053150 -779530
+            1066800 -765879
+            1066800 -758743
+            1074890 -750654
+            1169750 -750654
+            1181100 -762000
           )
           (type protect)
         )
       )
       (net STEP_3
+        (via "Via[0-1]_889:635_um" 755033 -952132
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            647700 -1282700
+            647700 -1243330
+            640080 -1235710
+            640080 -1067080
+            647700 -1059460
+            755033 -952132
+          )
+          (type protect)
+        )
         (wire
           (path Front 2032
-            793750 -1117600
-            793750 -1108330
-            782650 -1097230
-            759645 -1097230
-            758886 -1096470
-            738095 -1096470
-            724150 -1110410
-            724150 -1180500
-            647700 -1256950
-            647700 -1295400
+            774700 -946150
+            761015 -946150
+            755033 -952132
           )
           (type protect)
         )
       )
-      (net VREF
+      (net STEP_4
+        (via "Via[0-1]_889:635_um" 848928 -1033370
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            774700 -958850
+            765426 -958850
+            765426 -976342
+            766734 -977650
+            781817 -977650
+            837538 -1033370
+            848928 -1033370
+          )
+          (type protect)
+        )
         (wire
           (path Back 2032
-            546100 -812800
-            546100 -823979
+            848928 -1033370
+            852837 -1037280
+            852837 -1280760
+            850900 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net STEP_5
+        (wire
+          (path Front 2032
+            774700 -971550
+            783974 -971550
+            790073 -977649
+            845280 -977649
+            862079 -994448
+            862079 -1026520
+            863557 -1028000
+            863557 -1120650
+            944328 -1201420
+            980996 -1201420
+            989080 -1209500
+            989080 -1225160
+            994299 -1230380
+            1008900 -1230380
+            1054100 -1275580
+            1054100 -1282700
+          )
+          (type protect)
+        )
+      )
+      (net STEP_6
+        (wire
+          (path Back 2032
+            749300 -850900
+            749300 -861571
           )
         )
         (wire
           (path Front 2032
-            547897 -1076960
-            635000 -1164063
-            635000 -1187450
+            774700 -984250
+            765934 -984250
           )
         )
-        (via "Via[0-1]_889:635_um" 547897 -1076960
+        (wire
+          (path Front 2032
+            754257 -966435
+            754257 -972573
+            765934 -984250
+          )
+        )
+        (via "Via[0-1]_889:635_um" 754257 -966435
         )
         (wire
           (path Back 2032
-            546100 -823979
-            540510 -823979
-            525940 -838549
-            525940 -1055003
-            547897 -1076960
+            749300 -861571
+            728810 -882061
+            728810 -951172
+            733056 -955418
+            740271 -955418
+            751623 -944066
+            757572 -944066
+            762530 -949024
+            762530 -958162
+            754257 -966435
           )
+        )
+      )
+      (net STEP_7
+        (wire
+          (path Back 2032
+            673100 -1219200
+            673100 -1208529
+          )
+        )
+        (wire
+          (path Back 2032
+            655662 -1124292
+            655662 -1195093
+            669098 -1208529
+            673100 -1208529
+          )
+        )
+        (wire
+          (path Back 2032
+            655662 -1124292
+            650240 -1118870
+            650240 -1071880
+            699770 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            671830 -1140460
+            655662 -1124292
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 692150 -966470
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 689610 -1005840
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 699770 -1022350
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 671830 -1140460
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            689610 -1005840
+            689610 -969010
+            692150 -966470
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            692150 -966470
+            697230 -971550
+            723900 -971550
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            699770 -1022350
+            689610 -1012190
+            689610 -1005840
+          )
+          (type protect)
         )
       )
       (net V_GATE
         (wire
           (path Front 2032
-            1289055 -1247780
-            1289050 -1247775
+            1308105 -1241420
+            1308100 -1241425
           )
         )
         (wire
           (path Front 2032
-            1289055 -1247780
-            1296960 -1247780
-            1303850 -1240880
-            1303850 -1239770
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1289050 -1247780
-            1289055 -1247780
+            1324170 -1233420
+            1324170 -1235900
+            1318640 -1241420
+            1308105 -1241420
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1289055 -1146180
-            1289050 -1146175
-          )
-        )
-        (wire
-          (path Front 2032
-            1303900 -1146180
-            1289055 -1146180
+            1308105 -1241420
+            1308100 -1241420
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1289055 -1146180
-            1289050 -1146180
+            1308105 -1152520
+            1308100 -1152525
+          )
+        )
+        (wire
+          (path Front 2032
+            1324170 -1144520
+            1324170 -1147000
+            1318640 -1152520
+            1308105 -1152520
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1314445 -1146180
-            1314450 -1146175
-          )
-        )
-        (wire
-          (path Front 2032
-            1314445 -1146180
-            1303900 -1146180
+            1308105 -1152520
+            1308100 -1152520
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1314450 -1146180
-            1314445 -1146180
+            1339850 -1241420
+            1339850 -1241425
+          )
+        )
+        (wire
+          (path Front 2032
+            1324170 -1233420
+            1339850 -1233420
+            1339850 -1241420
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1320795 -1044580
-            1320800 -1044575
+            1339850 -1063625
+            1339845 -1063625
+            1339840 -1063620
           )
         )
         (wire
           (path Front 2032
-            1320795 -1044580
-            1310260 -1044580
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1320800 -1044580
-            1320795 -1044580
-          )
-          (type protect)
-        )
-        (wire
-          (path Front 2032
-            1295400 -1044580
-            1295400 -1044575
+            1339850 -1152520
+            1339850 -1152525
           )
         )
         (wire
           (path Front 2032
-            1295400 -1044580
-            1295400 -1048580
-            1306250 -1048580
-            1310260 -1044580
+            1324170 -1144520
+            1339850 -1144520
+            1339850 -1152520
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1336675 -1339850
-            1336680 -1339850
-            1336680 -1350390
-            1333500 -1353570
-            1333500 -1377950
+            1308100 -1063620
+            1308100 -1063625
+          )
+        )
+        (wire
+          (path Front 2032
+            1317700 -1052020
+            1314100 -1055620
+            1308100 -1055620
+            1308100 -1063620
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1314450 -1247775
-            1314450 -1255780
-            1320800 -1262130
-            1320800 -1325560
-            1335090 -1339850
-            1336675 -1339850
+            1318640 -885825
+            1339850 -885825
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1303850 -1239770
-            1314450 -1239770
-            1314450 -1247775
+            1308100 -885825
+            1318640 -885825
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1323980 -880745
+          (type protect)
+        )
+        (via "Via[0-1]_889:635_um" 1347860 -790523
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1317700 -1052020
+            1329310 -1063620
+            1339840 -1063620
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1306100 -942975
-            1320800 -942975
+            1362075 -1339850
+            1354070 -1339850
+            1354070 -1333850
+            1341150 -1320930
+            1310210 -1320930
+            1278330 -1289040
+            1278330 -1225280
+            1291120 -1212490
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1295400 -942975
-            1306100 -942975
+            1358900 -1377950
+            1358900 -1353570
+            1362080 -1350390
+            1362080 -1339850
+            1362075 -1339850
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1306100 -942975
-            1306100 -917545
-            1304480 -915920
-            1270280 -915920
-            1259080 -927115
-            1259080 -950435
-            1265050 -956403
-            1265050 -996349
-            1286000 -1017300
-            1308040 -1017300
-            1310260 -1019510
+            1350790 -747779
+            1365250 -747779
+            1365250 -739775
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1310260 -1019510
-            1310260 -1044580
+            1339850 -739775
+            1339850 -747779
+            1350790 -747779
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1479960 -1109560
-            1481990 -1107530
-            1481990 -1052440
-            1471310 -1041750
-            1372540 -1041750
-            1359760 -1028960
-            1359760 -1020350
-            1354340 -1014940
-            1314820 -1014940
-            1310260 -1019510
+            1350790 -747779
+            1350790 -787594
+            1347860 -790523
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1479960 -1109560
-            1314750 -1109560
-            1303900 -1120410
-            1303900 -1146180
+            1323980 -880745
+            1323720 -880745
+            1318640 -885825
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 2032
+            1347860 -790523
+            1346450 -791936
+            1346450 -858270
+            1323980 -880745
           )
           (type protect)
         )
         (wire
           (path Front 2032
-            1303850 -1239770
-            1303850 -1222680
-            1309200 -1217330
-            1350430 -1217330
-            1373870 -1193890
-            1455070 -1193890
-            1481760 -1167200
-            1481760 -1111360
-            1479960 -1109560
+            1308100 -885825
+            1308100 -893829
+            1295650 -906279
+            1295650 -944359
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1291120 -1212490
+            1292340 -1213700
+            1315950 -1213700
+            1324170 -1221920
+            1324170 -1233420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1323980 -969394
+            1329310 -974725
+            1339850 -974725
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1295650 -944359
+            1298300 -947005
+            1315950 -947005
+            1323980 -955032
+            1323980 -969394
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1323980 -969394
+            1318640 -974725
+            1308100 -974725
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1278160 -1125110
+            1316260 -1125110
+            1324170 -1133020
+            1324170 -1144520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1278160 -1125110
+            1278160 -1199530
+            1291120 -1212490
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1290450 -1035900
+            1278160 -1048200
+            1278160 -1125110
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1317700 -1052020
+            1318640 -1051080
+            1318640 -1038600
+            1315950 -1035900
+            1290450 -1035900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 2032
+            1295650 -944359
+            1272200 -944359
+            1268220 -948336
+            1268220 -961137
+            1276180 -969100
+            1276180 -1021630
+            1290450 -1035900
           )
           (type protect)
         )

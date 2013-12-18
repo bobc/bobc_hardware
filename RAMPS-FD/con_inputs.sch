@@ -551,7 +551,7 @@ F 3 "" H 9800 950 60  0001 C CNN
 	1    9800 950 
 	1    0    0    -1  
 $EndComp
-Text Notes 3550 1250 0    50   Italic 0
+Text Notes 3600 1200 0    50   ~ 0
 Endstop inputs are 5V tolerant
 Text Notes 3050 750  2    80   ~ 16
 Endstops
@@ -774,4 +774,6 @@ Wire Wire Line
 Connection ~ 800  2700
 Wire Notes Line
 	5650 900  5650 7400
+Text Notes 3600 1450 0    60   ~ 12
+JP801 should be used to enable pullups \nfor switch type endstops; \nremove for active types (e.g opto)
 $EndSCHEMATC

@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "6 oct 2013"
+Date "18 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,14 +48,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Connection ~ 7250 5550
-Wire Wire Line
-	7250 5400 7250 6500
 Connection ~ 8000 5550
 Wire Wire Line
 	7250 5550 8300 5550
-Connection ~ 7250 6100
-Wire Wire Line
-	7250 6500 7800 6500
 Wire Wire Line
 	6800 5300 7100 5300
 Wire Wire Line
@@ -68,13 +63,13 @@ Wire Notes Line
 	8950 3100 2900 3100
 Connection ~ 2700 6900
 Wire Wire Line
-	2050 6900 3050 6900
+	2050 6900 2700 6900
 Wire Wire Line
 	1950 6750 1950 6600
 Wire Wire Line
 	1950 6600 1300 6600
 Wire Wire Line
-	3050 6900 3050 6700
+	3200 7200 3200 7000
 Connection ~ 7350 4100
 Wire Wire Line
 	8000 4100 8000 4200
@@ -157,11 +152,11 @@ Connection ~ 8300 2800
 Wire Wire Line
 	1950 7050 1950 7200
 Wire Wire Line
-	1950 7200 1250 7200
+	1250 7200 3200 7200
 Wire Wire Line
 	1250 7200 1250 7050
 Wire Wire Line
-	2700 6800 2700 6900
+	2700 6900 2700 6800
 Wire Notes Line
 	8950 2200 2900 2200
 Wire Wire Line
@@ -170,7 +165,7 @@ Connection ~ 9300 6100
 Wire Wire Line
 	5200 5300 6000 5300
 Wire Wire Line
-	7600 6100 7250 6100
+	7250 6100 7600 6100
 Wire Wire Line
 	7400 5300 7600 5300
 Wire Wire Line
@@ -208,8 +203,6 @@ F 3 "" H 8000 5400 60  0001 C CNN
 	1    8000 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 6500 2    60   Output ~ 0
-V_GATE
 $Comp
 L JUMP_MINI_3 JP102
 U 1 1 523A3E0D
@@ -265,12 +258,12 @@ $EndComp
 $Comp
 L VCC #PWR015
 U 1 1 51B4F503
-P 3050 6700
-F 0 "#PWR015" H 3050 6800 30  0001 C CNN
-F 1 "VCC" H 3050 6800 30  0000 C CNN
-F 2 "" H 3050 6700 60  0001 C CNN
-F 3 "" H 3050 6700 60  0001 C CNN
-	1    3050 6700
+P 3200 7000
+F 0 "#PWR015" H 3200 7100 30  0001 C CNN
+F 1 "VCC" H 3200 7100 30  0000 C CNN
+F 2 "" H 3200 7000 60  0001 C CNN
+F 3 "" H 3200 7000 60  0001 C CNN
+	1    3200 7000
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 7450 0    50   ~ 0
@@ -623,7 +616,7 @@ L C C207
 U 1 1 523F9247
 P 6900 5650
 F 0 "C207" H 6950 5750 50  0000 L CNN
-F 1 "100nF 16V" H 6950 5550 50  0000 L CNN
+F 1 "100n 16V" H 6950 5550 50  0000 L CNN
 F 2 "" H 6900 5650 60  0001 C CNN
 F 3 "" H 6900 5650 60  0001 C CNN
 	1    6900 5650
@@ -712,4 +705,7 @@ Wire Notes Line
 	3800 3450 3800 4100
 Wire Notes Line
 	3800 4100 3700 4100
+Wire Wire Line
+	7250 5400 7250 6100
+Connection ~ 1950 7200
 $EndSCHEMATC

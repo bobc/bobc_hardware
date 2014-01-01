@@ -37,10 +37,10 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "19 dec 2013"
-Rev "0.2"
+Date "1 jan 2014"
+Rev "v1 Issue B"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "GPL v3"
@@ -60,7 +60,7 @@ SDA1
 Text GLabel 4350 1150 2    50   Output ~ 0
 SCL1
 $Sheet
-S 8150 2250 950  400 
+S 6900 800  950  400 
 U 5239FE5C
 F0 "Power" 60
 F1 "Power.sch" 60
@@ -76,13 +76,13 @@ IOREF
 Text GLabel 2050 2350 0    60   Input ~ 0
 AM-VIN
 $Sheet
-S 6850 850  1000 400 
+S 6850 2300 1000 400 
 U 50FC2853
 F0 "Stepper Drivers" 60
 F1 "steppers.sch" 60
 $EndSheet
 $Sheet
-S 8150 1550 950  400 
+S 8100 800  950  400 
 U 5239FA54
 F0 "Emergency Stop" 60
 F1 "e-stop.sch" 60
@@ -90,7 +90,7 @@ $EndSheet
 Text GLabel 1450 6050 0    50   Input ~ 0
 ESTOP
 $Sheet
-S 8150 850  950  400 
+S 8150 2300 950  400 
 U 51B4E84F
 F0 "Stepper Drivers 2" 60
 F1 "steppers2.sch" 60
@@ -119,7 +119,7 @@ A6
 Text GLabel 1450 2850 0    50   Input ~ 0
 THERM3
 $Sheet
-S 6850 2950 1000 400 
+S 9400 1550 1000 400 
 U 5176EFAC
 F0 "Misc Connectors" 60
 F1 "con_misc.sch" 60
@@ -131,9 +131,9 @@ E2_DIR
 Text GLabel 1000 5500 0    50   Output ~ 0
 E2_EN
 $Sheet
-S 6850 2250 1000 400 
+S 6850 3000 1000 400 
 U 50FC3D20
-F0 "Outputs" 60
+F0 "Mosfet Outputs" 60
 F1 "con_outputs.sch" 60
 $EndSheet
 Text GLabel 4750 1850 2    50   Output ~ 0
@@ -189,17 +189,6 @@ F 1 "GND" H 3700 7380 30  0001 C CNN
 F 2 "" H 3700 7450 60  0001 C CNN
 F 3 "" H 3700 7450 60  0001 C CNN
 	1    3700 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR02
-U 1 1 510847F7
-P 3750 7050
-F 0 "#PWR02" H 3750 7140 20  0001 C CNN
-F 1 "+5V" H 3750 7140 30  0000 C CNN
-F 2 "" H 3750 7050 60  0001 C CNN
-F 3 "" H 3750 7050 60  0001 C CNN
-	1    3750 7050
 	1    0    0    -1  
 $EndComp
 Text GLabel 3650 7200 2    50   Input ~ 0
@@ -264,7 +253,7 @@ SERVO4
 $Sheet
 S 6850 1550 1000 400 
 U 50FC37D4
-F0 "Inputs" 60
+F0 "Endstop Inputs" 60
 F1 "con_inputs.sch" 60
 $EndSheet
 Text GLabel 1450 3950 0    50   Output ~ 0
@@ -272,25 +261,14 @@ Z_STEP
 Text GLabel 1450 3850 0    50   Output ~ 0
 Z_DIR
 $Comp
-L PWR_FLAG #FLG03
+L PWR_FLAG #FLG02
 U 1 1 50FC2FBB
 P 1350 1950
-F 0 "#FLG03" H 1350 2045 30  0001 C CNN
+F 0 "#FLG02" H 1350 2045 30  0001 C CNN
 F 1 "PWR_FLAG" H 1350 2130 30  0000 C CNN
 F 2 "" H 1350 1950 60  0001 C CNN
 F 3 "" H 1350 1950 60  0001 C CNN
 	1    1350 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 50FC2FB1
-P 900 2050
-F 0 "#FLG04" H 900 2145 30  0001 C CNN
-F 1 "PWR_FLAG" H 900 2230 30  0000 C CNN
-F 2 "" H 900 2050 60  0001 C CNN
-F 3 "" H 900 2050 60  0001 C CNN
-	1    900  2050
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4100 1450
@@ -331,10 +309,10 @@ Reset
 Text Notes 7550 6150 0    60   ~ 0
 LED
 $Comp
-L GND #PWR05
+L GND #PWR03
 U 1 1 50FC2571
 P 8650 5800
-F 0 "#PWR05" H 8650 5800 30  0001 C CNN
+F 0 "#PWR03" H 8650 5800 30  0001 C CNN
 F 1 "GND" H 8650 5730 30  0001 C CNN
 F 2 "" H 8650 5800 60  0001 C CNN
 F 3 "" H 8650 5800 60  0001 C CNN
@@ -357,10 +335,10 @@ RESET
 Text Label 1850 1850 0    60   ~ 0
 RESET
 $Comp
-L GND #PWR06
+L GND #PWR04
 U 1 1 50FC24E2
 P 7750 5800
-F 0 "#PWR06" H 7750 5800 30  0001 C CNN
+F 0 "#PWR04" H 7750 5800 30  0001 C CNN
 F 1 "GND" H 7750 5730 30  0001 C CNN
 F 2 "" H 7750 5800 60  0001 C CNN
 F 3 "" H 7750 5800 60  0001 C CNN
@@ -394,10 +372,10 @@ LED
 Text Label 4350 1650 0    60   ~ 0
 LED
 $Comp
-L +3.3V #PWR07
+L +3.3V #PWR05
 U 1 1 50FC1A82
 P 1550 1700
-F 0 "#PWR07" H 1550 1660 30  0001 C CNN
+F 0 "#PWR05" H 1550 1660 30  0001 C CNN
 F 1 "+3.3V" H 1550 1810 30  0000 C CNN
 F 2 "" H 1550 1700 60  0001 C CNN
 F 3 "" H 1550 1700 60  0001 C CNN
@@ -405,36 +383,14 @@ F 3 "" H 1550 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR06
 U 1 1 50FC1A69
 P 1400 2200
-F 0 "#PWR08" H 1400 2200 30  0001 C CNN
+F 0 "#PWR06" H 1400 2200 30  0001 C CNN
 F 1 "GND" H 1400 2130 30  0001 C CNN
 F 2 "" H 1400 2200 60  0001 C CNN
 F 3 "" H 1400 2200 60  0001 C CNN
 	1    1400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR09
-U 1 1 50FC1A51
-P 1050 1700
-F 0 "#PWR09" H 1050 1790 20  0001 C CNN
-F 1 "+5V" H 1050 1790 30  0000 C CNN
-F 2 "" H 1050 1700 60  0001 C CNN
-F 3 "" H 1050 1700 60  0001 C CNN
-	1    1050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR010
-U 1 1 50FC1A1E
-P 4350 4350
-F 0 "#PWR010" H 4350 4440 20  0001 C CNN
-F 1 "+5V" H 4350 4440 30  0000 C CNN
-F 2 "" H 4350 4350 60  0001 C CNN
-F 3 "" H 4350 4350 60  0001 C CNN
-	1    4350 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -482,9 +438,6 @@ Wire Wire Line
 	1450 3850 2200 3850
 Wire Wire Line
 	1000 5800 2200 5800
-Connection ~ 1050 2050
-Wire Wire Line
-	900  2050 2200 2050
 Wire Wire Line
 	4100 6250 4350 6250
 Wire Wire Line
@@ -561,13 +514,6 @@ Wire Wire Line
 	7750 4600 7400 4600
 Wire Wire Line
 	7750 5600 7750 5800
-Connection ~ 4200 4400
-Wire Wire Line
-	4200 4400 4200 4500
-Wire Wire Line
-	4200 4500 4100 4500
-Wire Wire Line
-	1050 1700 1050 2050
 Wire Wire Line
 	1550 1950 1550 1700
 Wire Wire Line
@@ -602,8 +548,6 @@ Wire Wire Line
 	4350 1150 4100 1150
 Wire Wire Line
 	4350 1250 4100 1250
-Wire Wire Line
-	4100 4400 4350 4400
 Connection ~ 1550 1950
 Wire Wire Line
 	2200 5200 1000 5200
@@ -642,10 +586,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 2950 2200 2950
 Wire Wire Line
-	3500 7100 3750 7100
-Wire Wire Line
-	3750 7100 3750 7050
-Wire Wire Line
 	2700 7200 2350 7200
 Wire Wire Line
 	1800 3050 2200 3050
@@ -667,8 +607,6 @@ Wire Wire Line
 	4100 5750 5200 5750
 Wire Wire Line
 	4350 6050 4100 6050
-Wire Wire Line
-	4350 4400 4350 4350
 Wire Wire Line
 	4750 2350 4100 2350
 Wire Wire Line
@@ -732,4 +670,17 @@ Wire Wire Line
 Wire Wire Line
 	9150 5700 8650 5700
 Connection ~ 8650 5700
+$Sheet
+S 8100 1550 950  450 
+U 52C42F11
+F0 "Thermistor inputs" 50
+F1 "thermistor_inputs.sch" 50
+$EndSheet
+Text GLabel 1050 2050 0    50   Output ~ 0
+DUE_5V
+Wire Wire Line
+	2200 2050 1050 2050
+NoConn ~ 3500 7100
+NoConn ~ 4100 4400
+NoConn ~ 4100 4500
 $EndSCHEMATC

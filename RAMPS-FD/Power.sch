@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "1 jan 2014"
+Date "2 jan 2014"
 Rev "v1 Issue B"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -544,7 +544,7 @@ L DIODE D103
 U 1 1 50FC273D
 P 7800 6100
 F 0 "D103" H 7800 6200 40  0000 C CNN
-F 1 "1N4004" H 7800 6000 40  0000 C CNN
+F 1 "ES1F" H 7800 6000 40  0000 C CNN
 F 2 "" H 7800 6100 60  0001 C CNN
 F 3 "" H 7800 6100 60  0001 C CNN
 	1    7800 6100

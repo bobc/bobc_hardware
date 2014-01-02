@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 01/01/2014 16:05:41
+EESchema-DOCLIB  Version 2.0  Date: 02/01/2014 13:01:50
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -92,6 +92,10 @@ $ENDCMP
 #
 $CMP STM32F100_48
 D STM32F100_48
+$ENDCMP
+#
+$CMP TL431_SOT23_RMC
+D TL431
 $ENDCMP
 #
 $CMP TL431_TO92_RMC

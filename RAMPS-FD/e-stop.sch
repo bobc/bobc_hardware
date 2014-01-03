@@ -47,126 +47,6 @@ Comment2 "GPL v3"
 Comment3 "Bob Cousins 2013"
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	5350 5100 7650 5100
-Connection ~ 7200 3000
-Wire Wire Line
-	5800 3000 7600 3000
-Wire Wire Line
-	7200 3000 7200 1900
-Connection ~ 7000 2800
-Wire Wire Line
-	7000 1900 7000 2800
-Connection ~ 6500 2600
-Wire Wire Line
-	6500 1900 6500 2600
-Connection ~ 6300 2400
-Wire Wire Line
-	6300 1900 6300 2400
-Wire Wire Line
-	6200 1350 7000 1350
-Connection ~ 6900 1350
-Wire Wire Line
-	7000 1350 7000 1500
-Connection ~ 6400 1350
-Wire Wire Line
-	6500 1350 6500 1500
-Connection ~ 6200 1350
-Wire Wire Line
-	6300 1500 6300 1350
-Wire Wire Line
-	3000 5700 4450 5700
-Connection ~ 4150 5400
-Wire Wire Line
-	4150 6150 4850 6150
-Wire Wire Line
-	4150 3200 4150 6150
-Connection ~ 4150 4050
-Wire Wire Line
-	4150 4800 4900 4800
-Wire Wire Line
-	4450 4350 3000 4350
-Wire Wire Line
-	1550 3300 4400 3300
-Wire Wire Line
-	3150 2900 4400 2900
-Wire Wire Line
-	10650 1700 10650 1500
-Wire Wire Line
-	10100 900  10100 1100
-Wire Wire Line
-	2100 1600 2300 1600
-Wire Wire Line
-	5800 2700 7600 2700
-Wire Wire Line
-	5800 2500 7600 2500
-Wire Wire Line
-	5800 2300 7600 2300
-Wire Wire Line
-	3150 2800 4400 2800
-Wire Wire Line
-	4400 2600 3150 2600
-Wire Wire Line
-	3100 2400 4400 2400
-Wire Wire Line
-	3100 2300 4400 2300
-Wire Wire Line
-	3100 2500 4400 2500
-Wire Wire Line
-	4400 2700 3150 2700
-Wire Wire Line
-	5800 2400 7600 2400
-Wire Wire Line
-	5800 2600 7600 2600
-Wire Wire Line
-	5800 2800 7600 2800
-Wire Wire Line
-	3150 3000 4400 3000
-Wire Wire Line
-	1300 2350 1300 2300
-Wire Wire Line
-	1150 1600 1700 1600
-Wire Wire Line
-	5800 2900 7600 2900
-Wire Wire Line
-	10100 1500 10100 1700
-Wire Wire Line
-	10650 1100 10650 900 
-Wire Wire Line
-	4150 3200 4400 3200
-Wire Wire Line
-	3050 5100 4450 5100
-Wire Wire Line
-	4150 4050 4900 4050
-Connection ~ 4150 3300
-Wire Wire Line
-	4150 5400 4900 5400
-Connection ~ 4150 4800
-Wire Wire Line
-	2950 6450 4400 6450
-Wire Wire Line
-	6200 1200 6200 1500
-Wire Wire Line
-	6400 1350 6400 1500
-Connection ~ 6300 1350
-Wire Wire Line
-	6900 1350 6900 1500
-Connection ~ 6500 1350
-Connection ~ 7000 1350
-Wire Wire Line
-	6200 1900 6200 2300
-Connection ~ 6200 2300
-Wire Wire Line
-	6400 1900 6400 2500
-Connection ~ 6400 2500
-Wire Wire Line
-	6900 1900 6900 2700
-Connection ~ 6900 2700
-Wire Wire Line
-	7100 1900 7100 2900
-Connection ~ 7100 2900
-Wire Wire Line
-	5350 4350 7650 4350
 $Comp
 L VCC #PWR043
 U 1 1 523A3B4A
@@ -453,33 +333,16 @@ Text GLabel 3100 2400 0    60   Input ~ 0
 Y_EN
 Text GLabel 3100 2300 0    60   Input ~ 0
 X_EN
-Wire Wire Line
-	1150 1800 1300 1800
-Wire Wire Line
-	1550 1500 1550 3300
-Connection ~ 1550 1600
 Text Notes 1750 1900 0    50   ~ 0
 Or any small signal diode
 Text GLabel 3000 5700 0    50   Input ~ 0
 D12-FET5
-Wire Wire Line
-	3700 7150 3700 7600
 Text GLabel 2950 6450 0    50   Input ~ 0
 D2-FET6
 Text GLabel 7600 5700 2    50   Output ~ 0
 FET5_BUF
 Text GLabel 7600 6450 2    50   Output ~ 0
 FET6_BUF
-Wire Wire Line
-	5300 6450 7600 6450
-Wire Wire Line
-	5350 5700 7600 5700
-Wire Notes Line
-	8400 2250 8600 2250
-Wire Notes Line
-	8600 2900 8600 6550
-Wire Notes Line
-	8600 6550 8400 6550
 Text Notes 8700 2550 0    80   ~ 0
 Active low
 Text Notes 8750 4800 0    80   ~ 0
@@ -517,6 +380,180 @@ F 3 "" H 3700 4150 60  0001 C CNN
 	1    3700 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR052
+U 1 1 52B224D5
+P 7500 1550
+F 0 "#PWR052" H 7500 1550 30  0001 C CNN
+F 1 "GND" H 7500 1480 30  0001 C CNN
+F 2 "" H 7500 1550 60  0001 C CNN
+F 3 "" H 7500 1550 60  0001 C CNN
+	1    7500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK4 RP401
+U 1 1 52B22857
+P 3850 6950
+F 0 "RP401" H 3850 7400 40  0000 C CNN
+F 1 "10k" H 3850 6900 40  0000 C CNN
+F 2 "" H 3850 6950 60  0001 C CNN
+F 3 "" H 3850 6950 60  0001 C CNN
+	1    3850 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR053
+U 1 1 52B22A39
+P 6300 7550
+F 0 "#PWR053" H 6300 7550 30  0001 C CNN
+F 1 "GND" H 6300 7480 30  0001 C CNN
+F 2 "" H 6300 7550 60  0001 C CNN
+F 3 "" H 6300 7550 60  0001 C CNN
+	1    6300 7550
+	1    0    0    -1  
+$EndComp
+Text Notes 10200 2200 0    60   ~ 0
+VCC = 5V 
+Text Notes 9500 2950 0    60   ~ 12
+Must use ACT (or HCT) type buffers. \nInputs are compatible with \n3.3V or 5V logic
+Wire Wire Line
+	5350 5100 7650 5100
+Connection ~ 7200 3000
+Wire Wire Line
+	5800 3000 7600 3000
+Wire Wire Line
+	7200 3000 7200 1900
+Connection ~ 7000 2800
+Wire Wire Line
+	7000 1900 7000 2800
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 1900 6500 2600
+Connection ~ 6300 2400
+Wire Wire Line
+	6300 1900 6300 2400
+Wire Wire Line
+	6200 1350 7000 1350
+Connection ~ 6900 1350
+Wire Wire Line
+	7000 1350 7000 1500
+Connection ~ 6400 1350
+Wire Wire Line
+	6500 1350 6500 1500
+Connection ~ 6200 1350
+Wire Wire Line
+	6300 1500 6300 1350
+Wire Wire Line
+	3000 5700 4450 5700
+Connection ~ 4150 5400
+Wire Wire Line
+	4150 6150 4850 6150
+Wire Wire Line
+	4150 3200 4150 6150
+Connection ~ 4150 4050
+Wire Wire Line
+	4150 4800 4900 4800
+Wire Wire Line
+	4450 4350 3000 4350
+Wire Wire Line
+	1550 3300 4400 3300
+Wire Wire Line
+	3150 2900 4400 2900
+Wire Wire Line
+	10650 1700 10650 1500
+Wire Wire Line
+	10100 900  10100 1100
+Wire Wire Line
+	2100 1600 2300 1600
+Wire Wire Line
+	5800 2700 7600 2700
+Wire Wire Line
+	5800 2500 7600 2500
+Wire Wire Line
+	5800 2300 7600 2300
+Wire Wire Line
+	3150 2800 4400 2800
+Wire Wire Line
+	4400 2600 3150 2600
+Wire Wire Line
+	3100 2400 4400 2400
+Wire Wire Line
+	3100 2300 4400 2300
+Wire Wire Line
+	3100 2500 4400 2500
+Wire Wire Line
+	4400 2700 3150 2700
+Wire Wire Line
+	5800 2400 7600 2400
+Wire Wire Line
+	5800 2600 7600 2600
+Wire Wire Line
+	5800 2800 7600 2800
+Wire Wire Line
+	3150 3000 4400 3000
+Wire Wire Line
+	1300 2350 1300 2300
+Wire Wire Line
+	1150 1600 1700 1600
+Wire Wire Line
+	5800 2900 7600 2900
+Wire Wire Line
+	10100 1500 10100 1700
+Wire Wire Line
+	10650 1100 10650 900 
+Wire Wire Line
+	4150 3200 4400 3200
+Wire Wire Line
+	3050 5100 4450 5100
+Wire Wire Line
+	4150 4050 4900 4050
+Connection ~ 4150 3300
+Wire Wire Line
+	4150 5400 4900 5400
+Connection ~ 4150 4800
+Wire Wire Line
+	2950 6450 4400 6450
+Wire Wire Line
+	6200 1200 6200 1500
+Wire Wire Line
+	6400 1350 6400 1500
+Connection ~ 6300 1350
+Wire Wire Line
+	6900 1350 6900 1500
+Connection ~ 6500 1350
+Connection ~ 7000 1350
+Wire Wire Line
+	6200 1900 6200 2300
+Connection ~ 6200 2300
+Wire Wire Line
+	6400 1900 6400 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	6900 1900 6900 2700
+Connection ~ 6900 2700
+Wire Wire Line
+	7100 1900 7100 2900
+Connection ~ 7100 2900
+Wire Wire Line
+	5350 4350 7650 4350
+Wire Wire Line
+	1150 1800 1300 1800
+Wire Wire Line
+	1550 1500 1550 3300
+Connection ~ 1550 1600
+Wire Wire Line
+	3700 7150 3700 7600
+Wire Wire Line
+	5300 6450 7600 6450
+Wire Wire Line
+	5350 5700 7600 5700
+Wire Notes Line
+	8400 2250 8600 2250
+Wire Notes Line
+	8600 2900 8600 6550
+Wire Notes Line
+	8600 6550 8400 6550
 Wire Wire Line
 	3700 3900 3700 4150
 Wire Wire Line
@@ -524,9 +561,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 4050 3700 4050
 Connection ~ 3700 4050
-Wire Wire Line
-	3800 6450 3800 6750
-Connection ~ 3800 6450
 Wire Notes Line
 	8400 2800 8600 2800
 Wire Notes Line
@@ -539,27 +573,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 1350 7200 1500
 Connection ~ 7100 1350
-$Comp
-L GND #PWR052
-U 1 1 52B224D5
-P 7500 1550
-F 0 "#PWR052" H 7500 1550 30  0001 C CNN
-F 1 "GND" H 7500 1480 30  0001 C CNN
-F 2 "" H 7500 1550 60  0001 C CNN
-F 3 "" H 7500 1550 60  0001 C CNN
-	1    7500 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 1350 7500 1350
 Wire Wire Line
 	7500 1350 7500 1550
-Wire Wire Line
-	6100 6700 6100 6450
-Connection ~ 6100 6450
-Wire Wire Line
-	6200 6700 6200 5700
-Connection ~ 6200 5700
 Wire Wire Line
 	6300 6700 6300 5100
 Connection ~ 6300 5100
@@ -576,37 +593,12 @@ Wire Wire Line
 Connection ~ 3600 7300
 Wire Wire Line
 	3800 7300 3800 7150
-$Comp
-L R_PACK4 RP401
-U 1 1 52B22857
-P 3850 6950
-F 0 "RP401" H 3850 7400 40  0000 C CNN
-F 1 "10k" H 3850 6900 40  0000 C CNN
-F 2 "" H 3850 6950 60  0001 C CNN
-F 3 "" H 3850 6950 60  0001 C CNN
-	1    3850 6950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3700 6750 3700 5700
-Connection ~ 3700 5700
 Wire Wire Line
 	3600 6750 3600 5100
 Connection ~ 3600 5100
 Wire Wire Line
 	3500 6750 3500 4350
 Connection ~ 3500 4350
-$Comp
-L GND #PWR053
-U 1 1 52B22A39
-P 6300 7550
-F 0 "#PWR053" H 6300 7550 30  0001 C CNN
-F 1 "GND" H 6300 7480 30  0001 C CNN
-F 2 "" H 6300 7550 60  0001 C CNN
-F 3 "" H 6300 7550 60  0001 C CNN
-	1    6300 7550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 7100 6300 7550
 Wire Wire Line
@@ -625,8 +617,16 @@ Connection ~ 3700 3000
 Wire Wire Line
 	3400 3400 3400 2900
 Connection ~ 3400 2900
-Text Notes 10200 2200 0    60   ~ 0
-VCC = 5V 
-Text Notes 9500 2950 0    60   ~ 12
-Must use ACT (or HCT) type buffers. \nInputs are compatible with \n3.3V or 5V logic
+Connection ~ 3700 5700
+Connection ~ 3800 6450
+Wire Wire Line
+	3700 6750 3700 5700
+Wire Wire Line
+	3800 6450 3800 6750
+Connection ~ 6200 5700
+Connection ~ 6100 6450
+Wire Wire Line
+	6100 6700 6100 6450
+Wire Wire Line
+	6200 6700 6200 5700
 $EndSCHEMATC

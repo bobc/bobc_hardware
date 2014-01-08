@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "2 jan 2014"
+Date "8 jan 2014"
 Rev "v1 Issue B"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -683,4 +683,38 @@ Wire Notes Line
 	7150 4400 8050 4400
 Wire Notes Line
 	8050 4400 8050 6200
+Text GLabel 4400 1450 2    50   Output ~ 0
+AREF
+Wire Wire Line
+	4400 1450 4100 1450
+$Comp
+L GNDA #PWR07
+U 1 1 52CCBE6D
+P 1850 4550
+F 0 "#PWR07" H 1850 4550 40  0001 C CNN
+F 1 "GNDA" H 1850 4480 40  0000 C CNN
+F 2 "" H 1850 4550 60  0000 C CNN
+F 3 "" H 1850 4550 60  0000 C CNN
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4500 1850 4500
+Wire Wire Line
+	1850 4400 1850 4550
+Wire Wire Line
+	1650 4400 2200 4400
+Connection ~ 1850 4500
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 52CCBF6C
+P 1650 4400
+F 0 "#FLG08" H 1650 4495 30  0001 C CNN
+F 1 "PWR_FLAG" H 1650 4580 30  0000 C CNN
+F 2 "" H 1650 4400 60  0001 C CNN
+F 3 "" H 1650 4400 60  0001 C CNN
+	1    1650 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 4400
 $EndSCHEMATC

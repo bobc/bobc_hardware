@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 02/01/2014 13:28:42
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/01/2014 20:39:44
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -162,10 +162,10 @@ IdModule  = LED-0805_GREEN;
 EndCmp
 
 BeginCmp
-TimeStamp = /5239FE5C/50FC2744;
+TimeStamp = /5239FE5C/52D040BC;
 Reference = D102;
-ValeurCmp = 1N4004;
-IdModule  = diode_do41;
+ValeurCmp = SS10Pxx;
+IdModule  = TO277A_RMC;
 EndCmp
 
 BeginCmp
@@ -680,6 +680,13 @@ IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
+TimeStamp = /52D0586E;
+Reference = Q101;
+ValeurCmp = 2N7002;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
 TimeStamp = /50FC3D20/510E6DBE;
 Reference = Q201;
 ValeurCmp = IRLB8743PBF;
@@ -738,7 +745,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC24CE;
 Reference = R101;
-ValeurCmp = 150R;
+ValeurCmp = 330R;
 IdModule  = SM0805;
 EndCmp
 

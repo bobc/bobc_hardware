@@ -1,6 +1,8 @@
-update=19/01/2014 20:16:07
+update=27/01/2014 20:05:37
 version=1
 last_client=eeschema
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,12 +10,12 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=Decapede.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=3.900000000000
+PadDrillOvalY=3.900000000000
+PadSizeH=7.000000000000
+PadSizeV=7.000000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -26,7 +28,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,8 +45,12 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
+LibName17=RMC
+LibName18=w_pin_strip
+LibName19=w_conn_screw
+LibName20=w_smd_diode
+LibName21=w_conn_pt-1,5
+LibName22=w_smd_trans
 [eeschema]
 version=1
 LibDir=../KiCAD_Libraries/library

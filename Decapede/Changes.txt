@@ -1,0 +1,47 @@
+Changes
+========
+
+1. Change P1 power connector to 5.08 pitch. Move fuse holder and reset switch.
+   Add separate connector for fan/aux output.
+2. Thermistors connect to +5V
+3. Footprints for optional latching connectors 0.1" KK (heaters, thermistors)
+4. Use the Arduino R3 shield layout
+5. Make sure thermistors are on ADC inputs. All FET outputs on PWM pins. 
+   Rearrange other connections for easier layout.
+6. Don't backfeed 5V to Arduino - jumper option to power Arduino via VIN
+
+7. 10uf elco on thermistors to ceramic, Change 1206 resistors to 0805
+
+8. Separate logic voltage from 5V in preparation for Due.
+
+9. Change 1206/1210 on gate drivers resistors to 0805, remove apparently unneeded 
+     components (2 resistors + zener).
+     Add pull down on control inputs
+
+10. Add LEDs for power, FET outputs
+
+11. Separate ground for analog
+
+12. Due "ready", just change one resistor on LM317
+13. More copper in power/ground zone fills
+14. Add connectors for SPI, I2C1
+
+TODO:
+======
+
+-  1k on thermistors?
+-. Ability to run off 12V? [Use 9V regulator instead of 12V]
+-. jumper bypass for ADC?
+-. Uprate 12V regulator to 1A 
+-. Change endstops to 0V + signal (active low)?
+-. bulk caps for 12V
+
+-. 7.62mm connectors for power?
+
+Due issues
+----------
+-. No SPI connector so can't use SD card
+
+
+
+ 

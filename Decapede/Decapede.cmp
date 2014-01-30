@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/01/2014 16:28:53
+Cmp-Mod V01 Created by PcbNew date = 30/01/2014 15:01:03
 
 BeginCmp
 TimeStamp = /52DBFE9B/52DC0864;
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52DBDFB8/52E3E513;
 Reference = D30;
-ValeurCmp = 24V_POL;
+ValeurCmp = 24V_ERR;
 IdModule  = LED-0805_RED;
 EndCmp
 
@@ -418,6 +418,27 @@ TimeStamp = /52DBDFB8/52DBF154;
 Reference = F1;
 ValeurCmp = MAXI FUSE 60A;
 IdModule  = FUSE_MAXI;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DBDFB8/52E82DD0;
+Reference = F2;
+ValeurCmp = MINI FUSE 20A;
+IdModule  = Keystone_3568;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DBDFB8/52E82DA5;
+Reference = F3;
+ValeurCmp = MINI FUSE 20A;
+IdModule  = Keystone_3568;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DBDFB8/52E82DCA;
+Reference = F4;
+ValeurCmp = MINI FUSE 20A;
+IdModule  = Keystone_3568;
 EndCmp
 
 BeginCmp
@@ -486,28 +507,28 @@ EndCmp
 BeginCmp
 TimeStamp = /52DC33BF/52DC28C9;
 Reference = J12;
-ValeurCmp = FET1_PWM;
+ValeurCmp = FET6;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC33BF/52DC2942;
 Reference = J13;
-ValeurCmp = FET2_PWM;
+ValeurCmp = FET7;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC33BF/52DC29BA;
 Reference = J14;
-ValeurCmp = FET3_PWM;
+ValeurCmp = FET8;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC33BF/52DC2A33;
 Reference = J15;
-ValeurCmp = FET4_PWM;
+ValeurCmp = FET9;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
@@ -570,7 +591,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52DC33C3/52DC3D2F;
 Reference = J24;
-ValeurCmp = FET5_PWM;
+ValeurCmp = FET10;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
@@ -781,7 +802,7 @@ BeginCmp
 TimeStamp = /52DC33BB/52DC35B1;
 Reference = P23;
 ValeurCmp = X_max;
-IdModule  = pin_strip_2;
+IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp

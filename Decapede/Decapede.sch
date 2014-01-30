@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Decapede"
-Date "26 jan 2014"
+Date "30 jan 2014"
 Rev ""
 Comp "Armani Creations"
 Comment1 "License: GPL"

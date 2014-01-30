@@ -26,16 +26,22 @@ Changes
 13. More copper in power/ground zone fills
 14. Add connectors for SPI, I2C1
 
+15. Space out stepper modules to allow latching (KK) connectors
+16. Add fuses for Aux (heatbed), heaters and motors. Extend board size to 150x110mm.
+17. Change endstops to use 0V instead of 5V.
+
 TODO:
 ======
 
--  1k on thermistors?
 -. Ability to run off 12V? [Use 9V regulator instead of 12V]
--. jumper bypass for ADC?
 -. Uprate 12V regulator to 1A 
--. Change endstops to 0V + signal (active low)?
--. bulk caps for 12V
+/-. Change endstops to 0V + signal (active low)?
+-. change serial connector to standard 6 pin (FTDI compatible)
+-. extend size up to 15x15cm
 
+-  1k on thermistors?
+-. jumper bypass for ADC?
+-. bulk caps for 12V
 -. 7.62mm connectors for power?
 
 Due issues

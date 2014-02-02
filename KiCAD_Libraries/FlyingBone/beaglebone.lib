@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Wed 23 May 2012 07:04:08 PM EDT
+EESchema-LIBRARY Version 2.3  Date: Sat 01 Feb 2014 05:23:16 PM EST
 #encoding utf-8
 #
 # BEAGLEBONE
@@ -6,6 +6,8 @@ EESchema-LIBRARY Version 2.3  Date: Wed 23 May 2012 07:04:08 PM EDT
 DEF BEAGLEBONE U 0 1 Y Y 5 F N
 F0 "U" 50 -50 60 H V C CNN
 F1 "BEAGLEBONE" 250 -150 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
 DRAW
 P 5 4 0 0  500 0  -50 0  -50 2300  -50 2400  500 2400 N
 T 0 350 650 60 0 1 1 Battery/BL  Normal 0 C C

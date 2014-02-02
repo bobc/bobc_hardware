@@ -1,4 +1,4 @@
-update=1/31/2014 10:40:34 AM
+update=2/1/2014 8:48:14 PM
 version=1
 last_client=eeschema
 [general]
@@ -92,3 +92,4 @@ LibName31=RMC
 LibName32=nicholasclewis/arduino_shieldsNCL
 LibName33=opendous
 LibName34=beaglebone
+LibName35=beagleboneblack

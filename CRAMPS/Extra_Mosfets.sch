@@ -33,20 +33,21 @@ LIBS:RMC
 LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:beaglebone
+LIBS:beagleboneblack
 LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
-Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "1 feb 2014"
-Rev "v1 Issue B"
+Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+Date "2 feb 2014"
+Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
-Comment2 "GPL v3"
-Comment3 "Bob Cousins 2013"
-Comment4 ""
+Comment2 "Derived from RAMPS-FD by Bob Cousins"
+Comment3 "Copyright 2014 GPL v3"
+Comment4 "CRAMPS by Charles Steinkuehler"
 $EndDescr
 Connection ~ 3500 1000
 Wire Wire Line
@@ -82,10 +83,10 @@ F 3 "" H 3400 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR0114
+L GNDPWR #PWR0112
 U 1 1 523E5FF8
 P 3500 3200
-F 0 "#PWR0114" H 3500 3250 40  0001 C CNN
+F 0 "#PWR0112" H 3500 3250 40  0001 C CNN
 F 1 "GNDPWR" H 3500 3120 40  0000 C CNN
 F 2 "" H 3500 3200 60  0001 C CNN
 F 3 "" H 3500 3200 60  0001 C CNN
@@ -139,10 +140,10 @@ $EndComp
 Text GLabel 1450 2400 0    60   Input ~ 0
 FET5_BUF
 $Comp
-L +12P #PWR0115
+L +12P #PWR0113
 U 1 1 523E6026
 P 3500 850
-F 0 "#PWR0115" H 3500 820 30  0001 C CNN
+F 0 "#PWR0113" H 3500 820 30  0001 C CNN
 F 1 "+12P" H 3500 950 30  0000 C CNN
 F 2 "" H 3500 850 60  0000 C CNN
 F 3 "" H 3500 850 60  0000 C CNN
@@ -185,10 +186,10 @@ F 3 "" H 3400 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR0116
+L GNDPWR #PWR0114
 U 1 1 523E66AB
 P 3500 6400
-F 0 "#PWR0116" H 3500 6450 40  0001 C CNN
+F 0 "#PWR0114" H 3500 6450 40  0001 C CNN
 F 1 "GNDPWR" H 3500 6320 40  0000 C CNN
 F 2 "" H 3500 6400 60  0001 C CNN
 F 3 "" H 3500 6400 60  0001 C CNN
@@ -242,10 +243,10 @@ $EndComp
 Text GLabel 1450 5600 0    60   Input ~ 0
 FET6_BUF
 $Comp
-L +12P #PWR0117
+L +12P #PWR0115
 U 1 1 523E66CA
 P 3500 4050
-F 0 "#PWR0117" H 3500 4020 30  0001 C CNN
+F 0 "#PWR0115" H 3500 4020 30  0001 C CNN
 F 1 "+12P" H 3500 4150 30  0000 C CNN
 F 2 "" H 3500 4050 60  0000 C CNN
 F 3 "" H 3500 4050 60  0000 C CNN

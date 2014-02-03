@@ -33,20 +33,21 @@ LIBS:RMC
 LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:beaglebone
+LIBS:beagleboneblack
 LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
-Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "1 feb 2014"
-Rev "v1 Issue B"
+Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+Date "2 feb 2014"
+Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
-Comment2 "GPL v3"
-Comment3 "Bob Cousins 2013"
-Comment4 ""
+Comment2 "Derived from RAMPS-FD by Bob Cousins"
+Comment3 "Copyright 2014 GPL v3"
+Comment4 "CRAMPS by Charles Steinkuehler"
 $EndDescr
 Wire Wire Line
 	3700 750  3700 800 

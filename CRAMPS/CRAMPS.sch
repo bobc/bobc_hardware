@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 feb 2014"
+Date "6 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -126,21 +126,21 @@ Text GLabel 3100 4600 0    50   Input ~ 0
 Z-MIN
 Text GLabel 3100 4500 0    50   Input ~ 0
 Z-MAX
-Text GLabel 2900 1200 0    50   Input ~ 0
+Text GLabel 3100 1200 0    50   Input ~ 0
 Y-MAX
-Text GLabel 5200 1200 2    50   Input ~ 0
+Text GLabel 4900 1200 2    50   Input ~ 0
 Y-MIN
-Text GLabel 5200 1100 2    50   Input ~ 0
+Text GLabel 4900 1100 2    50   Input ~ 0
 X-MIN
-Text GLabel 2900 1100 0    50   Input ~ 0
+Text GLabel 3100 1100 0    50   Input ~ 0
 X-MAX
-Text GLabel 5700 650  2    50   Output ~ 0
+Text GLabel 3100 2000 0    50   Output ~ 0
 SERVO1
-Text GLabel 5700 750  2    50   Output ~ 0
+Text GLabel 4900 1900 2    50   Output ~ 0
 SERVO2
-Text GLabel 5700 850  2    50   Output ~ 0
+Text GLabel 3100 1900 0    50   Output ~ 0
 SERVO3
-Text GLabel 5700 950  2    50   Output ~ 0
+Text GLabel 4900 1800 2    50   Output ~ 0
 SERVO4
 $Sheet
 S 6850 1550 1000 400 
@@ -148,21 +148,21 @@ U 50FC37D4
 F0 "Endstop Inputs" 60
 F1 "con_inputs.sch" 60
 $EndSheet
-Text GLabel 5700 2900 0    50   Output ~ 0
+Text GLabel 3100 1700 0    50   Output ~ 0
 Z_STEP
-Text GLabel 5700 2800 0    50   Output ~ 0
+Text GLabel 4900 1600 2    50   Output ~ 0
 Z_DIR
 Text GLabel 3100 4800 0    50   Output ~ 0
 E1_STEP
-Text GLabel 5700 2100 0    50   Output ~ 0
+Text GLabel 4900 4600 2    50   Output ~ 0
 AXIS_ENA
 Text GLabel 4900 4800 2    50   Output ~ 0
 E1_DIR
-Text GLabel 5900 2200 2    50   Output ~ 0
+Text GLabel 4900 4500 2    50   Output ~ 0
 E0_DIR
-Text GLabel 5900 2300 2    50   Output ~ 0
+Text GLabel 4900 4700 2    50   Output ~ 0
 E0_STEP
-Text GLabel 6200 2100 0    50   Output ~ 0
+Text GLabel 4900 1500 2    50   Output ~ 0
 EMMC_ENA
 Text GLabel 3100 5700 0    50   Input ~ 0
 THERM2
@@ -170,13 +170,13 @@ Text GLabel 4900 5700 2    50   Input ~ 0
 THERM1
 Text GLabel 3100 5600 0    50   Input ~ 0
 THERM0
-Text GLabel 5700 2500 0    50   Output ~ 0
+Text GLabel 4900 1400 2    50   Output ~ 0
 Y_DIR
-Text GLabel 5700 2600 0    50   Output ~ 0
+Text GLabel 3100 1500 0    50   Output ~ 0
 Y_STEP
-Text GLabel 5700 2200 0    50   Output ~ 0
+Text GLabel 4900 1300 2    50   Output ~ 0
 X_DIR
-Text GLabel 5700 2300 0    50   Output ~ 0
+Text GLabel 3100 1400 0    50   Output ~ 0
 X_STEP
 Text Notes 7700 6350 0    60   ~ 0
 Status LED
@@ -299,18 +299,18 @@ Text Notes 5050 2200 0    60   ~ 0
 HDMI
 Text Notes 2700 2200 0    60   ~ 0
 HDMI
-Text Notes 5050 1000 0    60   ~ 0
+Text Notes 5450 1000 0    60   ~ 0
 eMMC
-Text Notes 5050 1800 0    60   ~ 0
+Text Notes 5450 1800 0    60   ~ 0
 eMMC
-Text Notes 2700 1000 0    60   ~ 0
+Text Notes 2300 1000 0    60   ~ 0
 eMMC
-Text Notes 2700 1900 0    60   ~ 0
+Text Notes 2300 1900 0    60   ~ 0
 eMMC
-Text GLabel 1200 2400 0    50   Input ~ 0
+Text GLabel 3100 1600 0    50   Input ~ 0
 ESTOP
-Text GLabel 1200 1700 0    50   Input ~ 0
-ESTOP_IN
+Text GLabel 4900 2000 2    50   Output ~ 0
+ESTOP_SW
 Text GLabel 4900 6000 2    50   Output ~ 0
 SPI_CS1
 $Comp
@@ -357,17 +357,17 @@ F 3 "~" H 4150 3800 60  0000 C CNN
 	4    4350 5050
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1200 2000 0    50   Output ~ 0
+Text GLabel 3100 5100 0    50   Output ~ 0
 MACHINE_PWR
-Text Notes 2350 5250 0    50   ~ 0
+Text Notes 1700 5250 0    50   ~ 0
 24.576MHz
-Text Notes 1850 5250 0    50   ~ 0
+Text Notes 2200 5250 0    50   ~ 0
 Audio
 Text Notes 5400 5300 0    50   ~ 0
 Audio
-Text Notes 1850 5450 0    50   ~ 0
+Text Notes 2200 5450 0    50   ~ 0
 Audio
-Text Notes 1850 5550 0    50   ~ 0
+Text Notes 2200 5550 0    50   ~ 0
 Audio
 $Comp
 L CONN_6 P103
@@ -416,37 +416,37 @@ Wire Wire Line
 Wire Wire Line
 	7900 5400 7900 5200
 Wire Notes Line
-	5100 850  5000 850 
+	5500 850  5400 850 
 Wire Notes Line
-	5000 850  5000 1050
+	5400 850  5400 1050
 Wire Notes Line
-	5000 1050 5100 1050
+	5400 1050 5500 1050
 Wire Notes Line
-	2900 850  3000 850 
+	2500 850  2600 850 
 Wire Notes Line
-	3000 850  3000 1050
+	2600 850  2600 1050
 Wire Notes Line
-	3000 1050 2900 1050
+	2600 1050 2500 1050
 Wire Notes Line
-	5100 1650 5000 1650
+	5500 1650 5400 1650
 Wire Notes Line
-	5000 1650 5000 1950
+	5400 1650 5400 1950
 Wire Notes Line
-	5000 1950 5100 1950
+	5400 1950 5500 1950
 Wire Notes Line
-	2900 1750 3000 1750
+	2500 1750 2600 1750
 Wire Notes Line
-	3000 1750 3000 3050
+	3000 2100 3000 3050
 Wire Notes Line
 	5000 3050 5100 3050
 Wire Notes Line
 	3000 3050 2900 3050
 Wire Notes Line
-	3000 2050 2900 2050
+	3000 2100 2900 2100
 Wire Notes Line
-	5000 2050 5000 3050
+	5000 2100 5000 3050
 Wire Notes Line
-	5000 2050 5100 2050
+	5000 2100 5100 2100
 Wire Wire Line
 	1700 6700 1600 6700
 Wire Wire Line
@@ -528,13 +528,13 @@ Text GLabel 9800 4600 0    50   Output ~ 0
 /RESET
 Text GLabel 3100 5000 0    50   Output ~ 0
 FET4
-Text GLabel 2400 1650 0    50   Output ~ 0
+Text GLabel 3100 5300 0    50   Output ~ 0
 FET3
-Text GLabel 2400 1550 0    50   Output ~ 0
+Text GLabel 3100 4700 0    50   Output ~ 0
 FET2
-Text GLabel 2400 1450 0    50   Output ~ 0
+Text GLabel 3100 1300 0    50   Output ~ 0
 FET1
-Text GLabel 2400 1850 0    50   Output ~ 0
+Text GLabel 3100 6000 0    50   Output ~ 0
 FET5
 Text GLabel 4900 5000 2    50   Output ~ 0
 FET6
@@ -542,10 +542,6 @@ Text GLabel 4900 5500 2    50   UnSpc ~ 0
 ADC_VDD
 Text GLabel 4900 5600 2    50   UnSpc ~ 0
 ADC_GND
-Text Notes 1300 1700 0    50   ~ 0
-Pull up
-Text Notes 1300 2000 0    50   ~ 0
-Pull down
 Text Notes 1800 7400 0    50   ~ 0
 BeagleBone\nserial header
 Text Notes 5400 5100 0    50   ~ 0
@@ -596,4 +592,34 @@ F 3 "" H 3300 7000 60  0001 C CNN
 $EndComp
 Text GLabel 3100 6900 0    50   UnSpc ~ 0
 DGND
+Wire Notes Line
+	2600 1750 2600 2050
+Wire Notes Line
+	2600 2050 2500 2050
+NoConn ~ 3100 900 
+NoConn ~ 3100 1000
+NoConn ~ 3100 1800
+NoConn ~ 4900 900 
+NoConn ~ 4900 1000
+NoConn ~ 4900 2100
+NoConn ~ 4900 2200
+NoConn ~ 4900 2300
+NoConn ~ 4900 2400
+NoConn ~ 4900 2500
+NoConn ~ 4900 2600
+NoConn ~ 4900 2700
+NoConn ~ 4900 2800
+NoConn ~ 4900 2900
+NoConn ~ 4900 3000
+NoConn ~ 3100 2100
+NoConn ~ 3100 2200
+NoConn ~ 3100 2300
+NoConn ~ 3100 2400
+NoConn ~ 3100 2500
+NoConn ~ 3100 2600
+NoConn ~ 3100 2700
+NoConn ~ 3100 2800
+NoConn ~ 3100 2900
+NoConn ~ 3100 3000
+NoConn ~ 4900 1700
 $EndSCHEMATC

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 feb 2014"
+Date "6 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -162,7 +162,7 @@ F 1 "CONN_6X2" V 1400 3750 60  0000 C CNN
 F 2 "" H 1400 3750 60  0000 C CNN
 F 3 "" H 1400 3750 60  0000 C CNN
 	1    1400 3750
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_6 P801
@@ -222,6 +222,23 @@ F 3 "" H 4900 2200 60  0001 C CNN
 	1    4900 2200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3100 2250
+Text GLabel 3300 4300 0    50   Output ~ 0
+MOSI-5V
+Text GLabel 3300 4200 0    50   Output ~ 0
+SCK-5V
+Text GLabel 3300 4100 0    50   Input ~ 0
+MISO-5V
+Text GLabel 3300 4400 0    50   Output ~ 0
+SPI_CS1-5V
+Text GLabel 4500 4300 2    50   Input ~ 0
+MOSI
+Text GLabel 4500 4200 2    50   Input ~ 0
+SCK
+Text GLabel 4500 4100 2    50   Output ~ 0
+MISO
+Text GLabel 4500 4400 2    50   Input ~ 0
+SPI_CS1
 Wire Wire Line
 	800  3500 800  4200
 Wire Wire Line
@@ -258,15 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 1350 2150 1350
 Wire Wire Line
-	2450 2250 2450 3500
-Connection ~ 2450 3500
-Wire Wire Line
-	2350 2250 2350 3600
-Connection ~ 2350 3600
-Wire Wire Line
-	2250 2250 2250 3700
-Connection ~ 2250 3700
-Wire Wire Line
 	3000 1650 3000 1850
 Connection ~ 2900 1650
 Wire Wire Line
@@ -297,15 +305,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 4000 3300 4000
 Wire Wire Line
-	2800 2250 2800 4000
-Connection ~ 2800 4000
-Wire Wire Line
-	2900 2250 2900 3900
-Connection ~ 2900 3900
-Wire Wire Line
-	3000 2250 3000 3800
-Connection ~ 3000 3800
-Wire Wire Line
 	1000 2300 800  2300
 Wire Wire Line
 	800  1800 800  2800
@@ -331,7 +330,6 @@ Wire Wire Line
 Connection ~ 3000 1650
 Wire Wire Line
 	3900 4800 3900 5000
-NoConn ~ 3100 2250
 Wire Wire Line
 	3300 4600 3200 4600
 Wire Wire Line
@@ -339,20 +337,22 @@ Wire Wire Line
 Wire Wire Line
 	3200 4900 3900 4900
 Connection ~ 3900 4900
-Text GLabel 3300 4300 0    50   Output ~ 0
-MOSI-5V
-Text GLabel 3300 4200 0    50   Output ~ 0
-SCK-5V
-Text GLabel 3300 4100 0    50   Input ~ 0
-MISO-5V
-Text GLabel 3300 4400 0    50   Output ~ 0
-SPI_CS1-5V
-Text GLabel 4500 4300 2    50   Input ~ 0
-MOSI
-Text GLabel 4500 4200 2    50   Input ~ 0
-SCK
-Text GLabel 4500 4100 2    50   Output ~ 0
-MISO
-Text GLabel 4500 4400 2    50   Input ~ 0
-SPI_CS1
+Wire Wire Line
+	2250 2250 2250 4000
+Connection ~ 2250 4000
+Wire Wire Line
+	2350 2250 2350 3900
+Connection ~ 2350 3900
+Wire Wire Line
+	2450 2250 2450 3800
+Connection ~ 2450 3800
+Wire Wire Line
+	2800 2250 2800 3700
+Connection ~ 2800 3700
+Wire Wire Line
+	2900 2250 2900 3600
+Connection ~ 2900 3600
+Wire Wire Line
+	3000 2250 3000 3500
+Connection ~ 3000 3500
 $EndSCHEMATC

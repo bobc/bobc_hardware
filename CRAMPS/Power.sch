@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 feb 2014"
+Date "6 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -810,5 +810,5 @@ Wire Wire Line
 Wire Wire Line
 	1700 6600 1900 6600
 Text Notes 1200 7000 0    50   ~ 0
-Provision for optional 5V regulator to allow stand-alone \noperation from POWER_IN\n\nA common 1A switching version of the 7805 will work to power the \nBeagleBone however verify input voltage specifications if POWER_IN\nis more than 12V.  Also, more than 1A may be needed if there are\nhigh current drains on VDD_5V (typically servos or something\nconnected via the Aux. headers)
+Provision for optional 5V regulator to allow stand-alone \noperation from POWER_IN\n\nA common 1A switching version of the 7805 will work to power the \nBeagleBone, but verify the input voltage range if POWER_IN is more\nthan 12V.  Also, more than 1A may be needed if there are high\ncurrent drains on VDD_5V (typically servos or expansion boards\nconnected via the Aux. headers)
 $EndSCHEMATC

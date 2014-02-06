@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 feb 2014"
+Date "6 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -346,7 +346,7 @@ Each Pololu has a 100K pull-down on the enable \nline.  Make sure the pull up wi
 Text GLabel 2600 4900 2    50   Input ~ 0
 ESTOP
 Text GLabel 2600 5100 2    50   Input ~ 0
-ESTOP_IN
+ESTOP_SW
 Wire Wire Line
 	5800 3000 7600 3000
 Connection ~ 4300 5400
@@ -516,7 +516,7 @@ Wire Wire Line
 	4300 1500 4300 1400
 Connection ~ 4300 1400
 Text Notes 1400 5900 0    60   ~ 0
-ESTOP Active (high) unless:\n* Software is driving ESTOP_IN low\n* ESTOP chain is unbroken
+ESTOP Active (high) unless:\n* Software is driving ESTOP_SW low\n* ESTOP chain is unbroken
 Text GLabel 9400 3000 2    50   Output ~ 0
 EMMC_ENA_BUF
 Text GLabel 1900 3200 0    50   Output ~ 0

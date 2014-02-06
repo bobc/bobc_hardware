@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/4/2014 2:37:56 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/5/2014 4:15:25 PM
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -445,7 +445,7 @@ BeginCmp
 TimeStamp = /5176EFAC/52F13848;
 Reference = P106;
 ValeurCmp = TOUCH;
-IdModule  = pin_socket_3x2;
+IdModule  = pin_strip_6;
 EndCmp
 
 BeginCmp
@@ -550,7 +550,7 @@ BeginCmp
 TimeStamp = /5239FE5C/52F11184;
 Reference = P213;
 ValeurCmp = PS-ON;
-IdModule  = pin_strip_18;
+IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
@@ -584,7 +584,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51770F88;
 Reference = P218;
-ValeurCmp = D11;
+ValeurCmp = E2;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
@@ -592,7 +592,7 @@ BeginCmp
 TimeStamp = /5239FE5C/52C45876;
 Reference = P219;
 ValeurCmp = EXT_5V;
-IdModule  = CONN_KK_2.54_2W;
+IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
@@ -612,21 +612,21 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51AA03AE;
 Reference = P403;
-ValeurCmp = D9;
+ValeurCmp = E0;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51AA03A7;
 Reference = P404;
-ValeurCmp = D8;
+ValeurCmp = Bed;
 IdModule  = mors_2p;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/51AA03B1;
 Reference = P405;
-ValeurCmp = D10;
+ValeurCmp = E1;
 IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
@@ -647,14 +647,14 @@ EndCmp
 BeginCmp
 TimeStamp = /523E5F7E/523E5FFE;
 Reference = P901;
-ValeurCmp = D12;
+ValeurCmp = FET5;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E5F7E/523E66B1;
 Reference = P902;
-ValeurCmp = D2;
+ValeurCmp = FET6;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 

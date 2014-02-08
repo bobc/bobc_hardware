@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -117,7 +117,7 @@ F 1 "10k" H 2500 2000 40  0000 C CNN
 F 2 "~" H 2500 2050 60  0000 C CNN
 F 3 "~" H 2500 2050 60  0000 C CNN
 	1    2500 2050
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L R_PACK4 RP802
@@ -128,7 +128,7 @@ F 1 "10k" H 3150 2000 40  0000 C CNN
 F 2 "~" H 3150 2050 60  0000 C CNN
 F 3 "~" H 3150 2050 60  0000 C CNN
 	1    3150 2050
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 NoConn ~ 2150 2250
 $Comp

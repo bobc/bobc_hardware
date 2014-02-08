@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -277,7 +277,7 @@ F 1 "CONN_3X2" V 3000 4450 40  0000 C CNN
 F 2 "" H 3000 4400 60  0001 C CNN
 F 3 "" H 3000 4400 60  0001 C CNN
 	1    3000 4400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text GLabel 3950 4050 0    50   Input ~ 0
 E1_STEP
@@ -340,7 +340,7 @@ F 1 "CONN_3X2" V 3000 2050 40  0000 C CNN
 F 2 "" H 3000 2000 60  0001 C CNN
 F 3 "" H 3000 2000 60  0001 C CNN
 	1    3000 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L POLOLU U205
@@ -476,7 +476,7 @@ F 1 "CONN_3X2" V 2900 6900 40  0000 C CNN
 F 2 "" H 2900 6850 60  0001 C CNN
 F 3 "" H 2900 6850 60  0001 C CNN
 	1    2900 6850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +V_MOTOR #PWR060

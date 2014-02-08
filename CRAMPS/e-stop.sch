@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -52,45 +52,45 @@ $EndDescr
 $Comp
 L R_PACK4 RP1
 U 1 1 523A3B30
-P 4350 1700
-F 0 "RP1" H 4350 2150 40  0000 C CNN
-F 1 "10k" H 4350 1650 40  0000 C CNN
-F 2 "" H 4350 1700 60  0001 C CNN
-F 3 "" H 4350 1700 60  0001 C CNN
-	1    4350 1700
-	0    -1   -1   0   
+P 7900 3950
+F 0 "RP1" H 7900 4400 40  0000 C CNN
+F 1 "10k" H 7900 3900 40  0000 C CNN
+F 2 "" H 7900 3950 60  0001 C CNN
+F 3 "" H 7900 3950 60  0001 C CNN
+	1    7900 3950
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_PACK4 RP3
 U 1 1 523A3B2E
-P 6850 1700
-F 0 "RP3" H 6850 2150 40  0000 C CNN
-F 1 "10k" H 6850 1650 40  0000 C CNN
-F 2 "" H 6850 1700 60  0001 C CNN
-F 3 "" H 6850 1700 60  0001 C CNN
-	1    6850 1700
-	0    -1   -1   0   
+P 7900 5150
+F 0 "RP3" H 7900 5600 40  0000 C CNN
+F 1 "10k" H 7900 5100 40  0000 C CNN
+F 2 "" H 7900 5150 60  0001 C CNN
+F 3 "" H 7900 5150 60  0001 C CNN
+	1    7900 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_PACK4 RP2
 U 1 1 523A3B27
-P 6250 1700
-F 0 "RP2" H 6250 2150 40  0000 C CNN
-F 1 "10k" H 6250 1650 40  0000 C CNN
-F 2 "" H 6250 1700 60  0001 C CNN
-F 3 "" H 6250 1700 60  0001 C CNN
-	1    6250 1700
-	0    -1   -1   0   
+P 7900 4550
+F 0 "RP2" H 7900 5000 40  0000 C CNN
+F 1 "10k" H 7900 4500 40  0000 C CNN
+F 2 "" H 7900 4550 60  0001 C CNN
+F 3 "" H 7900 4550 60  0001 C CNN
+	1    7900 4550
+	1    0    0    -1  
 $EndComp
 Text Notes 1400 5400 0    60   ~ 0
 Emergency Stop switch\n(Normally Closed type)\nuse jumper if not present\n\n
-Text GLabel 7600 2800 2    50   Output ~ 0
+Text GLabel 6400 2800 2    50   Output ~ 0
 FET4_BUF
-Text GLabel 7600 2700 2    50   Output ~ 0
+Text GLabel 6400 2700 2    50   Output ~ 0
 FET3_BUF
-Text GLabel 3700 2800 0    50   Input ~ 0
+Text GLabel 4200 2800 0    50   Input ~ 0
 FET4
-Text GLabel 3700 2700 0    50   Input ~ 0
+Text GLabel 4200 2700 0    50   Input ~ 0
 FET3
 $Comp
 L 74LS125 U1
@@ -213,23 +213,23 @@ F 3 "" H 10100 900 60  0001 C CNN
 	1    10100 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 7600 2600 2    50   Output ~ 0
+Text GLabel 6400 2600 2    50   Output ~ 0
 FET2_BUF
-Text GLabel 7600 2500 2    50   Output ~ 0
+Text GLabel 6400 2500 2    50   Output ~ 0
 FET1_BUF
-Text GLabel 3700 2600 0    50   Input ~ 0
+Text GLabel 4200 2600 0    50   Input ~ 0
 FET2
-Text GLabel 3700 2500 0    50   Input ~ 0
+Text GLabel 4200 2500 0    50   Input ~ 0
 FET1
 $Comp
 L R R305
 U 1 1 51B4ECD2
-P 7200 1750
-F 0 "R305" V 7280 1750 50  0000 C CNN
-F 1 "4k7" V 7200 1750 50  0000 C CNN
-F 2 "" H 7200 1750 60  0001 C CNN
-F 3 "" H 7200 1750 60  0001 C CNN
-	1    7200 1750
+P 6000 1850
+F 0 "R305" V 6080 1850 50  0000 C CNN
+F 1 "4k7" V 6000 1850 50  0000 C CNN
+F 2 "" H 6000 1850 60  0001 C CNN
+F 3 "" H 6000 1850 60  0001 C CNN
+	1    6000 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -265,259 +265,80 @@ F 3 "" H 2700 4350 60  0001 C CNN
 	1    2700 4350
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9400 2300 2    50   Output ~ 0
+Text GLabel 8200 2300 2    50   Output ~ 0
 /X_EN_BUF
-Text GLabel 9400 2400 2    50   Output ~ 0
+Text GLabel 8200 2400 2    50   Output ~ 0
 /Y_EN_BUF
-Text GLabel 9400 2500 2    50   Output ~ 0
+Text GLabel 8200 2500 2    50   Output ~ 0
 /Z_EN_BUF
-Text GLabel 9400 2700 2    50   Output ~ 0
+Text GLabel 8200 2700 2    50   Output ~ 0
 /E1_EN_BUF
-Text GLabel 9400 2600 2    50   Output ~ 0
+Text GLabel 8200 2600 2    50   Output ~ 0
 /E0_EN_BUF
-Text GLabel 9400 2800 2    50   Output ~ 0
+Text GLabel 8200 2800 2    50   Output ~ 0
 /E2_EN_BUF
-Text GLabel 3700 2400 0    50   Input ~ 0
+Text GLabel 4200 2400 0    50   Input ~ 0
 EMMC_ENA
-Text GLabel 3700 2300 0    50   Input ~ 0
+Text GLabel 4200 2300 0    50   Input ~ 0
 AXIS_ENA
-Text GLabel 3700 2900 0    50   Input ~ 0
+Text GLabel 4200 2900 0    50   Input ~ 0
 FET5
-Text GLabel 3700 3000 0    50   Input ~ 0
+Text GLabel 4200 3000 0    50   Input ~ 0
 FET6
-Text GLabel 7600 2900 2    50   Output ~ 0
+Text GLabel 6400 2900 2    50   Output ~ 0
 FET5_BUF
-Text GLabel 7600 3000 2    50   Output ~ 0
+Text GLabel 6400 3000 2    50   Output ~ 0
 FET6_BUF
-Text Notes 10400 3000 0    80   ~ 0
+Text Notes 9200 3000 0    80   ~ 0
 Active low
-Text Notes 8500 3000 0    80   ~ 0
+Text Notes 7300 3000 0    80   ~ 0
 Active high
 $Comp
 L R R401
 U 1 1 52B0D0FC
-P 3900 3550
-F 0 "R401" V 3980 3550 50  0000 C CNN
-F 1 "10k" V 3900 3550 50  0000 C CNN
-F 2 "" H 3900 3550 60  0001 C CNN
-F 3 "" H 3900 3550 60  0001 C CNN
-	1    3900 3550
+P 7800 5850
+F 0 "R401" V 7880 5850 50  0000 C CNN
+F 1 "10k" V 7800 5850 50  0000 C CNN
+F 2 "" H 7800 5850 60  0001 C CNN
+F 3 "" H 7800 5850 60  0001 C CNN
+	1    7800 5850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R402
 U 1 1 52B0D109
-P 4100 3550
-F 0 "R402" V 4180 3550 50  0000 C CNN
-F 1 "10k" V 4100 3550 50  0000 C CNN
-F 2 "" H 4100 3550 60  0001 C CNN
-F 3 "" H 4100 3550 60  0001 C CNN
-	1    4100 3550
+P 8000 5850
+F 0 "R402" V 8080 5850 50  0000 C CNN
+F 1 "10k" V 8000 5850 50  0000 C CNN
+F 2 "" H 8000 5850 60  0001 C CNN
+F 3 "" H 8000 5850 60  0001 C CNN
+	1    8000 5850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR054
 U 1 1 52B0D127
-P 4100 4000
-F 0 "#PWR054" H 4100 4000 30  0001 C CNN
-F 1 "GND" H 4100 3930 30  0001 C CNN
-F 2 "" H 4100 4000 60  0001 C CNN
-F 3 "" H 4100 4000 60  0001 C CNN
-	1    4100 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR055
-U 1 1 52B224D5
-P 5100 1500
-F 0 "#PWR055" H 5100 1500 30  0001 C CNN
-F 1 "GND" H 5100 1430 30  0001 C CNN
-F 2 "" H 5100 1500 60  0001 C CNN
-F 3 "" H 5100 1500 60  0001 C CNN
-	1    5100 1500
+P 8000 6300
+F 0 "#PWR054" H 8000 6300 30  0001 C CNN
+F 1 "GND" H 8000 6230 30  0001 C CNN
+F 2 "" H 8000 6300 60  0001 C CNN
+F 3 "" H 8000 6300 60  0001 C CNN
+	1    8000 6300
 	1    0    0    -1  
 $EndComp
 Text Notes 10200 1950 0    60   ~ 0
 VCC = 5V 
 Text Notes 4700 3700 0    60   ~ 12
 Must use ACT (or HCT) type buffers. \nInputs are compatible with \n3.3V or 5V logic
-Text Notes 7500 2000 0    60   ~ 0
+Text Notes 6200 1800 0    60   ~ 0
 Each Pololu has a 100K pull-down on the enable \nline.  Make sure the pull up will reach a valid logic \nlevel (2.2V or more) with multiple enables paralleled.
 Text GLabel 2600 4900 2    50   Input ~ 0
 ESTOP
 Text GLabel 2600 5100 2    50   Input ~ 0
 ESTOP_SW
-Wire Wire Line
-	5800 3000 7600 3000
-Connection ~ 4300 5400
-Wire Wire Line
-	4100 6000 4850 6000
-Wire Wire Line
-	4300 3200 4300 3300
-Wire Wire Line
-	4300 4200 4300 6000
-Wire Wire Line
-	4300 4800 4850 4800
-Wire Wire Line
-	4300 3300 4400 3300
-Wire Wire Line
-	3700 2900 4400 2900
-Wire Wire Line
-	10650 1700 10650 1500
-Wire Wire Line
-	10100 900  10100 1100
-Wire Wire Line
-	5800 2500 7600 2500
-Wire Wire Line
-	5800 2300 9400 2300
-Wire Wire Line
-	3700 2800 4400 2800
-Wire Wire Line
-	3700 2600 4400 2600
-Wire Wire Line
-	3700 2400 4400 2400
-Wire Wire Line
-	3700 2300 4400 2300
-Wire Wire Line
-	3700 2500 4400 2500
-Wire Wire Line
-	3700 2700 4400 2700
-Wire Wire Line
-	5800 2400 9200 2400
-Wire Wire Line
-	5800 2600 7600 2600
-Wire Wire Line
-	5800 2800 7600 2800
-Wire Wire Line
-	3700 3000 4400 3000
-Wire Wire Line
-	5800 2900 7600 2900
-Wire Wire Line
-	10100 1500 10100 1700
-Wire Wire Line
-	10650 1100 10650 900 
-Wire Wire Line
-	4300 4200 4850 4200
-Wire Wire Line
-	4300 5400 4850 5400
-Connection ~ 4300 4800
-Wire Notes Line
-	10100 2250 10300 2250
-Wire Notes Line
-	8400 2450 8400 3050
-Wire Notes Line
-	8400 3050 8200 3050
-Wire Wire Line
-	4100 3800 4100 4000
-Wire Wire Line
-	3900 3800 3900 3900
-Wire Wire Line
-	3900 3900 4100 3900
-Connection ~ 4100 3900
-Wire Notes Line
-	10100 3050 10300 3050
-Wire Notes Line
-	10300 3050 10300 2250
-Wire Notes Line
-	8200 2450 8400 2450
-Wire Wire Line
-	2200 4900 2600 4900
-Connection ~ 2400 4900
-Wire Wire Line
-	2200 5100 2600 5100
-Wire Wire Line
-	9300 2600 9400 2600
-Wire Wire Line
-	9300 2300 9300 2800
-Wire Wire Line
-	9300 2400 9400 2400
-Connection ~ 9300 2400
-Wire Wire Line
-	9300 2500 9400 2500
-Connection ~ 9300 2500
-Connection ~ 9300 2300
-Wire Wire Line
-	6000 1900 6000 2400
-Connection ~ 6000 2400
-Wire Wire Line
-	6100 1900 6100 2500
-Connection ~ 6100 2500
-Wire Wire Line
-	6200 1900 6200 2600
-Connection ~ 6200 2600
-Wire Wire Line
-	6500 1900 6500 2700
-Wire Wire Line
-	5800 2700 7600 2700
-Wire Wire Line
-	6600 1900 6600 2800
-Connection ~ 6600 2800
-Wire Wire Line
-	6700 1900 6700 2900
-Connection ~ 6700 2900
-Wire Wire Line
-	6800 1900 6800 3000
-Connection ~ 6800 3000
-Connection ~ 6500 2700
-Wire Wire Line
-	5900 1200 5900 1500
-Wire Wire Line
-	6000 1500 6000 1300
-Wire Wire Line
-	5900 1300 7200 1300
-Connection ~ 5900 1300
-Wire Wire Line
-	6100 1400 6100 1500
-Wire Wire Line
-	4000 1400 6800 1400
-Wire Wire Line
-	6800 1400 6800 1500
-Wire Wire Line
-	6700 1500 6700 1400
-Connection ~ 6700 1400
-Wire Wire Line
-	6600 1500 6600 1400
-Connection ~ 6600 1400
-Wire Wire Line
-	6500 1500 6500 1400
-Connection ~ 6500 1400
-Wire Wire Line
-	6200 1500 6200 1400
-Connection ~ 6200 1400
-Wire Wire Line
-	4300 1900 4300 2500
-Connection ~ 4300 2500
-Wire Wire Line
-	4200 1900 4200 2600
-Connection ~ 4200 2600
-Wire Wire Line
-	4100 1900 4100 2700
-Connection ~ 4100 2700
-Wire Wire Line
-	4000 1900 4000 2800
-Connection ~ 4000 2800
-Wire Wire Line
-	3900 3300 3900 2900
-Connection ~ 3900 2900
-Wire Wire Line
-	4100 3300 4100 3000
-Connection ~ 4100 3000
-Connection ~ 4300 3200
-Wire Wire Line
-	4000 1500 4000 1400
-Connection ~ 6100 1400
-Wire Wire Line
-	4100 1500 4100 1400
-Connection ~ 4100 1400
-Wire Wire Line
-	4200 1500 4200 1400
-Connection ~ 4200 1400
-Wire Wire Line
-	4300 1500 4300 1400
-Connection ~ 4300 1400
 Text Notes 1400 5900 0    60   ~ 0
 ESTOP Active (high) unless:\n* Software is driving ESTOP_SW low\n* ESTOP chain is unbroken
-Text GLabel 9400 3000 2    50   Output ~ 0
+Text GLabel 8200 3000 2    50   Output ~ 0
 EMMC_ENA_BUF
 Text GLabel 1900 3200 0    50   Output ~ 0
 PS-ON
@@ -534,8 +355,6 @@ F 3 "~" H 2000 3600 60  0000 C CNN
 	1    2000 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 3600 1800 3600
 Text GLabel 2900 3600 2    50   Input ~ 0
 MACHINE_PWR
 $Comp
@@ -549,60 +368,17 @@ F 3 "~" H 2500 3600 60  0000 C CNN
 	1    2500 3600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2900 3600 2700 3600
-Wire Wire Line
-	2400 3200 4400 3200
-Wire Wire Line
-	2400 2100 2400 3400
-Connection ~ 2400 3200
 Text Label 2600 3200 0    50   ~ 0
 /MACHINE_PWR
-Wire Wire Line
-	9200 2400 9200 3000
-Wire Wire Line
-	9200 3000 9400 3000
-Wire Wire Line
-	9300 2800 9400 2800
-Connection ~ 9300 2600
-Wire Wire Line
-	9400 2700 9300 2700
-Connection ~ 9300 2700
-Wire Wire Line
-	7200 1300 7200 1500
-Connection ~ 6000 1300
-Wire Wire Line
-	7200 2000 7200 2300
-Connection ~ 7200 2300
-Wire Wire Line
-	5900 1900 5900 2100
-Wire Wire Line
-	5900 2100 2400 2100
-Wire Wire Line
-	2100 3800 2100 4000
-Wire Wire Line
-	2100 4000 2400 4000
-Wire Wire Line
-	2400 3800 2400 4900
-Connection ~ 2400 4000
-Wire Wire Line
-	2700 4600 2700 4700
-Wire Wire Line
-	2700 4700 2400 4700
-Connection ~ 2400 4700
-Wire Wire Line
-	2100 3400 2100 3200
-Wire Wire Line
-	2100 3200 1900 3200
 $Comp
-L +V_LOGIC #PWR056
+L +V_LOGIC #PWR055
 U 1 1 52F114C4
-P 5900 1200
-F 0 "#PWR056" H 5900 1170 30  0001 C CNN
-F 1 "+V_LOGIC" H 5900 1300 30  0000 C CNN
-F 2 "" H 5900 1200 60  0001 C CNN
-F 3 "" H 5900 1200 60  0001 C CNN
-	1    5900 1200
+P 6000 1500
+F 0 "#PWR055" H 6000 1470 30  0001 C CNN
+F 1 "+V_LOGIC" H 6000 1600 30  0000 C CNN
+F 2 "" H 6000 1500 60  0001 C CNN
+F 3 "" H 6000 1500 60  0001 C CNN
+	1    6000 1500
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4100 6000 0    50   Input ~ 0
@@ -623,6 +399,151 @@ Text GLabel 5300 5700 2    50   Output ~ 0
 SERVO3-5V
 Text GLabel 5300 6300 2    50   Output ~ 0
 SERVO4-5V
+Text GLabel 7700 4300 0    50   Input ~ 0
+FET4
+Text GLabel 7700 4500 0    50   Input ~ 0
+FET3
+Text GLabel 7700 4900 0    50   Input ~ 0
+FET2
+Text GLabel 7700 5100 0    50   Input ~ 0
+FET1
+Text GLabel 7700 3900 0    50   Input ~ 0
+FET5
+Text GLabel 7700 3700 0    50   Input ~ 0
+FET6
+Text GLabel 7700 5000 0    50   Output ~ 0
+FET4_BUF
+Text GLabel 7700 4800 0    50   Output ~ 0
+FET3_BUF
+Text GLabel 7700 4400 0    50   Output ~ 0
+FET2_BUF
+Text GLabel 7700 4200 0    50   Output ~ 0
+FET1_BUF
+Text GLabel 7700 5400 0    50   Output ~ 0
+FET5_BUF
+Text GLabel 7700 5500 0    50   Output ~ 0
+FET6_BUF
+Text GLabel 7700 3800 0    50   Output ~ 0
+EMMC_ENA_BUF
+Text Label 7100 3600 0    50   ~ 0
+/MACHINE_PWR
+Wire Wire Line
+	5800 3000 6400 3000
+Connection ~ 4300 5400
+Wire Wire Line
+	4100 6000 4850 6000
+Wire Wire Line
+	4300 3200 4300 3300
+Wire Wire Line
+	4300 4200 4300 6000
+Wire Wire Line
+	4300 4800 4850 4800
+Wire Wire Line
+	4300 3300 4400 3300
+Wire Wire Line
+	4200 2900 4400 2900
+Wire Wire Line
+	10650 1700 10650 1500
+Wire Wire Line
+	10100 900  10100 1100
+Wire Wire Line
+	5800 2500 6400 2500
+Wire Wire Line
+	5800 2300 8200 2300
+Wire Wire Line
+	5800 2400 8000 2400
+Wire Wire Line
+	5800 2600 6400 2600
+Wire Wire Line
+	5800 2800 6400 2800
+Wire Wire Line
+	4200 3000 4400 3000
+Wire Wire Line
+	5800 2900 6400 2900
+Wire Wire Line
+	10100 1500 10100 1700
+Wire Wire Line
+	10650 1100 10650 900 
+Wire Wire Line
+	4300 4200 4850 4200
+Wire Wire Line
+	4300 5400 4850 5400
+Connection ~ 4300 4800
+Wire Notes Line
+	8900 2250 9100 2250
+Wire Notes Line
+	7200 2450 7200 3050
+Wire Notes Line
+	7200 3050 7000 3050
+Wire Wire Line
+	8000 6100 8000 6300
+Wire Wire Line
+	7800 6100 7800 6200
+Wire Wire Line
+	8200 6200 7800 6200
+Connection ~ 8000 6200
+Wire Notes Line
+	8900 3050 9100 3050
+Wire Notes Line
+	9100 3050 9100 2250
+Wire Notes Line
+	7000 2450 7200 2450
+Wire Wire Line
+	2200 4900 2600 4900
+Connection ~ 2400 4900
+Wire Wire Line
+	2200 5100 2600 5100
+Wire Wire Line
+	8100 2600 8200 2600
+Wire Wire Line
+	8100 2300 8100 2800
+Wire Wire Line
+	8100 2400 8200 2400
+Connection ~ 8100 2400
+Wire Wire Line
+	8100 2500 8200 2500
+Connection ~ 8100 2500
+Connection ~ 8100 2300
+Wire Wire Line
+	5800 2700 6400 2700
+Connection ~ 4300 3200
+Wire Wire Line
+	1600 3600 1800 3600
+Wire Wire Line
+	2900 3600 2700 3600
+Wire Wire Line
+	2400 3200 4400 3200
+Wire Wire Line
+	8000 2400 8000 3000
+Wire Wire Line
+	8000 3000 8200 3000
+Wire Wire Line
+	8100 2800 8200 2800
+Connection ~ 8100 2600
+Wire Wire Line
+	8200 2700 8100 2700
+Connection ~ 8100 2700
+Wire Wire Line
+	6000 1500 6000 1600
+Wire Wire Line
+	6000 2100 6000 2300
+Connection ~ 6000 2300
+Wire Wire Line
+	2100 3800 2100 4000
+Wire Wire Line
+	2100 4000 2400 4000
+Wire Wire Line
+	2400 3800 2400 4900
+Connection ~ 2400 4000
+Wire Wire Line
+	2700 4600 2700 4700
+Wire Wire Line
+	2700 4700 2400 4700
+Connection ~ 2400 4700
+Wire Wire Line
+	2100 3400 2100 3200
+Wire Wire Line
+	2100 3200 1900 3200
 Wire Wire Line
 	4100 4500 4400 4500
 Wire Wire Line
@@ -633,6 +554,78 @@ Connection ~ 4300 6000
 Wire Wire Line
 	4100 6300 4400 6300
 Wire Wire Line
-	5100 1400 5100 1500
-Connection ~ 5100 1400
+	4200 2300 4400 2300
+Wire Wire Line
+	4200 2400 4400 2400
+Wire Wire Line
+	4200 2500 4400 2500
+Wire Wire Line
+	4200 2600 4400 2600
+Wire Wire Line
+	4200 2700 4400 2700
+Wire Wire Line
+	4200 2800 4400 2800
+Wire Wire Line
+	8100 3700 8200 3700
+Wire Wire Line
+	8200 3700 8200 6200
+Wire Wire Line
+	8100 5100 8200 5100
+Connection ~ 8200 5100
+Wire Wire Line
+	8100 5000 8200 5000
+Connection ~ 8200 5000
+Wire Wire Line
+	8100 4900 8200 4900
+Connection ~ 8200 4900
+Wire Wire Line
+	8100 4800 8200 4800
+Connection ~ 8200 4800
+Wire Wire Line
+	8100 4500 8200 4500
+Connection ~ 8200 4500
+Wire Wire Line
+	8100 4400 8200 4400
+Connection ~ 8200 4400
+Wire Wire Line
+	8100 4300 8200 4300
+Connection ~ 8200 4300
+Wire Wire Line
+	8100 4200 8200 4200
+Connection ~ 8200 4200
+Wire Wire Line
+	8100 3900 8200 3900
+Connection ~ 8200 3900
+Wire Wire Line
+	8300 3800 8100 3800
+Wire Wire Line
+	8300 3500 8300 3800
+Wire Wire Line
+	8100 3600 8300 3600
+Connection ~ 8300 3600
+$Comp
+L +V_LOGIC #PWR056
+U 1 1 52F5BF35
+P 8300 3500
+F 0 "#PWR056" H 8300 3470 30  0001 C CNN
+F 1 "+V_LOGIC" H 8300 3600 30  0000 C CNN
+F 2 "" H 8300 3500 60  0001 C CNN
+F 3 "" H 8300 3500 60  0001 C CNN
+	1    8300 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3600 7000 3600
+Wire Wire Line
+	7700 5500 7800 5500
+Wire Wire Line
+	7800 5500 7800 5600
+Wire Wire Line
+	7700 5400 8000 5400
+Wire Wire Line
+	8000 5400 8000 5600
+Wire Wire Line
+	2400 3200 2400 3400
+Text Notes 8500 4300 0    50   ~ 0
+Scramble pull up/down\nresistors to match wacky\n'244 buffer pinout
 $EndSCHEMATC

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"

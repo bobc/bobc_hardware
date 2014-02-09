@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "8 feb 2014"
+Date "9 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -369,7 +369,7 @@ F 3 "~" H 2500 3600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 2600 3200 0    50   ~ 0
-/MACHINE_PWR
+MACHINE_PWRn
 $Comp
 L +V_LOGIC #PWR055
 U 1 1 52F114C4
@@ -426,7 +426,7 @@ FET6_BUF
 Text GLabel 7700 3800 0    50   Output ~ 0
 EMMC_ENA_BUF
 Text Label 7100 3600 0    50   ~ 0
-/MACHINE_PWR
+MACHINE_PWRn
 Wire Wire Line
 	5800 3000 6400 3000
 Connection ~ 4300 5400
@@ -480,7 +480,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 6100 7800 6200
 Wire Wire Line
-	8200 6200 7800 6200
+	7800 6200 8200 6200
 Connection ~ 8000 6200
 Wire Notes Line
 	8900 3050 9100 3050
@@ -603,17 +603,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 3600 8300 3600
 Connection ~ 8300 3600
-$Comp
-L +V_LOGIC #PWR056
-U 1 1 52F5BF35
-P 8300 3500
-F 0 "#PWR056" H 8300 3470 30  0001 C CNN
-F 1 "+V_LOGIC" H 8300 3600 30  0000 C CNN
-F 2 "" H 8300 3500 60  0001 C CNN
-F 3 "" H 8300 3500 60  0001 C CNN
-	1    8300 3500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7700 3600 7000 3600
 Wire Wire Line
@@ -628,4 +617,15 @@ Wire Wire Line
 	2400 3200 2400 3400
 Text Notes 8500 4300 0    50   ~ 0
 Scramble pull up/down\nresistors to match wacky\n'244 buffer pinout
+$Comp
+L VCC #PWR056
+U 1 1 52F70BE4
+P 8300 3500
+F 0 "#PWR056" H 8300 3600 30  0001 C CNN
+F 1 "VCC" H 8300 3600 30  0000 C CNN
+F 2 "" H 8300 3500 60  0001 C CNN
+F 3 "" H 8300 3500 60  0001 C CNN
+	1    8300 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

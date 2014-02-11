@@ -1,0 +1,3 @@
+Fixes for V1.0 Board:
+Add 5.6K pull-ups to primary I2C per BeagleBone SRM
+

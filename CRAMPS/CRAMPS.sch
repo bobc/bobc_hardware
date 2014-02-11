@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "9 feb 2014"
+Date "11 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -199,6 +199,8 @@ F 0 "SW101" H 10150 5110 50  0000 C CNN
 F 1 "RESET" H 10000 4920 50  0000 C CNN
 F 2 "" H 10000 5000 60  0001 C CNN
 F 3 "" H 10000 5000 60  0001 C CNN
+F 4 "TE" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "FSM2JH" H 6250 6550 60  0001 C CNN "PartNo"
 	1    10000 5000
 	0    1    1    0   
 $EndComp
@@ -221,6 +223,8 @@ F 0 "D101" H 7900 5100 50  0000 C CNN
 F 1 "LED GRN" H 7900 4850 50  0000 C CNN
 F 2 "" H 7900 5000 60  0001 C CNN
 F 3 "" H 7900 5000 60  0001 C CNN
+F 4 "Osram" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "LG R971-KN-1" H 6250 6550 60  0001 C CNN "PartNo"
 	1    7900 5000
 	0    1    1    0   
 $EndComp
@@ -232,6 +236,8 @@ F 0 "R101" V 7980 4450 50  0000 C CNN
 F 1 "330R" V 7900 4450 50  0000 C CNN
 F 2 "" H 7900 4450 60  0001 C CNN
 F 3 "" H 7900 4450 60  0001 C CNN
+F 4 "KOA" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "RK73H2ATTDD3300F" H 6250 6550 60  0001 C CNN "PartNo"
 	1    7900 4450
 	1    0    0    -1  
 $EndComp
@@ -264,6 +270,8 @@ F 0 "P102" V 10700 5000 40  0000 C CNN
 F 1 "RESET" V 10800 5000 40  0000 C CNN
 F 2 "" H 10750 5000 60  0000 C CNN
 F 3 "" H 10750 5000 60  0000 C CNN
+F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "M20-9990245" H 6250 6550 60  0001 C CNN "PartNo"
 	1    10750 5000
 	1    0    0    -1  
 $EndComp
@@ -292,6 +300,8 @@ F 0 "Q101" H 7800 5800 60  0000 R CNN
 F 1 "2N7002" H 7800 5350 60  0000 R CNN
 F 2 "~" H 7800 5600 60  0000 C CNN
 F 3 "~" H 7800 5600 60  0000 C CNN
+F 4 "Diodes Inc." H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "2N7002K-7" H 6250 6550 60  0001 C CNN "PartNo"
 	1    7800 5600
 	1    0    0    -1  
 $EndComp
@@ -321,6 +331,9 @@ F 0 "U4" H 3500 3100 60  0000 C CNN
 F 1 "BEAGLEBONEBLACK" H 4300 450 60  0000 C CNN
 F 2 "~" H 3450 600 60  0000 C CNN
 F 3 "~" H 3450 600 60  0000 C CNN
+F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
+F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
+F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
 	1    3650 1850
 	1    0    0    -1  
 $EndComp
@@ -332,6 +345,9 @@ F 0 "U4" H 4200 3100 60  0000 C CNN
 F 1 "BEAGLEBONEBLACK" H 4400 550 60  0000 C CNN
 F 2 "~" H 4150 600 60  0000 C CNN
 F 3 "~" H 4150 600 60  0000 C CNN
+F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
+F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
+F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
 	2    4350 1850
 	-1   0    0    -1  
 $EndComp
@@ -343,6 +359,9 @@ F 0 "U4" H 3500 6300 60  0000 C CNN
 F 1 "BEAGLEBONEBLACK" H 4300 3650 60  0000 C CNN
 F 2 "~" H 3450 3800 60  0000 C CNN
 F 3 "~" H 3450 3800 60  0000 C CNN
+F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
+F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
+F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
 	3    3650 5050
 	1    0    0    -1  
 $EndComp
@@ -354,6 +373,9 @@ F 0 "U4" H 4200 6300 60  0000 C CNN
 F 1 "BEAGLEBONEBLACK" H 4400 3750 60  0000 C CNN
 F 2 "~" H 4150 3800 60  0000 C CNN
 F 3 "~" H 4150 3800 60  0000 C CNN
+F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
+F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
+F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
 	4    4350 5050
 	-1   0    0    -1  
 $EndComp
@@ -377,6 +399,8 @@ F 0 "P103" V 2000 6950 60  0000 C CNN
 F 1 "SERIAL0" V 2100 6950 60  0000 C CNN
 F 2 "" H 2050 6950 60  0001 C CNN
 F 3 "" H 2050 6950 60  0001 C CNN
+F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "M20-7820646" H 6250 6550 60  0001 C CNN "PartNo"
 	1    2050 6950
 	1    0    0    -1  
 $EndComp
@@ -492,6 +516,8 @@ F 0 "SW102" H 10150 3810 50  0000 C CNN
 F 1 "POWER" H 10000 3620 50  0000 C CNN
 F 2 "" H 10000 3700 60  0001 C CNN
 F 3 "" H 10000 3700 60  0001 C CNN
+F 4 "TE" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "FSM2JH" H 6250 6550 60  0001 C CNN "PartNo"
 	1    10000 3700
 	0    1    1    0   
 $EndComp
@@ -503,6 +529,8 @@ F 0 "P104" V 10700 3700 40  0000 C CNN
 F 1 "POWER" V 10800 3700 40  0000 C CNN
 F 2 "" H 10750 3700 60  0000 C CNN
 F 3 "" H 10750 3700 60  0000 C CNN
+F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "M20-9990245" H 6250 6550 60  0001 C CNN "PartNo"
 	1    10750 3700
 	1    0    0    -1  
 $EndComp
@@ -622,4 +650,8 @@ NoConn ~ 3100 2800
 NoConn ~ 3100 2900
 NoConn ~ 3100 3000
 NoConn ~ 4900 1700
+Text Notes 600  2200 0    60   ~ 0
+Alternate stacking BeagleBone Headers:\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n
+Text Notes 600  2700 0    60   ~ 0
+To save money on all the pin headers when\nbuying parts for a few boards, you can get\nlarge breakaway headers instead of the\nindividual parts.  You will need a total of:\n\n57 pins of single-row header\n74 pins of dual-row header\n\nWhich you can get using\n(2) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n
 $EndSCHEMATC

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "11 feb 2014"
+Date "15 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -101,8 +101,8 @@ F 0 "M101" H 6100 7350 60  0000 C CNN
 F 1 "LOGO_OSHW" H 6100 7100 60  0000 C CNN
 F 2 "OSHW_logo_2" H 6000 7250 60  0000 C CNN
 F 3 "" H 6100 7200 60  0001 C CNN
-	1    6100 7200
-	1    0    0    -1  
+    1    6100 7200
+    1    0    0    -1  
 $EndComp
 Text GLabel 4900 5900 2    50   Input ~ 0
 AIN1
@@ -188,8 +188,8 @@ F 0 "#PWR01" H 10000 5500 30  0001 C CNN
 F 1 "GND" H 10000 5430 30  0001 C CNN
 F 2 "" H 10000 5500 60  0001 C CNN
 F 3 "" H 10000 5500 60  0001 C CNN
-	1    10000 5500
-	1    0    0    -1  
+    1    10000 5500
+    1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW101
@@ -201,8 +201,8 @@ F 2 "" H 10000 5000 60  0001 C CNN
 F 3 "" H 10000 5000 60  0001 C CNN
 F 4 "TE" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "FSM2JH" H 6250 6550 60  0001 C CNN "PartNo"
-	1    10000 5000
-	0    1    1    0   
+    1    10000 5000
+    0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR02
@@ -212,8 +212,8 @@ F 0 "#PWR02" H 7900 6000 30  0001 C CNN
 F 1 "GND" H 7900 5930 30  0001 C CNN
 F 2 "" H 7900 6000 60  0001 C CNN
 F 3 "" H 7900 6000 60  0001 C CNN
-	1    7900 6000
-	1    0    0    -1  
+    1    7900 6000
+    1    0    0    -1  
 $EndComp
 $Comp
 L LED D101
@@ -225,8 +225,8 @@ F 2 "" H 7900 5000 60  0001 C CNN
 F 3 "" H 7900 5000 60  0001 C CNN
 F 4 "Osram" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LG R971-KN-1" H 6250 6550 60  0001 C CNN "PartNo"
-	1    7900 5000
-	0    1    1    0   
+    1    7900 5000
+    0    1    1    0   
 $EndComp
 $Comp
 L R R101
@@ -236,10 +236,12 @@ F 0 "R101" V 7980 4450 50  0000 C CNN
 F 1 "330R" V 7900 4450 50  0000 C CNN
 F 2 "" H 7900 4450 60  0001 C CNN
 F 3 "" H 7900 4450 60  0001 C CNN
-F 4 "KOA" H 6250 6550 60  0001 C CNN "Mfg"
-F 5 "RK73H2ATTDD3300F" H 6250 6550 60  0001 C CNN "PartNo"
-	1    7900 4450
-	1    0    0    -1  
+F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
+F 5 "RMCF0805FT330R" H 6250 6550 60  0001 C CNN "PartNo"
+F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
+F 7 "RK73H2ATTDD3300F" H 6250 6550 60  0001 C CNN "AltPartNo"
+    1    7900 4450
+    1    0    0    -1  
 $EndComp
 $Comp
 L PCB_GREEN_RMC M102
@@ -249,8 +251,8 @@ F 0 "M102" H 5200 7350 60  0000 C CNN
 F 1 "PCB_GREEN_RMC" H 5200 7100 60  0000 C CNN
 F 2 "" H 5200 7200 60  0000 C CNN
 F 3 "" H 5200 7200 60  0000 C CNN
-	1    5200 7200
-	1    0    0    -1  
+    1    5200 7200
+    1    0    0    -1  
 $EndComp
 Text GLabel 4900 5300 2    50   Output ~ 0
 SPI_CS0
@@ -272,8 +274,8 @@ F 2 "" H 10750 5000 60  0000 C CNN
 F 3 "" H 10750 5000 60  0000 C CNN
 F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "M20-9990245" H 6250 6550 60  0001 C CNN "PartNo"
-	1    10750 5000
-	1    0    0    -1  
+    1    10750 5000
+    1    0    0    -1  
 $EndComp
 $Sheet
 S 8100 1550 950  400 
@@ -289,8 +291,8 @@ F 0 "#PWR03" H 7900 4190 20  0001 C CNN
 F 1 "+5V" H 7900 4190 30  0000 C CNN
 F 2 "" H 7900 4100 60  0000 C CNN
 F 3 "" H 7900 4100 60  0000 C CNN
-	1    7900 4100
-	1    0    0    -1  
+    1    7900 4100
+    1    0    0    -1  
 $EndComp
 $Comp
 L MOSFET_N Q101
@@ -302,8 +304,8 @@ F 2 "~" H 7800 5600 60  0000 C CNN
 F 3 "~" H 7800 5600 60  0000 C CNN
 F 4 "Diodes Inc." H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "2N7002K-7" H 6250 6550 60  0001 C CNN "PartNo"
-	1    7800 5600
-	1    0    0    -1  
+    1    7800 5600
+    1    0    0    -1  
 $EndComp
 Text Notes 5050 2200 0    60   ~ 0
 HDMI
@@ -334,8 +336,8 @@ F 3 "~" H 3450 600 60  0000 C CNN
 F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
 F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
 F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	1    3650 1850
-	1    0    0    -1  
+    1    3650 1850
+    1    0    0    -1  
 $EndComp
 $Comp
 L BEAGLEBONEBLACK U4
@@ -348,8 +350,8 @@ F 3 "~" H 4150 600 60  0000 C CNN
 F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
 F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
 F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	2    4350 1850
-	-1   0    0    -1  
+    2    4350 1850
+    -1   0    0    -1  
 $EndComp
 $Comp
 L BEAGLEBONEBLACK U4
@@ -362,8 +364,8 @@ F 3 "~" H 3450 3800 60  0000 C CNN
 F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
 F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
 F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	3    3650 5050
-	1    0    0    -1  
+    3    3650 5050
+    1    0    0    -1  
 $EndComp
 $Comp
 L BEAGLEBONEBLACK U4
@@ -376,8 +378,8 @@ F 3 "~" H 4150 3800 60  0000 C CNN
 F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
 F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
 F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	4    4350 5050
-	-1   0    0    -1  
+    4    4350 5050
+    -1   0    0    -1  
 $EndComp
 Text GLabel 3100 5100 0    50   Output ~ 0
 MACHINE_PWR
@@ -401,8 +403,8 @@ F 2 "" H 2050 6950 60  0001 C CNN
 F 3 "" H 2050 6950 60  0001 C CNN
 F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "M20-7820646" H 6250 6550 60  0001 C CNN "PartNo"
-	1    2050 6950
-	1    0    0    -1  
+    1    2050 6950
+    1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
@@ -412,73 +414,73 @@ F 0 "#PWR04" H 1600 7300 30  0001 C CNN
 F 1 "GND" H 1600 7230 30  0001 C CNN
 F 2 "" H 1600 7300 60  0001 C CNN
 F 3 "" H 1600 7300 60  0001 C CNN
-	1    1600 7300
-	1    0    0    -1  
+    1    1600 7300
+    1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 5300 10000 5500
+    10000 5300 10000 5500
 Wire Wire Line
-	7900 5800 7900 6000
+    7900 5800 7900 6000
 Wire Wire Line
-	7900 4800 7900 4700
+    7900 4800 7900 4700
 Wire Wire Line
-	9800 4600 10400 4600
+    9800 4600 10400 4600
 Wire Wire Line
-	10000 4600 10000 4700
+    10000 4600 10000 4700
 Wire Notes Line
-	6500 650  6500 7600
+    6500 650  6500 7600
 Wire Wire Line
-	10400 4600 10400 4900
+    10400 4600 10400 4900
 Connection ~ 10000 4600
 Wire Wire Line
-	10400 5100 10400 5400
+    10400 5100 10400 5400
 Wire Wire Line
-	10400 5400 10000 5400
+    10400 5400 10000 5400
 Connection ~ 10000 5400
 Wire Wire Line
-	7900 4100 7900 4200
+    7900 4100 7900 4200
 Wire Wire Line
-	7900 5400 7900 5200
+    7900 5400 7900 5200
 Wire Notes Line
-	5500 850  5400 850 
+    5500 850  5400 850 
 Wire Notes Line
-	5400 850  5400 1050
+    5400 850  5400 1050
 Wire Notes Line
-	5400 1050 5500 1050
+    5400 1050 5500 1050
 Wire Notes Line
-	2500 850  2600 850 
+    2500 850  2600 850 
 Wire Notes Line
-	2600 850  2600 1050
+    2600 850  2600 1050
 Wire Notes Line
-	2600 1050 2500 1050
+    2600 1050 2500 1050
 Wire Notes Line
-	5500 1650 5400 1650
+    5500 1650 5400 1650
 Wire Notes Line
-	5400 1650 5400 1950
+    5400 1650 5400 1950
 Wire Notes Line
-	5400 1950 5500 1950
+    5400 1950 5500 1950
 Wire Notes Line
-	2500 1750 2600 1750
+    2500 1750 2600 1750
 Wire Notes Line
-	3000 2100 3000 3050
+    3000 2100 3000 3050
 Wire Notes Line
-	5000 3050 5100 3050
+    5000 3050 5100 3050
 Wire Notes Line
-	3000 3050 2900 3050
+    3000 3050 2900 3050
 Wire Notes Line
-	3000 2100 2900 2100
+    3000 2100 2900 2100
 Wire Notes Line
-	5000 2100 5000 3050
+    5000 2100 5000 3050
 Wire Notes Line
-	5000 2100 5100 2100
+    5000 2100 5100 2100
 Wire Wire Line
-	1700 6700 1600 6700
+    1700 6700 1600 6700
 Wire Wire Line
-	1600 6700 1600 7300
+    1600 6700 1600 7300
 Wire Wire Line
-	1500 7000 1700 7000
+    1500 7000 1700 7000
 Wire Wire Line
-	1700 7100 1500 7100
+    1700 7100 1500 7100
 Text GLabel 4900 4300 2    50   UnSpc ~ 0
 SYS_5V
 Text GLabel 3100 4300 0    50   UnSpc ~ 0
@@ -505,8 +507,8 @@ F 0 "#PWR05" H 10000 4200 30  0001 C CNN
 F 1 "GND" H 10000 4130 30  0001 C CNN
 F 2 "" H 10000 4200 60  0001 C CNN
 F 3 "" H 10000 4200 60  0001 C CNN
-	1    10000 4200
-	1    0    0    -1  
+    1    10000 4200
+    1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW102
@@ -518,8 +520,8 @@ F 2 "" H 10000 3700 60  0001 C CNN
 F 3 "" H 10000 3700 60  0001 C CNN
 F 4 "TE" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "FSM2JH" H 6250 6550 60  0001 C CNN "PartNo"
-	1    10000 3700
-	0    1    1    0   
+    1    10000 3700
+    0    1    1    0   
 $EndComp
 $Comp
 L CONN_2 P104
@@ -531,27 +533,27 @@ F 2 "" H 10750 3700 60  0000 C CNN
 F 3 "" H 10750 3700 60  0000 C CNN
 F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "M20-9990245" H 6250 6550 60  0001 C CNN "PartNo"
-	1    10750 3700
-	1    0    0    -1  
+    1    10750 3700
+    1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 4000 10000 4200
+    10000 4000 10000 4200
 Wire Wire Line
-	10000 3300 10000 3400
+    10000 3300 10000 3400
 Wire Wire Line
-	10400 3300 10400 3600
+    10400 3300 10400 3600
 Wire Wire Line
-	10400 3800 10400 4100
+    10400 3800 10400 4100
 Wire Wire Line
-	10400 4100 10000 4100
+    10400 4100 10000 4100
 Connection ~ 10000 4100
 Wire Wire Line
-	9800 3300 10400 3300
+    9800 3300 10400 3300
 Connection ~ 10000 3300
 Text GLabel 7500 5600 0    50   Output ~ 0
 LED
 Wire Wire Line
-	7600 5600 7500 5600
+    7600 5600 7500 5600
 Text GLabel 9800 4600 0    50   Output ~ 0
 /RESET
 Text GLabel 3100 5000 0    50   Output ~ 0
@@ -593,9 +595,9 @@ DGND
 Text GLabel 4900 800  2    50   UnSpc ~ 0
 DGND
 Wire Wire Line
-	3100 6900 3300 6900
+    3100 6900 3300 6900
 Wire Wire Line
-	3300 6900 3300 7000
+    3300 6900 3300 7000
 $Comp
 L PWR_FLAG #FLG06
 U 1 1 52F146AE
@@ -604,8 +606,8 @@ F 0 "#FLG06" H 3300 6995 30  0001 C CNN
 F 1 "PWR_FLAG" H 3300 7080 30  0000 C CNN
 F 2 "" H 3300 6900 60  0001 C CNN
 F 3 "" H 3300 6900 60  0001 C CNN
-	1    3300 6900
-	1    0    0    -1  
+    1    3300 6900
+    1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
@@ -615,15 +617,15 @@ F 0 "#PWR07" H 3300 7000 30  0001 C CNN
 F 1 "GND" H 3300 6930 30  0001 C CNN
 F 2 "" H 3300 7000 60  0001 C CNN
 F 3 "" H 3300 7000 60  0001 C CNN
-	1    3300 7000
-	1    0    0    -1  
+    1    3300 7000
+    1    0    0    -1  
 $EndComp
 Text GLabel 3100 6900 0    50   UnSpc ~ 0
 DGND
 Wire Notes Line
-	2600 1750 2600 2050
+    2600 1750 2600 2050
 Wire Notes Line
-	2600 2050 2500 2050
+    2600 2050 2500 2050
 NoConn ~ 3100 900 
 NoConn ~ 3100 1000
 NoConn ~ 3100 1800

@@ -27,12 +27,16 @@ CRAMPS.csv is the BOM as output by KiCAD, while CRAMPS.BOM.xls is a
 hand-modified version reflecting changes difficult to incorperate into
 the schematic, including:
 
+  Add header row
   The 6 Pololu drivers are actually 4 24-pin single-row sockets
   The BeagleBone is two stacking 46-pin connectors
-  Several parts are simply part of the PCB (like the OSH logo)
+  Remove parts that are simply part of the PCB (like the OSH logo)
 
 The BOM calls out 1% resistors, because several parts need to be 1%
 and the difference in cost to use some 5% values is virtaully zero.
+Both Stackpole (DigiKey) and KOA (Mouser) part numbers are provided,
+and any generic 1% 0805 resistors will work.  These are just what 
+seems to be available an inexpensive from two main suppliers.
 
 Pin headers are specified with gold plating, but tin is OK too.
 

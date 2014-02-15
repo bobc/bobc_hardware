@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "11 feb 2014"
+Date "15 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -536,7 +536,7 @@ L C C207
 U 1 1 523F9247
 P 6900 5650
 F 0 "C207" H 6950 5750 50  0000 L CNN
-F 1 "100n 16V" H 6950 5550 50  0000 L CNN
+F 1 "100n 35V" H 6950 5550 50  0000 L CNN
 F 2 "" H 6900 5650 60  0001 C CNN
 F 3 "" H 6900 5650 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "15 feb 2014"
+Date "17 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -50,95 +50,95 @@ Comment3 "Copyright 2014 GPL v3"
 Comment4 "CRAMPS by Charles Steinkuehler"
 $EndDescr
 Wire Wire Line
-    2700 2600 3100 2600
+	2700 2600 3100 2600
 Wire Wire Line
-    3100 2600 3100 4800
+	3100 2600 3100 4800
 Wire Wire Line
-    3100 4800 4100 4800
+	3100 4800 4100 4800
 Wire Wire Line
-    2900 1600 4100 1600
+	2900 1600 4100 1600
 Wire Wire Line
-    2900 1600 2900 2400
+	2900 1600 2900 2400
 Wire Wire Line
-    2900 2400 2700 2400
+	2900 2400 2700 2400
 Connection ~ 5200 3200
 Wire Wire Line
-    4600 3200 5800 3200
+	4600 3200 5800 3200
 Wire Wire Line
-    5200 2100 5200 2200
+	5200 2100 5200 2200
 Wire Wire Line
-    4800 2200 5800 2200
+	4800 2200 5800 2200
 Wire Wire Line
-    4600 1600 5800 1600
+	4600 1600 5800 1600
 Wire Wire Line
-    5200 4800 5200 4900
+	5200 4800 5200 4900
 Wire Wire Line
-    2900 6400 4100 6400
+	2900 6400 4100 6400
 Wire Wire Line
-    2900 2700 2900 6400
+	2900 2700 2900 6400
 Wire Wire Line
-    5200 6400 5200 6500
+	5200 6400 5200 6500
 Wire Wire Line
-    5200 6900 5200 7000
+	5200 6900 5200 7000
 Connection ~ 5600 6400
 Wire Wire Line
-    4600 6400 5800 6400
+	4600 6400 5800 6400
 Wire Wire Line
-    5600 6100 5600 6500
+	5600 6100 5600 6500
 Wire Wire Line
-    3900 5700 3900 5800
+	3900 5700 3900 5800
 Connection ~ 1750 2600
 Wire Wire Line
-    1900 2500 1750 2500
+	1900 2500 1750 2500
 Wire Wire Line
-    1600 2700 1900 2700
+	1600 2700 1900 2700
 Wire Wire Line
-    3900 900  3900 1000
+	3900 900  3900 1000
 Connection ~ 5600 3200
 Wire Wire Line
-    3900 2500 3900 2600
+	3900 2500 3900 2600
 Wire Wire Line
-    3900 4100 3900 4200
+	3900 4100 3900 4200
 Wire Wire Line
-    4600 4800 5800 4800
+	4600 4800 5800 4800
 Wire Wire Line
-    5600 4800 5600 4900
+	5600 4800 5600 4900
 Connection ~ 5600 4800
 Wire Wire Line
-    1750 2600 1900 2600
+	1750 2600 1900 2600
 Connection ~ 1750 2700
 Wire Wire Line
-    1900 2400 1750 2400
+	1900 2400 1750 2400
 Wire Wire Line
-    1750 2400 1750 2700
+	1750 2400 1750 2700
 Connection ~ 1750 2500
 Wire Wire Line
-    2900 2700 2700 2700
+	2900 2700 2700 2700
 Connection ~ 5200 6400
 Wire Wire Line
-    4800 7000 5800 7000
+	4800 7000 5800 7000
 Wire Wire Line
-    4800 5400 5800 5400
+	4800 5400 5800 5400
 Wire Wire Line
-    5200 5400 5200 5300
+	5200 5400 5200 5300
 Connection ~ 5600 5400
 Connection ~ 5200 4800
 Wire Wire Line
-    5200 1700 5200 1600
+	5200 1700 5200 1600
 Connection ~ 5200 1600
 Wire Wire Line
-    5200 3300 5200 3200
+	5200 3300 5200 3200
 Wire Wire Line
-    5200 3700 5200 3800
+	5200 3700 5200 3800
 Wire Wire Line
-    4800 3800 5800 3800
+	4800 3800 5800 3800
 Connection ~ 5600 3800
 Wire Wire Line
-    2700 2500 3300 2500
+	2700 2500 3300 2500
 Wire Wire Line
-    3300 2500 3300 3200
+	3300 2500 3300 3200
 Wire Wire Line
-    3300 3200 4100 3200
+	3300 3200 4100 3200
 $Comp
 L R R504
 U 1 1 519E9454
@@ -151,8 +151,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT4K70" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD4701F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    4350 1600
-    0    -1   -1   0   
+	1    4350 1600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C504
@@ -164,8 +164,8 @@ F 2 "" H 5200 1900 60  0001 C CNN
 F 3 "" H 5200 1900 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "GMK212BJ104KGHT" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5200 1900
-    1    0    0    -1  
+	1    5200 1900
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R505
@@ -179,8 +179,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT4K70" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD4701F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    4350 3200
-    0    -1   -1   0   
+	1    4350 3200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C505
@@ -192,8 +192,8 @@ F 2 "" H 5200 3500 60  0001 C CNN
 F 3 "" H 5200 3500 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "GMK212BJ104KGHT" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5200 3500
-    1    0    0    -1  
+	1    5200 3500
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C503
@@ -205,8 +205,8 @@ F 2 "" H 5200 5100 60  0001 C CNN
 F 3 "" H 5200 5100 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "GMK212BJ104KGHT" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5200 5100
-    1    0    0    -1  
+	1    5200 5100
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R503
@@ -220,8 +220,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT4K70" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD4701F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    4350 4800
-    0    -1   -1   0   
+	1    4350 4800
+	0    -1   -1   0   
 $EndComp
 Text Notes 6400 1500 0    50   ~ 0
 To CPU
@@ -239,8 +239,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT4K70" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD4701F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    4350 6400
-    0    -1   -1   0   
+	1    4350 6400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C502
@@ -252,8 +252,8 @@ F 2 "" H 5200 6700 60  0001 C CNN
 F 3 "" H 5200 6700 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "GMK212BJ104KGHT" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5200 6700
-    1    0    0    -1  
+	1    5200 6700
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R501
@@ -267,8 +267,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K00" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1001F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3900 6050
-    1    0    0    -1  
+	1    3900 6050
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C501
@@ -280,8 +280,8 @@ F 2 "" H 5600 6700 60  0001 C CNN
 F 3 "" H 5600 6700 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LMK212F106ZG-T" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5600 6700
-    1    0    0    -1  
+	1    5600 6700
+	1    0    0    -1  
 $EndComp
 Text GLabel 5800 6400 2    50   Output ~ 0
 THERM3
@@ -295,8 +295,8 @@ F 2 "" H 2300 2550 60  0001 C CNN
 F 3 "" H 2300 2550 60  0001 C CNN
 F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "M20-9980445" H 6250 6550 60  0001 C CNN "PartNo"
-    1    2300 2550
-    1    0    0    -1  
+	1    2300 2550
+	1    0    0    -1  
 $EndComp
 Text Notes 3300 750  2    80   ~ 16
 Thermistor Inputs
@@ -312,8 +312,8 @@ F 2 "" H 5600 5100 60  0001 C CNN
 F 3 "" H 5600 5100 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LMK212F106ZG-T" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5600 5100
-    1    0    0    -1  
+	1    5600 5100
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R303
@@ -327,8 +327,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K00" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1001F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3900 4450
-    1    0    0    -1  
+	1    3900 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R302
@@ -342,8 +342,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K00" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1001F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3900 2850
-    1    0    0    -1  
+	1    3900 2850
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C302
@@ -355,8 +355,8 @@ F 2 "" H 5600 3500 60  0001 C CNN
 F 3 "" H 5600 3500 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LMK212F106ZG-T" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5600 3500
-    1    0    0    -1  
+	1    5600 3500
+	1    0    0    -1  
 $EndComp
 Text GLabel 5800 3200 2    50   Output ~ 0
 THERM1
@@ -372,8 +372,8 @@ F 2 "" H 5600 1900 60  0001 C CNN
 F 3 "" H 5600 1900 60  0001 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LMK212F106ZG-T" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5600 1900
-    1    0    0    -1  
+	1    5600 1900
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R301
@@ -387,8 +387,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K00" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1001F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3900 1250
-    1    0    0    -1  
+	1    3900 1250
+	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D1002
@@ -400,11 +400,11 @@ F 2 "~" H 4800 1900 60  0000 C CNN
 F 3 "~" H 4800 1900 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 1900
-    0    -1   -1   0   
+	1    4800 1900
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    4800 2200 4800 2100
+	4800 2200 4800 2100
 Connection ~ 5200 2200
 $Comp
 L DIODE D1001
@@ -416,23 +416,23 @@ F 2 "~" H 4800 1300 60  0000 C CNN
 F 3 "~" H 4800 1300 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 1300
-    0    -1   -1   0   
+	1    4800 1300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    4800 1500 4800 1700
+	4800 1500 4800 1700
 Connection ~ 4800 1600
 Wire Wire Line
-    5600 1700 5600 1600
+	5600 1700 5600 1600
 Connection ~ 5600 1600
 Text GLabel 4900 1000 2    60   Output ~ 0
 OV_REF
 Wire Wire Line
-    4900 1000 4800 1000
+	4900 1000 4800 1000
 Wire Wire Line
-    4800 1000 4800 1100
+	4800 1000 4800 1100
 Wire Wire Line
-    3900 1500 3900 1600
+	3900 1500 3900 1600
 Connection ~ 3900 1600
 $Comp
 L R R1002
@@ -446,8 +446,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K00" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1001F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    8600 2350
-    1    0    0    -1  
+	1    8600 2350
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R1004
@@ -461,20 +461,20 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT12K4" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1242F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    9200 3750
-    1    0    0    -1  
+	1    9200 3750
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    8600 2700 9800 2700
+	8600 2700 9800 2700
 Wire Wire Line
-    8600 2600 8600 3150
+	8600 2600 8600 3150
 Connection ~ 8600 2700
 Wire Wire Line
-    9200 4000 9200 4100
+	9200 4000 9200 4100
 Wire Wire Line
-    8600 3650 8600 4100
+	8600 3650 8600 4100
 Wire Wire Line
-    8600 4100 9800 4100
+	8600 4100 9800 4100
 Connection ~ 9200 4100
 $Comp
 L R R1003
@@ -488,16 +488,16 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT2K15" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD2151F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    9200 3050
-    1    0    0    -1  
+	1    9200 3050
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    8850 3400 9200 3400
+	8850 3400 9200 3400
 Wire Wire Line
-    9200 3300 9200 3500
+	9200 3300 9200 3500
 Connection ~ 9200 3400
 Wire Wire Line
-    9200 2700 9200 2800
+	9200 2700 9200 2800
 Connection ~ 9200 2700
 $Comp
 L CP1 C1001
@@ -509,14 +509,14 @@ F 2 "" H 9600 3400 60  0000 C CNN
 F 3 "" H 9600 3400 60  0000 C CNN
 F 4 "Taiyo Yuden" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LMK212F106ZG-T" H 6250 6550 60  0001 C CNN "PartNo"
-    1    9600 3400
-    1    0    0    -1  
+	1    9600 3400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    9600 3200 9600 2700
+	9600 3200 9600 2700
 Connection ~ 9600 2700
 Wire Wire Line
-    9600 4100 9600 3600
+	9600 4100 9600 3600
 Text Notes 8600 4400 0    60   ~ 0
 1.5V Clamp Reference\nDiodes begin to conduct (uA) around 1.775V
 Text Notes 7950 3700 0    50   ~ 0
@@ -533,15 +533,15 @@ F 2 "~" H 4800 2900 60  0000 C CNN
 F 3 "~" H 4800 2900 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 2900
-    0    -1   -1   0   
+	1    4800 2900
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4900 2600 2    60   Output ~ 0
 OV_REF
 Wire Wire Line
-    4900 2600 4800 2600
+	4900 2600 4800 2600
 Wire Wire Line
-    4800 2600 4800 2700
+	4800 2600 4800 2700
 $Comp
 L DIODE D1008
 U 1 1 52C565F2
@@ -552,8 +552,8 @@ F 2 "~" H 4800 3500 60  0000 C CNN
 F 3 "~" H 4800 3500 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 3500
-    0    -1   -1   0   
+	1    4800 3500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L DIODE D1004
@@ -565,8 +565,8 @@ F 2 "~" H 4800 5100 60  0000 C CNN
 F 3 "~" H 4800 5100 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 5100
-    0    -1   -1   0   
+	1    4800 5100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L DIODE D1003
@@ -578,15 +578,15 @@ F 2 "~" H 4800 4500 60  0000 C CNN
 F 3 "~" H 4800 4500 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 4500
-    0    -1   -1   0   
+	1    4800 4500
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4900 4200 2    60   Output ~ 0
 OV_REF
 Wire Wire Line
-    4900 4200 4800 4200
+	4900 4200 4800 4200
 Wire Wire Line
-    4800 4200 4800 4300
+	4800 4200 4800 4300
 $Comp
 L DIODE D1005
 U 1 1 52C56611
@@ -597,15 +597,15 @@ F 2 "~" H 4800 6100 60  0000 C CNN
 F 3 "~" H 4800 6100 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 6100
-    0    -1   -1   0   
+	1    4800 6100
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4900 5800 2    60   Output ~ 0
 OV_REF
 Wire Wire Line
-    4900 5800 4800 5800
+	4900 5800 4800 5800
 Wire Wire Line
-    4800 5800 4800 5900
+	4800 5800 4800 5900
 $Comp
 L DIODE D1006
 U 1 1 52C5661A
@@ -616,37 +616,37 @@ F 2 "~" H 4800 6700 60  0000 C CNN
 F 3 "~" H 4800 6700 60  0000 C CNN
 F 4 "Micro Commercial" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "1N4148WX-TP" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4800 6700
-    0    -1   -1   0   
+	1    4800 6700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    4800 3800 4800 3700
+	4800 3800 4800 3700
 Connection ~ 5200 3800
 Wire Wire Line
-    4800 3100 4800 3300
+	4800 3100 4800 3300
 Connection ~ 4800 3200
 Wire Wire Line
-    5600 3300 5600 3200
+	5600 3300 5600 3200
 Wire Wire Line
-    3900 3100 3900 3200
+	3900 3100 3900 3200
 Connection ~ 3900 3200
 Wire Wire Line
-    3900 4700 3900 4800
+	3900 4700 3900 4800
 Connection ~ 3900 4800
 Wire Wire Line
-    4800 4700 4800 4900
+	4800 4700 4800 4900
 Connection ~ 4800 4800
 Wire Wire Line
-    4800 5400 4800 5300
+	4800 5400 4800 5300
 Connection ~ 5200 5400
 Wire Wire Line
-    3900 6300 3900 6400
+	3900 6300 3900 6400
 Connection ~ 3900 6400
 Wire Wire Line
-    4800 6300 4800 6500
+	4800 6300 4800 6500
 Connection ~ 4800 6400
 Wire Wire Line
-    4800 7000 4800 6900
+	4800 7000 4800 6900
 Connection ~ 5200 7000
 $Comp
 L TL431_SOT23_RMC U1001
@@ -658,17 +658,17 @@ F 2 "SOT23" H 8750 3250 30  0000 L CNN
 F 3 "~" H 8600 3400 60  0000 C CNN
 F 4 "TI" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "TLV431CDBZR" H 6250 6550 60  0001 C CNN "PartNo"
-    1    8600 3400
-    -1   0    0    -1  
+	1    8600 3400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-    3800 900  3900 900 
+	3800 900  3900 900 
 Wire Wire Line
-    3800 2500 3900 2500
+	3800 2500 3900 2500
 Wire Wire Line
-    3800 4100 3900 4100
+	3800 4100 3900 4100
 Wire Wire Line
-    3800 5700 3900 5700
+	3800 5700 3900 5700
 Text GLabel 3800 900  0    50   UnSpc ~ 0
 ADC_VDD
 Text GLabel 3800 2500 0    50   UnSpc ~ 0
@@ -689,13 +689,13 @@ F 2 "~" H 5950 6100 60  0000 C CNN
 F 3 "~" H 5950 6100 60  0000 C CNN
 F 4 "Harwin" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "M20-9990245" H 6250 6550 60  0001 C CNN "PartNo"
-    1    5950 6100
-    1    0    0    -1  
+	1    5950 6100
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    5600 6100 5800 6100
+	5600 6100 5800 6100
 Wire Wire Line
-    6050 6100 6200 6100
+	6050 6100 6200 6100
 Text GLabel 6200 6100 2    50   Output ~ 0
 AIN3
 Text Notes 5800 5800 0    50   ~ 0
@@ -709,14 +709,14 @@ ADC_GND
 Text GLabel 5800 7000 2    50   UnSpc ~ 0
 ADC_GND
 Wire Wire Line
-    5600 6900 5600 7000
+	5600 6900 5600 7000
 Connection ~ 5600 7000
 Wire Wire Line
-    5600 5300 5600 5400
+	5600 5300 5600 5400
 Wire Wire Line
-    5600 3700 5600 3800
+	5600 3700 5600 3800
 Wire Wire Line
-    5600 2100 5600 2200
+	5600 2100 5600 2200
 Connection ~ 5600 2200
 Text GLabel 9800 4100 2    50   UnSpc ~ 0
 ADC_GND
@@ -724,7 +724,7 @@ Connection ~ 9600 4100
 Text GLabel 8700 2000 2    50   UnSpc ~ 0
 ADC_VDD
 Wire Wire Line
-    8600 2100 8600 2000
+	8600 2100 8600 2000
 Wire Wire Line
-    8600 2000 8700 2000
+	8600 2000 8700 2000
 $EndSCHEMATC

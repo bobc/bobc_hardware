@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "15 feb 2014"
+Date "17 feb 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -51,26 +51,26 @@ Comment4 "CRAMPS by Charles Steinkuehler"
 $EndDescr
 Connection ~ 3500 1000
 Wire Wire Line
-    3000 1000 3900 1000
+	3000 1000 3900 1000
 Wire Wire Line
-    3500 3200 3500 2600
+	3500 3200 3500 2600
 Wire Wire Line
-    3000 2050 4500 2050
+	3000 2050 4500 2050
 Wire Wire Line
-    3000 2050 3000 2000
+	3000 2050 3000 2000
 Wire Wire Line
-    3000 1600 3000 1550
+	3000 1600 3000 1550
 Connection ~ 3500 2050
 Wire Wire Line
-    3500 1700 3500 2200
+	3500 1700 3500 2200
 Wire Wire Line
-    3000 1000 3000 1050
+	3000 1000 3000 1050
 Wire Wire Line
-    4500 1850 3900 1850
+	4500 1850 3900 1850
 Wire Wire Line
-    3900 1850 3900 1000
+	3900 1850 3900 1000
 Wire Wire Line
-    3500 850  3500 1300
+	3500 850  3500 1300
 $Comp
 L MOS_N Q901
 U 1 1 523E5FE5
@@ -81,8 +81,8 @@ F 2 "" H 3400 2400 60  0001 C CNN
 F 3 "" H 3400 2400 60  0001 C CNN
 F 4 "Diodes Inc." H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "DMN2075U-7" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3400 2400
-    1    0    0    -1  
+	1    3400 2400
+	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR0103
@@ -92,8 +92,8 @@ F 0 "#PWR0103" H 3500 3250 40  0001 C CNN
 F 1 "GNDPWR" H 3500 3120 40  0000 C CNN
 F 2 "" H 3500 3200 60  0001 C CNN
 F 3 "" H 3500 3200 60  0001 C CNN
-    1    3500 3200
-    1    0    0    -1  
+	1    3500 3200
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_2 P901
@@ -105,8 +105,8 @@ F 2 "" H 4850 1950 60  0001 C CNN
 F 3 "" H 4850 1950 60  0001 C CNN
 F 4 "Molex" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "22-23-2021" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4850 1950
-    1    0    0    -1  
+	1    4850 1950
+	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D903
@@ -118,8 +118,8 @@ F 2 "" H 3500 1500 60  0001 C CNN
 F 3 "" H 3500 1500 60  0001 C CNN
 F 4 "Fairchild" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "ES1F" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3500 1500
-    0    -1   -1   0   
+	1    3500 1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D901
@@ -131,8 +131,8 @@ F 2 "" H 3000 1800 60  0001 C CNN
 F 3 "" H 3000 1800 60  0001 C CNN
 F 4 "Osram" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LH R974-LP-1" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3000 1800
-    0    1    1    0   
+	1    3000 1800
+	0    1    1    0   
 $EndComp
 $Comp
 L R R905
@@ -146,8 +146,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K80" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1801F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3000 1300
-    1    0    0    -1  
+	1    3000 1300
+	1    0    0    -1  
 $EndComp
 Text GLabel 1450 2400 0    60   Input ~ 0
 FET5_BUF
@@ -159,33 +159,33 @@ F 0 "#PWR0104" H 3500 820 30  0001 C CNN
 F 1 "+12P" H 3500 950 30  0000 C CNN
 F 2 "" H 3500 850 60  0000 C CNN
 F 3 "" H 3500 850 60  0000 C CNN
-    1    3500 850 
-    1    0    0    -1  
+	1    3500 850 
+	1    0    0    -1  
 $EndComp
 Text Label 4000 2050 0    50   ~ 0
 P_FET5
 Connection ~ 3500 4200
 Wire Wire Line
-    3000 4200 3900 4200
+	3000 4200 3900 4200
 Wire Wire Line
-    3500 6400 3500 5800
+	3500 6400 3500 5800
 Wire Wire Line
-    3000 5250 4500 5250
+	3000 5250 4500 5250
 Wire Wire Line
-    3000 5250 3000 5200
+	3000 5250 3000 5200
 Wire Wire Line
-    3000 4800 3000 4750
+	3000 4800 3000 4750
 Connection ~ 3500 5250
 Wire Wire Line
-    3500 4900 3500 5400
+	3500 4900 3500 5400
 Wire Wire Line
-    3000 4200 3000 4250
+	3000 4200 3000 4250
 Wire Wire Line
-    4500 5050 3900 5050
+	4500 5050 3900 5050
 Wire Wire Line
-    3900 5050 3900 4200
+	3900 5050 3900 4200
 Wire Wire Line
-    3500 4050 3500 4500
+	3500 4050 3500 4500
 $Comp
 L MOS_N Q902
 U 1 1 523E66A5
@@ -196,8 +196,8 @@ F 2 "" H 3400 5600 60  0001 C CNN
 F 3 "" H 3400 5600 60  0001 C CNN
 F 4 "Diodes Inc." H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "DMN2075U-7" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3400 5600
-    1    0    0    -1  
+	1    3400 5600
+	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR0105
@@ -207,11 +207,11 @@ F 0 "#PWR0105" H 3500 6450 40  0001 C CNN
 F 1 "GNDPWR" H 3500 6320 40  0000 C CNN
 F 2 "" H 3500 6400 60  0001 C CNN
 F 3 "" H 3500 6400 60  0001 C CNN
-    1    3500 6400
-    1    0    0    -1  
+	1    3500 6400
+	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P902
+L CONN_2 P
 U 1 1 523E66B1
 P 4850 5150
 F 0 "" V 4800 5150 40  0000 C CNN
@@ -220,8 +220,8 @@ F 2 "" H 4850 5150 60  0001 C CNN
 F 3 "" H 4850 5150 60  0001 C CNN
 F 4 "Molex" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "22-23-2021" H 6250 6550 60  0001 C CNN "PartNo"
-    1    4850 5150
-    1    0    0    -1  
+	1    4850 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D904
@@ -233,8 +233,8 @@ F 2 "" H 3500 4700 60  0001 C CNN
 F 3 "" H 3500 4700 60  0001 C CNN
 F 4 "Fairchild" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "ES1F" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3500 4700
-    0    -1   -1   0   
+	1    3500 4700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D902
@@ -246,8 +246,8 @@ F 2 "" H 3000 5000 60  0001 C CNN
 F 3 "" H 3000 5000 60  0001 C CNN
 F 4 "Osram" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "LH R974-LP-1" H 6250 6550 60  0001 C CNN "PartNo"
-    1    3000 5000
-    0    1    1    0   
+	1    3000 5000
+	0    1    1    0   
 $EndComp
 $Comp
 L R R906
@@ -261,8 +261,8 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT1K80" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD1801F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    3000 4500
-    1    0    0    -1  
+	1    3000 4500
+	1    0    0    -1  
 $EndComp
 Text GLabel 1450 5600 0    60   Input ~ 0
 FET6_BUF
@@ -274,8 +274,8 @@ F 0 "#PWR0106" H 3500 4020 30  0001 C CNN
 F 1 "+12P" H 3500 4150 30  0000 C CNN
 F 2 "" H 3500 4050 60  0000 C CNN
 F 3 "" H 3500 4050 60  0000 C CNN
-    1    3500 4050
-    1    0    0    -1  
+	1    3500 4050
+	1    0    0    -1  
 $EndComp
 Text Label 4000 5250 0    50   ~ 0
 P_FET6
@@ -291,13 +291,13 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT220R" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD2200F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    2150 2400
-    0    -1   -1   0   
+	1    2150 2400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    1900 2400 1450 2400
+	1900 2400 1450 2400
 Wire Wire Line
-    2400 2400 3200 2400
+	2400 2400 3200 2400
 $Comp
 L R R901
 U 1 1 52C42B98
@@ -310,11 +310,11 @@ F 4 "Stackpole" H 6250 6550 60  0001 C CNN "Mfg"
 F 5 "RMCF0805FT220R" H 6250 6550 60  0001 C CNN "PartNo"
 F 6 "KOA" H 6250 6550 60  0001 C CNN "AltMfg"
 F 7 "RK73H2ATTD2200F" H 6250 6550 60  0001 C CNN "AltPartNo"
-    1    2100 5600
-    0    -1   -1   0   
+	1    2100 5600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    1850 5600 1450 5600
+	1850 5600 1450 5600
 Wire Wire Line
-    2350 5600 3200 5600
+	2350 5600 3200 5600
 $EndSCHEMATC

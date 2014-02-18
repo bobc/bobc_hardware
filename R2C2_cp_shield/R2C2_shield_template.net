@@ -1,0 +1,567 @@
+# EESchema Netlist Version 1.1 created  30/06/2013 00:14:04
+(
+ ( /502C006E $noname  JP1 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 /BOOT )
+  (    2 GND )
+ )
+ ( /502C0051 $noname  R4 12k {Lib=R}
+  (    1 /3V3 )
+  (    2 /BOOT )
+ )
+ ( /502BFD9B $noname  U3 CONN_CORTEX_DEBUG {Lib=CONN_CORTEX_DEBUG}
+  (    1 /3V3 )
+  (    2 /SWDIO )
+  (    3 GND )
+  (    4 /SWDCLK )
+  (    5 GND )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 /nRESET )
+ )
+ ( /502BFADA $noname  JP3 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 N-000063 )
+  (    2 EX_TXD )
+ )
+ ( /502BFA78 $noname  JP2 JUMP_MINI {Lib=JUMP_MINI}
+  (    1 N-000064 )
+  (    2 EX_RXD )
+ )
+ ( /502BF831 $noname  C6 100n {Lib=C}
+  (    1 /3V3 )
+  (    2 GND )
+ )
+ ( /502BF82F $noname  C5 10u {Lib=C}
+  (    1 /3V3 )
+  (    2 GND )
+ )
+ ( /502BF6F9 $noname  C4 18pf {Lib=C}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /502BF6F6 $noname  C3 18pf {Lib=C}
+  (    1 N-000065 )
+  (    2 GND )
+ )
+ ( /502BF6ED $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000065 )
+  (    2 N-000060 )
+ )
+ ( /502BF6A5 $noname  R5 12k {Lib=R}
+  (    1 /3V3 )
+  (    2 /nRESET )
+ )
+ ( /502BF684 $noname  C1 100n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /502BF651 $noname  C2 100n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /502BF633 $noname  U4 LPC11XX_HVQFN33 {Lib=LPC11XX_HVQFN33}
+  (    1 /BTN_Z+ )
+  (    2 /nRESET )
+  (    3 /BOOT )
+  (    4 N-000065 )
+  (    5 N-000060 )
+  (    6 /3V3 )
+  (    7 /LCD_D4 )
+  (    8 /BTN_LD )
+  (    9 /BTN_X- )
+  (   10 /BTN_X+ )
+  (   11 /BTN_Y- )
+  (   12 /LCD_D5 )
+  (   13 /P_LED2 )
+  (   14 /P_LED3 )
+  (   15 /BTN_CLK )
+  (   16 /BTN_Y+ )
+  (   17 /BTN_SO )
+  (   18 /LCD_DATA )
+  (   19 /SWDCLK )
+  (   20 /LCD_D6 )
+  (   21 /BTN_Z- )
+  (   22 /LCD_RS )
+  (   23 /LCD_EN )
+  (   24 /BTN_OK )
+  (   25 /SWDIO )
+  (   26 /BTN_ZERO )
+  (   27 /LCD_D7 )
+  (   28 /P_LED1 )
+  (   29 /3V3 )
+  (   30 /BTN_CANCEL )
+  (   31 N-000064 )
+  (   32 N-000063 )
+  (   33 GND )
+ )
+ ( /502A9F6F $noname  P5 RRW_PANEL {Lib=CONN_5X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /ENCODER_1 )
+  (    4 /BTN_CANCEL )
+  (    5 /ENCODER_2 )
+  (    6 /BTN_SO )
+  (    7 /BTN_CLK )
+  (    8 /BTN_LD )
+  (    9 /AUX1 )
+  (   10 ? )
+ )
+ ( /50297043 TO92-CBE  Q3 BC337 {Lib=BC237}
+  (    B N-000020 )
+  (    C VCC )
+  (    E /LED3 )
+ )
+ ( /50297041 TO92-CBE  Q2 BC337 {Lib=BC237}
+  (    B N-000021 )
+  (    C VCC )
+  (    E /LED2 )
+ )
+ ( /50296FCF TO92-CBE  Q1 BC337 {Lib=BC237}
+  (    B N-000017 )
+  (    C VCC )
+  (    E /LED1 )
+ )
+ ( /502955E6 $noname  P4 ENC28J60 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 /SSP_MISO )
+  (    3 /SSP_MOSI )
+  (    4 /SSP_CLK )
+  (    5 /SSP_SEL )
+  (    6 ? )
+  (    7 /3V3 )
+  (    8 GND )
+ )
+ ( /5029486B $noname  U2 74HCT164 {Lib=74HC164}
+  (    1 /LCD_DATA )
+  (    2 /LCD_DATA )
+  (    3 /LCD_D4 )
+  (    4 /LCD_D5 )
+  (    5 /LCD_D6 )
+  (    6 /LCD_D7 )
+  (    7 GND )
+  (    8 /LCD_CLK )
+  (    9 GND )
+  (   10 /LCD_RS )
+  (   11 /LED1 )
+  (   12 /LED2 )
+  (   13 /LED3 )
+  (   14 VCC )
+ )
+ ( /50283E1E $noname  P1 LCD {Lib=CONN_5X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /LCD_D4 )
+  (    4 /LCD_RS )
+  (    5 /LCD_D5 )
+  (    6 ? )
+  (    7 /LCD_D6 )
+  (    8 ? )
+  (    9 /LCD_D7 )
+  (   10 /LCD_EN )
+ )
+ ( /50283C82 $noname  P3 UART {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 EX_RXD )
+  (    5 EX_TXD )
+  (    6 ? )
+ )
+ ( /50283BCD $noname  R3 R {Lib=R}
+  (    1 /P_LED3 )
+  (    2 N-000020 )
+ )
+ ( /50283BCA $noname  R2 R {Lib=R}
+  (    1 /P_LED2 )
+  (    2 N-000021 )
+ )
+ ( /50283BBF $noname  R1 R {Lib=R}
+  (    1 /P_LED1 )
+  (    2 N-000017 )
+ )
+ ( /50283A2E $noname  P2 Gen4_Interface_Board {Lib=CONN_10X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /LCD_RS )
+  (    4 /LCD_EN )
+  (    5 /BTN_OK )
+  (    6 /BTN_CANCEL )
+  (    7 /LED1 )
+  (    8 /LCD_D4 )
+  (    9 /LCD_D5 )
+  (   10 /LCD_D6 )
+  (   11 /LCD_D7 )
+  (   12 /BTN_X+ )
+  (   13 /BTN_X- )
+  (   14 /BTN_Y+ )
+  (   15 /BTN_Y- )
+  (   16 /BTN_Z+ )
+  (   17 /BTN_Z- )
+  (   18 /BTN_ZERO )
+  (   19 /LED2 )
+  (   20 /LED3 )
+ )
+ ( /50283867 $noname  U1 74HCT165 {Lib=74LS165}
+  (    1 /BTN_LD )
+  (    2 /BTN_CLK )
+  (    3 /BTN_Z+ )
+  (    4 /BTN_Z- )
+  (    5 /BTN_ZERO )
+  (    6 /BTN_OK )
+  (    7 ? )
+  (    8 GND )
+  (    9 /BTN_SO )
+  (   10 ? )
+  (   11 /BTN_X+ )
+  (   12 /BTN_X- )
+  (   13 /BTN_Y+ )
+  (   14 /BTN_Y- )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4FD668F6 $noname  J1 R2C2_CONNECTOR {Lib=R2C2_CONNECTOR}
+  (   A1 /ENCODER_2 )
+  (   A2 /ENCODER_1 )
+  (   A3 ? )
+  (   A4 ? )
+  (   A5 /P_LED2 )
+  (   A6 /BTN_CLK )
+  (   A7 /BTN_LD )
+  (   A8 /P_LED1 )
+  (   A9 /SSP_SEL )
+  (  A10 /SSP_CLK )
+  (  A11 /SSP_MISO )
+  (  A12 /SSP_MOSI )
+  (  A13 /P_LED3 )
+  (  A14 /AUX1 )
+  (  A15 VCC )
+  (   B1 ? )
+  (   B2 /3V3 )
+  (   B3 ? )
+  (   B4 ? )
+  (   B5 /LCD_DATA )
+  (   B6 EX_RXD )
+  (   B7 EX_TXD )
+  (   B8 ? )
+  (   B9 ? )
+  (  B10 /LCD_CLK )
+  (  B11 /LCD_EN )
+  (  B12 /BTN_CANCEL )
+  (  B13 /BTN_SO )
+  (  B14 GND )
+  (  B15 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component U4
+ QFN33
+$endlist
+$component Q3
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component U2
+ DIP14
+ SOIC14
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/LED1" "LED1"
+ Q1 E
+ U2 11
+ P2 7
+Net 2 "/LED2" "LED2"
+ Q2 E
+ P2 19
+ U2 12
+Net 3 "/LED3" "LED3"
+ P2 20
+ U2 13
+ Q3 E
+Net 4 "VCC" "VCC"
+ Q2 C
+ Q3 C
+ C1 1
+ C2 1
+ J1 A15
+ P2 1
+ U1 16
+ P5 1
+ Q1 C
+ P1 1
+ U2 14
+Net 7 "/SSP_CLK" "SSP_CLK"
+ P4 4
+ J1 A10
+Net 10 "GND" "GND"
+ P3 1
+ P4 8
+ U3 5
+ U1 8
+ U1 15
+ P5 2
+ JP1 2
+ P2 2
+ U2 7
+ U2 9
+ U3 3
+ J1 B14
+ U4 33
+ C6 2
+ C5 2
+ C4 2
+ U3 9
+ C3 2
+ C2 2
+ C1 2
+ P1 2
+Net 11 "/LCD_RS" "LCD_RS"
+ U2 10
+ P2 3
+ U4 22
+ P1 4
+Net 12 "/LCD_D4" "LCD_D4"
+ U2 3
+ P2 8
+ U4 7
+ P1 3
+Net 13 "/LCD_D7" "LCD_D7"
+ P2 11
+ U4 27
+ P1 9
+ U2 6
+Net 14 "/LCD_D6" "LCD_D6"
+ U4 20
+ P1 7
+ U2 5
+ P2 10
+Net 15 "/LCD_D5" "LCD_D5"
+ U2 4
+ P2 9
+ U4 12
+ P1 5
+Net 17 "" ""
+ R1 2
+ Q1 B
+Net 20 "" ""
+ Q3 B
+ R3 2
+Net 21 "" ""
+ Q2 B
+ R2 2
+Net 22 "/BTN_LD" "BTN_LD"
+ J1 A7
+ U1 1
+ P5 8
+ U4 8
+Net 23 "/BTN_CLK" "BTN_CLK"
+ P5 7
+ U1 2
+ U4 15
+ J1 A6
+Net 24 "/SSP_SEL" "SSP_SEL"
+ J1 A9
+ P4 5
+Net 25 "/3V3" "3V3"
+ C5 1
+ U3 1
+ U4 29
+ R5 1
+ C6 1
+ R4 1
+ P4 7
+ J1 B2
+ U4 6
+Net 28 "/BTN_OK" "BTN_OK"
+ U1 6
+ U4 24
+ P2 5
+Net 29 "/BTN_ZERO" "BTN_ZERO"
+ P2 18
+ U4 26
+ U1 5
+Net 30 "/BTN_Z-" "BTN_Z-"
+ U4 21
+ U1 4
+ P2 17
+Net 31 "/BTN_X+" "BTN_X+"
+ U4 10
+ U1 11
+ P2 12
+Net 32 "/BTN_Z+" "BTN_Z+"
+ P2 16
+ U4 1
+ U1 3
+Net 33 "/LCD_EN" "LCD_EN"
+ J1 B11
+ P1 10
+ P2 4
+ U4 23
+Net 34 "EX_TXD" "EX_TXD"
+ J1 B7
+ P3 5
+ JP3 2
+Net 35 "/P_LED1" "P_LED1"
+ U4 28
+ J1 A8
+ R1 1
+Net 38 "/LCD_CLK" "LCD_CLK"
+ J1 B10
+ U2 8
+Net 39 "/SSP_MISO" "SSP_MISO"
+ J1 A11
+ P4 2
+Net 40 "/SSP_MOSI" "SSP_MOSI"
+ J1 A12
+ P4 3
+Net 41 "/BTN_CANCEL" "BTN_CANCEL"
+ U4 30
+ P5 4
+ J1 B12
+ P2 6
+Net 42 "/P_LED3" "P_LED3"
+ U4 14
+ R3 1
+ J1 A13
+Net 43 "/BTN_SO" "BTN_SO"
+ J1 B13
+ P5 6
+ U4 17
+ U1 9
+Net 44 "/AUX1" "AUX1"
+ P5 9
+ J1 A14
+Net 47 "/BTN_X-" "BTN_X-"
+ P2 13
+ U1 12
+ U4 9
+Net 48 "/BTN_Y+" "BTN_Y+"
+ P2 14
+ U1 13
+ U4 16
+Net 49 "/BTN_Y-" "BTN_Y-"
+ U4 11
+ U1 14
+ P2 15
+Net 50 "/ENCODER_2" "ENCODER_2"
+ P5 5
+ J1 A1
+Net 52 "/ENCODER_1" "ENCODER_1"
+ P5 3
+ J1 A2
+Net 54 "/P_LED2" "P_LED2"
+ R2 1
+ J1 A5
+ U4 13
+Net 55 "/LCD_DATA" "LCD_DATA"
+ U4 18
+ U2 2
+ J1 B5
+ U2 1
+Net 56 "EX_RXD" "EX_RXD"
+ J1 B6
+ P3 4
+ JP2 2
+Net 60 "" ""
+ X1 2
+ U4 5
+ C4 1
+Net 61 "/BOOT" "BOOT"
+ JP1 1
+ U4 3
+ R4 2
+Net 63 "" ""
+ U4 32
+ JP3 1
+Net 64 "" ""
+ U4 31
+ JP2 1
+Net 65 "" ""
+ U4 4
+ C3 1
+ X1 1
+Net 66 "/nRESET" "nRESET"
+ U4 2
+ U3 10
+ R5 2
+Net 69 "/SWDIO" "SWDIO"
+ U3 2
+ U4 25
+Net 70 "/SWDCLK" "SWDCLK"
+ U3 4
+ U4 19
+}
+#End

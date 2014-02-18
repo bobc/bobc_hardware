@@ -1,45 +1,52 @@
-Cmp-Mod V01 Genere par PcbNew le 20/05/2012 16:42:57
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 17/02/2014 22:28:18
 
 BeginCmp
 TimeStamp = /4FB8B9BC;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = POWER;
 IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B9BF;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = FOO;
 IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B9C3;
 Reference = D3;
-ValeurCmp = LED;
+ValeurCmp = BAR;
 IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B9C5;
 Reference = D4;
-ValeurCmp = LED;
+ValeurCmp = DEBUG;
 IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B8F8;
 Reference = J1;
-ValeurCmp = SIL16;
-IdModule  = SIL-16_RMC;
+ValeurCmp = LCD;
+IdModule  = pin_strip_16;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D03E2E;
+Reference = J2;
+ValeurCmp = LCD;
+IdModule  = pin_strip_16;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B788;
 Reference = P1;
 ValeurCmp = CONN_10X2;
-IdModule  = pin_header_10x2_2.54mm;
+IdModule  = vasch_strip_10x2;
 EndCmp
 
 BeginCmp
@@ -136,70 +143,70 @@ EndCmp
 BeginCmp
 TimeStamp = /4FB8BA87;
 Reference = RV1;
-ValeurCmp = POT;
-IdModule  = ;
+ValeurCmp = 10k;
+IdModule  = TRIM-BOURNS-3362;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B960;
 Reference = SW1;
-ValeurCmp = SW_PUSH;
+ValeurCmp = X-;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B965;
 Reference = SW2;
-ValeurCmp = SW_PUSH;
+ValeurCmp = Y-;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B91C;
 Reference = SW3;
-ValeurCmp = SW_PUSH;
+ValeurCmp = ZERO;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B963;
 Reference = SW4;
-ValeurCmp = SW_PUSH;
+ValeurCmp = X+;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8B979;
 Reference = SW5;
-ValeurCmp = SW_PUSH;
+ValeurCmp = Y+;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8BF02;
 Reference = SW6;
-ValeurCmp = SW_PUSH;
+ValeurCmp = Z+;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8BF04;
 Reference = SW7;
-ValeurCmp = SW_PUSH;
+ValeurCmp = CANCEL;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8BF03;
 Reference = SW8;
-ValeurCmp = SW_PUSH;
+ValeurCmp = Z-;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FB8BF01;
 Reference = SW9;
-ValeurCmp = SW_PUSH;
+ValeurCmp = OK;
 IdModule  = SW_PUSH-12mm_RMC;
 EndCmp
 

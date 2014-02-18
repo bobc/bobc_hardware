@@ -1,22 +1,22 @@
-# EESchema Netlist Version 1.1 created  20/05/2012 13:41:24
+# EESchema Netlist Version 1.1 created  30/06/2013 15:20:12
 (
- ( /4FB8B9BC LED-5MM D1 LED
+ ( /4FB8B9BC LED-5MM D1 POWER
   ( 1 VCC )
-  ( 2 N-000030 )
+  ( 2 N-000024 )
  )
- ( /4FB8B9BF LED-5MM D2 LED
+ ( /4FB8B9BF LED-5MM D2 FOO
   ( 1 /LED1 )
-  ( 2 N-000029 )
+  ( 2 N-000023 )
  )
- ( /4FB8B9C3 LED-5MM D3 LED
+ ( /4FB8B9C3 LED-5MM D3 BAR
   ( 1 /LED2 )
   ( 2 N-000027 )
  )
- ( /4FB8B9C5 LED-5MM D4 LED
+ ( /4FB8B9C5 LED-5MM D4 DEBUG
   ( 1 /LED3 )
-  ( 2 N-000025 )
+  ( 2 N-000026 )
  )
- ( /4FB8B8F8 SIL-16_RMC J1 SIL16
+ ( /4FB8B8F8 SIL-16_RMC J1 LCD
   ( 1 GND )
   ( 2 VCC )
   ( 3 /LCD_CONTRAST )
@@ -31,8 +31,26 @@
   ( 12 /LCD_D5 )
   ( 13 /LCD_D6 )
   ( 14 /LCD_D7 )
-  ( 15 ? )
-  ( 16 ? )
+  ( 15 /LCD_BACKLIGHT+ )
+  ( 16 /LCD_BACKLIGHT- )
+ )
+ ( /51D03E2E SIL-16_RMC J2 LCD
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 /LCD_CONTRAST )
+  ( 4 /LCD_RS )
+  ( 5 GND )
+  ( 6 /LCD_ENABLE )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /LCD_D4 )
+  ( 12 /LCD_D5 )
+  ( 13 /LCD_D6 )
+  ( 14 /LCD_D7 )
+  ( 15 /LCD_BACKLIGHT+ )
+  ( 16 /LCD_BACKLIGHT- )
  )
  ( /4FB8B788 pin_header_10x2_2.54mm P1 CONN_10X2
   ( 1 VCC )
@@ -77,7 +95,7 @@
   ( 2 VCC )
  )
  ( /4FB8BB25 R3 R6 1k
-  ( 1 N-000030 )
+  ( 1 N-000024 )
   ( 2 GND )
  )
  ( /4FB8BF00 R3 R7 10k
@@ -85,7 +103,7 @@
   ( 2 VCC )
  )
  ( /4FB8BB7F R3 R8 1k
-  ( 1 N-000029 )
+  ( 1 N-000023 )
   ( 2 GND )
  )
  ( /4FB8BEFF R3 R9 10k
@@ -101,51 +119,51 @@
   ( 2 VCC )
  )
  ( /4FB8BB85 R3 R12 1k
-  ( 1 N-000025 )
+  ( 1 N-000026 )
   ( 2 GND )
  )
  ( /4FB8BEFD R3 R13 10k
   ( 1 /B_OK )
   ( 2 VCC )
  )
- ( /4FB8BA87 $noname$ RV1 POT
+ ( /4FB8BA87 RV2 RV1 10k
   ( 1 VCC )
   ( 2 /LCD_CONTRAST )
   ( 3 GND )
  )
- ( /4FB8B960 SW_PUSH-12mm_RMC SW1 SW_PUSH
+ ( /4FB8B960 SW_PUSH-12mm_RMC SW1 X-
   ( 1 /B_X- )
   ( 2 GND )
  )
- ( /4FB8B965 SW_PUSH-12mm_RMC SW2 SW_PUSH
+ ( /4FB8B965 SW_PUSH-12mm_RMC SW2 Y-
   ( 1 /B_Y- )
   ( 2 GND )
  )
- ( /4FB8B91C SW_PUSH-12mm_RMC SW3 SW_PUSH
+ ( /4FB8B91C SW_PUSH-12mm_RMC SW3 ZERO
   ( 1 /B_ZERO )
   ( 2 GND )
  )
- ( /4FB8B963 SW_PUSH-12mm_RMC SW4 SW_PUSH
+ ( /4FB8B963 SW_PUSH-12mm_RMC SW4 X+
   ( 1 /B_X+ )
   ( 2 GND )
  )
- ( /4FB8B979 SW_PUSH-12mm_RMC SW5 SW_PUSH
+ ( /4FB8B979 SW_PUSH-12mm_RMC SW5 Y+
   ( 1 /B_Y+ )
   ( 2 GND )
  )
- ( /4FB8BF02 SW_PUSH-12mm_RMC SW6 SW_PUSH
+ ( /4FB8BF02 SW_PUSH-12mm_RMC SW6 Z+
   ( 1 /B_Z+ )
   ( 2 GND )
  )
- ( /4FB8BF04 SW_PUSH-12mm_RMC SW7 SW_PUSH
+ ( /4FB8BF04 SW_PUSH-12mm_RMC SW7 CANCEL
   ( 1 /B_CANCEL )
   ( 2 GND )
  )
- ( /4FB8BF03 SW_PUSH-12mm_RMC SW8 SW_PUSH
+ ( /4FB8BF03 SW_PUSH-12mm_RMC SW8 Z-
   ( 1 /B_Z- )
   ( 2 GND )
  )
- ( /4FB8BF01 SW_PUSH-12mm_RMC SW9 SW_PUSH
+ ( /4FB8BF01 SW_PUSH-12mm_RMC SW9 OK
   ( 1 /B_OK )
   ( 2 GND )
  )

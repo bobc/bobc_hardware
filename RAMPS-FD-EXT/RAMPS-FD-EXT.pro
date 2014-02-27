@@ -1,4 +1,4 @@
-update=10/10/2013 18:17:52
+update=08/02/2014 18:02:37
 version=1
 last_client=pcbnew
 [general]
@@ -55,10 +55,10 @@ LibName34=w_connectors
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=1.270000000000
-PadDrillOvalY=1.270000000000
-PadSizeH=3.302000000000
-PadSizeV=3.302000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=1.998980000000
+PadSizeV=1.998980000000
 PcbTextSizeV=2.032000000000
 PcbTextSizeH=1.524000000000
 PcbTextThickness=0.304800000000

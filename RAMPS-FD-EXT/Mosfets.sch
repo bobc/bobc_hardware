@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "10 oct 2013"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -504,6 +504,18 @@ Text GLabel 1700 850  0    40   Input ~ 0
 V_GATE
 Text GLabel 1750 4300 0    40   Input ~ 0
 V_GATE
+Text GLabel 8100 4550 0    40   Input ~ 0
+V_GATE
+Text GLabel 8000 850  0    40   Input ~ 0
+V_GATE
+Text Label 4100 5350 0    50   ~ 0
+P_FET1
+Text Label 4200 2050 0    50   ~ 0
+P_FET0
+Text Label 10050 1950 0    50   ~ 0
+P_FET2
+Text Label 9900 5650 0    50   ~ 0
+P_FET3
 Wire Wire Line
 	3550 4150 3550 4600
 Wire Wire Line
@@ -522,8 +534,6 @@ Wire Wire Line
 	9500 3000 9500 2450
 Connection ~ 8450 850 
 Wire Wire Line
-	8000 850  9100 850 
-Wire Wire Line
 	9100 1900 9100 1950
 Wire Wire Line
 	9100 1950 10550 1950
@@ -536,13 +546,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 4300 9650 4900
 Wire Wire Line
-	3950 5150 3950 4300
+	3950 4300 3950 5150
 Wire Wire Line
 	3950 5150 4550 5150
 Wire Wire Line
 	3850 700  3850 1300
-Wire Wire Line
-	1700 850  2900 850 
 Wire Wire Line
 	2900 2000 2900 2050
 Wire Wire Line
@@ -556,7 +564,7 @@ Connection ~ 9800 850
 Wire Wire Line
 	9800 650  9800 1200
 Wire Wire Line
-	10200 1750 10200 850 
+	10200 850  10200 1750
 Wire Wire Line
 	10200 1750 10550 1750
 Wire Wire Line
@@ -597,7 +605,7 @@ Wire Wire Line
 	9350 6000 8600 6000
 Connection ~ 8600 6000
 Wire Wire Line
-	4300 1850 4300 850 
+	4300 850  4300 1850
 Wire Wire Line
 	4300 1850 4700 1850
 Wire Wire Line
@@ -613,18 +621,14 @@ Wire Wire Line
 Wire Wire Line
 	3050 5350 4550 5350
 Wire Wire Line
-	1750 4300 3050 4300
-Wire Wire Line
 	9650 5300 9650 5700
 Wire Wire Line
 	10450 5450 10000 5450
 Wire Wire Line
 	10000 5450 10000 4550
 Wire Wire Line
-	10000 4550 9650 4550
+	10000 4550 9200 4550
 Connection ~ 9650 4550
-Wire Wire Line
-	8100 4550 9200 4550
 Connection ~ 8600 4550
 Wire Wire Line
 	3550 6550 3550 5950
@@ -632,7 +636,7 @@ Wire Wire Line
 	9500 1950 9500 2000
 Connection ~ 9500 1950
 Wire Wire Line
-	10200 850  9800 850 
+	9100 850  10200 850 
 Wire Wire Line
 	8450 3000 8450 2750
 Wire Wire Line
@@ -648,22 +652,18 @@ Connection ~ 2350 2500
 Wire Wire Line
 	1200 2750 2050 2750
 Wire Wire Line
-	4300 850  3850 850 
+	2900 850  4300 850 
 Wire Wire Line
-	3950 4300 3550 4300
+	3050 4300 3950 4300
 Connection ~ 3550 4300
-Text GLabel 8100 4550 0    40   Input ~ 0
-V_GATE
-Text GLabel 8000 850  0    40   Input ~ 0
-V_GATE
-Text Label 4100 5350 0    50   ~ 0
-P_FET1
-Text Label 4200 2050 0    50   ~ 0
-P_FET0
-Text Label 10050 1950 0    50   ~ 0
-P_FET2
-Text Label 9900 5650 0    50   ~ 0
-P_FET3
 Wire Wire Line
 	8300 6250 7200 6250
+Wire Wire Line
+	2350 850  1700 850 
+Wire Wire Line
+	8450 850  8000 850 
+Wire Wire Line
+	2400 4300 1750 4300
+Wire Wire Line
+	8600 4550 8100 4550
 $EndSCHEMATC

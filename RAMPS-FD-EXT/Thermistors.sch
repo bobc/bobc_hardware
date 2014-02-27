@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "10 oct 2013"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -288,7 +288,7 @@ F 3 "" H 7000 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C205
+L C C205
 U 1 1 523B91F9
 P 7000 2200
 F 0 "C205" H 7050 2300 50  0000 L CNN
@@ -321,7 +321,7 @@ F 3 "" H 7000 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C206
+L C C206
 U 1 1 523B91F6
 P 7000 3700
 F 0 "C206" H 7050 3800 50  0000 L CNN
@@ -354,7 +354,7 @@ F 3 "" H 3400 4700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C207
+L C C207
 U 1 1 523B91F3
 P 3400 5250
 F 0 "C207" H 3450 5350 50  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "" H 3400 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C208
+L C C208
 U 1 1 523B91EE
 P 3400 6900
 F 0 "C208" H 3450 7000 50  0000 L CNN
@@ -678,7 +678,7 @@ F 3 "" H 3400 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C212
+L C C212
 U 1 1 52546CD7
 P 3400 2150
 F 0 "C212" H 3450 2250 50  0000 L CNN
@@ -711,7 +711,7 @@ F 3 "" H 3400 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C213
+L C C213
 U 1 1 52546CE9
 P 3400 3650
 F 0 "C213" H 3450 3750 50  0000 L CNN

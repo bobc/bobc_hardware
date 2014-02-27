@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "10 jan 2014"
-Rev "v1 Issue B"
+Date "9 feb 2014"
+Rev "v2 Issue A"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "GPL v3"

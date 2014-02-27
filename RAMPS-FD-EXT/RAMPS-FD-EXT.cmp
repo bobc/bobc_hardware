@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/10/2013 16:28:27
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/02/2014 22:04:13
 
 BeginCmp
 TimeStamp = /523CE2A9;
@@ -74,28 +74,28 @@ BeginCmp
 TimeStamp = /523B8547/523B91F9;
 Reference = C205;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8547/523B91F6;
 Reference = C206;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8547/523B91F3;
 Reference = C207;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8547/523B91EE;
 Reference = C208;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -123,14 +123,14 @@ BeginCmp
 TimeStamp = /523B8547/52546CD7;
 Reference = C212;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523B8547/52546CE9;
 Reference = C213;
 ValeurCmp = 10u;
-IdModule  = c_elec_4x5.3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -304,7 +304,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5256CF3B;
 Reference = J101;
-ValeurCmp = HEADER_12;
+ValeurCmp = PWM;
 IdModule  = pin_strip_6x2;
 EndCmp
 
@@ -325,14 +325,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5256D0CD;
 Reference = K101;
-ValeurCmp = CONN_3;
+ValeurCmp = S6;
 IdModule  = pin_strip_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5256D0DA;
 Reference = K102;
-ValeurCmp = CONN_3;
+ValeurCmp = S7;
 IdModule  = pin_strip_3;
 EndCmp
 

@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "10 oct 2013"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -291,13 +291,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 6200 2800 6200
 Wire Wire Line
-	4350 5550 4350 4700
+	4350 4700 4350 5550
 Wire Wire Line
 	4350 5550 4950 5550
 Wire Wire Line
 	4250 1100 4250 1700
-Wire Wire Line
-	2100 1250 3300 1250
 Wire Wire Line
 	3300 2400 3300 2450
 Wire Wire Line
@@ -318,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2000 3300 1900
 Wire Wire Line
-	4700 2250 4700 1250
+	4700 1250 4700 2250
 Wire Wire Line
 	4700 2250 5100 2250
 Wire Wire Line
@@ -330,8 +328,6 @@ Wire Wire Line
 	3300 1250 3300 1400
 Wire Wire Line
 	3450 5750 4950 5750
-Wire Wire Line
-	2150 4700 3450 4700
 Wire Wire Line
 	3950 6950 3950 6350
 Wire Wire Line
@@ -347,12 +343,16 @@ Connection ~ 2750 2900
 Wire Wire Line
 	1600 3150 2450 3150
 Wire Wire Line
-	4700 1250 4250 1250
+	3300 1250 4700 1250
 Wire Wire Line
-	4350 4700 3950 4700
+	3450 4700 4350 4700
 Connection ~ 3950 4700
 Text Label 4500 5750 0    50   ~ 0
 P_FET5
 Text Label 4600 2450 0    50   ~ 0
 P_FET4
+Wire Wire Line
+	2750 1250 2100 1250
+Wire Wire Line
+	2800 4700 2150 4700
 $EndSCHEMATC

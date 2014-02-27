@@ -1,3 +1,17 @@
 Fixes for V1.0 Board:
-Add 5.6K pull-ups to primary I2C per BeagleBone SRM
-
+Add pull-ups to primary I2C to equal 5.6K per BeagleBone SRM
+Fix footprint for C1001, should be 0805 chip capacitor
+Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
+Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
+IPC nominal footprints and silk-screen for SMT components:
+  http://landpatterns.ipc.org/default.asp
+  ...too bad KiCAD has no assembly or courtyard layers :(
+Fix component attributes so VALUE field does not separate parts of the same type
+  Using the Value field to name connectors makes working with the BOM *PAINFUL*
+Re-annotate to get sane reference designators?  
+  Depends on if KiCAD can properly handle migrating the updates to the PCB
+  ...or if the updates can fairly easily be propogated by directly editing the PCB file
+Split BeagleBone part into two connectors, so it shows up properly on the BOM
+Re-work the Pololu sheets so the 24-pin socket connectors appear on the BOM
+Add fuses and part numbers to the BOM, not just the fuse sockets
+Make sure parts that should be on the back of the board are actually *PLACED* on the back of the board

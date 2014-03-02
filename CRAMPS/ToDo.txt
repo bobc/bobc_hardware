@@ -29,3 +29,5 @@ Fix ADC protection circuitry, which is currently affecting ADC readings
   Remove TLV431 and just use 1.8V for clamp voltage?
   Switch to dual diodes with better knee for clamping?
   Remove protection entirely, and just rely on series resistor?
+Add LEDs for BeagleBone power on, machine power on, ???
+  ...gotta spend the $$$ saved on dropping the TLV431 on something!  :)

@@ -34,3 +34,6 @@ Add LEDs for BeagleBone power on, machine power on, ???
 Modify stepper enable drive so it is never driven to 5V?
   Allegro A4988 and TI DRV8825 are fine with 5V signals when running on 3.3V
   ...but some other parts or uses might need consistent 3.3V levels?
+Incorporate Alexander Rossler's suggestions from a schematic review:
+  Fix the "direction" of schematic labels: ESTOP, SDA, SDA-5V
+  Fix 12V comment (only used for LP MOSFETs, not Due/Mega or gate voltage)

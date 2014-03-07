@@ -1,5 +1,5 @@
 Fixes for V1.0 Board:
-Add pull-ups to primary I2C to equal 5.6K per BeagleBone SRM
+Add pull-ups to 3.3V for primary I2C to equal 5.6K per BeagleBone SRM
 Fix footprint for C1001, should be 0805 chip capacitor
 Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
 Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
@@ -31,3 +31,6 @@ Fix ADC protection circuitry, which is currently affecting ADC readings
   Remove protection entirely, and just rely on series resistor?
 Add LEDs for BeagleBone power on, machine power on, ???
   ...gotta spend the $$$ saved on dropping the TLV431 on something!  :)
+Modify stepper enable drive so it is never driven to 5V?
+  Allegro A4988 and TI DRV8825 are fine with 5V signals when running on 3.3V
+  ...but some other parts or uses might need consistent 3.3V levels?

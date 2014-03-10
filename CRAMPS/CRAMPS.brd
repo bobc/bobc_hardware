@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 2/16/2014 3:56:16 PM
+PCBNEW-BOARD Version 2 date 3/10/2014 6:35:40 AM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "16 feb 2014"
+Date "10 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -67,7 +67,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 52.324 134.62
 VisibleElements 7FFFFBFF
-PcbPlotParams (pcbplotparams (layerselection 284721153) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
+PcbPlotParams (pcbplotparams (layerselection 284721153) (usegerberextensions false) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -1991,7 +1991,7 @@ AR /50FC37D4/510D87AD
 Op 0 0 0
 At SMD
 T0 3.048 0.254 0.635 0.635 900 0.127 N V 21 N "C305"
-T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -4750,7 +4750,7 @@ AR /52C42F11/517BAD21
 Op 0 0 0
 At SMD
 T0 2.8575 0.3175 0.635 0.635 900 0.127 N V 21 N "C502"
-T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -4787,7 +4787,7 @@ AR /52C42F11/519E9435
 Op 0 0 0
 At SMD
 T0 0 0.9525 0.635 0.635 900 0.127 N I 21 N "C503"
-T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 900 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -4824,7 +4824,7 @@ AR /52C42F11/519E9453
 Op 0 0 0
 At SMD
 T0 0 -0.9525 0.635 0.635 2700 0.127 N I 21 N "C504"
-T1 0 0 0.635 0.635 2700 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 2700 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -4861,7 +4861,7 @@ AR /52C42F11/519E9445
 Op 0 0 0
 At SMD
 T0 0 -0.9525 0.635 0.635 2700 0.127 N I 21 N "C505"
-T1 0 0 0.635 0.635 2700 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 2700 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -5848,7 +5848,7 @@ AR /5239FA54/51E4F64E
 Op 0 0 0
 At SMD
 T0 -2.54 0 0.635 0.635 1800 0.127 N V 21 N "C2"
-T1 0 0 0.635 0.635 1800 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 1800 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -5885,7 +5885,7 @@ AR /5239FA54/51E4F640
 Op 0 0 0
 At SMD
 T0 0 1.27 0.635 0.635 1800 0.127 N V 21 N "C1"
-T1 0 0 0.635 0.635 1800 0.127 N I 21 N "100n"
+T1 0 0 0.635 0.635 1800 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -6992,7 +6992,7 @@ AR /5239FE5C/523F9247
 Op 0 0 0
 At SMD
 T0 0 0 0.635 0.635 1800 0.127 N I 21 N "C207"
-T1 -1.27 -27.94 0.635 0.635 1800 0.127 N I 21 N "100n 16V"
+T1 -1.27 -27.94 0.635 0.635 1800 0.127 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.127 21
 DS -0.508 0.762 -1.524 0.762 0.127 21
 DS -1.524 0.762 -1.524 -0.762 0.127 21
@@ -8140,7 +8140,7 @@ AR /5176EFAC/52B22339
 Op 0 0 0
 At SMD
 T0 2.54 0 0.50038 0.50038 1800 0.10922 N V 21 N "C601"
-T1 0 0 0.50038 0.50038 1800 0.10922 N I 21 N "100n"
+T1 0 0 0.50038 0.50038 1800 0.10922 N I 21 N "100n 35V"
 DC -1.651 0.762 -1.651 0.635 0.09906 21
 DS -0.508 0.762 -1.524 0.762 0.09906 21
 DS -1.524 0.762 -1.524 -0.762 0.09906 21
@@ -8803,7 +8803,7 @@ AR /52C42F11/52C4448C
 Op 0 0 0
 At SMD
 T0 1.905 0 0.50038 0.50038 1800 0.10922 N V 21 N "R1003"
-T1 0 0 0.50038 0.50038 900 0.10922 N I 21 N "2160R 1%"
+T1 0 0 0.50038 0.50038 900 0.10922 N I 21 N "2150R 1%"
 DC -1.651 0.762 -1.651 0.635 0.09906 21
 DS -0.508 0.762 -1.524 0.762 0.09906 21
 DS -1.524 0.762 -1.524 -0.762 0.09906 21
@@ -8877,7 +8877,7 @@ AR /52C42F11/52C441CF
 Op 0 0 0
 At SMD
 T0 0 1.27 0.50038 0.50038 2700 0.10922 N V 21 N "R1002"
-T1 0 0 0.50038 0.50038 2700 0.10922 N I 21 N "1k"
+T1 0 0 0.50038 0.50038 2700 0.10922 N I 21 N "1k 1%"
 DC -1.651 0.762 -1.651 0.635 0.09906 21
 DS -0.508 0.762 -1.524 0.762 0.09906 21
 DS -1.524 0.762 -1.524 -0.762 0.09906 21
@@ -9516,7 +9516,7 @@ AR /50FC37D4/52ED563E
 Op 0 0 0
 At SMD
 T0 0 0.6985 1.00076 1.00076 900 0.1397 N V 21 N "U5"
-T1 53.975 -3.175 1.00076 1.00076 1800 0.12954 N I 21 N "SN74CBTLD3861DBQR"
+T1 53.975 -3.175 1.00076 1.00076 1800 0.12954 N I 21 N "74CBTLD3861"
 DS -4.3815 -1.7145 4.3815 -1.7145 0.12954 21
 DS -4.3815 -0.4445 -3.8735 -0.4445 0.12954 21
 DS -4.3815 0.4445 -3.8735 0.4445 0.12954 21

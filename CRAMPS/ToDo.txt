@@ -7,29 +7,33 @@ Schematic Updates:
     Depends on if KiCAD can properly handle migrating the updates to the PCB
     ...or if the updates can fairly easily be propogated by directly editing the PCB file
   Split BeagleBone part into two connectors, so it shows up properly on the BOM
-  Re-work the Pololu sheets so the 24-pin socket connectors appear on the BOM
+  Re-work the Pololu sheets so the 24-pin socket connectors appear on the BOM?
   Add fuses and part numbers to the BOM, not just the fuse sockets
-  Consistent polarity on screw terminal connections
-    Leave main power inputs as-is
-    Fix 5V power and switched outputs to match
-  Fix EEPROM Address
-    A2 should be tied high!
-    A0 and/or A1 should have a way to set to high or low
+x Consistent polarity on screw terminal connections
+x   Leave main power inputs as-is
+x   Fix 5V power and switched outputs to match
+x Fix EEPROM Address
+x   A2 should be tied high!
+x   A0 and/or A1 should have a way to set to high or low
   Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
     (25) TE 382811-8
   Fix ADC protection circuitry, which is currently affecting ADC readings
 -   R1003 should be 2.610K (typo when entring values from TI TLV431 spreadsheet)
 -   Remove TLV431 and just use 1.8V for clamp voltage?
 -   Switch to dual diodes with better knee for clamping?
-    Remove protection entirely, and just rely on series resistor?
-  Add LEDs for BeagleBone power on, machine power on, ???
++   Remove protection entirely, and just rely on series resistor?
+x Change thermistor pull-up to 2K to balance resolution at high vs. room temperature.
+  Add LEDs for ESTOP, BeagleBone power on, machine power on, ???
     ...gotta spend the $$$ saved on dropping the TLV431 on something!  :)
   Modify stepper enable drive so it is never driven to 5V?
     Allegro A4988 and TI DRV8825 are fine with 5V signals when running on 3.3V
     ...but some other parts or uses might need consistent 3.3V levels?
-  Incorporate Alexander Rossler's suggestions from a schematic review:
-    Fix the "direction" of schematic labels: ESTOP, SDA, SDA-5V
-    Fix 12V comment (only used for LP MOSFETs, not Due/Mega or gate voltage)
+x Incorporate Alexander Rossler's suggestions from a schematic review:
+x   Fix the "direction" of schematic labels: ESTOP, SDA, SDA-5V
+x   Fix 12V comment (only used for LP MOSFETs, not Due/Mega or gate voltage)
+  Remove crowbar diode from power input?
+    If the user can be trusted to hook up motor and bed power correctly, why can't
+    they hook up main power with the appropriate polarity?
 
 PCB Updates:
 - Fix footprint for C1001, should be 0805 chip capacitor (removed)
@@ -47,4 +51,5 @@ PCB Updates:
 
 x = done
 - = don't implement
++ = selected choice
   = ToDo

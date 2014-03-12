@@ -34,6 +34,8 @@ LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
+LIBS:bb_exp_conn_p8
+LIBS:bb_exp_conn_p9
 LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "9 mar 2014"
+Date "12 mar 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"

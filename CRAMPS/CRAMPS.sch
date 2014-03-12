@@ -34,6 +34,8 @@ LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
+LIBS:bb_exp_conn_p8
+LIBS:bb_exp_conn_p9
 LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "9 mar 2014"
+Date "12 mar 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -75,7 +77,7 @@ F1 "steppers2.sch" 60
 $EndSheet
 Text GLabel 4900 5800 2    50   Input ~ 0
 AIN3
-Text GLabel 3100 5800 0    50   Input ~ 0
+Text GLabel 3700 5800 0    50   Input ~ 0
 AIN2
 $Sheet
 S 9300 1550 950  400 
@@ -108,37 +110,37 @@ Text GLabel 4900 5900 2    50   Input ~ 0
 AIN1
 Text GLabel 4900 5400 2    50   Input ~ 0
 MOSI
-Text GLabel 3100 5500 0    50   Input ~ 0
+Text GLabel 3700 5500 0    50   Input ~ 0
 SCK
-Text GLabel 3100 5400 0    50   Output ~ 0
+Text GLabel 3700 5400 0    50   Output ~ 0
 MISO
-Text GLabel 3100 5900 0    50   Input ~ 0
+Text GLabel 3700 5900 0    50   Input ~ 0
 AIN0
 Text GLabel 1500 7000 0    50   Input ~ 0
 UART0_RX_LV
 Text GLabel 1500 7100 0    50   Output ~ 0
 UART0_TX_LV
-Text GLabel 3100 4900 0    50   Output ~ 0
+Text GLabel 3700 4900 0    50   Output ~ 0
 SCL
 Text GLabel 4900 4900 2    50   BiDi ~ 0
 SDA
-Text GLabel 3100 4600 0    50   Input ~ 0
+Text GLabel 3700 4600 0    50   Input ~ 0
 Z-MIN
-Text GLabel 3100 4500 0    50   Input ~ 0
+Text GLabel 3700 4500 0    50   Input ~ 0
 Z-MAX
-Text GLabel 3100 1200 0    50   Input ~ 0
+Text GLabel 3700 1200 0    50   Input ~ 0
 Y-MAX
 Text GLabel 4900 1200 2    50   Input ~ 0
 Y-MIN
 Text GLabel 4900 1100 2    50   Input ~ 0
 X-MIN
-Text GLabel 3100 1100 0    50   Input ~ 0
+Text GLabel 3700 1100 0    50   Input ~ 0
 X-MAX
-Text GLabel 3100 2000 0    50   Output ~ 0
+Text GLabel 3700 2000 0    50   Output ~ 0
 SERVO1
 Text GLabel 4900 1900 2    50   Output ~ 0
 SERVO2
-Text GLabel 3100 1900 0    50   Output ~ 0
+Text GLabel 3700 1900 0    50   Output ~ 0
 SERVO3
 Text GLabel 4900 1800 2    50   Output ~ 0
 SERVO4
@@ -148,11 +150,11 @@ U 50FC37D4
 F0 "Endstop Inputs" 60
 F1 "con_inputs.sch" 60
 $EndSheet
-Text GLabel 3100 1700 0    50   Output ~ 0
+Text GLabel 3700 1700 0    50   Output ~ 0
 Z_STEP
 Text GLabel 4900 1600 2    50   Output ~ 0
 Z_DIR
-Text GLabel 3100 4800 0    50   Output ~ 0
+Text GLabel 3700 4800 0    50   Output ~ 0
 E1_STEP
 Text GLabel 4900 4600 2    50   Output ~ 0
 AXIS_ENA
@@ -164,19 +166,19 @@ Text GLabel 4900 4700 2    50   Output ~ 0
 E0_STEP
 Text GLabel 4900 1500 2    50   Output ~ 0
 EMMC_ENA
-Text GLabel 3100 5700 0    50   Input ~ 0
+Text GLabel 3700 5700 0    50   Input ~ 0
 THERM2
 Text GLabel 4900 5700 2    50   Input ~ 0
 THERM1
-Text GLabel 3100 5600 0    50   Input ~ 0
+Text GLabel 3700 5600 0    50   Input ~ 0
 THERM0
 Text GLabel 4900 1400 2    50   Output ~ 0
 Y_DIR
-Text GLabel 3100 1500 0    50   Output ~ 0
+Text GLabel 3700 1500 0    50   Output ~ 0
 Y_STEP
 Text GLabel 4900 1300 2    50   Output ~ 0
 X_DIR
-Text GLabel 3100 1400 0    50   Output ~ 0
+Text GLabel 3700 1400 0    50   Output ~ 0
 X_STEP
 Text Notes 7700 6350 0    60   ~ 0
 Status LED
@@ -262,7 +264,7 @@ U 523E5F7E
 F0 "Extra MOSFETs" 50
 F1 "Extra_Mosfets.sch" 50
 $EndSheet
-Text GLabel 3100 5200 0    50   Output ~ 0
+Text GLabel 3700 5200 0    50   Output ~ 0
 LED
 $Comp
 L CONN_2 P102
@@ -309,89 +311,33 @@ F 5 "2N7002K-7" H 6250 6550 60  0001 C CNN "PartNo"
 $EndComp
 Text Notes 5050 2200 0    60   ~ 0
 HDMI
-Text Notes 2700 2200 0    60   ~ 0
+Text Notes 3300 2200 0    60   ~ 0
 HDMI
 Text Notes 5450 1000 0    60   ~ 0
 eMMC
 Text Notes 5450 1800 0    60   ~ 0
 eMMC
-Text Notes 2300 1000 0    60   ~ 0
+Text Notes 2900 1000 0    60   ~ 0
 eMMC
-Text Notes 2300 1900 0    60   ~ 0
+Text Notes 2900 1900 0    60   ~ 0
 eMMC
-Text GLabel 3100 1600 0    50   Input ~ 0
+Text GLabel 3700 1600 0    50   Input ~ 0
 ESTOP
 Text GLabel 4900 2000 2    50   Output ~ 0
 ESTOP_SW
 Text GLabel 4900 6000 2    50   Output ~ 0
 SPI_CS1
-$Comp
-L BEAGLEBONEBLACK U4
-U 1 1 52EDB9D5
-P 3650 1850
-F 0 "U4" H 3500 3100 60  0000 C CNN
-F 1 "BEAGLEBONEBLACK" H 4300 450 60  0000 C CNN
-F 2 "~" H 3450 600 60  0000 C CNN
-F 3 "~" H 3450 600 60  0000 C CNN
-F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
-F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
-F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	1    3650 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L BEAGLEBONEBLACK U4
-U 2 1 52EDB9E4
-P 4350 1850
-F 0 "U4" H 4200 3100 60  0000 C CNN
-F 1 "BEAGLEBONEBLACK" H 4400 550 60  0000 C CNN
-F 2 "~" H 4150 600 60  0000 C CNN
-F 3 "~" H 4150 600 60  0000 C CNN
-F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
-F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
-F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	2    4350 1850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BEAGLEBONEBLACK U4
-U 3 1 52EDB9FA
-P 3650 5050
-F 0 "U4" H 3500 6300 60  0000 C CNN
-F 1 "BEAGLEBONEBLACK" H 4300 3650 60  0000 C CNN
-F 2 "~" H 3450 3800 60  0000 C CNN
-F 3 "~" H 3450 3800 60  0000 C CNN
-F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
-F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
-F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	3    3650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BEAGLEBONEBLACK U4
-U 4 1 52EDBA10
-P 4350 5050
-F 0 "U4" H 4200 6300 60  0000 C CNN
-F 1 "BEAGLEBONEBLACK" H 4400 3750 60  0000 C CNN
-F 2 "~" H 4150 3800 60  0000 C CNN
-F 3 "~" H 4150 3800 60  0000 C CNN
-F 4 "Major League" H 3650 5050 60  0001 C CNN "Mfg"
-F 5 "SSHQ-123-D-08-GT-LF" H 3650 5050 60  0001 C CNN "PartNo"
-F 6 "2x required!" H 3650 5050 60  0001 C CNN "Note"
-	4    4350 5050
-	-1   0    0    -1  
-$EndComp
-Text GLabel 3100 5100 0    50   Output ~ 0
+Text GLabel 3700 5100 0    50   Output ~ 0
 MACHINE_PWR
-Text Notes 1700 5250 0    50   ~ 0
+Text Notes 2300 5250 0    50   ~ 0
 24.576MHz
-Text Notes 2200 5250 0    50   ~ 0
+Text Notes 2800 5250 0    50   ~ 0
 Audio
 Text Notes 5400 5300 0    50   ~ 0
 Audio
-Text Notes 2200 5450 0    50   ~ 0
+Text Notes 2800 5450 0    50   ~ 0
 Audio
-Text Notes 2200 5550 0    50   ~ 0
+Text Notes 2800 5550 0    50   ~ 0
 Audio
 $Comp
 L CONN_6 P103
@@ -448,11 +394,11 @@ Wire Notes Line
 Wire Notes Line
 	5400 1050 5500 1050
 Wire Notes Line
-	2500 850  2600 850 
+	3100 850  3200 850 
 Wire Notes Line
-	2600 850  2600 1050
+	3200 850  3200 1050
 Wire Notes Line
-	2600 1050 2500 1050
+	3200 1050 3100 1050
 Wire Notes Line
 	5500 1650 5400 1650
 Wire Notes Line
@@ -460,15 +406,15 @@ Wire Notes Line
 Wire Notes Line
 	5400 1950 5500 1950
 Wire Notes Line
-	2500 1750 2600 1750
+	3100 1750 3200 1750
 Wire Notes Line
-	3000 2100 3000 3050
+	3600 2100 3600 3050
 Wire Notes Line
 	5000 3050 5100 3050
 Wire Notes Line
-	3000 3050 2900 3050
+	3600 3050 3500 3050
 Wire Notes Line
-	3000 2100 2900 2100
+	3600 2100 3500 2100
 Wire Notes Line
 	5000 2100 5000 3050
 Wire Notes Line
@@ -483,19 +429,19 @@ Wire Wire Line
 	1700 7100 1500 7100
 Text GLabel 4900 4300 2    50   UnSpc ~ 0
 SYS_5V
-Text GLabel 3100 4300 0    50   UnSpc ~ 0
+Text GLabel 3700 4300 0    50   UnSpc ~ 0
 SYS_5V
 Text GLabel 4900 4200 2    50   UnSpc ~ 0
 VDD_5V
-Text GLabel 3100 4200 0    50   UnSpc ~ 0
+Text GLabel 3700 4200 0    50   UnSpc ~ 0
 VDD_5V
 Text GLabel 4900 4100 2    50   UnSpc ~ 0
 D3.3V
-Text GLabel 3100 4100 0    50   UnSpc ~ 0
+Text GLabel 3700 4100 0    50   UnSpc ~ 0
 D3.3V
 Text GLabel 4900 4400 2    50   Input ~ 0
 /RESET
-Text GLabel 3100 4400 0    50   Input ~ 0
+Text GLabel 3700 4400 0    50   Input ~ 0
 PWR_BUT
 Text GLabel 9800 3300 0    50   Output ~ 0
 PWR_BUT
@@ -556,15 +502,15 @@ Wire Wire Line
 	7600 5600 7500 5600
 Text GLabel 9800 4600 0    50   Output ~ 0
 /RESET
-Text GLabel 3100 5000 0    50   Output ~ 0
+Text GLabel 3700 5000 0    50   Output ~ 0
 FET4
-Text GLabel 3100 5300 0    50   Output ~ 0
+Text GLabel 3700 5300 0    50   Output ~ 0
 FET3
-Text GLabel 3100 4700 0    50   Output ~ 0
+Text GLabel 3700 4700 0    50   Output ~ 0
 FET2
-Text GLabel 3100 1300 0    50   Output ~ 0
+Text GLabel 3700 1300 0    50   Output ~ 0
 FET1
-Text GLabel 3100 6000 0    50   Output ~ 0
+Text GLabel 3700 6000 0    50   Output ~ 0
 FET5
 Text GLabel 4900 5000 2    50   Output ~ 0
 FET6
@@ -584,13 +530,13 @@ Text GLabel 4900 6100 2    50   UnSpc ~ 0
 DGND
 Text GLabel 4900 6200 2    50   UnSpc ~ 0
 DGND
-Text GLabel 3100 4000 0    50   UnSpc ~ 0
+Text GLabel 3700 4000 0    50   UnSpc ~ 0
 DGND
-Text GLabel 3100 6100 0    50   UnSpc ~ 0
+Text GLabel 3700 6100 0    50   UnSpc ~ 0
 DGND
-Text GLabel 3100 6200 0    50   UnSpc ~ 0
+Text GLabel 3700 6200 0    50   UnSpc ~ 0
 DGND
-Text GLabel 3100 800  0    50   UnSpc ~ 0
+Text GLabel 3700 800  0    50   UnSpc ~ 0
 DGND
 Text GLabel 4900 800  2    50   UnSpc ~ 0
 DGND
@@ -623,12 +569,12 @@ $EndComp
 Text GLabel 3100 6900 0    50   UnSpc ~ 0
 DGND
 Wire Notes Line
-	2600 1750 2600 2050
+	3200 1750 3200 2050
 Wire Notes Line
-	2600 2050 2500 2050
-NoConn ~ 3100 900 
-NoConn ~ 3100 1000
-NoConn ~ 3100 1800
+	3200 2050 3100 2050
+NoConn ~ 3700 900 
+NoConn ~ 3700 1000
+NoConn ~ 3700 1800
 NoConn ~ 4900 900 
 NoConn ~ 4900 1000
 NoConn ~ 4900 2100
@@ -641,19 +587,41 @@ NoConn ~ 4900 2700
 NoConn ~ 4900 2800
 NoConn ~ 4900 2900
 NoConn ~ 4900 3000
-NoConn ~ 3100 2100
-NoConn ~ 3100 2200
-NoConn ~ 3100 2300
-NoConn ~ 3100 2400
-NoConn ~ 3100 2500
-NoConn ~ 3100 2600
-NoConn ~ 3100 2700
-NoConn ~ 3100 2800
-NoConn ~ 3100 2900
-NoConn ~ 3100 3000
+NoConn ~ 3700 2100
+NoConn ~ 3700 2200
+NoConn ~ 3700 2300
+NoConn ~ 3700 2400
+NoConn ~ 3700 2500
+NoConn ~ 3700 2600
+NoConn ~ 3700 2700
+NoConn ~ 3700 2800
+NoConn ~ 3700 2900
+NoConn ~ 3700 3000
 NoConn ~ 4900 1700
-Text Notes 600  2200 0    60   ~ 0
-Alternate stacking BeagleBone Headers:\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n\nOr use plain pin headers if you do not require\nadditional expansion capes
+Text Notes 600  2100 0    60   ~ 0
+Alternate stacking BeagleBone Headers:\nMajorLeague SSHQ-123-D-08-GT-LF\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n\nOr use plain pin headers if you do not require\nadditional expansion capes
 Text Notes 600  2900 0    60   ~ 0
 To save money on all the pin headers when\nbuying parts for a few boards, you can get\nlarge breakaway headers instead of the\nindividual parts.  You will need a total of:\n\n57 pins of single-row header\n74 pins of dual-row header\n\nWhich you can get using\n(2) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n
+$Comp
+L BB_EXP_CONN_P8 P8
+U 1 1 5320BCD5
+P 4300 1900
+F 0 "P8" H 4300 690 60  0000 C CNN
+F 1 "BB_EXP_CONN_P8" H 4310 600 60  0000 C CNN
+F 2 "" H 3950 700 60  0000 C CNN
+F 3 "" H 3950 700 60  0000 C CNN
+	1    4300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BB_EXP_CONN_P9 U?
+U 1 1 5320BCFA
+P 4300 5100
+F 0 "U?" H 4300 3890 60  0000 C CNN
+F 1 "BB_EXP_CONN_P9" H 4310 3800 60  0000 C CNN
+F 2 "" H 3950 3900 60  0000 C CNN
+F 3 "" H 3950 3900 60  0000 C CNN
+	1    4300 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

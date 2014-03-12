@@ -1,4 +1,4 @@
-update=2/16/2014 4:57:34 PM
+update=3/12/2014 2:10:55 PM
 version=1
 last_client=eeschema
 [general]
@@ -28,7 +28,7 @@ DrawSegmentWidth=0.304800000000
 BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.101600000000
 [pcbnew/libraries]
-LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew;../KiCAD_Libraries/FlyingBone
+LibDir=../KiCAD_Libraries/modules;../KiCAD_Libraries/walter/pcbnew;../KiCAD_Libraries/FlyingBone;../KiCAD_Libraries/Lindeblom
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -52,7 +52,7 @@ LibName20=w_smd_diode
 LibName21=beagleboneblack
 [eeschema]
 version=1
-LibDir=../KiCAD_Libraries/library;../KiCAD_Libraries/FlyingBone
+LibDir=../KiCAD_Libraries/library;../KiCAD_Libraries/FlyingBone;../KiCAD_Libraries/Lindeblom
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
@@ -94,3 +94,5 @@ LibName32=nicholasclewis/arduino_shieldsNCL
 LibName33=opendous
 LibName34=beaglebone
 LibName35=beagleboneblack
+LibName36=bb_exp_conn_p8
+LibName37=bb_exp_conn_p9

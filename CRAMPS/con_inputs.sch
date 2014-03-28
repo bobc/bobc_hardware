@@ -38,6 +38,7 @@ LIBS:arduino_shieldsNCL
 LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
+LIBS:CRAMPS-cache
 EELAYER 27 0
 EELAYER END
 $Descr A 11000 8500
@@ -50,7 +51,7 @@ Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
 Comment3 "Copyright 2014 GPL v3"
-Comment4 "CRAMPS by Charles Steinkuehler"
+Comment4 "CRAMPS by Charles Steinkuehler and Murray Lindeblom"
 $EndDescr
 $Comp
 L GND #PWR066

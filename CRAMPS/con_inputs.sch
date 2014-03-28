@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "25 mar 2014"
+Date "28 mar 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -141,8 +141,6 @@ F 3 "" H 2050 2300 60  0001 C CNN
 	1    2050 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 1850 0    60   ~ 12
-JP701 should be used to enable pullups \nfor switch type endstops; \nremove for active types (e.g opto)
 Text GLabel 4300 3500 2    50   Output ~ 0
 Z-MAX
 Text GLabel 4300 3600 2    50   Output ~ 0
@@ -357,7 +355,7 @@ $EndComp
 Text GLabel 8800 4600 2    50   Output ~ 0
 AIN3
 Text Notes 8400 4300 0    50   ~ 0
-Remove jumper to support\n4-wire touch-screen
+Jumper typically populated\nRemove to support 4-wire touch-screen
 Text GLabel 8400 2250 2    50   UnSpc ~ 0
 ADC_GND
 Text GLabel 8400 3150 2    50   UnSpc ~ 0

@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "25 mar 2014"
+Date "28 mar 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -855,23 +855,6 @@ Wire Wire Line
 	8550 3200 8550 3150
 Wire Wire Line
 	6800 3150 6800 3300
-Wire Wire Line
-	3000 6900 3100 6900
-Text GLabel 3000 6900 0    50   Input ~ 0
-PS-ON
-Text Notes 2750 6700 0    60   ~ 0
-ATX Power On
-$Comp
-L GNDPWR #PWR407
-U 1 1 53307923
-P 2900 7050
-F 0 "#PWR407" H 2900 7100 40  0001 C CNN
-F 1 "GNDPWR" H 2900 6970 40  0000 C CNN
-F 2 "" H 2900 7050 60  0001 C CNN
-F 3 "" H 2900 7050 60  0001 C CNN
-	1    2900 7050
-	-1   0    0    -1  
-$EndComp
 $Comp
 L PWR_FLAG #FLG064
 U 1 1 533079AA
@@ -905,19 +888,4 @@ F 3 "" H 4800 3300 60  0000 C CNN
 	1    4800 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L HEADER_2 P405
-U 1 1 53319780
-P 3200 6950
-F 0 "P405" H 3250 7100 60  0000 C CNN
-F 1 "PS-On" H 3250 6780 60  0000 C CNN
-F 2 "" H 3200 6950 60  0000 C CNN
-F 3 "" H 3200 6950 60  0000 C CNN
-	1    3200 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 7050 2900 7000
-Wire Wire Line
-	2900 7000 3100 7000
 $EndSCHEMATC

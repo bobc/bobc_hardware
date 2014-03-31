@@ -59,13 +59,19 @@ Wire Wire Line
 	2950 2200 3050 2200
 Connection ~ 2250 1900
 Wire Wire Line
-	2250 1300 2250 2000
+	2250 1300 2250 1800
+Wire Wire Line
+	2250 1800 2250 1900
+Wire Wire Line
+	2250 1900 2250 2000
 Wire Wire Line
 	2250 2000 2300 2000
 Wire Wire Line
 	2250 1900 2300 1900
 Wire Wire Line
-	2600 1800 3050 1800
+	2600 1800 2750 1800
+Wire Wire Line
+	2750 1800 3050 1800
 Wire Wire Line
 	4400 1250 4400 1300
 Connection ~ 2700 1300
@@ -78,17 +84,19 @@ Wire Wire Line
 	2950 2300 2950 2200
 Connection ~ 2950 2200
 Wire Wire Line
-	2250 1300 3050 1300
+	2250 1300 2700 1300
+Wire Wire Line
+	2700 1300 3050 1300
 Wire Wire Line
 	4650 1300 4650 1550
 Wire Wire Line
-	4150 1300 4650 1300
+	4150 1300 4400 1300
+Wire Wire Line
+	4400 1300 4650 1300
 Connection ~ 4400 1300
 Connection ~ 2750 1800
 Text GLabel 3050 1400 0    60   Input ~ 0
 /X_EN_BUF
-Text GLabel 4150 2200 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR015
 U 1 1 5176ECE5
@@ -130,6 +138,8 @@ Text GLabel 3050 1600 0    50   Input ~ 0
 X_STEP
 Wire Wire Line
 	4150 2200 4650 2200
+Wire Wire Line
+	4650 2500 4650 2200
 Wire Wire Line
 	4650 2200 4650 1950
 $Comp
@@ -173,13 +183,19 @@ Wire Wire Line
 	2950 4000 3050 4000
 Connection ~ 2250 3700
 Wire Wire Line
-	2250 3100 2250 3800
+	2250 3100 2250 3600
+Wire Wire Line
+	2250 3600 2250 3700
+Wire Wire Line
+	2250 3700 2250 3800
 Wire Wire Line
 	2250 3800 2300 3800
 Wire Wire Line
 	2250 3700 2300 3700
 Wire Wire Line
-	2600 3600 3050 3600
+	2600 3600 2750 3600
+Wire Wire Line
+	2750 3600 3050 3600
 Wire Wire Line
 	4400 3050 4400 3100
 Connection ~ 2700 3100
@@ -192,19 +208,23 @@ Wire Wire Line
 	2950 4100 2950 4000
 Connection ~ 2950 4000
 Wire Wire Line
-	2250 3100 3050 3100
+	2250 3100 2700 3100
+Wire Wire Line
+	2700 3100 3050 3100
 Wire Wire Line
 	4650 3100 4650 3350
 Wire Wire Line
-	4150 3100 4650 3100
+	4150 3100 4400 3100
+Wire Wire Line
+	4400 3100 4650 3100
 Connection ~ 4400 3100
 Wire Wire Line
-	4150 4100 4150 4350
+	4150 4100 4150 4300
+Wire Wire Line
+	4150 4300 4150 4350
 Connection ~ 2750 3600
 Text GLabel 3050 3200 0    60   Input ~ 0
 /Y_EN_BUF
-Text GLabel 4150 4000 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR017
 U 1 1 5328A1F5
@@ -246,6 +266,8 @@ Text GLabel 3050 3400 0    50   Input ~ 0
 Y_STEP
 Wire Wire Line
 	4150 4000 4650 4000
+Wire Wire Line
+	4650 4300 4650 4000
 Wire Wire Line
 	4650 4000 4650 3750
 $Comp
@@ -289,13 +311,19 @@ Wire Wire Line
 	2950 5800 3050 5800
 Connection ~ 2250 5500
 Wire Wire Line
-	2250 4900 2250 5600
+	2250 4900 2250 5400
+Wire Wire Line
+	2250 5400 2250 5500
+Wire Wire Line
+	2250 5500 2250 5600
 Wire Wire Line
 	2250 5600 2300 5600
 Wire Wire Line
 	2250 5500 2300 5500
 Wire Wire Line
-	2600 5400 3050 5400
+	2600 5400 2750 5400
+Wire Wire Line
+	2750 5400 3050 5400
 Wire Wire Line
 	4400 4850 4400 4900
 Connection ~ 2700 4900
@@ -308,17 +336,19 @@ Wire Wire Line
 	2950 5900 2950 5800
 Connection ~ 2950 5800
 Wire Wire Line
-	2250 4900 3050 4900
+	2250 4900 2700 4900
+Wire Wire Line
+	2700 4900 3050 4900
 Wire Wire Line
 	4650 4900 4650 5150
 Wire Wire Line
-	4150 4900 4650 4900
+	4150 4900 4400 4900
+Wire Wire Line
+	4400 4900 4650 4900
 Connection ~ 4400 4900
 Connection ~ 2750 5400
 Text GLabel 3050 5000 0    60   Input ~ 0
 /Z_EN_BUF
-Text GLabel 4150 5800 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR019
 U 1 1 5328A282
@@ -361,6 +391,8 @@ Z_STEP
 Wire Wire Line
 	4150 5800 4650 5800
 Wire Wire Line
+	4650 6100 4650 5800
+Wire Wire Line
 	4650 5800 4650 5550
 $Comp
 L HEADER_4 P207
@@ -402,13 +434,19 @@ Wire Wire Line
 	6550 2200 6650 2200
 Connection ~ 5850 1900
 Wire Wire Line
-	5850 1300 5850 2000
+	5850 1300 5850 1800
+Wire Wire Line
+	5850 1800 5850 1900
+Wire Wire Line
+	5850 1900 5850 2000
 Wire Wire Line
 	5850 2000 5900 2000
 Wire Wire Line
 	5850 1900 5900 1900
 Wire Wire Line
-	6200 1800 6650 1800
+	6200 1800 6350 1800
+Wire Wire Line
+	6350 1800 6650 1800
 Wire Wire Line
 	8000 1250 8000 1300
 Connection ~ 6300 1300
@@ -421,17 +459,19 @@ Wire Wire Line
 	6550 2300 6550 2200
 Connection ~ 6550 2200
 Wire Wire Line
-	5850 1300 6650 1300
+	5850 1300 6300 1300
+Wire Wire Line
+	6300 1300 6650 1300
 Wire Wire Line
 	8250 1300 8250 1550
 Wire Wire Line
-	7750 1300 8250 1300
+	7750 1300 8000 1300
+Wire Wire Line
+	8000 1300 8250 1300
 Connection ~ 8000 1300
 Connection ~ 6350 1800
 Text GLabel 6650 1400 0    60   Input ~ 0
 /E0_EN_BUF
-Text GLabel 7750 2200 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR021
 U 1 1 5328A627
@@ -473,6 +513,8 @@ Text GLabel 6650 1600 0    50   Input ~ 0
 E0_STEP
 Wire Wire Line
 	7750 2200 8250 2200
+Wire Wire Line
+	8250 2500 8250 2200
 Wire Wire Line
 	8250 2200 8250 1950
 $Comp
@@ -516,13 +558,19 @@ Wire Wire Line
 	6550 4000 6650 4000
 Connection ~ 5850 3700
 Wire Wire Line
-	5850 3100 5850 3800
+	5850 3100 5850 3600
+Wire Wire Line
+	5850 3600 5850 3700
+Wire Wire Line
+	5850 3700 5850 3800
 Wire Wire Line
 	5850 3800 5900 3800
 Wire Wire Line
 	5850 3700 5900 3700
 Wire Wire Line
-	6200 3600 6650 3600
+	6200 3600 6350 3600
+Wire Wire Line
+	6350 3600 6650 3600
 Wire Wire Line
 	8000 3050 8000 3100
 Connection ~ 6300 3100
@@ -535,17 +583,19 @@ Wire Wire Line
 	6550 4100 6550 4000
 Connection ~ 6550 4000
 Wire Wire Line
-	5850 3100 6650 3100
+	5850 3100 6300 3100
+Wire Wire Line
+	6300 3100 6650 3100
 Wire Wire Line
 	8250 3100 8250 3350
 Wire Wire Line
-	7750 3100 8250 3100
+	7750 3100 8000 3100
+Wire Wire Line
+	8000 3100 8250 3100
 Connection ~ 8000 3100
 Connection ~ 6350 3600
 Text GLabel 6650 3200 0    60   Input ~ 0
 /E1_EN_BUF
-Text GLabel 7750 4000 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR023
 U 1 1 5328A686
@@ -587,6 +637,8 @@ Text GLabel 6650 3400 0    50   Input ~ 0
 E1_STEP
 Wire Wire Line
 	7750 4000 8250 4000
+Wire Wire Line
+	8250 4300 8250 4000
 Wire Wire Line
 	8250 4000 8250 3750
 $Comp
@@ -630,13 +682,19 @@ Wire Wire Line
 	6550 5800 6650 5800
 Connection ~ 5850 5500
 Wire Wire Line
-	5850 4900 5850 5600
+	5850 4900 5850 5400
+Wire Wire Line
+	5850 5400 5850 5500
+Wire Wire Line
+	5850 5500 5850 5600
 Wire Wire Line
 	5850 5600 5900 5600
 Wire Wire Line
 	5850 5500 5900 5500
 Wire Wire Line
-	6200 5400 6650 5400
+	6200 5400 6350 5400
+Wire Wire Line
+	6350 5400 6650 5400
 Wire Wire Line
 	8000 4850 8000 4900
 Connection ~ 6300 4900
@@ -649,17 +707,19 @@ Wire Wire Line
 	6550 5900 6550 5800
 Connection ~ 6550 5800
 Wire Wire Line
-	5850 4900 6650 4900
+	5850 4900 6300 4900
+Wire Wire Line
+	6300 4900 6650 4900
 Wire Wire Line
 	8250 4900 8250 5150
 Wire Wire Line
-	7750 4900 8250 4900
+	7750 4900 8000 4900
+Wire Wire Line
+	8000 4900 8250 4900
 Connection ~ 8000 4900
 Connection ~ 6350 5400
 Text GLabel 6650 5000 0    60   Input ~ 0
 /E2_EN_BUF
-Text GLabel 7750 5800 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L +V_MOTOR #PWR025
 U 1 1 5328A6E5
@@ -701,6 +761,8 @@ Text GLabel 6650 5200 0    50   Input ~ 0
 E2_STEP
 Wire Wire Line
 	7750 5800 8250 5800
+Wire Wire Line
+	8250 6100 8250 5800
 Wire Wire Line
 	8250 5800 8250 5550
 $Comp
@@ -754,9 +816,13 @@ Wire Wire Line
 	2750 2350 2750 2500
 Wire Wire Line
 	2750 2500 4150 2500
+Wire Wire Line
+	4150 2500 4650 2500
 Connection ~ 4150 2500
 Wire Wire Line
-	4150 2300 4150 2550
+	4150 2300 4150 2500
+Wire Wire Line
+	4150 2500 4150 2550
 $Comp
 L R R204
 U 1 1 532AEC7A
@@ -773,7 +839,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 2500 7750 2500
 Wire Wire Line
-	7750 2300 7750 2550
+	7750 2500 8250 2500
+Wire Wire Line
+	7750 2300 7750 2500
+Wire Wire Line
+	7750 2500 7750 2550
 Connection ~ 7750 2500
 Wire Wire Line
 	6350 2150 6350 1800
@@ -794,6 +864,8 @@ Wire Wire Line
 	2750 4150 2750 4300
 Wire Wire Line
 	2750 4300 4150 4300
+Wire Wire Line
+	4150 4300 4650 4300
 $Comp
 L R R205
 U 1 1 532AF146
@@ -812,7 +884,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 4300 7750 4300
 Wire Wire Line
-	7750 4100 7750 4350
+	7750 4300 8250 4300
+Wire Wire Line
+	7750 4100 7750 4300
+Wire Wire Line
+	7750 4300 7750 4350
 $Comp
 L R R203
 U 1 1 532AF445
@@ -831,7 +907,11 @@ Wire Wire Line
 Wire Wire Line
 	2750 6100 4150 6100
 Wire Wire Line
-	4150 5900 4150 6150
+	4150 6100 4650 6100
+Wire Wire Line
+	4150 5900 4150 6100
+Wire Wire Line
+	4150 6100 4150 6150
 $Comp
 L R R206
 U 1 1 532AF748
@@ -850,7 +930,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 6100 7750 6100
 Wire Wire Line
-	7750 5900 7750 6150
+	7750 6100 8250 6100
+Wire Wire Line
+	7750 5900 7750 6100
+Wire Wire Line
+	7750 6100 7750 6150
 $Comp
 L SM_DRIVER U201
 U 1 1 53302CEC
@@ -923,9 +1007,11 @@ Connection ~ 4150 7000
 Wire Wire Line
 	4150 6800 4150 7000
 Wire Wire Line
-	3850 7000 4350 7000
+	3850 7000 4150 7000
 Wire Wire Line
-	2950 7100 4000 7100
+	4150 7000 4350 7000
+Wire Wire Line
+	2950 7100 4150 7100
 Text Label 3100 7000 0    50   ~ 0
 MOT_IN
 Text Notes 1800 7050 0    60   ~ 0
@@ -949,8 +1035,6 @@ Wire Notes Line
 	2550 6950 2550 7150
 Wire Notes Line
 	2550 7150 2500 7150
-Text GLabel 4000 7100 2    50   UnSpc ~ 0
-MOT_GND
 $Comp
 L HEADER_2 P204
 U 1 1 5330563F
@@ -1116,4 +1200,23 @@ F 3 "" H 6550 2200 60  0000 C CNN
 	1    6550 2200
 	1    0    0    -1  
 $EndComp
+Connection ~ 8250 4000
+Connection ~ 8250 2200
+Connection ~ 8250 5800
+Connection ~ 4650 5800
+Connection ~ 4650 4000
+Connection ~ 4650 2200
+$Comp
+L GND #PWR?
+U 1 1 53359FD7
+P 4150 7200
+F 0 "#PWR?" H 4150 7200 30  0001 C CNN
+F 1 "GND" H 4150 7130 30  0001 C CNN
+F 2 "" H 4150 7200 60  0001 C CNN
+F 3 "" H 4150 7200 60  0001 C CNN
+	1    4150 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 7100 4150 7200
 $EndSCHEMATC

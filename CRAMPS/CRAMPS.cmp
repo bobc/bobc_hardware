@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/2/2014 10:12:50 AM
+Cmp-Mod V01 Created by PcbNew date = 4/4/2014 11:39:46 AM
 
 BeginCmp
 TimeStamp = /50FC2853/50FC3200;
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /50FC2853/5330563F;
 Reference = P204;
 ValeurCmp = MOT_IN;
-IdModule  = mstba_2,5/2-g-5,08;
+IdModule  = mors_2p;
 EndCmp
 
 BeginCmp
@@ -473,14 +473,14 @@ BeginCmp
 TimeStamp = /50FC3D20/53305AFA;
 Reference = P401;
 ValeurCmp = HB_IN;
-IdModule  = mstba_2,5/2-g-5,08;
+IdModule  = mors_2p;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/533060D4;
 Reference = P402;
 ValeurCmp = Power_In;
-IdModule  = mstba_2,5/2-g-5,08;
+IdModule  = mors_2p;
 EndCmp
 
 BeginCmp
@@ -501,7 +501,7 @@ BeginCmp
 TimeStamp = /50FC3D20/533C088A;
 Reference = P407;
 ValeurCmp = 12V-Ext5V;
-IdModule  = CONN_KK_2.54_3W;
+IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
@@ -998,7 +998,7 @@ BeginCmp
 TimeStamp = /50FC37D4/53303067;
 Reference = U501;
 ValeurCmp = 74CBTLV3861;
-IdModule  = SSOP24;
+IdModule  = SOIC24;
 EndCmp
 
 EndListe

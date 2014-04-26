@@ -1,6 +1,10 @@
-Fixes for V1.0 Board:
 Schematic Updates:
+  Switch status LED to low-power FET output?
+x Modify ESTOP logic so BBB I/O pin is buffered by FETs
   Support add-on board for 3 more axis using SPI signals
+    6 new signals for step/dir + existing motor enable
+    3.3V + Motor Power + Ground
+    I2C?
   Switch to discrete resistors instead of (hard to solder) resistor networks?
   Fix component attributes so all parts have manufacturer part numbers
 x Add pull-ups to 3.3V for primary I2C to equal 5.6K per BeagleBone SRM
@@ -12,14 +16,14 @@ x Add pull-ups to 3.3V for primary I2C to equal 5.6K per BeagleBone SRM
 x Split BeagleBone part into two connectors, so it shows up properly on the BOM
   Re-work the Pololu sheets so the 24-pin socket connectors appear on the BOM?
   Add fuses and part numbers to the BOM, not just the fuse sockets
+  Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
+    (25) TE 382811-8
 x Consistent polarity on screw terminal connections
 x   Leave main power inputs as-is
 x   Fix 5V power and switched outputs to match
 x Fix EEPROM Address
 x   A2 should be tied high!
 x   A0 and/or A1 should have a way to set to high or low
-  Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
-    (25) TE 382811-8
 x Fix ADC protection circuitry, which is currently affecting ADC readings
 -   R1003 should be 2.610K (typo when entring values from TI TLV431 spreadsheet)
 -   Remove TLV431 and just use 1.8V for clamp voltage?

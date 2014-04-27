@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by PcbNew date = 4/4/2014 11:39:46 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/27/2014 3:54:51 PM
+
+BeginCmp
+TimeStamp = /535D6E77;
+Reference = BB1;
+ValeurCmp = BEAGLEBONE-MTG;
+IdModule  = BeagleBone-Pins;
+EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/50FC3200;
@@ -298,14 +305,14 @@ BeginCmp
 TimeStamp = /533029B2;
 Reference = P8;
 ValeurCmp = BB_EXP_CONN_P8;
-IdModule  = BEAGLEBONEBLACK;
+IdModule  = P8P9_PinHeader;
 EndCmp
 
 BeginCmp
 TimeStamp = /533029C1;
 Reference = P9;
 ValeurCmp = BB_EXP_CONN_P9;
-IdModule  = BEAGLEBONEBLACK;
+IdModule  = P8P9_PinHeader;
 EndCmp
 
 BeginCmp
@@ -463,13 +470,6 @@ IdModule  = pin_strip_6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5239FA54/533563B2;
-Reference = P307;
-ValeurCmp = PS-On;
-IdModule  = pin_strip_2;
-EndCmp
-
-BeginCmp
 TimeStamp = /50FC3D20/53305AFA;
 Reference = P401;
 ValeurCmp = HB_IN;
@@ -498,9 +498,9 @@ IdModule  = RMC-pt_1,5-2-3,5-h;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC3D20/533C088A;
+TimeStamp = /50FC3D20/533EE8DC;
 Reference = P407;
-ValeurCmp = 12V-Ext5V;
+ValeurCmp = 12V_5V_PS-On;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
@@ -710,7 +710,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/532B48DC;
 Reference = R302;
-ValeurCmp = 330R;
+ValeurCmp = 220R;
 IdModule  = SM0805;
 EndCmp
 
@@ -731,7 +731,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/532B32A1;
 Reference = R305;
-ValeurCmp = 330R;
+ValeurCmp = 220R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5239FA54/535BB03B;
+Reference = R306;
+ValeurCmp = 4k7;
 IdModule  = SM0805;
 EndCmp
 

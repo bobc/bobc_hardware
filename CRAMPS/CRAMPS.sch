@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "26 apr 2014"
+Date "27 apr 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -694,4 +694,39 @@ F 3 "" H 8100 4650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8100 4700 8100 4650
+$Comp
+L BEAGLEBONE-MTG BB1
+U 1 1 535D6E77
+P 1250 5500
+F 0 "BB1" H 1525 6150 60  0000 C CNN
+F 1 "BEAGLEBONE-MTG" H 1525 5200 60  0000 C CNN
+F 2 "" H 1425 6050 60  0000 C CNN
+F 3 "" H 1250 5500 60  0000 C CNN
+	1    1250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5200 850  5200
+Wire Wire Line
+	850  5200 850  5600
+Wire Wire Line
+	950  5500 850  5500
+Connection ~ 850  5500
+Wire Wire Line
+	850  5400 950  5400
+Connection ~ 850  5400
+Wire Wire Line
+	850  5300 950  5300
+Connection ~ 850  5300
+$Comp
+L GND #PWR014
+U 1 1 535D6F73
+P 850 5600
+F 0 "#PWR014" H 850 5600 30  0001 C CNN
+F 1 "GND" H 850 5530 30  0001 C CNN
+F 2 "" H 850 5600 60  0001 C CNN
+F 3 "" H 850 5600 60  0001 C CNN
+	1    850  5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

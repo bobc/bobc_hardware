@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "29 apr 2014"
+Date "30 apr 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -120,17 +120,17 @@ FET2
 Text GLabel 4800 2400 0    50   Input ~ 0
 FET1
 Text GLabel 8600 2200 2    50   Output ~ 0
-/X_EN_BUF
+X_EN_BUFn
 Text GLabel 8600 2300 2    50   Output ~ 0
-/Y_EN_BUF
+Y_EN_BUFn
 Text GLabel 8600 2400 2    50   Output ~ 0
-/Z_EN_BUF
+Z_EN_BUFn
 Text GLabel 8600 2600 2    50   Output ~ 0
-/E1_EN_BUF
+E1_EN_BUFn
 Text GLabel 8600 2500 2    50   Output ~ 0
-/E0_EN_BUF
+E0_EN_BUFn
 Text GLabel 8600 2700 2    50   Output ~ 0
-/E2_EN_BUF
+E2_EN_BUFn
 Text GLabel 4800 2200 0    50   Input ~ 0
 AXIS_ENA
 Text GLabel 4800 3000 0    50   Input ~ 0

@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "29 apr 2014"
+Date "30 apr 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"

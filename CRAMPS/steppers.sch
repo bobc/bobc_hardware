@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "29 apr 2014"
+Date "30 apr 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -86,7 +86,7 @@ Wire Wire Line
 Connection ~ 4400 1300
 Connection ~ 2750 1800
 Text GLabel 3050 1400 0    60   Input ~ 0
-/X_EN_BUF
+X_EN_BUFn
 $Comp
 L +V_MOTOR #PWR212
 U 1 1 5176ECE5
@@ -200,7 +200,7 @@ Wire Wire Line
 	4150 4100 4150 4350
 Connection ~ 2750 3600
 Text GLabel 3050 3200 0    60   Input ~ 0
-/Y_EN_BUF
+Y_EN_BUFn
 $Comp
 L +V_MOTOR #PWR213
 U 1 1 5328A1F5
@@ -312,7 +312,7 @@ Wire Wire Line
 Connection ~ 4400 4900
 Connection ~ 2750 5400
 Text GLabel 3050 5000 0    60   Input ~ 0
-/Z_EN_BUF
+Z_EN_BUFn
 $Comp
 L +V_MOTOR #PWR214
 U 1 1 5328A282
@@ -423,7 +423,7 @@ Wire Wire Line
 Connection ~ 8000 1300
 Connection ~ 6350 1800
 Text GLabel 6650 1400 0    60   Input ~ 0
-/E0_EN_BUF
+E0_EN_BUFn
 $Comp
 L +V_MOTOR #PWR224
 U 1 1 5328A627
@@ -535,7 +535,7 @@ Wire Wire Line
 Connection ~ 8000 3100
 Connection ~ 6350 3600
 Text GLabel 6650 3200 0    60   Input ~ 0
-/E1_EN_BUF
+E1_EN_BUFn
 $Comp
 L +V_MOTOR #PWR225
 U 1 1 5328A686
@@ -647,7 +647,7 @@ Wire Wire Line
 Connection ~ 8000 4900
 Connection ~ 6350 5400
 Text GLabel 6650 5000 0    60   Input ~ 0
-/E2_EN_BUF
+E2_EN_BUFn
 $Comp
 L +V_MOTOR #PWR226
 U 1 1 5328A6E5

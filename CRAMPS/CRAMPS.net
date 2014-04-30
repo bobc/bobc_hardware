@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source S:/Download/Arduino/bobc_hardware/CRAMPS/CRAMPS.sch)
-    (date "4/29/2014 4:23:04 PM")
+    (date "4/30/2014 11:03:58 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M102)
@@ -2088,7 +2088,7 @@
     (net (code 121) (name "")
       (node (ref U204) (pin 3))
       (node (ref P208) (pin 4)))
-    (net (code 122) (name /E0_EN_BUF)
+    (net (code 122) (name E0_EN_BUFn)
       (node (ref U202) (pin 1))
       (node (ref R314) (pin 2))
       (node (ref U205) (pin 1))

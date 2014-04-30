@@ -7,8 +7,10 @@ Schematic Updates:
   Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
     (25) TE 382811-8
   General cleanup & review all text and notes
+  Generate schematic for CRAMP3 (3-channel add-on board)
 
 PCB Updates:
+  Update LED footprints to 1608/0603 package
 x Locate or create screw terminal parts for 5.0mm and 3.5mm
 x ATX power-on connector should be KK series latching connector (like ESTOP)
 x Use screw terminal for 5V/12V power connector
@@ -17,6 +19,7 @@ x Proper mounting hole clearance for #4 hardware (6mm)
 x Fix P8/P9 footprint & mounting holes
   Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
   Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
+  Preliminary placement of CRAMP3 add-on board to verify connector and mounting hole locations
   IPC nominal footprints and silk-screen for SMT components:
     http://landpatterns.ipc.org/default.asp
     ...too bad KiCAD has no assembly or courtyard layers :(

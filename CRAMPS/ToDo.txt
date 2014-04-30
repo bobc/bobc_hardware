@@ -1,66 +1,33 @@
 Schematic Updates:
-- Switch status LED to low-power FET output?
--   Use spare '244 output for daughtercard motor enable
-x Modify ESTOP logic so BBB I/O pin is buffered by FETs
-x Fix P8/P9 footprint & mounting holes
-x Support add-on board for 3 more axis using SPI signals
-x   6 new signals for step/dir + existing motor enable
-x   3.3V + Motor Power + Ground
-x   I2C?
-x Switch to discrete resistors instead of (hard to solder) resistor networks
   Fix component attributes so all parts have manufacturer part numbers
-x Add pull-ups to 3.3V for primary I2C to equal 5.6K per BeagleBone SRM
   Fix component attributes so VALUE field does not separate parts of the same type
     Using the Value field to name connectors makes working with the BOM *PAINFUL*
-x Re-annotate to get sane reference designators
-x Split BeagleBone part into two connectors, so it shows up properly on the BOM
-x Re-work the Pololu sheets so the 24-pin socket connectors appear on the BOM?
-x   Just added "fake" part for the sockets
+  Re-annotate to get sane reference designators
   Add fuses and part numbers to the BOM, not just the fuse sockets
   Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
     (25) TE 382811-8
-x Consistent polarity on screw terminal connections
-x   Leave main power inputs as-is
-x   Fix 5V power and switched outputs to match
-x Fix EEPROM Address
-x   A2 should be tied high!
-x   A0 and/or A1 should have a way to set to high or low
-x Fix ADC protection circuitry, which is currently affecting ADC readings
--   R1003 should be 2.610K (typo when entring values from TI TLV431 spreadsheet)
--   Remove TLV431 and just use 1.8V for clamp voltage?
--   Switch to dual diodes with better knee for clamping?
-+   Remove protection entirely, and just rely on series resistor?
-x Change thermistor pull-up to 2K to balance resolution at high vs. room temperature.
-x Add LEDs for ESTOP, BeagleBone power on, machine power on, ???
-x   ...gotta spend the $$$ saved on dropping the TLV431 on something!  :)
-- Modify stepper enable drive so it is never driven to 5V?
--   Allegro A4988 and TI DRV8825 are fine with 5V signals when running on 3.3V
--   ...but some other parts or uses might need consistent 3.3V levels?
-x Incorporate Alexander Rossler's suggestions from a schematic review:
-x   Fix the "direction" of schematic labels: ESTOP, SDA, SDA-5V
-x   Fix 12V comment (only used for LP MOSFETs, not Due/Mega or gate voltage)
-x Remove crowbar diode from power input?
-x   If the user can be trusted to hook up motor and bed power correctly, why can't
-x   they hook up main power with the appropriate polarity?
+  General cleanup & review all text and notes
 
 PCB Updates:
-  Use screw terminal for 5V/12V power connector
-  Switch to 0603 discrete components instead of 0805
-  Proper mounting hole clearance for #4 hardware
+x Locate or create screw terminal parts for 5.0mm and 3.5mm
+x ATX power-on connector should be KK series latching connector (like ESTOP)
+x Use screw terminal for 5V/12V power connector
+x Switch to 0603 discrete components instead of 0805
+x Proper mounting hole clearance for #4 hardware (6mm)
 x Fix P8/P9 footprint & mounting holes
-- Fix footprint for C1001, should be 0805 chip capacitor (removed)
   Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
   Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
   IPC nominal footprints and silk-screen for SMT components:
     http://landpatterns.ipc.org/default.asp
     ...too bad KiCAD has no assembly or courtyard layers :(
   Make sure parts that should be on the back of the board are actually *PLACED* on the back of the board
-    BeagleBone P8
-    BeagleBone P9
+x   BeagleBone P8
+x   BeagleBone P9
     BeagleBone Serial Console
 x Shrink board to smaller than 100mm x 100mm
 + Move ATX power-on connector near 5V screw terminal?
 +   Added to same connector as 5V and 12V power
++   Split back out into separate 0.1" header to save peripherial I/O space
 
 x = done
 - = don't implement

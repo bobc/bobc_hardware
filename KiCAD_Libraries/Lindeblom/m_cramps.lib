@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 4/29/2014 11:33:43 AM
+EESchema-LIBRARY Version 2.3  Date: 4/30/2014 3:00:37 PM
 #encoding utf-8
 #
 # 24C512
@@ -193,6 +193,25 @@ P 3 0 1 0  -50 25  50 25  50 25 N
 P 3 0 1 0  50 -25  -50 -25  -50 -25 N
 X ~ 1 0 100 75 D 40 40 1 1 P
 X ~ 2 0 -100 75 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED
+#
+DEF LED LD 0 40 N N 1 F N
+F0 "LD" -75 0 50 V V C CNN
+F1 "LED" 95 0 50 V V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  25 -25  -25 -25 N
+P 3 0 1 0  10 -50  30 -70  30 -70 N
+P 3 0 1 0  25 -35  45 -55  45 -55 N
+P 4 0 1 0  0 -25  -25 25  25 25  0 -25 F
+P 5 0 1 0  45 -55  35 -55  45 -45  45 -55  45 -55 F
+P 6 0 1 0  30 -70  20 -70  30 -60  30 -70  30 -70  30 -70 F
+X A A 0 100 75 D 40 40 1 1 P
+X K K 0 -100 75 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 7:00:31 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 3:04:00 PM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -59,13 +59,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
 Reference = C302;
-ValeurCmp = 100n;
-IdModule  = CAPC1608x55N;
-EndCmp
-
-BeginCmp
-TimeStamp = /5239FA54/51E4F64E;
-Reference = C303;
 ValeurCmp = 100n;
 IdModule  = CAPC1608x55N;
 EndCmp
@@ -221,70 +214,70 @@ BeginCmp
 TimeStamp = /50FC24D8;
 Reference = LD101;
 ValeurCmp = LED GRN;
-IdModule  = LED-0805_GREEN;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /532B490E;
 Reference = LD102;
 ValeurCmp = LED GRN;
-IdModule  = LED-0805_GREEN;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/532B48CF;
 Reference = LD301;
 ValeurCmp = LED GRN;
-IdModule  = LED-0805_GREEN;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/532B3294;
 Reference = LD302;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/510478C6;
 Reference = LD401;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299E88;
 Reference = LD402;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299EFF;
 Reference = LD403;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299F8F;
 Reference = LD404;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FDD;
 Reference = LD405;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299C30;
 Reference = LD406;
 ValeurCmp = LED RED;
-IdModule  = LED-0805_RED;
+IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
@@ -467,13 +460,6 @@ TimeStamp = /5239FA54/532B3645;
 Reference = P302;
 ValeurCmp = ESTOP;
 IdModule  = CONN_KK_2.54_2W;
-EndCmp
-
-BeginCmp
-TimeStamp = /5239FA54/5331A6C3;
-Reference = P303;
-ValeurCmp = I2C-0;
-IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 11:49:08 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 5:52:04 AM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -1257,7 +1257,7 @@ BeginCmp
 TimeStamp = /5239FA54/533199A1;
 Reference = U301;
 ValeurCmp = 24C256;
-IdModule  = SO8E;
+IdModule  = SOIC127P600X175-8AN;
 EndCmp
 
 BeginCmp

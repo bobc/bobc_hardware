@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  5/1/2014 6:31:07 AM
+PCBNEW-LibModule-V1  5/1/2014 3:20:55 PM
 # encoding utf-8
 Units mm
 $INDEX
 CAPC1608x55N
 Fuse-Loose
+Keystone-3568
 OSRAM-LED-0603
 POLOLU
 PT_1,5-2-3,5-H
@@ -51,18 +52,67 @@ Po 0.82 0
 $EndPAD
 $EndMODULE CAPC1608x55N
 $MODULE Fuse-Loose
-Po 0 0 0 15 53619491 00000000 ~~
+Po 0 0 0 15 5362ACA2 00000000 ~~
 Li Fuse-Loose
 Sc 0
 AR 
 Op 0 0 0
 T0 0 0 2.54 2.54 0 0.381 N I 21 N "FUSE-LOOSE"
 T1 0 2.54 1.27 1.27 0 0.254 N I 21 N "VAL**"
-DS -8.89 -3.81 8.89 -3.81 0.254 21
-DS 8.89 -3.81 8.89 3.81 0.254 21
-DS 8.89 3.81 -8.89 3.81 0.254 21
-DS -8.89 3.81 -8.89 -3.81 0.254 21
+DS -5.5 -2 5.5 -2 0.254 21
+DS 5.5 -2 5.5 2 0.254 21
+DS 5.5 2 -5.5 2 0.254 21
+DS -5.5 2 -5.5 -2 0.254 21
 $EndMODULE Fuse-Loose
+$MODULE Keystone-3568
+Po 0 0 0 15 5362A893 00000000 ~~
+Li Keystone-3568
+Cd Pin strip 4x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_4x2
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "Keystone-3568"
+T1 0 2.54 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8 -3.5 8 -3.5 0.254 21
+DS 8 -3.5 8 3.5 0.254 21
+DS 8 3.5 -8 3.5 0.254 21
+DS -8 3.5 -8 -3.5 0.254 21
+$PAD
+Sh "1" C 2.65 2.65 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.1 1.7
+$EndPAD
+$PAD
+Sh "2" C 2.65 2.65 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.1 -1.7
+$EndPAD
+$PAD
+Sh "3" C 2.65 2.65 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.1 1.7
+$EndPAD
+$PAD
+Sh "4" C 2.65 2.65 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.1 -1.7
+$EndPAD
+$SHAPE3D
+Na "walter\\pin_strip\\pin_strip_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Keystone-3568
 $MODULE OSRAM-LED-0603
 Po 0 0 0 15 53615D92 00000000 ~~
 Li OSRAM-LED-0603

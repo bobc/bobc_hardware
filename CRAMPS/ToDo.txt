@@ -1,7 +1,7 @@
 Schematic Updates:
-  Fix component attributes so all parts have manufacturer part numbers
-  Fix component attributes so VALUE field does not separate parts of the same type
-    Using the Value field to name connectors makes working with the BOM *PAINFUL*
+x Fix component attributes so all parts have manufacturer part numbers
+x Fix component attributes so VALUE field does not separate parts of the same type
+x   Using the Value field to name connectors makes working with the BOM *PAINFUL*
 x Re-annotate to get sane reference designators
 x Add fuses and part numbers to the BOM, not just the fuse sockets
 x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
@@ -10,7 +10,10 @@ x   TE 382811-8
 x Generate schematic for CRAMP3 (3-channel add-on board)
 
 PCB Updates:
+  Place compnents
   Route board
+    Manual pre-route as needed
+    Auto-route remainder of board
 x Update LED footprints to 1608/0603 package
 x Locate or create screw terminal parts for 5.0mm and 3.5mm
 x ATX power-on connector should be KK series latching connector (like ESTOP)
@@ -22,7 +25,7 @@ x Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitc
 - Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
 -   Not needed, use 1/2 inch spacers between BBB and CRAMPS
   Preliminary placement of CRAMP3 add-on board to verify connector and mounting hole locations
-  Switch fuse holders to Keystone
+x Switch fuse holders to Keystone
 x IPC nominal footprints and silk-screen for SMT components:
 x   http://landpatterns.ipc.org/default.asp
 x   ...too bad KiCAD has no assembly or courtyard layers :(

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 5:52:04 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 3:14:29 PM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -64,15 +64,8 @@ IdModule  = CAPC1608x55N;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC3D20/533060B7;
-Reference = C401;
-ValeurCmp = 100n;
-IdModule  = CAPC1608x55N;
-EndCmp
-
-BeginCmp
 TimeStamp = /50FC3D20/533060BF;
-Reference = C402;
+Reference = C401;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
@@ -197,7 +190,7 @@ IdModule  = Fuse-Loose;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC3D20/53616FE5;
+TimeStamp = /50FC3D20/5362B0C5;
 Reference = F402;
 ValeurCmp = 10A;
 IdModule  = Fuse-Loose;
@@ -207,21 +200,21 @@ BeginCmp
 TimeStamp = /50FC2853/53305633;
 Reference = FH201;
 ValeurCmp = FUSE-HOLDER;
-IdModule  = FUSE-MINI-AUTO;
+IdModule  = Keystone-3568;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53305AF0;
 Reference = FH401;
 ValeurCmp = FUSE-HOLDER;
-IdModule  = FUSE-MINI-AUTO;
+IdModule  = Keystone-3568;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/533060C7;
 Reference = FH402;
 ValeurCmp = FUSE-HOLDER;
-IdModule  = FUSE-MINI-AUTO;
+IdModule  = Keystone-3568;
 EndCmp
 
 BeginCmp
@@ -269,84 +262,84 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/53319970;
 Reference = JP301;
-ValeurCmp = addr;
+ValeurCmp = HEADER_2X2;
 IdModule  = pin_strip_2x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC37D4/532C5968;
 Reference = JP501;
-ValeurCmp = JUMP_MINI;
+ValeurCmp = HEADER_2;
 IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC24D8;
 Reference = LD101;
-ValeurCmp = LED GRN;
+ValeurCmp = Green;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /532B490E;
 Reference = LD102;
-ValeurCmp = LED GRN;
+ValeurCmp = Green;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/532B48CF;
 Reference = LD301;
-ValeurCmp = LED GRN;
+ValeurCmp = Green;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/532B3294;
 Reference = LD302;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/510478C6;
 Reference = LD401;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299E88;
 Reference = LD402;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299EFF;
 Reference = LD403;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299F8F;
 Reference = LD404;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299C30;
 Reference = LD405;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FDD;
 Reference = LD406;
-ValeurCmp = LED RED;
+ValeurCmp = Red;
 IdModule  = OSRAM-LED-0603;
 EndCmp
 
@@ -367,84 +360,84 @@ EndCmp
 BeginCmp
 TimeStamp = /533029B2;
 Reference = P8;
-ValeurCmp = BB_EXP_CONN_P8;
+ValeurCmp = BB_EXP_CONN;
 IdModule  = P8P9_PinHeader;
 EndCmp
 
 BeginCmp
 TimeStamp = /533029C1;
 Reference = P9;
-ValeurCmp = BB_EXP_CONN_P9;
+ValeurCmp = BB_EXP_CONN;
 IdModule  = P8P9_PinHeader;
 EndCmp
 
 BeginCmp
 TimeStamp = /5330543C;
 Reference = P101;
-ValeurCmp = Serial0;
+ValeurCmp = SOCKET_6_LONG;
 IdModule  = pin_strip_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /532B2D53;
 Reference = P102;
-ValeurCmp = Power;
+ValeurCmp = HEADER_2;
 IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /532B2BE3;
 Reference = P103;
-ValeurCmp = Reset;
+ValeurCmp = HEADER_2;
 IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5330563F;
 Reference = P201;
-ValeurCmp = MOT_IN;
+ValeurCmp = PT_2,5-2-5,0-H;
 IdModule  = PT_2,5-2-5,0-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53289CF0;
 Reference = P202;
-ValeurCmp = X-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5328A21D;
 Reference = P203;
-ValeurCmp = Y-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5328A2AA;
 Reference = P204;
-ValeurCmp = Z-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5328A64F;
 Reference = P205;
-ValeurCmp = E0-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5328A6AE;
 Reference = P206;
-ValeurCmp = E1-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/5328A70D;
 Reference = P207;
-ValeurCmp = E2-MOT;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
@@ -479,21 +472,21 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/535F148C;
 Reference = P301;
-ValeurCmp = PS-ON;
+ValeurCmp = KK-2.54-2W;
 IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/532B3645;
 Reference = P302;
-ValeurCmp = ESTOP;
+ValeurCmp = KK-2.54-2W;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /5239FA54/53319778;
 Reference = P303;
-ValeurCmp = Aux-3;
+ValeurCmp = HEADER_4X2;
 IdModule  = pin_strip_4x2;
 EndCmp
 
@@ -507,70 +500,70 @@ EndCmp
 BeginCmp
 TimeStamp = /5239FA54/5331974F;
 Reference = P305;
-ValeurCmp = Touch;
+ValeurCmp = HEADER_6;
 IdModule  = pin_strip_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53305AFA;
 Reference = P401;
-ValeurCmp = HB_IN;
+ValeurCmp = PT_2,5-2-5,0-H;
 IdModule  = PT_2,5-2-5,0-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/533060D4;
 Reference = P402;
-ValeurCmp = Power_In;
+ValeurCmp = PT_2,5-2-5,0-H;
 IdModule  = PT_2,5-2-5,0-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/5329974F;
 Reference = P403;
-ValeurCmp = Bed;
+ValeurCmp = PT_2,5-2-5,0-H;
 IdModule  = PT_2,5-2-5,0-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/535F1C4B;
 Reference = P404;
-ValeurCmp = HEADER_3;
+ValeurCmp = PT_1,5-3-3,5-H;
 IdModule  = PT_1,5-3-3,5-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299EAA;
 Reference = P405;
-ValeurCmp = E0;
+ValeurCmp = PT_1,5-2-3,5-H;
 IdModule  = PT_1,5-2-3,5-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299F21;
 Reference = P406;
-ValeurCmp = E1;
+ValeurCmp = PT_1,5-2-3,5-H;
 IdModule  = PT_1,5-2-3,5-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FB1;
 Reference = P407;
-ValeurCmp = FET5;
+ValeurCmp = KK-2.54-2W;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299C52;
 Reference = P408;
-ValeurCmp = E2;
+ValeurCmp = PT_1,5-2-3,5-H;
 IdModule  = PT_1,5-2-3,5-H;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FFF;
 Reference = P409;
-ValeurCmp = FET6;
+ValeurCmp = KK-2.54-2W;
 IdModule  = CONN_KK_2.54_2W;
 EndCmp
 
@@ -1200,56 +1193,56 @@ EndCmp
 BeginCmp
 TimeStamp = /532B2D4D;
 Reference = SW101;
-ValeurCmp = POWER;
+ValeurCmp = SW_PUSH;
 IdModule  = SW_6x6_MULTI;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EECC28;
 Reference = SW102;
-ValeurCmp = RESET;
+ValeurCmp = SW_PUSH;
 IdModule  = SW_6x6_MULTI;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302CEC;
 Reference = U201;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302D00;
 Reference = U202;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302D3C;
 Reference = U203;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302D14;
 Reference = U204;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302D28;
 Reference = U205;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/53302D50;
 Reference = U206;
-ValeurCmp = SM_DRIVER;
+ValeurCmp = Pololu;
 IdModule  = POLOLU;
 EndCmp
 
@@ -1270,7 +1263,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC37D4/53303067;
 Reference = U501;
-ValeurCmp = 74CBTLV3861;
+ValeurCmp = 74CBTD3861;
 IdModule  = SOIC127P1030X265-24N;
 EndCmp
 

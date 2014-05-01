@@ -155,10 +155,10 @@ X_STEP
 Text Notes 6900 4450 0    60   ~ 0
 Status LED
 $Comp
-L GND #PWR107
+L GND #PWR01
 U 1 1 50FC24E2
 P 7150 5800
-F 0 "#PWR107" H 7150 5800 30  0001 C CNN
+F 0 "#PWR01" H 7150 5800 30  0001 C CNN
 F 1 "GND" H 7150 5730 30  0001 C CNN
 F 2 "" H 7150 5800 60  0001 C CNN
 F 3 "" H 7150 5800 60  0001 C CNN
@@ -194,10 +194,10 @@ $EndComp
 Text GLabel 3350 5000 0    50   Output ~ 0
 LED
 $Comp
-L +5V #PWR106
+L +5V #PWR02
 U 1 1 52D057D7
 P 7150 4650
-F 0 "#PWR106" H 7150 4740 20  0001 C CNN
+F 0 "#PWR02" H 7150 4740 20  0001 C CNN
 F 1 "+5V" H 7150 4740 30  0000 C CNN
 F 2 "" H 7150 4650 60  0000 C CNN
 F 3 "" H 7150 4650 60  0000 C CNN
@@ -253,10 +253,10 @@ PWR_BUT
 Text GLabel 9100 5500 0    50   Output ~ 0
 RESETn
 $Comp
-L GND #PWR111
+L GND #PWR03
 U 1 1 52EECC22
 P 9250 5950
-F 0 "#PWR111" H 9250 5950 30  0001 C CNN
+F 0 "#PWR03" H 9250 5950 30  0001 C CNN
 F 1 "GND" H 9250 5880 30  0001 C CNN
 F 2 "" H 9250 5950 60  0001 C CNN
 F 3 "" H 9250 5950 60  0001 C CNN
@@ -294,7 +294,7 @@ Text GLabel 4550 5300 2    50   UnSpc ~ 0
 ADC_VDD
 Text GLabel 4550 5400 2    50   UnSpc ~ 0
 ADC_GND
-Text Notes 1800 3800 0    50   ~ 0
+Text Notes 1800 4000 0    50   ~ 0
 BeagleBone serial\nconsole pass-through\nheader
 Text Notes 5050 4900 0    50   ~ 0
 SCL1 UART1_TX
@@ -317,10 +317,10 @@ DGND
 Text GLabel 4550 1000 2    50   UnSpc ~ 0
 DGND
 $Comp
-L PWR_FLAG #FLG101
+L PWR_FLAG #FLG04
 U 1 1 52F146AE
 P 1550 7550
-F 0 "#FLG101" H 1550 7645 30  0001 C CNN
+F 0 "#FLG04" H 1550 7645 30  0001 C CNN
 F 1 "PWR_FLAG" H 1550 7730 30  0000 C CNN
 F 2 "" H 1550 7550 60  0001 C CNN
 F 3 "" H 1550 7550 60  0001 C CNN
@@ -328,10 +328,10 @@ F 3 "" H 1550 7550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR102
+L GND #PWR05
 U 1 1 52F146B4
 P 1550 7650
-F 0 "#PWR102" H 1550 7650 30  0001 C CNN
+F 0 "#PWR05" H 1550 7650 30  0001 C CNN
 F 1 "GND" H 1550 7580 30  0001 C CNN
 F 2 "" H 1550 7650 60  0001 C CNN
 F 3 "" H 1550 7650 60  0001 C CNN
@@ -366,8 +366,8 @@ NoConn ~ 3350 3000
 NoConn ~ 3350 3100
 NoConn ~ 3350 3200
 NoConn ~ 4550 1900
-Text Notes 600  1850 0    60   ~ 0
-To save money on all the pin headers\nwhen buying parts for a few boards,\nyou can get large breakaway headers\ninstead of the individual parts.  You\nwill need a total of:\n\n57 pins of single-row header\n74 pins of dual-row header\n\nWhich you can get using\n(2) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n
+Text Notes 600  1700 0    60   ~ 0
+To save money on all the pin headers\nwhen buying parts for a few boards,\nyou can get large breakaway headers\ninstead of the individual parts.  You\nwill need a total of:\n\n18 pins of single-row header\n82 pins of dual-row header\n\nWhich you can get using\n(1) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n\nIf you want to use standard pin headers instead\nof the latching KK headers for the stepper and\nESTOP headers, you need another 32 pins of\nsingle-row header
 Text GLabel 4550 5100 2    50   Output ~ 0
 SPI_CS0
 NoConn ~ 4550 2000
@@ -446,10 +446,10 @@ Wire Wire Line
 Text GLabel 9100 4700 0    50   Output ~ 0
 PWR_BUT
 $Comp
-L GND #PWR110
+L GND #PWR06
 U 1 1 532B2D45
 P 9250 5150
-F 0 "#PWR110" H 9250 5150 30  0001 C CNN
+F 0 "#PWR06" H 9250 5150 30  0001 C CNN
 F 1 "GND" H 9250 5080 30  0001 C CNN
 F 2 "" H 9250 5150 60  0001 C CNN
 F 3 "" H 9250 5150 60  0001 C CNN
@@ -535,10 +535,10 @@ Wire Wire Line
 Text Notes 7800 4450 0    60   ~ 0
 BB Turned On\n
 $Comp
-L GND #PWR109
+L GND #PWR07
 U 1 1 532B4906
 P 8100 5300
-F 0 "#PWR109" H 8100 5300 30  0001 C CNN
+F 0 "#PWR07" H 8100 5300 30  0001 C CNN
 F 1 "GND" H 8100 5230 30  0001 C CNN
 F 2 "" H 8100 5300 60  0001 C CNN
 F 3 "" H 8100 5300 60  0001 C CNN
@@ -606,14 +606,14 @@ Wire Wire Line
 $Comp
 L HEADER_6 P101
 U 1 1 5330543C
-P 1350 4050
-F 0 "P101" H 1350 4400 60  0000 C CNN
-F 1 "SOCKET_6_LONG" H 1350 3700 60  0001 C CNN
-F 2 "" H 1350 4050 60  0000 C CNN
-F 3 "" H 1350 4050 60  0000 C CNN
-F 4 "Sparkfun" H 1350 4050 60  0001 C CNN "Mfg"
-F 5 "PRT-09280" H 1350 4050 60  0001 C CNN "PartNo"
-	1    1350 4050
+P 1350 4250
+F 0 "P101" H 1350 4600 60  0000 C CNN
+F 1 "SOCKET_6_LONG" H 1350 3900 60  0001 C CNN
+F 2 "" H 1350 4250 60  0000 C CNN
+F 3 "" H 1350 4250 60  0000 C CNN
+F 4 "Sparkfun" H 1350 4250 60  0001 C CNN "Mfg"
+F 5 "PRT-09280" H 1350 4250 60  0001 C CNN "PartNo"
+	1    1350 4250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -625,10 +625,10 @@ D3.3V
 Text Notes 1000 6300 0    50   ~ 0
 BeagleBone Logic supply is always 3.3V
 $Comp
-L PWR_FLAG #FLG102
+L PWR_FLAG #FLG08
 U 1 1 53307816
 P 1800 6600
-F 0 "#FLG102" H 1800 6695 30  0001 C CNN
+F 0 "#FLG08" H 1800 6695 30  0001 C CNN
 F 1 "PWR_FLAG" H 1800 6780 30  0000 C CNN
 F 2 "" H 1800 6600 60  0001 C CNN
 F 3 "" H 1800 6600 60  0001 C CNN
@@ -638,10 +638,10 @@ $EndComp
 Wire Wire Line
 	1600 7100 1600 7000
 $Comp
-L +5V #PWR105
+L +5V #PWR09
 U 1 1 53307823
 P 1600 7000
-F 0 "#PWR105" H 1600 7090 20  0001 C CNN
+F 0 "#PWR09" H 1600 7090 20  0001 C CNN
 F 1 "+5V" H 1600 7090 30  0000 C CNN
 F 2 "" H 1600 7000 60  0001 C CNN
 F 3 "" H 1600 7000 60  0001 C CNN
@@ -649,10 +649,10 @@ F 3 "" H 1600 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG103
+L PWR_FLAG #FLG010
 U 1 1 5330782A
 P 1800 7000
-F 0 "#FLG103" H 1800 7095 30  0001 C CNN
+F 0 "#FLG010" H 1800 7095 30  0001 C CNN
 F 1 "PWR_FLAG" H 1800 7180 30  0000 C CNN
 F 2 "" H 1800 7000 60  0001 C CNN
 F 3 "" H 1800 7000 60  0001 C CNN
@@ -667,10 +667,10 @@ SYS_5V
 Text Notes 2100 7100 0    50   ~ 0
 SYS_5V: Low-current supply\nprovided by BeagleBone PMIC\nActive when BeagleBone is running
 $Comp
-L +3.3V #PWR104
+L +3.3V #PWR011
 U 1 1 5330784E
 P 1600 6600
-F 0 "#PWR104" H 1600 6560 30  0001 C CNN
+F 0 "#PWR011" H 1600 6560 30  0001 C CNN
 F 1 "+3.3V" H 1600 6710 30  0000 C CNN
 F 2 "" H 1600 6600 60  0001 C CNN
 F 3 "" H 1600 6600 60  0001 C CNN
@@ -682,32 +682,32 @@ Wire Wire Line
 Connection ~ 1600 6700
 Wire Wire Line
 	1800 6700 1800 6600
-NoConn ~ 1450 3900
-NoConn ~ 1450 4000
 NoConn ~ 1450 4100
 NoConn ~ 1450 4200
 NoConn ~ 1450 4300
+NoConn ~ 1450 4400
+NoConn ~ 1450 4500
 $Comp
-L GND #PWR103
+L GND #PWR012
 U 1 1 53318CE2
-P 1600 3900
-F 0 "#PWR103" H 1600 3900 30  0001 C CNN
-F 1 "GND" H 1600 3830 30  0001 C CNN
-F 2 "" H 1600 3900 60  0001 C CNN
-F 3 "" H 1600 3900 60  0001 C CNN
-	1    1600 3900
+P 1600 4100
+F 0 "#PWR012" H 1600 4100 30  0001 C CNN
+F 1 "GND" H 1600 4030 30  0001 C CNN
+F 2 "" H 1600 4100 60  0001 C CNN
+F 3 "" H 1600 4100 60  0001 C CNN
+	1    1600 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3800 1600 3800
+	1450 4000 1600 4000
 Wire Wire Line
-	1600 3800 1600 3900
+	1600 4000 1600 4100
 NoConn ~ 4550 1700
 $Comp
-L +5V #PWR108
+L +5V #PWR013
 U 1 1 53356BF0
 P 8100 4650
-F 0 "#PWR108" H 8100 4740 20  0001 C CNN
+F 0 "#PWR013" H 8100 4740 20  0001 C CNN
 F 1 "+5V" H 8100 4740 30  0000 C CNN
 F 2 "" H 8100 4650 60  0000 C CNN
 F 3 "" H 8100 4650 60  0000 C CNN
@@ -721,7 +721,7 @@ L BEAGLEBONE-MTG BB101
 U 1 1 535D6E77
 P 1250 5500
 F 0 "BB101" H 1525 6150 60  0000 C CNN
-F 1 "BEAGLEBONE-MTG" H 1525 5200 60  0000 C CNN
+F 1 "BeagleBone Black" H 1525 5200 60  0000 C CNN
 F 2 "" H 1425 6050 60  0000 C CNN
 F 3 "" H 1250 5500 60  0000 C CNN
 F 4 "CircuitCo" H 1250 5500 60  0001 C CNN "Mfg"
@@ -743,10 +743,10 @@ Wire Wire Line
 	850  5300 950  5300
 Connection ~ 850  5300
 $Comp
-L GND #PWR101
+L GND #PWR014
 U 1 1 535D6F73
 P 850 5600
-F 0 "#PWR101" H 850 5600 30  0001 C CNN
+F 0 "#PWR014" H 850 5600 30  0001 C CNN
 F 1 "GND" H 850 5530 30  0001 C CNN
 F 2 "" H 850 5600 60  0001 C CNN
 F 3 "" H 850 5600 60  0001 C CNN
@@ -759,9 +759,9 @@ Text GLabel 4550 1700 2    50   BiDi ~ 0
 SPI_SPARE
 Wire Wire Line
 	6950 5550 6750 5550
-Text Notes 1100 3400 0    100  ~ 0
+Text Notes 1100 3600 0    100  ~ 0
 Serial\nConsole
-Text Notes 1800 4100 0    50   ~ 0
+Text Notes 1800 4300 0    50   ~ 0
 Uses Arduino 6-pin\nstacking connector\nfor low-cost
 Text Notes 9900 4900 0    100  ~ 0
 Power

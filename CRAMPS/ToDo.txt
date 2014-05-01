@@ -6,8 +6,9 @@ x Re-annotate to get sane reference designators
 x Add fuses and part numbers to the BOM, not just the fuse sockets
 x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
 x   TE 382811-8
-  General cleanup & review all text and notes
+x General cleanup & review all text and notes
 x Generate schematic for CRAMP3 (3-channel add-on board)
+  Review choice of FETs and clamping diodes?
 
 PCB Updates:
   Place compnents

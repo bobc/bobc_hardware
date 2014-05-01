@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "30 apr 2014"
+Date "1 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -148,13 +148,13 @@ F 3 "" H 3800 2250 60  0001 C CNN
 	1    3800 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 4350 2    50   Output ~ 0
+Text GLabel 4700 4300 2    50   Output ~ 0
 MOSI
-Text GLabel 5300 4250 2    50   Output ~ 0
+Text GLabel 4700 4200 2    50   Output ~ 0
 SCK
-Text GLabel 5300 4150 2    50   Input ~ 0
+Text GLabel 4700 4100 2    50   Input ~ 0
 MISO
-Text GLabel 5300 4450 2    50   Output ~ 0
+Text GLabel 4700 4400 2    50   Output ~ 0
 SPI_CS0-5V
 Text GLabel 2800 5000 0    50   Input ~ 0
 MOSI-5V
@@ -322,7 +322,7 @@ $EndComp
 Text GLabel 9100 4400 2    50   Output ~ 0
 AIN3
 Text Notes 9200 4600 0    50   ~ 0
-Jumper typically populated\nRemove to support\n4-wire touch-screen
+Shunt typically populated\nRemove to support\n4-wire touch-screen
 Text GLabel 8700 2300 2    50   UnSpc ~ 0
 ADC_GND
 Text GLabel 8700 3200 2    50   UnSpc ~ 0
@@ -902,4 +902,15 @@ Wire Wire Line
 Connection ~ 3200 4400
 Wire Wire Line
 	3700 4400 2800 4400
+$Comp
+L SHUNT S501
+U 1 1 5361A40B
+P 9700 4350
+F 0 "S501" H 9700 4450 60  0000 C CNN
+F 1 "SHUNT" H 9700 4250 60  0000 C CNN
+F 2 "~" H 9700 4350 60  0000 C CNN
+F 3 "~" H 9700 4350 60  0000 C CNN
+	1    9700 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

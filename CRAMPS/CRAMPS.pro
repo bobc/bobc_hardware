@@ -51,7 +51,6 @@ LibName19=w_smd_dil
 LibName20=w_conn_pt-1,5
 LibName21=w_smd_diode
 LibName22=beagleboneblack
-LibName23=IPC7351B
 [eeschema]
 version=1
 LibDir=../KiCAD_Libraries/walter/eesch;../KiCAD_Libraries/library;../KiCAD_Libraries/FlyingBone;../KiCAD_Libraries/Lindeblom

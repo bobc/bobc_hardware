@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "30 apr 2014"
+Date "1 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -54,7 +54,7 @@ Comment3 "Copyright 2014 GPL v3"
 Comment4 "CRAMPS by Charles Steinkuehler and Murray Lindeblom"
 $EndDescr
 Text Notes 2400 3500 0    60   ~ 0
-Emergency Stop switch\n(Normally Closed type)\nuse jumper if not present\n\n
+Emergency Stop switch\n(Normally Closed type)\nuse shunt if not present
 Text GLabel 6900 2900 2    50   Output ~ 0
 FET4_BUF
 Text GLabel 6900 2800 2    50   Output ~ 0
@@ -331,8 +331,8 @@ F 5 "GMK212BJ104KGHT" H 1650 6950 60  0001 C CNN "PartNo"
 	1    1400 6700
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 5950 0    60   Italic 0
-Address and WP pins\nhave internal pull-down
+Text Notes 1700 5750 0    60   Italic 0
+Address and WP pins\nhave internal pull-down\nDefault address is no\nshunts populated
 $Comp
 L HEADER_2X2 P301
 U 1 1 53319970
@@ -561,33 +561,19 @@ F 3 "" H 2000 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 3100 6300 3100
-Wire Wire Line
-	6300 3100 6900 3100
+	6200 3100 6900 3100
 Wire Wire Line
 	5800 1000 5800 1100
 Wire Wire Line
-	6200 2400 6800 2400
+	6200 2400 6900 2400
 Wire Wire Line
-	6800 2400 6900 2400
+	6200 2200 8600 2200
 Wire Wire Line
-	6200 2200 6700 2200
+	6200 2500 6900 2500
 Wire Wire Line
-	6700 2200 8500 2200
+	6200 2900 6900 2900
 Wire Wire Line
-	8500 2200 8600 2200
-Wire Wire Line
-	6200 2500 6700 2500
-Wire Wire Line
-	6700 2500 6900 2500
-Wire Wire Line
-	6200 2900 6500 2900
-Wire Wire Line
-	6500 2900 6900 2900
-Wire Wire Line
-	6200 3000 6400 3000
-Wire Wire Line
-	6400 3000 6900 3000
+	6200 3000 6900 3000
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Notes Line
@@ -611,9 +597,7 @@ Wire Wire Line
 	8500 2400 8600 2400
 Connection ~ 8500 2200
 Wire Wire Line
-	6200 2800 6600 2800
-Wire Wire Line
-	6600 2800 6900 2800
+	6200 2800 6900 2800
 Wire Wire Line
 	8500 2700 8600 2700
 Connection ~ 8500 2500
@@ -623,9 +607,7 @@ Connection ~ 8500 2600
 Wire Wire Line
 	2150 2250 2150 1900
 Wire Wire Line
-	4800 2200 5300 2200
-Wire Wire Line
-	5300 2200 5400 2200
+	4800 2200 5400 2200
 Wire Wire Line
 	3400 3000 3400 2900
 Wire Wire Line
@@ -637,9 +619,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2550 2150 2600
 Wire Wire Line
-	2150 2600 2300 2600
-Wire Wire Line
-	2300 2600 2450 2600
+	2150 2600 2450 2600
 Wire Wire Line
 	2450 2600 2450 2550
 Connection ~ 2300 2600
@@ -670,28 +650,14 @@ Wire Wire Line
 	4200 2650 4200 2050
 Connection ~ 4200 2050
 Wire Wire Line
-	2450 1850 2450 2050
+	2450 1850 2450 2250
 Wire Wire Line
-	2450 2050 2450 2250
-Wire Wire Line
-	2450 2050 4200 2050
-Wire Wire Line
-	4200 2050 5300 2050
-Wire Wire Line
-	5300 2050 5400 2050
+	2450 2050 5400 2050
 Wire Wire Line
 	5800 1900 5800 1850
 Connection ~ 5300 2050
 Wire Wire Line
-	8500 2200 8500 2300
-Wire Wire Line
-	8500 2300 8500 2400
-Wire Wire Line
-	8500 2400 8500 2500
-Wire Wire Line
-	8500 2500 8500 2600
-Wire Wire Line
-	8500 2600 8500 2700
+	8500 2200 8500 2700
 Wire Wire Line
 	5400 2300 5300 2300
 Wire Wire Line
@@ -701,13 +667,7 @@ Wire Wire Line
 	2750 7200 2750 7300
 Connection ~ 2750 7200
 Wire Wire Line
-	1400 6100 1700 6100
-Wire Wire Line
-	1700 6100 1900 6100
-Wire Wire Line
-	1900 6100 2000 6100
-Wire Wire Line
-	2000 6100 2750 6100
+	1400 6100 2750 6100
 Wire Wire Line
 	2200 6900 2200 7200
 Wire Wire Line
@@ -727,18 +687,12 @@ Wire Wire Line
 	2750 6100 2750 6200
 Connection ~ 3500 6500
 Wire Wire Line
-	3350 6600 3700 6600
+	3350 6600 3900 6600
 Wire Wire Line
-	3700 6600 3900 6600
-Wire Wire Line
-	3350 6500 3500 6500
-Wire Wire Line
-	3500 6500 3900 6500
+	3350 6500 3900 6500
 Connection ~ 3700 6600
 Wire Wire Line
-	3500 6000 3500 6100
-Wire Wire Line
-	3500 6100 3500 6200
+	3500 6000 3500 6200
 Wire Wire Line
 	3500 6100 3700 6100
 Wire Wire Line
@@ -780,24 +734,16 @@ Wire Wire Line
 Wire Wire Line
 	1700 4200 1600 4200
 Wire Wire Line
-	1600 4100 1600 4200
-Wire Wire Line
-	1600 4200 1600 4300
+	1600 4100 1600 4300
 Connection ~ 1600 4200
 Wire Wire Line
 	1400 2000 1500 2000
 Wire Wire Line
 	1500 2000 1500 2100
 Wire Wire Line
-	2300 2600 2300 2800
+	2300 2600 2300 3300
 Wire Wire Line
-	2300 2800 2300 3300
-Wire Wire Line
-	2100 3300 2300 3300
-Wire Wire Line
-	2300 3300 2900 3300
-Wire Wire Line
-	2900 3300 3400 3300
+	2100 3300 3400 3300
 Wire Wire Line
 	3400 3300 3400 3200
 Wire Wire Line
@@ -984,19 +930,9 @@ F 7 "RK73H2ATTD1002F" H 8150 8000 60  0001 C CNN "AltPartNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3400 6300 3700
+	6300 3400 6300 3800
 Wire Wire Line
-	6300 3700 6300 3800
-Wire Wire Line
-	6300 3700 6400 3700
-Wire Wire Line
-	6400 3700 6500 3700
-Wire Wire Line
-	6500 3700 6600 3700
-Wire Wire Line
-	6600 3700 6700 3700
-Wire Wire Line
-	6700 3700 6800 3700
+	6300 3700 6800 3700
 Wire Wire Line
 	6800 3700 6800 3600
 Wire Wire Line
@@ -1023,26 +959,20 @@ F 3 "" H 1400 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 6000 1400 6100
-Wire Wire Line
-	1400 6100 1400 6600
+	1400 6000 1400 6600
 Connection ~ 1700 6100
 Connection ~ 1400 6100
 Wire Wire Line
 	1400 6800 1400 7200
 Wire Wire Line
-	1400 7200 2200 7200
-Wire Wire Line
-	2200 7200 2750 7200
+	1400 7200 2750 7200
 Wire Wire Line
 	1700 6100 1700 6700
 Wire Wire Line
 	1700 6700 2200 6700
 Connection ~ 8500 2400
 Wire Wire Line
-	6200 2300 6400 2300
-Wire Wire Line
-	6400 2300 8300 2300
+	6200 2300 8300 2300
 Text GLabel 8600 2900 2    50   Output ~ 0
 EN_CRAMP3n
 Text GLabel 7400 5500 2    50   Input ~ 0
@@ -1057,9 +987,7 @@ Wire Wire Line
 	6400 2300 6400 1900
 Connection ~ 6400 2300
 Wire Wire Line
-	6400 1500 6400 1600
-Wire Wire Line
-	6400 1600 6400 1700
+	6400 1500 6400 1700
 Wire Wire Line
 	6700 1700 6700 1600
 Wire Wire Line
@@ -1164,11 +1092,7 @@ F 3 "" H 7050 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 5800 7300 5900
-Wire Wire Line
-	7300 5900 7300 6000
-Wire Wire Line
-	7300 6000 7300 6100
+	7300 5800 7300 6100
 Wire Wire Line
 	7300 5900 7200 5900
 Wire Wire Line
@@ -1180,11 +1104,7 @@ Connection ~ 7300 6000
 Wire Wire Line
 	6800 6100 6900 6100
 Wire Wire Line
-	6800 5900 6800 6000
-Wire Wire Line
-	6800 6000 6800 6100
-Wire Wire Line
-	6800 6100 6800 6200
+	6800 5900 6800 6200
 Wire Wire Line
 	6900 6000 6800 6000
 Connection ~ 6800 6100
@@ -1218,4 +1138,17 @@ Wire Wire Line
 	5400 3100 4800 3100
 Wire Wire Line
 	1600 3800 1600 3900
+$Comp
+L SHUNT S301
+U 1 1 536179A3
+P 2900 4550
+F 0 "S301" H 2900 4650 60  0000 C CNN
+F 1 "SHUNT" H 2900 4450 60  0000 C CNN
+F 2 "~" H 2900 4550 60  0000 C CNN
+F 3 "~" H 2900 4550 60  0000 C CNN
+	1    2900 4550
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 4500 0    60   ~ 0
+Place a shunt on ESTOP header\nby default, for folks who do not\nhave an off-board ESTOP switch
 $EndSCHEMATC

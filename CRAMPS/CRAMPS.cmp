@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 3:04:00 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 7:56:43 PM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -183,23 +183,44 @@ IdModule  = DO-214AC;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/53305633;
+TimeStamp = /50FC2853/53616EB5;
 Reference = F201;
-ValeurCmp = FUSE 10A;
+ValeurCmp = 10A;
+IdModule  = Fuse-Loose;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53616FE5;
+Reference = F401;
+ValeurCmp = 10A;
+IdModule  = Fuse-Loose;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53616FF4;
+Reference = F402;
+ValeurCmp = 15A;
+IdModule  = Fuse-Loose;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53305633;
+Reference = FH201;
+ValeurCmp = FUSE-HOLDER;
 IdModule  = FUSE-MINI-AUTO;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/533060C7;
-Reference = F401;
-ValeurCmp = FUSE 10A;
+Reference = FH401;
+ValeurCmp = FUSE-HOLDER;
 IdModule  = FUSE-MINI-AUTO;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53305AF0;
-Reference = F402;
-ValeurCmp = FUSE 15A;
+Reference = FH402;
+ValeurCmp = FUSE-HOLDER;
 IdModule  = FUSE-MINI-AUTO;
 EndCmp
 
@@ -1034,6 +1055,146 @@ TimeStamp = /50FC37D4/535FDEF0;
 Reference = R518;
 ValeurCmp = 10k;
 IdModule  = RESC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5361767A;
+Reference = S201;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617687;
+Reference = S202;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617698;
+Reference = S203;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5361769E;
+Reference = S204;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176A4;
+Reference = S205;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176AA;
+Reference = S206;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176DE;
+Reference = S207;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176E4;
+Reference = S208;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176EA;
+Reference = S209;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176F0;
+Reference = S210;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176F6;
+Reference = S211;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/536176FC;
+Reference = S212;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617702;
+Reference = S213;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617708;
+Reference = S214;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5361770E;
+Reference = S215;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617714;
+Reference = S216;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5361771A;
+Reference = S217;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53617720;
+Reference = S218;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5239FA54/536179A3;
+Reference = S301;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC37D4/5361A40B;
+Reference = S501;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
 EndCmp
 
 BeginCmp

@@ -3,14 +3,14 @@ Schematic Updates:
   Fix component attributes so VALUE field does not separate parts of the same type
     Using the Value field to name connectors makes working with the BOM *PAINFUL*
   Re-annotate to get sane reference designators
-  Add fuses and part numbers to the BOM, not just the fuse sockets
-  Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
-    (25) TE 382811-8
+x Add fuses and part numbers to the BOM, not just the fuse sockets
+x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
+x   TE 382811-8
   General cleanup & review all text and notes
   Generate schematic for CRAMP3 (3-channel add-on board)
 
 PCB Updates:
-  Update LED footprints to 1608/0603 package
+x Update LED footprints to 1608/0603 package
 x Locate or create screw terminal parts for 5.0mm and 3.5mm
 x ATX power-on connector should be KK series latching connector (like ESTOP)
 x Use screw terminal for 5V/12V power connector

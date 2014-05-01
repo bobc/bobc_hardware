@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "30 apr 2014"
+Date "1 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -426,14 +426,10 @@ Wire Notes Line
 Wire Notes Line
 	2850 2250 2750 2250
 Wire Wire Line
-	9250 5850 9250 5900
-Wire Wire Line
-	9250 5900 9250 5950
+	9250 5850 9250 5950
 Connection ~ 9250 5900
 Wire Wire Line
-	9100 5500 9250 5500
-Wire Wire Line
-	9250 5500 9550 5500
+	9100 5500 9550 5500
 Wire Wire Line
 	9250 5500 9250 5550
 Wire Wire Line
@@ -481,14 +477,10 @@ F 3 "" H 9650 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 5050 9250 5100
-Wire Wire Line
-	9250 5100 9250 5150
+	9250 5050 9250 5150
 Connection ~ 9250 5100
 Wire Wire Line
-	9100 4700 9250 4700
-Wire Wire Line
-	9250 4700 9550 4700
+	9100 4700 9550 4700
 Wire Wire Line
 	9250 4700 9250 4750
 Wire Wire Line
@@ -603,13 +595,9 @@ F 3 "" H 1350 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 6700 1600 6700
+	1350 6700 1800 6700
 Wire Wire Line
-	1600 6700 1800 6700
-Wire Wire Line
-	1350 7100 1600 7100
-Wire Wire Line
-	1600 7100 1800 7100
+	1350 7100 1800 7100
 Text GLabel 1350 6700 0    50   UnSpc ~ 0
 D3.3V
 Text Notes 1000 6300 0    50   ~ 0
@@ -720,13 +708,7 @@ $EndComp
 Wire Wire Line
 	950  5200 850  5200
 Wire Wire Line
-	850  5200 850  5300
-Wire Wire Line
-	850  5300 850  5400
-Wire Wire Line
-	850  5400 850  5500
-Wire Wire Line
-	850  5500 850  5600
+	850  5200 850  5600
 Wire Wire Line
 	950  5500 850  5500
 Connection ~ 850  5500

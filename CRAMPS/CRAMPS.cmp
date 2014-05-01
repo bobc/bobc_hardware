@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 7:56:43 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 10:41:24 PM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -225,6 +225,55 @@ IdModule  = FUSE-MINI-AUTO;
 EndCmp
 
 BeginCmp
+TimeStamp = /50FC2853/53289F71;
+Reference = JP201;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5328A227;
+Reference = JP202;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5328A2B4;
+Reference = JP203;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5328A659;
+Reference = JP204;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5328A6B8;
+Reference = JP205;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/5328A717;
+Reference = JP206;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5239FA54/53319970;
+Reference = JP301;
+ValeurCmp = addr;
+IdModule  = pin_strip_2x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /50FC37D4/532C5968;
 Reference = JP501;
 ValeurCmp = JUMP_MINI;
@@ -316,34 +365,6 @@ IdModule  = PCB_GREEN_RMC;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/535FFA9B;
-Reference = M201;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC2853/535FFAAA;
-Reference = M202;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC2853/535FFAB9;
-Reference = M203;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC2853/535FFAC8;
-Reference = M204;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
-EndCmp
-
-BeginCmp
 TimeStamp = /533029B2;
 Reference = P8;
 ValeurCmp = BB_EXP_CONN_P8;
@@ -379,23 +400,23 @@ IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/53289F71;
+TimeStamp = /50FC2853/535FFA9B;
 Reference = P201;
-ValeurCmp = HEADER_3X2;
+ValeurCmp = POLOLU_SOCKET;
 IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/5328A227;
+TimeStamp = /50FC2853/535FFAAA;
 Reference = P202;
-ValeurCmp = HEADER_3X2;
+ValeurCmp = POLOLU_SOCKET;
 IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/5328A2B4;
+TimeStamp = /50FC2853/535FFAB9;
 Reference = P203;
-ValeurCmp = HEADER_3X2;
+ValeurCmp = POLOLU_SOCKET;
 IdModule  = pin_array_3x2;
 EndCmp
 
@@ -428,23 +449,9 @@ IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FC2853/5328A659;
+TimeStamp = /50FC2853/535FFAC8;
 Reference = P208;
-ValeurCmp = HEADER_3X2;
-IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC2853/5328A6B8;
-Reference = P209;
-ValeurCmp = HEADER_3X2;
-IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FC2853/5328A717;
-Reference = P210;
-ValeurCmp = HEADER_3X2;
+ValeurCmp = POLOLU_SOCKET;
 IdModule  = pin_array_3x2;
 EndCmp
 
@@ -467,13 +474,6 @@ TimeStamp = /50FC2853/5328A70D;
 Reference = P213;
 ValeurCmp = E2-MOT;
 IdModule  = CONN_KK_2.54_4W;
-EndCmp
-
-BeginCmp
-TimeStamp = /5239FA54/53319970;
-Reference = P301;
-ValeurCmp = addr;
-IdModule  = pin_strip_2x2;
 EndCmp
 
 BeginCmp

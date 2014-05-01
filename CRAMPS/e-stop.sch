@@ -334,15 +334,15 @@ $EndComp
 Text Notes 1700 5750 0    60   Italic 0
 Address and WP pins\nhave internal pull-down\nDefault address is no\nshunts populated
 $Comp
-L HEADER_2X2 P301
+L HEADER_2X2 JP?
 U 1 1 53319970
 P 1950 6350
-F 0 "P301" H 1950 6500 60  0000 C CNN
+F 0 "JP?" H 1950 6500 60  0000 C CNN
 F 1 "addr" H 1950 6200 60  0000 C CNN
 F 2 "" H 1950 6350 60  0000 C CNN
 F 3 "" H 1950 6350 60  0000 C CNN
 	1    1950 6350
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L 24C512 U301
@@ -1141,14 +1141,14 @@ Wire Wire Line
 $Comp
 L SHUNT S301
 U 1 1 536179A3
-P 2900 4550
-F 0 "S301" H 2900 4650 60  0000 C CNN
-F 1 "SHUNT" H 2900 4450 60  0000 C CNN
-F 2 "~" H 2900 4550 60  0000 C CNN
-F 3 "~" H 2900 4550 60  0000 C CNN
-	1    2900 4550
+P 4200 4350
+F 0 "S301" H 4200 4450 60  0000 C CNN
+F 1 "SHUNT" H 4200 4250 60  0000 C CNN
+F 2 "~" H 4200 4350 60  0000 C CNN
+F 3 "~" H 4200 4350 60  0000 C CNN
+	1    4200 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 3200 4500 0    60   ~ 0
+Text Notes 2400 4300 0    60   ~ 0
 Place a shunt on ESTOP header\nby default, for folks who do not\nhave an off-board ESTOP switch
 $EndSCHEMATC

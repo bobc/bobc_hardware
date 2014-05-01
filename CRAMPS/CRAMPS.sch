@@ -363,7 +363,7 @@ NoConn ~ 3350 3100
 NoConn ~ 3350 3200
 NoConn ~ 4550 1900
 Text Notes 600  1050 0    60   ~ 0
-Alternate stacking BeagleBone Headers:\nMajorLeague SSHQ-123-D-08-GT-LF\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n\nOr use plain pin headers if you do not\n require additional expansion capes
+Alternate stacking BeagleBone Headers:\nMajorLeague SSHQ-123-D-08-GT-LF\nSamtec SSQ-123-03-T-D (Tin)\nSamtec SSQ-123-03-G-D (Gold)\n\nOr use plain pin headers if you do not\nrequire additional expansion capes
 Text Notes 600  1850 0    60   ~ 0
 To save money on all the pin headers\nwhen buying parts for a few boards,\nyou can get large breakaway headers\ninstead of the individual parts.  You\nwill need a total of:\n\n57 pins of single-row header\n74 pins of dual-row header\n\nWhich you can get using\n(2) Harwin M20-9993645 36-pin single-row header\n(2) Harwin M20-9983645 72-pin dual-row header\n
 Text GLabel 4550 5100 2    50   Output ~ 0

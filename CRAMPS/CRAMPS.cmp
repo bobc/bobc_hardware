@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 10:58:04 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 11:49:08 PM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -1264,14 +1264,14 @@ BeginCmp
 TimeStamp = /5239FA54/53309257;
 Reference = U302;
 ValeurCmp = 74ACT244;
-IdModule  = SO20L;
+IdModule  = SOIC127P1032X265-20N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC37D4/53303067;
 Reference = U501;
 ValeurCmp = 74CBTLV3861;
-IdModule  = SOIC24;
+IdModule  = SOIC127P1030X265-24N;
 EndCmp
 
 EndListe

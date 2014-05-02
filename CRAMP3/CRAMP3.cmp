@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 5:47:58 PM
+
+BeginCmp
+TimeStamp = /50FC3200;
+Reference = C101;
+ValeurCmp = 100u 35V;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A20D;
+Reference = C102;
+ValeurCmp = 100u 35V;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A29A;
+Reference = C103;
+ValeurCmp = 100u 35V;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /535FFA9B;
+Reference = M101;
+ValeurCmp = POLOLU_SOCKET;
+IdModule  = Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /535FFAAA;
+Reference = M102;
+ValeurCmp = POLOLU_SOCKET;
+IdModule  = Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /53289F71;
+Reference = P101;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A227;
+Reference = P102;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A2B4;
+Reference = P103;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53289CF0;
+Reference = P104;
+ValeurCmp = X-MOT;
+IdModule  = CONN_KK_2.54_4W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A21D;
+Reference = P105;
+ValeurCmp = Y-MOT;
+IdModule  = CONN_KK_2.54_4W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328A2AA;
+Reference = P106;
+ValeurCmp = Z-MOT;
+IdModule  = CONN_KK_2.54_4W;
+EndCmp
+
+BeginCmp
+TimeStamp = /53611F8B;
+Reference = P107;
+ValeurCmp = HEADER_4X2;
+IdModule  = pin_strip_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53611F22;
+Reference = P108;
+ValeurCmp = Aux-3;
+IdModule  = pin_strip_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53611F43;
+Reference = P109;
+ValeurCmp = HEADER_3X2;
+IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /532AE947;
+Reference = R101;
+ValeurCmp = 100k;
+IdModule  = RESC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /532AEEBA;
+Reference = R102;
+ValeurCmp = 100k;
+IdModule  = RESC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /532AF445;
+Reference = R103;
+ValeurCmp = 100k;
+IdModule  = RESC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302CEC;
+Reference = U101;
+ValeurCmp = SM_DRIVER;
+IdModule  = POLOLU;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302D00;
+Reference = U102;
+ValeurCmp = SM_DRIVER;
+IdModule  = POLOLU;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302D3C;
+Reference = U103;
+ValeurCmp = SM_DRIVER;
+IdModule  = POLOLU;
+EndCmp
+
+EndListe

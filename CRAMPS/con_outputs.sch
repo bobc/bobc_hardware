@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "1 may 2014"
+Date "2 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -732,9 +732,7 @@ Text GLabel 6000 1700 2    50   UnSpc ~ 0
 VDD_5V
 Connection ~ 3000 2700
 Wire Wire Line
-	2700 2700 3000 2700
-Wire Wire Line
-	3000 2700 3400 2700
+	2700 2700 3400 2700
 Wire Wire Line
 	3000 2000 3000 2300
 Wire Wire Line
@@ -742,27 +740,17 @@ Wire Wire Line
 Wire Wire Line
 	2700 2300 2700 2400
 Wire Wire Line
-	3000 3250 3000 3300
-Wire Wire Line
-	3000 3300 3000 3400
+	3000 3250 3000 3400
 Wire Wire Line
 	2650 3100 2700 3100
 Wire Wire Line
 	2700 2000 2700 2100
 Wire Wire Line
-	2400 2000 2500 2000
-Wire Wire Line
-	2500 2000 2700 2000
-Wire Wire Line
-	2700 2000 3000 2000
-Wire Wire Line
-	3000 2000 3400 2000
+	2400 2000 3400 2000
 Connection ~ 3000 2000
 Connection ~ 7100 5100
 Wire Wire Line
-	6800 5100 7100 5100
-Wire Wire Line
-	7100 5100 7500 5100
+	6800 5100 7500 5100
 Wire Wire Line
 	7500 4400 7500 4700
 Wire Wire Line
@@ -774,18 +762,12 @@ Wire Wire Line
 Wire Wire Line
 	7100 4400 7100 4700
 Wire Wire Line
-	7100 4850 7100 5100
-Wire Wire Line
-	7100 5100 7100 5200
+	7100 4850 7100 5200
 Connection ~ 4100 5100
 Wire Wire Line
-	3800 5100 4100 5100
+	3800 5100 4500 5100
 Wire Wire Line
-	4100 5100 4500 5100
-Wire Wire Line
-	4100 4850 4100 5100
-Wire Wire Line
-	4100 5100 4100 5200
+	4100 4850 4100 5200
 Wire Wire Line
 	4100 4400 4100 4700
 Wire Wire Line
@@ -801,13 +783,9 @@ Wire Wire Line
 Connection ~ 4100 4400
 Connection ~ 5600 5100
 Wire Wire Line
-	5300 5100 5600 5100
+	5300 5100 6000 5100
 Wire Wire Line
-	5600 5100 6000 5100
-Wire Wire Line
-	5600 4850 5600 5100
-Wire Wire Line
-	5600 5100 5600 5200
+	5600 4850 5600 5200
 Wire Wire Line
 	5600 4400 5600 4700
 Wire Wire Line
@@ -821,9 +799,7 @@ Wire Wire Line
 Connection ~ 5600 4400
 Connection ~ 7100 2700
 Wire Wire Line
-	6800 2700 7100 2700
-Wire Wire Line
-	7100 2700 7500 2700
+	6800 2700 7500 2700
 Wire Wire Line
 	7500 2000 7500 2300
 Wire Wire Line
@@ -838,18 +814,12 @@ Connection ~ 7100 2000
 Wire Wire Line
 	7100 2000 7100 2300
 Wire Wire Line
-	7100 2450 7100 2700
-Wire Wire Line
-	7100 2700 7100 2850
+	7100 2450 7100 2850
 Connection ~ 8500 2700
 Wire Wire Line
-	8200 2700 8500 2700
+	8200 2700 8900 2700
 Wire Wire Line
-	8500 2700 8900 2700
-Wire Wire Line
-	8500 2450 8500 2700
-Wire Wire Line
-	8500 2700 8500 2850
+	8500 2450 8500 2850
 Wire Wire Line
 	8500 2000 8500 2300
 Wire Wire Line
@@ -866,9 +836,7 @@ Connection ~ 8500 2000
 Wire Wire Line
 	2700 2700 2700 2600
 Wire Wire Line
-	3000 2450 3000 2700
-Wire Wire Line
-	3000 2700 3000 2800
+	3000 2450 3000 2800
 Wire Wire Line
 	3400 2700 3400 2400
 Wire Wire Line
@@ -894,9 +862,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5100 3800 5000
 Wire Wire Line
-	1700 2000 2000 2000
-Wire Wire Line
-	2000 2000 2100 2000
+	1700 2000 2100 2000
 Connection ~ 2700 2000
 Wire Wire Line
 	1800 3300 1800 2100
@@ -905,17 +871,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 4500 1700 4500
 Wire Wire Line
-	1700 4400 2000 4400
+	1700 4400 2100 4400
 Wire Wire Line
-	2000 4400 2100 4400
-Wire Wire Line
-	1800 5650 2700 5650
-Wire Wire Line
-	2700 5650 4100 5650
-Wire Wire Line
-	4100 5650 5600 5650
-Wire Wire Line
-	5600 5650 7100 5650
+	1800 5650 7100 5650
 Connection ~ 5600 5650
 Connection ~ 4100 5650
 Connection ~ 3800 4400
@@ -941,60 +899,24 @@ Wire Wire Line
 Wire Wire Line
 	8500 3200 8500 3150
 Wire Wire Line
-	7100 3150 7100 3200
-Wire Wire Line
-	7100 3200 7100 3300
+	7100 3150 7100 3300
 Wire Wire Line
 	5900 1700 6000 1700
 Wire Wire Line
-	5900 1600 5900 1700
-Wire Wire Line
-	5900 1700 5900 2200
+	5900 1600 5900 2200
 Connection ~ 5900 1700
 Connection ~ 7100 4400
 Connection ~ 6800 4400
 Wire Wire Line
 	6800 4400 6800 4500
 Wire Wire Line
-	2400 4400 2500 4400
-Wire Wire Line
-	2500 4400 2700 4400
-Wire Wire Line
-	2700 4400 3800 4400
-Wire Wire Line
-	3800 4400 4100 4400
-Wire Wire Line
-	4100 4400 4500 4400
-Wire Wire Line
-	4500 4400 5300 4400
-Wire Wire Line
-	5300 4400 5600 4400
-Wire Wire Line
-	5600 4400 6000 4400
-Wire Wire Line
-	6000 4400 6800 4400
-Wire Wire Line
-	6800 4400 7100 4400
-Wire Wire Line
-	7100 4400 7500 4400
+	2400 4400 7500 4400
 Wire Wire Line
 	6000 2100 5800 2100
 Wire Wire Line
-	6000 3200 7100 3200
+	6000 3200 8500 3200
 Wire Wire Line
-	7100 3200 8500 3200
-Wire Wire Line
-	5800 2000 6800 2000
-Wire Wire Line
-	6800 2000 7100 2000
-Wire Wire Line
-	7100 2000 7500 2000
-Wire Wire Line
-	7500 2000 8200 2000
-Wire Wire Line
-	8200 2000 8500 2000
-Wire Wire Line
-	8500 2000 8900 2000
+	5800 2000 8900 2000
 $Comp
 L HEADER_3 P404
 U 1 1 535F1C4B

@@ -12,6 +12,7 @@ x Generate schematic for CRAMP3 (3-channel add-on board)
 
 PCB Updates:
   Place compnents
+x Preliminary placement of CRAMP3 add-on board to verify connector and mounting hole locations
   Route board
     Manual pre-route as needed
     Auto-route remainder of board
@@ -25,7 +26,6 @@ x Fix P8/P9 footprint & mounting holes
 x Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
 - Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
 -   Not needed, use 1/2 inch spacers between BBB and CRAMPS
-  Preliminary placement of CRAMP3 add-on board to verify connector and mounting hole locations
 x Switch fuse holders to Keystone
 x IPC nominal footprints and silk-screen for SMT components:
 x   http://landpatterns.ipc.org/default.asp

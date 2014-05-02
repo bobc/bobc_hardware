@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "1 may 2014"
+Date "2 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -427,7 +427,7 @@ Text Notes 8900 5350 0    50   ~ 0
 Y-
 Text Notes 8700 4800 0    75   ~ 0
 Resistive Touch Screen
-Text GLabel 6700 5200 0    50   BiDi ~ 0
+Text GLabel 7400 5200 2    50   BiDi ~ 0
 SPI_CS1
 $Comp
 L HEADER_6 P305
@@ -837,7 +837,7 @@ F 3 "" H 7300 6000 60  0001 C CNN
 	1    7300 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 5300 0    50   BiDi ~ 0
+Text GLabel 7400 5300 2    50   BiDi ~ 0
 SPI_SPARE
 $Comp
 L R R314
@@ -1092,9 +1092,9 @@ F 7 "RK73H1JTTD4701F" H 7250 8500 60  0001 C CNN "AltPartNo"
 	1    3700 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 5200 2    50   BiDi ~ 0
+Text GLabel 6700 5200 0    50   BiDi ~ 0
 SCL
-Text GLabel 7400 5300 2    50   BiDi ~ 0
+Text GLabel 6700 5300 0    50   BiDi ~ 0
 SDA
 Wire Wire Line
 	7200 5100 7300 5100

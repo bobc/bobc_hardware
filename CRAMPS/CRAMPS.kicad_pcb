@@ -3,9 +3,9 @@
   (general
     (links 433)
     (no_connects 398)
-    (area 13.7414 31.515756 250.825001 150.5712)
+    (area 13.7414 31.515756 250.825001 161.1882)
     (thickness 1.6002)
-    (drawings 226)
+    (drawings 229)
     (tracks 201)
     (zones 0)
     (modules 181)
@@ -1907,7 +1907,7 @@
   )
 
   (module SOT23GDS (layer Front) (tedit 53630A36) (tstamp 52F14751)
-    (at 41.275 104.775 270)
+    (at 48.26 107.315 270)
     (descr "Module CMS SOT23 Transistore EBC")
     (tags "CMS SOT")
     (path /5239FA54/532B3494)
@@ -3660,7 +3660,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 535FD76E)
-    (at 30.48 92.71)
+    (at 28.575 62.865)
     (path /5239FA54/535FD2CA)
     (fp_text reference R308 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -3849,7 +3849,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 535FD71A)
-    (at 135.89 65.405 270)
+    (at 134.62 65.405 270)
     (path /50FC37D4/535FDED2)
     (fp_text reference R507 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -3876,7 +3876,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 535FD70E)
-    (at 133.35 65.405 270)
+    (at 132.08 65.405 270)
     (path /50FC37D4/535FDEDC)
     (fp_text reference R508 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -3903,7 +3903,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 5362EB6A) (tstamp 535FD702)
-    (at 130.81 65.405 270)
+    (at 129.54 65.405 270)
     (path /50FC37D4/535FDEE6)
     (fp_text reference R509 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -3930,7 +3930,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 535FD6F6)
-    (at 128.27 65.405 270)
+    (at 127 65.405 270)
     (path /50FC37D4/535FDEF0)
     (fp_text reference R510 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -3984,12 +3984,12 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 533C426B)
-    (at 151.765 74.93 270)
+    (at 33.02 62.865)
     (path /5239FA54/532B48DC)
-    (fp_text reference R303 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R303 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value 330R (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value 330R (at 0 0.7) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.47 -0.72) (end 1.47 -0.72) (layer F.SilkS) (width 0.1524))
@@ -4000,11 +4000,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad 1 smd rect (at -0.82 0 270) (size 0.79 0.93)
+    (pad 1 smd rect (at -0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 136 SYS_5V)
     )
-    (pad 2 smd rect (at 0.82 0 270) (size 0.79 0.93)
+    (pad 2 smd rect (at 0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 117 N-00000193)
     )
@@ -4254,12 +4254,12 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 51C75506)
-    (at 108.585 117.475 180)
+    (at 33.02 64.77)
     (path /5239FA54/532B32A1)
-    (fp_text reference R305 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R305 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value 220R (at 0 0.7 180) (layer F.SilkS) hide
+    (fp_text value 220R (at 0 0.7) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.47 -0.72) (end 1.47 -0.72) (layer F.SilkS) (width 0.1524))
@@ -4270,11 +4270,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad 1 smd rect (at -0.82 0 180) (size 0.79 0.93)
+    (pad 1 smd rect (at -0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 25 D3.3V)
     )
-    (pad 2 smd rect (at 0.82 0 180) (size 0.79 0.93)
+    (pad 2 smd rect (at 0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 111 N-00000185)
     )
@@ -4443,7 +4443,7 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 51ACF301)
-    (at 139.065 67.31)
+    (at 28.575 64.77)
     (path /5239FA54/532B3F20)
     (fp_text reference R304 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -4632,12 +4632,12 @@
   )
 
   (module RESC1608x55N (layer Front) (tedit 53615B5B) (tstamp 510DB627)
-    (at 111.76 142.24 270)
+    (at 33.02 60.96)
     (path /532B2DC0)
-    (fp_text reference R101 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R101 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value 330R (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value 330R (at 0 0.7) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.47 -0.72) (end 1.47 -0.72) (layer F.SilkS) (width 0.1524))
@@ -4648,11 +4648,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad 1 smd rect (at -0.82 0 270) (size 0.79 0.93)
+    (pad 1 smd rect (at -0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 136 SYS_5V)
     )
-    (pad 2 smd rect (at 0.82 0 270) (size 0.79 0.93)
+    (pad 2 smd rect (at 0.82 0) (size 0.79 0.93)
       (layers Front F.Paste F.Mask)
       (net 119 N-0000088)
     )
@@ -4875,12 +4875,12 @@
   )
 
   (module OSRAM-LED-0603 (layer Front) (tedit 53615D92) (tstamp 533C4321)
-    (at 153.67 74.93 270)
+    (at 36.195 62.865 180)
     (path /5239FA54/532B48CF)
-    (fp_text reference LD301 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference LD301 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value Green (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Green (at 0 0.7 180) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4892,11 +4892,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad K smd rect (at -0.75 0 270) (size 0.8 0.8)
+    (pad K smd rect (at -0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 2 "/Emergency Stop/MACHINE_PWRn")
     )
-    (pad A smd rect (at 0.75 0 270) (size 0.8 0.8)
+    (pad A smd rect (at 0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 117 N-00000193)
     )
@@ -4931,12 +4931,12 @@
   )
 
   (module OSRAM-LED-0603 (layer Front) (tedit 53615D92) (tstamp 533C42E5)
-    (at 139.7 70.485 270)
+    (at 36.195 64.77 180)
     (path /5239FA54/532B3294)
-    (fp_text reference LD302 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference LD302 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Red (at 0 0.7 180) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4948,11 +4948,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad K smd rect (at -0.75 0 270) (size 0.8 0.8)
+    (pad K smd rect (at -0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 116 N-00000192)
     )
-    (pad A smd rect (at 0.75 0 270) (size 0.8 0.8)
+    (pad A smd rect (at 0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 111 N-00000185)
     )
@@ -5127,12 +5127,12 @@
   )
 
   (module OSRAM-LED-0603 (layer Front) (tedit 53615D92) (tstamp 510DB677)
-    (at 113.665 142.24 90)
+    (at 36.195 60.96 180)
     (path /50FC24D8)
-    (fp_text reference LD101 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text reference LD101 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value Green (at 0 0.7 90) (layer F.SilkS) hide
+    (fp_text value Green (at 0 0.7 180) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -5144,11 +5144,11 @@
     (fp_line (start 1.47 -0.72) (end 1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start 1.47 0.72) (end -1.47 0.72) (layer F.Adhes) (width 0.1))
     (fp_line (start -1.47 0.72) (end -1.47 -0.72) (layer F.Adhes) (width 0.1))
-    (pad K smd rect (at -0.75 0 90) (size 0.8 0.8)
+    (pad K smd rect (at -0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 120 N-0000089)
     )
-    (pad A smd rect (at 0.75 0 90) (size 0.8 0.8)
+    (pad A smd rect (at 0.75 0 180) (size 0.8 0.8)
       (layers Front F.Paste F.Mask)
       (net 119 N-0000088)
     )
@@ -5797,7 +5797,7 @@
   )
 
   (module pin_strip_2 (layer Front) (tedit 4F0999B2) (tstamp 523E184C)
-    (at 37 104.5 90)
+    (at 43.985 107.04 90)
     (descr "Pin strip 2pin")
     (tags "CONN DEV")
     (path /5239FA54/535F148C)
@@ -6787,6 +6787,15 @@
     (fp_line (start -5.5 2) (end -5.5 -2) (layer F.SilkS) (width 0.254))
   )
 
+  (gr_text ESTOP (at 38.1 64.77) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.3048)) (justify left))
+  )
+  (gr_text PWR (at 38.1 62.865) (layer F.SilkS) (tstamp 53638E00)
+    (effects (font (size 1.27 1.27) (thickness 0.3048)) (justify left))
+  )
+  (gr_text LED (at 38.1 60.96) (layer F.SilkS) (tstamp 53638DFF)
+    (effects (font (size 1.27 1.27) (thickness 0.3048)) (justify left))
+  )
   (gr_text RST (at 146.05 58.42) (layer F.SilkS)
     (effects (font (size 1.905 1.905) (thickness 0.3048)))
   )

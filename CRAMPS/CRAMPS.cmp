@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 3:14:29 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/4/2014 4:46:54 AM
 
 BeginCmp
 TimeStamp = /535D6E77;
 Reference = BB101;
-ValeurCmp = BEAGLEBONE-MTG;
+ValeurCmp = BeagleBone Black;
 IdModule  = BeagleBone-Pins;
 EndCmp
 
@@ -136,43 +136,43 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC3D20/51A9D334;
 Reference = D401;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299E72;
 Reference = D402;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299EE9;
 Reference = D403;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299F79;
 Reference = D404;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299C1A;
 Reference = D405;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC3D20/53299FC7;
 Reference = D406;
-ValeurCmp = ES1F;
-IdModule  = DO-214AC;
+ValeurCmp = SS14;
+IdModule  = DIOM5127X229N;
 EndCmp
 
 BeginCmp

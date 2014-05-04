@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "2 may 2014"
+Date "4 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -919,4 +919,8 @@ Text Label 2200 4600 0    60   ~ 0
 SPI_CS0
 Text Notes 1800 5000 0    75   ~ 0
 P503 may be used for:\n* Additional digital I/O\n* CRAMP3 add-on board\n* SPI expansion
+Connection ~ 1800 4300
+Connection ~ 1800 4400
+Connection ~ 1800 4500
+Connection ~ 1800 4600
 $EndSCHEMATC

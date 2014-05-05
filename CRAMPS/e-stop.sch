@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 may 2014"
+Date "5 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -243,7 +243,7 @@ F 7 "RK73H1JTTD4701F" H 6450 5700 60  0001 C CNN "AltPartNo"
 	1    2900 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 2700 1700 0    60   ~ 0
+Text Notes 2700 1800 0    50   ~ 0
 Machine Power\nStatus LED
 $Comp
 L GND #PWR044
@@ -1188,4 +1188,10 @@ Text Notes 6500 4500 0    100  ~ 0
 CRAMP3 Expansion
 Text Notes 600  3000 0    60   ~ 0
 Series resistor on ESTOPn provides\nsome protection from ESTOP chain\n\nFETs protect against high voltage\nfrom PS_ON or MACHINE_PWRn\nfeeding back to the 3.3V 'Bone\n
+Text Notes 2700 1700 0    100  ~ 0
+ACTIVE
+Text Notes 3600 3500 0    100  ~ 0
+ESTOP
+Text Notes 3600 3600 0    50   ~ 0
+Status LED
 $EndSCHEMATC

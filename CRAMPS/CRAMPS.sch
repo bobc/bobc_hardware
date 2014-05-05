@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "4 may 2014"
+Date "5 may 2014"
 Rev "v1.0"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -152,8 +152,8 @@ Text GLabel 4550 1500 2    50   Output ~ 0
 X_DIR
 Text GLabel 3350 1600 0    50   Output ~ 0
 X_STEP
-Text Notes 6900 4450 0    60   ~ 0
-Status LED
+Text Notes 7000 4300 0    100  ~ 0
+STATUS\nLED
 $Comp
 L GND #PWR01
 U 1 1 50FC24E2
@@ -532,8 +532,8 @@ F 5 "2N7002K-7" H 7100 5550 60  0001 C CNN "PartNo"
 $EndComp
 Wire Wire Line
 	7150 5700 7150 5800
-Text Notes 7800 4450 0    60   ~ 0
-BB Turned On\n
+Text Notes 7900 4300 0    100  ~ 0
+BB ON\nLED\n
 $Comp
 L GND #PWR07
 U 1 1 532B4906

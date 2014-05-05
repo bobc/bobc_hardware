@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/4/2014 4:46:54 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/5/2014 9:45:08 AM
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -68,6 +68,48 @@ TimeStamp = /50FC3D20/533060BF;
 Reference = C401;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A681;
+Reference = C402;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53679C35;
+Reference = C403;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A11A;
+Reference = C404;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367A385;
+Reference = C405;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367AE51;
+Reference = C406;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/5367AE59;
+Reference = C407;
+ValeurCmp = None;
+IdModule  = CAPC1608x55N;
 EndCmp
 
 BeginCmp

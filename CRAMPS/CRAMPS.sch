@@ -46,7 +46,7 @@ encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
 Date "7 may 2014"
-Rev "v2.0"
+Rev "v2.1"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
@@ -522,7 +522,7 @@ L FET_N Q101
 U 1 1 532B31E8
 P 7100 5550
 F 0 "Q101" H 7400 5600 70  0000 C CNN
-F 1 "2N7002" H 7400 5500 60  0000 C CNN
+F 1 "2N7002K" H 7400 5500 60  0000 C CNN
 F 2 "SOT23GDS" H 7100 5550 60  0001 C CNN
 F 3 "" H 7100 5550 60  0000 C CNN
 F 4 "Diodes Inc." H 7100 5550 60  0001 C CNN "Mfg"

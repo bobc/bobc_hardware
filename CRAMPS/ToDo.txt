@@ -1,43 +1,12 @@
 Schematic Updates:
-x Fix component attributes so all parts have manufacturer part numbers
-x Fix component attributes so VALUE field does not separate parts of the same type
-x   Using the Value field to name connectors makes working with the BOM *PAINFUL*
-x Re-annotate to get sane reference designators
-x Add fuses and part numbers to the BOM, not just the fuse sockets
-x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
-x   TE 382811-8
-x General cleanup & review all text and notes
-x Generate schematic for CRAMP3 (3-channel add-on board)
-  Review choice of FETs and clamping diodes?
+x Change 2N7002 value to 2N7002K to avoid confusion
+x   Manufacturer part number is correct
 
 PCB Updates:
-  Place compnents
-x Preliminary placement of CRAMP3 add-on board to verify connector and mounting hole locations
-  Route board
-    Manual pre-route as needed
-    Auto-route remainder of board
-x Update LED footprints to 1608/0603 package
-x Locate or create screw terminal parts for 5.0mm and 3.5mm
-x ATX power-on connector should be KK series latching connector (like ESTOP)
-x Use screw terminal for 5V/12V power connector
-x Switch to 0603 discrete components instead of 0805
-x Proper mounting hole clearance for #4 hardware (6mm)
-x Fix P8/P9 footprint & mounting holes
-x Join adjacent screw terminals (P101/P107, P403/P405/P218/P219) on natural pitch (5.0mm or 3.5mm)
-- Increase screw terminal pin clearance around BBB P1 (5V DC Power Jack)
--   Not needed, use 1/2 inch spacers between BBB and CRAMPS
-x Switch fuse holders to Keystone
-x IPC nominal footprints and silk-screen for SMT components:
-x   http://landpatterns.ipc.org/default.asp
-x   ...too bad KiCAD has no assembly or courtyard layers :(
-x Make sure parts that should be on the back of the board are actually *PLACED* on the back of the board
-x   BeagleBone P8
-x   BeagleBone P9
-x   BeagleBone Serial Console
-x Shrink board to smaller than 100mm x 100mm
-+ Move ATX power-on connector near 5V screw terminal?
-+   Added to same connector as 5V and 12V power
-+   Split back out into separate 0.1" header to save peripherial I/O space
+x Merge 1.00 and 1.02 mm drills into same size
+x Make all pin-header footprints consistent:
+x   1.651 mm pad with 1.016mm hole (.065" x .040")
+x Add P8/P9 labels to top of PCB
 
 x = done
 - = don't implement

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source S:/Download/Arduino/bobc_hardware/CRAMPS/CRAMPS.sch)
-    (date "5/7/2014 12:48:48 AM")
+    (date "5/7/2014 9:47:12 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M102)
@@ -79,7 +79,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 532B2DC0))
     (comp (ref Q101)
-      (value 2N7002)
+      (value 2N7002K)
       (footprint SOT23GDS)
       (fields
         (field (name Mfg) "Diodes Inc.")
@@ -680,7 +680,7 @@
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B32A1))
     (comp (ref Q303)
-      (value 2N7002)
+      (value 2N7002K)
       (footprint SOT23GDS)
       (fields
         (field (name Mfg) "Diodes Inc.")
@@ -689,7 +689,7 @@
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B32AA))
     (comp (ref Q302)
-      (value 2N7002)
+      (value 2N7002K)
       (footprint SOT23GDS)
       (fields
         (field (name Mfg) "Diodes Inc.")
@@ -698,7 +698,7 @@
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B3494))
     (comp (ref Q304)
-      (value 2N7002)
+      (value 2N7002K)
       (footprint SOT23GDS)
       (fields
         (field (name Mfg) "Diodes Inc.")
@@ -747,7 +747,7 @@
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 532B48DC))
     (comp (ref Q301)
-      (value 2N7002)
+      (value 2N7002K)
       (footprint SOT23GDS)
       (fields
         (field (name Mfg) "Diodes Inc.")
@@ -2127,6 +2127,54 @@
         (pin (num 10) (name ~) (type passive))
         (pin (num 11) (name ~) (type passive))
         (pin (num 12) (name ~) (type passive))))
+    (libpart (lib RMC) (part JUMP_MINI)
+      (description Mini-jumper)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMP_MINI)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib RMC) (part LOGO_OSHW)
+      (footprints
+        (fp OSHW_logo_2))
+      (fields
+        (field (name Reference) M)
+        (field (name Value) LOGO_OSHW)
+        (field (name Footprint) OSHW_logo_2)
+        (field (name Datasheet) ~)))
+    (libpart (lib RMC) (part MOSFET_N_RMC)
+      (description "Power MOSFET")
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOSFET_N_RMC)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num D) (name ~) (type input))
+        (pin (num G) (name ~) (type input))
+        (pin (num S) (name ~) (type input))))
+    (libpart (lib RMC) (part PCB_GREEN_RMC)
+      (footprints
+        (fp PCB))
+      (fields
+        (field (name Reference) M)
+        (field (name Value) PCB_GREEN_RMC)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
+    (libpart (lib beagleboneblack) (part BEAGLEBONE-MTG)
+      (fields
+        (field (name Reference) BB)
+        (field (name Value) BEAGLEBONE-MTG)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num M1) (name Mtg) (type passive))
+        (pin (num M2) (name Mtg) (type passive))
+        (pin (num M3) (name Mtg) (type passive))
+        (pin (num M4) (name Mtg) (type passive))))
     (libpart (lib w_device) (part FET_N)
       (fields
         (field (name Reference) Q)
@@ -2187,55 +2235,7 @@
         (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib RMC) (part JUMP_MINI)
-      (description Mini-jumper)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) JUMP_MINI)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib RMC) (part LOGO_OSHW)
-      (footprints
-        (fp OSHW_logo_2))
-      (fields
-        (field (name Reference) M)
-        (field (name Value) LOGO_OSHW)
-        (field (name Footprint) OSHW_logo_2)
-        (field (name Datasheet) ~)))
-    (libpart (lib RMC) (part MOSFET_N_RMC)
-      (description "Power MOSFET")
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MOSFET_N_RMC)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num D) (name ~) (type input))
-        (pin (num G) (name ~) (type input))
-        (pin (num S) (name ~) (type input))))
-    (libpart (lib RMC) (part PCB_GREEN_RMC)
-      (footprints
-        (fp PCB))
-      (fields
-        (field (name Reference) M)
-        (field (name Value) PCB_GREEN_RMC)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~)))
-    (libpart (lib beagleboneblack) (part BEAGLEBONE-MTG)
-      (fields
-        (field (name Reference) BB)
-        (field (name Value) BEAGLEBONE-MTG)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num M1) (name Mtg) (type passive))
-        (pin (num M2) (name Mtg) (type passive))
-        (pin (num M3) (name Mtg) (type passive))
-        (pin (num M4) (name Mtg) (type passive)))))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical m_cramps)
       (uri ..\KiCAD_Libraries\Lindeblom\m_cramps.lib))
@@ -2243,14 +2243,14 @@
       (uri ..\KiCAD_Libraries\walter\eesch\w_device.lib))
     (library (logical w_connectors)
       (uri ..\KiCAD_Libraries\walter\eesch\w_connectors.lib))
-    (library (logical w_logic)
-      (uri ..\KiCAD_Libraries\walter\eesch\w_logic.lib))
-    (library (logical device)
-      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib"))
     (library (logical RMC)
       (uri ..\KiCAD_Libraries\library\RMC.lib))
     (library (logical beagleboneblack)
-      (uri ..\KiCAD_Libraries\FlyingBone\beagleboneblack.lib)))
+      (uri ..\KiCAD_Libraries\FlyingBone\beagleboneblack.lib))
+    (library (logical w_logic)
+      (uri ..\KiCAD_Libraries\walter\eesch\w_logic.lib))
+    (library (logical device)
+      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib")))
   (nets
     (net (code 1) (name SPI_CS1)
       (node (ref P303) (pin 4))

@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "7 may 2014"
+Date "8 may 2014"
 Rev "v2.1"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -519,11 +519,11 @@ L HEADER_2 P301
 U 1 1 535F148C
 P 1300 1950
 F 0 "P301" H 1350 2100 60  0000 C CNN
-F 1 "KK-2.54-2W" H 1350 1780 60  0001 C CNN
+F 1 "HEADER_2" H 1350 1780 60  0001 C CNN
 F 2 "pin_strip_2" H 1300 1950 60  0001 C CNN
 F 3 "" H 1300 1950 60  0000 C CNN
-F 4 "Molex" H 1300 1950 60  0001 C CNN "Mfg"
-F 5 "22-23-2021" H 1300 1950 60  0001 C CNN "PartNo"
+F 4 "Harwin" H 1300 1950 60  0001 C CNN "Mfg"
+F 5 "M20-9990245" H 1300 1950 60  0001 C CNN "PartNo"
 	1    1300 1950
 	-1   0    0    -1  
 $EndComp

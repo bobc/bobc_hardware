@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 5:47:58 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/10/2014 6:53:25 AM
 
 BeginCmp
 TimeStamp = /50FC3200;
@@ -22,17 +22,17 @@ IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
-TimeStamp = /535FFA9B;
-Reference = M101;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
+TimeStamp = /536D47EF;
+Reference = M1;
+ValeurCmp = 4-40;
+IdModule  = MTH_4-40;
 EndCmp
 
 BeginCmp
-TimeStamp = /535FFAAA;
-Reference = M102;
-ValeurCmp = POLOLU_SOCKET;
-IdModule  = Pololu_Socket;
+TimeStamp = /536D47FE;
+Reference = M2;
+ValeurCmp = 4-40;
+IdModule  = MTH_4-40;
 EndCmp
 
 BeginCmp
@@ -96,6 +96,20 @@ TimeStamp = /53611F43;
 Reference = P109;
 ValeurCmp = HEADER_3X2;
 IdModule  = pin_strip_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /535FFA9B;
+Reference = P110;
+ValeurCmp = POLOLU_SOCKET;
+IdModule  = Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /535FFAAA;
+Reference = P111;
+ValeurCmp = POLOLU_SOCKET;
+IdModule  = Pololu_Socket;
 EndCmp
 
 BeginCmp

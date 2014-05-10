@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "CRAMP3 (3-channel add-on for CRAMPS)"
-Date "1 may 2014"
+Date "10 may 2014"
 Rev "v1.0"
 Comp "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment1 "Derived from RAMPS-FD by Bob Cousins"
@@ -549,10 +549,10 @@ Connection ~ 4650 5800
 Connection ~ 4650 4000
 Connection ~ 4650 2200
 $Comp
-L POLOLU_SOCKET M101
+L POLOLU_SOCKET P110
 U 1 1 535FFA9B
 P 9200 5250
-F 0 "M101" H 9200 5550 60  0000 C CNN
+F 0 "P110" H 9200 5550 60  0000 C CNN
 F 1 "POLOLU_SOCKET" H 9200 4950 60  0000 C CNN
 F 2 "~" H 9200 5250 60  0000 C CNN
 F 3 "~" H 9200 5250 60  0000 C CNN
@@ -560,10 +560,10 @@ F 3 "~" H 9200 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POLOLU_SOCKET M102
+L POLOLU_SOCKET P120
 U 1 1 535FFAAA
 P 10100 5250
-F 0 "M102" H 10100 5550 60  0000 C CNN
+F 0 "P120" H 10100 5550 60  0000 C CNN
 F 1 "POLOLU_SOCKET" H 10100 4950 60  0000 C CNN
 F 2 "~" H 10100 5250 60  0000 C CNN
 F 3 "~" H 10100 5250 60  0000 C CNN
@@ -594,7 +594,7 @@ F 3 "" H 6850 1600 60  0000 C CNN
 	1    6850 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 1800 0    50   BiDi ~ 0
+Text GLabel 6350 1800 0    50   BiDi ~ 0
 SPI_CS1
 $Comp
 L HEADER_4X2 P108
@@ -637,7 +637,7 @@ F 3 "" H 7350 2300 60  0001 C CNN
 	1    7350 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 1900 0    50   BiDi ~ 0
+Text GLabel 6350 1900 0    50   BiDi ~ 0
 SPI_SPARE
 Text GLabel 7450 2000 2    50   Input ~ 0
 ENAn
@@ -712,13 +712,13 @@ F 3 "" H 6750 3400 60  0001 C CNN
 	1    6750 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 3200 2    50   Input ~ 0
+Text GLabel 7450 3200 2    50   Input ~ 0
 MOSI-5V
-Text GLabel 7050 3100 2    50   Input ~ 0
+Text GLabel 7450 3100 2    50   Input ~ 0
 SCK-5V
-Text GLabel 7050 3000 2    50   Output ~ 0
+Text GLabel 7450 3000 2    50   Output ~ 0
 MISO-5V
-Text GLabel 7050 3300 2    50   Input ~ 0
+Text GLabel 7450 3300 2    50   Input ~ 0
 SPI_CS0
 $Comp
 L HEADER_4X2 P107
@@ -731,18 +731,58 @@ F 3 "" H 6900 3150 60  0000 C CNN
 	1    6900 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6200 1900 0    50   Input ~ 0
+Text GLabel 6750 1900 0    50   Input ~ 0
 DIR_0
-Text GLabel 6200 1800 0    50   Input ~ 0
+Text GLabel 6750 1800 0    50   Input ~ 0
 STEP_0
-Text GLabel 7950 3100 0    50   Input ~ 0
+Text GLabel 7050 3200 2    50   Input ~ 0
 DIR_1
-Text GLabel 7950 3000 0    50   Input ~ 0
+Text GLabel 7050 3000 2    50   Input ~ 0
 STEP_1
-Text GLabel 8000 3450 0    50   Input ~ 0
+Text GLabel 7050 3300 2    50   Input ~ 0
 DIR_2
-Text GLabel 8000 3350 0    50   Input ~ 0
+Text GLabel 7050 3100 2    50   Input ~ 0
 STEP_2
 Wire Wire Line
 	6750 3000 6750 3400
+$Comp
+L TEST_POINT_RMC M1
+U 1 1 536D47EF
+P 8850 2200
+F 0 "M1" H 9050 2200 60  0000 C CNN
+F 1 "4-40" H 8850 2350 60  0000 C CNN
+F 2 "~" H 8850 2200 60  0000 C CNN
+F 3 "~" H 8850 2200 60  0000 C CNN
+	1    8850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_POINT_RMC M2
+U 1 1 536D47FE
+P 8850 2500
+F 0 "M2" H 9050 2500 60  0000 C CNN
+F 1 "4-40" H 8850 2650 60  0000 C CNN
+F 2 "~" H 8850 2500 60  0000 C CNN
+F 3 "~" H 8850 2500 60  0000 C CNN
+	1    8850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2200 8600 2200
+Wire Wire Line
+	8600 2200 8600 2600
+Wire Wire Line
+	8700 2500 8600 2500
+Connection ~ 8600 2500
+$Comp
+L GND #PWR019
+U 1 1 536D493E
+P 8600 2600
+F 0 "#PWR019" H 8600 2600 30  0001 C CNN
+F 1 "GND" H 8600 2530 30  0001 C CNN
+F 2 "" H 8600 2600 60  0001 C CNN
+F 3 "" H 8600 2600 60  0001 C CNN
+	1    8600 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

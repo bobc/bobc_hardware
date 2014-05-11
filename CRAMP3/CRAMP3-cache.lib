@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 5/10/2014 6:51:17 AM
+EESchema-LIBRARY Version 2.3  Date: 5/11/2014 4:41:26 AM
 #encoding utf-8
 #
 # +3.3V
@@ -159,6 +159,18 @@ DRAW
 S 20 50 -20 -50 0 1 0 N
 X ~ 1 0 100 50 D 60 60 1 1 P
 X ~ 2 0 -100 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shunt
+#
+DEF Shunt S 0 40 Y Y 1 F N
+F0 "S" 0 100 60 H V C CNN
+F1 "Shunt" 0 -100 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -100 50 100 -50 0 1 0 N
 ENDDRAW
 ENDDEF
 #

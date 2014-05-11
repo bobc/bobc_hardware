@@ -1,22 +1,22 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/10/2014 6:53:25 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/11/2014 3:43:31 AM
 
 BeginCmp
 TimeStamp = /50FC3200;
-Reference = C101;
+Reference = C1;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A20D;
-Reference = C102;
+Reference = C2;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A29A;
-Reference = C103;
+Reference = C3;
 ValeurCmp = 100u 35V;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
@@ -37,119 +37,182 @@ EndCmp
 
 BeginCmp
 TimeStamp = /53289F71;
-Reference = P101;
+Reference = P1;
 ValeurCmp = HEADER_3X2;
 IdModule  = pin_strip_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A227;
-Reference = P102;
+Reference = P2;
 ValeurCmp = HEADER_3X2;
 IdModule  = pin_strip_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A2B4;
-Reference = P103;
+Reference = P3;
 ValeurCmp = HEADER_3X2;
 IdModule  = pin_strip_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53289CF0;
-Reference = P104;
-ValeurCmp = X-MOT;
+Reference = P4;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A21D;
-Reference = P105;
-ValeurCmp = Y-MOT;
+Reference = P5;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /5328A2AA;
-Reference = P106;
-ValeurCmp = Z-MOT;
+Reference = P6;
+ValeurCmp = KK-2.54-4W;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /53611F8B;
-Reference = P107;
-ValeurCmp = HEADER_4X2;
-IdModule  = pin_strip_4x2;
+Reference = P7;
+ValeurCmp = SOCKET_4X2;
+IdModule  = Pin_Socket_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53611F22;
-Reference = P108;
-ValeurCmp = Aux-3;
-IdModule  = pin_strip_4x2;
+Reference = P8;
+ValeurCmp = SOCKET_4X2;
+IdModule  = Pin_Socket_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53611F43;
-Reference = P109;
-ValeurCmp = HEADER_3X2;
-IdModule  = pin_strip_3x2;
+Reference = P9;
+ValeurCmp = SOCKET_3X2;
+IdModule  = Pin_Socket_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /535FFA9B;
-Reference = P110;
+Reference = P10;
 ValeurCmp = POLOLU_SOCKET;
 IdModule  = Pololu_Socket;
 EndCmp
 
 BeginCmp
 TimeStamp = /535FFAAA;
-Reference = P111;
+Reference = P11;
 ValeurCmp = POLOLU_SOCKET;
 IdModule  = Pololu_Socket;
 EndCmp
 
 BeginCmp
 TimeStamp = /532AE947;
-Reference = R101;
+Reference = R1;
 ValeurCmp = 100k;
 IdModule  = RESC1608x55N;
 EndCmp
 
 BeginCmp
 TimeStamp = /532AEEBA;
-Reference = R102;
+Reference = R2;
 ValeurCmp = 100k;
 IdModule  = RESC1608x55N;
 EndCmp
 
 BeginCmp
 TimeStamp = /532AF445;
-Reference = R103;
+Reference = R3;
 ValeurCmp = 100k;
 IdModule  = RESC1608x55N;
 EndCmp
 
 BeginCmp
+TimeStamp = /536F30D5;
+Reference = S1;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F311D;
+Reference = S2;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F3125;
+Reference = S3;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F312D;
+Reference = S4;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F3135;
+Reference = S5;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F313D;
+Reference = S6;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F3145;
+Reference = S7;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F314D;
+Reference = S8;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F3155;
+Reference = S9;
+ValeurCmp = SHUNT;
+IdModule  = Shunt;
+EndCmp
+
+BeginCmp
 TimeStamp = /53302CEC;
-Reference = U101;
+Reference = U1;
 ValeurCmp = SM_DRIVER;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /53302D00;
-Reference = U102;
+Reference = U2;
 ValeurCmp = SM_DRIVER;
 IdModule  = POLOLU;
 EndCmp
 
 BeginCmp
 TimeStamp = /53302D3C;
-Reference = U103;
+Reference = U3;
 ValeurCmp = SM_DRIVER;
 IdModule  = POLOLU;
 EndCmp

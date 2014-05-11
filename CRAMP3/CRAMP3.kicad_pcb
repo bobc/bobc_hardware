@@ -1254,7 +1254,7 @@
     )
   )
 
-  (module OSHW_Logo_5 (layer F.Cu) (tedit 536F42EF) (tstamp 536FE6AE)
+  (module OSHW_Logo_5 (layer F.Cu) (tedit 536F4D86) (tstamp 536FE6AE)
     (at 132.08 81.915)
     (path OSHW_logo_10)
     (fp_text reference Logo (at 0 6.35) (layer F.SilkS) hide

@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "CRAMP3 (3-channel add-on for CRAMPS)"
-Date "11 may 2014"
+Date "12 may 2014"
 Rev "v1.0"
 Comp "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment1 "Derived from RAMPS-FD by Bob Cousins"
@@ -450,7 +450,7 @@ F 3 "" H 6900 1500 60  0000 C CNN
 	1    6900 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 1700 0    50   BiDi ~ 0
+Text GLabel 7900 1700 2    50   BiDi ~ 0
 SPI_CS1
 $Comp
 L HEADER_4X2 P8
@@ -493,28 +493,28 @@ F 3 "" H 6900 2300 60  0001 C CNN
 	1    6900 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 1800 0    50   BiDi ~ 0
+Text GLabel 7900 1800 2    50   BiDi ~ 0
 SPI_SPARE
 Text GLabel 7500 1900 2    50   Input ~ 0
 ENAn
-Text GLabel 7500 1700 2    50   BiDi ~ 0
+Text GLabel 6800 1700 0    50   BiDi ~ 0
 SCL
-Text GLabel 7500 1800 2    50   BiDi ~ 0
+Text GLabel 6800 1800 0    50   BiDi ~ 0
 SDA
 Wire Wire Line
 	7300 1600 7400 1600
 Wire Wire Line
 	7400 1600 7400 1500
 Wire Wire Line
-	7300 1700 7500 1700
-Wire Wire Line
-	7300 1800 7500 1800
-Wire Wire Line
-	7300 1900 7500 1900
+	7000 1700 6800 1700
 Wire Wire Line
 	7000 1800 6800 1800
 Wire Wire Line
-	7000 1700 6800 1700
+	7300 1900 7500 1900
+Wire Wire Line
+	7300 1800 7500 1800
+Wire Wire Line
+	7300 1700 7500 1700
 $Comp
 L HEADER_3X2 P9
 U 1 1 53611F43
@@ -575,7 +575,7 @@ SCK-5V
 Text GLabel 7900 3000 2    50   Output ~ 0
 MISO-5V
 Text GLabel 7900 3300 2    50   Input ~ 0
-SPI_CS0
+SPI_CS0-5V
 $Comp
 L HEADER_4X2 P7
 U 1 1 53611F8B
@@ -653,9 +653,9 @@ Text Label 4200 5400 0    60   ~ 0
 W1A
 Text Label 4200 5500 0    60   ~ 0
 W1B
-Text GLabel 6800 1800 0    50   Input ~ 0
+Text GLabel 7500 1800 2    50   Input ~ 0
 DIR_U
-Text GLabel 6800 1700 0    50   Input ~ 0
+Text GLabel 7500 1700 2    50   Input ~ 0
 STEP_U
 Text GLabel 7500 3300 2    50   Input ~ 0
 DIR_V

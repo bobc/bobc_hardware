@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "8 may 2014"
+Date "12 may 2014"
 Rev "v2.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -1195,4 +1195,8 @@ ESTOP
 Text Notes 3600 3600 0    50   ~ 0
 Status LED
 NoConn ~ 2200 7000
+Text Notes 8000 5250 0    50   ~ 0
+STEP_U
+Text Notes 8000 5350 0    50   ~ 0
+DIR_U
 $EndSCHEMATC

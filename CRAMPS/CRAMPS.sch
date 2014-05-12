@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "8 may 2014"
+Date "12 may 2014"
 Rev "v2.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -228,7 +228,7 @@ Text Notes 1950 5050 0    50   ~ 0
 24.576MHz
 Text Notes 2450 5050 0    50   ~ 0
 Audio
-Text Notes 5050 5100 0    50   ~ 0
+Text Notes 5300 5150 0    50   ~ 0
 Audio
 Text Notes 2450 5250 0    50   ~ 0
 Audio
@@ -296,9 +296,9 @@ Text GLabel 4550 5400 2    50   UnSpc ~ 0
 ADC_GND
 Text Notes 1800 4000 0    50   ~ 0
 BeagleBone serial\nconsole pass-through\nheader
-Text Notes 5050 4900 0    50   ~ 0
+Text Notes 5050 4950 0    50   ~ 0
 SCL1 UART1_TX
-Text Notes 5050 5000 0    50   ~ 0
+Text Notes 5050 5050 0    50   ~ 0
 SDA1 UART1_RX
 Text GLabel 4550 3800 2    50   UnSpc ~ 0
 DGND
@@ -766,4 +766,16 @@ Text Notes 9900 4900 0    100  ~ 0
 Power
 Text Notes 9900 5700 0    100  ~ 0
 Reset
+Text Notes 5050 5850 0    50   ~ 0
+STEP_U
+Text Notes 3000 5350 2    50   ~ 0
+STEP_V
+Text Notes 3000 5250 2    50   ~ 0
+STEP_W
+Text Notes 5100 1750 0    50   ~ 0
+DIR_U
+Text Notes 5050 5150 0    50   ~ 0
+DIR_V
+Text Notes 5050 5250 0    50   ~ 0
+DIR_W
 $EndSCHEMATC

@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "12 may 2014"
+Date "14 may 2014"
 Rev "v2.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -157,7 +157,7 @@ F 1 "Red" V 3495 3450 50  0000 C CNN
 F 2 "OSRAM-LED-0603" H 3400 3450 60  0001 C CNN
 F 3 "" H 3400 3450 60  0001 C CNN
 F 4 "Osram" H 1750 5000 60  0001 C CNN "Mfg"
-F 5 "LH R974-LP-1" H 1750 5000 60  0001 C CNN "PartNo"
+F 5 "LS Q976-NR-1" H 1750 5000 60  0001 C CNN "PartNo"
 	1    3400 3450
 	1    0    0    -1  
 $EndComp
@@ -265,7 +265,7 @@ F 1 "Green" V 2545 1750 50  0000 C CNN
 F 2 "OSRAM-LED-0603" H 2450 1750 60  0001 C CNN
 F 3 "" H 2450 1750 60  0001 C CNN
 F 4 "Osram" H 800 3300 60  0001 C CNN "Mfg"
-F 5 "LG R971-KN-1" H 800 3300 60  0001 C CNN "PartNo"
+F 5 "LG Q971-KN-1" H 800 3300 60  0001 C CNN "PartNo"
 	1    2450 1750
 	1    0    0    -1  
 $EndComp

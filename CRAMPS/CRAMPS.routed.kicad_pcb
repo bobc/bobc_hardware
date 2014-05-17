@@ -74,7 +74,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0)
     (pad_to_mask_clearance 0.254)
-    (aux_axis_origin 52.324 134.62)
+    (aux_axis_origin 38.1 152.4)
     (visible_elements 7FFF7FFF)
     (pcbplotparams
       (layerselection 284721153)
@@ -508,7 +508,7 @@
     )
   )
 
-  (module FIDUCIAL-060 (layer Front) (tedit 5377436C) (tstamp 5377C78C)
+  (module FIDUCIAL-060 (layer Front) (tedit 5377E47F) (tstamp 5377C78C)
     (at 64.135 39.37)
     (attr smd)
     (fp_text reference FID4 (at 0 0) (layer F.SilkS) hide
@@ -519,11 +519,11 @@
     )
     (fp_circle (center 0 0) (end 0 0.762) (layer F.Mask) (width 0.762))
     (pad 1 smd circle (at 0 0) (size 1.524 1.524)
-      (layers Front F.Paste F.Mask)
+      (layers Front F.Mask)
     )
   )
 
-  (module FIDUCIAL-060 (layer Front) (tedit 537743C2) (tstamp 5377C787)
+  (module FIDUCIAL-060 (layer Front) (tedit 5377E45C) (tstamp 5377C787)
     (at 129.54 130.175)
     (attr smd)
     (fp_text reference FID3 (at 0 0) (layer F.SilkS) hide
@@ -534,7 +534,7 @@
     )
     (fp_circle (center 0 0) (end 0 0.762) (layer F.Mask) (width 0.762))
     (pad 1 smd circle (at 0 0) (size 1.524 1.524)
-      (layers Front F.Paste F.Mask)
+      (layers Front F.Mask)
     )
   )
 
@@ -7057,7 +7057,7 @@
     )
   )
 
-  (module FIDUCIAL-060 (layer Front) (tedit 5377438D) (tstamp 5377C775)
+  (module FIDUCIAL-060 (layer Front) (tedit 5377E472) (tstamp 5377C775)
     (at 83.185 113.03)
     (attr smd)
     (fp_text reference FID1 (at 0 0) (layer F.SilkS) hide
@@ -7068,11 +7068,11 @@
     )
     (fp_circle (center 0 0) (end 0 0.762) (layer F.Mask) (width 0.762))
     (pad 1 smd circle (at 0 0) (size 1.524 1.524)
-      (layers Front F.Paste F.Mask)
+      (layers Front F.Mask)
     )
   )
 
-  (module FIDUCIAL-060 (layer Front) (tedit 5377437D) (tstamp 5377C780)
+  (module FIDUCIAL-060 (layer Front) (tedit 5377E488) (tstamp 5377C780)
     (at 139.7 37.465)
     (attr smd)
     (fp_text reference FID2 (at 0 0) (layer F.SilkS) hide
@@ -7083,7 +7083,7 @@
     )
     (fp_circle (center 0 0) (end 0 0.762) (layer F.Mask) (width 0.762))
     (pad 1 smd circle (at 0 0) (size 1.524 1.524)
-      (layers Front F.Paste F.Mask)
+      (layers Front F.Mask)
     )
   )
 

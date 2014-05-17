@@ -4831,7 +4831,7 @@
     (fp_text reference LD406 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4860,7 +4860,7 @@
     (fp_text reference LD404 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4889,7 +4889,7 @@
     (fp_text reference LD401 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4918,7 +4918,7 @@
     (fp_text reference LD402 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4947,7 +4947,7 @@
     (fp_text reference LD405 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -4976,7 +4976,7 @@
     (fp_text reference LD403 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Red (at 0 0.7 270) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 270) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -5005,7 +5005,7 @@
     (fp_text reference LD101 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Green (at 0 0.7 180) (layer F.SilkS) hide
+    (fp_text value Yellow (at 0 0.7 180) (layer F.SilkS) hide
       (effects (font (size 0.45 0.45) (thickness 0.08)))
     )
     (fp_line (start -1.62 -0.72) (end -1.62 0.72) (layer F.SilkS) (width 0.1524))
@@ -5688,7 +5688,7 @@
     (fp_text reference P301 (at 0 -2.54 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value KK-2.54-2W (at 0.254 -3.556 180) (layer F.SilkS) hide
+    (fp_text value HEADER_2 (at 0.254 -3.556 180) (layer F.SilkS) hide
       (effects (font (size 1.016 0.889) (thickness 0.2032)))
     )
     (fp_line (start 0 -1.27) (end 0 1.27) (layer F.SilkS) (width 0.3048))
@@ -6861,7 +6861,6 @@
   (module CAPC1608x55N (layer Front) (tedit 53615B81) (tstamp 53679F27)
     (at 78.74 124.46)
     (path /50FC3D20/53679C35)
-    (attr smd)
     (attr smd)
     (fp_text reference C403 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.1)))

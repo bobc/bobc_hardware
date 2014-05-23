@@ -1,8 +1,14 @@
 Schematic Updates:
 x Change 2N7002 value to 2N7002K to avoid confusion
 x   Manufacturer part number is correct
+  Fix inverted ESTOP LED
 
 PCB Updates:
+  Label headers
+    P301 ATX power-on
+    JP301 Address/Write-protect
+x Move serial header to proper location
+  Cleanup board after re-running through auto-router
 x Use 1.02 mm drill for Pololu Sockets (65 mil pad / 40 mil drill)
 x Merge 1.00 and 1.02 mm drills into same size
 x Make all pin-header footprints consistent:

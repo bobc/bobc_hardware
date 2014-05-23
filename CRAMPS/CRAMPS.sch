@@ -45,7 +45,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
-Date "14 may 2014"
+Date "23 may 2014"
 Rev "v2.2"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -217,9 +217,9 @@ eMMC
 Text Notes 2550 2100 0    60   ~ 0
 eMMC
 Text GLabel 3350 1800 0    50   Input ~ 0
-ESTOPn
+ESTOP
 Text GLabel 4550 2200 2    50   Output ~ 0
-ESTOP_SWn
+ESTOP_SW
 Text GLabel 4550 5800 2    50   Output ~ 0
 SPI_CS1
 Text GLabel 3350 4900 0    50   Output ~ 0

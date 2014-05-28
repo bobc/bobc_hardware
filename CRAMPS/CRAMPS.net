@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source S:/Download/Arduino/bobc_hardware/CRAMPS/CRAMPS.sch)
-    (date "5/23/2014 9:49:22 AM")
+    (date "5/28/2014 5:26:41 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M102)
@@ -760,7 +760,7 @@
       (footprint SOIC127P1032X265-20N)
       (fields
         (field (name Mfg) Fairchild)
-        (field (name PartNo) 74ACT244SC))
+        (field (name PartNo) 74ACT244SCX))
       (libsource (lib w_logic) (part 74HC244))
       (sheetpath (names "/Emergency Stop/") (tstamps /5239FA54/))
       (tstamp 53309257))

@@ -1,15 +1,14 @@
 Drill report for S:\Download\Arduino\bobc_hardware\CRAMPS\CRAMPS.routed.kicad_pcb
-Created on 5/7/2014 5:01:13 PM
+Created on 5/29/2014 4:36:42 PM
 Drill report for plated through holes :
-T1  0.30mm  0.012"  (62 holes)
-T2  0.81mm  0.032"  (98 holes)
-T3  1.02mm  0.040"  (251 holes)
-T4  1.20mm  0.047"  (9 holes)
-T5  1.30mm  0.051"  (8 holes)
-T6  1.60mm  0.063"  (12 holes)
-T7  3.17mm  0.125"  (4 holes)
+T1  0.30mm  0.012"  (73 holes)
+T2  1.02mm  0.040"  (346 holes)
+T3  1.20mm  0.047"  (9 holes)
+T4  1.30mm  0.051"  (8 holes)
+T5  1.60mm  0.063"  (12 holes)
+T6  3.17mm  0.125"  (4 holes)
 
-Total plated holes count 444
+Total plated holes count 452
 
 
 Drill report for unplated through holes :

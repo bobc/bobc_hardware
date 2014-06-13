@@ -1,0 +1,115 @@
+### Module positions - created on 6/13/2014 10:53:36 AM ###
+### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C201     100u 35V         c_elec_6.3x7.7      1.8500     4.1500     180.0    Front
+C202     100u 35V         c_elec_6.3x7.7      2.6500     4.1500     180.0    Front
+C203     100u 35V         c_elec_6.3x7.7      3.4500     4.1500     180.0    Front
+C204     100u 35V         c_elec_6.3x7.7      2.5500     1.2500       0.0    Front
+C205     100u 35V         c_elec_6.3x7.7      3.3500     1.2500       0.0    Front
+C206     100u 35V         c_elec_6.3x7.7      4.1500     1.2500       0.0    Front
+C301     100n             CAPC1608x55N        2.7750     2.1750     180.0    Front
+C302     100n             CAPC1608x55N        2.5500     3.0500     180.0    Front
+C401     100u 35V         c_elec_6.3x7.7      1.1750     2.0000     180.0    Front
+C402     None             CAPC1608x55N        1.2750     3.5250     270.0    Front
+C403     None             CAPC1608x55N        1.6000     1.1000       0.0    Front
+C404     None             CAPC1608x55N        1.6000     1.2800       0.0    Front
+C405     None             CAPC1608x55N        1.6000     1.4600       0.0    Front
+C406     None             CAPC1608x55N        1.9800     1.3200       0.0    Front
+C407     None             CAPC1608x55N        1.8200     1.3200       0.0    Front
+C501     100n             CAPC1608x55N        3.1250     2.5500      90.0    Front
+C502     100n             CAPC1608x55N        3.5800     2.3800      90.0    Front
+C503     100n             CAPC1608x55N        3.8400     2.3800     270.0    Front
+C504     100n             CAPC1608x55N        3.8400     2.2400     270.0    Front
+C505     100n             CAPC1608x55N        3.8400     2.1000     270.0    Front
+C506     10u              CAPC1608x55N        3.5200     2.3800      90.0    Front
+C507     10u              CAPC1608x55N        3.7800     2.3800     270.0    Front
+C508     10u              CAPC1608x55N        3.7800     2.2400     270.0    Front
+C509     10u              CAPC1608x55N        3.7800     2.1000     270.0    Front
+D401     SS14             DIOM5127X229N       0.8819     3.6575       0.0    Front
+D402     SS14             DIOM5127X229N       0.9750     0.9000      90.0    Front
+D403     SS14             DIOM5127X229N       0.9750     1.1750      90.0    Front
+D404     SS14             DIOM5127X229N       1.6250     0.9000      90.0    Front
+D405     SS14             DIOM5127X229N       0.9750     1.4500      90.0    Front
+D406     SS14             DIOM5127X229N       1.4750     0.9000      90.0    Front
+FID1     VAL**            FIDUCIAL-060        1.7750     1.5500       0.0    Front
+FID2     VAL**            FIDUCIAL-060        4.0000     4.5250       0.0    Front
+FID3     VAL**            FIDUCIAL-060        3.6000     0.8750       0.0    Front
+FID4     VAL**            FIDUCIAL-060        1.0250     4.4500       0.0    Front
+LD101    Yellow           OSRAM-LED-0603      2.0250     2.3250     180.0    Front
+LD102    Green            OSRAM-LED-0603      2.0250     2.4000     180.0    Front
+LD301    Green            OSRAM-LED-0603      2.0250     2.2500     180.0    Front
+LD302    Red              OSRAM-LED-0603      2.0250     2.1750     180.0    Front
+LD401    Yellow           OSRAM-LED-0603      1.0250     3.3000     270.0    Front
+LD402    Yellow           OSRAM-LED-0603      1.0750     0.9750     270.0    Front
+LD403    Yellow           OSRAM-LED-0603      1.0750     1.2500     270.0    Front
+LD404    Yellow           OSRAM-LED-0603      1.9500     0.8750     270.0    Front
+LD405    Yellow           OSRAM-LED-0603      1.0750     1.5250     270.0    Front
+LD406    Yellow           OSRAM-LED-0603      1.1500     0.9750     270.0    Front
+Q101     2N7002K          SOT23GDS            2.6000     2.3500     270.0    Front
+Q301     2N7002K          SOT23GDS            3.2000     3.4500      90.0    Front
+Q302     2N7002K          SOT23GDS            2.4500     2.0000     270.0    Front
+Q303     2N7002K          SOT23GDS            3.3750     3.4500      90.0    Front
+Q304     2N7002K          SOT23GDS            2.6000     2.1500     270.0    Front
+Q305     2N7002K          SOT23GDS            2.4500     2.1500     270.0    Front
+Q404     DMN2075U         SOT23GDS            1.9800     1.2200       0.0    Front
+Q406     DMN2075U         SOT23GDS            1.8200     1.2200       0.0    Front
+R101     330R             RESC1608x55N        1.9000     2.3250       0.0    Front
+R102     330R             RESC1608x55N        1.9000     2.4000       0.0    Front
+R201     100k             RESC1608x55N        1.8500     3.9750     180.0    Front
+R202     100k             RESC1608x55N        2.6500     3.9750     180.0    Front
+R203     100k             RESC1608x55N        3.4500     3.9750     180.0    Front
+R204     100k             RESC1608x55N        2.5500     1.4250       0.0    Front
+R205     100k             RESC1608x55N        3.3500     1.4250       0.0    Front
+R206     100k             RESC1608x55N        4.1500     1.4250       0.0    Front
+R301     10k              RESC1608x55N        3.2000     3.2750       0.0    Front
+R302     2K7              RESC1608x55N        2.5500     3.4500      90.0    Front
+R303     330R             RESC1608x55N        1.9000     2.2500       0.0    Front
+R304     4k7              RESC1608x55N        1.7750     2.1750       0.0    Front
+R305     220R             RESC1608x55N        1.9000     2.1750       0.0    Front
+R306     4k7              RESC1608x55N        2.7750     2.2500       0.0    Front
+R307     4k7              RESC1608x55N        2.7750     2.3250       0.0    Front
+R308     10k              RESC1608x55N        1.7750     2.2500       0.0    Front
+R309     10k              RESC1608x55N        1.3500     3.4000      90.0    Front
+R310     10k              RESC1608x55N        2.7500     3.4500     270.0    Front
+R311     10k              RESC1608x55N        1.6000     1.2200     180.0    Front
+R312     10k              RESC1608x55N        1.6000     1.4000     180.0    Front
+R313     10k              RESC1608x55N        1.6000     1.5800     180.0    Front
+R314     4k7              RESC1608x55N        4.1000     1.6750       0.0    Front
+R315     10k              RESC1608x55N        1.8200     1.4400       0.0    Front
+R316     10k              RESC1608x55N        1.9800     1.4400       0.0    Front
+R401     220R             RESC1608x55N        1.2750     3.4000     270.0    Front
+R402     2K7              RESC1608x55N        1.1000     3.3000      90.0    Front
+R403     220R             RESC1608x55N        1.6000     1.1600       0.0    Front
+R404     2K7              RESC1608x55N        1.0750     0.8500      90.0    Front
+R405     220R             RESC1608x55N        1.6000     1.3400       0.0    Front
+R406     2K7              RESC1608x55N        1.0750     1.1250      90.0    Front
+R407     220R             RESC1608x55N        1.9800     1.3800     180.0    Front
+R408     2K7              RESC1608x55N        2.0250     0.8750     270.0    Front
+R409     220R             RESC1608x55N        1.6000     1.5200       0.0    Front
+R410     2K7              RESC1608x55N        1.0750     1.4000      90.0    Front
+R411     220R             RESC1608x55N        1.8200     1.3800     180.0    Front
+R412     2K7              RESC1608x55N        1.1500     0.8500      90.0    Front
+R501     10k              RESC1608x55N        3.8250     2.6000     180.0    Front
+R502     10k              RESC1608x55N        3.8250     2.7000     180.0    Front
+R503     10k              RESC1608x55N        3.8250     2.8000     180.0    Front
+R504     10k              RESC1608x55N        3.8250     2.9000     180.0    Front
+R505     10k              RESC1608x55N        3.8250     3.0000     180.0    Front
+R506     10k              RESC1608x55N        3.8250     3.1000     180.0    Front
+R507     10k              RESC1608x55N        3.8000     3.4250     270.0    Front
+R508     10k              RESC1608x55N        3.7000     3.4250     270.0    Front
+R509     10k              RESC1608x55N        3.6000     3.4250     270.0    Front
+R510     10k              RESC1608x55N        3.5000     3.4250     270.0    Front
+R511     2K0 1%           RESC1608x55N        3.7000     2.3800      90.0    Front
+R512     2K0 1%           RESC1608x55N        3.9600     2.3800      90.0    Front
+R513     2K0 1%           RESC1608x55N        3.9600     2.2400     270.0    Front
+R514     2K0 1%           RESC1608x55N        3.9600     2.1000     270.0    Front
+R515     4k7              RESC1608x55N        3.6400     2.3800      90.0    Front
+R516     4k7              RESC1608x55N        3.9000     2.3800     270.0    Front
+R517     4k7              RESC1608x55N        3.9000     2.2400     270.0    Front
+R518     4k7              RESC1608x55N        3.9000     2.1000     270.0    Front
+U301     24C256           SOIC127P600X175-    3.0000     2.2500      90.0    Front
+U302     74ACT244         SOIC127P1032X265    2.3500     2.7500     270.0    Front
+U501     74CBTD3861       SOIC127P1030X265    3.4000     2.8000      90.0    Front
+## End

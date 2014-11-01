@@ -1,0 +1,192 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:FE
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RMC
+LIBS:opendous
+LIBS:w_opto
+LIBS:CoreSam3x-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "CoreSam3x"
+Date "1 nov 2014"
+Rev "1"
+Comp ""
+Comment1 "License: GPL v2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 5600 2500 6200
+Wire Notes Line
+	1600 4200 5200 4200
+Wire Wire Line
+	3500 4900 4700 4900
+Wire Wire Line
+	2500 6100 4050 6100
+Connection ~ 4050 4900
+Connection ~ 3100 6100
+Wire Wire Line
+	3100 6100 3100 5400
+Wire Wire Line
+	4050 6100 4050 5600
+Wire Notes Line
+	1600 4200 1600 6450
+Wire Wire Line
+	4050 4900 4050 5200
+Wire Notes Line
+	5200 4200 5200 6450
+Wire Wire Line
+	2000 4900 2700 4900
+Wire Notes Line
+	5200 6450 1600 6450
+Wire Wire Line
+	3500 5000 3600 5000
+Wire Wire Line
+	3600 5000 3600 4900
+Connection ~ 3600 4900
+$Comp
+L LM1117MP-3.3 U2
+U 1 1 544BB1AE
+P 3100 5050
+F 0 "U2" H 3100 5350 60  0000 C CNN
+F 1 "LM1117MP-3.3" H 3150 4800 60  0000 L CNN
+F 2 "" H 3100 5050 60  0001 C CNN
+F 3 "" H 3100 5050 60  0001 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 2850 4450 0    60   ~ 0
+5V Input, 3.3V 500mA Output\nLow Drop-Out Linear Regulator
+Text GLabel 4700 4900 2    60   Output ~ 0
++3.3V
+Text GLabel 2000 4900 0    60   Input ~ 0
++5V
+$Comp
+L C C25
+U 1 1 544BB1BE
+P 4050 5400
+F 0 "C25" H 4100 5500 50  0000 L CNN
+F 1 "10u" H 4100 5300 50  0000 L CNN
+F 2 "" H 4050 5400 60  0001 C CNN
+F 3 "" H 4050 5400 60  0001 C CNN
+	1    4050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 544BB1C4
+P 2500 6200
+F 0 "#PWR017" H 2500 6200 30  0001 C CNN
+F 1 "GND" H 2500 6130 30  0001 C CNN
+F 2 "" H 2500 6200 60  0001 C CNN
+F 3 "" H 2500 6200 60  0001 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 544BC30B
+P 2500 5400
+F 0 "C24" H 2550 5500 50  0000 L CNN
+F 1 "10u" H 2550 5300 50  0000 L CNN
+F 2 "" H 2500 5400 60  0001 C CNN
+F 3 "" H 2500 5400 60  0001 C CNN
+	1    2500 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6100
+Wire Wire Line
+	2500 4400 2500 5200
+Connection ~ 2500 4900
+$Comp
+L PWR_FLAG #FLG018
+U 1 1 544BC51C
+P 5950 5750
+F 0 "#FLG018" H 5950 5845 30  0001 C CNN
+F 1 "PWR_FLAG" H 5950 5930 30  0000 C CNN
+F 2 "" H 5950 5750 60  0000 C CNN
+F 3 "" H 5950 5750 60  0000 C CNN
+	1    5950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 544BC529
+P 5950 6150
+F 0 "#PWR019" H 5950 6150 30  0001 C CNN
+F 1 "GND" H 5950 6080 30  0001 C CNN
+F 2 "" H 5950 6150 60  0001 C CNN
+F 3 "" H 5950 6150 60  0001 C CNN
+	1    5950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5750 5950 6150
+Text GLabel 2000 4400 0    50   Input ~ 0
+VBUS
+$Comp
+L DIODE D1
+U 1 1 544D4385
+P 2250 4400
+F 0 "D1" H 2160 4350 35  0000 C CNN
+F 1 "DIODE" H 2230 4470 30  0000 C CNN
+F 2 "" H 2250 4400 60  0000 C CNN
+F 3 "" H 2250 4400 60  0000 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4400 2500 4400
+Wire Wire Line
+	2100 4400 2000 4400
+Text GLabel 6550 5550 2    60   Input ~ 0
++5V
+$Comp
+L PWR_FLAG #FLG020
+U 1 1 545189A8
+P 6350 6050
+F 0 "#FLG020" H 6350 6145 30  0001 C CNN
+F 1 "PWR_FLAG" H 6350 6230 30  0000 C CNN
+F 2 "" H 6350 6050 60  0000 C CNN
+F 3 "" H 6350 6050 60  0000 C CNN
+	1    6350 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 6050 6350 5550
+Wire Wire Line
+	6350 5550 6550 5550
+$EndSCHEMATC

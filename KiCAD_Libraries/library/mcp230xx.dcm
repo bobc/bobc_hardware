@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0  Date: 27/06/2014 16:45:58
+#
+$CMP MCP23008
+D http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en021393
+K MCP23008
+F ww1.microchip.com/downloads/en/DeviceDoc/21919b.pdf
+$ENDCMP
+#
+$CMP MCP23016
+D ww1.microchip.com/downloads/en/AppNotes/00245a.pdf
+K MCP23016
+F http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010412
+$ENDCMP
+#
+$CMP MCP23S17
+D ww1.microchip.com/downloads/en/AppNotes/00245a.pdf
+K MCP23S17
+F http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010412
+$ENDCMP
+#
+#End Doc Library

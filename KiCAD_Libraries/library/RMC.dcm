@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 28/01/2014 22:42:43
+EESchema-DOCLIB  Version 2.0  Date: 30/10/2014 00:43:46
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -10,6 +10,10 @@ $ENDCMP
 #
 $CMP A4988
 D A4988 stepper driver
+$ENDCMP
+#
+$CMP ARDUINO_MINI
+D Arduino Mini
 $ENDCMP
 #
 $CMP AT91SAM7S321
@@ -32,6 +36,16 @@ D Connecteur 98 contacts rangees A et B
 K CONN DIN
 $ENDCMP
 #
+$CMP CONN_15_RMC
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CONN_16_RMC
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
 $CMP CONN_18
 D Symbole general de connexion
 K CONN
@@ -51,6 +65,10 @@ $CMP JUMP_MINI
 D Mini-jumper
 $ENDCMP
 #
+$CMP LPC11U24_HVQFN33
+D LPC11xx
+$ENDCMP
+#
 $CMP LPC11XX
 K LPC11xx ARM Cortex-M3 MCU LQFP48
 $ENDCMP
@@ -63,12 +81,22 @@ $CMP LPC13XX_HVQFN33
 D LPC13xx
 $ENDCMP
 #
+$CMP LTD-5621AG
+D 2 x 7 Segments common A.
+K 7 SEGMENTS
+$ENDCMP
+#
 $CMP MOSFET_N
 D Power MOSFET
 $ENDCMP
 #
 $CMP MOSFET_N_RMC
 D Power MOSFET
+$ENDCMP
+#
+$CMP NFD-5621E
+D 2 x 7 Segments common Cathode
+K 7 SEGMENTS
 $ENDCMP
 #
 $CMP PTC

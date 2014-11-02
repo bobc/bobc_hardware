@@ -40,7 +40,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 2 3
 Title "CoreSam3x"
-Date "1 nov 2014"
+Date "2 nov 2014"
 Rev "1"
 Comp ""
 Comment1 "License: GPL v2"
@@ -765,7 +765,7 @@ Text GLabel 20650 7050 0    50   Input ~ 0
 PWM8
 Text GLabel 21800 6950 2    50   Input ~ 0
 PWM7
-Text GLabel 19650 8750 1    50   Output ~ 0
+Text GLabel 19550 10000 3    50   Output ~ 0
 DAC0_CANRX1
 Text GLabel 21800 6650 2    50   Output ~ 0
 CANTX1
@@ -795,7 +795,7 @@ Text GLabel 20400 5700 3    50   Output ~ 0
 RX2
 Text GLabel 21800 6550 2    50   BiDi ~ 0
 D22
-Text GLabel 19550 10000 3    50   Input ~ 0
+Text GLabel 19650 8750 1    50   Input ~ 0
 DAC1
 Text GLabel 19650 10000 3    50   Input ~ 0
 A0
@@ -813,7 +813,7 @@ Text GLabel 20250 10000 3    50   Input ~ 0
 D20_SDA
 Text GLabel 20350 8750 1    50   Input ~ 0
 D52_SS
-Text GLabel 19450 8750 1    50   Input ~ 0
+Text GLabel 19450 10000 3    50   Input ~ 0
 D43
 Text GLabel 19750 8750 1    50   Input ~ 0
 A1
@@ -975,7 +975,7 @@ F 1 "32kHz" H 13300 13300 60  0000 C CNN
 F 2 "~" H 13300 13450 60  0000 C CNN
 F 3 "~" H 13300 13450 60  0000 C CNN
 	1    13300 13450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L C_SMALL C27
@@ -1015,7 +1015,7 @@ L R R6
 U 1 1 544D35E0
 P 3700 11250
 F 0 "R6" V 3780 11250 40  0000 C CNN
-F 1 "39" V 3707 11251 40  0000 C CNN
+F 1 "39R" V 3707 11251 40  0000 C CNN
 F 2 "~" V 3630 11250 30  0000 C CNN
 F 3 "~" H 3700 11250 30  0000 C CNN
 F 4 "1%" V 3600 11250 60  0000 C CNN "Tolerance"
@@ -1039,7 +1039,7 @@ L R R5
 U 1 1 544D3CA5
 P 3200 11150
 F 0 "R5" V 3280 11150 40  0000 C CNN
-F 1 "39" V 3207 11151 40  0000 C CNN
+F 1 "39R" V 3207 11151 40  0000 C CNN
 F 2 "~" V 3130 11150 30  0000 C CNN
 F 3 "~" H 3200 11150 30  0000 C CNN
 F 4 "1%" V 3100 11150 60  0000 C CNN "Tolerance"
@@ -1542,7 +1542,7 @@ Text GLabel 12300 10350 2    50   Output ~ 0
 D45
 Text GLabel 12300 10200 2    50   Output ~ 0
 D44
-Text GLabel 19450 10000 3    50   Input ~ 0
+Text GLabel 19450 8750 1    50   Input ~ 0
 D42
 Text GLabel 19350 8750 1    50   Input ~ 0
 PWM13
@@ -1624,7 +1624,7 @@ Wire Wire Line
 NoConn ~ 3900 14450
 Connection ~ 3300 14900
 Wire Wire Line
-	3300 14900 2300 14900
+	1750 14900 3300 14900
 Wire Wire Line
 	2300 14900 2300 14100
 Wire Wire Line
@@ -1649,23 +1649,21 @@ L SP2525A U4
 U 1 1 544EB929
 P 3300 14000
 F 0 "U4" H 3300 14050 70  0000 C CNN
-F 1 "SP2525A" H 3300 13900 70  0000 C CNN
+F 1 "SP2525A-1EN" H 3300 13900 70  0000 C CNN
 F 2 "" H 3300 14000 60  0001 C CNN
 F 3 "" H 3300 14000 60  0001 C CNN
 	1    3300 14000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 13450 1    60   Input ~ 0
-+3.3V
 $Comp
 L R_SMALL R8
 U 1 1 544EB930
-P 1750 13900
-F 0 "R8" V 1825 13908 50  0000 C CNN
-F 1 "100k" V 1682 13912 50  0000 C CNN
-F 2 "" H 1750 13900 60  0001 C CNN
-F 3 "" H 1750 13900 60  0001 C CNN
-	1    1750 13900
+P 1750 14650
+F 0 "R8" V 1825 14658 50  0000 C CNN
+F 1 "10k" V 1682 14662 50  0000 C CNN
+F 2 "" H 1750 14650 60  0001 C CNN
+F 3 "" H 1750 14650 60  0001 C CNN
+	1    1750 14650
 	-1   0    0    1   
 $EndComp
 Text GLabel 4100 13750 2    60   Output ~ 0
@@ -1696,10 +1694,6 @@ Text GLabel 1400 14300 0    60   Input ~ 0
 UOTGVBOF
 Text GLabel 2300 13350 1    60   Input ~ 0
 +5V
-Wire Wire Line
-	1750 13450 1750 13700
-Wire Wire Line
-	1750 14100 1750 14300
 Connection ~ 1750 14300
 Text GLabel 20650 6950 0    50   Input ~ 0
 PWM6
@@ -1989,4 +1983,11 @@ Text GLabel 12300 11400 2    50   Output ~ 0
 PC11
 Text GLabel 20650 7450 0    50   Output ~ 0
 PC11
+Wire Wire Line
+	1750 14900 1750 14850
+Connection ~ 2300 14900
+Wire Wire Line
+	1750 14450 1750 14300
+Text Notes 750  14050 0    60   ~ 0
+Active high for Due \nsoftware compatibility
 $EndSCHEMATC

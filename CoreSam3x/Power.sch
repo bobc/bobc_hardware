@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "CoreSam3x"
-Date "1 nov 2014"
+Date "2 nov 2014"
 Rev "1"
 Comp ""
 Comment1 "License: GPL v2"

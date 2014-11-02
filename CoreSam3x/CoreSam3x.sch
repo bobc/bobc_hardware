@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "CoreSam3x"
-Date "1 nov 2014"
+Date "2 nov 2014"
 Rev "1"
 Comp ""
 Comment1 "License: GPL v2"
@@ -98,7 +98,7 @@ $EndComp
 Text Notes 1750 1300 0    100  ~ 20
 CoreSam3x
 Text Notes 1950 1800 0    60   ~ 0
-An Arduino(tm) Due compatible SAM3X core board.\n\nDesign goals\n\n- Board is 2 layer 50x50mm max dimension to take advantage of cheap PCB service.\n- Components are DIY friendly 0603 or larger\n- Self contained board, so can be programmed and run with just USB cable\n- Compatible with "Due" board target in Arduino IDE, no extra support required\n- Programmed via USB, JTAG pins or 6 pin serial programming header\n- 0.1" pitch pin spacing\n\nFeatures:\n- all Due pins\n- some extra GPIO extra pins\n- Ethernet pins\n- Battery backup pins\n- JTAG pins\n- EBI pins\n- on board USB (OTG, ie. device or host)\n- can be powered from USB device or external 5V\n- on board 3.3V regulator\n- buttons for Reset, Erase\n- LEDs for 3.3V power, D13\n- RTC crystal\n- two mounting lugs for M2.5\n- dimensions : 2" by 1.6" (51x41mm) excluding mounting lugs\n\n\n"Arduino" is a trademark of Arduino LLC http://arduino.cc/
+An Arduino® Due compatible SAM3X core board.\n\nDesign goals\n\n- Board is 2 layer 50x50mm max dimension to take advantage of cheap PCB service.\n- Components are DIY friendly 0603 or larger\n- Self contained board, so can be programmed and run with just USB cable\n- Compatible with "Due" board target in Arduino IDE, no extra support required\n- Programmed via USB, JTAG pins or 6 pin serial programming header\n- 0.1" pitch pin spacing\n\nFeatures\n\n- all Due pins available\n- some extra GPIO extra pins available\n- Ethernet pins available\n- Battery backup pins available\n- JTAG pins available\n- EBI pins available\n- on board USB (OTG, ie. device or host)\n- can be powered from USB device or external 5V\n- on board 3.3V regulator\n- buttons for Reset, Erase\n- LEDs for 3.3V power, D13\n- RTC crystal\n- two mounting lugs for M2.5\n- dimensions : 2" by 1.6" (51x41mm) excluding mounting lugs\n\n\n"Arduino" is a trademark of Arduino LLC http://arduino.cc/
 $Comp
 L LOGO_OSHW M2
 U 1 1 5454EA00

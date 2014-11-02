@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 31/10/2014 19:41:17
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 02/11/2014 15:30:48
 
 BeginCmp
 TimeStamp = /544B8C0B/544B9813;
@@ -207,21 +207,21 @@ BeginCmp
 TimeStamp = /544BB18F/544D4385;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = sod523;
+IdModule  = do219ab;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B8C0B/54501A8F;
 Reference = D2;
 ValeurCmp = D13;
-IdModule  = LED-0805_BLUE;
+IdModule  = Led_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B8C0B/5453A749;
 Reference = D3;
 ValeurCmp = P3V3;
-IdModule  = LED-0805_GREEN;
+IdModule  = Led_0603;
 EndCmp
 
 BeginCmp
@@ -285,6 +285,13 @@ TimeStamp = /544BCCFD;
 Reference = M1;
 ValeurCmp = PCB_GREEN_RMC;
 IdModule  = PCB_GREEN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5454EA00;
+Reference = M2;
+ValeurCmp = LOGO_OSHW;
+IdModule  = Logo_silk_OSHW_6x6mm;
 EndCmp
 
 BeginCmp
@@ -395,7 +402,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544B8C0B/544EB930;
 Reference = R8;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = SM0603_Resistor;
 EndCmp
 
@@ -438,14 +445,14 @@ BeginCmp
 TimeStamp = /544B8C0B/544B97A9;
 Reference = S1;
 ValeurCmp = ERASE;
-IdModule  = SW_APEM_ADTSM3;
+IdModule  = SW_C&K_KMR4;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B8C0B/544B9874;
 Reference = S2;
-ValeurCmp = RST;
-IdModule  = SW_APEM_ADTSM3;
+ValeurCmp = RESET;
+IdModule  = SW_C&K_KMR4;
 EndCmp
 
 BeginCmp
@@ -472,7 +479,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544B8C0B/544EB929;
 Reference = U4;
-ValeurCmp = SP2525A;
+ValeurCmp = SP2525A-1EN;
 IdModule  = SOIC-8;
 EndCmp
 
@@ -487,7 +494,7 @@ BeginCmp
 TimeStamp = /544B8C0B/544D2CCC;
 Reference = X2;
 ValeurCmp = 32kHz;
-IdModule  = crystal_tc-26_horiz;
+IdModule  = crystal_tc-38_horiz_RMC;
 EndCmp
 
 EndListe

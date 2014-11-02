@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/git_bobc/bobc_hardware_live/CoreSam3x/CoreSam3x.sch)
-    (date "02/11/2014 12:16:52")
+    (date "02/11/2014 20:51:16")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref M1)
@@ -261,14 +261,14 @@
       (sheetpath (names /Processor/) (tstamps /544B8C0B/))
       (tstamp 544D2F4D))
     (comp (ref R6)
-      (value 39)
+      (value 39R)
       (fields
         (field (name Tolerance) 1%))
       (libsource (lib device) (part R))
       (sheetpath (names /Processor/) (tstamps /544B8C0B/))
       (tstamp 544D35E0))
     (comp (ref R5)
-      (value 39)
+      (value 39R)
       (fields
         (field (name Tolerance) 1%))
       (libsource (lib device) (part R))

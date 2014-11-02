@@ -1,0 +1,1566 @@
+PCBNEW-LibModule-V1  dom 23 mar 2014 13:40:58 CET
+# encoding utf-8
+Units mm
+$INDEX
+mkds_1,5-10
+mkds_1,5-11
+mkds_1,5-12
+mkds_1,5-13
+mkds_1,5-14
+mkds_1,5-15
+mkds_1,5-16
+mkds_1,5-2
+mkds_1,5-3
+mkds_1,5-4
+mkds_1,5-5
+mkds_1,5-6
+mkds_1,5-7
+mkds_1,5-8
+mkds_1,5-9
+$EndINDEX
+$MODULE mkds_1,5-10
+Po 0 0 0 15 532D95DE 00000000 ~~
+Li mkds_1,5-10
+Cd 10-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/10"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 22.5 0.1 20.5 0.1 0.381 21
+DS 20 4.1 20 4.6 0.381 21
+DS 15 4.1 15 4.6 0.381 21
+DC 17.5 0.1 15.5 0.1 0.381 21
+DC 12.5 0.1 10.5 0.1 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DC -12.5 0.1 -14.5 0.1 0.381 21
+DS -15 4.1 -15 4.6 0.381 21
+DS -20 4.1 -20 4.6 0.381 21
+DC -17.5 0.1 -19.5 0.1 0.381 21
+DC -22.5 0.1 -20.5 0.1 0.381 21
+DS -25 2.6 25 2.6 0.381 21
+DS -25 -2.3 25 -2.3 0.381 21
+DS -25 4.1 25 4.1 0.381 21
+DS -25 4.6 25 4.6 0.381 21
+DS 25 4.6 25 -5.2 0.381 21
+DS 25 -5.2 -25 -5.2 0.381 21
+DS -25 -5.2 -25 4.6 0.381 21
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.5 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-10
+$MODULE mkds_1,5-11
+Po 0 0 0 15 532D964B 00000000 ~~
+Li mkds_1,5-11
+Cd 11-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/11"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 22.5 4.1 22.5 4.6 0.381 21
+DC 25 0.1 23 0.1 0.381 21
+DC 20 0.1 18 0.1 0.381 21
+DS 17.5 4.1 17.5 4.6 0.381 21
+DS 12.5 4.1 12.5 4.6 0.381 21
+DC 15 0.1 13 0.1 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DS 7.5 4.1 7.5 4.6 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DS -12.5 4.1 -12.5 4.6 0.381 21
+DC -10 0.1 -12 0.1 0.381 21
+DC -15 0.1 -17 0.1 0.381 21
+DS -17.5 4.1 -17.5 4.6 0.381 21
+DS -22.5 4.1 -22.5 4.6 0.381 21
+DC -20 0.1 -22 0.1 0.381 21
+DC -25 0.1 -23 0.1 0.381 21
+DS -27.5 2.6 27.5 2.6 0.381 21
+DS -27.5 -2.3 27.5 -2.3 0.381 21
+DS -27.5 4.1 27.5 4.1 0.381 21
+DS -27.5 4.6 27.5 4.6 0.381 21
+DS 27.5 4.6 27.5 -5.2 0.381 21
+DS 27.5 -5.2 -27.5 -5.2 0.381 21
+DS -27.5 -5.2 -27.5 4.6 0.381 21
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-11.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-11
+$MODULE mkds_1,5-12
+Po 0 0 0 15 532D96A1 00000000 ~~
+Li mkds_1,5-12
+Cd 12-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/12"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 27.5 0.1 25.5 0.1 0.381 21
+DS 25 4.1 25 4.6 0.381 21
+DS 20 4.1 20 4.6 0.381 21
+DC 22.5 0.1 20.5 0.1 0.381 21
+DC 17.5 0.1 15.5 0.1 0.381 21
+DS 15 4.1 15 4.6 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DC 12.5 0.1 10.5 0.1 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DS -15 4.1 -15 4.6 0.381 21
+DC -12.5 0.1 -14.5 0.1 0.381 21
+DC -17.5 0.1 -19.5 0.1 0.381 21
+DS -20 4.1 -20 4.6 0.381 21
+DS -25 4.1 -25 4.6 0.381 21
+DC -22.5 0.1 -24.5 0.1 0.381 21
+DC -27.5 0.1 -25.5 0.1 0.381 21
+DS -30 2.6 30 2.6 0.381 21
+DS -30 -2.3 30 -2.3 0.381 21
+DS -30 4.1 30 4.1 0.381 21
+DS -30 4.6 30 4.6 0.381 21
+DS 30 4.6 30 -5.2 0.381 21
+DS 30 -5.2 -30 -5.2 0.381 21
+DS -30 -5.2 -30 4.6 0.381 21
+$PAD
+Sh "12" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.5 0
+$EndPAD
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.5 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-12.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-12
+$MODULE mkds_1,5-13
+Po 0 0 0 15 532D9719 00000000 ~~
+Li mkds_1,5-13
+Cd 13-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/13"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 27.5 4.1 27.5 4.6 0.381 21
+DC 30 0.1 28 0.1 0.381 21
+DC 25 0.1 23 0.1 0.381 21
+DS 22.5 4.1 22.5 4.6 0.381 21
+DS 17.5 4.1 17.5 4.6 0.381 21
+DC 20 0.1 18 0.1 0.381 21
+DC 15 0.1 13 0.1 0.381 21
+DS 12.5 4.1 12.5 4.6 0.381 21
+DS 7.5 4.1 7.5 4.6 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DS -12.5 4.1 -12.5 4.6 0.381 21
+DC -10 0.1 -12 0.1 0.381 21
+DS -17.5 4.1 -17.5 4.6 0.381 21
+DC -15 0.1 -17 0.1 0.381 21
+DC -20 0.1 -22 0.1 0.381 21
+DS -22.5 4.1 -22.5 4.6 0.381 21
+DS -27.5 4.1 -27.5 4.6 0.381 21
+DC -25 0.1 -27 0.1 0.381 21
+DC -30 0.1 -28 0.1 0.381 21
+DS -32.5 2.6 32.5 2.6 0.381 21
+DS -32.5 -2.3 32.5 -2.3 0.381 21
+DS -32.5 4.1 32.5 4.1 0.381 21
+DS -32.5 4.6 32.5 4.6 0.381 21
+DS 32.5 4.6 32.5 -5.2 0.381 21
+DS 32.5 -5.2 -32.5 -5.2 0.381 21
+DS -32.5 -5.2 -32.5 4.6 0.381 21
+$PAD
+Sh "13" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 30 0
+$EndPAD
+$PAD
+Sh "12" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25 0
+$EndPAD
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -30 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-13.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-13
+$MODULE mkds_1,5-14
+Po 0 0 0 15 532D9768 00000000 ~~
+Li mkds_1,5-14
+Cd 14-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/14"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 32.5 0.1 30.5 0.1 0.381 21
+DS 30 4.1 30 4.6 0.381 21
+DS 25 4.1 25 4.6 0.381 21
+DC 27.5 0.1 25.5 0.1 0.381 21
+DC 22.5 0.1 20.5 0.1 0.381 21
+DS 20 4.1 20 4.6 0.381 21
+DS 15 4.1 15 4.6 0.381 21
+DC 17.5 0.1 15.5 0.1 0.381 21
+DC 12.5 0.1 10.5 0.1 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DS -15 4.1 -15 4.6 0.381 21
+DC -12.5 0.1 -14.5 0.1 0.381 21
+DS -20 4.1 -20 4.6 0.381 21
+DC -17.5 0.1 -19.5 0.1 0.381 21
+DC -22.5 0.1 -24.5 0.1 0.381 21
+DS -25 4.1 -25 4.6 0.381 21
+DS -30 4.1 -30 4.6 0.381 21
+DC -27.5 0.1 -29.5 0.1 0.381 21
+DC -32.5 0.1 -30.5 0.1 0.381 21
+DS -35 2.6 35 2.6 0.381 21
+DS -35 -2.3 35 -2.3 0.381 21
+DS -35 4.1 35 4.1 0.381 21
+DS -35 4.6 35 4.6 0.381 21
+DS 35 4.6 35 -5.2 0.381 21
+DS 35 -5.2 -35 -5.2 0.381 21
+DS -35 -5.2 -35 4.6 0.381 21
+$PAD
+Sh "14" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 32.5 0
+$EndPAD
+$PAD
+Sh "13" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.5 0
+$EndPAD
+$PAD
+Sh "12" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.5 0
+$EndPAD
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -32.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-14.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-14
+$MODULE mkds_1,5-15
+Po 0 0 0 15 532D97B3 00000000 ~~
+Li mkds_1,5-15
+Cd 15-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/15"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 32.5 4.1 32.5 4.6 0.381 21
+DC 35 0.1 33 0.1 0.381 21
+DC 30 0.1 28 0.1 0.381 21
+DS 27.5 4.1 27.5 4.6 0.381 21
+DS 22.5 4.1 22.5 4.6 0.381 21
+DC 25 0.1 23 0.1 0.381 21
+DC 20 0.1 18 0.1 0.381 21
+DS 17.5 4.1 17.5 4.6 0.381 21
+DS 12.5 4.1 12.5 4.6 0.381 21
+DC 15 0.1 13 0.1 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DS 7.5 4.1 7.5 4.6 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DC -10 0.1 -12 0.1 0.381 21
+DS -12.5 4.1 -12.5 4.6 0.381 21
+DS -17.5 4.1 -17.5 4.6 0.381 21
+DC -15 0.1 -17 0.1 0.381 21
+DS -22.5 4.1 -22.5 4.6 0.381 21
+DC -20 0.1 -22 0.1 0.381 21
+DC -25 0.1 -27 0.1 0.381 21
+DS -27.5 4.1 -27.5 4.6 0.381 21
+DS -32.5 4.1 -32.5 4.6 0.381 21
+DC -30 0.1 -32 0.1 0.381 21
+DC -35 0.1 -33 0.1 0.381 21
+DS -37.5 2.6 37.5 2.6 0.381 21
+DS -37.5 -2.3 37.5 -2.3 0.381 21
+DS -37.5 4.1 37.5 4.1 0.381 21
+DS -37.5 4.6 37.5 4.6 0.381 21
+DS 37.5 4.6 37.5 -5.2 0.381 21
+DS 37.5 -5.2 -37.5 -5.2 0.381 21
+DS -37.5 -5.2 -37.5 4.6 0.381 21
+$PAD
+Sh "15" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 35 0
+$EndPAD
+$PAD
+Sh "14" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 30 0
+$EndPAD
+$PAD
+Sh "13" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25 0
+$EndPAD
+$PAD
+Sh "12" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -35 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -30 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-15.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-15
+$MODULE mkds_1,5-16
+Po 0 0 0 15 532D982D 00000000 ~~
+Li mkds_1,5-16
+Cd 16-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/16"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 37.5 0.1 35.5 0.1 0.381 21
+DS 35 4.1 35 4.6 0.381 21
+DS 30 4.1 30 4.6 0.381 21
+DC 32.5 0.1 30.5 0.1 0.381 21
+DC 27.5 0.1 25.5 0.1 0.381 21
+DS 25 4.1 25 4.6 0.381 21
+DS 20 4.1 20 4.6 0.381 21
+DC 22.5 0.1 20.5 0.1 0.381 21
+DC 17.5 0.1 15.5 0.1 0.381 21
+DS 15 4.1 15 4.6 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DC 12.5 0.1 10.5 0.1 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DC -12.5 0.1 -14.5 0.1 0.381 21
+DS -15 4.1 -15 4.6 0.381 21
+DS -20 4.1 -20 4.6 0.381 21
+DC -17.5 0.1 -19.5 0.1 0.381 21
+DS -25 4.1 -25 4.6 0.381 21
+DC -22.5 0.1 -24.5 0.1 0.381 21
+DC -27.5 0.1 -29.5 0.1 0.381 21
+DS -30 4.1 -30 4.6 0.381 21
+DS -35 4.1 -35 4.6 0.381 21
+DC -32.5 0.1 -34.5 0.1 0.381 21
+DC -37.5 0.1 -35.5 0.1 0.381 21
+DS -40 2.6 40 2.6 0.381 21
+DS -40 -2.3 40 -2.3 0.381 21
+DS -40 4.1 40 4.1 0.381 21
+DS -40 4.6 40 4.6 0.381 21
+DS 40 4.6 40 -5.2 0.381 21
+DS 40 -5.2 -40 -5.2 0.381 21
+DS -40 -5.2 -40 4.6 0.381 21
+$PAD
+Sh "16" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 37.5 0
+$EndPAD
+$PAD
+Sh "15" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 32.5 0
+$EndPAD
+$PAD
+Sh "14" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.5 0
+$EndPAD
+$PAD
+Sh "13" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.5 0
+$EndPAD
+$PAD
+Sh "12" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "11" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "10" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -37.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -32.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-16
+$MODULE mkds_1,5-2
+Po 0 0 0 15 532D8FC0 00000000 ~~
+Li mkds_1,5-2
+Cd 2-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/2"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 0 4.1 0 4.6 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DC -2.5 0.1 -0.5 0.1 0.381 21
+DS -5 2.6 5 2.6 0.381 21
+DS -5 -2.3 5 -2.3 0.381 21
+DS -5 4.1 5 4.1 0.381 21
+DS -5 4.6 5 4.6 0.381 21
+DS 5 4.6 5 -5.2 0.381 21
+DS 5 -5.2 -5 -5.2 0.381 21
+DS -5 -5.2 -5 4.6 0.381 21
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-2
+$MODULE mkds_1,5-3
+Po 0 0 0 15 532D9199 00000000 ~~
+Li mkds_1,5-3
+Cd 3-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/3"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 5 0.1 3 0.1 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DC -5 0.1 -3 0.1 0.381 21
+DS -7.5 2.6 7.5 2.6 0.381 21
+DS -7.5 -2.3 7.5 -2.3 0.381 21
+DS -7.5 4.1 7.5 4.1 0.381 21
+DS -7.5 4.6 7.5 4.6 0.381 21
+DS 7.5 4.6 7.5 -5.2 0.381 21
+DS 7.5 -5.2 -7.5 -5.2 0.381 21
+DS -7.5 -5.2 -7.5 4.6 0.381 21
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-3.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-3
+$MODULE mkds_1,5-4
+Po 0 0 0 15 532D9233 00000000 ~~
+Li mkds_1,5-4
+Cd 4-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/4"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 5 4.1 5 4.6 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DC -7.5 0.1 -5.5 0.1 0.381 21
+DS -10 2.6 10 2.6 0.381 21
+DS -10 -2.3 10 -2.3 0.381 21
+DS -10 4.1 10 4.1 0.381 21
+DS -10 4.6 10 4.6 0.381 21
+DS 10 4.6 10 -5.2 0.381 21
+DS 10 -5.2 -10 -5.2 0.381 21
+DS -10 -5.2 -10 4.6 0.381 21
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-4
+$MODULE mkds_1,5-5
+Po 0 0 0 15 532D9448 00000000 ~~
+Li mkds_1,5-5
+Cd 5-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/5"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 7.5 4.1 7.5 4.6 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DC -10 0.1 -8 0.1 0.381 21
+DS -12.5 2.6 12.5 2.6 0.381 21
+DS -12.5 -2.3 12.5 -2.3 0.381 21
+DS -12.5 4.1 12.5 4.1 0.381 21
+DS -12.5 4.6 12.5 4.6 0.381 21
+DS 12.5 4.6 12.5 -5.2 0.381 21
+DS 12.5 -5.2 -12.5 -5.2 0.381 21
+DS -12.5 -5.2 -12.5 4.6 0.381 21
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-5
+$MODULE mkds_1,5-6
+Po 0 0 0 15 532D94AD 00000000 ~~
+Li mkds_1,5-6
+Cd 6-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/6"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 12.5 0.1 10.5 0.1 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DC -12.5 0.1 -10.5 0.1 0.381 21
+DS -15 2.6 15 2.6 0.381 21
+DS -15 -2.3 15 -2.3 0.381 21
+DS -15 4.1 15 4.1 0.381 21
+DS -15 4.6 15 4.6 0.381 21
+DS 15 4.6 15 -5.2 0.381 21
+DS 15 -5.2 -15 -5.2 0.381 21
+DS -15 -5.2 -15 4.6 0.381 21
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-6.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-6
+$MODULE mkds_1,5-7
+Po 0 0 0 15 532D94EC 00000000 ~~
+Li mkds_1,5-7
+Cd 7-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/7"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 12.5 4.1 12.5 4.6 0.381 21
+DC 15 0.1 13 0.1 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DS 7.5 4.1 7.5 4.6 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DS -12.5 4.1 -12.5 4.6 0.381 21
+DC -10 0.1 -12 0.1 0.381 21
+DC -15 0.1 -13 0.1 0.381 21
+DS -17.5 2.6 17.5 2.6 0.381 21
+DS -17.5 -2.3 17.5 -2.3 0.381 21
+DS -17.5 4.1 17.5 4.1 0.381 21
+DS -17.5 4.6 17.5 4.6 0.381 21
+DS 17.5 4.6 17.5 -5.2 0.381 21
+DS 17.5 -5.2 -17.5 -5.2 0.381 21
+DS -17.5 -5.2 -17.5 4.6 0.381 21
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-7.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-7
+$MODULE mkds_1,5-8
+Po 0 0 0 15 532D953D 00000000 ~~
+Li mkds_1,5-8
+Cd 8-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/8"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DC 17.5 0.1 15.5 0.1 0.381 21
+DS 15 4.1 15 4.6 0.381 21
+DS 10 4.1 10 4.6 0.381 21
+DC 12.5 0.1 10.5 0.1 0.381 21
+DC 7.5 0.1 5.5 0.1 0.381 21
+DS 5 4.1 5 4.6 0.381 21
+DS 0 4.1 0 4.6 0.381 21
+DC 2.5 0.1 0.5 0.1 0.381 21
+DS -5 4.1 -5 4.6 0.381 21
+DC -2.5 0.1 -4.5 0.1 0.381 21
+DC -7.5 0.1 -9.5 0.1 0.381 21
+DS -10 4.1 -10 4.6 0.381 21
+DS -15 4.1 -15 4.6 0.381 21
+DC -12.5 0.1 -14.5 0.1 0.381 21
+DC -17.5 0.1 -15.5 0.1 0.381 21
+DS -20 2.6 20 2.6 0.381 21
+DS -20 -2.3 20 -2.3 0.381 21
+DS -20 4.1 20 4.1 0.381 21
+DS -20 4.6 20 4.6 0.381 21
+DS 20 4.6 20 -5.2 0.381 21
+DS 20 -5.2 -20 -5.2 0.381 21
+DS -20 -5.2 -20 4.6 0.381 21
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.5 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-8.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-8
+$MODULE mkds_1,5-9
+Po 0 0 0 15 532D959B 00000000 ~~
+Li mkds_1,5-9
+Cd 9-way 5mm pitch terminal block, Phoenix MKDS series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1.5 1.5 0 0.3 N V 21 N "mkds_1,5/9"
+T1 0 5.9 1.5 1.5 0 0.3 N V 21 N "VAL**"
+DS 17.5 4.1 17.5 4.6 0.381 21
+DC 20 0.1 18 0.1 0.381 21
+DC 15 0.1 13 0.1 0.381 21
+DS 12.5 4.1 12.5 4.6 0.381 21
+DS 7.5 4.1 7.5 4.6 0.381 21
+DC 10 0.1 8 0.1 0.381 21
+DC 5 0.1 3 0.1 0.381 21
+DS 2.5 4.1 2.5 4.6 0.381 21
+DS -2.5 4.1 -2.5 4.6 0.381 21
+DC 0 0.1 -2 0.1 0.381 21
+DS -7.5 4.1 -7.5 4.6 0.381 21
+DC -5 0.1 -7 0.1 0.381 21
+DC -10 0.1 -12 0.1 0.381 21
+DS -12.5 4.1 -12.5 4.6 0.381 21
+DS -17.5 4.1 -17.5 4.6 0.381 21
+DC -15 0.1 -17 0.1 0.381 21
+DC -20 0.1 -18 0.1 0.381 21
+DS -22.5 2.6 22.5 2.6 0.381 21
+DS -22.5 -2.3 22.5 -2.3 0.381 21
+DS -22.5 4.1 22.5 4.1 0.381 21
+DS -22.5 4.6 22.5 4.6 0.381 21
+DS 22.5 4.6 22.5 -5.2 0.381 21
+DS 22.5 -5.2 -22.5 -5.2 0.381 21
+DS -22.5 -5.2 -22.5 4.6 0.381 21
+$PAD
+Sh "9" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_mkds/mkds_1,5-9.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE mkds_1,5-9
+$EndLIBRARY

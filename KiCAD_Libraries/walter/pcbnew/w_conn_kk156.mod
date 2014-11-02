@@ -1,0 +1,2638 @@
+PCBNEW-LibModule-V1  mar 05 ago 2014 17:00:39 CEST
+# encoding utf-8
+Units mm
+$INDEX
+kk156_26-60-4020
+kk156_26-60-4030
+kk156_26-60-4040
+kk156_26-60-4050
+kk156_26-60-4060
+kk156_26-60-4070
+kk156_26-60-4080
+kk156_26-60-4090
+kk156_26-60-4100
+kk156_26-60-4110
+kk156_26-60-4120
+kk156_26-60-4130
+kk156_26-60-4140
+kk156_26-60-4150
+kk156_26-60-4160
+kk156_26-60-4170
+kk156_26-60-4180
+kk156_26-64-4020
+kk156_26-64-4030
+kk156_26-64-4040
+kk156_26-64-4050
+kk156_26-64-4060
+kk156_26-64-4070
+kk156_26-64-4080
+kk156_26-64-4090
+kk156_26-64-4100
+kk156_26-64-4110
+kk156_26-64-4120
+$EndINDEX
+$MODULE kk156_26-60-4020
+Po 0 0 0 15 53E0BB8E 00000000 ~~
+Li kk156_26-60-4020
+Cd 2 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4020"
+DS -2.2 -2 -2.2 -5.2 0.381 21
+DS -2.2 -5.2 2.2 -5.2 0.381 21
+DS 2.2 -5.2 2.2 -2 0.381 21
+DS -4.1 5.3 4.1 5.3 0.381 21
+DS -4.1 -2 4.1 -2 0.381 21
+DS 4.1 -2 4.1 5.3 0.381 21
+DS -4.1 5.3 -4.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4020.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4020
+$MODULE kk156_26-60-4030
+Po 0 0 0 15 53E0BBB7 00000000 ~~
+Li kk156_26-60-4030
+Cd 3 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4030"
+DS -4.2 -2 -4.2 -5.2 0.381 21
+DS -4.2 -5.2 4.2 -5.2 0.381 21
+DS 4.2 -5.2 4.2 -2 0.381 21
+DS -6.1 5.3 6.1 5.3 0.381 21
+DS -6.1 -2 6.1 -2 0.381 21
+DS 6.1 -2 6.1 5.3 0.381 21
+DS -6.1 5.3 -6.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4030.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4030
+$MODULE kk156_26-60-4040
+Po 0 0 0 15 53E0BFD4 00000000 ~~
+Li kk156_26-60-4040
+Cd 4 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4040"
+DS -6.2 -2 -6.2 -5.2 0.381 21
+DS -6.2 -5.2 6.2 -5.2 0.381 21
+DS 6.2 -5.2 6.2 -2 0.381 21
+DS -8.1 5.3 8.1 5.3 0.381 21
+DS -8.1 -2 8.1 -2 0.381 21
+DS 8.1 -2 8.1 5.3 0.381 21
+DS -8.1 5.3 -8.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4040.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4040
+$MODULE kk156_26-60-4050
+Po 0 0 0 15 53E0C083 00000000 ~~
+Li kk156_26-60-4050
+Cd 5 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4050"
+DS -8.1 -2 -8.1 -5.2 0.381 21
+DS -8.1 -5.2 8.1 -5.2 0.381 21
+DS 8.1 -5.2 8.1 -2 0.381 21
+DS -10 5.3 10 5.3 0.381 21
+DS -10 -2 10 -2 0.381 21
+DS 10 -2 10 5.3 0.381 21
+DS -10 5.3 -10 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4050.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4050
+$MODULE kk156_26-60-4060
+Po 0 0 0 15 53E0C1A6 00000000 ~~
+Li kk156_26-60-4060
+Cd 6 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4060"
+DS -0.3 -5.2 -10.1 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -10.1 -2 -10.1 -5.2 0.381 21
+DS 0.3 -5.2 10.1 -5.2 0.381 21
+DS 10.1 -5.2 10.1 -2 0.381 21
+DS -12 5.3 12 5.3 0.381 21
+DS -12 -2 12 -2 0.381 21
+DS 12 -2 12 5.3 0.381 21
+DS -12 5.3 -12 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4060.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4060
+$MODULE kk156_26-60-4070
+Po 0 0 0 15 53E0C69B 00000000 ~~
+Li kk156_26-60-4070
+Cd 7 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4070"
+DS -2.3 -5.2 -12.1 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -12.1 -2 -12.1 -5.2 0.381 21
+DS -1.7 -5.2 12.1 -5.2 0.381 21
+DS 12.1 -5.2 12.1 -2 0.381 21
+DS -14 5.3 14 5.3 0.381 21
+DS -14 -2 14 -2 0.381 21
+DS 14 -2 14 5.3 0.381 21
+DS -14 5.3 -14 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4070.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4070
+$MODULE kk156_26-60-4080
+Po 0 0 0 15 53E0C782 00000000 ~~
+Li kk156_26-60-4080
+Cd 8 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4080"
+DS -0.3 -5.2 -14.1 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -14.1 -2 -14.1 -5.2 0.381 21
+DS 0.3 -5.2 14.1 -5.2 0.381 21
+DS 14.1 -5.2 14.1 -2 0.381 21
+DS -16 5.3 16 5.3 0.381 21
+DS -16 -2 16 -2 0.381 21
+DS 16 -2 16 5.3 0.381 21
+DS -16 5.3 -16 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4080.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4080
+$MODULE kk156_26-60-4090
+Po 0 0 0 15 53E0C848 00000000 ~~
+Li kk156_26-60-4090
+Cd 9 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4090"
+DS -2.3 -5.2 -16 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -16 -2 -16 -5.2 0.381 21
+DS -1.7 -5.2 16 -5.2 0.381 21
+DS 16 -5.2 16 -2 0.381 21
+DS -17.9 5.3 17.9 5.3 0.381 21
+DS -17.9 -2 17.9 -2 0.381 21
+DS 17.9 -2 17.9 5.3 0.381 21
+DS -17.9 5.3 -17.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4090.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4090
+$MODULE kk156_26-60-4100
+Po 0 0 0 15 53E0CA7B 00000000 ~~
+Li kk156_26-60-4100
+Cd 10 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4100"
+DS -0.3 -5.2 -18 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -18 -2 -18 -5.2 0.381 21
+DS 0.3 -5.2 18 -5.2 0.381 21
+DS 18 -5.2 18 -2 0.381 21
+DS -19.9 5.3 19.9 5.3 0.381 21
+DS -19.9 -2 19.9 -2 0.381 21
+DS 19.9 -2 19.9 5.3 0.381 21
+DS -19.9 5.3 -19.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4100.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4100
+$MODULE kk156_26-60-4110
+Po 0 0 0 15 53E0CB79 00000000 ~~
+Li kk156_26-60-4110
+Cd 11 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4110"
+DS -2.3 -5.2 -20 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -20 -2 -20 -5.2 0.381 21
+DS -1.7 -5.2 20 -5.2 0.381 21
+DS 20 -5.2 20 -2 0.381 21
+DS -21.9 5.3 21.9 5.3 0.381 21
+DS -21.9 -2 21.9 -2 0.381 21
+DS 21.9 -2 21.9 5.3 0.381 21
+DS -21.9 5.3 -21.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.8 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.8 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4110.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4110
+$MODULE kk156_26-60-4120
+Po 0 0 0 15 53E0CC8C 00000000 ~~
+Li kk156_26-60-4120
+Cd 12 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4120"
+DS 7.6 -5.2 7.6 -2 0.381 21
+DS -7.6 -5.2 7.6 -5.2 0.381 21
+DS -7.6 -2 -7.6 -5.2 0.381 21
+DS -8.2 -5.2 -22 -5.2 0.381 21
+DS 8.2 -2 8.2 -5.2 0.381 21
+DS -8.2 -2 -8.2 -5.2 0.381 21
+DS -22 -2 -22 -5.2 0.381 21
+DS 8.2 -5.2 22 -5.2 0.381 21
+DS 22 -5.2 22 -2 0.381 21
+DS -23.9 5.3 23.9 5.3 0.381 21
+DS -23.9 -2 23.9 -2 0.381 21
+DS 23.9 -2 23.9 5.3 0.381 21
+DS -23.9 5.3 -23.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.78 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.78 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4120.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4120
+$MODULE kk156_26-60-4130
+Po 0 0 0 15 53E0CDE1 00000000 ~~
+Li kk156_26-60-4130
+Cd 13 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4130"
+DS 9.6 -5.2 9.6 -2 0.381 21
+DS -9.6 -5.2 9.6 -5.2 0.381 21
+DS -9.6 -2 -9.6 -5.2 0.381 21
+DS -10.2 -5.2 -24 -5.2 0.381 21
+DS 10.2 -2 10.2 -5.2 0.381 21
+DS -10.2 -2 -10.2 -5.2 0.381 21
+DS -24 -2 -24 -5.2 0.381 21
+DS 10.2 -5.2 24 -5.2 0.381 21
+DS 24 -5.2 24 -2 0.381 21
+DS -25.9 5.3 25.9 5.3 0.381 21
+DS -25.9 -2 25.9 -2 0.381 21
+DS 25.9 -2 25.9 5.3 0.381 21
+DS -25.9 5.3 -25.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.8 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.76 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.8 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -23.76 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4130.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4130
+$MODULE kk156_26-60-4140
+Po 0 0 0 15 53E0CEED 00000000 ~~
+Li kk156_26-60-4140
+Cd 14 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4140"
+DS 7.6 -5.2 7.6 -2 0.381 21
+DS -7.6 -5.2 7.6 -5.2 0.381 21
+DS -7.6 -2 -7.6 -5.2 0.381 21
+DS -8.2 -5.2 -25.9 -5.2 0.381 21
+DS 8.2 -2 8.2 -5.2 0.381 21
+DS -8.2 -2 -8.2 -5.2 0.381 21
+DS -25.9 -2 -25.9 -5.2 0.381 21
+DS 8.2 -5.2 25.9 -5.2 0.381 21
+DS 25.9 -5.2 25.9 -2 0.381 21
+DS -27.8 5.3 27.8 5.3 0.381 21
+DS -27.8 -2 27.8 -2 0.381 21
+DS 27.8 -2 27.8 5.3 0.381 21
+DS -27.8 5.3 -27.8 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.78 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.74 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.78 0
+$EndPAD
+$PAD
+Sh "14" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25.74 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4140.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4140
+$MODULE kk156_26-60-4150
+Po 0 0 0 15 53E0CFE4 00000000 ~~
+Li kk156_26-60-4150
+Cd 15 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4150"
+DS 9.6 -5.2 9.6 -2 0.381 21
+DS -9.6 -5.2 9.6 -5.2 0.381 21
+DS -9.6 -2 -9.6 -5.2 0.381 21
+DS -10.2 -5.2 -27.9 -5.2 0.381 21
+DS 10.2 -2 10.2 -5.2 0.381 21
+DS -10.2 -2 -10.2 -5.2 0.381 21
+DS -27.9 -2 -27.9 -5.2 0.381 21
+DS 10.2 -5.2 27.9 -5.2 0.381 21
+DS 27.9 -5.2 27.9 -2 0.381 21
+DS -29.8 5.3 29.8 5.3 0.381 21
+DS -29.8 -2 29.8 -2 0.381 21
+DS 29.8 -2 29.8 5.3 0.381 21
+DS -29.8 5.3 -29.8 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.76 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.72 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.8 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.8 0
+$EndPAD
+$PAD
+Sh "14" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -23.76 0
+$EndPAD
+$PAD
+Sh "15" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.72 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4150.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4150
+$MODULE kk156_26-60-4160
+Po 0 0 0 15 53E0D143 00000000 ~~
+Li kk156_26-60-4160
+Cd 16 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4160"
+DS 11.6 -5.2 11.6 -2 0.381 21
+DS -11.6 -5.2 11.6 -5.2 0.381 21
+DS -11.6 -2 -11.6 -5.2 0.381 21
+DS -12.2 -5.2 -29.9 -5.2 0.381 21
+DS 12.2 -2 12.2 -5.2 0.381 21
+DS -12.2 -2 -12.2 -5.2 0.381 21
+DS -29.9 -2 -29.9 -5.2 0.381 21
+DS 12.2 -5.2 29.9 -5.2 0.381 21
+DS 29.9 -5.2 29.9 -2 0.381 21
+DS -31.8 5.3 31.8 5.3 0.381 21
+DS -31.8 -2 31.8 -2 0.381 21
+DS 31.8 -2 31.8 5.3 0.381 21
+DS -31.8 5.3 -31.8 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.74 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.7 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.78 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "14" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.78 0
+$EndPAD
+$PAD
+Sh "15" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25.74 0
+$EndPAD
+$PAD
+Sh "16" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -29.7 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4160.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4160
+$MODULE kk156_26-60-4170
+Po 0 0 0 15 53E0D244 00000000 ~~
+Li kk156_26-60-4170
+Cd 17 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4170"
+DS 9.6 -5.2 9.6 -2 0.381 21
+DS -9.6 -5.2 9.6 -5.2 0.381 21
+DS -9.6 -2 -9.6 -5.2 0.381 21
+DS -10.2 -5.2 -31.9 -5.2 0.381 21
+DS 10.2 -2 10.2 -5.2 0.381 21
+DS -10.2 -2 -10.2 -5.2 0.381 21
+DS -31.9 -2 -31.9 -5.2 0.381 21
+DS 10.2 -5.2 31.9 -5.2 0.381 21
+DS 31.9 -5.2 31.9 -2 0.381 21
+DS -33.8 5.3 33.8 5.3 0.381 21
+DS -33.8 -2 33.8 -2 0.381 21
+DS 33.8 -2 33.8 5.3 0.381 21
+DS -33.8 5.3 -33.8 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 27.72 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 31.68 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.76 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.8 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "14" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.8 0
+$EndPAD
+$PAD
+Sh "15" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -23.76 0
+$EndPAD
+$PAD
+Sh "16" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.72 0
+$EndPAD
+$PAD
+Sh "17" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -31.68 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4170.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4170
+$MODULE kk156_26-60-4180
+Po 0 0 0 15 53E0D541 00000000 ~~
+Li kk156_26-60-4180
+Cd 18 pin vert. connector, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-60-4180"
+DS 11.6 -5.2 11.6 -2 0.381 21
+DS -11.6 -5.2 11.6 -5.2 0.381 21
+DS -11.6 -2 -11.6 -5.2 0.381 21
+DS -12.2 -5.2 -33.9 -5.2 0.381 21
+DS 12.2 -2 12.2 -5.2 0.381 21
+DS -12.2 -2 -12.2 -5.2 0.381 21
+DS -33.9 -2 -33.9 -5.2 0.381 21
+DS 12.2 -5.2 33.9 -5.2 0.381 21
+DS 33.9 -5.2 33.9 -2 0.381 21
+DS -35.8 5.3 35.8 5.3 0.381 21
+DS -35.8 -2 35.8 -2 0.381 21
+DS 35.8 -2 35.8 5.3 0.381 21
+DS -35.8 5.3 -35.8 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 29.7 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 33.66 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 25.74 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.78 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "13" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "14" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "15" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.78 0
+$EndPAD
+$PAD
+Sh "16" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -25.74 0
+$EndPAD
+$PAD
+Sh "17" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -29.7 0
+$EndPAD
+$PAD
+Sh "18" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -33.66 0
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-60-4180.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-60-4180
+$MODULE kk156_26-64-4020
+Po 0 0 0 15 53E0D63F 00000000 ~~
+Li kk156_26-64-4020
+Cd 2 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4020"
+DS -2.2 -2 -2.2 -5.2 0.381 21
+DS -2.2 -5.2 2.2 -5.2 0.381 21
+DS 2.2 -5.2 2.2 -2 0.381 21
+DS -4.1 5.3 4.1 5.3 0.381 21
+DS -4.1 -2 4.1 -2 0.381 21
+DS 4.1 -2 4.1 5.3 0.381 21
+DS -4.1 5.3 -4.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4020.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4020
+$MODULE kk156_26-64-4030
+Po 0 0 0 15 53E0D672 00000000 ~~
+Li kk156_26-64-4030
+Cd 3 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4030"
+DS -4.2 -2 -4.2 -5.2 0.381 21
+DS -4.2 -5.2 4.2 -5.2 0.381 21
+DS 4.2 -5.2 4.2 -2 0.381 21
+DS -6.1 5.3 6.1 5.3 0.381 21
+DS -6.1 -2 6.1 -2 0.381 21
+DS 6.1 -2 6.1 5.3 0.381 21
+DS -6.1 5.3 -6.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -1.98 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 1.98 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4030.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4030
+$MODULE kk156_26-64-4040
+Po 0 0 0 15 53E0D749 00000000 ~~
+Li kk156_26-64-4040
+Cd 4 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4040"
+DS -6.2 -2 -6.2 -5.2 0.381 21
+DS -6.2 -5.2 6.2 -5.2 0.381 21
+DS 6.2 -5.2 6.2 -2 0.381 21
+DS -8.1 5.3 8.1 5.3 0.381 21
+DS -8.1 -2 8.1 -2 0.381 21
+DS 8.1 -2 8.1 5.3 0.381 21
+DS -8.1 5.3 -8.1 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -3.96 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 3.96 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4040.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4040
+$MODULE kk156_26-64-4050
+Po 0 0 0 15 53E0D797 00000000 ~~
+Li kk156_26-64-4050
+Cd 5 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4050"
+DS -8.1 -2 -8.1 -5.2 0.381 21
+DS -8.1 -5.2 8.1 -5.2 0.381 21
+DS 8.1 -5.2 8.1 -2 0.381 21
+DS -10 5.3 10 5.3 0.381 21
+DS -10 -2 10 -2 0.381 21
+DS 10 -2 10 5.3 0.381 21
+DS -10 5.3 -10 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -5.94 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 5.94 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4050.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4050
+$MODULE kk156_26-64-4060
+Po 0 0 0 15 53E0DA0D 00000000 ~~
+Li kk156_26-64-4060
+Cd 6 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4060"
+DS -0.3 -5.2 -10.1 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -10.1 -2 -10.1 -5.2 0.381 21
+DS 0.3 -5.2 10.1 -5.2 0.381 21
+DS 10.1 -5.2 10.1 -2 0.381 21
+DS -12 5.3 12 5.3 0.381 21
+DS -12 -2 12 -2 0.381 21
+DS 12 -2 12 5.3 0.381 21
+DS -12 5.3 -12 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -7.92 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 7.92 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4060.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4060
+$MODULE kk156_26-64-4070
+Po 0 0 0 15 53E0DA54 00000000 ~~
+Li kk156_26-64-4070
+Cd 7 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4070"
+DS -2.3 -5.2 -12.1 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -12.1 -2 -12.1 -5.2 0.381 21
+DS -1.7 -5.2 12.1 -5.2 0.381 21
+DS 12.1 -5.2 12.1 -2 0.381 21
+DS -14 5.3 14 5.3 0.381 21
+DS -14 -2 14 -2 0.381 21
+DS 14 -2 14 5.3 0.381 21
+DS -14 5.3 -14 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -9.9 4.2
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 9.9 4.2
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4070.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4070
+$MODULE kk156_26-64-4080
+Po 0 0 0 15 53E0DAAA 00000000 ~~
+Li kk156_26-64-4080
+Cd 8 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4080"
+DS -0.3 -5.2 -14.1 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -14.1 -2 -14.1 -5.2 0.381 21
+DS 0.3 -5.2 14.1 -5.2 0.381 21
+DS 14.1 -5.2 14.1 -2 0.381 21
+DS -16 5.3 16 5.3 0.381 21
+DS -16 -2 16 -2 0.381 21
+DS 16 -2 16 5.3 0.381 21
+DS -16 5.3 -16 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -11.88 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 11.88 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4080.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4080
+$MODULE kk156_26-64-4090
+Po 0 0 0 15 53E0DB24 00000000 ~~
+Li kk156_26-64-4090
+Cd 9 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4090"
+DS -2.3 -5.2 -16 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -16 -2 -16 -5.2 0.381 21
+DS -1.7 -5.2 16 -5.2 0.381 21
+DS 16 -5.2 16 -2 0.381 21
+DS -17.9 5.3 17.9 5.3 0.381 21
+DS -17.9 -2 17.9 -2 0.381 21
+DS 17.9 -2 17.9 5.3 0.381 21
+DS -17.9 5.3 -17.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -13.86 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 13.86 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4090.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4090
+$MODULE kk156_26-64-4100
+Po 0 0 0 15 53E0D993 00000000 ~~
+Li kk156_26-64-4100
+Cd 10 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4100"
+DS -0.3 -5.2 -18 -5.2 0.381 21
+DS 0.3 -2 0.3 -5.2 0.381 21
+DS -0.3 -2 -0.3 -5.2 0.381 21
+DS -18 -2 -18 -5.2 0.381 21
+DS 0.3 -5.2 18 -5.2 0.381 21
+DS 18 -5.2 18 -2 0.381 21
+DS -19.9 5.3 19.9 5.3 0.381 21
+DS -19.9 -2 19.9 -2 0.381 21
+DS 19.9 -2 19.9 5.3 0.381 21
+DS -19.9 5.3 -19.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -15.84 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 15.84 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4100.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4100
+$MODULE kk156_26-64-4110
+Po 0 0 0 15 53E0D946 00000000 ~~
+Li kk156_26-64-4110
+Cd 11 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4110"
+DS -2.3 -5.2 -20 -5.2 0.381 21
+DS -1.7 -2 -1.7 -5.2 0.381 21
+DS -2.3 -2 -2.3 -5.2 0.381 21
+DS -20 -2 -20 -5.2 0.381 21
+DS -1.7 -5.2 20 -5.2 0.381 21
+DS 20 -5.2 20 -2 0.381 21
+DS -21.9 5.3 21.9 5.3 0.381 21
+DS -21.9 -2 21.9 -2 0.381 21
+DS 21.9 -2 21.9 5.3 0.381 21
+DS -21.9 5.3 -21.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.84 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.8 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.88 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.92 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.96 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.96 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.92 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.88 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.84 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.8 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -17.82 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 17.82 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4110.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4110
+$MODULE kk156_26-64-4120
+Po 0 0 0 15 53E0D849 00000000 ~~
+Li kk156_26-64-4120
+Cd 12 pin vert. connector with peg, Molex KK156 series
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1.524 1.524 0 0.3048 N V 21 N "JP***"
+T1 0 7 1.524 1.524 0 0.3048 N V 21 N "kk156_26-64-4120"
+DS 7.6 -5.2 7.6 -2 0.381 21
+DS -7.6 -5.2 7.6 -5.2 0.381 21
+DS -7.6 -2 -7.6 -5.2 0.381 21
+DS -8.2 -5.2 -22 -5.2 0.381 21
+DS 8.2 -2 8.2 -5.2 0.381 21
+DS -8.2 -2 -8.2 -5.2 0.381 21
+DS -22 -2 -22 -5.2 0.381 21
+DS 8.2 -5.2 22 -5.2 0.381 21
+DS 22 -5.2 22 -2 0.381 21
+DS -23.9 5.3 23.9 5.3 0.381 21
+DS -23.9 -2 23.9 -2 0.381 21
+DS 23.9 -2 23.9 5.3 0.381 21
+DS -23.9 5.3 -23.9 -2 0.381 21
+$PAD
+Sh "2" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.82 0
+$EndPAD
+$PAD
+Sh "1" R 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.78 0
+$EndPAD
+$PAD
+Sh "3" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.86 0
+$EndPAD
+$PAD
+Sh "4" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.9 0
+$EndPAD
+$PAD
+Sh "5" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.94 0
+$EndPAD
+$PAD
+Sh "6" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.98 0
+$EndPAD
+$PAD
+Sh "7" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.98 0
+$EndPAD
+$PAD
+Sh "8" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.94 0
+$EndPAD
+$PAD
+Sh "9" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.9 0
+$EndPAD
+$PAD
+Sh "10" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.86 0
+$EndPAD
+$PAD
+Sh "11" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.82 0
+$EndPAD
+$PAD
+Sh "12" O 2.5 3.5 0 0 0
+Dr 1.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.78 0
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po -19.8 4.24
+$EndPAD
+$PAD
+Sh "" C 1.65 1.65 0 0 0
+Dr 1.65 0 0
+At HOLE N 0020FFFF
+Ne 0 ""
+Po 19.8 4.24
+$EndPAD
+$SHAPE3D
+Na "walter/conn_kk156/26-64-4120.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE kk156_26-64-4120
+$EndLIBRARY

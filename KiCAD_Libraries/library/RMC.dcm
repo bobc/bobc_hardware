@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/10/2014 00:43:46
+EESchema-DOCLIB  Version 2.0  Date: 29/11/2014 21:16:32
 #
 $CMP 74HC164
 D 8-Bit Serial-In/Parallel-Out Shift Register
@@ -14,6 +14,11 @@ $ENDCMP
 #
 $CMP ARDUINO_MINI
 D Arduino Mini
+$ENDCMP
+#
+$CMP AS6C1616
+D SRAM 1M x 16 bits
+K RAM SRAM
 $ENDCMP
 #
 $CMP AT91SAM7S321
@@ -112,6 +117,10 @@ $ENDCMP
 $CMP RESONATOR
 D Resonator with load capacitors
 K resonator
+$ENDCMP
+#
+$CMP S34ML04G100
+K NAND
 $ENDCMP
 #
 $CMP SP6205

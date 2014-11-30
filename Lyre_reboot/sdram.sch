@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RMC
+LIBS:opendous
+LIBS:w_opto
+LIBS:STM32F429 LQFP144
+LIBS:lyre-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 9
+Title ""
+Date "29 nov 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SDRAM_MT48_X16 IC?
+U 1 1 5477BCED
+P 3650 3050
+F 0 "IC?" H 3050 1750 40  0000 C CNN
+F 1 "SDRAM_MT48_X16" H 3650 3150 40  0000 C CNN
+F 2 "~" H 3650 3050 60  0000 C CNN
+F 3 "~" H 3650 3050 60  0000 C CNN
+	1    3650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BCF3
+P 2700 6200
+F 0 "C?" H 2700 6300 40  0000 L CNN
+F 1 "100n" H 2706 6115 40  0000 L CNN
+F 2 "~" H 2738 6050 30  0000 C CNN
+F 3 "~" H 2700 6200 60  0000 C CNN
+	1    2700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BCF9
+P 3000 6200
+F 0 "C?" H 3000 6300 40  0000 L CNN
+F 1 "100n" H 3006 6115 40  0000 L CNN
+F 2 "~" H 3038 6050 30  0000 C CNN
+F 3 "~" H 3000 6200 60  0000 C CNN
+	1    3000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BCFF
+P 3300 6200
+F 0 "C?" H 3300 6300 40  0000 L CNN
+F 1 "100n" H 3306 6115 40  0000 L CNN
+F 2 "~" H 3338 6050 30  0000 C CNN
+F 3 "~" H 3300 6200 60  0000 C CNN
+	1    3300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BD05
+P 3600 6200
+F 0 "C?" H 3600 6300 40  0000 L CNN
+F 1 "100n" H 3606 6115 40  0000 L CNN
+F 2 "~" H 3638 6050 30  0000 C CNN
+F 3 "~" H 3600 6200 60  0000 C CNN
+	1    3600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BD0B
+P 3900 6200
+F 0 "C?" H 3900 6300 40  0000 L CNN
+F 1 "100n" H 3906 6115 40  0000 L CNN
+F 2 "~" H 3938 6050 30  0000 C CNN
+F 3 "~" H 3900 6200 60  0000 C CNN
+	1    3900 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BD11
+P 4200 6200
+F 0 "C?" H 4200 6300 40  0000 L CNN
+F 1 "100n" H 4206 6115 40  0000 L CNN
+F 2 "~" H 4238 6050 30  0000 C CNN
+F 3 "~" H 4200 6200 60  0000 C CNN
+	1    4200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5477BD17
+P 4500 6200
+F 0 "C?" H 4500 6300 40  0000 L CNN
+F 1 "100n" H 4506 6115 40  0000 L CNN
+F 2 "~" H 4538 6050 30  0000 C CNN
+F 3 "~" H 4500 6200 60  0000 C CNN
+	1    4500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5477BD1D
+P 2700 6700
+F 0 "#PWR?" H 2700 6700 30  0001 C CNN
+F 1 "GND" H 2700 6630 30  0001 C CNN
+F 2 "" H 2700 6700 60  0000 C CNN
+F 3 "" H 2700 6700 60  0000 C CNN
+	1    2700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 5477BD23
+P 2700 5850
+F 0 "#PWR?" H 2700 5950 30  0001 C CNN
+F 1 "VDD" H 2700 5960 30  0000 C CNN
+F 2 "" H 2700 5850 60  0000 C CNN
+F 3 "" H 2700 5850 60  0000 C CNN
+	1    2700 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6400 2700 6700
+Wire Wire Line
+	4500 6550 4500 6400
+Wire Wire Line
+	4200 6550 4200 6400
+Connection ~ 4500 6550
+Wire Wire Line
+	3900 6550 3900 6400
+Connection ~ 4200 6550
+Wire Wire Line
+	3600 6550 3600 6400
+Connection ~ 3900 6550
+Wire Wire Line
+	3300 6550 3300 6400
+Connection ~ 3600 6550
+Wire Wire Line
+	3000 6550 3000 6400
+Connection ~ 3300 6550
+Connection ~ 3000 6550
+Wire Wire Line
+	3300 5900 3300 6000
+Wire Wire Line
+	3600 5900 3600 6000
+Connection ~ 3300 5900
+Wire Wire Line
+	3900 5900 3900 6000
+Connection ~ 3600 5900
+Wire Wire Line
+	4200 5900 4200 6000
+Connection ~ 3900 5900
+Wire Wire Line
+	4500 5900 4500 6000
+Connection ~ 4200 5900
+Connection ~ 4500 5900
+Wire Wire Line
+	2700 5850 2700 6000
+Wire Wire Line
+	3000 5900 3000 6000
+Connection ~ 2700 5900
+Connection ~ 3000 5900
+Connection ~ 2700 6550
+Wire Wire Line
+	2700 5900 4500 5900
+Wire Wire Line
+	2700 6550 4500 6550
+$Comp
+L GND #PWR?
+U 1 1 5477BD47
+P 3550 4700
+F 0 "#PWR?" H 3550 4700 30  0001 C CNN
+F 1 "GND" H 3550 4630 30  0001 C CNN
+F 2 "" H 3550 4700 60  0000 C CNN
+F 3 "" H 3550 4700 60  0000 C CNN
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 5477BD4D
+P 3550 1450
+F 0 "#PWR?" H 3550 1550 30  0001 C CNN
+F 1 "VDD" H 3550 1560 30  0000 C CNN
+F 2 "" H 3550 1450 60  0000 C CNN
+F 3 "" H 3550 1450 60  0000 C CNN
+	1    3550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1450 3550 1650
+Wire Wire Line
+	3350 1650 3350 1550
+Wire Wire Line
+	3350 1550 3950 1550
+Connection ~ 3550 1550
+Wire Wire Line
+	3450 1650 3450 1550
+Connection ~ 3450 1550
+Wire Wire Line
+	3650 1550 3650 1650
+Wire Wire Line
+	3750 1550 3750 1650
+Connection ~ 3650 1550
+Wire Wire Line
+	3850 1550 3850 1650
+Connection ~ 3750 1550
+Wire Wire Line
+	3950 1550 3950 1650
+Connection ~ 3850 1550
+Wire Wire Line
+	3550 4450 3550 4700
+Wire Wire Line
+	3450 4450 3450 4550
+Wire Wire Line
+	3350 4550 3950 4550
+Connection ~ 3550 4550
+Wire Wire Line
+	3350 4450 3350 4550
+Connection ~ 3450 4550
+Wire Wire Line
+	3650 4550 3650 4450
+Wire Wire Line
+	3750 4550 3750 4450
+Connection ~ 3650 4550
+Wire Wire Line
+	3850 4550 3850 4450
+Connection ~ 3750 4550
+Wire Wire Line
+	3950 4550 3950 4450
+Connection ~ 3850 4550
+Text GLabel 2100 3250 0    50   BiDi ~ 0
+BA0
+Text GLabel 2100 3150 0    50   BiDi ~ 0
+BA1
+Wire Wire Line
+	2850 3150 2100 3150
+Wire Wire Line
+	2100 3250 2850 3250
+Text GLabel 2100 3450 0    50   BiDi ~ 0
+SDNE1
+Text GLabel 2100 3550 0    50   BiDi ~ 0
+SDNWE
+Text GLabel 2100 3650 0    50   BiDi ~ 0
+SDNRAS
+Text GLabel 2100 3750 0    50   BiDi ~ 0
+SDNCAS
+Text GLabel 2100 3900 0    50   BiDi ~ 0
+SDCLK
+Text GLabel 2100 4000 0    50   BiDi ~ 0
+SDCKE1
+Wire Wire Line
+	2100 3450 2750 3450
+Wire Wire Line
+	2100 3550 2750 3550
+Wire Wire Line
+	2100 3650 2750 3650
+Wire Wire Line
+	2100 3750 2750 3750
+Wire Wire Line
+	2100 3900 2850 3900
+Wire Wire Line
+	2100 4000 2850 4000
+Text GLabel 4650 3650 2    50   BiDi ~ 0
+NBL1
+Text GLabel 4650 3750 2    50   BiDi ~ 0
+NBL0
+Wire Wire Line
+	4650 3650 4450 3650
+Wire Wire Line
+	4650 3750 4450 3750
+$EndSCHEMATC

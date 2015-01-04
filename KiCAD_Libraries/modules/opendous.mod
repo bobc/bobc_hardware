@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  24/11/2014 22:18:17
+PCBNEW-LibModule-V1  12/12/2014 16:05:08
 # encoding utf-8
 Units mm
 $INDEX
@@ -6162,7 +6162,7 @@ Po 10.1092 0
 $EndPAD
 $EndMODULE Memory_Card_MMCplus_GMC06003XSEU
 $MODULE Memory_Card_SD_3M
-Po 0 0 0 15 49FE7F52 00000000 ~~
+Po 0 0 0 15 548A1C37 00000000 ~~
 Li Memory_Card_SD_3M
 Kw SD Memory Card Connector 3M SD-RSMT-2-MQ-WF Push-Push R/A SMD
 Sc 0
@@ -6253,14 +6253,14 @@ Ne 0 ""
 Po -12.2809 0
 $EndPAD
 $PAD
-Sh "16" C 1.6002 1.6002 0 0 0
+Sh "" C 1.6002 1.6002 0 0 0
 Dr 1.6002 0 0
 At STD N 00C0FFFF
 Ne 0 ""
 Po 9.34974 2.82448
 $EndPAD
 $PAD
-Sh "17" C 1.09982 1.09982 0 0 0
+Sh "" C 1.09982 1.09982 0 0 0
 Dr 1.09982 0 0
 At STD N 00C0FFFF
 Ne 0 ""
@@ -6280,6 +6280,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 15.0495 27.7495
 $EndPAD
+$SHAPE3D
+Na "walter/conn_misc/sd_socket.wrl"
+Sc 1 1 1
+Of 0 -0.55 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE Memory_Card_SD_3M
 $MODULE Memory_Card_microSD_3M_290805
 Po 0 0 0 15 4A5BC5A4 00000000 ~~

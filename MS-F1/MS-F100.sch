@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MS-F1"
-Date "4 jan 2015"
+Date "6 jan 2015"
 Rev ""
 Comp "CC-BY-SA"
 Comment1 ""
@@ -718,17 +718,17 @@ F 3 "~" H 4200 5800 60  0000 C CNN
 	1    4200 5800
 	1    0    0    -1  
 $EndComp
-Text Label 3750 5800 0    50   ~ 0
+Text Label 3250 5800 0    50   ~ 0
 DISC
 $Comp
 L VDD #PWR025
 U 1 1 54A54A87
-P 4300 5350
-F 0 "#PWR025" H 4300 5450 30  0001 C CNN
-F 1 "VDD" H 4300 5460 30  0000 C CNN
-F 2 "" H 4300 5350 60  0001 C CNN
-F 3 "" H 4300 5350 60  0001 C CNN
-	1    4300 5350
+P 4300 5250
+F 0 "#PWR025" H 4300 5350 30  0001 C CNN
+F 1 "VDD" H 4300 5360 30  0000 C CNN
+F 2 "" H 4300 5250 60  0001 C CNN
+F 3 "" H 4300 5250 60  0001 C CNN
+	1    4300 5250
 	1    0    0    -1  
 $EndComp
 Text Label 5850 4850 0    50   ~ 0
@@ -1025,8 +1025,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 2100 1850 2400
 Connection ~ 1850 2200
-Wire Wire Line
-	1550 2550 1550 2850
 Connection ~ 1550 2800
 Connection ~ 6700 5300
 Wire Wire Line
@@ -1154,9 +1152,9 @@ Wire Wire Line
 	1250 7450 1500 7450
 Connection ~ 1500 7450
 Wire Wire Line
-	3750 5800 4000 5800
+	3250 5800 4000 5800
 Wire Wire Line
-	4300 5350 4300 5600
+	4300 5250 4300 5600
 Wire Wire Line
 	5850 4850 6150 4850
 Wire Wire Line
@@ -1194,7 +1192,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6750 3500 6750
 $Comp
-L CRYSTAL_4PIN_GND X1
+L CRYSTAL X1
 U 1 1 54A56DBD
 P 1550 2200
 F 0 "X1" H 1700 2125 35  0000 C CNN
@@ -1205,18 +1203,11 @@ F 3 "~" H 1550 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2350 1500 2550
-Wire Wire Line
-	1500 2550 1600 2550
-Wire Wire Line
-	1600 2550 1600 2350
-Connection ~ 1550 2550
-Wire Wire Line
 	1350 2200 1250 2200
 Wire Wire Line
 	1850 2200 1750 2200
 Text Notes 700  4550 0    50   ~ 0
-Notes:\n\nLM1117/MCP1700\nRTC xtal\npower led\npull-up on Q1
+Notes:\n\nLM1117/MCP1700\nRTC xtal\npower led
 Text Notes 8750 7000 0    80   ~ 0
 Derived from Maple Mini by LeafLabs
 Text Notes 8550 1550 0    50   Italic 0
@@ -1313,4 +1304,23 @@ AV-
 Connection ~ 8250 6500
 Text Label 10000 2400 0    50   ~ 0
 D32
+Wire Wire Line
+	1550 2800 1550 2850
+$Comp
+L RES R7
+U 1 1 54AC4AC8
+P 3600 5550
+F 0 "R7" H 3675 5600 40  0000 L CNN
+F 1 "10k" H 3675 5525 40  0000 L CNN
+F 2 "~" H 3675 5450 40  0000 L CNN
+F 3 "~" H 3675 5375 40  0000 L CNN
+	1    3600 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5800 3600 5750
+Connection ~ 3600 5800
+Wire Wire Line
+	3600 5350 4300 5350
+Connection ~ 4300 5350
 $EndSCHEMATC

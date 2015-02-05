@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 02/01/2015 14:46:41
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/01/2015 20:54:21
 
 BeginCmp
 TimeStamp = /502FD3F0;
@@ -183,6 +183,13 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /54AC4AC8;
+Reference = R7;
+ValeurCmp = 1.5k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /502FD8B7;
 Reference = SW1;
 ValeurCmp = RST;
@@ -228,7 +235,7 @@ BeginCmp
 TimeStamp = /54A56DBD;
 Reference = X1;
 ValeurCmp = 8MHz;
-IdModule  = XTAL-3.2x2.5mm;
+IdModule  = crystal_smd_5x3.2mm;
 EndCmp
 
 EndListe

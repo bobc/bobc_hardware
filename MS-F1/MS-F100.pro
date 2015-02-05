@@ -1,4 +1,4 @@
-update=03/01/2015 19:32:55
+update=06/01/2015 21:38:09
 last_client=eeschema
 [general]
 version=1
@@ -51,6 +51,7 @@ LibName18=w_smd_lqfp
 LibName19=w_smd_qfn
 LibName20=w_smd_trans
 LibName21=w_logo
+LibName22=w_crystal
 [eeschema]
 version=1
 LibDir=../KiCAD_Libraries/library

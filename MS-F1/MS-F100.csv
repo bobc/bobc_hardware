@@ -1,0 +1,23 @@
+Designator,Package,Quantity,Designation,Supplier,Part Number,Unit Cost,Line Cost
+"C1,C2",SM0603_Capa,2,20pF,,,0.01,0.02
+"C3,C4",SM0603_Capa,2,10uF,,,0.17,0.34
+"C5,C6,C7,C8",SM0603_Capa,4,100nF,,,0.02,0.08
+D1,Led_0603,1,LED,,,0.02,0.02
+"D3,D2",do219ab,2,DIOD,,,0.10,0.20
+L1,SM0603,1,IND,,,0.01,0.01
+M2,PCB_GREEN,1,PCB_GREEN_RMC,,,1.00,1.00
+P1,USB_MICRO_RMC,1,USBCONN,Molex,47590-0001,0.46,0.46
+"P3,P2",pin_header_2.54mm_1x20,2,CONN_20,,,0.20,0.40
+P4,pin_header_2.54mm_1x4,1,SWD,,,0.10,0.10
+Q1,SOT23GDS,1,BSS84,,,0.06,0.06
+"R2,R1",SM0603_Resistor,2,10k,,,0.01,0.02
+R3,SM0603_Resistor,1,1.5k,,,0.01,0.01
+R5,SM0603_Resistor,1,510,,,0.01,0.01
+"R6,R4",SM0603_Resistor,2,1k,,,0.01,0.02
+"SW1,SW2",SW_C&K_KMR4,2,,,,0.25,0.50
+"U1,U3",SOT23,2,MCP1703_SOT23,,,0.35,0.70
+U2,QFP48_0.5mm_7x7mm,1,STM32F103CB,,,3.74,3.74
+U4,SOT-563,1,NUF2042,,,0.25,0.25
+X1,crystal_smd_5x3.2mm,1,8MHz,,,0.70,0.70
+,,,,,,,
+Total,,,,,,,8.64

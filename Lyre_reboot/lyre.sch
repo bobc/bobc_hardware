@@ -34,14 +34,16 @@ LIBS:opendous
 LIBS:w_opto
 LIBS:STM32F429 LQFP144
 LIBS:RMC_connectors
+LIBS:w_connectors
+LIBS:FE
 LIBS:lyre-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
-Date "1 dec 2014"
+Date "4 feb 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -91,4 +93,34 @@ U 5477B9A8
 F0 "SD Card" 50
 F1 "sdcard.sch" 50
 $EndSheet
+$Sheet
+S 6800 3800 1800 1000
+U 5489EB45
+F0 "Arduino headers" 50
+F1 "Arduino_conn.sch" 50
+$EndSheet
+$Comp
+L LOGO_OSHW M1
+U 1 1 548D8C88
+P 2250 7250
+F 0 "M1" H 2250 7400 60  0000 C CNN
+F 1 "LOGO_OSHW" H 2250 7300 60  0000 C CNN
+F 2 "OSHW_logo_2" H 2250 7100 60  0000 C CNN
+F 3 "~" H 2250 7250 60  0000 C CNN
+	1    2250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOGO_OSHW M2
+U 1 1 548D9027
+P 3550 7250
+F 0 "M2" H 3550 7400 60  0000 C CNN
+F 1 "Hammond_PCB" H 3550 7300 60  0000 C CNN
+F 2 "pcb_hammond_1553bbat" H 3550 7100 60  0000 C CNN
+F 3 "~" H 3550 7250 60  0000 C CNN
+	1    3550 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 1350 0    50   ~ 0
+Snags:\n\n- clearance around holes\n- clearance for LCD board/battery compartment\n- SD card holder\n\n\ntodo:\n\n- carrier board for LCD, reduce width
 $EndSCHEMATC

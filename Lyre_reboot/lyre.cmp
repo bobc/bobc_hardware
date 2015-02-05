@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 30/11/2014 13:38:47
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16/01/2015 14:29:35
 
 BeginCmp
 TimeStamp = /54309256/543099D1;
@@ -113,23 +113,16 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477C7C4/5477C83E;
-Reference = C17;
-ValeurCmp = 100n;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
 TimeStamp = /5477C7C4/5477C8CE;
 Reference = C18;
 ValeurCmp = 100n;
-IdModule  = SM0603_Capa;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477B15B/5477B6B1;
+TimeStamp = /5477B15B/547CCF6E;
 Reference = C19;
-ValeurCmp = 1u;
+ValeurCmp = 10u;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -186,14 +179,14 @@ BeginCmp
 TimeStamp = /547795E4/5477A871;
 Reference = C27;
 ValeurCmp = 220u;
-IdModule  = SM0805;
+IdModule  = c_tant_B;
 EndCmp
 
 BeginCmp
 TimeStamp = /547795E4/5477A877;
 Reference = C28;
 ValeurCmp = 220u;
-IdModule  = SM0805;
+IdModule  = c_tant_B;
 EndCmp
 
 BeginCmp
@@ -232,6 +225,41 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /5477B15B/547CCFB8;
+Reference = C34;
+ValeurCmp = 10u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CD5ED;
+Reference = C35;
+ValeurCmp = 10p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CCFC4;
+Reference = C36;
+ValeurCmp = 4u7;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CCFBE;
+Reference = C37;
+ValeurCmp = 2u2;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CD608;
+Reference = C38;
+ValeurCmp = 10u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /5477C7C4/5477C9DC;
 Reference = D1;
 ValeurCmp = LED1;
@@ -249,7 +277,7 @@ BeginCmp
 TimeStamp = /5477B15B/54778F8B;
 Reference = D3;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = do219ab;
 EndCmp
 
 BeginCmp
@@ -262,7 +290,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5477B15B/54778EDC;
 Reference = D5;
-ValeurCmp = LED1;
+ValeurCmp = PWR;
 IdModule  = Led_0603;
 EndCmp
 
@@ -270,14 +298,28 @@ BeginCmp
 TimeStamp = /5477B15B/5477B6C5;
 Reference = D6;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = do219ab;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477B9A8/5477B9B2;
-Reference = K1;
-ValeurCmp = SDCARD;
-IdModule  = MICRO_SD_DM3D;
+TimeStamp = /5477B15B/548893D6;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = do219ab;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/548F702A;
+Reference = D8;
+ValeurCmp = CHRG;
+IdModule  = Led_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5489EB45/5489EB4D;
+Reference = J1;
+ValeurCmp = ARDUINO_HEADER;
+IdModule  = arduino_header_bare;
 EndCmp
 
 BeginCmp
@@ -302,10 +344,31 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5477B15B/547CD5D6;
+Reference = L4;
+ValeurCmp = 4.7uH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /548D8C88;
+Reference = M1;
+ValeurCmp = LOGO_OSHW;
+IdModule  = OSHW_logo_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548D9027;
+Reference = M2;
+ValeurCmp = Hammond_PCB;
+IdModule  = pcb_hammond_1553bbat;
+EndCmp
+
+BeginCmp
 TimeStamp = /54309256/547A55C2;
 Reference = P1;
 ValeurCmp = SWD;
-IdModule  = ;
+IdModule  = pin_header_2.54mm_1x4;
 EndCmp
 
 BeginCmp
@@ -347,7 +410,63 @@ BeginCmp
 TimeStamp = /5477B15B/547AF145;
 Reference = P7;
 ValeurCmp = Battery;
+IdModule  = BATTery_Molex_53047-0310;
+EndCmp
+
+BeginCmp
+TimeStamp = /54309256/5477A5E8;
+Reference = P8;
+ValeurCmp = CONN_CORTEX_DEBUG;
+IdModule  = Pin_Array_5x2_1.27mm_RMC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477BD69/5477BD71;
+Reference = P9;
+ValeurCmp = USBCONN-HOSTCAPABLE;
+IdModule  = USB_MICRO_RMC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477CAA1/5480D731;
+Reference = P10;
+ValeurCmp = LCD_2.4_INCH;
+IdModule  = pin_socket_20x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /547795E4/548A1756;
+Reference = P11;
+ValeurCmp = STEREO-AUDIO-JACK_SJ1-3524-SMT;
+IdModule  = SJ-3524-SMT_Stereo_Jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B9A8/54819FDD;
+Reference = P12;
+ValeurCmp = CONN_MICROSD;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B9A8/5481A16F;
+Reference = P13;
+ValeurCmp = CONN_SD;
+IdModule  = Memory_Card_SD_3M;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/54889349;
+Reference = P14;
+ValeurCmp = 12V_IN;
+IdModule  = JACK_PWR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477CAA1/54862A40;
+Reference = Q1;
+ValeurCmp = BSS84;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
@@ -400,9 +519,9 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /54309256/5430ADAD;
+TimeStamp = /5477B15B/548F7304;
 Reference = R8;
-ValeurCmp = NF;
+ValeurCmp = 100k;
 IdModule  = SM0603_Resistor;
 EndCmp
 
@@ -442,9 +561,9 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477C7C4/5477C830;
+TimeStamp = /5477B15B/548F7024;
 Reference = R14;
-ValeurCmp = 100;
+ValeurCmp = 470;
 IdModule  = SM0603_Resistor;
 EndCmp
 
@@ -456,10 +575,10 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477C7C4/5477C8C2;
+TimeStamp = /5477C7C4/5480D67D;
 Reference = R16;
 ValeurCmp = 100k;
-IdModule  = SM0603_Resistor;
+IdModule  = NF;
 EndCmp
 
 BeginCmp
@@ -540,24 +659,80 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /54309256/5430B249;
-Reference = SB1;
-ValeurCmp = SOLDER_BRIDGE;
-IdModule  = LED-0603;
+TimeStamp = /5477B15B/547CCF32;
+Reference = R28;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477C7C4/5477C823;
-Reference = SB2;
-ValeurCmp = SOLDER_BRIDGE;
-IdModule  = LED-0603;
+TimeStamp = /5477B15B/547CCFAD;
+Reference = R29;
+ValeurCmp = 1.87k;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477C7C4/5477C8BC;
-Reference = SB3;
-ValeurCmp = SOLDER_BRIDGE;
-IdModule  = LED-0603;
+TimeStamp = /5477B15B/547CCFEA;
+Reference = R30;
+ValeurCmp = 2.05M;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CD01F;
+Reference = R31;
+ValeurCmp = 649k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CD602;
+Reference = R32;
+ValeurCmp = 2.05M;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CD60E;
+Reference = R33;
+ValeurCmp = 649k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547E561B;
+Reference = R34;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547E562D;
+Reference = R35;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /547795E4/548B810E;
+Reference = R36;
+ValeurCmp = 0R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /547795E4/548B8125;
+Reference = R37;
+ValeurCmp = 0R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /54309256/54B83501;
+Reference = R38;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -575,6 +750,13 @@ IdModule  = SW_C&K_KMR4;
 EndCmp
 
 BeginCmp
+TimeStamp = /5477B15B/547CD1CB;
+Reference = SW3;
+ValeurCmp = SW_ON;
+IdModule  = sw_panasonic_evqp7;
+EndCmp
+
+BeginCmp
 TimeStamp = /54309256/547A3FDC;
 Reference = U1;
 ValeurCmp = STM32F407_LQFP100;
@@ -582,24 +764,17 @@ IdModule  = LQFP100_0.5mm_SOT407-1_LPC1768;
 EndCmp
 
 BeginCmp
-TimeStamp = /54309256/5477A5E8;
+TimeStamp = /5477B15B/54889365;
 Reference = U2;
-ValeurCmp = CONN_CORTEX_DEBUG;
-IdModule  = Pin_Array_5x2_1.27mm_RMC;
+ValeurCmp = Traco TSR 1-2450;
+IdModule  = Traco_TSR-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5477BD69/5477BD71;
-Reference = U3;
-ValeurCmp = USBCONN-HOSTCAPABLE;
-IdModule  = CONN_MiniAB_SMT_RMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /5477B15B/5477B667;
+TimeStamp = /5477B15B/54B83267;
 Reference = U4;
-ValeurCmp = 1117;
-IdModule  = SOT223;
+ValeurCmp = MCP1703_SOT23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -610,14 +785,28 @@ IdModule  = soic-28;
 EndCmp
 
 BeginCmp
-TimeStamp = /547795E4/5477AAB7;
-Reference = U6;
-ValeurCmp = STEREO-AUDIO-JACK;
-IdModule  = Stereo_Jack_SMT;
+TimeStamp = /5477B15B/547CCEC7;
+Reference = U7;
+ValeurCmp = LTC3553;
+IdModule  = qfn-20-LTC3553;
 EndCmp
 
 BeginCmp
-TimeStamp = /54309256/54309291;
+TimeStamp = /54309256/5480CFCD;
+Reference = U8;
+ValeurCmp = FRAM 2KB;
+IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5477B15B/547CCF5F;
+Reference = VR1;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /54309256/548DAF17;
 Reference = X1;
 ValeurCmp = 8MHz;
 IdModule  = XTAL-3.2x2.5mm;

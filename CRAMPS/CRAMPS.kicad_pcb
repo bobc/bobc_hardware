@@ -3,7 +3,7 @@
   (general
     (links 451)
     (no_connects 0)
-    (area 50.609499 34.099499 150.050501 133.540501)
+    (area 23.6982 8.84428 158.9278 149.3012)
     (thickness 1.6002)
     (drawings 308)
     (tracks 1959)
@@ -49,7 +49,7 @@
     (user_trace_width 2.286)
     (user_trace_width 2.54)
     (trace_clearance 0.2032)
-    (zone_clearance 0.254)
+    (zone_clearance 0.381)
     (zone_45_only no)
     (trace_min 0.2032)
     (segment_width 0.3048)
@@ -80,7 +80,7 @@
       (layerselection 284721153)
       (usegerberextensions true)
       (excludeedgelayer true)
-      (linewidth 0.150000)
+      (linewidth 0.152400)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -101,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers/))
+      (outputdirectory gerbers/MacroFab))
   )
 
   (net 0 "")
@@ -9652,7 +9652,7 @@
   (zone (net 9) (net_name "/Mosfet Outputs/Bed_Fused") (layer Front) (tstamp 53680782) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.381) (thermal_bridge_width 0.508))
+    (fill (mode segment) (arc_segments 16) (thermal_gap 0.381) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 51.435 50.8) (xy 60.325 50.8) (xy 66.04 45.085) (xy 78.74 45.085) (xy 79.375 45.72)
@@ -9723,7 +9723,7 @@
   (zone (net 15) (net_name "/Mosfet Outputs/Ext_Fused") (layer Front) (tstamp 53681619) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.381) (thermal_bridge_width 0.381))
+    (fill (mode segment) (arc_segments 16) (thermal_gap 0.381) (thermal_bridge_width 0.381))
     (polygon
       (pts
         (xy 51.435 132.715) (xy 51.435 90.805) (xy 80.01 90.805) (xy 80.01 97.79) (xy 79.375 98.425)
@@ -10239,7 +10239,7 @@
   (zone (net 52) (net_name DGND) (layer Back) (tstamp 5368EFDB) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.2032)
-    (fill (arc_segments 16) (thermal_gap 0.2032) (thermal_bridge_width 0.254))
+    (fill (mode segment) (arc_segments 16) (thermal_gap 0.2032) (thermal_bridge_width 0.254))
     (polygon
       (pts
         (xy 149.225 132.715) (xy 51.435 132.715) (xy 51.435 90.805) (xy 83.82 90.805) (xy 83.82 71.755)
@@ -11908,7 +11908,7 @@
   (zone (net 52) (net_name DGND) (layer Front) (tstamp 5368F069) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.2032)
-    (fill (arc_segments 16) (thermal_gap 0.2032) (thermal_bridge_width 0.254))
+    (fill (mode segment) (arc_segments 16) (thermal_gap 0.2032) (thermal_bridge_width 0.254))
     (polygon
       (pts
         (xy 149.225 132.715) (xy 60.96 132.715) (xy 60.96 105.41) (xy 62.23 104.14) (xy 67.945 104.14)

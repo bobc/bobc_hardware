@@ -1,21 +1,29 @@
 Schematic Updates:
-x Change 2N7002 value to 2N7002K to avoid confusion
-x   Manufacturer part number is correct
-x Fix inverted ESTOP LED
+  4 Stepper drivers
+  2 high-current FETs
+  2 thermistor inputs
+  Add thermocouple input
+  Remove AT power-on header
+  Remove resistive touch-screen header
+? Remove serial debug header
+  Combine all power inputs to single 12-24V rail
+  Switch to smaller fuse 
+  Add 5V regulator for BBB
+  Switch low-power FETs to part that can handle 24V
+  Charge-pump enable circuit
+? On-board DRV8825 drivers with programmable current control
+
 
 PCB Updates:
-x Label headers
-x   P301 ATX power-on
-x   JP301 Address/Write-protect
-x Move serial header to proper location
-  Cleanup board after re-running through auto-router
-x Use 1.02 mm drill for Pololu Sockets (65 mil pad / 40 mil drill)
-x Merge 1.00 and 1.02 mm drills into same size
-x Make all pin-header footprints consistent:
-x   1.651 mm pad with 1.016mm hole (.065" x .040")
-x Add P8/P9 labels to top of PCB
+  Make PCB smaller, if possible
+  Add mounting holes
+? Move BBB to top side of board (for easier assembly)
+    Makes PCB assembly easier (parts only on one side of PCB)
+    Reduces available space for connectors
+
 
 x = done
+? = Need to decide
 - = don't implement
 + = selected choice
   = ToDo

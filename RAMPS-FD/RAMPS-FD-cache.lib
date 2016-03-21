@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 09/02/2014 15:17:43
+EESchema-LIBRARY Version 2.3  Date: 19/03/2016 17:56:41
 #encoding utf-8
 #
 # +12P
@@ -749,8 +749,8 @@ ENDDEF
 #
 DEF LOGO_OSHW M 0 40 Y Y 1 F N
 F0 "M" 0 150 60 H V C CNN
-F1 "LOGO_OSHW" 0 -100 60 H V C CNN
-F2 "OSHW_logo_2" -100 50 60 H V C CNN
+F1 "LOGO_OSHW" 0 50 60 H V C CNN
+F2 "OSHW_logo_2" 0 -150 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
  OSHW_logo_2

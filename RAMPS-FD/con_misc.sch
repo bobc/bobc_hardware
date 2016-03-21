@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "9 feb 2014"
+Date "19 mar 2016"
 Rev "v2 Issue A"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -909,4 +909,6 @@ Wire Wire Line
 	6050 6050 6050 5900
 Text Notes 2900 5800 0    60   Italic 0
 Might want to \nallow other addresses
+Wire Notes Line
+	9250 3550 8450 3550
 $EndSCHEMATC

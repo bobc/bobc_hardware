@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "9 feb 2014"
+Date "19 mar 2016"
 Rev "v2 Issue A"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
@@ -213,8 +213,8 @@ F 3 "" H 4550 4850 60  0001 C CNN
 $EndComp
 Text Notes 6950 1200 0    50   ~ 0
 To CPU
-Text Notes 1550 1900 0    50   ~ 0
-From \nthermistor
+Text Notes 2200 2100 0    50   ~ 0
+From \nthermistors
 $Comp
 L R R502
 U 1 1 517BADA5
@@ -448,7 +448,7 @@ L R R1002
 U 1 1 52C441CF
 P 8600 2450
 F 0 "R1002" V 8680 2450 40  0000 C CNN
-F 1 "10k" V 8607 2451 40  0000 C CNN
+F 1 "6k8" V 8607 2451 40  0000 C CNN
 F 2 "~" V 8530 2450 30  0000 C CNN
 F 3 "~" H 8600 2450 30  0000 C CNN
 	1    8600 2450
@@ -493,7 +493,7 @@ L R R1003
 U 1 1 52C4448C
 P 9200 3100
 F 0 "R1003" V 9280 3100 40  0000 C CNN
-F 1 "1k5" V 9207 3101 40  0000 C CNN
+F 1 "1k8" V 9207 3101 40  0000 C CNN
 F 2 "~" V 9130 3100 30  0000 C CNN
 F 3 "~" H 9200 3100 30  0000 C CNN
 	1    9200 3100
@@ -524,7 +524,7 @@ Connection ~ 9600 2800
 Wire Wire Line
 	9600 4050 9600 3600
 Text Notes 9950 3000 0    60   ~ 0
-Limit at 3.1V
+Limit at about 3.1V
 Text Notes 7950 3700 0    50   ~ 0
 Vref = 1.24V
 Text GLabel 9850 2800 2    60   Input ~ 0
@@ -664,14 +664,6 @@ F 3 "" H 1750 3000 60  0000 C CNN
 	1    1750 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 950  0    60   Input ~ 0
-AREF
-Wire Wire Line
-	3750 950  3900 950 
-Text GLabel 3850 2750 0    60   Input ~ 0
-AREF
-Wire Wire Line
-	3850 2750 4000 2750
 Text GLabel 3850 4250 0    60   Input ~ 0
 AREF
 Wire Wire Line
@@ -682,4 +674,31 @@ Wire Wire Line
 	3850 5650 4000 5650
 Wire Wire Line
 	4850 3350 6400 3350
+Wire Wire Line
+	3850 2750 4000 2750
+Text GLabel 3850 2750 0    60   Input ~ 0
+AREF
+Wire Wire Line
+	3750 950  3900 950 
+Text GLabel 3750 950  0    60   Input ~ 0
+AREF
+Text GLabel 1550 1200 2    60   Output ~ 0
+AREF
+Wire Wire Line
+	1300 1050 1300 1200
+Wire Wire Line
+	1300 1200 1550 1200
+Wire Wire Line
+	1300 950  1300 1050
+$Comp
+L +V_LOGIC #PWR?
+U 1 1 537E81B8
+P 1300 950
+F 0 "#PWR?" H 1300 920 30  0001 C CNN
+F 1 "+V_LOGIC" H 1300 1050 30  0000 C CNN
+F 2 "" H 1300 950 60  0001 C CNN
+F 3 "" H 1300 950 60  0001 C CNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/02/2014 23:52:26
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 03/03/2014 13:01:50
 
 BeginCmp
 TimeStamp = /5239FA54/51E4F640;
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /5239FA54/51B65AB0;
 Reference = D301;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
@@ -270,56 +270,56 @@ BeginCmp
 TimeStamp = /52C42F11/52C43922;
 Reference = D1001;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C438B2;
 Reference = D1002;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C56608;
 Reference = D1003;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C565F8;
 Reference = D1004;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C56611;
 Reference = D1005;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C5661A;
 Reference = D1006;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C565E9;
 Reference = D1007;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C42F11/52C565F2;
 Reference = D1008;
 ValeurCmp = 1N4148;
-IdModule  = sod123;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
@@ -507,21 +507,21 @@ EndCmp
 BeginCmp
 TimeStamp = /50FC2853/50FC2A06;
 Reference = P204;
-ValeurCmp = X-MOT;
+ValeurCmp = X;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/50FC2B09;
 Reference = P205;
-ValeurCmp = Y-MOT;
+ValeurCmp = Y;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FC2853/50FC2B7B;
 Reference = P206;
-ValeurCmp = Z-MOT;
+ValeurCmp = Z;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
@@ -549,7 +549,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51B4E84F/51B4E8D0;
 Reference = P210;
-ValeurCmp = E2-MOT;
+ValeurCmp = E2;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
@@ -563,7 +563,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51B4E84F/51B4E8DE;
 Reference = P212;
-ValeurCmp = E1-MOT;
+ValeurCmp = E1;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 
@@ -598,7 +598,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51B4E84F/51B4E8DD;
 Reference = P217;
-ValeurCmp = E0-MOT;
+ValeurCmp = E0;
 IdModule  = CONN_KK_2.54_4W;
 EndCmp
 

@@ -30,13 +30,13 @@ Several other improvements, e.g. addition of EEPROM.
   - V1 has serious problem of heaters turning on if power to Due is lost while 12V power is applied.
  
 
-RepRap Control Panel
+Control Panel
 --------------
 
   A Control Panel for RepRap printers, based on Makerbot Control Panel.
 
-LPC1343 CPU Module
+ 	MicropendousX-1343
 -------------------
 
-  A Mini Module for NXP LPC1343 based on MicropendousX-1343.
+  A Mini CPU Module for NXP LPC1343 based on MicropendousX-1343.
 

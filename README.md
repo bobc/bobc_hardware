@@ -33,10 +33,10 @@ Several other improvements, e.g. addition of EEPROM.
 Control Panel
 --------------
 
-  A Control Panel for RepRap printers, based on Makerbot Control Panel.
+ A Control Panel for RepRap printers, based on Makerbot Control Panel.
 
- 	MicropendousX-1343
+MicropendousX-1343
 -------------------
 
-  A Mini CPU Module for NXP LPC1343 based on MicropendousX-1343.
+ A Mini CPU Module for NXP LPC1343 based on MicropendousX-1343.
 

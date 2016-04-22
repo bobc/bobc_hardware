@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
 Title "RAMPS-FD (RAMPS for Arduino Due)"
-Date "19 mar 2016"
-Rev "v2 Issue A"
+Date "22 apr 2016"
+Rev "v2.1"
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "GPL v3"
@@ -664,41 +664,50 @@ F 3 "" H 1750 3000 60  0000 C CNN
 	1    1750 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 4250 0    60   Input ~ 0
-AREF
-Wire Wire Line
-	3850 4250 4000 4250
-Text GLabel 3850 5650 0    60   Input ~ 0
-AREF
-Wire Wire Line
-	3850 5650 4000 5650
 Wire Wire Line
 	4850 3350 6400 3350
-Wire Wire Line
-	3850 2750 4000 2750
-Text GLabel 3850 2750 0    60   Input ~ 0
-AREF
-Wire Wire Line
-	3750 950  3900 950 
-Text GLabel 3750 950  0    60   Input ~ 0
-AREF
-Text GLabel 1550 1200 2    60   Output ~ 0
-AREF
-Wire Wire Line
-	1300 1050 1300 1200
-Wire Wire Line
-	1300 1200 1550 1200
-Wire Wire Line
-	1300 950  1300 1050
 $Comp
-L +V_LOGIC #PWR?
+L +V_LOGIC #PWR0121
 U 1 1 537E81B8
-P 1300 950
-F 0 "#PWR?" H 1300 920 30  0001 C CNN
-F 1 "+V_LOGIC" H 1300 1050 30  0000 C CNN
-F 2 "" H 1300 950 60  0001 C CNN
-F 3 "" H 1300 950 60  0001 C CNN
-	1    1300 950 
+P 3900 950
+F 0 "#PWR0121" H 3900 920 30  0001 C CNN
+F 1 "+V_LOGIC" H 3900 1050 30  0000 C CNN
+F 2 "" H 3900 950 60  0001 C CNN
+F 3 "" H 3900 950 60  0001 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +V_LOGIC #PWR0122
+U 1 1 571A56FB
+P 4000 2750
+F 0 "#PWR0122" H 4000 2720 30  0001 C CNN
+F 1 "+V_LOGIC" H 4000 2850 30  0000 C CNN
+F 2 "" H 4000 2750 60  0001 C CNN
+F 3 "" H 4000 2750 60  0001 C CNN
+	1    4000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +V_LOGIC #PWR0123
+U 1 1 571A5701
+P 4000 4250
+F 0 "#PWR0123" H 4000 4220 30  0001 C CNN
+F 1 "+V_LOGIC" H 4000 4350 30  0000 C CNN
+F 2 "" H 4000 4250 60  0001 C CNN
+F 3 "" H 4000 4250 60  0001 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +V_LOGIC #PWR0124
+U 1 1 571A5707
+P 4000 5650
+F 0 "#PWR0124" H 4000 5620 30  0001 C CNN
+F 1 "+V_LOGIC" H 4000 5750 30  0000 C CNN
+F 2 "" H 4000 5650 60  0001 C CNN
+F 3 "" H 4000 5650 60  0001 C CNN
+	1    4000 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

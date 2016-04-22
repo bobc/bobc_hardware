@@ -6,6 +6,10 @@ RAMPS-FD
  
 RAMPS-FD v2.1 design is frozen and will be updated for bug fixes only. Development of a new RAMPS board will take place at https://github.com/bobc/RAMPS-NG
 
+RAMPS-FD is licensed with GPL v3.
+
+Thanks go to Cefiar for help with this project.
+
 History:
 
 #### V2.1  -  Fix problem with unconnected analog reference.

@@ -4,7 +4,7 @@ Hardware projects
 RAMPS-FD
 -------- 
  
-RAMPS-FD v2.1 design is frozen and will be updated for bug fixes only. Development of a new RAMPS board will take place at https://github.com/bobc/RAMPS-NG
+RAMPS-FD v2.1 design is frozen and will be updated for minor changes only. 
 
 RAMPS-FD is licensed with GPL v3.
 

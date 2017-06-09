@@ -1,11 +1,11 @@
-#LPC Programming tools
+# LPC Programming tools
 
 These are programming tools for NXP LPC USB In-System Programming.
 
 See NXP application note AN10986 <http://www.nxp.com/documents/application_note/AN10986.pdf>
 and software download <http://www.nxp.com/documents/application_note/AN10986_-_USB_In-system_programming_with_the_LPC1300.zip>
 
-##Linux
+## Linux
 
 LinuxNXPISP.sh requires binary file to be padded to Flash size, use padto \<binfile\> 32 where 32 is Flash size in KiB.
 
@@ -16,7 +16,7 @@ LinuxNXPISP.sh requires binary file to be padded to Flash size, use padto \<binf
 5. Run LinuxNXPISP.sh myapp.bin
 6. Reset the LPC1343 board
 
-##Windows
+## Windows
 
 Windows works with standard explorer operations
 

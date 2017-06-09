@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rmc_modules)(type KiCad)(uri C:\git_new\kicad_common\rmc_modules.pretty)(options "")(descr ""))
+)

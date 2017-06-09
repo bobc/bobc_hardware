@@ -1,0 +1,379 @@
+Cmp-Mod V01 Created by PcbNew   date = 31/08/2016 20:37:46
+
+BeginCmp
+TimeStamp = 5414D56F
+Path = /5415B9B5/5415F09D
+Reference = DS1;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A1F4
+Path = /541732A3/5415F09D
+Reference = DS17;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A1CA
+Path = /541732A3/5415F0B6
+Reference = DS20;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A1A0
+Path = /541732A3/5415F0B0
+Reference = DS19;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A176
+Path = /541732A3/5415F0AA
+Reference = DS18;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A14C
+Path = /54173271/5415F09D
+Reference = DS13;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A122
+Path = /54173271/5415F0B6
+Reference = DS16;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A0F8
+Path = /54173271/5415F0B0
+Reference = DS15;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A0CE
+Path = /54173271/5415F0AA
+Reference = DS14;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A0A4
+Path = /5417323F/5415F09D
+Reference = DS9;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A07A
+Path = /5417323F/5415F0B6
+Reference = DS12;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A050
+Path = /5417323F/5415F0B0
+Reference = DS11;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 5415A026
+Path = /5417323F/5415F0AA
+Reference = DS10;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159FFC
+Path = /541731CF/5415F0B6
+Reference = DS8;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159FD2
+Path = /541731CF/5415F0B0
+Reference = DS7;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159FA8
+Path = /541731CF/5415F0AA
+Reference = DS6;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159C61
+Path = /541731CF/5415F09D
+Reference = DS5;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159C37
+Path = /5415B9B5/5415F0B6
+Reference = DS4;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159C0D
+Path = /5415B9B5/5415F0B0
+Reference = DS3;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54159BE3
+Path = /5415B9B5/5415F0AA
+Reference = DS2;
+ValeurCmp = NFD-5621E;
+IdModule  = NFD-5621;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B6A
+Path = /5415B9B5/5415E1D6
+Reference = R1;
+ValeurCmp = 28k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B77
+Path = /5415B9B5/5415E272
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B84
+Path = /5415B9B5/5415E290
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B4D
+Path = /5415C653
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = pin_socket_5;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B5D
+Path = /5415C67E
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = pin_socket_5;
+EndCmp
+
+BeginCmp
+TimeStamp = 54160B3D
+Path = /541731CF/5415B9F8
+Reference = U2;
+ValeurCmp = MAX7219;
+IdModule  = DIP-24__300;
+EndCmp
+
+BeginCmp
+TimeStamp = 5417328D
+Path = /541731CF/5415E1D6
+Reference = R2;
+ValeurCmp = 28k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5417329A
+Path = /541731CF/5415E272
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732A7
+Path = /541731CF/5415E290
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732B4
+Path = /5417323F/5415E1D6
+Reference = R3;
+ValeurCmp = 28k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732C1
+Path = /5417323F/5415E272
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732CE
+Path = /5417323F/5415E290
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732DB
+Path = /54173271/5415E1D6
+Reference = R4;
+ValeurCmp = 28k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732E8
+Path = /54173271/5415E272
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 541732F5
+Path = /54173271/5415E290
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 54173302
+Path = /541732A3/5415E1D6
+Reference = R5;
+ValeurCmp = 28k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5417330F
+Path = /541732A3/5415E272
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5417331C
+Path = /541732A3/5415E290
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 54173340
+Path = /5415B9B5/5415B9F8
+Reference = U1;
+ValeurCmp = MAX7219;
+IdModule  = DIP-24__300;
+EndCmp
+
+BeginCmp
+TimeStamp = 54173364
+Path = /5417323F/5415B9F8
+Reference = U3;
+ValeurCmp = MAX7219;
+IdModule  = DIP-24__300;
+EndCmp
+
+BeginCmp
+TimeStamp = 54173388
+Path = /54173271/5415B9F8
+Reference = U4;
+ValeurCmp = MAX7219;
+IdModule  = DIP-24__300;
+EndCmp
+
+BeginCmp
+TimeStamp = 541733AC
+Path = /541732A3/5415B9F8
+Reference = U5;
+ValeurCmp = MAX7219;
+IdModule  = DIP-24__300;
+EndCmp
+
+BeginCmp
+TimeStamp = 541A8C08
+Path = /5419E761
+Reference = M1;
+ValeurCmp = PCB_GREEN_RMC;
+IdModule  = PCB_GREEN;
+EndCmp
+
+BeginCmp
+TimeStamp = 541A8C0E
+Path = /5419E77A
+Reference = H1;
+ValeurCmp = HOLE_RMC;
+IdModule  = HOLE_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 541A8C14
+Path = /5419E791
+Reference = H2;
+ValeurCmp = HOLE_RMC;
+IdModule  = HOLE_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 541A8C1A
+Path = /5419E797
+Reference = H3;
+ValeurCmp = HOLE_RMC;
+IdModule  = HOLE_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 541A8C20
+Path = /5419E79D
+Reference = H4;
+ValeurCmp = HOLE_RMC;
+IdModule  = HOLE_M3;
+EndCmp
+
+EndListe
